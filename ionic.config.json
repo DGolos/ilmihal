@@ -1,0 +1,7 @@
+{
+  "name": "ilmihal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
