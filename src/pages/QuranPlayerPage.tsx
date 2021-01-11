@@ -1,5 +1,5 @@
 import { RouteComponentProps } from "react-router";
-import {IonAvatar, IonBackButton, IonButton, IonButtons, IonCard, IonCol, IonContent, IonFooter, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonNote, IonPage, IonRange, IonRow, IonToolbar, useIonViewWillEnter} from '@ionic/react';
+import {IonAvatar, IonBackButton, IonBadge, IonButton, IonButtons, IonCard, IonCol, IonContent, IonFooter, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonNote, IonPage, IonRange, IonRow, IonToolbar, useIonViewWillEnter} from '@ionic/react';
 import React, { useEffect, useRef, useState } from "react";
 import './QuranPlayerPage.css';
 import { pause, play } from "ionicons/icons";
@@ -129,6 +129,9 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
                   </IonCol>
                 </IonRow>
               </IonGrid>
+              <IonBadge slot="top">
+                4
+              </IonBadge>
             </IonItem>
           </div>
         </IonContent>
