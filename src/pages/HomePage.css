@@ -1,5 +1,5 @@
 .bg-image{
-    --background: url(./../assets/images/5.jpg) no-repeat;
-    width:100vw;
+    --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+    
 }
 
