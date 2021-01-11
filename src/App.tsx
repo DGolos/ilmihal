@@ -11,9 +11,9 @@ import {
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
-import Tab1 from './pages/Tab1';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
+import HomePage from './pages/HomePage';
+import MainCategoryPage from './pages/MainCategoryPage';
+import OptionsPage from './pages/OptionsPage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -33,29 +33,37 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import { translationService } from './services/TranslationService';
+import { QuranMainPage } from './pages/QuranMainPage';
+import { QuranReaderPage } from './pages/QuranReaderPage';
+import { QuranPlayerPage } from './pages/QuranPlayerPage';
 
 const App: React.FC = () => (
+  
   <IonApp>
-    <IonReactRouter>
+     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route path="/tab1" component={Tab1} exact={true} />
-          <Route path="/tab2" component={Tab2} exact={true} />
-          <Route path="/tab3" component={Tab3} />
-          <Route path="/" render={() => <Redirect to="/tab1" />} exact={true} />
+          <Route path="/HomePage" component={HomePage} exact={true} />
+          <Route path="/MainCategoryPage" component={MainCategoryPage} exact={true} />
+          <Route path="/OptionsPage" component={OptionsPage} />
+          <Route path="/" render={() => <Redirect to="/HomePage" />} exact={true} />
+          <Route path="/Quran/:type" component={QuranMainPage} />
+          <Route path="/QuranReader/:id" component={QuranReaderPage} />
+          <Route path="/QuranPlayer/:id" component={QuranPlayerPage} />
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
+          <IonTabButton tab="HomePage" href="/HomePage">
             <IonIcon icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
+            <IonLabel>{translationService.getLabel(1)}</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
+          <IonTabButton tab="MainCategoryPage" href="/MainCategoryPage">
             <IonIcon icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
+            <IonLabel>{translationService.getLabel(2)}</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
+          <IonTabButton tab="OptionsPage" href="/OptionsPage">
             <IonIcon icon={square} />
-            <IonLabel>Tab 3</IonLabel>
+            <IonLabel>{translationService.getLabel(3)}</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "surahId":1,
+        "arabic":"بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "translation":"U ime Allaha,Milostivog,Samilosnog",
+        "transliteration":"Bismillahi rahmani rahim"
+    },
+    {
+        "id":2,
+        "surahId":1,
+        "arabic":"ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِين",
+        "translation":"Tebe,Allaha,Gospodara svjetova,hvalimo",
+        "transliteration":"Elhamdulollahi rabbi alemin"
+    },
+    {
+        "id":3,
+        "surahId":1,
+        "arabic":"ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "translation":"Milostivog,Samilosnog",
+        "transliteration":"Er rahmani rahim"
+    },
+    {
+        "id":4,
+        "surahId":1,
+        "arabic":"مَٰلِكِ يَوْمِ ٱلدِّينِ",
+        "translation":"Vladara Dana sudnjeg",
+        "transliteration":"Maliki jevimid din"
+    },
+    {
+        "id":5,
+        "surahId":1,
+        "arabic":"إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "translation":"Tebi se klanjamo i od tebe pomoc trazimo",
+        "transliteration":"Ijjake nabudu ve ijjake nestain"
+    },
+    {
+        "id":6,
+        "surahId":1,
+        "arabic":"ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+        "translation":"Uputi nas na Pravi put",
+        "transliteration":"Ihdinas siratal mustakim"
+    },
+    {
+        "id":7,
+        "surahId":1,
+        "arabic":"صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+        "translation":"na Put onih kojima si milost Svoju darovao,a ne onih koji su protiv sebe srdzbu izazvali,niti onih koji su zalutali",
+        "transliteration":"Siratal ezine en amte alejhim,gajril magdubi alejhim ve leddallin"
+    }
+]

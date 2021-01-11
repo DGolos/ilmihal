@@ -1,0 +1,276 @@
+[
+    {
+        "id":1,
+        "name":"El Fatiha",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.r\nFatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.r\nMolitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":7,
+        "revelationCity":"Mekka",
+        "color":"brown"
+    },
+    {
+        "id":18,
+        "name":"El Kehf",
+        "arabic":"الكهف",
+        "description":"",
+        "numberOfAyah":110,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+    },
+    {
+        "id":31,
+        "name":"Lukman",
+        "arabic":"لقمان",
+        "description":"",
+        "numberOfAyah":34,
+        "revelationCity":"Mekka",
+        "color":"oker"
+    },
+    {
+        "id":32,
+        "name":"Es Sedžda",
+        "arabic":"السجدة",
+        "description":"",
+        "numberOfAyah":30,
+        "revelationCity":"Mekka",
+        "color":"brown"
+    },
+    {
+        "id":36,
+        "name":"Jasin",
+        "arabic":"يس",
+        "description":"",
+        "numberOfAyah":83,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+    },
+    {
+        "id":67,
+        "name":"El Mulk",
+        "arabic":"الملك",
+        "description":"",
+        "numberOfAyah":30,
+        "revelationCity":"Mekka",
+        "color":"oker"
+    },
+    {
+        "id":93,
+        "name":"Ed Duha",
+        "arabic":"الضحى",
+        "description":"",
+        "numberOfAyah":11,
+        "revelationCity":"Mekka",
+        "color":"brown"
+    },
+    {
+        "id":94,
+        "name":"Eš Šarh",
+        "arabic":"الشرح",
+        "description":"",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+    },
+    {
+        "id":95,
+        "name":"Et Tin",
+        "arabic":"التين",
+        "description":"",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"oker"
+        
+    },
+    {
+        "id":96,
+        "name":"El Alak",
+        "arabic":"العلق",
+        "description":"",
+        "numberOfAyah":19,
+        "revelationCity":"Mekka",
+        "color":"brown"
+        
+    },
+    {
+        "id":97,
+        "name":"El Kadr",
+        "arabic":"القدر",
+        "description":"",
+        "numberOfAyah":5,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+        
+    },
+    {
+        "id":98,
+        "name":"El Bajjinah",
+        "arabic":"البينة",
+        "description":"",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"oker"
+        
+    },
+    {
+        "id":99,
+        "name":"El Zilzal",
+        "arabic":"الزلزلة",
+        "description":"",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"brown"
+        
+    },
+    {
+        "id":100,
+        "name":"El Adijat",
+        "arabic":"العاديات",
+        "description":"",
+        "numberOfAyah":11,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+        
+    },
+    {
+        "id":101,
+        "name":"El Qari'ah",
+        "arabic":"القارعة",
+        "description":"",
+        "numberOfAyah":11,
+        "revelationCity":"Mekka",
+        "color":"oker"
+        
+    },
+    {
+        "id":102,
+        "name":"Et Tekasur",
+        "arabic":"التكاثر",
+        "description":"",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"brown"
+        
+    },
+    {
+        "id":103,
+        "name":"El Asr",
+        "arabic":"العصر",
+        "description":"",
+        "numberOfAyah":3,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+        
+    },
+    {
+        "id":104,
+        "name":"El Humeze",
+        "arabic":"الهمزة",
+        "description":"",
+        "numberOfAyah":9,
+        "revelationCity":"Mekka",
+        "color":"oker"
+        
+    },
+    {
+        "id":105,
+        "name":"El Fil",
+        "arabic":"الفيل",
+        "description":"",
+        "numberOfAyah":5,
+        "revelationCity":"Mekka",
+        "color":"brown"
+        
+    },
+    {
+        "id":106,
+        "name":"Kurejši",
+        "arabic":"قريش",
+        "description":"",
+        "numberOfAyah":4,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+        
+    },
+    {
+        "id":107,
+        "name":"El Maun",
+        "arabic":"الماعون",
+        "description":"",
+        "numberOfAyah":7,
+        "revelationCity":"Mekka",
+        "color":"oker"
+        
+    },
+    {
+        "id":108,
+        "name":"El Kevser",
+        "arabic":"الكوثر",
+        "description":"",
+        "numberOfAyah":3,
+        "revelationCity":"Mekka",
+        "color":"brown"
+        
+    },
+    {
+        "id":109,
+        "name":"El Kafirun",
+        "arabic":"الكافرون",
+        "description":"",
+        "numberOfAyah":6,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+        
+    },
+    {
+        "id":110,
+        "name":"En Nasr",
+        "arabic":"النصر",
+        "description":"",
+        "numberOfAyah":3,
+        "revelationCity":"Mekka",
+        "color":"oker"
+        
+    },
+    {
+        "id":111,
+        "name":"El Masad",
+        "arabic":"المسد",
+        "description":"",
+        "numberOfAyah":5,
+        "revelationCity":"Mekka",
+        "color":"brown"
+        
+    },
+    {
+        "id":112,
+        "name":"El Ihlas",
+        "arabic":"الإخلاص",
+        "description":"",
+        "numberOfAyah":4,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+        
+    },
+    {
+        "id":113,
+        "name":"El Felek",
+        "arabic":"الفلق",
+        "description":"",
+        "numberOfAyah":5,
+        "revelationCity":"Mekka",
+        "color":"oker"
+        
+    },
+    {
+        "id":114,
+        "name":"En Nas",
+        "arabic":"الناس",
+        "description":"",
+        "numberOfAyah":6,
+        "revelationCity":"Mekka",
+        "color":"brown"
+        
+    }
+
+   
+]
