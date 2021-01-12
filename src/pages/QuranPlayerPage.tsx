@@ -51,32 +51,26 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
 
     }
 
-    const trimString=(text:string,length:number)=>{
-        return text.length>length?text.substr(0,length)+'...':text;
-    }
-
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
-          <IonToolbar>
+          <IonToolbar className="player">
             <IonButtons slot="start">
               <IonBackButton color="light" defaultHref="/MainCategoryPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
         <IonContent color="burgundy">
-          <IonRow>
+          <IonRow style={{ paddingLeft: '10px', paddingBottom: '6px' }}>
             <IonCol size="4">
-            <IonButton color="oker" shape="round" expand="full">
-                <IonLabel color="light" className="ion-text-center">
-                  Ucaci
+              <IonButton color="oker" shape="round" expand="full">
+                <IonLabel color="light" className="ion-text-center button">
+                  Učači
                 </IonLabel>
               </IonButton>
             </IonCol>
           </IonRow>
 
-
-       
           <IonCard className="surah" color="burgundy">
             <div className="overlay">
               <img className="mask" src="./assets/images/quran-page.jpg" />
@@ -93,65 +87,58 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
               </h6>
             </div>
           </IonCard>
-          <div>
-            <IonItem color="light" className="surah">
-              <ShowMore lines={5} more="Više" less="Manje" anchorClass="">
-                {currentSurah?.description}
-              </ShowMore>
-            </IonItem>
+          <div className="note" color="burgundy">
+            <ShowMore lines={3} more="Više" less="Manje" anchorClass="">
+              {currentSurah?.description}
+            </ShowMore>
           </div>
           <div className="ion-padding">
             <IonItem className="reciter">
-              <IonGrid className="list-grid ">
-                <IonRow className="ion-no-padding">
-                  <IonCol size="3">
+              <IonGrid>
+                <IonRow className="ion-no-padding" style={{ marginTop: '0px', marginBottom: '0px' }}>
+                  <IonCol size="3" className="ion-no-padding">
                     <IonAvatar>
-                      <img
-                        src="/assets/images/Mishary.jpg"
-                        
-                      />
+                      <img src="/assets/images/Mishary.jpg" />
                     </IonAvatar>
                   </IonCol>
-                  <IonCol size="9">
+                  <IonCol size="9" className="ion-no-padding">
                     <IonRow>
-                      <h6 className="list-item-header">
-                        <IonLabel>
-                            Mishary Al Alfasy
-                        </IonLabel>
+                      <h6 >
+                        <IonLabel>Mishary Al Alfasy</IonLabel>
                       </h6>
                     </IonRow>
 
                     <IonRow>
-                      <IonNote className="list-item-note">
+                      <IonNote className="reciter">
                         On je je sejh i Kuvajta
                       </IonNote>
                     </IonRow>
                   </IonCol>
                 </IonRow>
               </IonGrid>
-              <IonBadge slot="top">
-                4
-              </IonBadge>
             </IonItem>
           </div>
         </IonContent>
         <IonFooter className="ion-no-border">
-          <IonToolbar color="burgundy" className="ion-text-center">
+          <IonToolbar color="burgundy" className="ion-text-center player">
             <IonRow>
-              <IonCol size="12">
+              <IonCol size="2">
+                <IonLabel className="progress">
+                  0:00
+                </IonLabel>
+              </IonCol>
+              <IonCol size="8">
                 <IonRange
                   min={0}
                   max={200}
                   color="oker"
-                  className="ion-padding"
-                >
-                  <IonLabel className="progress" slot="start">
-                    0:00
-                  </IonLabel>
-                  <IonLabel className="progress" slot="end">
-                    {duration}
-                  </IonLabel>
-                </IonRange>
+                  className="ion-no-padding"
+                ></IonRange>
+              </IonCol>
+              <IonCol size="2">
+                <IonLabel className="progress">
+                  0:00
+                </IonLabel>
               </IonCol>
             </IonRow>
             <IonRow>

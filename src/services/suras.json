@@ -3,7 +3,8 @@
         "id":1,
         "name":"El Fatiha",
         "arabic":"الفاتحة",
-        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.r\nFatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.r\nMolitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":7,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -13,6 +14,7 @@
         "name":"El Kehf",
         "arabic":"الكهف",
         "description":"",
+        "note":"",
         "numberOfAyah":110,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -22,6 +24,7 @@
         "name":"Lukman",
         "arabic":"لقمان",
         "description":"",
+        "note":"",
         "numberOfAyah":34,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -31,6 +34,7 @@
         "name":"Es Sedžda",
         "arabic":"السجدة",
         "description":"",
+        "note":"",
         "numberOfAyah":30,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -40,6 +44,7 @@
         "name":"Jasin",
         "arabic":"يس",
         "description":"",
+        "note":"",
         "numberOfAyah":83,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -49,6 +54,7 @@
         "name":"El Mulk",
         "arabic":"الملك",
         "description":"",
+        "note":"",
         "numberOfAyah":30,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -58,6 +64,7 @@
         "name":"Ed Duha",
         "arabic":"الضحى",
         "description":"",
+        "note":"",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -67,6 +74,7 @@
         "name":"Eš Šarh",
         "arabic":"الشرح",
         "description":"",
+        "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -76,6 +84,7 @@
         "name":"Et Tin",
         "arabic":"التين",
         "description":"",
+        "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -86,6 +95,7 @@
         "name":"El Alak",
         "arabic":"العلق",
         "description":"",
+        "note":"",
         "numberOfAyah":19,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -96,6 +106,7 @@
         "name":"El Kadr",
         "arabic":"القدر",
         "description":"",
+        "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -106,6 +117,7 @@
         "name":"El Bajjinah",
         "arabic":"البينة",
         "description":"",
+        "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -116,6 +128,7 @@
         "name":"El Zilzal",
         "arabic":"الزلزلة",
         "description":"",
+        "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -126,6 +139,7 @@
         "name":"El Adijat",
         "arabic":"العاديات",
         "description":"",
+        "note":"",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -136,6 +150,7 @@
         "name":"El Qari'ah",
         "arabic":"القارعة",
         "description":"",
+        "note":"",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -146,6 +161,7 @@
         "name":"Et Tekasur",
         "arabic":"التكاثر",
         "description":"",
+        "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -156,6 +172,7 @@
         "name":"El Asr",
         "arabic":"العصر",
         "description":"",
+        "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -166,6 +183,7 @@
         "name":"El Humeze",
         "arabic":"الهمزة",
         "description":"",
+        "note":"",
         "numberOfAyah":9,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -176,6 +194,7 @@
         "name":"El Fil",
         "arabic":"الفيل",
         "description":"",
+        "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -186,6 +205,7 @@
         "name":"Kurejši",
         "arabic":"قريش",
         "description":"",
+        "note":"",
         "numberOfAyah":4,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -196,6 +216,7 @@
         "name":"El Maun",
         "arabic":"الماعون",
         "description":"",
+        "note":"",
         "numberOfAyah":7,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -206,6 +227,7 @@
         "name":"El Kevser",
         "arabic":"الكوثر",
         "description":"",
+        "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -216,6 +238,7 @@
         "name":"El Kafirun",
         "arabic":"الكافرون",
         "description":"",
+        "note":"",
         "numberOfAyah":6,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -226,6 +249,7 @@
         "name":"En Nasr",
         "arabic":"النصر",
         "description":"",
+        "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -236,6 +260,7 @@
         "name":"El Masad",
         "arabic":"المسد",
         "description":"",
+        "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
         "color":"brown"
@@ -246,6 +271,7 @@
         "name":"El Ihlas",
         "arabic":"الإخلاص",
         "description":"",
+        "note":"",
         "numberOfAyah":4,
         "revelationCity":"Mekka",
         "color":"burgundy"
@@ -256,6 +282,7 @@
         "name":"El Felek",
         "arabic":"الفلق",
         "description":"",
+        "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
         "color":"oker"
@@ -266,6 +293,7 @@
         "name":"En Nas",
         "arabic":"الناس",
         "description":"",
+        "note":"",
         "numberOfAyah":6,
         "revelationCity":"Mekka",
         "color":"brown"

@@ -1,6 +1,7 @@
-ion-toolbar{
+ion-toolbar.player{
     --background: var(--ion-color-burgundy);
     background: var(--ion-color-burgundy);
+    padding: 0px;
     
 }
 
@@ -11,7 +12,14 @@ ion-card.surah{
     position:relative;
     margin-left:15px;
     margin-right:15px;
-    
+    margin-top:0px;
+}
+
+div.note{
+  font-family: Yu Gothic UI Light;
+  margin-left:15px;
+  margin-right:15px;
+  font-size:16px;
 }
 
 div.overlay{
@@ -33,32 +41,31 @@ img.mask{
   
 }
 
-ion-item.surah{
-    --border-radius: 14px;
-    
-    margin-left:15px;
-    margin-right:15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 ion-item.reciter{
   --background: rgba(255,255,255,.1);
-      padding: 0px !important;
-      margin: 14px 0;
+      padding: 0;
+      margin: 20px 0;
       --border-radius: 14px;
       color: #FFFFFF;
       
 }
 
+ion-note.reciter{
+    font-size:16px;
+    font-family: Yu Gothic UI Light;
+}
+
 ion-avatar.play{
     background-color: var(--ion-color-oker)!important;
     margin: auto;
+    margin-top:0px;
     width: 60px;
     height: 60px;
     --border-radius: 50%;
+    margin-bottom:5px;
   }
 
-h6.note{
+ h6.note{
   font-weight: 500;
   font-size: 36px;
   color:#FFFFFF;
@@ -77,37 +84,15 @@ h6.arabic{
 
   ion-label.progress{
     font-size:16px;
+    font-family: Yu Gothic UI Light;
   }
 
-  .list-grid {
-    height: 100%;
-    width: 100%;
+ion-label.button{
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
 }
 
-h6.list-item-header {
-    font-weight: 500;
-    color: var(--ion-color-light);
-    white-space: nowrap;
-    overflow:hidden;
-    text-overflow: ellipsis;
-    font-size:18px;
-    width: calc(100% - 20px); 
-    
-}
-
-.list-item-icon {
-    color: var(--ion-color-light);
-    padding-right: 6px;
-    padding-bottom: 6px;  
-}
-
-.list-item-note {
-    font-size: 14px;
-    color: var(--ion-color-light);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: calc(100% - 20px); 
-    vertical-align: top;
-  
+ion-button.menu{
+  --border-radius: 14px;
 }
