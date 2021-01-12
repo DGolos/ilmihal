@@ -1,8 +1,9 @@
-import React from 'react';
-import { IonAvatar, IonCard, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonNote, IonPage, IonRow, } from '@ionic/react';
+import React, { useState } from 'react';
+import { IonAvatar, IonButton, IonCard, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, } from '@ionic/react';
 import './HomePage.css';
 
 const HomePage: React.FC = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <IonPage>
       <IonContent className="bg-image">
@@ -49,6 +50,7 @@ const HomePage: React.FC = () => {
             </IonCol>
           </IonRow>
         </IonGrid>
+        
       </IonContent>
     </IonPage>
   );

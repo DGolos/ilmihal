@@ -1,17 +1,22 @@
-import { IonicStorageModule } from '@ionic/storage';
+import { Plugins } from '@capacitor/core';
+const { Storage } = Plugins;
 
-export class StorageService{
-    service:Storage=new Storage();
+export type StorageKeys =
+    "languageData" | "userData" | "reciterdata";
 
-    constructor(){
-        this.service=new Storage();
+export const storageService = {
+    invalidate: async () => {
+        await Storage.clear();
+    },
+    set: async (key: StorageKeys, value: any) => {
+        if (typeof value === "string") await Storage.set({ key, value });
+        else await Storage.set({ key, value: JSON.stringify(value) });
+    },
+    remove: async (key: StorageKeys) => {
+        await Storage.remove({ key });
+    },
+    get: async (key: StorageKeys) => {
+        const value = (await Storage.get({ key })).value;
+        return value ?? null;
     }
-
-    getItem(key:string){
-        this.service.get(key).then((val: any) => {
-            return val;
-          });
-    }
-}
-
-export const storageService = new StorageService();
+};
