@@ -16,10 +16,10 @@ ion-card.surah{
 }
 
 div.note{
-  font-family: Yu Gothic UI Light;
+  font-family: Open Sans Regular;
   margin-left:15px;
   margin-right:15px;
-  font-size:16px;
+  font-size:14px;
 }
 
 div.overlay{
@@ -50,9 +50,9 @@ ion-item.reciter{
       
 }
 
-ion-note.reciter{
+h4.reciter{
     font-size:16px;
-    font-family: Yu Gothic UI Light;
+    font-family: Open Sans Regular;
 }
 
 ion-avatar.play{
@@ -63,6 +63,7 @@ ion-avatar.play{
     height: 60px;
     --border-radius: 50%;
     margin-bottom:5px;
+    text-align: center;
   }
 
  h6.note{
@@ -72,19 +73,25 @@ ion-avatar.play{
   
 }
 
+h6.reciter{
+    font-size:24px;
+    font-family: Open Sans Bold;
+}
+
 h6.arabic{
     font-weight: 500;
     font-size: 48px;
     color:#FFFFFF;
   }
 
-  ion-icon{
+  ion-icon.player{
     margin-bottom: 5px;
   }
 
   ion-label.progress{
     font-size:16px;
-    font-family: Yu Gothic UI Light;
+    font-family: Open Sans Regular;
+    
   }
 
 ion-label.button{

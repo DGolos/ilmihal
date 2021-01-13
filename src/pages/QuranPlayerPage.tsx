@@ -13,8 +13,10 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
     const [currentSurah,setCurrentSurah]=useState<Surah>();
     const [isLoaded,setIsLoaded]=useState(false);
     const playerRef=useRef(new Howl({src:[""]}));
-    const [duration,setDuration]=useState(0);
-    const [showMore,setShowMore]=useState(false);
+    const [elapsedTime,setElapsedTime]=useState(0);
+    const[progress,setProgress]=useState(0);
+    const [showModal,setShowModal]=useState(false);
+    
 
     const loadSurah =function (){
         setCurrentSurah(dataService.getSurahById(+(match.params.id)));
@@ -22,23 +24,55 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
       };
     
       useIonViewWillEnter(() => {
-          loadSurah();
+           loadSurah();
         });
 
-       
+     const updateProgress=()=>{
+         setElapsedTime(elapsedTime=>elapsedTime+1);
+         setProgress((+playerRef.current.seek()/playerRef.current.duration())*100);
+         let timerId=setTimeout(()=>{
+          if(+playerRef.current.seek()>playerRef.current.duration()){
+            console.log("clear")
+            clearTimeout(timerId);
+          }else{
+            updateProgress();
+          }
+          
+         },1000);
+     }
+
+     
 
     const toglePlayPause=()=>{
+      
         if(isLoaded===false){
-            playerRef.current=new Howl({
-                src:`/assets/audio/Mishary/${currentSurah?.id}.mp3`,
-                preload:false
-                }
-            )
-            playerRef.current.load();
-            setDuration(playerRef.current.duration());
+
+          const onEnd=()=>{
+            setIsPlaying(false);
+           
+          }
+
+          const onLoad=()=>{
             setIsLoaded(true);
             
+          }
+
+          const onPlay=()=>{
+            updateProgress();
+          }
+           
+            playerRef.current=new Howl({
+                src:`/assets/audio/Mishary/${currentSurah?.id}.mp3`,
+                preload:true,
+                html5:true,
+                onend:onEnd,
+                onload:onLoad,
+                onplay:onPlay,
+                format:["mp3"]
+                }
+            )
             
+
         }
         if(isPlaying){
             playerRef.current.pause();
@@ -51,6 +85,23 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
 
     }
 
+    const formatTime=(duration:number):string=>{
+        let hours=Math.floor(duration/3600);
+        let minutes=Math.floor((duration/3600)/60);
+        let seconds=Math.floor(duration%3600);
+
+        let ret="";
+
+        if(hours>0){
+          ret+=""+hours+":"+(minutes<10?"0":"");
+        }
+
+        ret+=""+minutes+":"+(seconds<10?"0":"");
+        ret+=""+seconds;
+
+        return ret;
+    }
+
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
@@ -61,7 +112,7 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
           </IonToolbar>
         </IonHeader>
         <IonContent color="burgundy">
-          <IonRow style={{ paddingLeft: '10px', paddingBottom: '6px' }}>
+          <IonRow style={{ paddingLeft: "10px", paddingBottom: "6px" }}>
             <IonCol size="4">
               <IonButton color="oker" shape="round" expand="full">
                 <IonLabel color="light" className="ion-text-center button">
@@ -88,14 +139,19 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
             </div>
           </IonCard>
           <div className="note" color="burgundy">
+            <IonLabel>{currentSurah?.description}</IonLabel>
+            <hr></hr>
             <ShowMore lines={3} more="Više" less="Manje" anchorClass="">
-              {currentSurah?.description}
+              {currentSurah?.note}
             </ShowMore>
           </div>
           <div className="ion-padding">
             <IonItem className="reciter">
               <IonGrid>
-                <IonRow className="ion-no-padding" style={{ marginTop: '0px', marginBottom: '0px' }}>
+                <IonRow
+                  className="ion-no-padding"
+                  style={{ marginTop: "0px", marginBottom: "0px" }}
+                >
                   <IonCol size="3" className="ion-no-padding">
                     <IonAvatar>
                       <img src="/assets/images/Mishary.jpg" />
@@ -103,15 +159,9 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
                   </IonCol>
                   <IonCol size="9" className="ion-no-padding">
                     <IonRow>
-                      <h6 >
+                      <h6 className="reciter">
                         <IonLabel>Mishary Al Alfasy</IonLabel>
                       </h6>
-                    </IonRow>
-
-                    <IonRow>
-                      <IonNote className="reciter">
-                        On je je sejh i Kuvajta
-                      </IonNote>
                     </IonRow>
                   </IonCol>
                 </IonRow>
@@ -122,29 +172,26 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
         <IonFooter className="ion-no-border">
           <IonToolbar color="burgundy" className="ion-text-center player">
             <IonRow>
-              <IonCol size="2">
-                <IonLabel className="progress">
-                  0:00
-                </IonLabel>
-              </IonCol>
-              <IonCol size="8">
-                <IonRange
-                  min={0}
-                  max={200}
-                  color="oker"
-                  className="ion-no-padding"
-                ></IonRange>
-              </IonCol>
-              <IonCol size="2">
-                <IonLabel className="progress">
-                  0:00
-                </IonLabel>
-              </IonCol>
+              <IonRange
+                value={progress}
+                min={0}
+                max={100}
+                color="oker"
+                className="ion-padding"
+              >
+                <IonLabel slot="start" className="progress ion-no-padding">
+                {formatTime(elapsedTime)}
+              </IonLabel>
+              <IonLabel slot="end" className="progress">
+                {formatTime(playerRef.current.duration())}
+              </IonLabel>
+              </IonRange>
+              
             </IonRow>
             <IonRow>
               <IonCol size="12">
                 <IonAvatar
-                  className="play"
+                  className="play ion-text-center"
                   onClick={() => {
                     toglePlayPause();
                   }}

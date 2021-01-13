@@ -1,6 +1,27 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+@font-face{
+  font-family: 'Open Sans Light';
+  font-style:normal;
+  font-weight:normal;
+  src:url('/assets/fonts/OpenSans-Light.ttf')
+}
+
+@font-face{
+  font-family: 'Open Sans Bold';
+  font-style:normal;
+  font-weight:bold;
+  src:url('/assets/fonts/OpenSans-Bold.ttf')
+}
+
+@font-face{
+  font-family: 'Open Sans Regular';
+  font-style:normal;
+  font-weight:normal;
+  src:url('/assets/fonts/OpenSans-Regular.ttf')
+}
+
 :root {
   --ion-color-background: #F5ECEA;
   --ion-color-background-rgb: 245,236,234;
