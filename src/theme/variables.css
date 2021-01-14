@@ -63,12 +63,19 @@ ion-content.bg-image-standard{
 
 ion-toolbar {
   --background: var(--ion-color-background);
+  
 }
 
 ion-header{
   --background-color: transparent;
   --ion-color-base: transparent !important;
   border-bottom: none !important;
+}
+
+div.center{
+  margin-top: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
