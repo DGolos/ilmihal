@@ -100,8 +100,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Book.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -129,8 +129,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Sound.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -167,8 +167,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Book.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -199,8 +199,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Book.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -242,8 +242,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Book.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -271,8 +271,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Sound.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -309,8 +309,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Wudhu.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -341,8 +341,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Wudhu.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -385,8 +385,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Fasting.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -414,8 +414,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Charity.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -452,8 +452,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Kaba.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -497,8 +497,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Dua.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -526,8 +526,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Tasbih.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -564,8 +564,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Shahadah.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -608,8 +608,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Dua.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -637,8 +637,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Tasbih.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -675,8 +675,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Shahadah.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -718,8 +718,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Dua.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -747,8 +747,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Tasbih.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -785,8 +785,8 @@ const MainCategoryPage: React.FC = () => {
                   <IonRow className="ion-no-padding">
                     <img
                       src="/assets/images/Shahadah.png"
-                      height="45px"
-                      width="45px"
+                      height="40px"
+                      width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
