@@ -34,11 +34,13 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
 
     const surahsListItems = filteredSurahs.map((surah) => (
       <IonItem key={surah.id} routerLink={`/Quran${match.params.type}/${surah.id}`} lines="none" detail={false} color="light">
-              <IonAvatar className={surah.color}>
-              
-                <IonLabel className="ion-padding-top">
+              <IonAvatar className={surah.color} >
+              <img className="mask" src="./assets/images/quran-page1.jpg" />
+              <IonLabel className="ion-padding-top">
                     <h1>{surah.id}</h1>
                 </IonLabel>
+              
+                
               </IonAvatar>
               <IonLabel className="ion-padding-start">
               <h4 className="name">{surah.name}</h4>
@@ -60,7 +62,7 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
             </IonButtons>
           </IonToolbar>
         </IonHeader>
-        <IonContent className="bg-image-standard">
+        <IonContent className="bg-image-standard" fullscreen>
           <IonSearchbar
             color="light"
             className="ion-padding"

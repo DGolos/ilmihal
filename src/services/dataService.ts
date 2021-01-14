@@ -5,7 +5,7 @@ import { Ayah } from '../objects/Ayah';
 
 class DataService{
     suras:Surah[]=surasData;
-    //ayahs:Ayah[]=ayahData;
+    ayahs:Ayah[]=ayahData;
     currentLocale:string="ba";
 
     
@@ -21,6 +21,10 @@ class DataService{
         }
         
        return surah;
+    }
+
+    public getAyahForSurah(surahId:number):Ayah[]{
+        return this.ayahs.filter(ayah=>ayah.surahId===surahId);
     }
 }
 

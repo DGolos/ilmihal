@@ -6,13 +6,13 @@ const PrayerTimesPage: React.FC = () => {
     return (
       <IonPage>
         <IonHeader className="ion-no-border standard">
-          {/* <IonToolbar className="prayer">
+           <IonToolbar>
             <IonButtons slot="start">
               <IonBackButton color="light" defaultHref="/MainCategoryPage" />
             </IonButtons>
-          </IonToolbar> */}
+          </IonToolbar> 
         </IonHeader>
-        <IonContent className="bg-image-isha">
+        <IonContent className="bg-image-isha" fullscreen>
           <IonItem className="prayer-header">
             <IonGrid>
               <IonRow className="ion-no-padding">
@@ -32,7 +32,7 @@ const PrayerTimesPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12" className="ion-no-padding">
                   <h2 className="prayer-header ion-no-padding ion-text-center">
-                    za 17 minuta
+                    za 52 minute
                   </h2>
                 </IonCol>
               </IonRow>
@@ -42,11 +42,12 @@ const PrayerTimesPage: React.FC = () => {
           <IonList className="prayer-details">
             <IonItem>
               <IonLabel slot="start">
-                <h2 slot="start" className="prayer-details">
-                  Dansnja vaktija
-                </h2>
+                <h1 slot="start" className="prayer-details">
+                  Danasnja vaktija
+                </h1>
               </IonLabel>
             </IonItem>
+            
             <IonItem>
               <IonLabel slot="start">
                 <h2 className="prayer-details">Sabah</h2>

@@ -13,14 +13,6 @@ ion-avatar {
   background: rgba(255,255,255,.1);
 }
 
-ion-card{
-  box-shadow: 0;
-  border-radius: 14px;
-  background: var(--ion-color-burgundy);
-  height: 150px!important;
-  padding-bottom: 0px;
-}
-
 .searchbar-input {
   border: 0 !important;
   box-shadow: none !important;

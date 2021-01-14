@@ -3,7 +3,7 @@ ion-item.prayer-header{
     color: #FFFFFF;
     padding-left: 25px;
     padding-right: 25px;
-    margin-top:75px
+    margin-top:50px
   }
 
   h2.prayer-header{
@@ -19,15 +19,17 @@ ion-item.prayer-header{
     font-family: Verdana, Geneva, Tahoma, sans-serif
   }
 
+  h1.prayer-details{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+  }
+
   ion-list.prayer-details{
     --border-radius: 14px;
     margin-left: 25px; 
     margin-right: 25px;
   }
 
-  ion-toolbar.prayer{
-    
-    --background: transparent;
-    --ion-color-base: transparent !important;
-      
-  }
+  
