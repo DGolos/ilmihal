@@ -6,7 +6,7 @@ const HomePage: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
   return (
     <IonPage>
-      <IonContent className="bg-image">
+      <IonContent className="bg-image-fajr">
         <IonItem className="welcome">
           <IonGrid>
             <IonRow className="ion-no-padding">

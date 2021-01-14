@@ -37,7 +37,7 @@ import { translationService } from './services/TranslationService';
 import { QuranMainPage } from './pages/QuranMainPage';
 import { QuranReaderPage } from './pages/QuranReaderPage';
 import { QuranPlayerPage } from './pages/QuranPlayerPage';
-
+import PrayerTimesPage from './pages/PrayerTimesPage';
 const App: React.FC = () => (
   
   <IonApp>
@@ -51,6 +51,7 @@ const App: React.FC = () => (
           <Route path="/Quran/:type" component={QuranMainPage} />
           <Route path="/QuranReader/:id" component={QuranReaderPage} />
           <Route path="/QuranPlayer/:id" component={QuranPlayerPage} />
+          <Route path="/PrayerTimes/" component={PrayerTimesPage} />
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="HomePage" href="/HomePage">

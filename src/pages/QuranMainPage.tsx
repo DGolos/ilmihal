@@ -53,14 +53,14 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
 
     return (
       <IonPage>
-        <IonHeader className="ion-no-border" color="background">
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton color="light" defaultHref="/MainCategoryPage" />
+        <IonHeader className="ion-no-border">
+        <IonToolbar>
+        <IonButtons slot="start">
+              <IonBackButton color="burgundy" defaultHref="/MainCategoryPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
-        <IonContent>
+        <IonContent className="bg-image-standard">
           <IonSearchbar
             color="light"
             className="ion-padding"

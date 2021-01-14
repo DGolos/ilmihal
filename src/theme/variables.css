@@ -22,6 +22,57 @@ http://ionicframework.com/docs/theming/ */
   src:url('/assets/fonts/OpenSans-Regular.ttf')
 }
 
+ion-content.bg-image-isha{
+  --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+}
+
+ion-content.bg-image-fajr{
+  --background: url(./../assets/images/1.jpg) no-repeat center/cover fixed;
+}
+
+ion-content.bg-image-sunrise{
+  --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+}
+
+ion-content.bg-image-dhuhr{
+  --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+}
+
+ion-content.bg-image-late-dhuhr{
+  --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+}
+
+ion-content.bg-image-asr{
+  --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+}
+
+ion-content.bg-image-late-asr{
+  --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+}
+
+ion-content.bg-image-maghrib{
+  --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+}
+
+ion-content.bg-image-late-isha{
+  --background: url(./../assets/images/5.jpg) no-repeat center/cover fixed;
+}
+ion-content.bg-image-standard{
+  --ion-background-color:#F5ECEA;
+}
+
+ion-toolbar {
+  --background: var(--ion-color-background);
+}
+
+ion-header{
+  --background-color: transparent;
+  --ion-color-base: transparent !important;
+  border-bottom: none !important;
+}
+
+
+
 :root {
   --ion-color-background: #F5ECEA;
   --ion-color-background-rgb: 245,236,234;

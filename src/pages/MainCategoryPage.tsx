@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   IonAvatar,
   IonButton,
@@ -25,30 +25,30 @@ import "./MainCategoryPage.css";
 import { translationService } from "../services/TranslationService";
 
 const MainCategoryPage: React.FC = () => {
+  const[current,setCurrent]=useState(1);
   return (
     <IonPage>
-      <IonHeader>
-      <IonItem className="text-align-center" lines="none">
-          <h3 className="title">{translationService.getLabel(2)}</h3>
-        </IonItem>
+     
+      <IonContent className="bg-image-standard">
+        <div >
         <IonGrid>
           <IonRow>
             <IonCol size="4">
-              <IonButton color="brown" shape="round" expand="full" >
+              <IonButton color={current===1?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(1) }>
                 <IonLabel color="light" className="ion-text-center">
                   Kur'an
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color="brown" shape="round" expand="full">
+              <IonButton color={current===2?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(2) }>
                 <IonLabel color="light" className="ion-text-center">
                   Namaz
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color="brown" shape="round" expand="full">
+              <IonButton color={current===3?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(3) }>
                 <IonLabel color="light" className="ion-text-center">
                   Sarti
                 </IonLabel>
@@ -58,21 +58,21 @@ const MainCategoryPage: React.FC = () => {
 
           <IonRow>
             <IonCol size="4">
-              <IonButton color="brown" shape="round" expand="full">
+              <IonButton color={current===4?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(4) }>
                 <IonLabel color="light" className="ion-text-center">
                   Zikr
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color="brown" shape="round" expand="full">
+              <IonButton color={current===5?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(5) }>
                 <IonLabel color="light" className="ion-text-center">
-                  Poslanik
+                  Muhammed
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color="brown" shape="round" expand="full">
+              <IonButton color={current===6?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(6) }>
                 <IonLabel color="light" className="ion-text-center">
                   Istorija
                 </IonLabel>
@@ -80,10 +80,8 @@ const MainCategoryPage: React.FC = () => {
             </IonCol>
           </IonRow>
         </IonGrid>
-      </IonHeader>
-      <IonContent>
-        
-        <div className="ion-padding">
+        </div>
+        <div className="ion-padding" id="quran" hidden={current!==1}>
           <h1 className="category-title">Kur'an</h1>
           <IonGrid>
             <IonRow
@@ -225,7 +223,7 @@ const MainCategoryPage: React.FC = () => {
             </IonRow>
           </IonGrid>
         </div>
-        <div className="ion-padding">
+        <div className="ion-padding" id="prayer" hidden={current!==2}>
           <h1 className="category-title">Namaz</h1>
           <IonGrid>
             <IonRow
@@ -237,7 +235,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/PrayerTimes`}
                   color="light"
                   class="category"
                 >
@@ -368,7 +366,7 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
 
-        <div className="ion-padding">
+        <div className="ion-padding" hidden={current!==3}>
           <h1 className="category-title">Sarti</h1>
           <IonGrid>
             <IonRow
@@ -425,7 +423,7 @@ const MainCategoryPage: React.FC = () => {
                         <h4 className="title">Zekjat </h4>
                       </span>
                       <span>
-                        <h4 className="title">namazi</h4>
+                        <h4 className="title"></h4>
                       </span>
                     </IonLabel>
                   </IonRow>
@@ -480,7 +478,7 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
 
-        <div className="ion-padding">
+        <div className="ion-padding" hidden={current!==4}>
           <h1 className="category-title">Zikr</h1>
           <IonGrid>
             <IonRow
@@ -591,7 +589,7 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
 
-        <div className="ion-padding">
+        <div className="ion-padding" hidden={current!==5}>
           <h1 className="category-title">Muhammed</h1>
           <IonGrid>
             <IonRow
@@ -701,7 +699,7 @@ const MainCategoryPage: React.FC = () => {
             </IonRow>
           </IonGrid>
         </div>
-        <div className="ion-padding">
+        <div className="ion-padding" hidden={current!==6}> 
           <h1 className="category-title">Istorija</h1>
           <IonGrid>
             <IonRow
