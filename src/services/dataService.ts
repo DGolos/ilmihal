@@ -24,7 +24,9 @@ class DataService{
     }
 
     public getAyahForSurah(surahId:number):Ayah[]{
-        return this.ayahs.filter(ayah=>ayah.surahId===surahId);
+
+        const ayah=this.ayahs.filter(ayah=>ayah.surahId===surahId);
+        return ayah;
     }
 }
 

@@ -10,6 +10,9 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
   const [surahs, setSurahs] = useState<Surah[]>([]);
   const [filteredSurahs,setFilteredSurahs]=useState<Surah[]>([]);
   const [searchText, setSearchText] = useState('');
+  const [showArabic,setShowArabic]=useState(true);
+  const [showTranslation,setShowTranslation]=useState(true);
+  const [showTranscription,setShowTranscription]=useState(false);
   
   const loadSurahs =function (){
     setSurahs(dataService.getAllSuras());
@@ -35,7 +38,7 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
     const surahsListItems = filteredSurahs.map((surah) => (
       <IonItem key={surah.id} routerLink={`/Quran${match.params.type}/${surah.id}`} lines="none" detail={false} color="light">
               <IonAvatar className={surah.color} >
-              <img className="mask" src="./assets/images/quran-page1.jpg" />
+              
               <IonLabel className="ion-padding-top">
                     <h1>{surah.id}</h1>
                 </IonLabel>

@@ -106,9 +106,9 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
       <IonPage>
         <IonHeader className="ion-no-border">
           <IonToolbar>
-            <IonButton slot="start">
+            <IonButtons slot="start">
               <IonBackButton color="light" defaultHref="/Quran/Player" />
-            </IonButton>
+            </IonButtons>
           </IonToolbar>
         </IonHeader>
         <IonContent color="burgundy" fullscreen>

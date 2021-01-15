@@ -27,7 +27,7 @@
         "note":"",
         "numberOfAyah":34,
         "revelationCity":"Mekka",
-        "color":"purple"
+        "color":"oker"
     },
     {
         "id":32,
@@ -37,7 +37,7 @@
         "note":"",
         "numberOfAyah":30,
         "revelationCity":"Mekka",
-        "color":"oker"
+        "color":"brown"
     },
     {
         "id":36,
@@ -47,7 +47,7 @@
         "note":"",
         "numberOfAyah":83,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"burgundy"
     },
     {
         "id":67,
@@ -57,7 +57,7 @@
         "note":"",
         "numberOfAyah":30,
         "revelationCity":"Mekka",
-        "color":"purple"
+        "color":"oker"
     },
     {
         "id":93,
@@ -98,7 +98,7 @@
         "note":"",
         "numberOfAyah":19,
         "revelationCity":"Mekka",
-        "color":"purple"
+        "color":"brown"
         
     },
     {
@@ -109,7 +109,7 @@
         "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"burgundy"
         
     },
     {
@@ -120,7 +120,7 @@
         "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"oker"
         
     },
     {
@@ -131,7 +131,7 @@
         "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"oker"
+        "color":"brown"
         
     },
     {
@@ -142,7 +142,7 @@
         "note":"",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
-        "color":"purble"
+        "color":"burgundy"
         
     },
     {
@@ -153,7 +153,7 @@
         "note":"",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"oker"
         
     },
     {
@@ -164,7 +164,7 @@
         "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"brown"
         
     },
     {
@@ -175,7 +175,7 @@
         "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
-        "color":"oker"
+        "color":"burgundy"
         
     },
     {
@@ -186,7 +186,7 @@
         "note":"",
         "numberOfAyah":9,
         "revelationCity":"Mekka",
-        "color":"purple"
+        "color":"oker"
         
     },
     {
@@ -230,7 +230,7 @@
         "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
-        "color":"purple"
+        "color":"brown"
         
     },
     {
@@ -241,7 +241,7 @@
         "note":"",
         "numberOfAyah":6,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"burgundy"
         
     },
     {
@@ -252,7 +252,7 @@
         "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"oker"
         
     },
     {
@@ -263,7 +263,7 @@
         "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"oker"
+        "color":"brown"
         
     },
     {
@@ -274,7 +274,7 @@
         "note":"",
         "numberOfAyah":4,
         "revelationCity":"Mekka",
-        "color":"purple"
+        "color":"burgundy"
         
     },
     {
@@ -285,7 +285,7 @@
         "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"oker"
         
     },
     {
@@ -296,7 +296,7 @@
         "note":"",
         "numberOfAyah":6,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"brown"
         
     }
 

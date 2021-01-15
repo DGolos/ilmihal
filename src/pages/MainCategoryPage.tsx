@@ -144,7 +144,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Slušaj maestralno učenje hafiza Mishary Alfasyja ili
+                      Slušaj učenje hafiza Mishary Alfasyja ili
                       hafiza Aziza Halilija
                     </h6>
                   </IonRow>
