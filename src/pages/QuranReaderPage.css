@@ -1,3 +1,25 @@
 ion-row.ayah{
     border-bottom: 1px solid #dedede;
 }
+
+h3.arabic-ayah{
+    font-weight: 500;
+    font-size:32px;
+    font-family: "Uthmanic";
+}
+
+h3.translation{
+    font-size:14px;
+    font-family: "Open Sans Regular";
+}
+
+h4.ayah-details{
+    font-size:12px;
+    font-family: "Open Sans Regular";
+    color:#D18972;
+}
+
+ion-button.no-shadow{
+    --box-shadow:none;
+    
+}

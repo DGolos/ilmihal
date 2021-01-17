@@ -7,10 +7,12 @@ import { Surah } from "../objects/surah";
 import { dataService } from "../services/dataService";
 import {Howl} from 'howler';
 import ShowMore from 'react-show-more';
+import { storageService } from "../services/StorageService";
 
 export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({ match }) => {
     const [isPlaying,setIsPlaying]=useState(false);
     const [currentSurah,setCurrentSurah]=useState<Surah>();
+    const [currentReciter,setCurrentReciter]=useState('');
     const [isLoaded,setIsLoaded]=useState(false);
     const playerRef=useRef(new Howl({src:[""]}));
     const [elapsedTime,setElapsedTime]=useState(0);
@@ -20,6 +22,7 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
 
     const loadSurah =function (){
         setCurrentSurah(dataService.getSurahById(+(match.params.id)));
+        
         
       };
     
