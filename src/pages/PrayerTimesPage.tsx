@@ -1,8 +1,37 @@
-import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonList, IonPage, IonRow, IonToolbar } from "@ionic/react"
-import React from "react"
+import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonList, IonPage, IonRow, IonToolbar, useIonViewWillEnter } from "@ionic/react"
+import moment from "moment";
+import React, { useCallback, useEffect, useState } from "react"
+import { timeService } from "../services/TimeService";
 import './PrayerTimesPage.css';
 
 const PrayerTimesPage: React.FC = () => {
+
+  const [fajr,setFajr]=useState("");
+  const [dhuhr,setDhuhr]=useState("");
+  const [asr,setAsr]=useState("");
+  const [maghrib,setMaghrib]=useState("");
+  const [isha,setIsha]=useState("");
+
+  const getPrayerTimes = () => {
+    const prayers=timeService.getPrayertimes();
+    console.log(prayers);
+
+    console.log(moment(prayers.fajr).format("h:mm"));
+
+     setFajr(moment(prayers.fajr*1000).format("HH:mm"));
+     setDhuhr(moment(prayers.dhuhr*1000).format("HH:mm"));
+     setAsr(moment(prayers.asr*1000).format("HH:mm"));
+     setMaghrib(moment(prayers.maghrib*1000).format("HH:mm"));
+     setIsha(moment(prayers.isha*1000).format("HH:mm"));
+  };
+
+ 
+    useEffect(() => {
+      getPrayerTimes();
+  }, [getPrayerTimes]);
+
+
+    
     return (
       <IonPage>
         <IonHeader className="ion-no-border standard">
@@ -53,7 +82,7 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="prayer-details">Sabah</h2>
               </IonLabel>
               <IonLabel slot="end">
-                <h2 className="prayer-details">05:22</h2>
+                <h2 className="prayer-details">{fajr}</h2>
               </IonLabel>
             </IonItem>
             <IonItem>
@@ -61,7 +90,7 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="prayer-details">Podne</h2>
               </IonLabel>
               <IonLabel slot="end">
-                <h2 className="prayer-details">12:06</h2>
+                <h2 className="prayer-details">{dhuhr}</h2>
               </IonLabel>
             </IonItem>
             <IonItem>
@@ -69,7 +98,7 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="prayer-details">Ikindija</h2>
               </IonLabel>
               <IonLabel slot="end">
-                <h2 className="prayer-details">14:19</h2>
+                <h2 className="prayer-details">{asr}</h2>
               </IonLabel>
             </IonItem>
             <IonItem>
@@ -77,7 +106,7 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="prayer-details">Aksam</h2>
               </IonLabel>
               <IonLabel slot="end">
-                <h2 className="prayer-details">16:45</h2>
+                <h2 className="prayer-details">{maghrib}</h2>
               </IonLabel>
             </IonItem>
             <IonItem>
@@ -85,7 +114,7 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="prayer-details">Jacija</h2>
               </IonLabel>
               <IonLabel slot="end">
-                <h2 className="prayer-details">18:15</h2>
+                <h2 className="prayer-details">{isha}</h2>
               </IonLabel>
             </IonItem>
           </IonList>

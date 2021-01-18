@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
-import { IonAvatar, IonButton, IonCard, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, } from '@ionic/react';
+import { IonAvatar, IonButton, IonCard, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
 import './HomePage.css';
+import { timeService } from '../services/TimeService';
 
 const HomePage: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
+  const[period,setPeriod]=useState("");
+  
+
+useIonViewWillEnter(() => {
+  setPeriod("bg-image-"+timeService.getCurrentPeriod());
+  });
+
   return (
     <IonPage>
-      <IonContent className="bg-image-dhuhr">
+      <IonContent className={period}>
         <div className="center">
         <IonItem className="welcome">
           <IonGrid>

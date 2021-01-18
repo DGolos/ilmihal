@@ -19,6 +19,7 @@
     "class-transformer": "^0.3.1",
     "howler": "^2.2.1",
     "ionicons": "^5.0.0",
+    "moment": "^2.29.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router": "^5.1.2",
