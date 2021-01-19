@@ -11,18 +11,19 @@ const PrayerTimesPage: React.FC = () => {
   const [asr,setAsr]=useState("");
   const [maghrib,setMaghrib]=useState("");
   const [isha,setIsha]=useState("");
+  const[period,setPeriod]=useState("");
 
   const getPrayerTimes = () => {
     const prayers=timeService.getPrayertimes();
-    console.log(prayers);
-
-    console.log(moment(prayers.fajr).format("h:mm"));
-
+    
      setFajr(moment(prayers.fajr*1000).format("HH:mm"));
      setDhuhr(moment(prayers.dhuhr*1000).format("HH:mm"));
      setAsr(moment(prayers.asr*1000).format("HH:mm"));
      setMaghrib(moment(prayers.maghrib*1000).format("HH:mm"));
      setIsha(moment(prayers.isha*1000).format("HH:mm"));
+
+     setPeriod("bg-image-"+prayers.period);
+    
   };
 
  
@@ -41,7 +42,7 @@ const PrayerTimesPage: React.FC = () => {
             </IonButtons>
           </IonToolbar> 
         </IonHeader>
-        <IonContent className="bg-image-isha" fullscreen>
+        <IonContent className={period} fullscreen>
           <IonItem className="prayer-header">
             <IonGrid>
               <IonRow className="ion-no-padding">

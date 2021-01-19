@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import {
   IonApp,
   IonIcon,
   IonLabel,
+  IonLoading,
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
@@ -38,8 +39,24 @@ import { QuranMainPage } from './pages/QuranMainPage';
 import { QuranReaderPage } from './pages/QuranReaderPage';
 import { QuranPlayerPage } from './pages/QuranPlayerPage';
 import PrayerTimesPage from './pages/PrayerTimesPage';
-const App: React.FC = () => (
+import { timeService } from './services/TimeService';
+const App: React.FC = () => {
+  const [initialized, setInitialized] = useState(false);
   
+  const initialization = useCallback(async () => {
+    await timeService.init();
+    setInitialized(true);
+  }, []);
+
+  useEffect(() => {
+    initialization();
+  }, [initialization]);
+
+  if (!initialized) {
+    return (<IonLoading isOpen={!initialized} message=" Starter..." />)
+  }
+  
+  return (
   <IonApp>
      <IonReactRouter>
       <IonTabs>
@@ -70,6 +87,7 @@ const App: React.FC = () => (
       </IonTabs>
     </IonReactRouter>
   </IonApp>
-);
+  );
+};
 
 export default App;
