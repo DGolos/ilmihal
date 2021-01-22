@@ -16,11 +16,11 @@ const PrayerTimesPage: React.FC = () => {
   const getPrayerTimes = () => {
     const prayers=timeService.getPrayertimes();
     
-     setFajr(moment(prayers.fajr*1000).format("HH:mm"));
-     setDhuhr(moment(prayers.dhuhr*1000).format("HH:mm"));
-     setAsr(moment(prayers.asr*1000).format("HH:mm"));
-     setMaghrib(moment(prayers.maghrib*1000).format("HH:mm"));
-     setIsha(moment(prayers.isha*1000).format("HH:mm"));
+     setFajr(moment.utc(prayers.fajr*1000).format("HH:mm"));
+     setDhuhr(moment.utc(prayers.dhuhr*1000).format("HH:mm"));
+     setAsr(moment.utc(prayers.asr*1000).format("HH:mm"));
+     setMaghrib(moment.utc(prayers.maghrib*1000).format("HH:mm"));
+     setIsha(moment.utc(prayers.isha*1000).format("HH:mm"));
 
      setPeriod("bg-image-"+prayers.period);
     
