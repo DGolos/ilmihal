@@ -55,7 +55,8 @@
     "@ionic/lab": "3.2.10",
     "@types/howler": "^2.2.1",
     "@types/node": "^12.19.12",
-    "@types/react-show-more": "^2.0.2"
+    "@types/react-show-more": "^2.0.2",
+    "node-sass": "^4.14.1"
   },
   "description": "An Ionic project"
 }

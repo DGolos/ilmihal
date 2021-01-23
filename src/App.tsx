@@ -34,6 +34,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import './theme/global.scss';
 import { translationService } from './services/TranslationService';
 import { QuranMainPage } from './pages/QuranMainPage';
 import { QuranReaderPage } from './pages/QuranReaderPage';

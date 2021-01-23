@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { IonAvatar, IonButton, IonCard, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
-import './HomePage.css';
+import { IonAvatar, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
+
 import { timeService } from '../services/TimeService';
 
 const HomePage: React.FC = () => {
@@ -52,10 +52,30 @@ useIonViewWillEnter(() => {
         <IonGrid>
           <IonRow>
             <IonCol size="6">
+              <IonCard color="burgundy">
+              <IonCardHeader>
+            <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+            <IonCardTitle>Card Title</IonCardTitle>
+          </IonCardHeader>
 
+          <IonCardContent>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+      </IonCardContent>
+              </IonCard>
             </IonCol>
             <IonCol size="6">
+            <IonCard color="purple">
+              <IonCardHeader>
+            <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+            <IonCardTitle>Card Title</IonCardTitle>
+          </IonCardHeader>
 
+          <IonCardContent>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+      </IonCardContent>
+              </IonCard>
             </IonCol>
           </IonRow>
         </IonGrid>
