@@ -84,7 +84,7 @@ class TimeService{
         const currentTime=new Date();
         const timeStamp=currentTime.getHours()*3600+currentTime.getMinutes()*60;
         
-        /*if(timeStamp<this.fajr)
+        if(timeStamp<this.fajr)
             return "late-isha";
         if(timeStamp<this.sunrise)
             return "fajr";   
@@ -99,7 +99,7 @@ class TimeService{
         if(timeStamp<this.preMaghrib)
             return "pre-maghrib";
         if(timeStamp<this.maghrib)
-            return "maghrib"; */
+            return "maghrib"; 
         return "isha";
     }
 
