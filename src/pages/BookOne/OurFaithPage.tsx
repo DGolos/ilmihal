@@ -8,7 +8,7 @@ const OurFaithPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/BookOneMainPage" />
+              <IonBackButton color="brown" defaultHref="/BookOneMainPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
