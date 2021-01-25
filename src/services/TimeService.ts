@@ -103,6 +103,30 @@ class TimeService{
         return "isha";
     }
 
+    getFajrTime(){
+        return this.fajr;
+    }
+
+    getDhuhrTime(){
+        return this.dhuhr;
+    }
+
+    getAsrTime(){
+        return this.asr;
+    }
+
+    getMaghribTime(){
+        return this.maghrib;
+    }
+
+    getIshaTime(){
+        return this.isha;
+    }
+
+
+
+
+
     getPrayertimes(){
         
         

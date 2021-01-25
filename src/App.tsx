@@ -53,6 +53,15 @@ import SurahFatihaPage from './pages/BookOne/SurahFatihaPage';
 import SurahNasPage from './pages/BookOne/SurahNasPage';
 import SurahFelekPage from './pages/BookOne/SurahFelekPage';
 import SurahIhlasPage from './pages/BookOne/SurahIhlasPage';
+import AdhanPage from './pages/BookOne/AdhanPage';
+import IqamahPage from './pages/BookOne/IqamahPage';
+import EttehijatuPage from './pages/BookOne/EttehijatuPage';
+import SalavatPage from './pages/BookOne/SalavatPage';
+import FajrPrayerPage from './pages/BookOne/FajrPrayerPage';
+import DhuhrPrayerPage from './pages/BookOne/DhuhrPrayerPage';
+import AsrPrayerPage from './pages/BookOne/AsrPrayerPage';
+import MaghribPrayerPage from './pages/BookOne/MaghribPrayerPage';
+import IshaPrayerPage from './pages/BookOne/IshaPrayerPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -94,6 +103,15 @@ const App: React.FC = () => {
           <Route path="/SurahNasPage" component={SurahNasPage}/>
           <Route path="/SurahFelekPage" component={SurahFelekPage}/>
           <Route path="/SurahIhlasPage" component={SurahIhlasPage}/>
+          <Route path="/AdhanPage" component={AdhanPage}/>
+          <Route path="/IqamahPage" component={IqamahPage}/>
+          <Route path="/EttehijatuPage" component={EttehijatuPage}/>
+          <Route path="/SalavatPage" component={SalavatPage}/>
+          <Route path="/FajrPrayerPage" component={FajrPrayerPage}/>
+          <Route path="/DhuhrPrayerPage" component={DhuhrPrayerPage}/>
+          <Route path="/AsrPrayerPage" component={AsrPrayerPage}/>
+          <Route path="/MaghribPrayerPage" component={MaghribPrayerPage}/>
+          <Route path="/IshaPrayerPage" component={IshaPrayerPage}/>
           <Route path="/BookTwoMainPage" component={BookTwoMainPage}/>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">

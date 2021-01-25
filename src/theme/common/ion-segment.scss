@@ -2,3 +2,13 @@ ion-segment-button {
     --background-checked: var(--ion-color-razimic);
     --color-checked: var(--ion-color-razimic-contrast);
   }
+
+  ion-segment-button.burgundy {
+    --background-checked: var(--ion-color-burgundy);
+    --color-checked: var(--ion-color-burgundy-contrast);
+  }
+
+  ion-segment-button.purple {
+    --background-checked: var(--ion-color-purple);
+    --color-checked: var(--ion-color-purple-contrast);
+  }

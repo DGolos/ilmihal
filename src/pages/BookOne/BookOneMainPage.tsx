@@ -96,7 +96,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson purple">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>1</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -115,7 +115,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson burgundy">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>2</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -136,7 +136,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson brown">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>3</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -155,7 +155,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson purple">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>4</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -176,7 +176,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson purple">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>5</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -195,7 +195,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson brown">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>6</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -220,7 +220,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson razimic">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>7</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -239,7 +239,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson razimic">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>8</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -260,7 +260,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson razimic">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>9</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -279,7 +279,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson razimic">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>10</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -305,7 +305,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson dark-brown">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>11</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -325,7 +325,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson dark-brown">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>12</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -350,7 +350,7 @@ const BookOneMainPage: React.FC = () => {
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson burgundy">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>13</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -362,14 +362,14 @@ const BookOneMainPage: React.FC = () => {
                 <IonCol size="6">
                 <IonItem
                     key="14"
-                    routerLink={`/WudhuPage`}
+                    routerLink={`/AdhanPage`}
                     lines="none"
                     detail={false}
                     color="light"
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson burgundy">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>14</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -383,13 +383,13 @@ const BookOneMainPage: React.FC = () => {
                 <IonCol size="6">
                   <IonItem
                     key="15"
-                    routerLink={`/WudhuPage`}
+                    routerLink={`/IqamahPage`}
                     lines="none"
                     detail={false}
                     className="lesson"
                   >
                     <IonAvatar slot="start"className="lesson burgundy">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>15</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -401,13 +401,13 @@ const BookOneMainPage: React.FC = () => {
                 <IonCol size="6">
                 <IonItem
                     key="16"
-                    routerLink={`/WudhuPage`}
+                    routerLink={`/EttehijatuPage`}
                     lines="none"
                     detail={false}
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson purple">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>16</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -421,13 +421,13 @@ const BookOneMainPage: React.FC = () => {
                 <IonCol size="6">
                   <IonItem
                     key="17"
-                    routerLink={`/WudhuPage`}
+                    routerLink={`/SalavatPage`}
                     lines="none"
                     detail={false}
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson purple">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>17</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -439,14 +439,14 @@ const BookOneMainPage: React.FC = () => {
                 <IonCol size="6">
                 <IonItem
                     key="18"
-                    routerLink={`/WudhuPage`}
+                    routerLink={`/DuaPage`}
                     lines="none"
                     detail={false}
                     color="light"
                     className="lesson"
                   >
                     <IonAvatar slot="start" className="lesson purple">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>18</h4>
                       </IonLabel>
                     </IonAvatar>
@@ -461,8 +461,118 @@ const BookOneMainPage: React.FC = () => {
           <div className="ion-padding" id="fifth" hidden={current !== 5}>
             <IonGrid>
               <IonRow>
-                <IonCol size="6"></IonCol>
-                <IonCol size="6"></IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="19"
+                    routerLink={`/FajrPrayerPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson burgundy">
+                      <IonLabel style={{marginTop:7}}>
+                        <h4>19</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Sabah namaz</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="20"
+                    routerLink={`/DhuhrPrayerPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson burgundy">
+                      <IonLabel style={{marginTop:7}}>
+                        <h4>20</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Podne namaz</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                <IonItem
+                    key="21"
+                    routerLink={`/AsrPrayerPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson burgundy">
+                      <IonLabel style={{marginTop:7}}>
+                        <h4>21</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Ikindija namaz</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="22"
+                    routerLink={`/MaghribPrayerPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson burgundy">
+                      <IonLabel style={{marginTop:7}}>
+                        <h4>22</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Akšam namaz</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                <IonItem
+                    key="23"
+                    routerLink={`/IshaPrayerPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson burgundy">
+                      <IonLabel style={{marginTop:7}}>
+                        <h4>23</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Jacija namaz</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="22"
+                    routerLink={`/AfterPrayerPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson purple">
+                      <IonLabel style={{marginTop:7}}>
+                        <h4>24</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Zikr</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
               </IonRow>
             </IonGrid>
           </div>
