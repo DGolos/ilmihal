@@ -49,6 +49,11 @@ import OurFaithPage from './pages/BookOne/OurFaithPage';
 import RabbiJessirPage from './pages/BookOne/RabbiJessirPage';
 import SubhanekePage from './pages/BookOne/SubhanekePage';
 import SelamPage from './pages/BookOne/SelamPage';
+import SurahFatihaPage from './pages/BookOne/SurahFatihaPage';
+import SurahNasPage from './pages/BookOne/SurahNasPage';
+import SurahFelekPage from './pages/BookOne/SurahFelekPage';
+import SurahIhlasPage from './pages/BookOne/SurahIhlasPage';
+
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
   
@@ -85,6 +90,10 @@ const App: React.FC = () => {
           <Route path="/RabbiJessirPage" component={RabbiJessirPage}/>
           <Route path="/SubhanekePage" component={SubhanekePage}/>
           <Route path="/SelamPage" component={SelamPage}/>
+          <Route path="/SurahFatihaPage" component={SurahFatihaPage}/>
+          <Route path="/SurahNasPage" component={SurahNasPage}/>
+          <Route path="/SurahFelekPage" component={SurahFelekPage}/>
+          <Route path="/SurahIhlasPage" component={SurahIhlasPage}/>
           <Route path="/BookTwoMainPage" component={BookTwoMainPage}/>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">

@@ -1,16 +1,16 @@
 ion-avatar.lesson {
     --border-radius: 30%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     padding: 0;
     margin: 14px 0;
     background: rgba(255,255,255,.1);
-
+    
     h4{
         font-weight: 600;
         font-size:24px;
-      
+        color:white;
     }
   }
 
@@ -24,4 +24,12 @@ ion-avatar.lesson {
   
   ion-avatar.purple{
     background-color: var(--ion-color-purple);
+  }
+
+  ion-avatar.dark-brown{
+    background-color: var(--ion-color-dark-brown);
+  }
+
+  ion-avatar.razimic{
+    background-color: var(--ion-color-razimic);
   }

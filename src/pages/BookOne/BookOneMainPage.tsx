@@ -1,4 +1,4 @@
-import { IonAvatar, IonBackButton, IonButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonGrid, IonHeader, IonLabel, IonPage, IonRow, IonText, IonTitle, IonToolbar } from "@ionic/react"
+import { IonAvatar, IonBackButton, IonButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRow, IonText, IonTitle, IonToolbar } from "@ionic/react"
 import React, { useState } from "react"
 
 const BookOneMainPage: React.FC = () => {
@@ -14,162 +14,458 @@ const BookOneMainPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-        <IonGrid>
-          <IonRow>
-            <IonCol size="4">
-              <IonButton color={current===1?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(1) }>
-                <IonLabel color="light" className="ion-text-center">
-                  1-6
-                </IonLabel>
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonButton color={current===2?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(2) }>
-                <IonLabel color="light" className="ion-text-center">
-                  7-10
-                </IonLabel>
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonButton color={current===3?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(3) }>
-                <IonLabel color="light" className="ion-text-center">
-                  11-12
-                </IonLabel>
-              </IonButton>
-            </IonCol>
-          </IonRow>
+          <IonGrid>
+            <IonRow>
+              <IonCol size="4">
+                <IonButton
+                  color={current === 1 ? "burgundy" : "brown"}
+                  shape="round"
+                  expand="full"
+                  onClick={() => setCurrent(1)}
+                >
+                  <IonLabel color="light" className="ion-text-center">
+                    1-6
+                  </IonLabel>
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonButton
+                  color={current === 2 ? "burgundy" : "brown"}
+                  shape="round"
+                  expand="full"
+                  onClick={() => setCurrent(2)}
+                >
+                  <IonLabel color="light" className="ion-text-center">
+                    7-10
+                  </IonLabel>
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonButton
+                  color={current === 3 ? "burgundy" : "brown"}
+                  shape="round"
+                  expand="full"
+                  onClick={() => setCurrent(3)}
+                >
+                  <IonLabel color="light" className="ion-text-center">
+                    11-12
+                  </IonLabel>
+                </IonButton>
+              </IonCol>
+            </IonRow>
 
-          <IonRow>
-            <IonCol size="4">
-              <IonButton color={current===4?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(4) }>
-                <IonLabel color="light" className="ion-text-center">
-                  13-18
-                </IonLabel>
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonButton color={current===5?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(5) }>
-                <IonLabel color="light" className="ion-text-center">
-                  19-24
-                </IonLabel>
-              </IonButton>
-            </IonCol>
-            
-          </IonRow>
-        </IonGrid>
+            <IonRow>
+              <IonCol size="4">
+                <IonButton
+                  color={current === 4 ? "burgundy" : "brown"}
+                  shape="round"
+                  expand="full"
+                  onClick={() => setCurrent(4)}
+                >
+                  <IonLabel color="light" className="ion-text-center">
+                    13-18
+                  </IonLabel>
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonButton
+                  color={current === 5 ? "burgundy" : "brown"}
+                  shape="round"
+                  expand="full"
+                  onClick={() => setCurrent(5)}
+                >
+                  <IonLabel color="light" className="ion-text-center">
+                    19-24
+                  </IonLabel>
+                </IonButton>
+              </IonCol>
+            </IonRow>
+          </IonGrid>
+          
         
-        <div id="first" hidden={current!==1}>
-            <IonGrid >
-                <IonRow>
-                    <IonCol size="6">
-                        <IonCard className="lesson" color="purple" routerLink={`/EuzaPage`}>
-                            <IonCardHeader className="ion-text-center">
-                                <IonCardTitle>1</IonCardTitle>
-                                <IonCardSubtitle><h1 className="lesson">Euzubilla i bismilla</h1></IonCardSubtitle>
-                            </IonCardHeader>
-
-                        </IonCard>
-                    </IonCol>
-                    <IonCol size="6">
-                        <IonCard className="lesson" color="burgundy" routerLink={`/ShahadahPage`}>
-                            <IonCardHeader className="ion-text-center">
-                                <IonCardTitle>2</IonCardTitle>
-                                <IonCardSubtitle><h1 className="lesson">Kelimei-Šehadet</h1></IonCardSubtitle>
-                            </IonCardHeader>
-
-                        </IonCard>
-                    </IonCol>
-                </IonRow>
-                <IonRow>
-                    <IonCol size="6">
-                    <IonCard className="lesson" color="brown" routerLink={`/OurFaithPage`}>
-                            <IonCardHeader className="ion-text-center">
-                                <IonCardTitle>3</IonCardTitle>
-                                <IonCardSubtitle><h1 className="lesson">Naša vjera</h1></IonCardSubtitle>
-                            </IonCardHeader>
-
-                        </IonCard>
-                    </IonCol>
-                    <IonCol size="6">
-                    <IonCard className="lesson" color="purple" routerLink={`/RabbiJessirPage`}>
-                            <IonCardHeader className="ion-text-center">
-                                <IonCardTitle>4</IonCardTitle>
-                                <IonCardSubtitle><h1 className="lesson">Rabbi jessir</h1></IonCardSubtitle>
-                            </IonCardHeader>
-
-                        </IonCard>
-                    </IonCol>
-                </IonRow>
-                <IonRow>
-                    <IonCol size="6">
-                    <IonCard className="lesson" color="purple" routerLink={`/SubhanekePage`}>
-                            <IonCardHeader className="ion-text-center">
-                                <IonCardTitle>5</IonCardTitle>
-                                <IonCardSubtitle><h1 className="lesson">Subhaneke</h1></IonCardSubtitle>
-                            </IonCardHeader>
-
-                        </IonCard>
-                    </IonCol>
-                    <IonCol size="6">
-                    <IonCard className="lesson" color="brown" routerLink={`/SelamPage`}>
-                            <IonCardHeader className="ion-text-center">
-                                <IonCardTitle>6</IonCardTitle>
-                                <IonCardSubtitle><h1 className="lesson">Selam</h1></IonCardSubtitle>
-                            </IonCardHeader>
-
-                        </IonCard>
-                    </IonCol>
-                </IonRow>
+          <div id="first" hidden={current !== 1}>
+          <IonGrid>
+              <IonRow>
+                <IonCol size="6">
+                  <IonItem
+                    key="1"
+                    routerLink={`/EuzaPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson purple">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>1</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Euzubilla i bismilla</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="2"
+                    routerLink={`/ShahadahPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson burgundy">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>2</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Kelimei-Šehadet</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                  <IonItem
+                    key="3"
+                    routerLink={`/OurFaithPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson brown">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>3</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Naša vjera</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="4"
+                    routerLink={`/RabbiJessirPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson purple">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>4</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Rabbi jessir</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                  <IonItem
+                    key="5"
+                    routerLink={`/SubhanekePage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson purple">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>5</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Subhaneke</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="6"
+                    routerLink={`/SelamPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson brown">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>6</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Selam</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
             </IonGrid>
-        </div>
-        <div className="ion-padding" id="second" hidden={current!==2}>
+          </div>
+          <div id="second" hidden={current !== 2}>
             <IonGrid>
-                <IonRow>
-                    <IonCol size="6">
-
-                    </IonCol>
-                    <IonCol size="6">
-                        
-                    </IonCol>
-                </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                <IonItem
+                    key="7"
+                    routerLink={`/SurahFatihaPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson razimic">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>7</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Sura El-Fatiha</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="8"
+                    routerLink={`/SurahNasPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson razimic">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>8</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Sura En-Nas</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                <IonItem
+                    key="9"
+                    routerLink={`/SurahFelekPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson razimic">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>9</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Sura El-Felek</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="10"
+                    routerLink={`/SurahIhlasPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson razimic">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>10</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Sura El-Ihlas</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
             </IonGrid>
-        </div>
-        <div className="ion-padding" id="third" hidden={current!==3}>
+          </div>
+         
+          <div id="third" hidden={current !== 3}>
             <IonGrid>
-                <IonRow>
-                    <IonCol size="6">
+              <IonRow>
+                <IonCol size="6">
+                <IonItem
+                    key="11"
+                    routerLink={`/SurahFatihaPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson dark-brown">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>11</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Imanski šarti</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
 
-                    </IonCol>
-                    <IonCol size="6">
-                        
-                    </IonCol>
-                </IonRow>
+                <IonCol size="6">
+                <IonItem
+                    key="12"
+                    routerLink={`/SurahFatihaPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson dark-brown">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>12</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Islamski šarti</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
             </IonGrid>
-        </div>
-        <div className="ion-padding" id="fourth" hidden={current!==4}>
+          </div>
+          <div id="fourth" hidden={current !== 4}>
             <IonGrid>
-                <IonRow>
-                    <IonCol size="6">
-
-                    </IonCol>
-                    <IonCol size="6">
-                        
-                    </IonCol>
-                </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                  <IonItem
+                    key="13"
+                    routerLink={`/WudhuPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson burgundy">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>13</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Abdest</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="14"
+                    routerLink={`/WudhuPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson burgundy">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>14</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Ezan</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                  <IonItem
+                    key="15"
+                    routerLink={`/WudhuPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start"className="lesson burgundy">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>15</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Ikamet</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="16"
+                    routerLink={`/WudhuPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson purple">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>16</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Et-tehijatu</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                  <IonItem
+                    key="17"
+                    routerLink={`/WudhuPage`}
+                    lines="none"
+                    detail={false}
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson purple">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>17</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Salavati</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+                <IonCol size="6">
+                <IonItem
+                    key="18"
+                    routerLink={`/WudhuPage`}
+                    lines="none"
+                    detail={false}
+                    color="light"
+                    className="lesson"
+                  >
+                    <IonAvatar slot="start" className="lesson purple">
+                      <IonLabel style={{marginTop:5}}>
+                        <h4>18</h4>
+                      </IonLabel>
+                    </IonAvatar>
+                    <IonNote className="ion-padding-start ion-text-center">
+                      <h4>Dove</h4>
+                    </IonNote>
+                  </IonItem>
+                </IonCol>
+              </IonRow>
             </IonGrid>
-        </div>
-        <div className="ion-padding" id="fifth" hidden={current!==5}>
+          </div>
+          <div className="ion-padding" id="fifth" hidden={current !== 5}>
             <IonGrid>
-                <IonRow>
-                    <IonCol size="6">
-
-                    </IonCol>
-                    <IonCol size="6">
-                        
-                    </IonCol>
-                </IonRow>
+              <IonRow>
+                <IonCol size="6"></IonCol>
+                <IonCol size="6"></IonCol>
+              </IonRow>
             </IonGrid>
-        </div>
+          </div>
         </IonContent>
       </IonPage>
     );
