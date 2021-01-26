@@ -1,4 +1,4 @@
-import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonHeader, IonImg, IonItem, IonLabel, IonList, IonPage,  IonSearchbar,  IonTitle, IonToolbar, useIonViewWillEnter } from '@ionic/react';
+import { IonAvatar, IonBackButton, IonButtons, IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage,  IonSearchbar,  IonToolbar, useIonViewWillEnter } from '@ionic/react';
 import React, { useEffect, useState } from 'react';
 import { RouteComponentProps } from 'react-router';
 import { dataService } from '../services/dataService';

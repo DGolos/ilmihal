@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IonAvatar, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
+import { IonAvatar, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
 
 import { timeService } from '../services/TimeService';
 
@@ -50,15 +50,15 @@ useIonViewWillEnter(() => {
                     routerLink={`/BookOneMainPage`}
                     lines="none"
                     detail={false}
-                    className="lesson"
+                    className="lesson burgundy"
                   >
                     <IonAvatar slot="start" className="lesson burgundy">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>1</h4>
                       </IonLabel>
                     </IonAvatar>
                     <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Prvi dio</h4>
+                      <h4>Ilmihal prvi dio</h4>
                     </IonNote>
                   </IonItem>
               </IonCol>
@@ -68,16 +68,15 @@ useIonViewWillEnter(() => {
                     routerLink={`/BookTwoMainPage`}
                     lines="none"
                     detail={false}
-                    color="light"
-                    className="lesson"
+                    className="lesson purple"
                   >
                     <IonAvatar slot="start" className="lesson purple">
-                      <IonLabel style={{marginTop:5}}>
+                      <IonLabel style={{marginTop:7}}>
                         <h4>2</h4>
                       </IonLabel>
                     </IonAvatar>
                     <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Drugi dio</h4>
+                      <h4>Ilmihal drugi dio</h4>
                     </IonNote>
                   </IonItem>
               </IonCol>

@@ -10,14 +10,35 @@ ion-item.welcome{
   
   }
 
+  ion-item.purple{
+    --background: rgba(85,26,139,.8);
+  }
+
+  ion-item.burgundy{
+    --background: rgba(145,41,104,.8);
+  }
+
+  ion-item.brown{
+    --background: rgba(199,122,88,.8);
+  }
+
+  ion-item.razimic{
+    --background: rgba(135,86,146,.8);
+  }
+
+  ion-item.dark-brown{
+    --background: rgba(123,0,0,.8);
+  }
+
   ion-item.lesson {
     --border-radius: 14px;
     margin-bottom: 15px;
-    --background: rgba(255,255,255);
+    
     
     h4{
       font-weight: bold;
       font-size:18px;
+      color:#FFFFFF;
       }
       h1 {
         font-weight: 600;
