@@ -6,6 +6,7 @@ import {
   IonGrid,
   IonHeader,
   IonItem,
+  IonLabel,
   IonPage,
   IonRow,
   IonText,
@@ -61,25 +62,23 @@ const FajrPrayerPage: React.FC = () => {
             </IonText>
           </IonItem>
           <IonItem className="lesson-note">
-            <IonRow>
-              <IonCol size="12">
-                <IonText>
-                  <h3 className="prayer-name-bold">Sunnet</h3>
-                </IonText>
-              </IonCol>
-            </IonRow>
-            <IonRow>
-              <IonCol size="6">
-                <IonText>
-                  <h3 className="prayer-name-normal">2 rekata</h3>
-                </IonText>
-              </IonCol>
-              <IonCol size="6">
-                
-              </IonCol>
-            </IonRow>
+            <IonLabel>
+            <h3 className="prayer-name-bold">Sunet</h3>
+            <h3 className="prayer-name-normal">2 rekata</h3>
+            </IonLabel>
+            <IonLabel className="ion-text-right">
+            <a className="prayer-details" href="/FajrPrayerDetailsPage/sunnah">Nauči klanjati</a> 
+            </IonLabel>
           </IonItem>
-          
+          <IonItem className="lesson-note">
+            <IonLabel>
+            <h3 className="prayer-name-bold">Farz</h3>
+            <h3 className="prayer-name-normal">2 rekata</h3>
+            </IonLabel>
+            <IonLabel className="ion-text-right">
+            <a className="prayer-details" href="/FajrPrayerDetailsPage/fardh">Nauči klanjati</a> 
+            </IonLabel>
+          </IonItem>
         </div>
       </IonContent>
     </IonPage>

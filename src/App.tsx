@@ -62,6 +62,7 @@ import DhuhrPrayerPage from './pages/BookOne/DhuhrPrayerPage';
 import AsrPrayerPage from './pages/BookOne/AsrPrayerPage';
 import MaghribPrayerPage from './pages/BookOne/MaghribPrayerPage';
 import IshaPrayerPage from './pages/BookOne/IshaPrayerPage';
+import FajrPrayerDetailsPage from './pages/BookOne/FajrPrayerDetailsPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -108,6 +109,7 @@ const App: React.FC = () => {
           <Route path="/EttehijatuPage" component={EttehijatuPage}/>
           <Route path="/SalavatPage" component={SalavatPage}/>
           <Route path="/FajrPrayerPage" component={FajrPrayerPage}/>
+          <Route path="/FajrPrayerDetailsPage/:type" component={FajrPrayerDetailsPage}/>
           <Route path="/DhuhrPrayerPage" component={DhuhrPrayerPage}/>
           <Route path="/AsrPrayerPage" component={AsrPrayerPage}/>
           <Route path="/MaghribPrayerPage" component={MaghribPrayerPage}/>
