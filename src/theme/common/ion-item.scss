@@ -10,6 +10,10 @@ ion-item.welcome{
   
   }
 
+  ion-item.shadow{
+    box-shadow: 0 0 3px 0 var(--ion-color-medium);
+  }
+
   ion-item.purple{
     --background: rgba(85,26,139,.8);
   }

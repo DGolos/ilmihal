@@ -54,7 +54,7 @@ iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</
           </IonSegment>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="arabic"}>
-        <IonItem className="lesson-note">
+        <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">El-hamdu-lillahi Rabbil-'alemin</p>
                     <p className="lesson-note">Errahmanir-rahim</p>
@@ -69,7 +69,7 @@ iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</
             </IonItem>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="translation"}>
-        <IonItem className="lesson-note">
+        <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">Hvala Allahu Gosposdaru svjetova</p>
                     <p className="lesson-note">Svemu Dobročinitelja, Milostivom</p>

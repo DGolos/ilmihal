@@ -1,4 +1,5 @@
-import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonToolbar } from "@ionic/react"
+import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
+import { caretForwardCircleOutline } from "ionicons/icons";
 import React, { useState } from "react"
 import { RouteComponentProps } from "react-router"
 
@@ -45,10 +46,21 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                   </IonButton>
                 </IonCol>
               </IonRow>
+              <IonRow>
+                <IonCol size="6">
+                <IonText>
+                  <h1 className="prayer-description">{match.params.type==="sunnah"?"Sunet":"Farz"}</h1>
+               </IonText>
+                </IonCol>
+                <IonCol size="6" className="aligh-right">
+                <IonText >
+                  <h2>2 rekata</h2>
+                </IonText>
+                </IonCol>
+              </IonRow>
             </IonGrid>
-            <IonLabel>
-              <h1 className="prayer-description">Farz</h1>
-            </IonLabel>
+            
+            
           </div>
           <div>
             <IonSlides>
@@ -58,16 +70,17 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                   detail={false}
                   color="light"
                   style={{ marginLeft: "15px", marginRight: "15px" }}
+                  
                 >
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="burgundy">Prije namaza</IonChip>
+                        <IonChip  color="burgundy">Prije namaza</IonChip>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
-                        <IonNote><h2>Nijet</h2></IonNote>
+                        <IonText><h2>Nijet</h2></IonText>
                       </IonCol>
                     </IonRow>
                     <IonRow>
@@ -79,8 +92,11 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
-                        <IonNote>
+                        <IonNote hidden={match.params.type!=="sunnah"}>
                         Sabahski sunnet se zanijeti ovako:Nevejtu en usallije lillahi teala salate sunnetil-fedžri edaen mustakbilel-kibleti - Allahu ekber.
+                        </IonNote>
+                        <IonNote hidden={match.params.type==="sunnah"}>
+                        Sabahski farz se zanijeti ovako:Nevejtu en usallije lillahi teala salate fardil-fedžri edaen mustakbilel-kibleti - Allahu ekber.
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -111,12 +127,25 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                         </IonChip>
                       </IonCol>
                     </IonRow>
-                    <IonRow className="ayah">
+                    <IonRow >
                       <IonCol size="12">
                         <IonNote>
-                          Euzu billahi mineššejta-nirradžim
-                          Bismillahir-rahmanir-rahim.
+                          Podignemo ruke do ušiju i izgovorimo "Allahu ekber".To je znak da je namaz počeo.Nakon tekbira proučimo subhaneke,euzu i bismillu.  
                         </IonNote>
+                      </IonCol>
+                    </IonRow>
+                    <IonRow className="ayah">
+                      <IonCol size="6">
+                        <IonText className="audio-link">Subhaneke</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      <IonCol size="6">
+                        <IonText className="audio-link">Euza i bismilla</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
                       </IonCol>
                     </IonRow>
                     <IonRow>
@@ -126,13 +155,21 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                         </IonChip>
                       </IonCol>
                     </IonRow>
-                    <IonRow className="ayah">
+                    <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                          Euzu billahi mineššejta-nirradžim
-                          Bismillahir-rahmanir-rahim.
+                          Suru El-Fatiha je obavezno učiti na svakom rekatu.Ako se ona ne prouči namaz nije važeći.
                         </IonNote>
                       </IonCol>
+                    </IonRow>
+                    <IonRow className="ayah">
+                      <IonCol size="12">
+                        <IonText className="audio-link">El-Fatiha</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
@@ -141,12 +178,31 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                         </IonChip>
                       </IonCol>
                     </IonRow>
-                    <IonRow className="ayah">
+                    <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                          Euzu billahi mineššejta-nirradžim
-                          Bismillahir-rahmanir-rahim.
+                          Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3 ajeta iz duže sure.
                         </IonNote>
+                      </IonCol>
+                    </IonRow>
+                    <IonRow>
+                    <IonCol size="4">
+                        <IonText className="audio-link">En-Nas</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      <IonCol size="4">
+                        <IonText className="audio-link">El-Felek</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      <IonCol size="4">
+                        <IonText className="audio-link">El-Ihlas</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
                       </IonCol>
                     </IonRow>
                     <IonRow>
@@ -156,13 +212,21 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                         </IonChip>
                       </IonCol>
                     </IonRow>
-                    <IonRow className="ayah">
+                    <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:
-Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
+                        Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
                         </IonNote>
                       </IonCol>
+                    </IonRow>
+                    <IonRow className="ayah">
+                      <IonCol size="12">
+                        <IonText className="audio-link">Ruk'u</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
@@ -177,6 +241,15 @@ Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
                         Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane rabbijel-e ́ala.
                         </IonNote>
                       </IonCol>
+                    </IonRow>
+                    <IonRow >
+                      <IonCol size="12">
+                        <IonText className="audio-link">Sedžda</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      
                     </IonRow>
                   </IonGrid>
                   
@@ -219,13 +292,21 @@ Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
                         </IonChip>
                       </IonCol>
                     </IonRow>
-                    <IonRow className="ayah">
+                    <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                          Euzu billahi mineššejta-nirradžim
-                          Bismillahir-rahmanir-rahim.
+                        Suru El-Fatiha je obavezno učiti na svakom rekatu.Ako se ona ne prouči namaz nije važeći.
                         </IonNote>
                       </IonCol>
+                    </IonRow>
+                    <IonRow className="ayah">
+                      <IonCol size="12">
+                        <IonText className="audio-link">El-Fatiha</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
@@ -234,12 +315,31 @@ Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
                         </IonChip>
                       </IonCol>
                     </IonRow>
-                    <IonRow className="ayah">
+                    <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                          Euzu billahi mineššejta-nirradžim
-                          Bismillahir-rahmanir-rahim.
+                          Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3 ajeta iz duže sure.
                         </IonNote>
+                      </IonCol>
+                    </IonRow>
+                    <IonRow>
+                    <IonCol size="4">
+                        <IonText className="audio-link">En-Nas</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      <IonCol size="4">
+                        <IonText className="audio-link">El-Felek</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      <IonCol size="4">
+                        <IonText className="audio-link">El-Ihlas</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
                       </IonCol>
                     </IonRow>
                     <IonRow>
@@ -249,13 +349,21 @@ Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
                         </IonChip>
                       </IonCol>
                     </IonRow>
-                    <IonRow className="ayah">
+                    <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:
-Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
+                        Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
                         </IonNote>
                       </IonCol>
+                    </IonRow>
+                    <IonRow className="ayah">
+                      <IonCol size="12">
+                        <IonText className="audio-link">Ruk'u</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
@@ -270,6 +378,15 @@ Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
                         Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane rabbijel-e ́ala.
                         </IonNote>
                       </IonCol>
+                    </IonRow>
+                    <IonRow >
+                      <IonCol size="12">
+                        <IonText className="audio-link">Sedžda</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      
                     </IonRow>
                   </IonGrid>
                 </IonItem>

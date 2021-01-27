@@ -46,7 +46,7 @@ const SurahNasPage: React.FC = () => {
           </IonSegment>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="arabic"}>
-        <IonItem className="lesson-note">
+        <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">Kul euzu bi rabbin-nas</p>
                     <p className="lesson-note">Melikin-nas</p>
@@ -59,7 +59,7 @@ const SurahNasPage: React.FC = () => {
             </IonItem>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="translation"}>
-        <IonItem className="lesson-note">
+        <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">Reci:"Tražim zaštitu Gospodara ljudi</p>
                     <p className="lesson-note">Vladara ljudi</p>

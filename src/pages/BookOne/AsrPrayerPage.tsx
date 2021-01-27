@@ -20,7 +20,7 @@ const AsrPrayerPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-asr" fullscreen>
-          <div style={{ marginTop: 50, marginLeft: 15, marginRight: 15 }}>
+          <div style={{ marginTop: 30, marginLeft: 15, marginRight: 15 }}>
             <IonItem className="welcome">
               <IonGrid>
                 <IonRow className="ion-no-padding">

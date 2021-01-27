@@ -46,7 +46,7 @@ const SurahIhlasPage: React.FC = () => {
           </IonSegment>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="arabic"}>
-        <IonItem className="lesson-note">
+        <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">Kul Huvallahu ehad</p>
                     <p className="lesson-note">Allahus-Samed</p>
@@ -57,7 +57,7 @@ const SurahIhlasPage: React.FC = () => {
             </IonItem>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="translation"}>
-        <IonItem className="lesson-note">
+        <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">Reci: On, Allah, - jedan je.</p>
                     <p className="lesson-note">On je Neograničeni Gospodar koga svako treba moliti za pomoć i milost</p>

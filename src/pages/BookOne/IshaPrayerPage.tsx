@@ -20,7 +20,7 @@ const IshaPrayerPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-isha" fullscreen>
-          <div style={{ marginTop: 50, marginLeft: 15, marginRight: 15 }}>
+          <div style={{ marginTop: 30, marginLeft: 15, marginRight: 15 }}>
             <IonItem className="welcome">
               <IonGrid>
                 <IonRow className="ion-no-padding">
