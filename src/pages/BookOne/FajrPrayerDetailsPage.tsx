@@ -15,12 +15,9 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-          <div className="ion-padding">
-            <IonLabel>
-              <h1 className="prayer-description">Kako se klanja Sabah namaz</h1>
-            </IonLabel>
+          <div style={{ marginTop: 0, marginLeft: 15, marginRight: 15 }}>
             <IonGrid>
-              <IonRow>
+              <IonRow className="ion-no-padding">
                 <IonCol size="6">
                   <IonButton
                     color={current === 1 ? "burgundy" : "brown"}
@@ -46,13 +43,13 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                   </IonButton>
                 </IonCol>
               </IonRow>
-              <IonRow>
-                <IonCol size="6">
+              <IonRow style={{ marginTop: 5}}>
+                <IonCol size="7">
                 <IonText>
-                  <h1 className="prayer-description">{match.params.type==="sunnah"?"Sunet":"Farz"}</h1>
+                  <h1 className="prayer-description">Sabahski {match.params.type==="sunnah"?"sunet":"farz"}</h1>
                </IonText>
                 </IonCol>
-                <IonCol size="6" className="aligh-right">
+                <IonCol size="5">
                 <IonText >
                   <h2>2 rekata</h2>
                 </IonText>
@@ -205,7 +202,28 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                         </IonButton>
                       </IonCol>
                     </IonRow>
-                    <IonRow>
+                    
+                  </IonGrid>
+                  
+                </IonItem>
+              </IonSlide>
+              <IonSlide>
+              <IonItem
+                  key="2"
+                  detail={false}
+                  lines="none"
+                  color="light"
+                  style={{ marginLeft: "15px", marginRight: "15px" }}
+                >
+                  <IonGrid className="ion-text-left">
+                <IonRow>
+                      <IonCol size="12">
+                        <IonNote>
+                          <h2>Prvi rekat(nastavak)</h2>
+                        </IonNote>
+                      </IonCol>
+                    </IonRow>
+                <IonRow>
                       <IonCol size="12">
                         <IonChip color="burgundy">
                           <IonLabel>Ruk'u</IonLabel>
@@ -251,9 +269,9 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                       </IonCol>
                       
                     </IonRow>
-                  </IonGrid>
-                  
+                </IonGrid>
                 </IonItem>
+                
               </IonSlide>
               <IonSlide>
                 <IonItem
@@ -342,7 +360,27 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                         </IonButton>
                       </IonCol>
                     </IonRow>
-                    <IonRow>
+                    
+                  </IonGrid>
+                </IonItem>
+              </IonSlide>
+              <IonSlide>
+              <IonItem
+                  key="1"
+                  detail={false}
+                  lines="none"
+                  color="light"
+                  style={{ marginLeft: "15px", marginRight: "15px" }}
+                >
+                  <IonGrid className="ion-text-left">
+                  <IonRow>
+                      <IonCol size="12">
+                        <IonNote>
+                          <h2>Drugi rekat(nastavak)</h2>
+                        </IonNote>
+                      </IonCol>
+                    </IonRow>
+                  <IonRow>
                       <IonCol size="12">
                         <IonChip color="burgundy">
                           <IonLabel>Ruku</IonLabel>
@@ -389,7 +427,73 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                       
                     </IonRow>
                   </IonGrid>
+                  </IonItem>
+              </IonSlide>
+              <IonSlide>
+                <IonItem key="1"
+                  detail={false}
+                  lines="none"
+                  color="light"
+                  style={{ marginLeft: "15px", marginRight: "15px" }}>
+                <IonGrid className="ion-text-left">
+                <IonRow>
+                      <IonCol size="12">
+                        <IonNote>
+                          <h2>Završetak namaza</h2>
+                        </IonNote>
+                      </IonCol>
+                    </IonRow>
+                    <IonRow>
+                      <IonCol size="12">
+                        <IonChip color="burgundy">
+                          <IonLabel>Kadei-ehire</IonLabel>
+                        </IonChip>
+                      </IonCol>
+                    </IonRow>
+                    <IonRow>
+                      <IonCol size="12">
+                        <IonNote>
+                        Kadei-ehire je posljednje sjedenje na kraju namaza.Na zadnjem sjedenju svih namaza učimo et-tehijatu,salavate i dove.
+                        </IonNote>
+                      </IonCol>
+                    </IonRow>
+                    <IonRow className="ayah">
+                    <IonCol size="4">
+                        <IonText className="audio-link">Et-tehijatu</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      <IonCol size="4">
+                        <IonText className="audio-link">Salavati</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                      <IonCol size="4">
+                        <IonText className="audio-link">Dove</IonText>
+                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
+                        </IonButton>
+                      </IonCol>
+                    </IonRow>
+                    <IonRow>
+                      <IonCol size="12">
+                        <IonChip color="burgundy">
+                          <IonLabel>Selam</IonLabel>
+                        </IonChip>
+                      </IonCol>
+                    </IonRow>
+                    <IonRow>
+                      <IonCol size="12">
+                        <IonNote>
+                        Namaz završavamo predajom selema prvo na desnu stranu pa na lijevu.Selem se predaje izgovarajući es-selamu alejkum ve rahmetullah.
+                        </IonNote>
+                      </IonCol>
+                    </IonRow>
+                </IonGrid>
                 </IonItem>
+                
               </IonSlide>
             </IonSlides>
           </div>
