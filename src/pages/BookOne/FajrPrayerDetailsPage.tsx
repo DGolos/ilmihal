@@ -2,6 +2,11 @@ import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonG
 import { caretForwardCircleOutline } from "ionicons/icons";
 import React, { useState } from "react"
 import { RouteComponentProps } from "react-router"
+import FirstRakah from "../../components/FirstRakah";
+import FirstRakahPartTwo from "../../components/FirstRakahPartTwo";
+import PrayerEnd from "../../components/PrayerEnd";
+import SecondRakah from "../../components/SecondRakah";
+import SecondRakahPartTwo from "../../components/SecondRakahPartTwo";
 
 export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
     const[current,setCurrent]=useState(1);
@@ -15,7 +20,7 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-          <div style={{ marginTop: 0, marginLeft: 15, marginRight: 15 }}>
+          <div style={{ marginTop: 0, marginLeft: 15, marginRight: 15 }} >
             <IonGrid>
               <IonRow className="ion-no-padding">
                 <IonCol size="6">
@@ -59,13 +64,14 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
             
             
           </div>
-          <div>
+          <div id="read" hidden={current!==1}>
             <IonSlides>
               <IonSlide>
                 <IonItem
                   key="1"
                   detail={false}
                   color="light"
+                  lines="none"
                   style={{ marginLeft: "15px", marginRight: "15px" }}
                   
                 >
@@ -101,399 +107,232 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                 </IonItem>
               </IonSlide>
               <IonSlide>
-                <IonItem
+                <FirstRakah/>
+              </IonSlide>
+              <IonSlide>
+                <FirstRakahPartTwo/>
+                
+                
+              </IonSlide>
+              <IonSlide>
+                <SecondRakah/>
+              </IonSlide>
+              <IonSlide>
+                <SecondRakahPartTwo/>
+              </IonSlide>
+              <IonSlide>
+                <PrayerEnd/>
+                
+              </IonSlide>
+            </IonSlides>
+          </div>
+          <div id="watch" hidden={current!==2}>
+            <IonSlides>
+              <IonSlide>
+                <IonGrid>
+                  <IonRow>
+                    <IonCol size="12">
+                    <div className="img-wrapper">
+                      <img src="/assets/images/Ruku.png"/>
+                    </div>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                    <IonItem
                   key="1"
                   detail={false}
-                  lines="none"
                   color="light"
+                  lines="none"
                   style={{ marginLeft: "15px", marginRight: "15px" }}
-                >
-                  <IonGrid className="ion-text-left">
-                  <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          <h2>Prvi rekat</h2>
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Tekbir</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow >
-                      <IonCol size="12">
-                        <IonNote>
-                          Podignemo ruke do ušiju i izgovorimo "Allahu ekber".To je znak da je namaz počeo.Nakon tekbira proučimo subhaneke,euzu i bismillu.  
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow className="ayah">
-                      <IonCol size="6">
-                        <IonText className="audio-link">Subhaneke</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      <IonCol size="6">
-                        <IonText className="audio-link">Euza i bismilla</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Fatiha</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          Suru El-Fatiha je obavezno učiti na svakom rekatu.Ako se ona ne prouči namaz nije važeći.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow className="ayah">
-                      <IonCol size="12">
-                        <IonText className="audio-link">El-Fatiha</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Sura</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3 ajeta iz duže sure.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                    <IonCol size="4">
-                        <IonText className="audio-link">En-Nas</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      <IonCol size="4">
-                        <IonText className="audio-link">El-Felek</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      <IonCol size="4">
-                        <IonText className="audio-link">El-Ihlas</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                    </IonRow>
-                    
-                  </IonGrid>
                   
-                </IonItem>
-              </IonSlide>
-              <IonSlide>
-              <IonItem
-                  key="2"
-                  detail={false}
-                  lines="none"
-                  color="light"
-                  style={{ marginLeft: "15px", marginRight: "15px" }}
                 >
                   <IonGrid className="ion-text-left">
-                <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          <h2>Prvi rekat(nastavak)</h2>
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                        <h2>Pocetak</h2>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                      <IonChip color="burgundy">
+                        <IonLabel>Nijet</IonLabel>
+                      </IonChip>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                  <IonCol size="12">
+                  <IonNote hidden={match.params.type!=="sunnah"}>
+                        Sabahski sunnet se zanijeti ovako:Nevejtu en usallije lillahi teala salate sunnetil-fedžri edaen mustakbilel-kibleti - Allahu ekber.
                         </IonNote>
-                      </IonCol>
-                    </IonRow>
-                <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Ruk'u</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                        Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
+                        <IonNote hidden={match.params.type==="sunnah"}>
+                        Sabahski farz se zanijeti ovako:Nevejtu en usallije lillahi teala salate fardil-fedžri edaen mustakbilel-kibleti - Allahu ekber.
                         </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow className="ayah">
-                      <IonCol size="12">
-                        <IonText className="audio-link">Ruk'u</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Sedžda</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                        Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane rabbijel-e ́ala.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow >
-                      <IonCol size="12">
-                        <IonText className="audio-link">Sedžda</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      
-                    </IonRow>
+                  </IonCol>
+                  </IonRow>
                 </IonGrid>
                 </IonItem>
-                
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+               
               </IonSlide>
               <IonSlide>
-                <IonItem
+                <IonGrid>
+                  <IonRow>
+                    <IonCol size="12">
+                    <div className="img-wrapper">
+                      <img src="/assets/images/Ruku.png"/>
+                    </div>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                    <IonItem
                   key="1"
                   detail={false}
-                  lines="none"
                   color="light"
+                  lines="none"
                   style={{ marginLeft: "15px", marginRight: "15px" }}
+                  
                 >
                   <IonGrid className="ion-text-left">
                   <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          <h2>Drugi rekat</h2>
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Bismilla</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow className="ayah">
-                      <IonCol size="12">
-                        <IonNote>
-                          Bismillahir-rahmanir-rahim.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Fatiha</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                        Suru El-Fatiha je obavezno učiti na svakom rekatu.Ako se ona ne prouči namaz nije važeći.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow className="ayah">
-                      <IonCol size="12">
-                        <IonText className="audio-link">El-Fatiha</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Sura</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3 ajeta iz duže sure.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                    <IonCol size="4">
-                        <IonText className="audio-link">En-Nas</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      <IonCol size="4">
-                        <IonText className="audio-link">El-Felek</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      <IonCol size="4">
-                        <IonText className="audio-link">El-Ihlas</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                    </IonRow>
-                    
-                  </IonGrid>
-                </IonItem>
-              </IonSlide>
-              <IonSlide>
-              <IonItem
-                  key="1"
-                  detail={false}
-                  lines="none"
-                  color="light"
-                  style={{ marginLeft: "15px", marginRight: "15px" }}
-                >
-                  <IonGrid className="ion-text-left">
+                    <IonCol size="12">
+                      <IonText>
+                        <h2>Prvi rekat</h2>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
                   <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          <h2>Drugi rekat(nastavak)</h2>
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                      <IonChip color="burgundy">
+                        <IonLabel>Tekbir</IonLabel>
+                      </IonChip>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
                   <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Ruku</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                        Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow className="ayah">
-                      <IonCol size="12">
-                        <IonText className="audio-link">Ruk'u</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Sedžda</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                        Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane rabbijel-e ́ala.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow >
-                      <IonCol size="12">
-                        <IonText className="audio-link">Sedžda</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      
-                    </IonRow>
-                  </IonGrid>
-                  </IonItem>
-              </IonSlide>
-              <IonSlide>
-                <IonItem key="1"
-                  detail={false}
-                  lines="none"
-                  color="light"
-                  style={{ marginLeft: "15px", marginRight: "15px" }}>
-                <IonGrid className="ion-text-left">
-                <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          <h2>Završetak namaza</h2>
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Kadei-ehire</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                        Kadei-ehire je posljednje sjedenje na kraju namaza.Na zadnjem sjedenju svih namaza učimo et-tehijatu,salavate i dove.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow className="ayah">
-                    <IonCol size="4">
-                        <IonText className="audio-link">Et-tehijatu</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      <IonCol size="4">
-                        <IonText className="audio-link">Salavati</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                      <IonCol size="4">
-                        <IonText className="audio-link">Dove</IonText>
-                        <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
-                          <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
-                        </IonButton>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonChip color="burgundy">
-                          <IonLabel>Selam</IonLabel>
-                        </IonChip>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                        Namaz završavamo predajom selema prvo na desnu stranu pa na lijevu.Selem se predaje izgovarajući es-selamu alejkum ve rahmetullah.
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
+                  <IonCol size="12">
+                  <IonNote hidden={match.params.type!=="sunnah"}>
+                  Podignemo ruke do ušiju i izgovorimo "Allahu ekber".To je znak da je namaz počeo.
+                  </IonNote>
+                        
+                  </IonCol>
+                  </IonRow>
                 </IonGrid>
                 </IonItem>
-                
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+               
+              </IonSlide>
+              <IonSlide>
+                <IonGrid>
+                  <IonRow>
+                    <IonCol size="12">
+                    <div className="img-wrapper">
+                      <img src="/assets/images/Ruku.png"/>
+                    </div>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                    <IonItem
+                  key="1"
+                  detail={false}
+                  color="light"
+                  lines="none"
+                  style={{ marginLeft: "15px", marginRight: "15px" }}
+                  
+                >
+                  <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                        <h2>Prvi rekat</h2>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                      <IonChip color="burgundy">
+                        <IonLabel>Ruku</IonLabel>
+                      </IonChip>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                  <IonCol size="12">
+                  <IonNote>
+                  Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.
+              </IonNote>
+                        
+                  </IonCol>
+                  </IonRow>
+                </IonGrid>
+                </IonItem>
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+               
+              </IonSlide>
+              <IonSlide>
+                <IonGrid>
+                  <IonRow>
+                    <IonCol size="12">
+                    <div className="img-wrapper">
+                      <img src="/assets/images/Ruku.png"/>
+                    </div>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                    <IonItem
+                  key="1"
+                  detail={false}
+                  color="light"
+                  lines="none"
+                  style={{ marginLeft: "15px", marginRight: "15px" }}
+                  
+                >
+                  <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                        <h2>Prvi rekat</h2>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                      <IonChip color="burgundy">
+                        <IonLabel>Pred se</IonLabel>
+                      </IonChip>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                  <IonCol size="12">
+                  <IonNote hidden={match.params.type!=="sunnah"}>
+                    Na stajanju prvog rekata proučimo subhaneke,euzu i bismillu,Fatihu i jednu suru.
+                  </IonNote>
+                        
+                  </IonCol>
+                  </IonRow>
+                </IonGrid>
+                </IonItem>
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+               
               </IonSlide>
             </IonSlides>
           </div>
