@@ -63,6 +63,10 @@ import AsrPrayerPage from './pages/BookOne/AsrPrayerPage';
 import MaghribPrayerPage from './pages/BookOne/MaghribPrayerPage';
 import IshaPrayerPage from './pages/BookOne/IshaPrayerPage';
 import FajrPrayerDetailsPage from './pages/BookOne/FajrPrayerDetailsPage';
+import DhuhrPrayerDetailsPage from './pages/BookOne/DhuhrPrayerPageDetails';
+import AsrPrayerDetailsPage from './pages/BookOne/AsrPrayerPageDetails';
+import MaghribPrayerDetailsPage from './pages/BookOne/MaghribPrayerPageDetails';
+import IshaPrayerDetailsPage from './pages/BookOne/IshaPrayerPageDetails';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -110,9 +114,13 @@ const App: React.FC = () => {
           <Route path="/SalavatPage" component={SalavatPage}/>
           <Route path="/FajrPrayerPage" component={FajrPrayerPage}/>
           <Route path="/FajrPrayerDetailsPage/:type" component={FajrPrayerDetailsPage}/>
+          <Route path="/DhuhrPrayerDetailsPage/:type" component={DhuhrPrayerDetailsPage}/>
           <Route path="/DhuhrPrayerPage" component={DhuhrPrayerPage}/>
           <Route path="/AsrPrayerPage" component={AsrPrayerPage}/>
+          <Route path="/AsrPrayerDetailsPage/:type" component={AsrPrayerDetailsPage}/>
+          <Route path="/MaghribPrayerDetailsPage/:type" component={MaghribPrayerDetailsPage}/>
           <Route path="/MaghribPrayerPage" component={MaghribPrayerPage}/>
+          <Route path="/IshaPrayerDetailsPage/:type" component={IshaPrayerDetailsPage}/>
           <Route path="/IshaPrayerPage" component={IshaPrayerPage}/>
           <Route path="/BookTwoMainPage" component={BookTwoMainPage}/>
         </IonRouterOutlet>

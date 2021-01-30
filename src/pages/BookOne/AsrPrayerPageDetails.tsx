@@ -1,21 +1,27 @@
-import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
+import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader,  IonItem, IonLabel, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React, { useState } from "react"
+import React, {  useState } from "react"
 import { RouteComponentProps } from "react-router"
 import FirstRakah from "../../components/FirstRakah";
 import FirstRakahPartTwo from "../../components/FirstRakahPartTwo";
+import FirstTashahud from "../../components/FirstTashahud";
+import FourthRakah from "../../components/FourthRakah";
+import FourthRakahPartTwo from "../../components/FourthRakahPartTwo";
+import PrayerEnd from "../../components/PrayerEnd";
 import SecondRakah from "../../components/SecondRakah";
 import SecondRakahPartTwo from "../../components/SecondRakahPartTwo";
 import Tashashud from "../../components/Tashahud";
+import ThirdRakah from "../../components/ThirdRakah";
+import ThirdRakahPartTwo from "../../components/ThirdRakahPartTwo";
 
-export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
-    
+export const AsrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
+        
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
           <IonToolbar className="prayer">
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/FajrPrayerPage" />
+              <IonBackButton color="burgundy" defaultHref="/AsrPrayerPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -26,12 +32,12 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
               <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText>
-                  <h1 className="prayer-description">Sabahski {match.params.type==="sunnah"?"sunet":"farz"}</h1>
+                  <h1 className="prayer-description">Ikindijski {match.params.type==="sunnah"?"sunet":"farz"}</h1>
                </IonText>
                 </IonCol>
                 <IonCol size="5">
                 <IonText >
-                  <h2>2 rekata</h2>
+                  <h2>4 rekata</h2>
                 </IonText>
                 </IonCol>
               </IonRow>
@@ -71,11 +77,12 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                     <IonRow>
                       <IonCol size="12">
                         <IonNote hidden={match.params.type!=="sunnah"}>
-                        Sabahski sunnet se zanijeti ovako:Nevejtu en usallije lillahi teala salate sunnetil-fedžri edaen mustakbilel-kibleti - Allahu ekber.
+                        Ikindijski sunnet se zanijjeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-‘asri edaen mustakbilel-kibleti - Allahu ekber.
                         </IonNote>
-                        <IonNote hidden={match.params.type==="sunnah"}>
-                        Sabahski farz se zanijeti ovako:Nevejtu en usallije lillahi teala salate fardil-fedžri edaen mustakbilel-kibleti - Allahu ekber.
+                        <IonNote hidden={match.params.type!=="fardh"}>
+                        Ikindijski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-‘asri edaen mustakbilel-kibleti - Allahu ekber.
                         </IonNote>
+                        
                       </IonCol>
                     </IonRow>
                   </IonGrid>
@@ -96,15 +103,31 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                 <SecondRakahPartTwo/>
               </IonSlide>
               <IonSlide>
+                <Tashashud first={true}/>
+                
+              </IonSlide>
+              <IonSlide>
+                    <ThirdRakah type={match.params.type} showSubhaneke={match.params.type==="sunnah"?true:false}/>
+                  </IonSlide>
+                  <IonSlide>
+                    <ThirdRakahPartTwo />
+                  </IonSlide>
+              <IonSlide>
+                <FourthRakah surah={match.params.type==="sunnah"?true:false}/>
+                </IonSlide>
+                <IonSlide>
+                <FourthRakahPartTwo />
+                </IonSlide>
+                <IonSlide>
                 <Tashashud first={false}/>
                 
               </IonSlide>
             </IonSlides>
           </div>
-          
+         
         </IonContent>
       </IonPage>
     );
 }
 
-export default FajrPrayerDetailsPage;
+export default AsrPrayerDetailsPage;

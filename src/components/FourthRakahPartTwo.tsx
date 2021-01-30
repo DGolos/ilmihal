@@ -2,13 +2,7 @@ import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNot
 import { caretForwardCircleOutline } from "ionicons/icons";
 import React from "react";
 
-interface PrayerEndProps {
-  hidden?: boolean;
-}
-
-const PrayerEnd: React.FC<PrayerEndProps> = ({ hidden}) => {
-
-    if (hidden) return <></>;
+const FourthRakahPartTwo: React.FC = () => {
     return (
       <IonItem
         key="1"
@@ -21,58 +15,29 @@ const PrayerEnd: React.FC<PrayerEndProps> = ({ hidden}) => {
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2>Završetak namaza</h2>
+                <h2>Četvrti rekat(nastavak)</h2>
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonChip color="burgundy">
-                <IonLabel>Kadei-ehire</IonLabel>
+                <IonLabel>Ruku</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Kadei-ehire je posljednje sjedenje na kraju namaza.Na zadnjem
-                sjedenju svih namaza učimo et-tehijatu,salavate i dove.
+                Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim.
+                Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim
+                malo zastanemo i reknemo: Rabbena lekel-hamd.
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow className="ayah">
-            <IonCol size="4">
-              <IonText className="audio-link">Et-tehijatu</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color="burgundy"
-                />
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonText className="audio-link">Salavati</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color="burgundy"
-                />
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonText className="audio-link">Dove</IonText>
+            <IonCol size="12">
+              <IonText className="audio-link">Ruk'u</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {}}
@@ -90,17 +55,33 @@ const PrayerEnd: React.FC<PrayerEndProps> = ({ hidden}) => {
           <IonRow>
             <IonCol size="12">
               <IonChip color="burgundy">
-                <IonLabel>Selam</IonLabel>
+                <IonLabel>Sedžda</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Namaz završavamo predajom selema prvo na desnu stranu pa na
-                lijevu.Selem se predaje izgovarajući es-selamu alejkum ve
-                rahmetullah.
+                Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane
+                rabbijel-e ́ala.
               </IonNote>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="12">
+              <IonText className="audio-link">Sedžda</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color="burgundy"
+                />
+              </IonButton>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -108,4 +89,4 @@ const PrayerEnd: React.FC<PrayerEndProps> = ({ hidden}) => {
     );
 }
 
-export default PrayerEnd;
+export default FourthRakahPartTwo;

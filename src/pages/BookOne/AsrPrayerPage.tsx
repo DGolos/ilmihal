@@ -54,7 +54,7 @@ const AsrPrayerPage: React.FC = () => {
                 <h3 className="prayer-name-normal">4 rekata</h3>
               </IonLabel>
               <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="https://www.w3schools.com">
+                <a className="prayer-details" href="/AsrPrayerDetailsPage/sunnah">
                   Nauči klanjati
                 </a>
               </IonLabel>
@@ -65,7 +65,7 @@ const AsrPrayerPage: React.FC = () => {
                 <h3 className="prayer-name-normal">4 rekata</h3>
               </IonLabel>
               <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="https://www.w3schools.com">
+                <a className="prayer-details" href="AsrPrayerDetailsPage/fardh">
                   Nauči klanjati
                 </a>
               </IonLabel>

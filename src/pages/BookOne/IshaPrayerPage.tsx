@@ -54,7 +54,7 @@ const IshaPrayerPage: React.FC = () => {
             <h3 className="prayer-name-normal">4 rekata</h3>
             </IonLabel>
             <IonLabel className="ion-text-right">
-            <a className="prayer-details" href="https://www.w3schools.com">Nauči klanjati</a> 
+            <a className="prayer-details" href="/IshaPrayerDetailsPage/sunnah">Nauči klanjati</a> 
             </IonLabel>
           </IonItem>
           <IonItem className="lesson-note">
@@ -63,7 +63,7 @@ const IshaPrayerPage: React.FC = () => {
             <h3 className="prayer-name-normal">4 rekata</h3>
             </IonLabel>
             <IonLabel className="ion-text-right">
-            <a className="prayer-details" href="https://www.w3schools.com">Nauči klanjati</a> 
+            <a className="prayer-details" href="/IshaPrayerDetailsPage/fardh">Nauči klanjati</a> 
             </IonLabel>
           </IonItem>
           <IonItem className="lesson-note">
@@ -72,7 +72,7 @@ const IshaPrayerPage: React.FC = () => {
             <h3 className="prayer-name-normal">2 rekata</h3>
             </IonLabel>
             <IonLabel className="ion-text-right">
-            <a className="prayer-details" href="https://www.w3schools.com">Nauči klanjati</a> 
+            <a className="prayer-details" href="/IshaPrayerDetailsPage/sunsunnah">Nauči klanjati</a> 
             </IonLabel>
           </IonItem>
           <IonItem className="lesson-note">
@@ -81,7 +81,7 @@ const IshaPrayerPage: React.FC = () => {
             <h3 className="prayer-name-normal">3 rekata</h3>
             </IonLabel>
             <IonLabel className="ion-text-right">
-            <a className="prayer-details" href="https://www.w3schools.com">Nauči klanjati</a> 
+            <a className="prayer-details" href="/IshaPrayerDetailsPage/witr">Nauči klanjati</a> 
             </IonLabel>
           </IonItem>
         </div>

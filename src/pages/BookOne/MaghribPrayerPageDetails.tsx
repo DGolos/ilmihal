@@ -4,18 +4,21 @@ import React, { useState } from "react"
 import { RouteComponentProps } from "react-router"
 import FirstRakah from "../../components/FirstRakah";
 import FirstRakahPartTwo from "../../components/FirstRakahPartTwo";
+import PrayerEnd from "../../components/PrayerEnd";
 import SecondRakah from "../../components/SecondRakah";
 import SecondRakahPartTwo from "../../components/SecondRakahPartTwo";
 import Tashashud from "../../components/Tashahud";
+import ThirdRakah from "../../components/ThirdRakah";
+import ThirdRakahPartTwo from "../../components/ThirdRakahPartTwo";
 
-export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
+export const MaghribPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
     
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
           <IonToolbar className="prayer">
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/FajrPrayerPage" />
+              <IonBackButton color="burgundy" defaultHref="/MaghribPrayerPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -26,12 +29,12 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
               <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText>
-                  <h1 className="prayer-description">Sabahski {match.params.type==="sunnah"?"sunet":"farz"}</h1>
+                  <h1 className="prayer-description">Akšamski {match.params.type==="sunnah"?"sunet":"farz"}</h1>
                </IonText>
                 </IonCol>
                 <IonCol size="5">
                 <IonText >
-                  <h2>2 rekata</h2>
+                  <h2>{match.params.type==="sunnah"?2:3} rekata</h2>
                 </IonText>
                 </IonCol>
               </IonRow>
@@ -71,10 +74,10 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                     <IonRow>
                       <IonCol size="12">
                         <IonNote hidden={match.params.type!=="sunnah"}>
-                        Sabahski sunnet se zanijeti ovako:Nevejtu en usallije lillahi teala salate sunnetil-fedžri edaen mustakbilel-kibleti - Allahu ekber.
+                        Akšamski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-magribi edaen mustakbilel-kibleti - Allahu ekber.
                         </IonNote>
                         <IonNote hidden={match.params.type==="sunnah"}>
-                        Sabahski farz se zanijeti ovako:Nevejtu en usallije lillahi teala salate fardil-fedžri edaen mustakbilel-kibleti - Allahu ekber.
+                        Akšamski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-magribi edaen mustakbilel-kibleti - Allahu ekber.
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -96,9 +99,24 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                 <SecondRakahPartTwo/>
               </IonSlide>
               <IonSlide>
-                <Tashashud first={false}/>
+                <Tashashud first={match.params.type!=="sunnah"?true:false}/>
                 
               </IonSlide>
+              {match.params.type === "fardh" && (
+                <>
+                  <IonSlide>
+                    <ThirdRakah type={match.params.type} showSubhaneke={false}/>
+                  </IonSlide>
+                  <IonSlide>
+                    <ThirdRakahPartTwo />
+                  </IonSlide>
+                 
+                    
+                  <IonSlide>
+                    <Tashashud first={false} />
+                  </IonSlide>
+                </>
+              )}
             </IonSlides>
           </div>
           
@@ -107,4 +125,4 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
     );
 }
 
-export default FajrPrayerDetailsPage;
+export default MaghribPrayerDetailsPage;

@@ -1,14 +1,13 @@
 import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText } from "@ionic/react";
 import { caretForwardCircleOutline } from "ionicons/icons";
 import React from "react";
+import { RouteComponentProps } from "react-router";
 
-interface PrayerEndProps {
-  hidden?: boolean;
+interface FourthRakahPropsProps {
+  surah?: boolean;
 }
 
-const PrayerEnd: React.FC<PrayerEndProps> = ({ hidden}) => {
-
-    if (hidden) return <></>;
+const FourthRakah:  React.FC<FourthRakahPropsProps>  = ({ surah}) =>{
     return (
       <IonItem
         key="1"
@@ -21,58 +20,40 @@ const PrayerEnd: React.FC<PrayerEndProps> = ({ hidden}) => {
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2>Završetak namaza</h2>
+                <h2>Četvrti rekat</h2>
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonChip color="burgundy">
-                <IonLabel>Kadei-ehire</IonLabel>
+                <IonLabel>Bismilla</IonLabel>
+              </IonChip>
+            </IonCol>
+          </IonRow>
+          <IonRow className="ayah">
+            <IonCol size="12">
+              <IonNote>Bismillahir-rahmanir-rahim.</IonNote>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="12">
+              <IonChip color="burgundy">
+                <IonLabel>Fatiha</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Kadei-ehire je posljednje sjedenje na kraju namaza.Na zadnjem
-                sjedenju svih namaza učimo et-tehijatu,salavate i dove.
+                Suru El-Fatiha je obavezno učiti na svakom rekatu.Ako se ona ne
+                prouči namaz nije važeći.
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow className="ayah">
-            <IonCol size="4">
-              <IonText className="audio-link">Et-tehijatu</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color="burgundy"
-                />
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonText className="audio-link">Salavati</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color="burgundy"
-                />
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonText className="audio-link">Dove</IonText>
+            <IonCol size="12">
+              <IonText className="audio-link">El-Fatiha</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {}}
@@ -87,20 +68,66 @@ const PrayerEnd: React.FC<PrayerEndProps> = ({ hidden}) => {
               </IonButton>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow hidden={surah===false}>
             <IonCol size="12">
               <IonChip color="burgundy">
-                <IonLabel>Selam</IonLabel>
+                <IonLabel>Sura</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Namaz završavamo predajom selema prvo na desnu stranu pa na
-                lijevu.Selem se predaje izgovarajući es-selamu alejkum ve
-                rahmetullah.
+                Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3
+                ajeta iz duže sure.
               </IonNote>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="4">
+              <IonText className="audio-link">En-Nas</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color="burgundy"
+                />
+              </IonButton>
+            </IonCol>
+            <IonCol size="4">
+              <IonText className="audio-link">El-Felek</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color="burgundy"
+                />
+              </IonButton>
+            </IonCol>
+            <IonCol size="4">
+              <IonText className="audio-link">El-Ihlas</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color="burgundy"
+                />
+              </IonButton>
             </IonCol>
           </IonRow>
         </IonGrid>
@@ -108,4 +135,4 @@ const PrayerEnd: React.FC<PrayerEndProps> = ({ hidden}) => {
     );
 }
 
-export default PrayerEnd;
+export default FourthRakah;

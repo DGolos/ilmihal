@@ -54,7 +54,7 @@ const DhuhrPrayerPage: React.FC = () => {
                 <h3 className="prayer-name-normal">4 rekata</h3>
               </IonLabel>
               <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="https://www.w3schools.com">
+                <a className="prayer-details" href="/DhuhrPrayerDetailsPage/sunnah">
                   Nauči klanjati
                 </a>
               </IonLabel>
@@ -65,7 +65,7 @@ const DhuhrPrayerPage: React.FC = () => {
                 <h3 className="prayer-name-normal">4 rekata</h3>
               </IonLabel>
               <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="https://www.w3schools.com">
+                <a className="prayer-details" href="/DhuhrPrayerDetailsPage/fardh">
                   Nauči klanjati
                 </a>
               </IonLabel>
@@ -76,7 +76,7 @@ const DhuhrPrayerPage: React.FC = () => {
                 <h3 className="prayer-name-normal">2 rekata</h3>
               </IonLabel>
               <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="https://www.w3schools.com">
+                <a className="prayer-details" href="/DhuhrPrayerDetailsPage/sunsunnah">
                   Nauči klanjati
                 </a>
               </IonLabel>

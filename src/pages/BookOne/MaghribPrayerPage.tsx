@@ -54,7 +54,7 @@ const MaghribPrayerPage: React.FC = () => {
                 <h3 className="prayer-name-normal">3 rekata</h3>
               </IonLabel>
               <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="https://www.w3schools.com">
+                <a className="prayer-details" href="/MaghribPrayerDetailsPage/fardh">
                   Nauči klanjati
                 </a>
               </IonLabel>
@@ -65,7 +65,7 @@ const MaghribPrayerPage: React.FC = () => {
                 <h3 className="prayer-name-normal">2 rekata</h3>
               </IonLabel>
               <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="https://www.w3schools.com">
+                <a className="prayer-details" href="/MaghribPrayerDetailsPage/sunnah">
                   Nauči klanjati
                 </a>
               </IonLabel>
