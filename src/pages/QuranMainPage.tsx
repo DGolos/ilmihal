@@ -37,7 +37,7 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
 
     const surahsListItems = filteredSurahs.map((surah) => (
       <IonItem key={surah.id} routerLink={`/Quran${match.params.type}/${surah.id}`} lines="none" detail={false} color="light">
-              <IonAvatar className={surah.color} >
+              <IonAvatar className={`surah ${surah.color}`} >
               
               <IonLabel className="ion-padding-top">
                     <h1>{surah.id}</h1>

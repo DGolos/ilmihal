@@ -288,7 +288,7 @@ const BookOneMainPage: React.FC = () => {
                 <IonCol size="6">
                 <IonItem
                     key="11"
-                    routerLink={`/SurahFatihaPage`}
+                    routerLink={`/ImanMainPage`}
                     lines="none"
                     detail={false}
                     className="lesson dark-brown"
@@ -307,7 +307,7 @@ const BookOneMainPage: React.FC = () => {
                 <IonCol size="6">
                 <IonItem
                     key="12"
-                    routerLink={`/SurahFatihaPage`}
+                    routerLink={`/IslamMainPage`}
                     lines="none"
                     detail={false}
                     className="lesson dark-brown"

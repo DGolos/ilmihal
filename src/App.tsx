@@ -57,6 +57,7 @@ import AdhanPage from './pages/BookOne/AdhanPage';
 import IqamahPage from './pages/BookOne/IqamahPage';
 import EttehijatuPage from './pages/BookOne/EttehijatuPage';
 import SalavatPage from './pages/BookOne/SalavatPage';
+import DuaPage from './pages/BookOne/DuaPage';
 import FajrPrayerPage from './pages/BookOne/FajrPrayerPage';
 import DhuhrPrayerPage from './pages/BookOne/DhuhrPrayerPage';
 import AsrPrayerPage from './pages/BookOne/AsrPrayerPage';
@@ -67,6 +68,12 @@ import DhuhrPrayerDetailsPage from './pages/BookOne/DhuhrPrayerPageDetails';
 import AsrPrayerDetailsPage from './pages/BookOne/AsrPrayerPageDetails';
 import MaghribPrayerDetailsPage from './pages/BookOne/MaghribPrayerPageDetails';
 import IshaPrayerDetailsPage from './pages/BookOne/IshaPrayerPageDetails';
+import IslamMainPage from './pages/BookOne/IslamMainPage';
+import ImanMainPage from './pages/BookOne/ImanMainPage';
+import RamadhanDefinitionPage from './pages/BookOne/RamadhanDefinitionPage';
+import CharityDefinitionPage from './pages/BookOne/CharityDefinitionPage';
+import HajjDefinitionPage from './pages/BookOne/HajjDefinitionPage';
+import PrayerDefinitionPage from './pages/BookOne/PrayerDefinitionPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -108,10 +115,17 @@ const App: React.FC = () => {
           <Route path="/SurahNasPage" component={SurahNasPage}/>
           <Route path="/SurahFelekPage" component={SurahFelekPage}/>
           <Route path="/SurahIhlasPage" component={SurahIhlasPage}/>
+          <Route path="/ImanMainPage" component={ImanMainPage}/>
+          <Route path="/IslamMainPage" component={IslamMainPage}/>
+          <Route path="/PrayerDefinitionPage" component={PrayerDefinitionPage}/>
+          <Route path="/RamadhanDefinitionPage" component={RamadhanDefinitionPage}/>
+          <Route path="/CharityDefinitionPage" component={CharityDefinitionPage}/>
+          <Route path="/HajjDefinitionPage" component={HajjDefinitionPage}/>
           <Route path="/AdhanPage" component={AdhanPage}/>
           <Route path="/IqamahPage" component={IqamahPage}/>
           <Route path="/EttehijatuPage" component={EttehijatuPage}/>
           <Route path="/SalavatPage" component={SalavatPage}/>
+          <Route path="/DuaPage" component={DuaPage}/>
           <Route path="/FajrPrayerPage" component={FajrPrayerPage}/>
           <Route path="/FajrPrayerDetailsPage/:type" component={FajrPrayerDetailsPage}/>
           <Route path="/DhuhrPrayerDetailsPage/:type" component={DhuhrPrayerDetailsPage}/>

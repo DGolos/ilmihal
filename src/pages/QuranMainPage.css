@@ -3,7 +3,7 @@ ion-item {
   margin-bottom: 15px;
  
 }
-ion-avatar {
+ion-avatar.surah {
   --border-radius: 30%;
   width: 60px;
   height: 60px;
