@@ -1,4 +1,5 @@
-import { IonBackButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react"
+import { IonBackButton, IonButtons, IonCol, IonContent, IonFab, IonFabButton, IonFabList, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react"
+import { documentTextOutline, videocamOutline } from "ionicons/icons";
 import moment from "moment";
 import React, { useEffect, useState } from "react"
 import { timeService } from "../../services/TimeService";
@@ -42,44 +43,61 @@ const DhuhrPrayerPage: React.FC = () => {
           </div>
           <div className="ion-padding">
             <IonItem className="lesson-note">
-              <IonText>
-                <h2 className="lesson-note">
-                Vrijeme podnevskog namaza počinje kad sunce malo odmakne sa sredine neba i traje do ikindije.
-                </h2>
-              </IonText>
+            <IonLabel slot="start">
+              <h3 className="prayer-name-bold">Sunet</h3>
+              <h3 className="prayer-name-normal">4 rekata</h3>
+            </IonLabel>
+            <IonFab slot="end" vertical="bottom" horizontal="end">
+              <IonFabButton  color="light" >
+                <IonIcon src='/assets/images/prayer.svg' color="purple" />
+              </IonFabButton>
+              <IonFabList side="start">
+                <IonFabButton routerLink="/DhuhrPrayerDetailsPage/sunnah">
+                  <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
+                </IonFabButton>
+                <IonFabButton routerLink="/DhuhrPrayerWatchPage/sunnah">
+                  <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
+                </IonFabButton>
+              </IonFabList>
+            </IonFab>
             </IonItem>
             <IonItem className="lesson-note">
-              <IonLabel>
-                <h3 className="prayer-name-bold">Sunet</h3>
-                <h3 className="prayer-name-normal">4 rekata</h3>
-              </IonLabel>
-              <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="/DhuhrPrayerDetailsPage/sunnah">
-                  Nauči klanjati
-                </a>
-              </IonLabel>
+            <IonLabel slot="start">
+              <h3 className="prayer-name-bold">Farz</h3>
+              <h3 className="prayer-name-normal">4 rekata</h3>
+            </IonLabel>
+            <IonFab slot="end" vertical="bottom" horizontal="end">
+              <IonFabButton  color="light" >
+                <IonIcon src='/assets/images/prayer.svg' color="purple" />
+              </IonFabButton>
+              <IonFabList side="start">
+                <IonFabButton routerLink="/DhuhrPrayerDetailsPage/fardh">
+                  <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
+                </IonFabButton>
+                <IonFabButton routerLink="/DhuhrPrayerWatchPage/fardh">
+                  <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
+                </IonFabButton>
+              </IonFabList>
+            </IonFab>
             </IonItem>
             <IonItem className="lesson-note">
-              <IonLabel>
-                <h3 className="prayer-name-bold">Farz</h3>
-                <h3 className="prayer-name-normal">4 rekata</h3>
-              </IonLabel>
-              <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="/DhuhrPrayerDetailsPage/fardh">
-                  Nauči klanjati
-                </a>
-              </IonLabel>
-            </IonItem>
-            <IonItem className="lesson-note">
-              <IonLabel>
-                <h3 className="prayer-name-bold">Sunsunet</h3>
-                <h3 className="prayer-name-normal">2 rekata</h3>
-              </IonLabel>
-              <IonLabel className="ion-text-right">
-                <a className="prayer-details" href="/DhuhrPrayerDetailsPage/sunsunnah">
-                  Nauči klanjati
-                </a>
-              </IonLabel>
+            <IonLabel slot="start">
+              <h3 className="prayer-name-bold">Sunsunet</h3>
+              <h3 className="prayer-name-normal">2 rekata</h3>
+            </IonLabel>
+            <IonFab slot="end" vertical="bottom" horizontal="end">
+              <IonFabButton  color="light" >
+                <IonIcon src='/assets/images/prayer.svg' color="purple" />
+              </IonFabButton>
+              <IonFabList side="start">
+                <IonFabButton routerLink="/DhuhrPrayerDetailsPage/sunsunnah">
+                  <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
+                </IonFabButton>
+                <IonFabButton routerLink="/DhuhrPrayerWatchPage/sunsunnah">
+                  <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
+                </IonFabButton>
+              </IonFabList>
+            </IonFab>
             </IonItem>
           </div>
         </IonContent>

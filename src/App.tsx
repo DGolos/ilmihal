@@ -11,7 +11,7 @@ import {
   IonTabs
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
+import { bookOutline, buildOutline, ellipse, homeOutline, settingsOutline, square, triangle } from 'ionicons/icons';
 import HomePage from './pages/HomePage';
 import MainCategoryPage from './pages/MainCategoryPage';
 import OptionsPage from './pages/OptionsPage';
@@ -74,6 +74,11 @@ import RamadhanDefinitionPage from './pages/BookOne/RamadhanDefinitionPage';
 import CharityDefinitionPage from './pages/BookOne/CharityDefinitionPage';
 import HajjDefinitionPage from './pages/BookOne/HajjDefinitionPage';
 import PrayerDefinitionPage from './pages/BookOne/PrayerDefinitionPage';
+import FajrPrayerWatchPage from './pages/BookOne/FajrPrayerWatchPage';
+import DhuhrPrayerWatchPage from './pages/BookOne/DhuhrPrayerWatchPage';
+import AsrPrayerWatchPage from './pages/BookOne/AsrPrayerWatchPage';
+import MaghribPrayerWatchPage from './pages/BookOne/MaghribPrayerWatchPage';
+import IshaPrayerWatchPage from './pages/BookOne/IshaPrayerWatchPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -128,27 +133,32 @@ const App: React.FC = () => {
           <Route path="/DuaPage" component={DuaPage}/>
           <Route path="/FajrPrayerPage" component={FajrPrayerPage}/>
           <Route path="/FajrPrayerDetailsPage/:type" component={FajrPrayerDetailsPage}/>
+          <Route path="/FajrPrayerWatchPage/:type" component={FajrPrayerWatchPage}/>
           <Route path="/DhuhrPrayerDetailsPage/:type" component={DhuhrPrayerDetailsPage}/>
+          <Route path="/DhuhrPrayerWatchPage/:type" component={DhuhrPrayerWatchPage}/>
           <Route path="/DhuhrPrayerPage" component={DhuhrPrayerPage}/>
           <Route path="/AsrPrayerPage" component={AsrPrayerPage}/>
           <Route path="/AsrPrayerDetailsPage/:type" component={AsrPrayerDetailsPage}/>
+          <Route path="/AsrPrayerWatchPage/:type" component={AsrPrayerWatchPage}/>
           <Route path="/MaghribPrayerDetailsPage/:type" component={MaghribPrayerDetailsPage}/>
+          <Route path="/MaghribPrayerWatchPage/:type" component={MaghribPrayerWatchPage}/>
           <Route path="/MaghribPrayerPage" component={MaghribPrayerPage}/>
           <Route path="/IshaPrayerDetailsPage/:type" component={IshaPrayerDetailsPage}/>
+          <Route path="/IshaPrayerWatchPage/:type" component={IshaPrayerWatchPage}/>
           <Route path="/IshaPrayerPage" component={IshaPrayerPage}/>
           <Route path="/BookTwoMainPage" component={BookTwoMainPage}/>
         </IonRouterOutlet>
-        <IonTabBar slot="bottom">
+        <IonTabBar slot="bottom" color="background">
           <IonTabButton tab="HomePage" href="/HomePage">
-            <IonIcon icon={triangle} />
+            <IonIcon icon={homeOutline} color="burgundy"/>
             <IonLabel>{translationService.getLabel(1)}</IonLabel>
           </IonTabButton>
           <IonTabButton tab="MainCategoryPage" href="/MainCategoryPage">
-            <IonIcon icon={ellipse} />
+            <IonIcon icon={bookOutline} color="burgundy"/>
             <IonLabel>{translationService.getLabel(2)}</IonLabel>
           </IonTabButton>
           <IonTabButton tab="OptionsPage" href="/OptionsPage">
-            <IonIcon icon={square} />
+            <IonIcon icon={settingsOutline} color="burgundy" />
             <IonLabel>{translationService.getLabel(3)}</IonLabel>
           </IonTabButton>
         </IonTabBar>

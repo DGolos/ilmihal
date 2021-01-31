@@ -92,7 +92,8 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/EuzaPage`}
                     lines="none"
                     detail={false}
-                    className="lesson purple"
+                    className="lesson"
+                    color="light"
                   >
                     <IonAvatar slot="start" className="lesson purple">
                       <IonLabel style={{marginTop:7}}>

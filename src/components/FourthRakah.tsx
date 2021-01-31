@@ -3,11 +3,11 @@ import { caretForwardCircleOutline } from "ionicons/icons";
 import React from "react";
 import { RouteComponentProps } from "react-router";
 
-interface FourthRakahPropsProps {
+interface FourthRakahProps {
   surah?: boolean;
 }
 
-const FourthRakah:  React.FC<FourthRakahPropsProps>  = ({ surah}) =>{
+const FourthRakah:  React.FC<FourthRakahProps>  = ({ surah}) =>{
     return (
       <IonItem
         key="1"
