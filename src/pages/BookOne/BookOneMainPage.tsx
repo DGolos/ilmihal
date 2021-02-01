@@ -544,7 +544,7 @@ const BookOneMainPage: React.FC = () => {
                 <IonCol size="6">
                 <IonItem
                     key="22"
-                    routerLink={`/AfterPrayerPage`}
+                    routerLink={`/DhikrPage`}
                     lines="none"
                     detail={false}
                     className="lesson purple"

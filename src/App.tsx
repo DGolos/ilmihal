@@ -79,6 +79,7 @@ import DhuhrPrayerWatchPage from './pages/BookOne/DhuhrPrayerWatchPage';
 import AsrPrayerWatchPage from './pages/BookOne/AsrPrayerWatchPage';
 import MaghribPrayerWatchPage from './pages/BookOne/MaghribPrayerWatchPage';
 import IshaPrayerWatchPage from './pages/BookOne/IshaPrayerWatchPage';
+import DhikrPage from './pages/BookOne/DhikrPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -146,6 +147,7 @@ const App: React.FC = () => {
           <Route path="/IshaPrayerDetailsPage/:type" component={IshaPrayerDetailsPage}/>
           <Route path="/IshaPrayerWatchPage/:type" component={IshaPrayerWatchPage}/>
           <Route path="/IshaPrayerPage" component={IshaPrayerPage}/>
+          <Route path="/DhikrPage" component={DhikrPage}/>
           <Route path="/BookTwoMainPage" component={BookTwoMainPage}/>
         </IonRouterOutlet>
         <IonTabBar slot="bottom" color="background">
