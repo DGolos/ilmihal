@@ -39,3 +39,11 @@ ion-content.bg-image-isha{
   ion-content.bg-image-standard{
     --ion-background-color:#F5ECEA;
   }
+
+  ion-content.bg-image-burgundy-gradient{
+    --background:linear-gradient(180deg,rgba(140,36,128,1) 0%,rgba(157,49,128,1) 35%,rgba(206,88,125,1) 100%)
+  }
+
+  ion-content.bg-image-burgundy-purple{
+    --background:linear-gradient(180deg,rgba(13,20,65,1) 0%,rgba(40,53,132,1) 35%,rgba(100,134,183,1) 100%)
+  }

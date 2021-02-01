@@ -9,14 +9,14 @@ const IslamMainPage: React.FC = () => {
           <IonToolbar>
             <IonButtons slot="start">
               <IonBackButton
-                color="dark-brown"
+                color="light"
                 defaultHref="/BookOneMainPage"
               />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
-        <IonContent className="bg-image-standard" fullscreen>
-          <IonCard className="lesson-header ion-padding" color="dark-brown">
+        <IonContent className="bg-image-burgundy-purple" fullscreen>
+          <IonCard className="lesson-header transparent ion-padding">
             <IonCardHeader className="ion-text-center">
               <IonCardSubtitle>
                 <h1 className="lesson-header">Islamski šarti</h1>
@@ -33,15 +33,15 @@ const IslamMainPage: React.FC = () => {
               </IonText>
             </IonItem>
           </div>
-          <IonList className="ion-padding" style={{marginTop:0}}>
+          <IonList className="ion-padding transparent" style={{marginTop:0}}>
             <IonItem
               key="1"
               routerLink={`/ShahadahPage`}
               lines="none"
               detail={false}
-              className="brown"
+              className="welcome"
             >
-              <IonAvatar className="white">
+              <IonAvatar className="white lesson">
                 <img
                   src="/assets/images/Shahadah.png"
                   
@@ -56,11 +56,11 @@ const IslamMainPage: React.FC = () => {
               routerLink={`/PrayerDefinitionPage`}
               lines="none"
               detail={false}
-              className="dark-brown"
+              className="welcome"
             >
-              <IonAvatar className="white">
+              <IonAvatar className="white lesson">
                 <img
-                  src="/assets/images/Shahadah.png"
+                  src="/assets/images/muhammad.svg"
                  
                 />
               </IonAvatar>
@@ -73,9 +73,9 @@ const IslamMainPage: React.FC = () => {
               routerLink={`/RamadhanDefinitionPage`}
               lines="none"
               detail={false}
-              className="burgundy"
+              className="welcome"
             >
-              <IonAvatar className="white">
+              <IonAvatar className="white lesson">
                 <img
                   src="/assets/images/Fasting.png"
                  
@@ -90,9 +90,9 @@ const IslamMainPage: React.FC = () => {
               routerLink={`/CharityDefinitionPage`}
               lines="none"
               detail={false}
-              className="razimic"
+              className="welcome"
             >
-              <IonAvatar className="white">
+              <IonAvatar className="white lesson">
                 <img
                   src="/assets/images/Charity.png"
                   
@@ -107,9 +107,9 @@ const IslamMainPage: React.FC = () => {
               routerLink={`/HajjDefinitionPage`}
               lines="none"
               detail={false}
-              className="purple"
+              className="welcome"
             >
-              <IonAvatar className="white">
+              <IonAvatar className="white lesson">
                 <img
                   src="/assets/images/Kaba.png"
                   
