@@ -129,6 +129,14 @@ export const MagribPrayerWatchPage: React.FC<RouteComponentProps<{ type: string 
               {match.params.type==="sunnah" &&
                 <SelamWatch/>
               }
+
+              {match.params.type === "fardh" && (
+                <>
+                  <QijamWatch rakah="3" type={match.params.type} prayer="4"/>
+                  <RukuWatch rakah="3"/>
+                  <TashahudWatch rakah="3" type={match.params.type} last={true}/>
+                </>
+              )}
               
               
             </IonSlides>

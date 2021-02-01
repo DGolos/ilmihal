@@ -39,7 +39,7 @@ export const DhuhrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }
                 </IonCol>
                 <IonCol size="5">
                   <IonText>
-                  <h2>{prayerType === "sunsunah" ? "2" : "4"} rekata</h2>
+                  <h2>{match.params.type==="sunsunnah" ? "2" : "4"} rekata</h2>
                   </IonText>
                 </IonCol>
               </IonRow>
@@ -138,9 +138,11 @@ export const DhuhrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }
               {match.params.type==="sunsunnah" &&
                 <SelamWatch/>
               }
-              {(match.params.type==="sunnah" ||match.params.type==="fardh" )&&
+              {match.params.type !== "sunsunnah" &&
               <>
-              <QijamWatch rakah="4" type={match.params.type} prayer="3"/>
+              <QijamWatch rakah="3" type={match.params.type} prayer="2"/>
+              <RukuWatch rakah="3"/>
+              <QijamWatch rakah="4" type={match.params.type} prayer="2"/>
               <RukuWatch rakah="4"/>
               <TashahudWatch rakah="4" type={match.params.type} last={true}/>
               <SelamWatch/></>}

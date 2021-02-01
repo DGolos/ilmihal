@@ -46,19 +46,32 @@ import {
                     </IonNote>
                   </IonCol>
                 </IonRow>
-                <IonRow>
+                <IonRow hidden={!last}>
                   <IonCol size="12">
                     <IonChip color="burgundy">Zadnje sjedenje</IonChip>
                   </IonCol>
                 </IonRow>
 
-                <IonRow>
+                <IonRow hidden={!last}>
                   <IonCol size="12">
                     <IonNote>
                     Na zadnjem sjedenju učimo et-tehijatu,salavate i dovu.
                     </IonNote>
                   </IonCol>
                 </IonRow>
+                <IonRow hidden={last}>
+                  <IonCol size="12">
+                    <IonChip color="burgundy">Prvo sjedenje</IonChip>
+                  </IonCol>
+                </IonRow>
+
+                <IonRow hidden={last}>
+                  <IonCol size="12">
+                <IonNote>
+                Na prvom sjedenju svih namaza učimo et-tehijatu.
+              </IonNote>
+            </IonCol>
+          </IonRow>
               </IonGrid>
             </IonItem>
           </div>

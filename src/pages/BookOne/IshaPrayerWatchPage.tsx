@@ -6,6 +6,7 @@ import QijamWatch from "../../components/QijamWatch";
 import RukuWatch from "../../components/RukuWatch";
 import SelamWatch from "../../components/SelamWatch";
 import TashahudWatch from "../../components/TashahudWatch";
+import WitrAdditionWatch from "../../components/WitrAdditionWatch";
 
 export const IshaPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
     const [prayerType,setPrayerType]=useState("");
@@ -151,9 +152,22 @@ mustakbilel-kibleti - Allahu ekber.
               {match.params.type==="sunsunnah" &&
                 <SelamWatch/>
               }
+              {match.params.type==="witr"&&
+              <>
+              <QijamWatch rakah="3" type={match.params.type} prayer="5"/>
+              <WitrAdditionWatch/>
+              <RukuWatch rakah="3"/>
+              <TashahudWatch rakah="3" type={match.params.type} last={true}/>
+              <SelamWatch/>
+                
+                </>
+              }
+              
 
             {(match.params.type==="sunnah" ||match.params.type==="fardh" )&&
               <>
+              <QijamWatch rakah="4" type={match.params.type} prayer="5"/>
+              <RukuWatch rakah="4"/>
               <QijamWatch rakah="4" type={match.params.type} prayer="5"/>
               <RukuWatch rakah="4"/>
               <TashahudWatch rakah="4" type={match.params.type} last={true}/>

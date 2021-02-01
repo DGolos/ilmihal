@@ -50,7 +50,7 @@ export const DhuhrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string
                 </IonCol>
                 <IonCol size="5">
                   <IonText>
-                    <h2>{prayerType === "sunsunah" ? "2" : "4"} rekata</h2>
+                    <h2>{match.params.type==="sunsunnah"? "2" : "4"} rekata</h2>
                   </IonText>
                 </IonCol>
               </IonRow>

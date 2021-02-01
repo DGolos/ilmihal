@@ -126,6 +126,8 @@ export const AsrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>>
               <RukuWatch rakah="2"/>
               
               <TashahudWatch rakah="2" type={match.params.type} last={false}/>
+              <QijamWatch rakah="3" type={match.params.type} prayer="3"/>
+              <RukuWatch rakah="3"/>
               <QijamWatch rakah="4" type={match.params.type} prayer="3"/>
               <RukuWatch rakah="4"/>
               <TashahudWatch rakah="4" type={match.params.type} last={true}/>
