@@ -80,6 +80,7 @@ import AsrPrayerWatchPage from './pages/BookOne/AsrPrayerWatchPage';
 import MaghribPrayerWatchPage from './pages/BookOne/MaghribPrayerWatchPage';
 import IshaPrayerWatchPage from './pages/BookOne/IshaPrayerWatchPage';
 import DhikrPage from './pages/BookOne/DhikrPage';
+import WudhuPage from './pages/BookOne/WudhuPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -127,6 +128,7 @@ const App: React.FC = () => {
           <Route path="/RamadhanDefinitionPage" component={RamadhanDefinitionPage}/>
           <Route path="/CharityDefinitionPage" component={CharityDefinitionPage}/>
           <Route path="/HajjDefinitionPage" component={HajjDefinitionPage}/>
+          <Route path="/WudhuPage" component={WudhuPage}/>
           <Route path="/AdhanPage" component={AdhanPage}/>
           <Route path="/IqamahPage" component={IqamahPage}/>
           <Route path="/EttehijatuPage" component={EttehijatuPage}/>
