@@ -15,7 +15,7 @@ const IslamMainPage: React.FC = () => {
             </IonButtons>
           </IonToolbar>
         </IonHeader>
-        <IonContent className="bg-image-burgundy-purple" fullscreen>
+        <IonContent className="bg-image-purple-gradient" fullscreen>
           <IonCard className="lesson-header transparent ion-padding">
             <IonCardHeader className="ion-text-center">
               <IonCardSubtitle>

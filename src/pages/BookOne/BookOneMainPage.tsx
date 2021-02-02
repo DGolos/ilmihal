@@ -8,17 +8,17 @@ const BookOneMainPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/HomePage" />
+              <IonBackButton color="light" defaultHref="/HomePage" />
             </IonButtons>
             <IonTitle>Ilmihal Prvi dio</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonContent className="bg-image-standard" fullscreen>
+        <IonContent className="bg-image-purple-gradient" fullscreen>
           <IonGrid>
             <IonRow>
               <IonCol size="4">
                 <IonButton
-                  color={current === 1 ? "burgundy" : "brown"}
+                  className={current === 1 ? "pressed" : "burgundy"}
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(1)}
@@ -30,7 +30,7 @@ const BookOneMainPage: React.FC = () => {
               </IonCol>
               <IonCol size="4">
                 <IonButton
-                  color={current === 2 ? "burgundy" : "brown"}
+                  className={current === 1 ? "pressed" : "burgundy"}
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(2)}
@@ -42,7 +42,7 @@ const BookOneMainPage: React.FC = () => {
               </IonCol>
               <IonCol size="4">
                 <IonButton
-                  color={current === 3 ? "burgundy" : "brown"}
+                  className={current === 1 ? "pressed" : "burgundy"}
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(3)}
@@ -57,7 +57,7 @@ const BookOneMainPage: React.FC = () => {
             <IonRow>
               <IonCol size="4">
                 <IonButton
-                  color={current === 4 ? "burgundy" : "brown"}
+                  className={current === 1 ? "pressed" : "burgundy"}
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(4)}
@@ -69,7 +69,7 @@ const BookOneMainPage: React.FC = () => {
               </IonCol>
               <IonCol size="4">
                 <IonButton
-                  color={current === 5 ? "burgundy" : "brown"}
+                  className={current === 1 ? "pressed" : "burgundy"}
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(5)}
@@ -92,10 +92,10 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/EuzaPage`}
                     lines="none"
                     detail={false}
-                    className="lesson"
-                    color="light"
+                    className="lesson welcome"
+                    
                   >
-                    <IonAvatar slot="start" className="lesson purple">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>1</h4>
                       </IonLabel>
@@ -111,9 +111,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/ShahadahPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson burgundy">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>2</h4>
                       </IonLabel>
@@ -131,9 +131,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/OurFaithPage`}
                     lines="none"
                     detail={false}
-                    className="lesson brown"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson brown">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>3</h4>
                       </IonLabel>
@@ -149,9 +149,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/RabbiJessirPage`}
                     lines="none"
                     detail={false}
-                    className="lesson purple"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson purple">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>4</h4>
                       </IonLabel>
@@ -169,9 +169,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/SubhanekePage`}
                     lines="none"
                     detail={false}
-                    className="lesson purple"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson purple">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>5</h4>
                       </IonLabel>
@@ -187,9 +187,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/SelamPage`}
                     lines="none"
                     detail={false}
-                    className="lesson brown"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson brown">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>6</h4>
                       </IonLabel>
@@ -211,9 +211,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/SurahFatihaPage`}
                     lines="none"
                     detail={false}
-                    className="lesson razimic"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson razimic">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>7</h4>
                       </IonLabel>
@@ -229,9 +229,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/SurahNasPage`}
                     lines="none"
                     detail={false}
-                    className="lesson razimic"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson razimic">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>8</h4>
                       </IonLabel>
@@ -249,9 +249,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/SurahFelekPage`}
                     lines="none"
                     detail={false}
-                    className="lesson razimic"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson razimic">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>9</h4>
                       </IonLabel>
@@ -267,9 +267,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/SurahIhlasPage`}
                     lines="none"
                     detail={false}
-                    className="lesson razimic"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson razimic">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>10</h4>
                       </IonLabel>
@@ -292,9 +292,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/ImanMainPage`}
                     lines="none"
                     detail={false}
-                    className="lesson dark-brown"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson dark-brown">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>11</h4>
                       </IonLabel>
@@ -311,9 +311,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/IslamMainPage`}
                     lines="none"
                     detail={false}
-                    className="lesson dark-brown"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson dark-brown">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>12</h4>
                       </IonLabel>
@@ -335,9 +335,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/WudhuPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson burgundy">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>13</h4>
                       </IonLabel>
@@ -353,9 +353,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/AdhanPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson burgundy">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>14</h4>
                       </IonLabel>
@@ -373,9 +373,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/IqamahPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start"className="lesson burgundy">
+                    <IonAvatar slot="start"className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>15</h4>
                       </IonLabel>
@@ -391,9 +391,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/EttehijatuPage`}
                     lines="none"
                     detail={false}
-                    className="lesson purple"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson purple">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>16</h4>
                       </IonLabel>
@@ -411,9 +411,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/SalavatPage`}
                     lines="none"
                     detail={false}
-                    className="lesson purple"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson purple">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>17</h4>
                       </IonLabel>
@@ -429,9 +429,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/DuaPage`}
                     lines="none"
                     detail={false}
-                    className="lesson purple"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson purple">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>18</h4>
                       </IonLabel>
@@ -453,9 +453,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/FajrPrayerPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson burgundy">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>19</h4>
                       </IonLabel>
@@ -471,9 +471,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/DhuhrPrayerPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson burgundy">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>20</h4>
                       </IonLabel>
@@ -491,9 +491,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/AsrPrayerPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson burgundy">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>21</h4>
                       </IonLabel>
@@ -509,9 +509,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/MaghribPrayerPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson burgundy">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>22</h4>
                       </IonLabel>
@@ -529,9 +529,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/IshaPrayerPage`}
                     lines="none"
                     detail={false}
-                    className="lesson burgundy"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson burgundy">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>23</h4>
                       </IonLabel>
@@ -547,9 +547,9 @@ const BookOneMainPage: React.FC = () => {
                     routerLink={`/DhikrPage`}
                     lines="none"
                     detail={false}
-                    className="lesson purple"
+                    className="lesson welcome"
                   >
-                    <IonAvatar slot="start" className="lesson purple">
+                    <IonAvatar slot="start" className="lesson">
                       <IonLabel style={{marginTop:7}}>
                         <h4>24</h4>
                       </IonLabel>
