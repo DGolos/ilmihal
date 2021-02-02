@@ -10,15 +10,15 @@ const BookOneMainPage: React.FC = () => {
             <IonButtons slot="start">
               <IonBackButton color="light" defaultHref="/HomePage" />
             </IonButtons>
-            <IonTitle>Ilmihal Prvi dio</IonTitle>
+            <IonTitle color="light">Ilmihal Prvi dio</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-purple-gradient" fullscreen>
-          <IonGrid>
+          <IonGrid >
             <IonRow>
               <IonCol size="4">
                 <IonButton
-                  className={current === 1 ? "pressed" : "burgundy"}
+                  className="pressed"
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(1)}
@@ -30,7 +30,7 @@ const BookOneMainPage: React.FC = () => {
               </IonCol>
               <IonCol size="4">
                 <IonButton
-                  className={current === 1 ? "pressed" : "burgundy"}
+                  className="pressed"
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(2)}
@@ -42,7 +42,7 @@ const BookOneMainPage: React.FC = () => {
               </IonCol>
               <IonCol size="4">
                 <IonButton
-                  className={current === 1 ? "pressed" : "burgundy"}
+                  className="pressed"
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(3)}
@@ -57,7 +57,7 @@ const BookOneMainPage: React.FC = () => {
             <IonRow>
               <IonCol size="4">
                 <IonButton
-                  className={current === 1 ? "pressed" : "burgundy"}
+                  className="pressed"
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(4)}
@@ -69,7 +69,7 @@ const BookOneMainPage: React.FC = () => {
               </IonCol>
               <IonCol size="4">
                 <IonButton
-                  className={current === 1 ? "pressed" : "burgundy"}
+                  className="pressed"
                   shape="round"
                   expand="full"
                   onClick={() => setCurrent(5)}
@@ -83,7 +83,7 @@ const BookOneMainPage: React.FC = () => {
           </IonGrid>
           
         
-          <div id="first" hidden={current !== 1}>
+          <div id="first" hidden={current !== 1} className="ion-no-padding">
           <IonGrid>
               <IonRow>
                 <IonCol size="6">
@@ -202,7 +202,7 @@ const BookOneMainPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </div>
-          <div id="second" hidden={current !== 2}>
+          <div id="second" hidden={current !== 2} className="ion-no-padding">
             <IonGrid>
               <IonRow>
                 <IonCol size="6">
@@ -283,7 +283,7 @@ const BookOneMainPage: React.FC = () => {
             </IonGrid>
           </div>
          
-          <div id="third" hidden={current !== 3}>
+          <div id="third" hidden={current !== 3} className="ion-no-padding">
             <IonGrid>
               <IonRow>
                 <IonCol size="6">
@@ -326,7 +326,7 @@ const BookOneMainPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </div>
-          <div id="fourth" hidden={current !== 4}>
+          <div id="fourth" hidden={current !== 4} className="ion-no-padding">
             <IonGrid>
               <IonRow>
                 <IonCol size="6">
@@ -444,7 +444,7 @@ const BookOneMainPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </div>
-          <div className="ion-padding" id="fifth" hidden={current !== 5}>
+          <div className="ion-no-padding" id="fifth" hidden={current !== 5} >
             <IonGrid>
               <IonRow>
                 <IonCol size="6">
