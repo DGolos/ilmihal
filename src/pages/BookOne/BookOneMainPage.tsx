@@ -1,5 +1,6 @@
 import { IonAvatar, IonBackButton, IonButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react"
 import React, { useState } from "react"
+import LessonListItem from "../../components/LessonListItem";
 
 const BookOneMainPage: React.FC = () => {
     const[current,setCurrent]=useState(1);
@@ -87,117 +88,31 @@ const BookOneMainPage: React.FC = () => {
           <IonGrid>
               <IonRow>
                 <IonCol size="6">
-                  <IonItem
-                    key="1"
-                    routerLink={`/EuzaPage`}
-                    lines="none"
-                    detail={false}
-                    className="lesson welcome"
-                    
-                  >
-                    <IonAvatar slot="start" className="lesson">
-                      <IonLabel style={{marginTop:7}}>
-                        <h4>1</h4>
-                      </IonLabel>
-                    </IonAvatar>
-                    <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Euzubilla i bismilla</h4>
-                    </IonNote>
-                  </IonItem>
+                  <LessonListItem id="1" title="Euzubilla i bismilla" link="/EuzaPage"/>
                 </IonCol>
                 <IonCol size="6">
-                <IonItem
-                    key="2"
-                    routerLink={`/ShahadahPage`}
-                    lines="none"
-                    detail={false}
-                    className="lesson welcome"
-                  >
-                    <IonAvatar slot="start" className="lesson">
-                      <IonLabel style={{marginTop:7}}>
-                        <h4>2</h4>
-                      </IonLabel>
-                    </IonAvatar>
-                    <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Kelimei-Šehadet</h4>
-                    </IonNote>
-                  </IonItem>
+                <LessonListItem id="2" title="Kelimei-Šehadet" link="/ShahadahPage"/>
+                
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol size="6">
-                  <IonItem
-                    key="3"
-                    routerLink={`/OurFaithPage`}
-                    lines="none"
-                    detail={false}
-                    className="lesson welcome"
-                  >
-                    <IonAvatar slot="start" className="lesson">
-                      <IonLabel style={{marginTop:7}}>
-                        <h4>3</h4>
-                      </IonLabel>
-                    </IonAvatar>
-                    <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Naša vjera</h4>
-                    </IonNote>
-                  </IonItem>
+                <LessonListItem id="3" title="Naša vjera" link="/OurFaithPage"/>
+                  
                 </IonCol>
                 <IonCol size="6">
-                <IonItem
-                    key="4"
-                    routerLink={`/RabbiJessirPage`}
-                    lines="none"
-                    detail={false}
-                    className="lesson welcome"
-                  >
-                    <IonAvatar slot="start" className="lesson">
-                      <IonLabel style={{marginTop:7}}>
-                        <h4>4</h4>
-                      </IonLabel>
-                    </IonAvatar>
-                    <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Rabbi jessir</h4>
-                    </IonNote>
-                  </IonItem>
+                <LessonListItem id="4" title="Rabbi jessir" link="/RabbiJessirPage"/>
+                
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol size="6">
-                  <IonItem
-                    key="5"
-                    routerLink={`/SubhanekePage`}
-                    lines="none"
-                    detail={false}
-                    className="lesson welcome"
-                  >
-                    <IonAvatar slot="start" className="lesson">
-                      <IonLabel style={{marginTop:7}}>
-                        <h4>5</h4>
-                      </IonLabel>
-                    </IonAvatar>
-                    <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Subhaneke</h4>
-                    </IonNote>
-                  </IonItem>
+                <LessonListItem id="5" title="Subhaneke" link="/SubhanekePage"/>
+                  
                 </IonCol>
                 <IonCol size="6">
-                <IonItem
-                    key="6"
-                    routerLink={`/SelamPage`}
-                    lines="none"
-                    detail={false}
-                    className="lesson welcome"
-                  >
-                    <IonAvatar slot="start" className="lesson">
-                      <IonLabel style={{marginTop:7}}>
-                        <h4>6</h4>
-                      </IonLabel>
-                    </IonAvatar>
-                    <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Selam</h4>
-                    </IonNote>
-                  </IonItem>
+                <LessonListItem id="6" title="Selam" link="/SelamPage"/>
+                
                 </IonCol>
               </IonRow>
             </IonGrid>
