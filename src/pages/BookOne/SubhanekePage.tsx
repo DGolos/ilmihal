@@ -1,8 +1,61 @@
-import { IonBackButton, IonButtons, IonCard, IonCardHeader, IonCardSubtitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
-import React from "react";
+import { IonBackButton, IonButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonNote, IonPage, IonRow, IonText, IonToolbar, useIonViewWillLeave } from "@ionic/react";
+import React ,{ useRef, useState }from "react";
+import { Howl } from "howler";
+import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
 
 const SubhanekePage: React.FC = () => {
+  const [isPlaying,setIsPlaying]=useState(false);
+  const playerRef=useRef(new Howl({src:[""]}));
+  const [isLoaded,setIsLoaded]=useState(false);
 
+  useIonViewWillLeave(() => {
+    if(isPlaying){
+      
+      playerRef.current.stop();
+    }
+ });
+
+  const toglePlayPause=()=>{
+      
+    if(isLoaded===false){
+  
+      const onEnd=()=>{
+        setIsPlaying(false);
+       
+      }
+  
+      const onLoad=()=>{
+        setIsLoaded(true);
+        
+      }
+  
+      const onPlay=()=>{
+        
+      }
+       
+        playerRef.current=new Howl({
+            src:`/assets/audio/lessons/Subhaneke.m4a`,
+            preload:true,
+            html5:true,
+            onend:onEnd,
+            onload:onLoad,
+            onplay:onPlay,
+            format:["m4a"]
+            }
+        )
+        
+  
+    }
+    if(isPlaying){
+        playerRef.current.pause();
+        setIsPlaying(false);
+    }
+    else{
+        playerRef.current.play();
+        setIsPlaying(true);
+    }
+  
+  }
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
@@ -13,12 +66,18 @@ const SubhanekePage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-        <IonCard className="lesson-header ion-padding" color="purple" >
-            <IonCardHeader className="ion-text-center">
-                
-                <IonCardSubtitle><h1 className="lesson-header">Subhaneke</h1></IonCardSubtitle>
-            </IonCardHeader>
-        
+        <IonCard className="lesson-header ion-padding ion-text-center" color="purple">
+        <IonCardTitle>
+              <h1 className="lesson" >Subhaneke</h1>
+             
+            </IonCardTitle>
+          <IonCardContent>
+            
+            <IonCardSubtitle>
+              <h3 style={{fontStyle:"italic"} }>“Neće ući u Džennet onaj koji kida rodbinske veze.”</h3>
+              <p className="quote-reference">Buharija</p>
+            </IonCardSubtitle>
+          </IonCardContent>
         </IonCard>
         <div className="ion-padding">
             <IonItem className="lesson-note">
@@ -41,6 +100,20 @@ osobine.</h2>
                     <IonChip color="purple">
                         <IonLabel>Arapski</IonLabel>
                     </IonChip>
+                    <IonButton
+                  className="no-shadow ion-float-right"
+                  onClick={() => {toglePlayPause()}}
+                  fill="clear"
+                  color="light"
+                  size="default"
+                  style={{position:"fixed"}}
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={isPlaying ? pauseCircleOutline: volumeHighOutline}
+                    color="purple"
+                  />
+                </IonButton>
                 </IonCol>
             </IonRow>
             <IonRow className="ayah">

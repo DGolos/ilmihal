@@ -1,4 +1,4 @@
-import { IonBackButton, IonButtons, IonCard, IonCardHeader, IonCardSubtitle, IonContent, IonHeader, IonItem, IonPage, IonText, IonToolbar } from "@ionic/react";
+import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 
 const SelamPage: React.FC = () => {
@@ -8,17 +8,23 @@ const SelamPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="brown" defaultHref="/BookOneMainPage" />
+              <IonBackButton color="burgundy" defaultHref="/BookOneMainPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-        <IonCard className="lesson-header ion-padding" color="brown" >
-            <IonCardHeader className="ion-text-center">
-                
-                <IonCardSubtitle><h1 className="lesson-header">Selam</h1></IonCardSubtitle>
-            </IonCardHeader>
-        
+        <IonCard className="lesson-header ion-padding ion-text-center" color="burgundy">
+        <IonCardTitle>
+              <h1 className="lesson" >Selam</h1>
+             
+            </IonCardTitle>
+          <IonCardContent>
+            
+            <IonCardSubtitle>
+              <h3 style={{fontStyle:"italic"} }>“Mi smo naredili čovjeku da sluša roditelje svoje.”</h3>
+              <p className="quote-reference">Kur'an Lukman,14</p>
+            </IonCardSubtitle>
+          </IonCardContent>
         </IonCard>
         <div className="ion-padding">
             <IonItem className="lesson-note">

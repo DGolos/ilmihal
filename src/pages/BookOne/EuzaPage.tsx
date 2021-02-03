@@ -24,7 +24,7 @@ import {
   
 } from "@ionic/react";
 import { Howl } from "howler";
-import { caretForwardCircleOutline, pauseCircleOutline } from "ionicons/icons";
+import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
 
 
@@ -60,7 +60,7 @@ const EuzaPage: React.FC = () => {
       }
        
         playerRef.current=new Howl({
-            src:`/assets/audio/Ezan.m4a`,
+            src:`/assets/audio/lessons/EudhuBillahi.m4a`,
             preload:true,
             html5:true,
             onend:onEnd,
@@ -94,21 +94,21 @@ const EuzaPage: React.FC = () => {
       <IonContent className="bg-image-standard" fullscreen>
         <IonCard className="lesson-header ion-padding ion-text-center" color="purple">
         <IonCardTitle>
-              <h1 className="lesson" style={{fontFamily:"Roboto"} }>Euzubilla i bismilla</h1>
+              <h1 className="lesson" >Euzubilla i bismilla</h1>
              
             </IonCardTitle>
           <IonCardContent>
             
             <IonCardSubtitle>
-              <h3 style={{fontStyle:"italic",fontFamily:"Roboto"} }>"Poslan sam da bih upotpunio moral."</h3>
-              <p className="hadeeth-reference">Sahih Muslim vol. 2</p>
+              <h3 style={{fontStyle:"italic"} }>"Poslan sam da bih upotpunio moral."</h3>
+              <p className="quote-reference">Buharija,Muslim</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
           <IonItem className="lesson-note">
             <IonText>
-              <h2 className="lesson-note" style={{fontFamily:"Roboto"} }>
+              <h2 className="lesson-note" >
                 U svim poslovima Bismillom spominjemo Boga i molimo Ga da nam
                 dadne snagu i razum da započeti posao sretno završimo, jer naš
                 život, snaga i razum zavise od Njega, Allaha dželle šānuhu.
@@ -125,7 +125,7 @@ const EuzaPage: React.FC = () => {
           className="ion-text-center"
         >
           <IonGrid >
-            <IonRow className="border-bottom">
+            <IonRow>
               <IonCol size="12">
                 <IonChip color="purple">
                   <IonText>Arapski</IonText>
@@ -141,20 +141,20 @@ const EuzaPage: React.FC = () => {
                 >
                   <IonIcon
                     slot="icon-only"
-                    icon={isPlaying ? pauseCircleOutline: caretForwardCircleOutline}
+                    icon={isPlaying ? pauseCircleOutline: volumeHighOutline}
                     color="purple"
                   />
                 </IonButton>
               </IonCol>
             </IonRow>
-            <IonRow className="ayah">
+            <IonRow >
               <IonCol size="12">
-                <IonNote style={{fontFamily:"Roboto"} }>
+                <IonNote >
                   Euzu billahi mineššejta-nirradžim Bismillahir-rahmanir-rahim.
                 </IonNote>
               </IonCol>
             </IonRow>
-            <IonRow className="ayah">
+            <IonRow >
               <IonCol size="12">
                 <IonChip color="purple">
                   <IonLabel>Bosanski</IonLabel>
@@ -163,7 +163,7 @@ const EuzaPage: React.FC = () => {
             </IonRow>
             <IonRow>
               <IonCol size="12">
-                <IonNote style={{fontFamily:"Roboto"} }>
+                <IonNote >
                   Euzu billahi mineššejta-nirradžim Bismillahir-rahmanir-rahim.
                 </IonNote>
               </IonCol>

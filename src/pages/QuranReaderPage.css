@@ -14,3 +14,7 @@ h4.ayah-details{
     color:#D18972;
 }
 
+ion-row.border-bottom{
+    border-bottom: 1px solid black;
+}
+
