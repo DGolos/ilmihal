@@ -1,5 +1,4 @@
 import {
-  IonAvatar,
   IonBackButton,
   IonButton,
   IonButtons,
@@ -7,9 +6,7 @@ import {
   IonContent,
   IonGrid,
   IonHeader,
-  IonItem,
   IonLabel,
-  IonNote,
   IonPage,
   IonRow,
   IonTitle,

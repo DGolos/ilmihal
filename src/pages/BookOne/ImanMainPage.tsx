@@ -1,4 +1,4 @@
-import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardHeader, IonCardSubtitle, IonContent, IonHeader, IonItem, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
+import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 
 const ImanMainPage: React.FC = () => {
@@ -13,12 +13,19 @@ const ImanMainPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-burgundy-gradient" fullscreen>
-        <IonCard className="lesson-header transparent ion-padding">
-            <IonCardHeader className="ion-text-center">
-                
-                <IonCardSubtitle><h1 className="lesson-header">Imanski šarti</h1></IonCardSubtitle>
-            </IonCardHeader>
         
+        <IonCard className="lesson-header ion-padding transparent ion-text-center" >
+        <IonCardTitle>
+              <h1 className="lesson" >Imanski šarti</h1>
+             
+            </IonCardTitle>
+          <IonCardContent>
+            
+            <IonCardSubtitle color="light">
+              <h3 style={{fontStyle:"italic"} }>"Niko nije kao On.On sve čuje i vidi"</h3>
+              <p className="quote-reference">Kur'an Aš-Šura,11</p>
+            </IonCardSubtitle>
+          </IonCardContent>
         </IonCard>
         <div className="ion-padding">
             <IonItem className="lesson-note">
@@ -33,7 +40,7 @@ const ImanMainPage: React.FC = () => {
           <IonList className="transparent ion-padding">
           <IonItem
               key="1"
-              routerLink={`/ShahadahPage`}
+              routerLink={`/BeliefPage`}
               lines="none"
               detail={false}
               className="welcome"
@@ -51,7 +58,7 @@ const ImanMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="2"
-              routerLink={`/ShahadahPage`}
+              routerLink={`/AngelsPage`}
               lines="none"
               detail={false}
               className="welcome"
@@ -69,7 +76,7 @@ const ImanMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="3"
-              routerLink={`/ShahadahPage`}
+              routerLink={`/RevelationsPage`}
               lines="none"
               detail={false}
               className="welcome"
@@ -87,7 +94,7 @@ const ImanMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="4"
-              routerLink={`/ShahadahPage`}
+              routerLink={`/MessangersPage`}
               lines="none"
               detail={false}
               className="welcome"
@@ -105,7 +112,7 @@ const ImanMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="5"
-              routerLink={`/ShahadahPage`}
+              routerLink={`/JudgementDayPage`}
               lines="none"
               detail={false}
               className="welcome"
@@ -123,7 +130,7 @@ const ImanMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="6"
-              routerLink={`/ShahadahPage`}
+              routerLink={`/DestinyPage`}
               lines="none"
               detail={false}
               className="welcome"

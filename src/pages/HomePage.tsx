@@ -28,8 +28,7 @@ useIonViewWillEnter(() => {
               <IonRow>
                 <IonCol size="12">
                   <h5 className="ion-no-padding ion-text-center" style={{fontStyle:"italic"}}>
-                    "Allah ce uciniti put do Dzenneta lahkim svakome ko trazi
-                    znanje"
+                    "Allah ce učiniti put do Dzenneta lahkim svakome ko traži znanje"
                   </h5>
                 </IonCol>
               </IonRow>

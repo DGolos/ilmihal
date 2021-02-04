@@ -93,8 +93,7 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Suru El-Fatiha je obavezno učiti na svakom rekatu.Ako se ona ne
-                prouči namaz nije važeći.
+                Suru El-Fatiha je obavezno učiti na svakom rekatu.
               </IonNote>
             </IonCol>
           </IonRow>
