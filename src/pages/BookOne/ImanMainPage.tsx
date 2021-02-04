@@ -31,8 +31,12 @@ const ImanMainPage: React.FC = () => {
             <IonItem className="lesson-note">
               <IonText>
                 <h2 className="lesson-note">
-                  Islamskim šartima nazivamo islamske dužnosti. Islam se zasniva
-                  na pet glavnih dužnosti:
+                Da bismo mogli biti muslimani, dužni smo naučiti te razumom i srcem prihvatiti islamsko
+vjerovanje (iman).
+                </h2>
+                <h2 className="lesson-note">
+                Islamsko vjerovanje sastoji se od šest temeljnih istina vjere, a zovemo ih imanski šarti.
+
                 </h2>
               </IonText>
             </IonItem>
