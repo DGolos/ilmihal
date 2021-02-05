@@ -7,7 +7,9 @@ import {
   IonCardTitle,
   IonContent,
   IonHeader,
+  IonItem,
   IonPage,
+  IonText,
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
@@ -36,6 +38,19 @@ const RelevationsPage: React.FC = () => {
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
+        <div className="ion-padding">
+            <IonItem className="lesson-note">
+                <IonText>
+                    <h2 className="lesson-note">Božije knjige (kitabi) su Božije objave koje su ljudima prenosili Božiji poslanici. U Božijim
+kitabima sadržane su upute, savjeti i propisi o životu ljudi i obavljanju vjerskih dužnosti
+koje je Allah dž. š. naredio ili zabranio ljudima.Svim Božijim poslanicima (pejgamberima) objavu je dostavljao melek Džibirl.Najpoznatija su nam četiri velika kitaba:</h2>
+                    <h2 className="lesson-note"><b>Tevrat</b> objavljen Musau a.s.</h2>
+                    <h2 className="lesson-note"><b>Zebur</b> objavljen Davudu a.s.</h2>
+                    <h2 className="lesson-note"><b>Indžil</b> objavljen Isau a.s.</h2>
+                    <h2 className="lesson-note"><b>Kur'an</b> objavljen Muhammedu a.s.</h2>
+                </IonText>
+            </IonItem>
+        </div>
       </IonContent>
     </IonPage>
   );

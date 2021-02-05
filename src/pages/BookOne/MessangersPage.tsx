@@ -34,7 +34,7 @@ const MessangersPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>“Mi smo svakom narodu poslanika poslali.”</h3>
-              <p className="quote-reference">Kur'an en-Nehl,36</p>
+              <p className="quote-reference">Kur'an En-Nehl,36</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
