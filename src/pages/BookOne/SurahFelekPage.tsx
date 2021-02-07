@@ -82,7 +82,30 @@ const SurahFelekPage: React.FC = () => {
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
-        
+        <div className="ion-padding">
+            <IonItem className="lesson-note">
+                <IonButton
+                  className="no-shadow"
+                  onClick={() => {toglePlayPause()}}
+                  fill="clear"
+                  color="light"
+                  size="default"
+                  slot="start"
+                  
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={isPlaying ? pauseCircleOutline: volumeHighOutline}
+                    color="purple"
+                  />
+                </IonButton>
+                <IonText>
+                    <h2 className="lesson-note">Fatiha je prva kur&#39;anska sura. Često se naziva Elham. Sastoji se od sedam ajeta, u kojima se
+iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</h2>
+                    
+                </IonText>
+            </IonItem>
+        </div>
         <div className="ion-padding">
         <IonSegment
             value={currentTranslationSection}
@@ -106,25 +129,7 @@ const SurahFelekPage: React.FC = () => {
           </IonSegment>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="arabic"}>
-          <IonGrid>
-            <IonRow className="ion-text-center">
-              <IonCol size="12">
-              <IonButton
-                  className="no-shadow"
-                  onClick={() => {toglePlayPause()}}
-                  fill="clear"
-                  color="light"
-                  size="default"
-                  
-                >
-                  <IonIcon
-                    slot="icon-only"
-                    icon={isPlaying ? pauseCircleOutline: volumeHighOutline}
-                    color="purple"
-                  />
-                </IonButton>
-              </IonCol>
-              <IonCol size="12">
+          
               <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">Kul euzu bi rabbil-felek</p>
@@ -135,9 +140,7 @@ const SurahFelekPage: React.FC = () => {
                                                             
                 </IonText>
             </IonItem>
-              </IonCol>
-            </IonRow>
-          </IonGrid>
+             
         
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="translation"}>

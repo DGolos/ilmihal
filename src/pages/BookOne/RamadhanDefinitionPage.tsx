@@ -21,14 +21,14 @@ const RamadhanDefinitionPage: React.FC = () => {
             </IonCardHeader>
           </IonCard>
           <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 Ramazanski post znači uz ramazan se ustegnuti od jela, pića, pušenja i spolnog uživanja od prije zore do zalaska sunca, u svrhu odanosti Allahu dž.š.
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 Nijjet za početak posta glasi: NEVEJTU EN ESUME LILLAHI TE&#39;ALA MIN
@@ -37,7 +37,7 @@ ramazanski post.
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 Dova za iftar (prekid posta) glasi: ALLAHUMME INNI LEKE SUMTU VE BIHE

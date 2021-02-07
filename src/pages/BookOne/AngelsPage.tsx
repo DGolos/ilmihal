@@ -39,7 +39,7 @@ const AngelsPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Meleki su nevidljiva duhovna bića, stvorena od svijetlosti, koja nikada ne griješe, nego
 uvijek sa zadovoljstvom i poslušno vrše dužnosti koje im Allah dž.š. određuje.Meleka ima mnogo a najpoznatiji su:</h2>

@@ -39,7 +39,7 @@ const RelevationsPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Božije knjige (kitabi) su Božije objave koje su ljudima prenosili Božiji poslanici. U Božijim
 kitabima sadržane su upute, savjeti i propisi o životu ljudi i obavljanju vjerskih dužnosti

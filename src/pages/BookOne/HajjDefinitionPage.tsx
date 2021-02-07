@@ -21,7 +21,7 @@ const HajjDefinitionPage: React.FC = () => {
             </IonCardHeader>
           </IonCard>
           <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                   Hadž je posjeta Ka&#39;be (Bejtullaha-Božije kuće) u gradu

@@ -80,7 +80,7 @@ const SubhanekePage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Allaha, dž.š., veličamo i slavimo spominjući Njegova lijepa imene i hvaleći Njegove Uzvišene
 osobine.</h2>

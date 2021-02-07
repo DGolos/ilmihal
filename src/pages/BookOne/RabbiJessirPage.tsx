@@ -80,7 +80,7 @@ const RabbiJessirPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Allah, dž.š., nam da je uspjeh i pomoć u svim našim poslovima.Učeći Rabbi jessir molimo Allaha, dž.š., da nam učini lahkim i korisnim svaki posao koji želimo
 da radimo.</h2>

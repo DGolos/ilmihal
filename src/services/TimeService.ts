@@ -89,16 +89,14 @@ class TimeService{
         if(timeStamp<this.sunrise)
             return "fajr";   
         if(timeStamp<this.preDhuhr)
-            return "pre-dhuhr";
-        if(timeStamp<this.dhuhr)
-            return "dhuhr"; 
+            return "sunrise";
         if(timeStamp<this.preAsr)
-            return "pre-asr";
-        if(timeStamp<this.asr)
-            return "asr"; 
+            return "dhuhr";
         if(timeStamp<this.preMaghrib)
-            return "pre-maghrib";
+            return "asr";
         if(timeStamp<this.maghrib)
+            return "late-asr"; 
+        if(timeStamp<this.isha)
             return "maghrib"; 
         return "isha";
     }

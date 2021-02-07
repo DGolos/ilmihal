@@ -39,7 +39,7 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle>Sabah</IonCardTitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>Sabah</IonCardTitle>
                     <IonCardSubtitle>2 rekata suneta</IonCardSubtitle>
                     <IonCardSubtitle>2 rekata farza</IonCardSubtitle>
                   </IonCol>
@@ -55,7 +55,7 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle>Podne</IonCardTitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>Podne</IonCardTitle>
                     <IonCardSubtitle>4 rekata suneta</IonCardSubtitle>
                     <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
                     <IonCardSubtitle>2 rekata sunsuneta</IonCardSubtitle>
@@ -72,7 +72,7 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle>Ikindija</IonCardTitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>Ikindija</IonCardTitle>
                     <IonCardSubtitle>4 rekata suneta</IonCardSubtitle>
                     <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
                   </IonCol>
@@ -88,7 +88,7 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle>Akšam</IonCardTitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>Akšam</IonCardTitle>
                     <IonCardSubtitle>3 rekata farza</IonCardSubtitle>
                     <IonCardSubtitle>2 rekata suneta</IonCardSubtitle>
                   </IonCol>
@@ -104,7 +104,7 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle>Jacija</IonCardTitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>Jacija</IonCardTitle>
                     <IonCardSubtitle>4 rekata suneta</IonCardSubtitle>
                     <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
                     <IonCardSubtitle>2 rekata sunsuneta</IonCardSubtitle>

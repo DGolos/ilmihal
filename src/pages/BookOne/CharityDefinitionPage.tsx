@@ -21,7 +21,7 @@ const CharityDefinitionPage: React.FC = () => {
             </IonCardHeader>
           </IonCard>
           <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 Zekat je obavezno davanje jednog dijela iz viška imovine siromašnim
@@ -31,7 +31,7 @@ zdravi, slobodani i koji posjeduju nisab.
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 Nisab je određena vrijednost ili količina imovine koju posjedujemo tokom godine

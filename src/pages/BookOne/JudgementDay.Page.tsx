@@ -39,7 +39,7 @@ const JudgementDayPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
       <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Posljednji dan je dan kada će ovaj svijet i sve živo na njemu nestati. Sudnji je dan kada
 će Svemogući Bog stvoriti drugi vječni život i sve mrtvo oživjeti i pozvati ljude da im sudi

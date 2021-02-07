@@ -106,7 +106,7 @@ const EuzaPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-          <IonItem className="lesson-note">
+          <IonItem className="lesson-note" lines="none">
             <IonText>
               <h2 className="lesson-note" >
                 U svim poslovima Bismillom spominjemo Boga i molimo Ga da nam

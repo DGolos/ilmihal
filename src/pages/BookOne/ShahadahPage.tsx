@@ -81,7 +81,7 @@ const ShahadahPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Svoju pripadnost islamu iskazujemo kelimei-šehadetom.</h2>
                 </IonText>

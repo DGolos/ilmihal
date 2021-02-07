@@ -39,7 +39,7 @@ const MessangersPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Božiji poslanici su odabrani ljudi (pejgamberi) kojima je Bog dž. š. slao svoje objave da
 ih prenesu i objasne ljudima.</h2>

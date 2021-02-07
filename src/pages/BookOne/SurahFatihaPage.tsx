@@ -89,8 +89,24 @@ const SurahFatihaPage: React.FC = () => {
 iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</h2>
                     
                 </IonText>
+                <IonButton
+                  className="no-shadow"
+                  onClick={() => {toglePlayPause()}}
+                  fill="clear"
+                  color="light"
+                  size="default"
+                  slot="start"
+                  
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={isPlaying ? pauseCircleOutline: volumeHighOutline}
+                    color="purple"
+                  />
+                </IonButton>
             </IonItem>
         </div>
+        
         <div className="ion-padding">
         <IonSegment
             value={currentTranslationSection}
@@ -116,27 +132,7 @@ iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</
         
                  
         <div className="ion-padding" hidden={currentTranslationSection!=="arabic"}>
-          <IonGrid>
-            <IonRow className="ion-text-center">
-              <IonCol size="12" >
-              <IonButton
-                  className="no-shadow"
-                  onClick={() => {toglePlayPause()}}
-                  fill="clear"
-                  color="light"
-                  size="default"
-                  
-                >
-                  <IonIcon
-                    slot="icon-only"
-                    icon={isPlaying ? pauseCircleOutline: volumeHighOutline}
-                    color="purple"
-                  />
-                </IonButton>
-              </IonCol>
-            </IonRow>
-            <IonRow>
-            <IonCol size="12">
+          
             <IonItem className="lesson-note ion-text-center">
                 <IonText>
                     <p>El-hamdu-lillahi Rabbil-'alemin</p>
@@ -151,10 +147,7 @@ iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</
                     
                 </IonText>
             </IonItem>
-            </IonCol>
-            </IonRow>
-          </IonGrid>
-        
+            
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="translation"}>
         <IonItem className="lesson-note" lines="none">

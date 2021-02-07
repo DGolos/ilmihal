@@ -27,7 +27,7 @@ const SelamPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Selam je islamski pozdrav.Selam je pozdrav obavezan za sve muslimane i muslimanke na cijelom svijetu pri
 njihovim međusobnim susretima.</h2>
