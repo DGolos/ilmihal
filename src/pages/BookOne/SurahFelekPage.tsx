@@ -100,8 +100,7 @@ const SurahFelekPage: React.FC = () => {
                   />
                 </IonButton>
                 <IonText>
-                    <h2 className="lesson-note">Fatiha je prva kur&#39;anska sura. Često se naziva Elham. Sastoji se od sedam ajeta, u kojima se
-iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</h2>
+                    <h2 className="lesson-note">Sure El-Felek i En-Nas su Zaštitnice iz Kur'ana.Čuvaju nas od zlih ljudi i šejtana.</h2>
                     
                 </IonText>
             </IonItem>

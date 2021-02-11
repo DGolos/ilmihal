@@ -116,8 +116,7 @@ const SurahIhlasPage: React.FC = () => {
                   />
                 </IonButton>
                 <IonText>
-                    <h2 className="lesson-note">Fatiha je prva kur&#39;anska sura. Često se naziva Elham. Sastoji se od sedam ajeta, u kojima se
-iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</h2>
+                    <h2 className="lesson-note">Ovu suru nauči i tri puta je prouči pa ćeš biti kao Kur'an zaštićen i sačuvan.</h2>
                     
                 </IonText>
             </IonItem>

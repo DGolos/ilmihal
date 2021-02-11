@@ -60,7 +60,7 @@ const EuzaPage: React.FC = () => {
       }
        
         playerRef.current=new Howl({
-            src:`/assets/audio/lessons/EudhuBillahi.m4a`,
+            src:`/assets/audio/lessons/EuzaBismilla.m4a`,
             preload:true,
             html5:true,
             onend:onEnd,
