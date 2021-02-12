@@ -121,7 +121,7 @@ export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
               <RukuWatch rakah="2"/>
               
               <TashahudWatch rakah="2" type={match.params.type} last={true}/>
-              <SelamWatch/>
+              <SelamWatch rakah="2"/>
               
             </IonSlides>
           </div>

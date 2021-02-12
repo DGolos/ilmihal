@@ -8,8 +8,12 @@ import {
     IonSlide,
   } from "@ionic/react";
   import React from "react";
+
+  interface SalamWatchProps{
+    rakah:string
+  }
   
-  const SelamWatch: React.FC = () => {
+  const SelamWatch: React.FC<SalamWatchProps> = ({ rakah}) => {
     return (
         <IonSlide>
         <div>
@@ -26,7 +30,7 @@ import {
               <IonRow>
                   <IonCol size="12">
                     <IonNote>
-                      <h2>Drugi rekat</h2>
+                      <h2>{rakah==="2"?"Drugi rekat":"Četvrti rekat"}</h2>
                     </IonNote>
                   </IonCol>
                 </IonRow>

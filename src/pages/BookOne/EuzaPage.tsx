@@ -101,7 +101,7 @@ const EuzaPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>"Poslan sam da bih upotpunio moral."</h3>
-              <p className="quote-reference">Buharija,Muslim</p>
+              <p className="quote-reference">Hadis</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

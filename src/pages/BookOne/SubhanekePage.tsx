@@ -75,7 +75,7 @@ const SubhanekePage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>“Neće ući u Džennet onaj koji kida rodbinske veze.”</h3>
-              <p className="quote-reference">Buharija</p>
+              <p className="quote-reference">Hadis</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

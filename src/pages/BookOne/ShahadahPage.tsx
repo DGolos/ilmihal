@@ -76,7 +76,7 @@ const ShahadahPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>"Allah svjedoči da nema dugog Boga osim Njega."</h3>
-              <p className="quote-reference">Kur'an Ali Imran,18</p>
+              <p className="quote-reference">Kur'an 3:18</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

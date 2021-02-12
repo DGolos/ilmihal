@@ -75,7 +75,7 @@ const RabbiJessirPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>“Vjera je iskren savjet.”</h3>
-              <p className="quote-reference">Muslim</p>
+              <p className="quote-reference">Hadis</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

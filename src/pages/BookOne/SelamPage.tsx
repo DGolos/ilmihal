@@ -22,7 +22,7 @@ const SelamPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>“Mi smo naredili čovjeku da sluša roditelje svoje.”</h3>
-              <p className="quote-reference">Kur'an Lukman,14</p>
+              <p className="quote-reference">Kur'an 31:14</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

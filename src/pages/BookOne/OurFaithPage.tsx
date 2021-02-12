@@ -22,7 +22,7 @@ const OurFaithPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>"Allahu je prava vjera jedino islam."</h3>
-              <p className="quote-reference">Kur'an Ali Imran,19</p>
+              <p className="quote-reference">Kur'an 3:19</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

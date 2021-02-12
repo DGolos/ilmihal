@@ -131,7 +131,7 @@ export const AsrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>>
               <QijamWatch rakah="4" type={match.params.type} prayer="3"/>
               <RukuWatch rakah="4"/>
               <TashahudWatch rakah="4" type={match.params.type} last={true}/>
-              <SelamWatch/>
+              <SelamWatch rakah="4"/>
             </IonSlides>
           </div>
         </IonContent>

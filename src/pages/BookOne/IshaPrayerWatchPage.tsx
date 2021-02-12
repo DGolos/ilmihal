@@ -150,7 +150,7 @@ mustakbilel-kibleti - Allahu ekber.
               
               <TashahudWatch rakah="2" type={match.params.type} last={match.params.type==="sunsunnah"}/>
               {match.params.type==="sunsunnah" &&
-                <SelamWatch/>
+                <SelamWatch  rakah="2" />
               }
               {match.params.type==="witr"&&
               <>
@@ -158,7 +158,7 @@ mustakbilel-kibleti - Allahu ekber.
               <WitrAdditionWatch/>
               <RukuWatch rakah="3"/>
               <TashahudWatch rakah="3" type={match.params.type} last={true}/>
-              <SelamWatch/>
+              <SelamWatch  rakah="3"/>
                 
                 </>
               }
@@ -171,7 +171,7 @@ mustakbilel-kibleti - Allahu ekber.
               <QijamWatch rakah="4" type={match.params.type} prayer="5"/>
               <RukuWatch rakah="4"/>
               <TashahudWatch rakah="4" type={match.params.type} last={true}/>
-              <SelamWatch/></>}
+              <SelamWatch  rakah="4"/></>}
               
               
             </IonSlides>
