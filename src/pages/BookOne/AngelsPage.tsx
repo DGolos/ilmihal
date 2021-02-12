@@ -34,7 +34,7 @@ const AngelsPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>“On ga je na obzorju jasnom vidio”</h3>
-              <p className="quote-reference">Kur'an Et-Tekvir,23</p>
+              <p className="quote-reference">Kur'an 81:23</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

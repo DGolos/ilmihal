@@ -23,12 +23,12 @@ const ImanMainPage: React.FC = () => {
             
             <IonCardSubtitle color="light">
               <h3 style={{fontStyle:"italic"} }>"Niko nije kao On.On sve čuje i vidi"</h3>
-              <p className="quote-reference">Kur'an Aš-Šura,11</p>
+              <p className="quote-reference">Kur'an 42:11</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 Da bismo mogli biti muslimani, dužni smo naučiti te razumom i srcem prihvatiti islamsko

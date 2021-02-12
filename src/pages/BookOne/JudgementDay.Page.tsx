@@ -33,8 +33,8 @@ const JudgementDayPage: React.FC = () => {
           <IonCardContent>
             
             <IonCardSubtitle>
-              <h3 style={{fontStyle:"italic"} }>“Mi smo naredili čovjeku da sluša roditelje svoje.”</h3>
-              <p className="quote-reference">Kur'an Lukman,14</p>
+              <h3 style={{fontStyle:"italic"} }>“Kunem se Danom kada Smak svijeta nastupi!”</h3>
+              <p className="quote-reference">Kur'an 75:1</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

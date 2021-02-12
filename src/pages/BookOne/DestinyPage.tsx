@@ -33,8 +33,8 @@ const DestinyPage: React.FC = () => {
           <IonCardContent>
             
             <IonCardSubtitle>
-              <h3 style={{fontStyle:"italic"} }>“Mi smo svakom narodu poslanika poslali.”</h3>
-              <p className="quote-reference">Kur'an En-Nehl,36</p>
+              <h3 style={{fontStyle:"italic"} }>“Ono što je Allah odredio - dogodiće se”</h3>
+              <p className="quote-reference">Kur'an 16:1</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

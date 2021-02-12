@@ -33,8 +33,8 @@ const RelevationsPage: React.FC = () => {
           <IonCardContent>
             
             <IonCardSubtitle>
-              <h3 style={{fontStyle:"italic"} }>“Mi smo svakom narodu poslanika poslali.”</h3>
-              <p className="quote-reference">Kur'an en-Nehl,36</p>
+              <h3 style={{fontStyle:"italic"} }>“Mi ti, doista, objavljujemo Knjigu”</h3>
+              <p className="quote-reference">Kur'an 39:2</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

@@ -41,7 +41,7 @@ const BeliefPage: React.FC = () => {
               <h3 style={{ fontStyle: "italic" }}>
                 “Allah je izvor svjetlosti nebesa i Zemlje”
               </h3>
-              <p className="quote-reference">Kur'an En-Nur,35</p>
+              <p className="quote-reference">Kur'an 24:35</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
@@ -76,6 +76,15 @@ ograničeno.
                     </h2>
                     <h2 className="lesson-note">
                       <b>Beka</b>- Bog neće nestati.
+                    </h2>
+                    <h2 className="lesson-note">
+                      <b>Vahdanijet</b>- Allah je jedan i jedini
+                    </h2>
+                    <h2 className="lesson-note">
+                      <b>Muhalefetun lil havadisi</b>- Allah nikome i ničemu nije sličan.
+                    </h2>
+                    <h2 className="lesson-note">
+                      <b>Kijamun bi nefsihi</b>- Allah sam pio sebi opstoji.
                     </h2>
                   </IonText>
                 </IonCol>
