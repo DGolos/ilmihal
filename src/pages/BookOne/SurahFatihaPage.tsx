@@ -78,12 +78,12 @@ const SurahFatihaPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>"Fatiha je lijek, umirujuće sredstvo za svaku bolest."</h3>
-              <p className="quote-reference">Buharija</p>
+              <p className="quote-reference">Hadis</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonText>
                     <h2 className="lesson-note">Fatiha je prva kur&#39;anska sura. Često se naziva Elham. Sastoji se od sedam ajeta, u kojima se
 iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</h2>
@@ -133,7 +133,7 @@ iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla.</
                  
         <div className="ion-padding" hidden={currentTranslationSection!=="arabic"}>
           
-            <IonItem className="lesson-note ion-text-center">
+            <IonItem className="lesson-note ion-text-center" lines="none">
                 <IonText>
                     <p>El-hamdu-lillahi Rabbil-'alemin</p>
                     <p>Errahmanir-rahim</p>

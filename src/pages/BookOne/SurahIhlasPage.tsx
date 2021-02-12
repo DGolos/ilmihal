@@ -94,12 +94,12 @@ const SurahIhlasPage: React.FC = () => {
               <h3 style={{ fontStyle: "italic" }}>
                 "Suha El-Ihlas je trećina Kur'ana."
               </h3>
-              <p className="quote-reference">Muslim</p>
+              <p className="quote-reference">Hadis</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonButton
                   className="no-shadow"
                   onClick={() => {toglePlayPause()}}

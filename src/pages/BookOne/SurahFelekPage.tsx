@@ -78,12 +78,12 @@ const SurahFelekPage: React.FC = () => {
             
             <IonCardSubtitle>
               <h3 style={{fontStyle:"italic"} }>"Objavljeni su mi ajeti, koji ne sliče ni jednim do sada."</h3>
-              <p className="quote-reference">Muslim</p>
+              <p className="quote-reference">Hadis</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
                 <IonButton
                   className="no-shadow"
                   onClick={() => {toglePlayPause()}}
