@@ -13,15 +13,24 @@ const PrayerDefinitionPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-        <IonCard className="lesson-header ion-padding" color="dark-brown">
-            <IonCardHeader className="ion-text-center">
-              <IonCardSubtitle>
-                <h1 className="lesson-header">Namaz</h1>
-              </IonCardSubtitle>
-            </IonCardHeader>
-          </IonCard>
+        <IonCard
+          className="lesson-header ion-padding ion-text-center"
+          color="dark-brown"
+        >
+          <IonCardTitle>
+            <h1 className="lesson">Namaz</h1>
+          </IonCardTitle>
+          <IonCardContent>
+            <IonCardSubtitle>
+              <h3 style={{ fontStyle: "italic" }}>
+                “I molitvu obavljajte i zekat dajite”
+              </h3>
+              <p className="quote-reference">Kur'an 2:43</p>
+            </IonCardSubtitle>
+          </IonCardContent>
+        </IonCard>
           <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 Namaz je muslimanska obaveza koja se izvršava svaki dan klanjanjem i učenjem na propisani način. Svaki dan treba klanjati pet namaza u vrijeme odredjeno za namaz.
@@ -40,7 +49,7 @@ const PrayerDefinitionPage: React.FC = () => {
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
                     <IonCardTitle style={{fontWeight:"bold"}}>Sabah</IonCardTitle>
-                    <IonCardSubtitle>2 rekata suneta</IonCardSubtitle>
+                    <IonCardSubtitle>2 rekata sunneta</IonCardSubtitle>
                     <IonCardSubtitle>2 rekata farza</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
@@ -56,9 +65,9 @@ const PrayerDefinitionPage: React.FC = () => {
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
                     <IonCardTitle style={{fontWeight:"bold"}}>Podne</IonCardTitle>
-                    <IonCardSubtitle>4 rekata suneta</IonCardSubtitle>
+                    <IonCardSubtitle>4 rekata sunneta</IonCardSubtitle>
                     <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
-                    <IonCardSubtitle>2 rekata sunsuneta</IonCardSubtitle>
+                    <IonCardSubtitle>2 rekata sunsunneta</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
@@ -73,7 +82,7 @@ const PrayerDefinitionPage: React.FC = () => {
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
                     <IonCardTitle style={{fontWeight:"bold"}}>Ikindija</IonCardTitle>
-                    <IonCardSubtitle>4 rekata suneta</IonCardSubtitle>
+                    <IonCardSubtitle>4 rekata sunneta</IonCardSubtitle>
                     <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
@@ -90,7 +99,7 @@ const PrayerDefinitionPage: React.FC = () => {
                   <IonCol size="9" className="ion-padding">
                     <IonCardTitle style={{fontWeight:"bold"}}>Akšam</IonCardTitle>
                     <IonCardSubtitle>3 rekata farza</IonCardSubtitle>
-                    <IonCardSubtitle>2 rekata suneta</IonCardSubtitle>
+                    <IonCardSubtitle>2 rekata sunneta</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
@@ -105,9 +114,9 @@ const PrayerDefinitionPage: React.FC = () => {
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
                     <IonCardTitle style={{fontWeight:"bold"}}>Jacija</IonCardTitle>
-                    <IonCardSubtitle>4 rekata suneta</IonCardSubtitle>
+                    <IonCardSubtitle>4 rekata sunneta</IonCardSubtitle>
                     <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
-                    <IonCardSubtitle>2 rekata sunsuneta</IonCardSubtitle>
+                    <IonCardSubtitle>2 rekata sunsunneta</IonCardSubtitle>
                     <IonCardSubtitle>3 rekata vitra</IonCardSubtitle>
                   </IonCol>
                 </IonRow>

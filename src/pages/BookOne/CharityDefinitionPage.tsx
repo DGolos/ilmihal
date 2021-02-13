@@ -1,4 +1,4 @@
-import { IonBackButton, IonButtons, IonCard, IonCardHeader, IonCardSubtitle, IonContent, IonHeader, IonItem, IonPage, IonText, IonToolbar } from "@ionic/react";
+import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 
 const CharityDefinitionPage: React.FC = () => {
@@ -13,13 +13,22 @@ const CharityDefinitionPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-        <IonCard className="lesson-header ion-padding" color="razimic">
-            <IonCardHeader className="ion-text-center">
-              <IonCardSubtitle>
-                <h1 className="lesson-header">Zekat</h1>
-              </IonCardSubtitle>
-            </IonCardHeader>
-          </IonCard>
+        <IonCard
+          className="lesson-header ion-padding ion-text-center"
+          color="razimic"
+        >
+          <IonCardTitle>
+            <h1 className="lesson">Zekat</h1>
+          </IonCardTitle>
+          <IonCardContent>
+            <IonCardSubtitle>
+              <h3 style={{ fontStyle: "italic" }}>
+                “I koji milostinju udjeljuju”
+              </h3>
+              <p className="quote-reference">Kur'an 23:4</p>
+            </IonCardSubtitle>
+          </IonCardContent>
+        </IonCard>
           <div className="ion-padding">
             <IonItem className="lesson-note" lines="none">
               <IonText>

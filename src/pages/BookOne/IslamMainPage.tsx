@@ -1,4 +1,4 @@
-import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardHeader, IonCardSubtitle, IonContent, IonHeader, IonItem, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
+import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 
 const IslamMainPage: React.FC = () => {
@@ -16,17 +16,23 @@ const IslamMainPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-purple-gradient" fullscreen>
-          <IonCard className="lesson-header transparent ion-padding">
-            <IonCardHeader className="ion-text-center">
-              <IonCardSubtitle>
-                <h1 className="lesson-header">Islamski šarti</h1>
-              </IonCardSubtitle>
-            </IonCardHeader>
-          </IonCard>
+        <IonCard className="lesson-header ion-padding transparent ion-text-center" >
+        <IonCardTitle>
+              <h1 className="lesson" >Islamski šarti</h1>
+             
+            </IonCardTitle>
+          <IonCardContent>
+            
+            <IonCardSubtitle color="light">
+              <h3 style={{fontStyle:"italic"} }>"Musliman je muslimanu brat"</h3>
+              <p className="quote-reference">Hadis</p>
+            </IonCardSubtitle>
+          </IonCardContent>
+        </IonCard>
           <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
-                <h2 className="lesson-note">
+                <h2 className="lesson-note" >
                   Islamskim šartima nazivamo islamske dužnosti. Islam se zasniva
                   na pet glavnih dužnosti:
                 </h2>
@@ -116,7 +122,7 @@ const IslamMainPage: React.FC = () => {
                 />
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
-                <h3> Hadž</h3>
+                <h3> Hadždž</h3>
               </IonText>
             </IonItem>
           </IonList>

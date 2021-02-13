@@ -1,4 +1,4 @@
-import { IonBackButton, IonButtons, IonCard, IonCardHeader, IonCardSubtitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
+import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 
 const HajjDefinitionPage: React.FC = () => {
@@ -13,18 +13,27 @@ const HajjDefinitionPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-          <IonCard className="lesson-header ion-padding" color="purple">
-            <IonCardHeader className="ion-text-center">
-              <IonCardSubtitle>
-                <h1 className="lesson-header">Hadž</h1>
-              </IonCardSubtitle>
-            </IonCardHeader>
-          </IonCard>
+        <IonCard
+          className="lesson-header ion-padding ion-text-center"
+          color="purple"
+        >
+          <IonCardTitle>
+            <h1 className="lesson">Hadždž</h1>
+          </IonCardTitle>
+          <IonCardContent>
+            <IonCardSubtitle>
+              <h3 style={{ fontStyle: "italic" }}>
+                “Obavljajte hadž, jer on  čisti grijehe,”
+              </h3>
+              <p className="quote-reference">Hadis</p>
+            </IonCardSubtitle>
+          </IonCardContent>
+        </IonCard>
           <div className="ion-padding">
             <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
-                  Hadž je posjeta Ka&#39;be (Bejtullaha-Božije kuće) u gradu
+                  Hadždž je posjeta Ka&#39;be (Bejtullaha-Božije kuće) u gradu
                   Mekki jednom u životu.Allah dž.š. u Kur&#39;anu poziva sve
                   muslimane i muslimanke da posjete Ka&#39;bu i izvrše propisane
                   obrede hadža ako zato (za to) imaju mogućnosti.Hadž ima tri osnovna farza koja mora svaki hadžija izvršiti.
