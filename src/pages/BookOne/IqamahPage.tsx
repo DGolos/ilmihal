@@ -1,10 +1,64 @@
-import { IonBackButton, IonButtons, IonCard, IonCardHeader, IonCardSubtitle, IonContent, IonHeader, IonItem, IonPage, IonSegment, IonSegmentButton, IonText, IonToolbar } from "@ionic/react";
-import React, { useState } from "react";
+import { IonBackButton, IonButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonIcon, IonItem, IonPage, IonSegment, IonSegmentButton, IonText, IonToolbar, useIonViewWillLeave } from "@ionic/react";
+import { Howl } from "howler";
+import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
+import React, { useRef, useState } from "react";
 
 type TranslationSection = "arabic" | "translation";
 
 const IqamahPage: React.FC = () => {
     const [currentTranslationSection, setCurrentTranslationSection] = useState<TranslationSection>("arabic");
+    const [isPlaying,setIsPlaying]=useState(false);
+  const playerRef=useRef(new Howl({src:[""]}));
+  const [isLoaded,setIsLoaded]=useState(false);
+
+  useIonViewWillLeave(() => {
+    if(isPlaying){
+      
+      playerRef.current.stop();
+    }
+ });
+
+  const toglePlayPause=()=>{
+      
+    if(isLoaded===false){
+  
+      const onEnd=()=>{
+        setIsPlaying(false);
+       
+      }
+  
+      const onLoad=()=>{
+        setIsLoaded(true);
+        
+      }
+  
+      const onPlay=()=>{
+        
+      }
+       
+        playerRef.current=new Howl({
+            src:`/assets/audio/lessons/Ikamet.m4a`,
+            preload:true,
+            html5:true,
+            onend:onEnd,
+            onload:onLoad,
+            onplay:onPlay,
+            format:["m4a"]
+            }
+        )
+        
+  
+    }
+    if(isPlaying){
+        playerRef.current.pause();
+        setIsPlaying(false);
+    }
+    else{
+        playerRef.current.play();
+        setIsPlaying(true);
+    }
+  
+  }
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
@@ -15,15 +69,36 @@ const IqamahPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-        <IonCard className="lesson-header ion-padding" color="burgundy" >
-            <IonCardHeader className="ion-text-center">
-                
-                <IonCardSubtitle><h1 className="lesson-header">Ikamet</h1></IonCardSubtitle>
-            </IonCardHeader>
-        
+        <IonCard className="lesson-header ion-padding ion-text-center" color="burgundy">
+        <IonCardTitle>
+              <h1 className="lesson" >Ikamet</h1>
+             
+            </IonCardTitle>
+          <IonCardContent>
+            
+            <IonCardSubtitle>
+              <h3 style={{fontStyle:"italic"} }>"Hvaljen je Allah, stvoritelj nebesa i Zemlje"</h3>
+              <p className="quote-reference">Kur'an 35:1</p>
+            </IonCardSubtitle>
+          </IonCardContent>
         </IonCard>
         <div className="ion-padding">
             <IonItem className="lesson-note">
+            <IonButton
+                  className="no-shadow"
+                  onClick={() => {toglePlayPause()}}
+                  fill="clear"
+                  color="light"
+                  size="default"
+                  slot="start"
+                  
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={isPlaying ? pauseCircleOutline: volumeHighOutline}
+                    color="burgundy"
+                  />
+                </IonButton>
                 <IonText>
                     <h2 className="lesson-note">Prije nijjeta farz namaza muškarci uče Ikamet.</h2>
                     <h2 className="lesson-note">Mujezin uči Ikamet kada klanjamo namaz u džematu.Ikamet se uči malo brže od ezana.</h2>
