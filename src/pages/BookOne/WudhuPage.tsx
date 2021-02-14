@@ -2,8 +2,10 @@ import {
   IonBackButton,
   IonButtons,
   IonCard,
+  IonCardContent,
   IonCardHeader,
   IonCardSubtitle,
+  IonCardTitle,
   IonChip,
   IonCol,
   IonContent,
@@ -32,12 +34,18 @@ const WudhuPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
-        <IonCard className="lesson-header ion-padding" color="burgundy">
-          <IonCardHeader className="ion-text-center">
+      <IonCard className="lesson-header ion-padding ion-text-center" color="burgundy">
+        <IonCardTitle>
+              <h1 className="lesson" >Abdest</h1>
+             
+            </IonCardTitle>
+          <IonCardContent>
+            
             <IonCardSubtitle>
-              <h1 className="lesson-header">Abdest</h1>
+              <h3 style={{fontStyle:"italic"} }>"Čistoća je pola vjere."</h3>
+              <p className="quote-reference">Hadis</p>
             </IonCardSubtitle>
-          </IonCardHeader>
+          </IonCardContent>
         </IonCard>
         <div className="ion-padding">
           <IonItem className="lesson-note">
@@ -281,21 +289,7 @@ iza uha, a sa ostala tri prsta vanjskom stranom potiremo vrat.</IonNote>
               
                 
                 <div>
-                  <IonItem detail={false} color="light" lines="none" style={{ marginLeft: "15px", marginRight: "15px" }}>
-                    <IonGrid className="ion-text-left">
-                      <IonRow>
-                        <IonCol size="12">
-                          <IonChip color="burgundy">Oprati noge</IonChip>
-                        </IonCol>
-                      </IonRow>
-
-                      <IonRow>
-                        <IonCol size="12">
-                          <IonNote>Operemo prvo desnu, a onda lijevu nogu do iza članaka (tri puta).</IonNote>
-                        </IonCol>
-                      </IonRow>
-                    </IonGrid>
-                  </IonItem>
+                  
                   <IonItem detail={false} color="light" lines="none" style={{ marginLeft: "15px", marginRight: "15px" }}>
                     <IonGrid className="ion-text-left">
                       <IonRow>
