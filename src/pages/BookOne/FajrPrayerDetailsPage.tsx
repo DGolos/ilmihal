@@ -26,7 +26,7 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
               <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText>
-                  <h1 className="prayer-description">Sabahski {match.params.type==="sunnah"?"sunet":"farz"}</h1>
+                  <h1 className="prayer-description">Sabahski {match.params.type==="sunnah"?"sunnet":"farz"}</h1>
                </IonText>
                 </IonCol>
                 <IonCol size="5">
@@ -53,7 +53,7 @@ export const FajrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip  color="burgundy">Prije namaza</IonChip>
+                        <IonChip  color="burgundy" style={{marginLeft:"0px"}}>Prije namaza</IonChip>
                       </IonCol>
                     </IonRow>
                     <IonRow>

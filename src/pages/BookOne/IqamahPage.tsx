@@ -83,7 +83,7 @@ const IqamahPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
             <IonButton
                   className="no-shadow"
                   onClick={() => {toglePlayPause()}}
@@ -128,7 +128,7 @@ const IqamahPage: React.FC = () => {
           </IonSegment>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="arabic"}>
-        <IonItem className="lesson-note">
+        <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">Allahu ekber, Allahu ekber</p>
                     <p className="lesson-note">Allahu ekber, Allahu ekber</p>
@@ -146,7 +146,7 @@ const IqamahPage: React.FC = () => {
             </IonItem>
         </div>
         <div className="ion-padding" hidden={currentTranslationSection!=="translation"}>
-        <IonItem className="lesson-note">
+        <IonItem className="lesson-note" lines="none">
                 <IonText className="ion-text-center">
                     <p className="lesson-note">Allah je najveći,Allah je najveći</p>
                     <p className="lesson-note">Allah je najveći,Allah je najveći</p>

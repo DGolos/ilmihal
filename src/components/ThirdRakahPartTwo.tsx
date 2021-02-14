@@ -15,13 +15,13 @@ const ThirdRakahPartTwo: React.FC = () => {
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2>Treći rekat(nastavak)</h2>
+                <h2>Treći rekat</h2>
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Ruku</IonLabel>
               </IonChip>
             </IonCol>
@@ -35,7 +35,7 @@ const ThirdRakahPartTwo: React.FC = () => {
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah">
+          <IonRow>
             <IonCol size="12">
               <IonText className="audio-link">Ruk'u</IonText>
               <IonButton
@@ -54,7 +54,7 @@ const ThirdRakahPartTwo: React.FC = () => {
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Sedžda</IonLabel>
               </IonChip>
             </IonCol>

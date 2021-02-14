@@ -31,7 +31,7 @@ export const IshaPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
         }
 
         if(match.params.type==="sunsunnah"){
-            setPrayerType("sunsunet");
+            setPrayerType("sunsunnet");
             setNumberOfRakah(2);
         } 
 
@@ -57,7 +57,7 @@ export const IshaPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
               <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText hidden={match.params.type==="witr"}>
-                  <h1 className="prayer-description">Jaciski {prayerType}</h1>
+                  <h1 className="prayer-description">Jacijski {prayerType}</h1>
                </IonText>
                <IonText hidden={match.params.type!=="witr"}>
                   <h1 className="prayer-description">Vitr</h1>
@@ -171,7 +171,7 @@ mustakbilel-kibleti - Allahu ekber.
                     <ThirdRakahPartTwo />
                   </IonSlide>
                 <IonSlide>
-                <FourthRakah surah={match.params.type==="sunnah"?true:false}/>
+                <FourthRakah type={match.params.type}/>
                 </IonSlide>
                 <IonSlide>
                 <FourthRakahPartTwo />

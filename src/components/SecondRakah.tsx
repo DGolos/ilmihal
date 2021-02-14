@@ -1,8 +1,43 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText } from "@ionic/react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText, useIonViewWillLeave } from "@ionic/react";
+import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React from "react";
+import React, { useRef, useState } from "react";
 
 const SecondRakah: React.FC = () => {
+  const playerRef = useRef(new Howl({ src: [""] }));
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [currentAudio,setCurrnetAudio]=useState("");
+  useIonViewWillLeave(() => {
+    if (isLoaded) {
+      playerRef.current.stop();
+    }
+  });
+
+  const toglePlayPause = (file:string) => {
+    
+    playerRef.current.stop();
+    setIsLoaded(false);
+   
+    if (file !== currentAudio) {
+      
+      const onLoad = () => {
+        setIsLoaded(true);
+      };
+
+      playerRef.current = new Howl({
+        src: `/assets/audio/lessons/${file}.m4a`,
+        preload: true,
+        html5: true,
+        onload: onLoad,
+        format: ["m4a"],
+      });
+      setCurrnetAudio(file);
+    }
+    
+      playerRef.current.play();
+      
+    
+  };
     return (
       <IonItem
         key="1"
@@ -21,19 +56,36 @@ const SecondRakah: React.FC = () => {
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Bismilla</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah">
+          <IonRow >
             <IonCol size="12">
               <IonNote>Bismillahir-rahmanir-rahim.</IonNote>
             </IonCol>
           </IonRow>
+          <IonRow >
+            <IonCol size="12">
+              <IonText className="audio-link">Bismilla</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {toglePlayPause("Bismilla")}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color="burgundy"
+                />
+              </IonButton>
+            </IonCol>
+          </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Fatiha</IonLabel>
               </IonChip>
             </IonCol>
@@ -45,12 +97,12 @@ const SecondRakah: React.FC = () => {
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah">
+          <IonRow >
             <IonCol size="12">
               <IonText className="audio-link">El-Fatiha</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Fatiha")}}
                 fill="solid"
                 color="light"
               >
@@ -82,7 +134,7 @@ const SecondRakah: React.FC = () => {
               <IonText className="audio-link">En-Nas</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Nas")}}
                 fill="solid"
                 color="light"
               >
@@ -97,7 +149,7 @@ const SecondRakah: React.FC = () => {
               <IonText className="audio-link">El-Felek</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Felek")}}
                 fill="solid"
                 color="light"
               >
@@ -112,7 +164,7 @@ const SecondRakah: React.FC = () => {
               <IonText className="audio-link">El-Ihlas</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Ihlas")}}
                 fill="solid"
                 color="light"
               >

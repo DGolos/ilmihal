@@ -32,7 +32,7 @@ export const AsrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }
               <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText>
-                  <h1 className="prayer-description">Ikindijski {match.params.type==="sunnah"?"sunet":"farz"}</h1>
+                  <h1 className="prayer-description">Ikindijski {match.params.type==="sunnah"?"sunnet":"farz"}</h1>
                </IonText>
                 </IonCol>
                 <IonCol size="5">
@@ -113,7 +113,7 @@ export const AsrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }
                     <ThirdRakahPartTwo />
                   </IonSlide>
               <IonSlide>
-                <FourthRakah surah={match.params.type==="sunnah"?true:false}/>
+                <FourthRakah type={match.params.type}/>
                 </IonSlide>
                 <IonSlide>
                 <FourthRakahPartTwo />

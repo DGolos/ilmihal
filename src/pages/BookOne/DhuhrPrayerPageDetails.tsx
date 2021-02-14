@@ -69,7 +69,7 @@ export const DhuhrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="burgundy">Prije namaza</IonChip>
+                        <IonChip color="burgundy" style={{marginLeft:"0px"}}>Prije namaza</IonChip>
                       </IonCol>
                     </IonRow>
                     <IonRow>
@@ -138,7 +138,7 @@ export const DhuhrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string
                   </IonSlide>
                   <IonSlide>
                     <FourthRakah
-                      surah={match.params.type === "sunnah" ? true : false}
+                      type={match.params.type}
                     />
                   </IonSlide>
                   <IonSlide>

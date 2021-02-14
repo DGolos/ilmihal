@@ -1,8 +1,43 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText } from "@ionic/react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText, useIonViewWillLeave } from "@ionic/react";
+import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React from "react";
+import React, { useRef, useState } from "react";
 
 const FirstRakahPartTwo: React.FC = () => {
+  const playerRef = useRef(new Howl({ src: [""] }));
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [currentAudio,setCurrnetAudio]=useState("");
+  useIonViewWillLeave(() => {
+    if (isLoaded) {
+      playerRef.current.stop();
+    }
+  });
+
+  const toglePlayPause = (file:string) => {
+    
+    playerRef.current.stop();
+    setIsLoaded(false);
+   
+    if (file !== currentAudio) {
+      
+      const onLoad = () => {
+        setIsLoaded(true);
+      };
+
+      playerRef.current = new Howl({
+        src: `/assets/audio/lessons/${file}.m4a`,
+        preload: true,
+        html5: true,
+        onload: onLoad,
+        format: ["m4a"],
+      });
+      setCurrnetAudio(file);
+    }
+    
+      playerRef.current.play();
+      
+    
+  };
     return (
         <IonItem
         key="2"
@@ -15,13 +50,13 @@ const FirstRakahPartTwo: React.FC = () => {
       <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2>Prvi rekat(nastavak)</h2>
+                <h2>Prvi rekat</h2>
               </IonNote>
             </IonCol>
           </IonRow>
       <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Ruk'u</IonLabel>
               </IonChip>
             </IonCol>
@@ -36,7 +71,7 @@ const FirstRakahPartTwo: React.FC = () => {
           <IonRow className="ayah">
             <IonCol size="12">
               <IonText className="audio-link">Ruk'u</IonText>
-              <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+              <IonButton class="no-shadow" onClick={() => {toglePlayPause("Ruku")}} fill="solid" color="light">
                 <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
               </IonButton>
             </IonCol>
@@ -44,7 +79,7 @@ const FirstRakahPartTwo: React.FC = () => {
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Sedžda</IonLabel>
               </IonChip>
             </IonCol>
@@ -59,7 +94,7 @@ const FirstRakahPartTwo: React.FC = () => {
           <IonRow >
             <IonCol size="12">
               <IonText className="audio-link">Sedžda</IonText>
-              <IonButton class="no-shadow" onClick={() => {}} fill="solid" color="light">
+              <IonButton class="no-shadow" onClick={() => {toglePlayPause("Sedzda")}} fill="solid" color="light">
                 <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="burgundy"/>
               </IonButton>
             </IonCol>

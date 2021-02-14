@@ -1,6 +1,7 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText } from "@ionic/react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText, useIonViewWillLeave } from "@ionic/react";
+import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React from "react";
+import React, { useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
 
 interface ThirdRakahPropsProps {
@@ -8,7 +9,41 @@ interface ThirdRakahPropsProps {
   showSubhaneke?:boolean;
 }
 
-const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>{
+const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>{
+  const playerRef = useRef(new Howl({ src: [""] }));
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [currentAudio,setCurrnetAudio]=useState("");
+  useIonViewWillLeave(() => {
+    if (isLoaded) {
+      playerRef.current.stop();
+    }
+  });
+
+  const toglePlayPause = (file:string) => {
+    
+    playerRef.current.stop();
+    setIsLoaded(false);
+   
+    if (file !== currentAudio) {
+      
+      const onLoad = () => {
+        setIsLoaded(true);
+      };
+
+      playerRef.current = new Howl({
+        src: `/assets/audio/lessons/${file}.m4a`,
+        preload: true,
+        html5: true,
+        onload: onLoad,
+        format: ["m4a"],
+      });
+      setCurrnetAudio(file);
+    }
+    
+      playerRef.current.play();
+      
+    
+  };
     return (
       <IonItem
         key="1"
@@ -27,7 +62,7 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
           </IonRow>
           <IonRow hidden={!showSubhaneke}>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Dove</IonLabel>
               </IonChip>
             </IonCol>
@@ -39,12 +74,13 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah" hidden={!showSubhaneke}>
+          
+          <IonRow hidden={!showSubhaneke}>
             <IonCol size="6">
               <IonText className="audio-link">Subhaneke</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Subhaneke")}}
                 fill="solid"
                 color="light"
               >
@@ -59,7 +95,7 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
               <IonText className="audio-link">Euza i bismilla</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("EuzaBismilla")}}
                 fill="solid"
                 color="light"
               >
@@ -73,19 +109,36 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
           </IonRow>
           <IonRow hidden={showSubhaneke}>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Bismilla</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah" hidden={showSubhaneke}>
+          <IonRow hidden={showSubhaneke}>
             <IonCol size="12">
               <IonNote>Bismillahir-rahmanir-rahim.</IonNote>
             </IonCol>
           </IonRow>
+          <IonRow hidden={showSubhaneke}>
+            <IonCol size="12">
+              <IonText className="audio-link">Bismilla</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {toglePlayPause("Bismilla")}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color="burgundy"
+                />
+              </IonButton>
+            </IonCol>
+          </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Fatiha</IonLabel>
               </IonChip>
             </IonCol>
@@ -97,12 +150,12 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah">
+          <IonRow >
             <IonCol size="12">
               <IonText className="audio-link">El-Fatiha</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Fatiha")}}
                 fill="solid"
                 color="light"
               >
@@ -116,12 +169,12 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
           </IonRow>
           <IonRow hidden={type==="fardh"}>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Sura</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow hidden={type==="fardh"}>
             <IonCol size="12">
               <IonNote>
                 Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3
@@ -129,12 +182,12 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow hidden={type==="fardh"}>
             <IonCol size="4">
               <IonText className="audio-link">En-Nas</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Nas")}}
                 fill="solid"
                 color="light"
               >
@@ -149,7 +202,7 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
               <IonText className="audio-link">El-Felek</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Felek")}}
                 fill="solid"
                 color="light"
               >
@@ -164,7 +217,7 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
               <IonText className="audio-link">El-Ihlas</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Ihlas")}}
                 fill="solid"
                 color="light"
               >
@@ -183,4 +236,4 @@ const FourthRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke}) =>
     );
 }
 
-export default FourthRakah;
+export default ThirdRakah;

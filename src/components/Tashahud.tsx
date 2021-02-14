@@ -1,6 +1,7 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText } from "@ionic/react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText, useIonViewWillLeave } from "@ionic/react";
+import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React from "react";
+import React, { useRef, useState } from "react";
 
 interface TashashudProps {
   first?: boolean;
@@ -8,7 +9,40 @@ interface TashashudProps {
 
 const Tashashud: React.FC<TashashudProps> = ({ first}) => {
 
+  const playerRef = useRef(new Howl({ src: [""] }));
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [currentAudio,setCurrnetAudio]=useState("");
+  useIonViewWillLeave(() => {
+    if (isLoaded) {
+      playerRef.current.stop();
+    }
+  });
+
+  const toglePlayPause = (file:string) => {
     
+    playerRef.current.stop();
+    setIsLoaded(false);
+   
+    if (file !== currentAudio) {
+      
+      const onLoad = () => {
+        setIsLoaded(true);
+      };
+
+      playerRef.current = new Howl({
+        src: `/assets/audio/lessons/${file}.m4a`,
+        preload: true,
+        html5: true,
+        onload: onLoad,
+        format: ["m4a"],
+      });
+      setCurrnetAudio(file);
+    }
+    
+      playerRef.current.play();
+      
+    
+  };
     return (
       <IonItem
         key="1"
@@ -27,7 +61,7 @@ const Tashashud: React.FC<TashashudProps> = ({ first}) => {
           </IonRow>
           <IonRow hidden={first}>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Kadei-ehire</IonLabel>
               </IonChip>
             </IonCol>
@@ -40,12 +74,12 @@ const Tashashud: React.FC<TashashudProps> = ({ first}) => {
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah" hidden={first}>
-            <IonCol size="4">
+          <IonRow hidden={first}>
+            <IonCol size="5">
               <IonText className="audio-link">Et-tehijatu</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Ettehijjatu")}}
                 fill="solid"
                 color="light"
               >
@@ -60,7 +94,7 @@ const Tashashud: React.FC<TashashudProps> = ({ first}) => {
               <IonText className="audio-link">Salavati</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Salavati")}}
                 fill="solid"
                 color="light"
               >
@@ -71,11 +105,11 @@ const Tashashud: React.FC<TashashudProps> = ({ first}) => {
                 />
               </IonButton>
             </IonCol>
-            <IonCol size="4">
+            <IonCol size="3">
               <IonText className="audio-link">Dove</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Dova")}}
                 fill="solid"
                 color="light"
               >
@@ -89,7 +123,7 @@ const Tashashud: React.FC<TashashudProps> = ({ first}) => {
           </IonRow>
           <IonRow hidden={first}>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Selam</IonLabel>
               </IonChip>
             </IonCol>
@@ -105,7 +139,7 @@ const Tashashud: React.FC<TashashudProps> = ({ first}) => {
           </IonRow>
           <IonRow hidden={!first}>
             <IonCol size="12">
-              <IonChip color="burgundy">
+              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
                 <IonLabel>Et-tehijatu</IonLabel>
               </IonChip>
             </IonCol>
@@ -122,7 +156,7 @@ const Tashashud: React.FC<TashashudProps> = ({ first}) => {
               <IonText className="audio-link">Et-tehijatu</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("Ettehijjatu")}}
                 fill="solid"
                 color="light"
               >

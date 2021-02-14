@@ -51,7 +51,7 @@ const IshaPrayerPage: React.FC = () => {
           </IonItem>
           <IonItem className="lesson-note">
           <IonLabel slot="start">
-              <h3 className="prayer-name-bold">Sunet</h3>
+              <h3 className="prayer-name-bold">Sunnet</h3>
               <h3 className="prayer-name-normal">4 rekata</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
@@ -89,7 +89,7 @@ const IshaPrayerPage: React.FC = () => {
           </IonItem>
           <IonItem className="lesson-note">
           <IonLabel slot="start">
-              <h3 className="prayer-name-bold">Sunsunet</h3>
+              <h3 className="prayer-name-bold">Sunsunnet</h3>
               <h3 className="prayer-name-normal">2 rekata</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">

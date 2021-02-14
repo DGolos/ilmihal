@@ -1,8 +1,43 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText } from "@ionic/react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText, useIonViewWillLeave } from "@ionic/react";
+import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React from "react";
+import React, { useRef, useState } from "react";
 
 const Qunut: React.FC = () => {
+  const playerRef = useRef(new Howl({ src: [""] }));
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [currentAudio,setCurrnetAudio]=useState("");
+  useIonViewWillLeave(() => {
+    if (isLoaded) {
+      playerRef.current.stop();
+    }
+  });
+
+  const toglePlayPause = (file:string) => {
+    
+    playerRef.current.stop();
+    setIsLoaded(false);
+   
+    if (file !== currentAudio) {
+      
+      const onLoad = () => {
+        setIsLoaded(true);
+      };
+
+      playerRef.current = new Howl({
+        src: `/assets/audio/lessons/${file}.m4a`,
+        preload: true,
+        html5: true,
+        onload: onLoad,
+        format: ["m4a"],
+      });
+      setCurrnetAudio(file);
+    }
+    
+      playerRef.current.play();
+      
+    
+  };
     return (
       <IonItem
         key="1"
@@ -15,7 +50,7 @@ const Qunut: React.FC = () => {
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2> Treći rekat(nastavak)</h2>
+                <h2> Treći rekat</h2>
               </IonNote>
             </IonCol>
           </IonRow>
@@ -64,7 +99,7 @@ nahfidu. Nerdžu rahmeteke ve nahša &#39;azabeke. Inne &#39;azabeke bil-kuffa
               <IonText className="audio-link">Kunut dova</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {}}
+                onClick={() => {toglePlayPause("KunutDova")}}
                 fill="solid"
                 color="light"
               >
