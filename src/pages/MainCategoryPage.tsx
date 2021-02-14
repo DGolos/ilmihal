@@ -584,6 +584,38 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                 </IonCard>
               </IonCol>
+              <IonCol
+                size="6"
+                style={{ marginTop: "0px", marginBottom: "0px" }}
+              >
+                <IonCard
+                  routerLink={`/BeautifulNames`}
+                  color="light"
+                  class="category"
+                >
+                  <IonRow className="ion-no-padding">
+                    <img
+                      src="/assets/images/Shahadah.png"
+                      height="40px"
+                      width="40px"
+                    />
+
+                    <IonLabel className="ion-padding-start ion-text-centered">
+                      <span>
+                        <h4 className="title">Allahova</h4>
+                      </span>
+                      <span>
+                        <h4 className="title">imena</h4>
+                      </span>
+                    </IonLabel>
+                  </IonRow>
+                  <IonRow>
+                    <h6 className="title">
+                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                    </h6>
+                  </IonRow>
+                </IonCard>
+              </IonCol>
               
             </IonRow>
           </IonGrid>
