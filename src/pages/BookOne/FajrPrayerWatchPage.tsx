@@ -26,7 +26,7 @@ export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                   <IonText>
                     <h1 className="prayer-description">
                       Sabahski{" "}
-                      {match.params.type === "sunnah" ? "sunet" : "farz"}
+                      {match.params.type === "sunnah" ? "sunnet" : "farz"}
                     </h1>
                   </IonText>
                 </IonCol>

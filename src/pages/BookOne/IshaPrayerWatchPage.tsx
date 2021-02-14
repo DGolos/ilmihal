@@ -48,7 +48,7 @@ export const IshaPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
             <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText hidden={match.params.type==="witr"}>
-                  <h1 className="prayer-description">Jaciski {prayerType}</h1>
+                  <h1 className="prayer-description">Jacijski {prayerType}</h1>
                </IonText>
                <IonText hidden={match.params.type!=="witr"}>
                   <h1 className="prayer-description">Vitr</h1>
@@ -166,6 +166,8 @@ mustakbilel-kibleti - Allahu ekber.
 
             {(match.params.type==="sunnah" ||match.params.type==="fardh" )&&
               <>
+              <QijamWatch rakah="3" type={match.params.type} prayer="5"/>
+              <RukuWatch rakah="3"/>
               <QijamWatch rakah="4" type={match.params.type} prayer="5"/>
               <RukuWatch rakah="4"/>
               <QijamWatch rakah="4" type={match.params.type} prayer="5"/>

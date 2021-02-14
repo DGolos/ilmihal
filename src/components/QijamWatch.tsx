@@ -71,7 +71,7 @@ const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer}) => {
                 <IonCol size="12">
                   <IonNote hidden={!showFull}>
                     Na stajanju učimo subhaneke,euzu i
-                    bismillu,Fatihu i jednu suru.
+                    Bismillu,Fatihu i jednu suru.
                   </IonNote>
                   <IonNote hidden={!showSunnah}>
                     Na stajanju učimo Fatihu i jednu suru.
