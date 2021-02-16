@@ -28,6 +28,14 @@ class DataService{
         const ayah=this.ayahs.filter(ayah=>ayah.surahId===surahId);
         return ayah;
     }
+
+    public getAyah(surahId:number,firstAyahId:number,lastAyahId:number):Ayah[]{
+        const ayah=this.ayahs.filter((ayah)=>{
+            return ayah.surahId===surahId && ayah.id>=firstAyahId && ayah.id<=lastAyahId;
+        });
+        
+        return ayah;
+    }
 }
 
 export const dataService = new DataService();

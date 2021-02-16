@@ -115,7 +115,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                      Čitaj odabrane sure iz Casnog Kur'ana.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -144,8 +144,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Slušaj učenje hafiza Mishary Alfasyja ili
-                      hafiza Aziza Halilija
+                      Slušaj odabrane sure iz Casnog Kur'ana.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -182,7 +181,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                      Objava Kur'ana Muhammedu a.s.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -192,7 +191,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/ChosenVerses`}
                   color="light"
                   class="category"
                 >
@@ -214,7 +213,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                      Čitaj odabrane ajete iz Casnog Kur'ana.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -257,7 +256,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Vaktija po mjerenju vremena za zemlje iznad 50 paralele
+                      Danasnja vaktija za zemlje iznad 50 paralele
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -286,8 +285,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Slušaj maestralno učenje hafiza Mishary Alfasyja ili
-                      hafiza Aziza Halilija
+                      Ostali namazi pored dnevnih.Bajram,teravija,dzenaza i nafile
                     </h6>
                   </IonRow>
                 </IonCard>

@@ -10,6 +10,116 @@
         "color":"brown"
     },
     {
+        "id":2,
+        "name":"El Bekare",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":286,
+        "revelationCity":"Medina",
+        "color":"razimic"
+    },
+    {
+        "id":3,
+        "name":"Ali 'Imran",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":200,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+    },
+    {
+        "id":4,
+        "name":"En-Nisa",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":200,
+        "revelationCity":"Medina",
+        "color":"purple"
+    },
+    {
+        "id":6,
+        "name":"El-'Anam",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":165,
+        "revelationCity":"Mekka",
+        "color":"brown"
+    },
+    {
+        "id":10,
+        "name":"Hud",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":123,
+        "revelationCity":"Mekka",
+        "color":"razimic"
+    },
+    {
+        "id":11,
+        "name":"Jusuf",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":111,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+    },
+    {
+        "id":13,
+        "name":"Er-R'ad",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":43,
+        "revelationCity":"Medina",
+        "color":"purple"
+    },
+    {
+        "id":16,
+        "name":"En-Nahl",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":128,
+        "revelationCity":"Mekka",
+        "color":"brown"
+    },
+    {
+        "id":17,
+        "name":"El-Isra'",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":111,
+        "revelationCity":"Mekka",
+        "color":"razimic"
+    },
+    {
+        "id":23,
+        "name":"El-Mu'minun",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":118,
+        "revelationCity":"Mekka",
+        "color":"burgundy"
+    },
+    {
+        "id":24,
+        "name":"En-Nur",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":64,
+        "revelationCity":"Medina",
+        "color":"purple"
+    },
+    {
         "id":18,
         "name":"El Kehf",
         "arabic":"الكهف",
@@ -40,6 +150,16 @@
         "color":"brown"
     },
     {
+        "id":33,
+        "name":"El-Ahzab",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":73,
+        "revelationCity":"Medina",
+        "color":"razimic"
+    },
+    {
         "id":36,
         "name":"Jasin",
         "arabic":"يس",
@@ -48,6 +168,36 @@
         "numberOfAyah":83,
         "revelationCity":"Mekka",
         "color":"burgundy"
+    },
+    {
+        "id":49,
+        "name":"El-Hugurat",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":18,
+        "revelationCity":"Medina",
+        "color":"burgundy"
+    },
+    {
+        "id":57,
+        "name":"El-Hadid",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":29,
+        "revelationCity":"Mekka",
+        "color":"purple"
+    },
+    {
+        "id":59,
+        "name":"El-Hašr",
+        "arabic":"الفاتحة",
+        "description":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta.",
+        "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
+        "numberOfAyah":24,
+        "revelationCity":"Medina",
+        "color":"brown"
     },
     {
         "id":67,

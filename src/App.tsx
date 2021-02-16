@@ -88,6 +88,10 @@ import MessangersPage from './pages/BookOne/MessangersPage';
 import JudgementDayPage from './pages/BookOne/JudgementDay.Page';
 import DestinyPage from './pages/BookOne/DestinyPage';
 import { BeautifulNamesPage } from './pages/Advanced/BeautifulNamesPage';
+import { ChosenVersesPage } from './pages/Advanced/ChosenVersesPage';
+import { RubiesAyahPage } from './pages/Advanced/RubiesAyahPage';
+import { PearlsAyahPage } from './pages/Advanced/PearlsAyahPage';
+import { AyahPage } from './pages/Advanced/AyahPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -119,6 +123,10 @@ const App: React.FC = () => {
           <Route path="/QuranPlayer/:id" component={QuranPlayerPage} />
           <Route path="/PrayerTimes/" component={PrayerTimesPage} />
           <Route path="/BeautifulNames/" component={BeautifulNamesPage} />
+          <Route path="/ChosenVerses/" component={ChosenVersesPage} />
+          <Route path="/RubiesAyahPage/" component={RubiesAyahPage} />
+          <Route path="/PearlsAyahPage/" component={PearlsAyahPage} />
+          <Route path="/AyahPage/:surahId/:firstAyahId/:lastAyahId" component={AyahPage} />
           <Route path="/BookOneMainPage" component={BookOneMainPage}/>
           <Route path="/EuzaPage" component={EuzaPage}/>
           <Route path="/ShahadahPage" component={ShahadahPage}/>
