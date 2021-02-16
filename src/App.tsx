@@ -92,6 +92,13 @@ import { ChosenVersesPage } from './pages/Advanced/ChosenVersesPage';
 import { RubiesAyahPage } from './pages/Advanced/RubiesAyahPage';
 import { PearlsAyahPage } from './pages/Advanced/PearlsAyahPage';
 import { AyahPage } from './pages/Advanced/AyahPage';
+import PrayerRequirementsPage from './pages/BookTwo/PrayerRequirementsPage';
+import PrayerPartsPage from './pages/BookTwo/PrayerPartsPage';
+import SahwiSujudPage from './pages/BookTwo/SahwiSujudPage';
+import OverduePrayerPage from './pages/BookTwo/OverduePrayerPage';
+import CongregationalPrayerPage from './pages/BookTwo/CongregationalPrayerPage';
+import TravellerPrayerPage from './pages/BookTwo/TravellerPrayerPage';
+import SickPersonPrayerPage from './pages/BookTwo/SickPersonPrayerPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -173,6 +180,13 @@ const App: React.FC = () => {
           <Route path="/IshaPrayerPage" component={IshaPrayerPage}/>
           <Route path="/DhikrPage" component={DhikrPage}/>
           <Route path="/BookTwoMainPage" component={BookTwoMainPage}/>
+          <Route path="/PrayerRequirementsPage" component={PrayerRequirementsPage}/>
+          <Route path="/PrayerPartsPage" component={PrayerPartsPage}/>
+          <Route path="/SahwiSujudPage" component={SahwiSujudPage}/>
+          <Route path="/OverduePrayerPage" component={OverduePrayerPage}/>
+          <Route path="/CongregationalPrayerPage" component={CongregationalPrayerPage}/>
+          <Route path="/TravellerPrayerPage" component={TravellerPrayerPage}/>
+          <Route path="/SickPersonPrayerPage" component={SickPersonPrayerPage}/>
         </IonRouterOutlet>
         <IonTabBar slot="bottom" color="background">
           <IonTabButton tab="HomePage" href="/HomePage">
