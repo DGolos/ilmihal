@@ -81,8 +81,8 @@ const MainCategoryPage: React.FC = () => {
           </IonRow>
         </IonGrid>
         </div>
-        <div className="ion-padding" id="quran" hidden={current!==1}>
-          <h1 className="category-title">Kur'an</h1>
+        <div className="ion-no-padding" id="quran" hidden={current!==1}>
+          <h1 className="category-title ion-padding">Kur'an</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -91,6 +91,7 @@ const MainCategoryPage: React.FC = () => {
               <IonCol
                 size="6"
                 style={{ marginTop: "0px", marginBottom: "0px" }}
+                
               >
                 <IonCard
                   routerLink={`/Quran/Reader`}
@@ -115,7 +116,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj odabrane sure iz Casnog Kur'ana.
+                      Čitaj odabrane sure iz Časnog Kur'ana.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -144,7 +145,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Slušaj odabrane sure iz Casnog Kur'ana.
+                      Slušaj odabrane sure iz Časnog Kur'ana.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -165,7 +166,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Book.png"
+                      src="/assets/images/Revelation.png"
                       height="40px"
                       width="40px"
                     />
@@ -197,7 +198,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Book.png"
+                      src="/assets/images/ChosenVerses.png"
                       height="40px"
                       width="40px"
                     />
@@ -213,7 +214,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj odabrane ajete iz Casnog Kur'ana.
+                      Čitaj odabrane ajete iz Časnog Kur'ana.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -222,8 +223,8 @@ const MainCategoryPage: React.FC = () => {
             </IonRow>
           </IonGrid>
         </div>
-        <div className="ion-padding" id="prayer" hidden={current!==2}>
-          <h1 className="category-title">Namaz</h1>
+        <div className="ion-no-padding" id="prayer" hidden={current!==2}>
+          <h1 className="category-title ion-padding">Namaz</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -240,7 +241,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Book.png"
+                      src="/assets/images/PrayerTimes.png"
                       height="40px"
                       width="40px"
                     />
@@ -269,7 +270,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Sound.png"
+                      src="/assets/images/Prayers.png"
                       height="40px"
                       width="40px"
                     />
@@ -285,7 +286,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Ostali namazi pored dnevnih.Bajram,teravija,dzenaza i nafile
+                      Ostali namazi pored dnevnih vakata
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -300,7 +301,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/WudhuPage`}
                   color="light"
                   class="category"
                 >
@@ -322,7 +323,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Vaktija po mjerenju vremena za zemlje iznad 50 paralele
+                      Kako se pravilno uzima abdest
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -338,14 +339,14 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Wudhu.png"
+                      src="/assets/images/Gusl.png"
                       height="40px"
                       width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Gusl</h4>
+                        <h4 className="title">Gusul</h4>
                       </span>
                       <span>
                         <h4 className="title"></h4>
@@ -354,7 +355,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Vaktija po mjerenju vremena za zemlje iznad 50 paralele
+                      Kako se pravilno uzima gusul
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -364,8 +365,8 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
 
-        <div className="ion-padding" hidden={current!==3}>
-          <h1 className="category-title">Sarti</h1>
+        <div className="ion-no padding" hidden={current!==3}>
+          <h1 className="category-title ion-padding">Šarti</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -376,7 +377,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/RamadhanDefinitionPage`}
                   color="light"
                   class="category"
                 >
@@ -398,14 +399,14 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Vaktija po mjerenju vremena za zemlje iznad 50 paralele
+                      Osnove o ramazanskom postu
                     </h6>
                   </IonRow>
                 </IonCard>
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/CharityDefinitionPage`}
                   color="light"
                   class="category"
                 >
@@ -418,7 +419,7 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Zekjat </h4>
+                        <h4 className="title">Zekat </h4>
                       </span>
                       <span>
                         <h4 className="title"></h4>
@@ -427,8 +428,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Slušaj maestralno učenje hafiza Mishary Alfasyja ili
-                      hafiza Aziza Halilija
+                      Osnove o davanju zekata
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -443,7 +443,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/HajjDefinitionPage`}
                   color="light"
                   class="category"
                 >
@@ -456,7 +456,7 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Hadz</h4>
+                        <h4 className="title">Hadžž</h4>
                       </span>
                       <span>
                         <h4 className="title"></h4>
@@ -465,7 +465,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Vaktija po mjerenju vremena za zemlje iznad 50 paralele
+                      Osnove o obavljanju hadžža
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -476,8 +476,8 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
 
-        <div className="ion-padding" hidden={current!==4}>
-          <h1 className="category-title">Zikr</h1>
+        <div className="ion-no-padding" hidden={current!==4}>
+          <h1 className="category-title ion-padding">Zikr</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -510,7 +510,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                      Odabrane dove koje upućujemo Allahu dž.š.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -539,8 +539,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Slušaj maestralno učenje hafiza Mishary Alfasyja ili
-                      hafiza Aziza Halilija
+                      Zikr koji činimo Allahu dž.š.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -568,7 +567,7 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Sehadet</h4>
+                        <h4 className="title">Šehadet</h4>
                       </span>
                       <span>
                         <h4 className="title"></h4>
@@ -577,7 +576,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                      Označavanje pripadnosti islamu
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -609,7 +608,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                      Allahova najljepša imena
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -619,8 +618,8 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
 
-        <div className="ion-padding" hidden={current!==5}>
-          <h1 className="category-title">Muhammed</h1>
+        <div className="ion-no-padding" hidden={current!==5}>
+          <h1 className="category-title ion-padding">Muhammed</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -637,7 +636,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Dua.png"
+                      src="/assets/images/History.png"
                       height="40px"
                       width="40px"
                     />
@@ -653,7 +652,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                    Život posljednjeg Allahovog poslanika
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -666,7 +665,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Tasbih.png"
+                      src="/assets/images/Hadith.png"
                       height="40px"
                       width="40px"
                     />
@@ -682,8 +681,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Slušaj maestralno učenje hafiza Mishary Alfasyja ili
-                      hafiza Aziza Halilija
+                    Govor posljednjeg Allahovog poslanika
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -704,7 +702,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Shahadah.png"
+                      src="/assets/images/Ashabi.png"
                       height="40px"
                       width="40px"
                     />
@@ -720,7 +718,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                      Ashabi posljednjeg Allahovog poslanika.
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -729,8 +727,8 @@ const MainCategoryPage: React.FC = () => {
             </IonRow>
           </IonGrid>
         </div>
-        <div className="ion-padding" hidden={current!==6}> 
-          <h1 className="category-title">Istorija</h1>
+        <div className="ion-no-padding" hidden={current!==6}> 
+          <h1 className="category-title ion-padding">Historija</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -747,14 +745,14 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Dua.png"
+                      src="/assets/images/IslamHistory.png"
                       height="40px"
                       width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Istorija</h4>
+                        <h4 className="title">Historija</h4>
                       </span>
                       <span>
                         <h4 className="title">islama</h4>
@@ -763,7 +761,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                      Kratko o historiji islama
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -776,14 +774,14 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Tasbih.png"
+                      src="/assets/images/BosnianHistory.png"
                       height="40px"
                       width="40px"
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Istorija </h4>
+                        <h4 className="title">Historija </h4>
                       </span>
                       <span>
                         <h4 className="title">Bosne</h4>
@@ -792,8 +790,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Slušaj maestralno učenje hafiza Mishary Alfasyja ili
-                      hafiza Aziza Halilija
+                    Kratko o historiji Bosne
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -814,7 +811,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Shahadah.png"
+                      src="/assets/images/BosnianPeople.png"
                       height="40px"
                       width="40px"
                     />
@@ -830,7 +827,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 className="title">
-                      Čitaj posljednju Allahovu objavu ljudskom rodu.
+                    Kratko o znamenitim bošnjacima
                     </h6>
                   </IonRow>
                 </IonCard>
