@@ -99,6 +99,17 @@ import OverduePrayerPage from './pages/BookTwo/OverduePrayerPage';
 import CongregationalPrayerPage from './pages/BookTwo/CongregationalPrayerPage';
 import TravellerPrayerPage from './pages/BookTwo/TravellerPrayerPage';
 import SickPersonPrayerPage from './pages/BookTwo/SickPersonPrayerPage';
+import WashingPage from './pages/BookTwo/WashingPage';
+import StoneWashingPage from './pages/BookTwo/StoneWashingPage';
+import WipingPage from './pages/BookTwo/WipingPage';
+import SurahLehebPage from './pages/BookTwo/SurahLehebPage';
+import SurahNasrPage from './pages/BookTwo/SurahNasrPage';
+import SurahKafirunPage from './pages/BookTwo/SurahKafirunPage';
+import HijriYearPage from './pages/BookTwo/HijriYearPage';
+import MawludPage from './pages/BookTwo/MawludPage';
+import BlessedNightsPage from './pages/BookTwo/BlessedNightsPage';
+import QuranDefinitionPage from './pages/BookTwo/QuranDefinitionPage';
+import KabaPage from './pages/BookTwo/KabaPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -187,6 +198,17 @@ const App: React.FC = () => {
           <Route path="/CongregationalPrayerPage" component={CongregationalPrayerPage}/>
           <Route path="/TravellerPrayerPage" component={TravellerPrayerPage}/>
           <Route path="/SickPersonPrayerPage" component={SickPersonPrayerPage}/>
+          <Route path="/WashingPage" component={WashingPage}/>
+          <Route path="/StoneWashingPage" component={StoneWashingPage}/>
+          <Route path="/WipingPage" component={WipingPage}/>
+          <Route path="/HijriYearPage" component={HijriYearPage}/>
+          <Route path="/MawludPage" component={MawludPage}/>
+          <Route path="/BlessedNightsPage" component={BlessedNightsPage}/>
+          <Route path="/QuranDefinitionPage" component={QuranDefinitionPage}/>
+          <Route path="/KabaPage" component={KabaPage}/>
+          <Route path="/SurahLehebPage" component={SurahLehebPage}/>
+          <Route path="/SurahNasrPage" component={SurahNasrPage}/>
+          <Route path="/SurahKafirunPage" component={SurahKafirunPage}/>
         </IonRouterOutlet>
         <IonTabBar slot="bottom" color="background">
           <IonTabButton tab="HomePage" href="/HomePage">

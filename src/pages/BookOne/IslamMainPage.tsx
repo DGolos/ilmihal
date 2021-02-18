@@ -66,7 +66,7 @@ const IslamMainPage: React.FC = () => {
             >
               <IonAvatar className="white lesson">
                 <img
-                  src="/assets/images/muhammad.svg"
+                  src="/assets/images/Prayers.png"
                  
                 />
               </IonAvatar>
