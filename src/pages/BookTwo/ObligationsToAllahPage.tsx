@@ -1,21 +1,21 @@
 import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 
-const OurFaithPage: React.FC = () => {
+const ObligationsToAllahPage: React.FC = () => {
 
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/BookOneMainPage" />
+              <IonBackButton color="burgundy" defaultHref="/BookTwoMainPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
         <IonCard className="lesson-header ion-padding ion-text-center" color="brown">
         <IonCardTitle>
-              <h1 className="lesson">Naša vjera</h1>
+              <h1 className="lesson" >Dužnosti prema Allahu</h1>
              
             </IonCardTitle>
           <IonCardContent>
@@ -29,11 +29,9 @@ const OurFaithPage: React.FC = () => {
         <div className="ion-padding">
             <IonItem className="lesson-note" lines="none">
                 <IonText>
-                    <h2 className="lesson-note">Naša vjera se zove ISLAM.Mi smo po vjeri MUSLIMANI I MUSLIMANKE.</h2>
-                    <h2 className="lesson-note">Islam je vjera koju je objavio Allah dželle šanuhu preko Svoga posljednjeg poslanika
-Muhammeda cijelom čovječanstvu.</h2>
-                    <h2 className="lesson-note">Islam vodi napretku i sreći čovječanstva, a njegovi propisi i načela važe za sve prostore,
-vremena i prilike.</h2>
+                    <h2 className="lesson-note">Čvrsto vjerovati u svih šest temeljnih istina vjere.</h2>
+                    <h2 className="lesson-note">Redovno i sa zadovoljstvom izvršavati islamske dužnosti.</h2>
+                    <h2 className="lesson-note">Imati uvijek na umu da je dobro što god je naredio Svemogući Allah dž. š., a zlo što god je On zabranio.</h2>
                 </IonText>
             </IonItem>
         </div>
@@ -42,4 +40,4 @@ vremena i prilike.</h2>
     );
 }
 
-export default OurFaithPage;
+export default ObligationsToAllahPage;

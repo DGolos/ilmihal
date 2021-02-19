@@ -60,7 +60,7 @@
     {
         "id":2,
         "surahId":2,
-        "arabic":"ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًۭى لِّلْمُتَّقِينَ",
+        "arabic":"ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
         "translation":"Ova Knjiga, u koju nema nikakve sumnje, uputstvo je svima onima koji se budu Allaha bojali;",
         "transliteration":"Zalikel kitabu la rajbe fihi hudel lil muttekin"
     },
@@ -81,7 +81,7 @@
     {
         "id":5,
         "surahId":2,
-        "arabic":"أُو۟لَٰٓئِكَ عَلَىٰ هُدًۭى مِّن رَّبِّهِمْ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+        "arabic":"أُولَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
         "translation":"Njima ce Gospodar njihov na Pravi put ukazati i oni ce ono što žele ostvariti.",
         "transliteration":"Ulaike ala hudem mir rabbihim ve ulaike humul muflihun"
     },
@@ -89,7 +89,7 @@
     {
         "id":30,
         "surahId":2,
-        "arabic":"وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌۭ فِى ٱلْأَرْضِ خَلِيفَةًۭ ۖ قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
+        "arabic":"وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً ۖ قَالُوٓا أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
         "translation":"A kada Gospodar tvoj reče melekima: \"Ja ću na Zemlji namjesnika postaviti!\" - oni rekoše: \"Zar će Ti namjesnik biti onaj koji će na njoj nered činiti i krv proljevati? A mi Tebe veličamo i hvalimo i, kako Tebi dolikuje, štujemo.\" On reče: \"Ja znam ono što vi ne znate.\" ",
         "transliteration":"Ve iz kale rabbuke lil melaiketi inni džailun fil erdi halifeh kalu e tedž'alu fiha mej jufsidu fiha ve jesfikud dima' ve nahnu nusebbihu bi hamdike ve nukaddisu lek kale inni a'lemu ma la ta'lemun"
     },
@@ -237,14 +237,14 @@
         "surahId":2,
         "arabic":"ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِير",
         "translation":"Poslanik vjeruje u ono što mu se objavljuje od Gospodara njegova, i vjernici - svaki vjeruje u Allaha, i meleke Njegove, i knjige Njegove, i poslanike Njegove: \"Mi ne izdvajamo nijednog od poslanika Njegovih.\" I oni govore: \"Čujemo i pokoravamo se; oprosti nam, Gospodaru naš; tebi ćemo se vratiti.\"",
-        "transliteration":"Maliki jevimid din"
+        "transliteration":"Amener rasulu bi ma unzile ilejhi mir rabbihi vel mu’minun kullun amene billahi ve melaiketihi ve kutubihi ve rusulihi la nuferriku bejne ehadim mir rusulihi ve kalu semi’na ve eta’na gufraneke rabbena ve ilejkel masir"
     },
     {
         "id":286,
         "surahId":2,
         "arabic":" يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
         "translation":"Allah nikoga ne opterećuje preko mogućnosti njegovih: u njegovu korist je dobro koje učini, a na njegovu štetu zlo koje uradi. Gospodaru naš, ne kazni nas ako zaboravimo ili što nehotice učinimo! Gospodaru naš, ne tovari na nas breme kao što si ga tovario na one prije nas! Gospodaru naš, ne stavljaj nam u dužnost ono što ne možemo podnijeti, pobriši grijehe naše i oprosti nam, i smiluj se na nas. Ti si Gospodar naš pa nam pomozi protiv naroda koji ne vjeruje!",
-        "transliteration":"Ijjake nabudu ve ijjake nestain"
+        "transliteration":"La jukellifullahu nefsen illa vus’aha* leha ma kesebet ve alejha mektesebet* rabbena la tuahizna in nesina ev ahta’na* rabbena ve la tahmil alejna isran kema hameltehu alellezine min kablina* rabbena ve la tuhammilna ma la takate lena bih* va’fu anna* vagfir lena* verhamna ente mevlane fensurna alel kavmil kafirin"
     },
 
     {

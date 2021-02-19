@@ -110,6 +110,18 @@ import MawludPage from './pages/BookTwo/MawludPage';
 import BlessedNightsPage from './pages/BookTwo/BlessedNightsPage';
 import QuranDefinitionPage from './pages/BookTwo/QuranDefinitionPage';
 import KabaPage from './pages/BookTwo/KabaPage';
+import { EidPrayerPage } from './pages/BookTwo/EidPrayerPage';
+import { FuneralPrayerPage } from './pages/BookTwo/FuneralPrayerPage';
+import { TarawihPrayerPage } from './pages/BookTwo/TarawihPrayerPage';
+import { JummahPrayerPage } from './pages/BookTwo/JummahPrayerPage';
+import ObligationsToAllahPage from './pages/BookTwo/ObligationsToAllahPage';
+import ObligationsToParentsPage from './pages/BookTwo/ObligationsToParentsPage';
+import ParentsObligationsPage from './pages/BookTwo/ParentsObligationsPage';
+import OwnObligationsPage from './pages/BookTwo/OwnObligationsPage';
+import MiddleWayPage from './pages/BookTwo/MiddleWayPage';
+import PowerOfTruthPage from './pages/BookTwo/PowerOfTruthPage';
+import MistakesPage from './pages/BookTwo/MistakesPage';
+import MuhammadMainPage from './pages/BookTwo/MuhammadMainPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -201,11 +213,23 @@ const App: React.FC = () => {
           <Route path="/WashingPage" component={WashingPage}/>
           <Route path="/StoneWashingPage" component={StoneWashingPage}/>
           <Route path="/WipingPage" component={WipingPage}/>
+          <Route path="/EidPrayerPage" component={EidPrayerPage}/>
+          <Route path="/FuneralPrayerPage" component={FuneralPrayerPage}/>
+          <Route path="/TarawihPrayerPage" component={TarawihPrayerPage}/>
+          <Route path="/JummahPrayerPage" component={JummahPrayerPage}/>
           <Route path="/HijriYearPage" component={HijriYearPage}/>
           <Route path="/MawludPage" component={MawludPage}/>
           <Route path="/BlessedNightsPage" component={BlessedNightsPage}/>
           <Route path="/QuranDefinitionPage" component={QuranDefinitionPage}/>
           <Route path="/KabaPage" component={KabaPage}/>
+          <Route path="/MuhammadMainPage" component={MuhammadMainPage}/>
+          <Route path="/ObligationsToAllahPage" component={ObligationsToAllahPage}/>
+          <Route path="/ObligationsToParentsPage" component={ObligationsToParentsPage}/>
+          <Route path="/ParentsObligationsPage" component={ParentsObligationsPage}/>
+          <Route path="/OwnObligationsPage" component={OwnObligationsPage}/>
+          <Route path="/MiddleWayPage" component={MiddleWayPage}/>
+          <Route path="/PowerOfTruthPage" component={PowerOfTruthPage}/>
+          <Route path="/MistakesPage" component={MistakesPage}/>
           <Route path="/SurahLehebPage" component={SurahLehebPage}/>
           <Route path="/SurahNasrPage" component={SurahNasrPage}/>
           <Route path="/SurahKafirunPage" component={SurahKafirunPage}/>

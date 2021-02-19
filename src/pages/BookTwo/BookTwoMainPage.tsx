@@ -76,7 +76,7 @@ const BookTwoMainPage: React.FC = () => {
                 onClick={() => setCurrent(5)}
               >
                 <IonLabel color="light" className="ion-text-center">
-                  23-29
+                  21-27
                 </IonLabel>
               </IonButton>
             </IonCol>
@@ -88,7 +88,7 @@ const BookTwoMainPage: React.FC = () => {
                 onClick={() => setCurrent(6)}
               >
                 <IonLabel color="light" className="ion-text-center">
-                  30-32
+                  28-30
                 </IonLabel>
               </IonButton>
             </IonCol>
@@ -186,14 +186,14 @@ const BookTwoMainPage: React.FC = () => {
                 <LessonListItem
                   id="11"
                   title="Bajram namaz"
-                  link="/EidPrayer"
+                  link="/EidPrayerPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="12"
                   title="Dženaze namaz"
-                  link="/FuneralPrayer"
+                  link="/FuneralPrayerPage"
                 />
               </IonCol>
             </IonRow>
@@ -202,14 +202,14 @@ const BookTwoMainPage: React.FC = () => {
                 <LessonListItem
                   id="13"
                   title="Teravih namaz"
-                  link="/TarawihPrayer"
+                  link="/TarawihPrayerPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="14"
                   title="Džuma namaz"
-                  link="/JummahPrayer"
+                  link="/JummahPrayerPage"
                 />
               </IonCol>
             </IonRow>
@@ -268,19 +268,83 @@ const BookTwoMainPage: React.FC = () => {
             </IonRow>
           </IonGrid>
         </div>
+        <div id="fifth" hidden={current !== 5} className="ion-no-padding">
+          <IonGrid>
+            <IonRow>
+              <IonCol size="6">
+                <LessonListItem
+                  id="21"
+                  title="Dužnosti prema Allahu"
+                  link="/ObligationsToAllahPage"
+                />
+              </IonCol>
+              <IonCol size="6">
+                <LessonListItem
+                  id="22"
+                  title="Dužnosti prema roditeljima"
+                  link="/ObligationsToParentsPage"
+                />
+              </IonCol>
+            </IonRow>
+            <IonRow>
+              <IonCol size="6">
+                <LessonListItem
+                  id="23"
+                  title="Dužnosti roditelja"
+                  link="/ParentsObligationsPage"
+                />
+              </IonCol>
+              <IonCol size="6">
+                <LessonListItem
+                  id="24"
+                  title="Dužnosti prema sebi"
+                  link="/OwnObligationsPage"
+                />
+              </IonCol>
+              
+            </IonRow>
+            <IonRow>
+              <IonCol size="6">
+                <LessonListItem
+                  id="25"
+                  title="Srednji put"
+                  link="/MiddleWayPage"
+                />
+              </IonCol>
+              <IonCol size="6">
+                <LessonListItem
+                  id="26"
+                  title="Snaga istine"
+                  link="/PowerOfTruthPage"
+                />
+              </IonCol>
+            </IonRow>
+            <IonRow>
+              <IonCol size="6">
+                <LessonListItem
+                  id="27"
+                  title="Grijesi"
+                  link="/MistakesPage"
+                />
+              </IonCol>
+              
+            </IonRow>
+          </IonGrid>
+        </div>
+
         <div id="sixth" hidden={current !== 6} className="ion-no-padding">
           <IonGrid>
             <IonRow>
               <IonCol size="6">
                 <LessonListItem
-                  id="17"
+                  id="28"
                   title="Sura Leheb"
                   link="/SurahLehebPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
-                  id="8"
+                  id="29"
                   title="Sura En-Nasr"
                   link="/SurahNasrPage"
                 />
@@ -289,7 +353,7 @@ const BookTwoMainPage: React.FC = () => {
             <IonRow>
               <IonCol size="6">
                 <LessonListItem
-                  id="9"
+                  id="30"
                   title="Sura El-Kafirun"
                   link="/SurahKafirunPage"
                 />
