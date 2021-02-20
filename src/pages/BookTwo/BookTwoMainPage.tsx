@@ -1,6 +1,7 @@
 import { IonBackButton, IonButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonLabel, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react"
 import React, { useState } from "react"
 import LessonListItem from "../../components/LessonListItem";
+import { translationService } from "../../services/TranslationService";
 
 const BookTwoMainPage: React.FC = () => {
     const [current, setCurrent] = useState(1);
@@ -11,7 +12,7 @@ const BookTwoMainPage: React.FC = () => {
             <IonButtons slot="start">
               <IonBackButton color="light" defaultHref="/HomePage" />
             </IonButtons>
-            <IonTitle color="light">Ilmihal Drugi dio</IonTitle>
+            <IonTitle color="light">{translationService.getLabel("label-book2-full-title")}</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-burgundy-gradient" fullscreen>
@@ -100,14 +101,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="1"
-                  title="Uvjeti za namaz"
+                  title={translationService.getLabel(
+                    "label-book2-lesson1-title"
+                  )}
                   link="/PrayerRequirementsPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="2"
-                  title="Dijelovi namaza"
+                  title={translationService.getLabel(
+                    "label-book2-lesson2-title"
+                  )}
                   link="/PrayerPartsPage"
                 />
               </IonCol>
@@ -116,14 +121,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="3"
-                  title="Sehvi sedžda"
+                  title={translationService.getLabel(
+                    "label-book2-lesson3-title"
+                  )}
                   link="/SahwiSujudPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="4"
-                  title="Propušteni namazi"
+                  title={translationService.getLabel(
+                    "label-book2-lesson4-title"
+                  )}
                   link="/OverduePrayerPage"
                 />
               </IonCol>
@@ -132,17 +141,23 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="5"
-                  title="Namaz u džematu"
+                  title={translationService.getLabel(
+                    "label-book2-lesson5-title"
+                  )}
                   link="/CongregationalPrayerPage"
                 />
               </IonCol>
               <IonCol size="6">
-              <LessonListItem id="6" title="Namaz putnika" link="/TravellerPrayerPage" />
+              <LessonListItem id="6" title={translationService.getLabel(
+                    "label-book2-lesson6-title"
+                  )} link="/TravellerPrayerPage" />
               </IonCol>
             </IonRow>
             <IonRow>
               <IonCol size="6">
-              <LessonListItem id="7" title="Namaz bolesnika" link="/SickPersonPrayerPage" />
+              <LessonListItem id="7" title={translationService.getLabel(
+                    "label-book2-lesson7-title"
+                  )} link="/SickPersonPrayerPage" />
               </IonCol>
               
             </IonRow>
@@ -155,14 +170,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="8"
-                  title="Gusul"
+                  title={translationService.getLabel(
+                    "label-book2-lesson8-title"
+                  )}
                   link="/WashingPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="9"
-                  title="Tejemum"
+                  title={translationService.getLabel(
+                    "label-book2-lesson9-title"
+                  )}
                   link="/StoneWashingPage"
                 />
               </IonCol>
@@ -171,7 +190,9 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="10"
-                  title="Mesh"
+                  title={translationService.getLabel(
+                    "label-book2-lesson10-title"
+                  )}
                   link="/WipingPage"
                 />
               </IonCol>
@@ -185,14 +206,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="11"
-                  title="Bajram namaz"
+                  title={translationService.getLabel(
+                    "label-book2-lesson11-title"
+                  )}
                   link="/EidPrayerPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="12"
-                  title="Dženaze namaz"
+                  title={translationService.getLabel(
+                    "label-book2-lesson12-title"
+                  )}
                   link="/FuneralPrayerPage"
                 />
               </IonCol>
@@ -201,14 +226,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="13"
-                  title="Teravih namaz"
+                  title={translationService.getLabel(
+                    "label-book2-lesson13-title"
+                  )}
                   link="/TarawihPrayerPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="14"
-                  title="Džuma namaz"
+                  title={translationService.getLabel(
+                    "label-book2-lesson14-title"
+                  )}
                   link="/JummahPrayerPage"
                 />
               </IonCol>
@@ -221,14 +250,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="15"
-                  title="Hidžetska godina"
+                  title={translationService.getLabel(
+                    "label-book2-lesson15-title"
+                  )}
                   link="/HijriYearPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="16"
-                  title="Mevlud"
+                  title={translationService.getLabel(
+                    "label-book2-lesson16-title"
+                  )}
                   link="/MawludPage"
                 />
               </IonCol>
@@ -237,14 +270,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="17"
-                  title="Mubarek noći"
+                  title={translationService.getLabel(
+                    "label-book2-lesson17-title"
+                  )}
                   link="/BlessedNightsPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="18"
-                  title="Kur'an"
+                  title={translationService.getLabel(
+                    "label-book2-lesson18-title"
+                  )}
                   link="/QuranDefinitionPage"
                 />
               </IonCol>
@@ -254,14 +291,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="19"
-                  title="Poslanik"
+                  title={translationService.getLabel(
+                    "label-book2-lesson18-title"
+                  )}
                   link="/MuhammadMainPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="20"
-                  title="Kibla-Kaba"
+                  title={translationService.getLabel(
+                    "label-book2-lesson20-title"
+                  )}
                   link="/KabaPage"
                 />
               </IonCol>
@@ -274,14 +315,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="21"
-                  title="Dužnosti prema Allahu"
+                  title={translationService.getLabel(
+                    "label-book2-lesson21-title"
+                  )}
                   link="/ObligationsToAllahPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="22"
-                  title="Dužnosti prema roditeljima"
+                  title={translationService.getLabel(
+                    "label-book2-lesson22-title"
+                  )}
                   link="/ObligationsToParentsPage"
                 />
               </IonCol>
@@ -290,14 +335,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="23"
-                  title="Dužnosti roditelja"
+                  title={translationService.getLabel(
+                    "label-book2-lesson23-title"
+                  )}
                   link="/ParentsObligationsPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="24"
-                  title="Dužnosti prema sebi"
+                  title={translationService.getLabel(
+                    "label-book2-lesson24-title"
+                  )}
                   link="/OwnObligationsPage"
                 />
               </IonCol>
@@ -307,14 +356,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="25"
-                  title="Srednji put"
+                  title={translationService.getLabel(
+                    "label-book2-lesson25-title"
+                  )}
                   link="/MiddleWayPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="26"
-                  title="Snaga istine"
+                  title={translationService.getLabel(
+                    "label-book2-lesson26-title"
+                  )}
                   link="/PowerOfTruthPage"
                 />
               </IonCol>
@@ -323,7 +376,9 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="27"
-                  title="Grijesi"
+                  title={translationService.getLabel(
+                    "label-book2-lesson27-title"
+                  )}
                   link="/MistakesPage"
                 />
               </IonCol>
@@ -338,14 +393,18 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="28"
-                  title="Sura Leheb"
+                  title={translationService.getLabel(
+                    "label-book2-lesson28-title"
+                  )}
                   link="/SurahLehebPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="29"
-                  title="Sura En-Nasr"
+                  title={translationService.getLabel(
+                    "label-book2-lesson29-title"
+                  )}
                   link="/SurahNasrPage"
                 />
               </IonCol>
@@ -354,7 +413,9 @@ const BookTwoMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="30"
-                  title="Sura El-Kafirun"
+                  title={translationService.getLabel(
+                    "label-book2-lesson30-title"
+                  )}
                   link="/SurahKafirunPage"
                 />
               </IonCol>

@@ -1,0 +1,131 @@
+[
+    {
+        "name":"label-tab-home",
+        "value":"Skole"
+    },
+    {
+        "name":"label-tab-treasure",
+        "value":"Skattekammer"
+    },
+    {
+        "name":"label-tab-optioons",
+        "value":"Opsjoner"
+    },
+    {
+        "name":"label-welcome-hadeeth",
+        "value":"\"Allah skal gjøre veien til paradiset lett for alle som søker kunskap.\""
+    },
+    {
+        "name":"label-book1-title",
+        "value":"Del 1"
+    },
+    {
+        "name":"label-book2-title",
+        "value":"Del 2"
+    },
+    {
+        "name":"label-book1-full-title",
+        "value":"Ilmihal del 1"
+    },
+    {
+        "name":"label-book2-full-title",
+        "value":"Ilmihal del 2"
+    },
+    {
+        "name":"label-book1-lesson1-title",
+        "value":"Euzubilla og bismilla"
+    },
+    {
+        "name":"label-book1-lesson2-title",
+        "value":"Trosbekjennelsen"
+    },
+    {
+        "name":"label-book1-lesson3-title",
+        "value":"Vår tro"
+    },
+    {
+        "name":"label-book1-lesson4-title",
+        "value":"Rabbi jessir"
+    },
+    {
+        "name":"label-book1-lesson5-title",
+        "value":"Subhaneke"
+    },
+    {
+        "name":"label-book1-lesson6-title",
+        "value":"Selam"
+    },
+    {
+        "name":"label-book1-lesson7-title",
+        "value":"Surah El-Fatiha"
+    },
+    {
+        "name":"label-book1-lesson8-title",
+        "value":"Surah En-Nas"
+    },
+    {
+        "name":"label-book1-lesson9-title",
+        "value":"Surah El-Felek"
+    },
+    {
+        "name":"label-book1-lesson10-title",
+        "value":"Surah El-Ihlas"
+    },
+    {
+        "name":"label-book1-lesson11-title",
+        "value":"Trosartikler"
+    },
+    {
+        "name":"label-book1-lesson12-title",
+        "value":"Islams søyler"
+    },
+    {
+        "name":"label-book1-lesson13-title",
+        "value":"Wudhu"
+    },
+    {
+        "name":"label-book1-lesson14-title",
+        "value":"Bønnerop"
+    },
+    {
+        "name":"label-book1-lesson15-title",
+        "value":"Iqamah"
+    },
+    {
+        "name":"label-book1-lesson16-title",
+        "value":"Et-tehijjatu"
+    },
+    {
+        "name":"label-book1-lesson17-title",
+        "value":"Salawat"
+    },
+    {
+        "name":"label-book1-lesson18-title",
+        "value":"Du'a"
+    },
+    {
+        "name":"label-book1-lesson19-title",
+        "value":"Fajr"
+    },
+    {
+        "name":"label-book1-lesson20-title",
+        "value":"Dhuhr"
+    },
+    {
+        "name":"label-book1-lesson21-title",
+        "value":"'Asr'"
+    },
+    {
+        "name":"label-book1-lesson22-title",
+        "value":"Maghrib"
+    },
+    {
+        "name":"label-book1-lesson23-title",
+        "value":"Isha"
+    },
+    {
+        "name":"label-book1-lesson24-title",
+        "value":"Dhikr"
+    }
+
+]

@@ -14,6 +14,7 @@ import {
 } from "@ionic/react";
 import React, { useState } from "react";
 import LessonListItem from "../../components/LessonListItem";
+import { translationService } from "../../services/TranslationService";
 
 const BookOneMainPage: React.FC = () => {
   const [current, setCurrent] = useState(1);
@@ -24,7 +25,9 @@ const BookOneMainPage: React.FC = () => {
           <IonButtons slot="start">
             <IonBackButton color="light" defaultHref="/HomePage" />
           </IonButtons>
-          <IonTitle color="light">Ilmihal Prvi dio</IonTitle>
+          <IonTitle color="light">
+            {translationService.getLabel("label-book1-full-title")}
+          </IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className="bg-image-purple-gradient" fullscreen>
@@ -102,14 +105,18 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="1"
-                  title="Euzubilla i bismilla"
+                  title={translationService.getLabel(
+                    "label-book1-lesson1-title"
+                  )}
                   link="/EuzaPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="2"
-                  title="Kelimei-Šehadet"
+                  title={translationService.getLabel(
+                    "label-book1-lesson2-title"
+                  )}
                   link="/ShahadahPage"
                 />
               </IonCol>
@@ -118,14 +125,18 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="3"
-                  title="Naša vjera"
+                  title={translationService.getLabel(
+                    "label-book1-lesson3-title"
+                  )}
                   link="/OurFaithPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="4"
-                  title="Rabbi jessir"
+                  title={translationService.getLabel(
+                    "label-book1-lesson4-title"
+                  )}
                   link="/RabbiJessirPage"
                 />
               </IonCol>
@@ -134,12 +145,20 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="5"
-                  title="Subhaneke"
+                  title={translationService.getLabel(
+                    "label-book1-lesson5-title"
+                  )}
                   link="/SubhanekePage"
                 />
               </IonCol>
               <IonCol size="6">
-                <LessonListItem id="6" title="Selam" link="/SelamPage" />
+                <LessonListItem
+                  id="6"
+                  title={translationService.getLabel(
+                    "label-book1-lesson6-title"
+                  )}
+                  link="/SelamPage"
+                />
               </IonCol>
             </IonRow>
           </IonGrid>
@@ -150,14 +169,18 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="7"
-                  title="Sura El-Fatiha"
+                  title={translationService.getLabel(
+                    "label-book1-lesson7-title"
+                  )}
                   link="/SurahFatihaPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="8"
-                  title="Sura En-Nas"
+                  title={translationService.getLabel(
+                    "label-book1-lesson8-title"
+                  )}
                   link="/SurahNasPage"
                 />
               </IonCol>
@@ -166,14 +189,18 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="9"
-                  title="Sura El-Felek"
+                  title={translationService.getLabel(
+                    "label-book1-lesson9-title"
+                  )}
                   link="/SurahFelekPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="10"
-                  title="Sura El-Ihlas"
+                  title={translationService.getLabel(
+                    "label-book1-lesson10-title"
+                  )}
                   link="/SurahIhlasPage"
                 />
               </IonCol>
@@ -187,7 +214,9 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="11"
-                  title="Imanski šarti"
+                  title={translationService.getLabel(
+                    "label-book1-lesson11-title"
+                  )}
                   link="/ImanMainPage"
                 />
               </IonCol>
@@ -195,7 +224,9 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="12"
-                  title="Islamski šarti"
+                  title={translationService.getLabel(
+                    "label-book1-lesson12-title"
+                  )}
                   link="/IslamMainPage"
                 />
               </IonCol>
@@ -206,30 +237,62 @@ const BookOneMainPage: React.FC = () => {
           <IonGrid>
             <IonRow>
               <IonCol size="6">
-                <LessonListItem id="13" title="Abdest" link="/WudhuPage" />
+                <LessonListItem
+                  id="13"
+                  title={translationService.getLabel(
+                    "label-book1-lesson13-title"
+                  )}
+                  link="/WudhuPage"
+                />
               </IonCol>
               <IonCol size="6">
-                <LessonListItem id="14" title="Ezan" link="/AdhanPage" />
+                <LessonListItem
+                  id="14"
+                  title={translationService.getLabel(
+                    "label-book1-lesson14-title"
+                  )}
+                  link="/AdhanPage"
+                />
               </IonCol>
             </IonRow>
             <IonRow>
               <IonCol size="6">
-                <LessonListItem id="15" title="Ikamet" link="/IqamahPage" />
+                <LessonListItem
+                  id="15"
+                  title={translationService.getLabel(
+                    "label-book1-lesson15-title"
+                  )}
+                  link="/IqamahPage"
+                />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="16"
-                  title="Et-tehijatu"
+                  title={translationService.getLabel(
+                    "label-book1-lesson16-title"
+                  )}
                   link="/EttehijatuPage"
                 />
               </IonCol>
             </IonRow>
             <IonRow>
               <IonCol size="6">
-                <LessonListItem id="17" title="Salavati" link="/SalavatPage" />
+                <LessonListItem
+                  id="17"
+                  title={translationService.getLabel(
+                    "label-book1-lesson17-title"
+                  )}
+                  link="/SalavatPage"
+                />
               </IonCol>
               <IonCol size="6">
-                <LessonListItem id="18" title="Dove" link="/DuaPage" />
+                <LessonListItem
+                  id="18"
+                  title={translationService.getLabel(
+                    "label-book1-lesson18-title"
+                  )}
+                  link="/DuaPage"
+                />
               </IonCol>
             </IonRow>
           </IonGrid>
@@ -240,14 +303,18 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="19"
-                  title="Sabah namaz"
+                  title={translationService.getLabel(
+                    "label-book1-lesson19-title"
+                  )}
                   link="/FajrPrayerPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="20"
-                  title="Podne namaz"
+                  title={translationService.getLabel(
+                    "label-book1-lesson20-title"
+                  )}
                   link="/DhuhrPrayerPage"
                 />
               </IonCol>
@@ -256,14 +323,18 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="21"
-                  title="Ikindija namaz"
+                  title={translationService.getLabel(
+                    "label-book1-lesson21-title"
+                  )}
                   link="/AsrPrayerPage"
                 />
               </IonCol>
               <IonCol size="6">
                 <LessonListItem
                   id="22"
-                  title="Akšam namaz"
+                  title={translationService.getLabel(
+                    "label-book1-lesson22-title"
+                  )}
                   link="/MaghribPrayerPage"
                 />
               </IonCol>
@@ -272,12 +343,20 @@ const BookOneMainPage: React.FC = () => {
               <IonCol size="6">
                 <LessonListItem
                   id="23"
-                  title="Jacija namaz"
+                  title={translationService.getLabel(
+                    "label-book1-lesson23-title"
+                  )}
                   link="/IshaPrayerPage"
                 />
               </IonCol>
               <IonCol size="6">
-                <LessonListItem id="24" title="Zikr" link="/DhikrPage" />
+                <LessonListItem
+                  id="24"
+                  title={translationService.getLabel(
+                    "label-book1-lesson24-title"
+                  )}
+                  link="/DhikrPage"
+                />
               </IonCol>
             </IonRow>
           </IonGrid>

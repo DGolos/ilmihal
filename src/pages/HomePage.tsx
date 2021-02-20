@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { IonAvatar, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
 
 import { timeService } from '../services/TimeService';
+import { translationService } from '../services/TranslationService';
 
 const HomePage: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
@@ -28,7 +29,7 @@ useIonViewWillEnter(() => {
               <IonRow>
                 <IonCol size="12">
                   <h5 className="ion-no-padding ion-text-center" style={{fontStyle:"italic"}}>
-                    "Allah ce učiniti put do Dzenneta lahkim svakome ko traži znanje"
+                  {translationService.getLabel('label-welcome-hadeeth')}
                   </h5>
                 </IonCol>
               </IonRow>
@@ -57,7 +58,7 @@ useIonViewWillEnter(() => {
                       </IonLabel>
                     </IonAvatar>
                     <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Prvi dio</h4>
+                      <h4>{translationService.getLabel('label-book1-title')}</h4>
                     </IonNote>
                   </IonItem>
               </IonCol>
@@ -75,7 +76,7 @@ useIonViewWillEnter(() => {
                       </IonLabel>
                     </IonAvatar>
                     <IonNote className="ion-padding-start ion-text-center">
-                      <h4>Drugi dio</h4>
+                      <h4>{translationService.getLabel('label-book2-title')}</h4>
                     </IonNote>
                   </IonItem>
               </IonCol>

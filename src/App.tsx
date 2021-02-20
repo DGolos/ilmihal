@@ -128,6 +128,7 @@ const App: React.FC = () => {
   
   const initialization = useCallback(async () => {
     await timeService.init();
+    await translationService.load();
     setInitialized(true);
   }, []);
 
@@ -237,15 +238,15 @@ const App: React.FC = () => {
         <IonTabBar slot="bottom" color="background">
           <IonTabButton tab="HomePage" href="/HomePage">
             <IonIcon icon={homeOutline} color="burgundy"/>
-            <IonLabel>{translationService.getLabel(1)}</IonLabel>
+            <IonLabel>{translationService.getLabel('label-tab-home')}</IonLabel>
           </IonTabButton>
           <IonTabButton tab="MainCategoryPage" href="/MainCategoryPage">
             <IonIcon icon={bookOutline} color="burgundy"/>
-            <IonLabel>{translationService.getLabel(2)}</IonLabel>
+            <IonLabel>{translationService.getLabel('label-tab-treasure')}</IonLabel>
           </IonTabButton>
           <IonTabButton tab="OptionsPage" href="/OptionsPage">
             <IonIcon icon={settingsOutline} color="burgundy" />
-            <IonLabel>{translationService.getLabel(3)}</IonLabel>
+            <IonLabel>{translationService.getLabel('label-tab-options')}</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

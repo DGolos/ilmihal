@@ -1,0 +1,251 @@
+[
+    {
+        "name":"label-tab-home",
+        "value":"Mekteb"
+    },
+    {
+        "name":"label-tab-treasure",
+        "value":"Sehara"
+    },
+    {
+        "name":"label-tab-options",
+        "value":"Opcije"
+    },
+    {
+        "name":"label-welcome-hadeeth",
+        "value":"\"Allah će učiniti put do Dženneta lahkim svakome ko traži znanje\""
+    },
+    {
+        "name":"label-book1-title",
+        "value":"Prvi dio"
+    },
+    {
+        "name":"label-book2-title",
+        "value":"Drugi dio"
+    },
+    {
+        "name":"label-book1-full-title",
+        "value":"Ilmihal prvi dio"
+    },
+    {
+        "name":"label-book2-full-title",
+        "value":"Ilmihal drugi dio"
+    },
+    {
+        "name":"label-book1-lesson1-title",
+        "value":"Euzubilla i bismilla"
+    },
+    {
+        "name":"label-book1-lesson2-title",
+        "value":"Kelimei-Šehadet"
+    },
+    {
+        "name":"label-book1-lesson3-title",
+        "value":"Naša vjera"
+    },
+    {
+        "name":"label-book1-lesson4-title",
+        "value":"Rabbi jessir"
+    },
+    {
+        "name":"label-book1-lesson5-title",
+        "value":"Subhaneke"
+    },
+    {
+        "name":"label-book1-lesson6-title",
+        "value":"Selam"
+    },
+    {
+        "name":"label-book1-lesson7-title",
+        "value":"Sura El-Fatiha"
+    },
+    {
+        "name":"label-book1-lesson8-title",
+        "value":"Sura En-Nas"
+    },
+    {
+        "name":"label-book1-lesson9-title",
+        "value":"Sura El-Felek"
+    },
+    {
+        "name":"label-book1-lesson10-title",
+        "value":"Sura El-Ihlas"
+    },
+    {
+        "name":"label-book1-lesson11-title",
+        "value":"Imanski šarti"
+    },
+    {
+        "name":"label-book1-lesson12-title",
+        "value":"Islamski šarti"
+    },
+    {
+        "name":"label-book1-lesson13-title",
+        "value":"Abdest"
+    },
+    {
+        "name":"label-book1-lesson14-title",
+        "value":"Ezan"
+    },
+    {
+        "name":"label-book1-lesson15-title",
+        "value":"Ikamet"
+    },
+    {
+        "name":"label-book1-lesson16-title",
+        "value":"Et-tehijjatu"
+    },
+    {
+        "name":"label-book1-lesson17-title",
+        "value":"Salavati"
+    },
+    {
+        "name":"label-book1-lesson18-title",
+        "value":"Dove"
+    },
+    {
+        "name":"label-book1-lesson19-title",
+        "value":"Sabah namaz"
+    },
+    {
+        "name":"label-book1-lesson20-title",
+        "value":"Podne namaz"
+    },
+    {
+        "name":"label-book1-lesson21-title",
+        "value":"Ikindija namaz"
+    },
+    {
+        "name":"label-book1-lesson22-title",
+        "value":"Akšam namaz"
+    },
+    {
+        "name":"label-book1-lesson23-title",
+        "value":"Jacija namaz"
+    },
+    {
+        "name":"label-book1-lesson24-title",
+        "value":"Zikr"
+    },
+    {
+        "name":"label-book2-lesson1-title",
+        "value":"Uvjeti za namaz"
+    },
+    {
+        "name":"label-book2-lesson2-title",
+        "value":"Dijelovi namaza"
+    },
+    {
+        "name":"label-book2-lesson3-title",
+        "value":"Sehvi sedžda"
+    },
+    {
+        "name":"label-book2-lesson4-title",
+        "value":"Propušteni namazi"
+    },
+    {
+        "name":"label-book2-lesson5-title",
+        "value":"Namaz u džematu"
+    },
+    {
+        "name":"label-book2-lesson6-title",
+        "value":"Namaz putnika"
+    },
+    {
+        "name":"label-book2-lesson7-title",
+        "value":"Namaz bolesnika"
+    },
+    {
+        "name":"label-book2-lesson8-title",
+        "value":"Gusul"
+    },
+    {
+        "name":"label-book2-lesson9-title",
+        "value":"Tejemum"
+    },
+    {
+        "name":"label-book2-lesson10-title",
+        "value":"Mesh"
+    },
+    {
+        "name":"label-book2-lesson11-title",
+        "value":"Bajram namaz"
+    },
+    {
+        "name":"label-book2-lesson12-title",
+        "value":"Dženaze namaz"
+    },
+    {
+        "name":"label-book2-lesson13-title",
+        "value":"Teravih namaz"
+    },
+    {
+        "name":"label-book2-lesson14-title",
+        "value":"Džuma namaz"
+    },
+    {
+        "name":"label-book2-lesson15-title",
+        "value":"Hidžetska godina"
+    },
+    {
+        "name":"label-book2-lesson16-title",
+        "value":"Mevlud"
+    },
+    {
+        "name":"label-book2-lesson17-title",
+        "value":"Mubarek noći"
+    },
+    {
+        "name":"label-book2-lesson18-title",
+        "value":"Kur'an"
+    },
+    {
+        "name":"label-book2-lesson19-title",
+        "value":"Poslanik"
+    },
+    {
+        "name":"label-book2-lesson20-title",
+        "value":"Kibla-Kaba"
+    },
+    {
+        "name":"label-book2-lesson21-title",
+        "value":"Dužnosti prema Allahu"
+    },
+    {
+        "name":"label-book2-lesson22-title",
+        "value":"Dužnosti prema roditeljima"
+    },
+    {
+        "name":"label-book2-lesson23-title",
+        "value":"Dužnosti roditelja"
+    },
+    {
+        "name":"label-book2-lesson24-title",
+        "value":"Dužnosti prema sebi"
+    },
+    {
+        "name":"label-book2-lesson25-title",
+        "value":"Srednji put"
+    },
+    {
+        "name":"label-book2-lesson26-title",
+        "value":"Snaga istine"
+    },
+    {
+        "name":"label-book2-lesson27-title",
+        "value":"Grijesi"
+    },
+    {
+        "name":"label-book2-lesson28-title",
+        "value":"Sura Leheb"
+    },
+    {
+        "name":"label-book2-lesson29-title",
+        "value":"Sura En-Nasr"
+    },
+    {
+        "name":"label-book2-lesson30-title",
+        "value":"Sura El-Kafirun"
+    }
+
+]

@@ -1,28 +1,43 @@
+import { plainToClass } from "class-transformer";
+import { storageService } from "./StorageService";
 
-import { TranslationText } from './TranslationText';
-import data from './translations.json';
 
 
 
 export class TranslationItem{
-    id:number=-1;
     name:string="";
-    label:TranslationText={ba:"",no:""};
+    value:string="";
 }
 
 
 class TranslationService{
-    labels:TranslationItem[]=data;
-    currentLocale:string="ba";
+    labels:TranslationItem[]=[];
+    currentLocale:string|null="";
+    loaded:boolean=false;
 
     
-    public getLabel(id:number){
-        const item=this.labels.find(item=>item.id===id);
+    async load(){
+        this.currentLocale=await storageService.get("languageData");
+        
+        if(this.currentLocale===null){
+            storageService.set("languageData","ba");
+            return;
+        }
+
+        const body=await fetch("assets/data/ba.json").then(response=>response.json());
+        this.labels = JSON.parse(JSON.stringify(body));
+        
+       
+    }
+    isLoaded():boolean{
+        return this.loaded;
+    } 
+    
+    getLabel(name:string):string{
+        const item=this.labels.find(item=>item.name===name);
         if(item===null) return "";
 
-        return item?.label.ba;
-
-        
+        return item?.value!;
     }
 }
 
