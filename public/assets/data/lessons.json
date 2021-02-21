@@ -1,0 +1,141 @@
+[
+    {
+        "id":"1",
+        "bookId":"1",
+        "title":"label-book1-lesson1-title",
+        "color":"purple",
+        "audio":"EuzaBismilla",
+        "quoteText":"label-book1-lesson1-quote",
+        "quoteReference":"label-hadeeth-reference",
+        "sections":[
+            {
+                "type":0,
+                "paragraphGroups":[
+                    {
+                        "paragraphs":[
+                            "label-book1-lesson1_section1-paragraph1"
+                        ]
+                    }
+                   
+                ]
+            },
+            {
+                "type":1,
+                "paragraphGroups":[
+                    {
+                        "paragraphs":[
+                            "label-book1-lesson1_section2-paragraph1",
+                            "label-book1-lesson1_section2-paragraph2"
+                        ]
+                    },
+                    {
+                        "paragraphs":[
+                            "label-book1-lesson1_section2-paragraph3",
+                            "label-book1-lesson1_section2-paragraph4"
+                        ]
+                    }
+                   
+                ]
+               
+            }
+            
+        ]
+    },
+    {
+        "id":"2",
+        "bookId":"1",
+        "title":"label-book1-lesson2-title",
+        "color":"burgundy",
+        "audio":"",
+        "quoteText":"label-book1-lesson2-quote",
+        "quoteReference":"label-book1-lesson2-quote-reference",
+        "sections":[
+            {
+                "type":0,
+                "paragraphGroups":[
+                    {
+                        "paragraphs":[
+                            "label-book1-lesson2_section1-paragraph1"
+                        ]
+                    }
+                   
+                ]
+            },
+            {
+                "type":1,
+                "paragraphGroups":[
+                    {
+                        "paragraphs":[
+                            "label-book1-lesson2_section2-paragraph1",
+                            "label-book1-lesson2_section2-paragraph2"
+                        ]
+                    },
+                    {
+                        "paragraphs":[
+                            "label-book1-lesson2_section2-paragraph3",
+                            "label-book1-lesson2_section2-paragraph4"
+                        ]
+                    }
+                   
+                ]
+               
+            }
+            
+            
+        ]
+    },
+    {
+        "id":"3",
+        "bookId":"1",
+        "title":"label-book1-lesson3-title",
+        "color":"brown",
+        "audio":"",
+        "quoteText":"label-book1-lesson3-quote",
+        "quoteReference":"label-book1-lesson3-quote-reference",
+        "sections":[
+            {
+                "type":0,
+                "paragraphGroups":[
+                    {
+                        "paragraphs":[
+                            "label-book1-lesson3_section1-paragraph1",
+                            "label-book1-lesson3_section1-paragraph2",
+                            "label-book1-lesson3_section1-paragraph3"
+                        ]
+                    }
+                   
+                ]
+            }
+            
+            
+            
+        ]
+    },
+    {
+        "id":"6",
+        "bookId":"1",
+        "title":"label-book1-lesson6-title",
+        "color":"burgundy",
+        "audio":"",
+        "quoteText":"label-book1-lesson6-quote",
+        "quoteReference":"label-book1-lesson6-quote-reference",
+        "sections":[
+            {
+                "type":0,
+                "paragraphGroups":[
+                    {
+                        "paragraphs":[
+                            "label-book1-lesson6_section1-paragraph1",
+                            "label-book1-lesson6_section1-paragraph2",
+                            "label-book1-lesson6_section1-paragraph3"
+                        ]
+                    }
+                   
+                ]
+            }
+            
+            
+            
+        ]
+    }
+]

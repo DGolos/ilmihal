@@ -292,7 +292,7 @@ const BookTwoMainPage: React.FC = () => {
                 <LessonListItem
                   id="19"
                   title={translationService.getLabel(
-                    "label-book2-lesson18-title"
+                    "label-book2-lesson19-title"
                   )}
                   link="/MuhammadMainPage"
                 />

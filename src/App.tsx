@@ -43,9 +43,6 @@ import BookOneMainPage from './pages/BookOne/BookOneMainPage';
 import BookTwoMainPage from './pages/BookTwo/BookTwoMainPage';
 import PrayerTimesPage from './pages/PrayerTimesPage';
 import { timeService } from './services/TimeService';
-import EuzaPage from './pages/BookOne/EuzaPage';
-import ShahadahPage from './pages/BookOne/ShahadahPage';
-import OurFaithPage from './pages/BookOne/OurFaithPage';
 import RabbiJessirPage from './pages/BookOne/RabbiJessirPage';
 import SubhanekePage from './pages/BookOne/SubhanekePage';
 import SelamPage from './pages/BookOne/SelamPage';
@@ -122,13 +119,16 @@ import MiddleWayPage from './pages/BookTwo/MiddleWayPage';
 import PowerOfTruthPage from './pages/BookTwo/PowerOfTruthPage';
 import MistakesPage from './pages/BookTwo/MistakesPage';
 import MuhammadMainPage from './pages/BookTwo/MuhammadMainPage';
+import { dataService } from './services/dataService';
+import { StandardLessonPage } from './pages/Common/StandardLessonPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
   
   const initialization = useCallback(async () => {
-    await timeService.init();
     await translationService.load();
+    await dataService.load();
+    await timeService.init();
     setInitialized(true);
   }, []);
 
@@ -159,12 +159,9 @@ const App: React.FC = () => {
           <Route path="/PearlsAyahPage/" component={PearlsAyahPage} />
           <Route path="/AyahPage/:surahId/:firstAyahId/:lastAyahId" component={AyahPage} />
           <Route path="/BookOneMainPage" component={BookOneMainPage}/>
-          <Route path="/EuzaPage" component={EuzaPage}/>
-          <Route path="/ShahadahPage" component={ShahadahPage}/>
-          <Route path="/OurFaithPage" component={OurFaithPage}/>
+          <Route path="/StandardLessonPage/:bookId/:lessonId" component={StandardLessonPage}/>
           <Route path="/RabbiJessirPage" component={RabbiJessirPage}/>
           <Route path="/SubhanekePage" component={SubhanekePage}/>
-          <Route path="/SelamPage" component={SelamPage}/>
           <Route path="/SurahFatihaPage" component={SurahFatihaPage}/>
           <Route path="/SurahNasPage" component={SurahNasPage}/>
           <Route path="/SurahFelekPage" component={SurahFelekPage}/>

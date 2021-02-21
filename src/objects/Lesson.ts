@@ -1,14 +1,18 @@
+export class ParagraphGroup{
+    paragraphs:string[]=[];
+}
 export class LessonSection{
     type:number=-1;
-    paragraphs:string[]=[];
+    paragraphGroups:ParagraphGroup[]=[];
 }
 
 export class Lesson{
     id:string="";
-    bookId:string="0";
+    bookId:string="";
     title:string="";
     color:string="";
     audio:string="";
     quoteText:string="";
     quoteReference:string="";
+    sections:LessonSection[]=[];
 }
