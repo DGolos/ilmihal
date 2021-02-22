@@ -137,7 +137,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson4-title"
                   )}
-                  link="/RabbiJessirPage"
+                  link="/StandardLessonPage/1/4"
                 />
               </IonCol>
             </IonRow>
@@ -148,7 +148,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson5-title"
                   )}
-                  link="/SubhanekePage"
+                  link="/StandardLessonPage/1/5"
                 />
               </IonCol>
               <IonCol size="6">
@@ -172,7 +172,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson7-title"
                   )}
-                  link="/SurahFatihaPage"
+                  link="/StandardLessonPage/1/7"
                 />
               </IonCol>
               <IonCol size="6">
@@ -181,7 +181,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson8-title"
                   )}
-                  link="/SurahNasPage"
+                  link="/StandardLessonPage/1/8"
                 />
               </IonCol>
             </IonRow>
@@ -192,7 +192,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson9-title"
                   )}
-                  link="/SurahFelekPage"
+                  link="/StandardLessonPage/1/9"
                 />
               </IonCol>
               <IonCol size="6">
@@ -201,7 +201,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson10-title"
                   )}
-                  link="/SurahIhlasPage"
+                  link="/StandardLessonPage/1/10"
                 />
               </IonCol>
             </IonRow>

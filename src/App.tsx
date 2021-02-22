@@ -79,11 +79,6 @@ import IshaPrayerWatchPage from './pages/BookOne/IshaPrayerWatchPage';
 import DhikrPage from './pages/BookOne/DhikrPage';
 import WudhuPage from './pages/BookOne/WudhuPage';
 import BeliefPage from './pages/BookOne/BeliefPage';
-import AngelsPage from './pages/BookOne/AngelsPage';
-import RevelationsPage from './pages/BookOne/RevelationsPage';
-import MessangersPage from './pages/BookOne/MessangersPage';
-import JudgementDayPage from './pages/BookOne/JudgementDay.Page';
-import DestinyPage from './pages/BookOne/DestinyPage';
 import { BeautifulNamesPage } from './pages/Advanced/BeautifulNamesPage';
 import { ChosenVersesPage } from './pages/Advanced/ChosenVersesPage';
 import { RubiesAyahPage } from './pages/Advanced/RubiesAyahPage';
@@ -160,19 +155,8 @@ const App: React.FC = () => {
           <Route path="/AyahPage/:surahId/:firstAyahId/:lastAyahId" component={AyahPage} />
           <Route path="/BookOneMainPage" component={BookOneMainPage}/>
           <Route path="/StandardLessonPage/:bookId/:lessonId" component={StandardLessonPage}/>
-          <Route path="/RabbiJessirPage" component={RabbiJessirPage}/>
-          <Route path="/SubhanekePage" component={SubhanekePage}/>
-          <Route path="/SurahFatihaPage" component={SurahFatihaPage}/>
-          <Route path="/SurahNasPage" component={SurahNasPage}/>
-          <Route path="/SurahFelekPage" component={SurahFelekPage}/>
-          <Route path="/SurahIhlasPage" component={SurahIhlasPage}/>
           <Route path="/ImanMainPage" component={ImanMainPage}/>
           <Route path="/BeliefPage" component={BeliefPage}/>
-          <Route path="/AngelsPage" component={AngelsPage}/>
-          <Route path="/RevelationsPage" component={RevelationsPage}/>
-          <Route path="/MessangersPage" component={MessangersPage}/>
-          <Route path="/JudgementDayPage" component={JudgementDayPage}/>
-          <Route path="/DestinyPage" component={DestinyPage}/>
           <Route path="/IslamMainPage" component={IslamMainPage}/>
           <Route path="/PrayerDefinitionPage" component={PrayerDefinitionPage}/>
           <Route path="/RamadhanDefinitionPage" component={RamadhanDefinitionPage}/>

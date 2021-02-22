@@ -350,8 +350,837 @@
     {
         "name":"label-book1-lesson6_section1-paragraph3",
         "value":"Odgovara se slijedećim riječima: Ve alejkumus-selam, što znači: I ja vama mir i spas Božiji želim."
-    }
+    },
+    {
+        "name":"label-amin",
+        "value":"Amin!"
+    },
+    {
+        "name":"label-book1-lesson4-quote",
+        "value":"“Vjera je iskren savjet.”"
+    },
+    {
+        "name":"label-book1-lesson4_section1-paragraph1",
+        "value":"Allah, dž.š., nam da je uspjeh i pomoć u svim našim poslovima.Učeći Rabbi jessir molimo Allaha, dž.š., da nam učini lahkim i korisnim svaki posao koji želimo da radimo."
+    },
+    {
+        "name":"label-book1-lesson4_section2-paragraph1",
+        "value":"Rabbi jessir ve la tu'assir"
+    },
+    {
+        "name":"label-book1-lesson4_section2-paragraph2",
+        "value":"rabbi temmim bil hajr"
+    },
+    {
+        "name":"label-book1-lesson4_section2-paragraph3",
+        "value":"Bože olakšaj, a ne otežaj"
+    },
+    {
+        "name":"label-book1-lesson4_section2-paragraph4",
+        "value":"Bože daj da se završi s dobrim"
+    },
+    {
+        "name":"label-book1-lesson5-quote",
+        "value":"“Neće ući u Džennet onaj koji kida rodbinske veze.”"
+    },
+    {
+        "name":"label-book1-lesson5_section1-paragraph1",
+        "value":"Allah, dž.š., nam da je uspjeh i pomoć u svim nisnim svaki posao koji želimo da radimo.Allaha, dž.š., veličamo i slavimo spominjući Njegova lijepa imene i hvaleći Njegove Uzvišene osobine."
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph1",
+        "value":"Subhane-kellahumme"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph2",
+        "value":"ve bi-hamdike"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph3",
+        "value":"ve tebare-kesmuke"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph4",
+        "value":"ve te'ala džedduke"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph5",
+        "value":"va la-ilahe gajruke"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph6",
+        "value":"Samo tebi pripada veličanje, moj Bože"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph7",
+        "value":"i Tebi hvala"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph8",
+        "value":"Tvoje je ime uzvišeno"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph9",
+        "value":"Tvoje je veličanstvo veliko"
+    },
+    {
+        "name":"label-book1-lesson5_section2-paragraph10",
+        "value":"nema drugog Boga osim Tebe"
+    },
+    {
+        "name":"label-book1-lesson7-quote",
+        "value":"\"Fatiha je lijek, umirujuće sredstvo za svaku bolest.\""
+    },
+    {
+        "name":"label-book1-lesson7_section1-paragraph1",
+        "value":"Fatiha je prva kur'anska sura. Često se naziva Elham. Sastoji se od sedam ajeta, u kojima se iskazuje molba Allahu, dž.š., za upućivanje na Pravi put i zaštita od zla."
+    },
+    {
+        "name":"label-book1-lesson7_section2-paragraph1",
+        "value":"El-hamdu-lillahi Rabbil-'alemin"
+    },
+    {
+        "name":"label-book1-lesson7_section2-paragraph2",
+        "value":"Errahmanir-rahim"
+    },
+    {
+        "name":"label-book1-lesson7_section2-paragraph3",
+        "value":"Maliki jev-middin"
+    },
+    {
+        "name":"label-book1-lesson7_section2-paragraph4",
+        "value":"Ijjake na'budu ve ijjake nestein"
+    },
+    {
+        "name":"label-book1-lesson7_section2-paragraph5",
+        "value":"Ihdi-nessiratal mustekim"
+    },
+    {
+        "name":"label-book1-lesson7_section2-paragraph6",
+        "value":"Siratallezine en'amte 'alejhim, Gajril magubi'alejhim ve leddallin"
+    },
+    {
+        "name":"label-suhah1-ayah1",
+        "value":"U ime Allaha, Milostivog, Samilosnog"
+    },
+    {
+        "name":"label-suhah1-ayah2",
+        "value":"Tebe, Allaha, Gospodara svjetova, hvalimo"
+    },
+    {
+        "name":"label-suhah1-ayah3",
+        "value":"Milostivog, Samilosnog"
+    },
+    {
+        "name":"label-suhah1-ayah4",
+        "value":"Vladara Dana sudnjeg"
+    },
+    {
+        "name":"label-suhah1-ayah5",
+        "value":"Tebi se klanjamo i od tebe pomoc trazimo"
+    },
+    {
+        "name":"label-suhah1-ayah6",
+        "value":"Uputi nas na Pravi put"
+    },
+    {
+        "name":"label-suhah1-ayah7",
+        "value":"na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdzbu izazvali, niti onih koji su zalutali"
+    },
+    {
+        "name":"label-book1-lesson8-quote",
+        "value":"\"Objavljeni su mi ajeti, koji ne sliče ni jednim do sada.\""
+    },
+    {
+        "name":"label-book1-lesson8_section1-paragraph1",
+        "value":"Sure El-Felek i En-Nas su Zaštitnice iz Kur'ana. Čuvaju nas od zlih ljudi i šejtana."
+    },
+    {
+        "name":"label-book1-lesson8_section2-paragraph1",
+        "value":"Kul euzu bi rabbin-nas"
+    },
+    {
+        "name":"label-book1-lesson8_section2-paragraph2",
+        "value":"Melikin-nas"
+    },
+    {
+        "name":"label-book1-lesson8_section2-paragraph3",
+        "value":"Ilahin-nas"
+    },
+    {
+        "name":"label-book1-lesson8_section2-paragraph4",
+        "value":"Min šerril-vesvasil-hannas"
+    },
+    {
+        "name":"label-book1-lesson8_section2-paragraph5",
+        "value":"Ellezi juvesvisu fi sudurin-nas"
+    },
+    {
+        "name":"label-book1-lesson8_section2-paragraph6",
+        "value":"Minel-džinneti ven-nas"
+    },
+    {
+        "name":"label-suhah114-ayah1",
+        "value":"Reci:Tražima zaštitu Gospodara ljudi"
+    },
+    {
+        "name":"label-suhah114-ayah2",
+        "value":"Vladara ljudi"
+    },
+    {
+        "name":"label-suhah114-ayah3",
+        "value":"Boga ljudi"
+    },
+    {
+        "name":"label-suhah114-ayah4",
+        "value":"od zla šejtana-napasnika"
+    },
+    {
+        "name":"label-suhah114-ayah5",
+        "value":"koji zle misli unosi u srca ljudi"
+    },
+    {
+        "name":"label-suhah114-ayah6",
+        "value":"od džina i od ljudi"
+    },
+    {
+        "name":"label-book1-lesson9-quote",
+        "value":"\"Objavljeni su mi ajeti, koji ne sliče ni jednim do sada.\""
+    },
+    {
+        "name":"label-book1-lesson9_section1-paragraph1",
+        "value":"Sure El-Felek i En-Nas su Zaštitnice iz Kur'ana. Čuvaju nas od zlih ljudi i šejtana."
+    },
+    {
+        "name":"label-book1-lesson9_section2-paragraph1",
+        "value":"Kul euzu bi rabbil-felek"
+    },
+    {
+        "name":"label-book1-lesson9_section2-paragraph2",
+        "value":"Min šerri ma halek"
+    },
+    {
+        "name":"label-book1-lesson9_section2-paragraph3",
+        "value":"Ve min šerri gasikin iza vekab"
+    },
+    {
+        "name":"label-book1-lesson9_section2-paragraph4",
+        "value":"Ve min šerrin-neffasati fil-ukad"
+    },
+    {
+        "name":"label-book1-lesson9_section2-paragraph5",
+        "value":"Ve min šerri hasidin iza hased"
+    },
+    {
+        "name":"label-suhah113-ayah1",
+        "value":"Reci:Utječem se Gospodaru svitanja"
+    },
+    {
+        "name":"label-suhah113-ayah2",
+        "value":"od zla onoga što On stvara"
+    },
+    {
+        "name":"label-suhah113-ayah3",
+        "value":"i od zla mrkle noci kada razastre tmine"
+    },
+    {
+        "name":"label-suhah113-ayah4",
+        "value":"i od zla smutljivaca kad smutnje sije"
+    },
+    {
+        "name":"label-suhah113-ayah5",
+        "value":"i od zla zavidljivaca kada zavist ne krije"
+    },
+    {
+        "name":"label-book1-lesson10-quote",
+        "value":"\"Suha El-Ihlas je trećina Kur'ana.\""
+    },
+    {
+        "name":"label-book1-lesson10_section1-paragraph1",
+        "value":"Ovu suru nauči i tri puta je prouči pa ćeš biti kao Kur'an zaštićen i sačuvan."
+    },
+    {
+        "name":"label-book1-lesson10_section2-paragraph1",
+        "value":"Kul huvallahu ehad"
+    },
+    {
+        "name":"label-book1-lesson10_section2-paragraph2",
+        "value":"Allahus-Samad"
+    },
+    {
+        "name":"label-book1-lesson10_section2-paragraph3",
+        "value":"Lem jelid,ve lem juled"
+    },
+    {
+        "name":"label-book1-lesson10_section2-paragraph4",
+        "value":"Ve lem jekullehu kufuven ehad"
+    },
+    {
+        "name":"label-suhah112-ayah1",
+        "value":"Reci:On je Allah-Jedan"
+    },
+    {
+        "name":"label-suhah112-ayah2",
+        "value":"Allah je utočište svakome"
+    },
+    {
+        "name":"label-suhah112-ayah3",
+        "value":"Nije rodio i rodjen nije"
+    },
+    {
+        "name":"label-suhah112-ayah4",
+        "value":"i niko Mu ravan nije"
+    },
+    {
+        "name":"label-book1-lesson11-quote",
+        "value":"\"Niko nije kao On.On sve čuje i vidi\""
+    },
+    {
+        "name":"label-book1-lesson11-quote-reference",
+        "value":"Kur'an 42:11"
+    },
+    {
+        "name":"label-book1-lesson11-paragraph1",
+        "value":"Da bismo mogli biti muslimani, dužni smo naučiti te razumom i srcem prihvatiti islamsko vjerovanje (iman)."
+    },
+    {
+        "name":"label-book1-lesson11-paragraph2",
+        "value":"Islamsko vjerovanje sastoji se od šest temeljnih istina vjere, a zovemo ih imanski šarti."
+    },
+    {
+        "name":"label-book1-lesson11-paragraph3",
+        "value":"Ja vjerujem u Boga"
+    },
+    {
+        "name":"label-book1-lesson11-paragraph4",
+        "value":"Ja vjerujem u Božije meleke"
+    },
+    {
+        "name":"label-book1-lesson11-paragraph5",
+        "value":"Ja vjerujem u Božije Kitabe (Objave)"
+    },
+    {
+        "name":"label-book1-lesson11-paragraph6",
+        "value":"Ja vjerujem u Božije poslanike (pejgambere)"
+    },
+    {
+        "name":"label-book1-lesson11-paragraph7",
+        "value":"Ja vjerujem u Posljednji (Sudnji) dan"
+    },
+    {
+        "name":"label-book1-lesson11-paragraph8",
+        "value":"Vjerujem da sve što se događa, biva s Božijom voljom i određenjem"
+    },
+    {
+        "name":"label-book1-lesson12-quote",
+        "value":"\"Musliman je muslimanu brat.\""
+    },
+    {
+        "name":"label-book1-lesson12-paragraph1",
+        "value":"Islamskim šartima nazivamo islamske dužnosti. Islam se zasniva na pet glavnih dužnosti:"
+    },
+    {
+        "name":"label-shahadah",
+        "value":"Kelime-i Šehadet"
+    },
+    {
+        "name":"label-prayer",
+        "value":"Namaz"
+    },
+    {
+        "name":"label-ramadhan",
+        "value":"Ramazan"
+    },
+    {
+        "name":"label-charity",
+        "value":"Zekat"
+    },
+    {
+        "name":"label-hajj",
+        "value":"Hadždž"
+    },
+    {
+        "name":"label-book1-lesson13-quote",
+        "value":"\"Čistoća je pola vjere.\""
+    },
+    {
+        "name":"label-book1-lesson13-paragraph1",
+        "value":"Abdest je posebno pranje čistom vodom radi klanjanja namaza ili učenja gledajući iz Kur'ana."
+    },
+    {
+        "name":"label-wash-hands",
+        "value":"Oprati ruke"
+    },
+    {
+        "name":"label-wash-hands-description",
+        "value":"Operemo ruke do iza šake (tri puta)."
+    },
+    {
+        "name":"label-wash-mouth",
+        "value":"Isprati usta"
+    },
+    {
+        "name":"label-wash-mouth-description",
+        "value":"Desnom rukom ispiramo usta(tri puta)."
+    },
+    {
+        "name":"label-wash-mouth",
+        "value":"Isprati usta"
+    },
+    {
+        "name":"label-wash-mouth-description",
+        "value":"Desnom rukom ispiramo usta(tri puta)."
+    },
+    {
+        "name":"label-wash-nose",
+        "value":"Očistiti nos"
+    },
+    {
+        "name":"label-wash-nose-description",
+        "value":"Lijevom rukom čistimo nos(tri puta)."
+    },
+    {
+        "name":"label-wash-face",
+        "value":"Oprati lice"
+    },
+    {
+        "name":"label-wash-face-description",
+        "value":"Operemo lice, odakle je kosa nikla do pod bradu i od uha do uha (tri puta)."
+    },
+    {
+        "name":"label-wash-albow",
+        "value":"Oprati podlaktice"
+    },
+    {
+        "name":"label-wash-albow-description",
+        "value":"Operemo prvo desnu, a zatim lijevu ruku do iza lakta (tri puta)."
+    },
+    {
+        "name":"label-wipe-head",
+        "value":"Potrati glavu"
+    },
+    {
+        "name":"label-wipe-head-description",
+        "value":"Potaremo mokrom rukom prednji dio glave (mesh) jedan puta."
+    },
+    {
+        "name":"label-wipe-neck",
+        "value":"Potrati uši i vrat"
+    },
+    {
+        "name":"label-wipe-neck-description",
+        "value":"Potaremo mokrim rukama uši i vrat (jedan puta). Kažiprst stavimo u uho, palac iza uha, a sa ostala tri prsta vanjskom stranom potiremo vrat."
+    },
+    {
+        "name":"label-wash-feet",
+        "value":"Oprati noge"
+    },
+    {
+        "name":"label-wash-feet-description",
+        "value":"Operemo prvo desnu, a onda lijevu nogu do iza članaka (tri puta)."
+    },
+    {
+        "name":"label-what-breaks-wudhu",
+        "value":"Šta kvari abdest"
+    },
+    {
+        "name":"label-what-breaks-wudhu-description",
+        "value":"S jednim abdestom, ako u međuvremenu nismo učinili ništa što kvari abdest, možemo klanjati više namaza.Abdest će biti pokvaren: ako obavimo malu ili veliku nuždu, ako nam poteče krv ili procuri gnoj ili žuta voda, ako zaspimo, ako povratimo ili ako pustimo vjetar."
+    },
+    {
+        "name":"label-book1-lesson14-quote",
+        "value":"\"Kada čujete ezan ponavljajte šta mujezin uči.\""
+    },
+    {
+        "name":"label-book1-lesson14_section1-paragraph1",
+        "value":"Početak namaskog vremena oglašava se učenjem ezana."
+    },
+    {
+        "name":"label-book1-lesson14_section1-paragraph2",
+        "value":"Čovjek koji (uči) ezan zove se mujezin. Ezan uče samo muškarci. Ezan se uči na munari,a može i na nekom drugom mjestu. On se uči usporeno i glasno."
+    },
+    {
+        "name":"label-book1-lesson14_section1-paragraph3",
+        "value":"U sabahskog ezana poslije »Hajje alel-felah« uči se:"
+    },
+    {
+        "name":"label-book1-lesson14_section1-paragraph4",
+        "value":"Essalatu hajrun minen-nevm(2 puta)"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph1",
+        "value":"Allahu ekber, Allahu ekber"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph2",
+        "value":"Ešhedu en la illahe illellah"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph3",
+        "value":"Ešhedu enne Muhammeden resulullah"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph4",
+        "value":"Hajje ales-salah, Hajje ales-salah"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph5",
+        "value":"Hajje alel-felah, Hajje alel-felah"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph6",
+        "value":"La illahe illellah"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph7",
+        "value":"Allah je najveći,Allah je najveći"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph8",
+        "value":"Svjedočim da nema boga osim Allaha"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph9",
+        "value":"Svjedočim da je Muhammed Allahov poslanik"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph10",
+        "value":"Dodjite na namaz!Dodjite na namaz!"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph11",
+        "value":"Dodjite na spas!Dodjite na spas!"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph12",
+        "value":"Nema boga osim Allaha"
+    },
+    {
+        "name":"label-book1-lesson15-quote",
+        "value":"\"Hvaljen je Allah, stvoritelj nebesa i Zemlje\""
+    },
+    {
+        "name":"label-book1-lesson15-quote-reference",
+        "value":"Kur'an, 35:1"
+    },
+    {
+        "name":"label-book1-lesson15_section1-paragraph1",
+        "value":"Prije nijjeta farz namaza muškarci uče Ikamet."
+    },
+    {
+        "name":"label-book1-lesson15_section1-paragraph2",
+        "value":"Mujezin uči Ikamet kada klanjamo namaz u džematu.Ikamet se uči malo brže od ezana."
+    },
+    {
+        "name":"label-book1-lesson15_section2-paragraph1",
+        "value":"Kad kametis-salatu, kad kametis-salah"
+    },
+    {
+        "name":"label-book1-lesson16-quote",
+        "value":"\"A vaš Bog - jedan je Bog!\""
+    },
+    {
+        "name":"label-book1-lesson16-quote-reference",
+        "value":"Kur'an, 2:163"
+    },
+    {
+        "name":"label-book1-lesson16_section1-paragraph1",
+        "value":"Et-tehijatu učimo na sjedenju poslije svakog drugog rekata i na završetku namaza."
+    },
+    {
+        "name":"label-book1-lesson16_section2-paragraph1",
+        "value":"Ettehijjatu lillahi ves-salavatu vet-tajjibat"
+    },
+    {
+        "name":"label-book1-lesson16_section2-paragraph2",
+        "value":"Esselamu alejke ejjuhen-nebijju ve rametullahi ve berekatuh"
+    },
+    {
+        "name":"label-book1-lesson16_section2-paragraph3",
+        "value":"Esselamu alejna ve ala ibadillahis-salihin"
+    },
+    {
+        "name":"label-book1-lesson16_section2-paragraph4",
+        "value":"Ešhedu en la illahe illellah"
+    },
+    {
+        "name":"label-book1-lesson16_section2-paragraph5",
+        "value":"Ve ešhedu enne Muhammeden abduhu ve resuluhu"
+    },
+    {
+        "name":"label-book1-lesson16_section3-paragraph1",
+        "value":"Pozdravi, blagoslovi i lijepe riječi pripadaju Allahu"
+    },
+    {
+        "name":"label-book1-lesson16_section3-paragraph2",
+        "value":"Neka je selam, Allahova milost i Njegov blagoslov na tebe, Vjerovjesniče"
+    },
+    {
+        "name":"label-book1-lesson16_section3-paragraph3",
+        "value":"Neka je selam na nas i sve dobre Allahove sluge!"
+    },
+    {
+        "name":"label-book1-lesson16_section3-paragraph4",
+        "value":"Svjedočim da nema Boga osim Allaha"
+    },
+    {
+        "name":"label-book1-lesson16_section3-paragraph5",
+        "value":"I svjedočim da je Muhammed Allahov rob i Allahov poslanik"
+    },
+    {
+        "name":"label-book1-lesson17-quote",
+        "value":"\"Allah i meleki Njegovi blagosilju Vjerovjesnika\""
+    },
+    {
+        "name":"label-book1-lesson17-quote-reference",
+        "value":"Kur'an, 33:56"
+    },
+    {
+        "name":"label-book1-lesson17_section1-paragraph1",
+        "value":"Salavati su pohvala Poslaniku Muhammedu, a.s., od Uzvišenog Allaha.Salavate učimo na sjedenju nakon et-ehijjatu."
+    },
+    {
+        "name":"label-book1-lesson17_section2-paragraph1",
+        "value":"Allahumme salli ala Muhammedin ve ́ala ali Muhammed"
+    },
+    {
+        "name":"label-book1-lesson17_section2-paragraph2",
+        "value":"Kema sallejte ́ala Ibrahime ve ́ala ali Ibrahim"
+    },
+    {
+        "name":"label-book1-lesson17_section2-paragraph3",
+        "value":"Inneke hamidum- medžid"
+    },
+    {
+        "name":"label-book1-lesson17_section2-paragraph4",
+        "value":"Allahumme barik ala Muhammedin ve ́ala ali Muhammed"
+    },
+    {
+        "name":"label-book1-lesson17_section2-paragraph5",
+        "value":"Kema barekte ́ala Ibrahime ve ́ala ali Ibrahim"
+    },
+    {
+        "name":"label-book1-lesson17_section3-paragraph1",
+        "value":"Allahu, blagoslovi Muhammeda i njegovu porodicu"
+    },
+    {
+        "name":"label-book1-lesson17_section3-paragraph2",
+        "value":"Kao što Si blagoslovio Ibrahima i njegovu porodicu"
+    },
+    {
+        "name":"label-book1-lesson17_section3-paragraph3",
+        "value":"Zaista si ti hvaljen i slavljen"
+    },
+    {
+        "name":"label-book1-lesson17_section3-paragraph4",
+        "value":"Allahu, obdari Muhammeda i njegovu porodicu"
+    },
+    {
+        "name":"label-book1-lesson17_section3-paragraph5",
+        "value":"Kao što Si obdario Ibrahima i njegovu porodicu"
+    },
 
+
+    {
+        "name":"label-book1-lesson18-quote",
+        "value":"\"Reci: Zovite:Allah, ili zovite: Milostivi\""
+    },
+    {
+        "name":"label-book1-lesson18-quote-reference",
+        "value":"Kur'an, 17:110"
+    },
+    {
+        "name":"label-book1-lesson18_section1-paragraph1",
+        "value":"Dove su molbe koje upućujemo Allahu, dž.š. i učimo na zadnjem sjedenju odmah nakon salavata."
+    },
+    {
+        "name":"label-book1-lesson18_section2-paragraph1",
+        "value":"Rabena atina fid-dunja haseneten"
+    },
+    {
+        "name":"label-book1-lesson18_section2-paragraph2",
+        "value":"Ve fil-ahireti haseneten"
+    },
+    {
+        "name":"label-book1-lesson18_section2-paragraph3",
+        "value":"Ve kina ‘azaben-nar"
+    },
+    {
+        "name":"label-book1-lesson18_section2-paragraph4",
+        "value":"Rabbena-gfir li"
+    },
+    {
+        "name":"label-book1-lesson18_section2-paragraph5",
+        "value":"Ve livalidejje ve lil-mu ́minine"
+    },
+    {
+        "name":"label-book1-lesson18_section2-paragraph6",
+        "value":"Jevme jekumul-hisab"
+    },
+    {
+        "name":"label-book1-lesson18_section3-paragraph1",
+        "value":"Gospodaru naš, daj nam dobro i na ovom"
+    },
+    {
+        "name":"label-book1-lesson18_section3-paragraph2",
+        "value":"i na onom svijetu"
+    },
+    {
+        "name":"label-book1-lesson18_section3-paragraph3",
+        "value":"i sačuvaj nas patnje u Džehennemu"
+    },
+    {
+        "name":"label-book1-lesson18_section3-paragraph4",
+        "value":"Gospodaru naš, oprosti meni"
+    },
+    {
+        "name":"label-book1-lesson18_section3-paragraph5",
+        "value":"i mojim roditeljima"
+    },
+    {
+        "name":"label-book1-lesson18_section3-paragraph6",
+        "value":"i svim vjernicima na Sudnjem danu"
+    },
+    {
+        "name":"label-book1-lesson25-title",
+        "value":"Meleki"
+    },
+    {
+        "name":"label-book1-lesson25-quote",
+        "value":"“On ga je na obzorju jasnom vidio”"
+    },
+    {
+        "name":"label-book1-lesson25-quote-reference",
+        "value":"Kur'an, 81:23"
+    },
+    {
+        "name":"label-book1-lesson25_section1-paragraph1",
+        "value":"Meleki su nevidljiva duhovna bića, stvorena od svijetlosti, koja nikada ne griješe, nego uvijek sa zadovoljstvom i poslušno vrše dužnosti koje im Allah dž.š. određuje.Meleka ima mnogo a najpoznatiji su:"
+    },
+    {
+        "name":"label-book1-lesson25_section1-paragraph2",
+        "value":"Džebrail- ima ulogu da prenosi od Boga Objavu poslanicima."
+    },
+    {
+        "name":"label-book1-lesson25_section1-paragraph3",
+        "value":"Azrail- rastavlja duše od tijela u času smrti, sa drugim za to određenim melekima."
+    },
+    {
+        "name":"label-book1-lesson25_section1-paragraph4",
+        "value":"Mikail-sa drugim melekima vrši odredene dužnosti u prirodnim pojavama i promjenama kao što su strujanje vjetrova, kretanje oblaka, padanje kiše, listanje,rast i sazrijevanje bilja, itd."
+    },
+    {
+        "name":"label-book1-lesson25_section1-paragraph5",
+        "value":"Israfil- ima zadaću da najavi prestanak života na zemlji (Posljednji dan) i ponovno oživljenje (Sudnji dan)."
+    },
+    {
+        "name":"label-book1-lesson25_section1-paragraph6",
+        "value":"Kiramen katibin- prate čovjeka, donose mu dobre misli i pišu njegova djela."
+    },
+    {
+        "name":"label-book1-lesson26_section1-paragraph1",
+        "value":"Božije knjige (kitabi) su Božije objave koje su ljudima prenosili Božiji poslanici. U Božijim kitabima sadržane su upute, savjeti i propisi o životu ljudi i obavljanju vjerskih dužnosti koje je Allah dž. š. naredio ili zabranio ljudima.Svim Božijim poslanicima (pejgamberima) objavu je dostavljao melek Džibirl.Najpoznatija su nam četiri velika kitaba:"
+    },
+    {
+        "name":"label-book1-lesson26_section1-paragraph2",
+        "value":"Tevrat objavljen Musau a.s."
+    },
+    {
+        "name":"label-book1-lesson26_section1-paragraph3",
+        "value":"Zebur objavljen Davudu a.s."
+    },
+    {
+        "name":"label-book1-lesson26_section1-paragraph4",
+        "value":"Indžil objavljen Isau a.s."
+    },
+    {
+        "name":"label-book1-lesson26_section1-paragraph5",
+        "value":"Kur'an objavljen Muhammedu a.s."
+    },
+    {
+        "name":"label-book1-lesson26-quote",
+        "value":"“Mi ti, doista, objavljujemo Knjigu”"
+    },
+    {
+        "name":"label-book1-lesson26-quote-reference",
+        "value":"Kur'an, 39:2"
+    },
+    {
+        "name":"label-book1-lesson26-title",
+        "value":"Božiji kitabi"
+    },
+    {
+        "name":"label-book1-lesson27-quote",
+        "value":"“Mi smo svakom narodu poslanika poslali.”"
+    },
+    {
+        "name":"label-book1-lesson27-quote-reference",
+        "value":"Kur'an, 16:36"
+    },
+    {
+        "name":"label-book1-lesson27-title",
+        "value":"Božiji poslanici"
+    },
+    {
+        "name":"label-book1-lesson27_section1-paragraph1",
+        "value":"Božiji poslanici su odabrani ljudi (pejgamberi) kojima je Bog dž. š. slao svoje objave da ih prenesu i objasne ljudima."
+    },
+    {
+        "name":"label-book1-lesson27_section1-paragraph2",
+        "value":"Bilo je mnogo Božijih poslanika, u hadisu su se spominje da ih je bilo oko 124 hiljade a u Kur'anu ih je spomenuto 25."
+    },
+    {
+        "name":"label-book1-lesson27_section1-paragraph3",
+        "value":"Prvi Božiji poslanik je Adem, a.s., koji je ujedno i prvi čovjek na zemlji. Posljednji Božiji poslanik je Muhammed, a.s.. Poslije Muhammeda, a.s., neće doći nijedan poslanik niti ijedna objava poslije Kur'ana."
+    },
+    {
+        "name":"label-book1-lesson27_section1-paragraph4",
+        "value":"Od ostalih Božijih poslanika najpoznatiji su: Nuh, Ibrahim,Ismail,Jakub,Jusuf,Musa,Sulejman,Davud i Isa."
+    },
+    {
+        "name":"label-book1-lesson28-quote",
+        "value":"“Kunem se Danom kada Smak svijeta nastupi!”"
+    },
+    {
+        "name":"label-book1-lesson28-quote-reference",
+        "value":"Kur'an, 75:1"
+    },
+    {
+        "name":"label-book1-lesson28-title",
+        "value":"Sudnji dan"
+    },
+    {
+        "name":"label-book1-lesson28_section1-paragraph1",
+        "value":"Posljednji dan je dan kada će ovaj svijet i sve živo na njemu nestati. Sudnji je dan kada će Svemogući Bog stvoriti drugi vječni život i sve mrtvo oživjeti i pozvati ljude da im sudi za njihova djela."
+    },
+    {
+        "name":"label-book1-lesson28_section1-paragraph2",
+        "value":"Svakom čovjeku na Sudnjem danu bit će predočena njegova dobra i loša djela za koja će biti nagrađen ili kažnjen. Za dobra djela nagrada na Sudnjem danu je Džennet (raj), a za loša djela kazna je Džehennem (pakao)."
+    },
+    {
+        "name":"label-book1-lesson28_section1-paragraph3",
+        "value":"Niko, osim Allah, dž.š., ne zna kada će biti Sudnji dan."
+    },
+    {
+        "name":"label-book1-lesson29-quote",
+        "value":"“Ono što je Allah odredio - dogodiće se”"
+    },
+    {
+        "name":"label-book1-lesson29-quote-reference",
+        "value":"Kur'an, 16:1"
+    },
+    {
+        "name":"label-book1-lesson29-title",
+        "value":"Božija odredba"
+    },
+    {
+        "name":"label-book1-lesson29_section1-paragraph1",
+        "value":"Vjerovanje u Božiju odredbu znači svjesno zalaganje za ostvarenje zadataka života u granicama propisa Allahove vjere - ono što Allah hoće, to biva, događa se, a što neće, to se ne može dogoditi niti biti."
+    },
+    {
+        "name":"label-book1-lesson29_section1-paragraph2",
+        "value":"Bog, dž.š., zna sve šta će se dogoditi, ali iako je sve određeno (možda ovo drugačije ili brisati), On je dao čovjeku slobodnu volju, a to je naša sposobnost da se sami odlučimo za neko djelo. Ako se odlučimo za dobro djelo, bit ćemo nagrađeni, a ako se odlučimo za zlo, bit ćemo kažnjeni."
+    }
 
 
 ]

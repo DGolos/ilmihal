@@ -1,5 +1,6 @@
 import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
+import { translationService } from "../../services/TranslationService";
 
 const IslamMainPage: React.FC = () => {
 
@@ -18,14 +19,14 @@ const IslamMainPage: React.FC = () => {
         <IonContent className="bg-image-purple-gradient" fullscreen>
         <IonCard className="lesson-header ion-padding transparent ion-text-center" >
         <IonCardTitle>
-              <h1 className="lesson" >Islamski šarti</h1>
+              <h1 className="lesson" >{translationService.getLabel('label-book1-lesson12-title')}</h1>
              
             </IonCardTitle>
           <IonCardContent>
             
             <IonCardSubtitle color="light">
-              <h3 style={{fontStyle:"italic"} }>"Musliman je muslimanu brat"</h3>
-              <p className="quote-reference">Hadis</p>
+              <h3 style={{fontStyle:"italic"} }>{translationService.getLabel('label-book1-lesson12-quote')}</h3>
+              <p className="quote-reference">{translationService.getLabel('label-hadeeth-reference')}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
@@ -33,8 +34,7 @@ const IslamMainPage: React.FC = () => {
             <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note" >
-                  Islamskim šartima nazivamo islamske dužnosti. Islam se zasniva
-                  na pet glavnih dužnosti:
+                {translationService.getLabel('label-book1-lesson12-paragraph1')}
                 </h2>
               </IonText>
             </IonItem>
@@ -54,7 +54,7 @@ const IslamMainPage: React.FC = () => {
                 />
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
-                <h3> Kelime-i Šehadet</h3>
+                <h3>{translationService.getLabel('label-shahadah')} </h3>
               </IonText>
             </IonItem>
             <IonItem
@@ -71,7 +71,7 @@ const IslamMainPage: React.FC = () => {
                 />
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
-                <h3> Namaz</h3>
+                <h3> {translationService.getLabel('label-prayer')}</h3>
               </IonText>
             </IonItem>
             <IonItem
@@ -88,7 +88,7 @@ const IslamMainPage: React.FC = () => {
                 />
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
-                <h3> Ramazan</h3>
+                <h3> {translationService.getLabel('label-ramadhan')}</h3>
               </IonText>
             </IonItem>
             <IonItem
@@ -105,7 +105,7 @@ const IslamMainPage: React.FC = () => {
                 />
               </IonAvatar>
               <IonText className="ion-padding-start " color="light">
-                <h3> Zekat</h3>
+                <h3> {translationService.getLabel('label-charity')}</h3>
               </IonText>
             </IonItem>
             <IonItem
@@ -122,7 +122,7 @@ const IslamMainPage: React.FC = () => {
                 />
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
-                <h3> Hadždž</h3>
+                <h3> {translationService.getLabel('label-hajj')}</h3>
               </IonText>
             </IonItem>
           </IonList>

@@ -1,9 +1,6 @@
-export class ParagraphGroup{
-    paragraphs:string[]=[];
-}
 export class LessonSection{
-    type:number=-1;
-    paragraphGroups:ParagraphGroup[]=[];
+    type:string="";
+    paragraphs:string[]=[];
 }
 
 export class Lesson{

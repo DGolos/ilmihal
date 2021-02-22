@@ -22,6 +22,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
+import { translationService } from "../../services/TranslationService";
 
 const WudhuPage: React.FC = () => {
   return (
@@ -36,14 +37,14 @@ const WudhuPage: React.FC = () => {
       <IonContent className="bg-image-standard" fullscreen>
       <IonCard className="lesson-header ion-padding ion-text-center" color="burgundy">
         <IonCardTitle>
-              <h1 className="lesson" >Abdest</h1>
+              <h1 className="lesson" >{translationService.getLabel('label-book1-lesson13-title')}</h1>
              
             </IonCardTitle>
           <IonCardContent>
             
             <IonCardSubtitle>
-              <h3 style={{fontStyle:"italic"} }>"Čistoća je pola vjere."</h3>
-              <p className="quote-reference">Hadis</p>
+              <h3 style={{fontStyle:"italic"} }>{translationService.getLabel('label-book1-lesson13-quote')}</h3>
+              <p className="quote-reference">{translationService.getLabel('label-hadeeth-reference')}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
@@ -51,8 +52,7 @@ const WudhuPage: React.FC = () => {
           <IonItem className="lesson-note">
             <IonText>
               <h2 className="lesson-note">
-                Abdest je posebno pranje čistom vodom radi klanjanja namaza ili
-                učenja gledajući iz Kur&#39;ana.
+              {translationService.getLabel('label-book1-lesson13-paragraph1')}
               </h2>
             </IonText>
           </IonItem>
@@ -95,13 +95,13 @@ const WudhuPage: React.FC = () => {
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Oprati ruke</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-wash-hands')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>Operemo ruke do iza šake (tri puta).</IonNote>
+                          <IonNote>{translationService.getLabel('label-wash-hands-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -120,13 +120,13 @@ const WudhuPage: React.FC = () => {
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Isprati usta</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-wash-mouth')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>Desnom rukom ispiramo usta(tri puta).</IonNote>
+                          <IonNote>{translationService.getLabel('label-wash-mouth-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -145,13 +145,13 @@ const WudhuPage: React.FC = () => {
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Očistiti nos</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-wash-nose')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>Lijevom rukom čistimo nos(tri puta).</IonNote>
+                          <IonNote>{translationService.getLabel('label-wash-nose-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -170,13 +170,13 @@ const WudhuPage: React.FC = () => {
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Oprati lice</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-wash-face')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>Operemo lice, odakle je kosa nikla do pod bradu i od uha do uha (tri puta).</IonNote>
+                          <IonNote>{translationService.getLabel('label-wash-face-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -195,13 +195,13 @@ const WudhuPage: React.FC = () => {
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Oprati podlaktice</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-wash-albow')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>Operemo prvo desnu, a zatim lijevu ruku do iza lakta (tri puta).</IonNote>
+                          <IonNote>{translationService.getLabel('label-wash-albow-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -220,13 +220,13 @@ const WudhuPage: React.FC = () => {
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Potrati glavu</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-wipe-head')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>Potaremo mokrom rukom prednji dio glave (mesh) jedan puta.</IonNote>
+                          <IonNote>{translationService.getLabel('label-wipe-head-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -245,14 +245,13 @@ const WudhuPage: React.FC = () => {
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Potrati uši i vrat</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-wipe-neck')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>Potaremo mokrim rukama uši i vrat (jedan puta). Kažiprst stavimo u uho, palac
-iza uha, a sa ostala tri prsta vanjskom stranom potiremo vrat.</IonNote>
+                          <IonNote>{translationService.getLabel('label-wipe-neck-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -271,13 +270,13 @@ iza uha, a sa ostala tri prsta vanjskom stranom potiremo vrat.</IonNote>
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Oprati noge</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-wash-feet')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>Operemo prvo desnu, a onda lijevu nogu do iza članaka (tri puta).</IonNote>
+                          <IonNote>{translationService.getLabel('label-wash-feet-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -294,15 +293,13 @@ iza uha, a sa ostala tri prsta vanjskom stranom potiremo vrat.</IonNote>
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Šta kvari abdest</IonChip>
+                          <IonChip color="burgundy">{translationService.getLabel('label-what-breaks-wudhu')}</IonChip>
                         </IonCol>
                       </IonRow>
 
                       <IonRow>
                         <IonCol size="12">
-                        <IonNote>S jednim abdestom, ako u međuvremenu nismo učinili ništa što kvari abdest, možemo
-klanjati više namaza.Abdest će biti pokvaren: ako obavimo malu ili veliku nuždu, ako nam poteče krv ili
-procuri gnoj ili žuta voda, ako zaspimo, ako povratimo ili ako pustimo vjetar.</IonNote>
+                        <IonNote>{translationService.getLabel('label-what-breaks-wudhu-description')}</IonNote>
                         </IonCol>
                       </IonRow>
                     </IonGrid>

@@ -1,5 +1,6 @@
 import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
+import { translationService } from "../../services/TranslationService";
 
 const ImanMainPage: React.FC = () => {
 
@@ -16,14 +17,14 @@ const ImanMainPage: React.FC = () => {
         
         <IonCard className="lesson-header ion-padding transparent ion-text-center" >
         <IonCardTitle>
-              <h1 className="lesson" >Imanski šarti</h1>
+              <h1 className="lesson" >{translationService.getLabel('label-book1-lesson11-title')}</h1>
              
             </IonCardTitle>
           <IonCardContent>
             
             <IonCardSubtitle color="light">
-              <h3 style={{fontStyle:"italic"} }>"Niko nije kao On.On sve čuje i vidi"</h3>
-              <p className="quote-reference">Kur'an 42:11</p>
+              <h3 style={{fontStyle:"italic"} }>{translationService.getLabel('label-book1-lesson11-quote')}</h3>
+              <p className="quote-reference">{translationService.getLabel('label-book1-lesson11-quote-reference')}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
@@ -31,11 +32,10 @@ const ImanMainPage: React.FC = () => {
             <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
-                Da bismo mogli biti muslimani, dužni smo naučiti te razumom i srcem prihvatiti islamsko
-vjerovanje (iman).
+                {translationService.getLabel('label-book1-lesson11-paragraph1')}
                 </h2>
                 <h2 className="lesson-note">
-                Islamsko vjerovanje sastoji se od šest temeljnih istina vjere, a zovemo ih imanski šarti.
+                {translationService.getLabel('label-book1-lesson11-paragraph2')}
 
                 </h2>
               </IonText>
@@ -57,12 +57,12 @@ vjerovanje (iman).
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
               <h4> Amentu billahi</h4>
-              <p> Ja vjerujem u Boga</p>
+              <p> {translationService.getLabel('label-book1-lesson11-paragraph3')}</p>
               </IonText>
             </IonItem>
             <IonItem
               key="2"
-              routerLink={`/AngelsPage`}
+              routerLink={`/StandardLessonPage/1/25`}
               lines="none"
               detail={false}
               className="welcome"
@@ -75,12 +75,12 @@ vjerovanje (iman).
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
               <h4> Ve melaiketihi</h4>
-              <p> Ja vjerujem u Božije meleke</p>
+              <p> {translationService.getLabel('label-book1-lesson11-paragraph4')}</p>
               </IonText>
             </IonItem>
             <IonItem
               key="3"
-              routerLink={`/RevelationsPage`}
+              routerLink={`/StandardLessonPage/1/26`}
               lines="none"
               detail={false}
               className="welcome"
@@ -93,12 +93,12 @@ vjerovanje (iman).
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
               <h4> Ve kutubihi</h4>
-              <p> Ja vjerujem u Božije Kitabe (Objave)</p>
+              <p> {translationService.getLabel('label-book1-lesson11-paragraph5')}</p>
               </IonText>
             </IonItem>
             <IonItem
               key="4"
-              routerLink={`/MessangersPage`}
+              routerLink={`/StandardLessonPage/1/27`}
               lines="none"
               detail={false}
               className="welcome"
@@ -111,12 +111,12 @@ vjerovanje (iman).
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
               <h4> Ve rusulihi</h4>
-              <p> Ja vjerujem u Božije poslanike (pejgambere)</p>
+              <p>{translationService.getLabel('label-book1-lesson11-paragraph6')} </p>
               </IonText>
             </IonItem>
             <IonItem
               key="5"
-              routerLink={`/JudgementDayPage`}
+              routerLink={`/StandardLessonPage/1/28`}
               lines="none"
               detail={false}
               className="welcome"
@@ -129,12 +129,12 @@ vjerovanje (iman).
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
               <h4> Vel jevmil-ahiri</h4>
-              <p> Ja vjerujem u Posljednji (Sudnji) dan</p>
+              <p> {translationService.getLabel('label-book1-lesson11-paragraph7')}</p>
               </IonText>
             </IonItem>
             <IonItem
               key="6"
-              routerLink={`/DestinyPage`}
+              routerLink={`/StandardLessonPage/1/29`}
               lines="none"
               detail={false}
               className="welcome"
@@ -147,8 +147,7 @@ vjerovanje (iman).
               </IonAvatar>
               <IonText className="ion-padding-start" color="light">
               <h4> Ve bil-kaderi hajrihi ve šerrihi minellahi teala</h4>
-              <p> Vjerujem da sve što se
-događa, biva s Božijom voljom i određenjem.</p>
+              <p> {translationService.getLabel('label-book1-lesson11-paragraph8')}</p>
               </IonText>
             </IonItem>
             

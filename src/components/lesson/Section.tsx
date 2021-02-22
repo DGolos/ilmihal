@@ -1,32 +1,29 @@
 import { IonItem, IonText } from "@ionic/react";
 import React from "react";
+import { TranspileOutput } from "typescript";
 import { LessonSection } from "../../objects/Lesson";
-import { ParagraphGroup } from "../../objects/Lesson";
 import { translationService } from "../../services/TranslationService";
-import { ExtendedParagraphSection } from "./ExtendedParagraphSection";
-import { SegmentParagraphSection } from "./SegmentParagraphSection";
-import { StandardParagraphSection } from "./StandardParagraphSection";
+
 
 interface SectionProps {
     section?: LessonSection;
-    
+    visible?:boolean
  }
 
- export const Section: React.FC<SectionProps> = ({ section}) => {
-    
-    return(
-            <>
-            {section?.type===0 &&
-            <StandardParagraphSection section={section}/>}
-            {section?.type===1 && 
-            <ExtendedParagraphSection section={section}/>}
-             {section?.type===2 && 
-            <SegmentParagraphSection section={section}/>}
-            </>
-        
-            
+ export const Section: React.FC<SectionProps> = ({ section,visible}) => {
+   const sectionParagraphsItems = section?.paragraphs.map((paragraph)=>
+      <h2 className="lesson-note">{translationService.getLabel(paragraph)}</h2>
+    );
+    if(visible===true){
+      return(
+         <div className="ion-padding">
+         <IonItem className="lesson-note" lines="none">
+           <IonText>{sectionParagraphsItems}</IonText>
+         </IonItem>
+       </div>
+       )
+    }
+  
+        return <></>     
 
-        
-        
-    )
  }
