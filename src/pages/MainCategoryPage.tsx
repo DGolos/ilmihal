@@ -1,25 +1,14 @@
 import React, { useState } from "react";
 import {
-  IonAvatar,
   IonButton,
   IonCard,
-  IonCardContent,
-  IonCardHeader,
-  IonCardSubtitle,
-  IonCardTitle,
   IonCol,
   IonContent,
   IonGrid,
-  IonHeader,
-  IonIcon,
-  IonImg,
-  IonItem,
   IonLabel,
-  IonNote,
   IonPage,
   IonRow,
-  IonTitle,
-  IonToolbar,
+  
 } from "@ionic/react";
 import "./MainCategoryPage.css";
 import { translationService } from "../services/TranslationService";

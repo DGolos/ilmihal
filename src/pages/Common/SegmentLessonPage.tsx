@@ -4,30 +4,31 @@ import {
   IonButtons,
   IonCard,
   IonCardContent,
-  IonCardHeader,
   IonCardSubtitle,
   IonCardTitle,
-  IonCol,
   IonContent,
-  IonGrid,
   IonHeader,
-  IonIcon,
-  IonItem,
   IonPage,
-  IonRow,
   IonSegment,
   IonSegmentButton,
-  IonText,
   IonToolbar,
+  useIonViewWillEnter,
   useIonViewWillLeave,
 } from "@ionic/react";
 import { Howl } from "howler";
 import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
-import React, { useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
+import { RouteComponentProps } from "react-router";
+import { Section, SegmentSection } from "../../components/lesson/Section";
+import { Lesson, LessonSection } from "../../objects/Lesson";
+import { dataService } from "../../services/dataService";
+import { translationService } from "../../services/TranslationService";
 
 type TranslationSection = "arabic" | "translation";
 
-const SurahIhlasPage: React.FC = () => {
+const SegmentLessonPage: React.FC<
+RouteComponentProps<{ bookId: string; lessonId: string }>
+> = ({ match }) => {
   const [
     currentTranslationSection,
     setCurrentTranslationSection,
@@ -35,6 +36,33 @@ const SurahIhlasPage: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const playerRef = useRef(new Howl({ src: [""] }));
   const [isLoaded, setIsLoaded] = useState(false);
+  const [lesson, setLesson] = useState<Lesson>(new Lesson);
+  const [segmentSections,setSegmentSections]=useState<LessonSection[]>([]);  
+  const [standardSections,setStandardSections]=useState<LessonSection[]>([]);
+
+  
+  const loadLesson = useCallback(async () => {
+    setLesson(
+        dataService.getLesson(match.params.bookId, match.params.lessonId)
+      );
+      
+      
+}, [match.params.bookId, match.params.lessonId]);
+
+
+  useEffect(() => {
+    setStandardSections(lesson.sections.filter((section)=>{
+        return section.type==="0";
+    }));
+
+    setSegmentSections(lesson.sections.filter((section)=>{
+        return section.type==="1";
+    }));
+  }, [lesson]);
+
+  useIonViewWillEnter(() => {
+    loadLesson();
+  });
 
   useIonViewWillLeave(() => {
     if (isPlaying) {
@@ -55,7 +83,7 @@ const SurahIhlasPage: React.FC = () => {
       const onPlay = () => {};
 
       playerRef.current = new Howl({
-        src: `/assets/audio/lessons/Ihlas.m4a`,
+        src: `/assets/audio/lessons/${lesson.audio}.m4a`,
         preload: true,
         html5: true,
         onend: onEnd,
@@ -72,54 +100,37 @@ const SurahIhlasPage: React.FC = () => {
       setIsPlaying(true);
     }
   };
+  const standardSectionItems=standardSections.map((section,index)=>(
+    <Section key={index} section={section} />
+  ));
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="razimic" defaultHref="/BookOneMainPage" />
+            <IonBackButton color={lesson.color} />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
         <IonCard
           className="lesson-header ion-padding ion-text-center"
-          color="razimic"
+          color={lesson?.color}
         >
           <IonCardTitle>
-            <h1 className="lesson">Sura El-Ihlas</h1>
+            <h1 className="lesson">{translationService.getLabel(lesson?.title!)}</h1>
           </IonCardTitle>
           <IonCardContent>
             <IonCardSubtitle>
               <h3 style={{ fontStyle: "italic" }}>
-                "Suha El-Ihlas je trećina Kur'ana."
+                {translationService.getLabel(lesson?.quoteText!)}
               </h3>
-              <p className="quote-reference">Hadis</p>
+              <p className="quote-reference">{translationService.getLabel(lesson?.quoteReference!)}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-            <IonItem className="lesson-note" lines="none">
-                <IonButton
-                  className="no-shadow"
-                  onClick={() => {toglePlayPause()}}
-                  fill="clear"
-                  color="light"
-                  size="default"
-                  slot="start"
-                  
-                >
-                  <IonIcon
-                    slot="icon-only"
-                    icon={isPlaying ? pauseCircleOutline: volumeHighOutline}
-                    color="purple"
-                  />
-                </IonButton>
-                <IonText>
-                    <h2 className="lesson-note">Ovu suru nauči i tri puta je prouči pa ćeš biti kao Kur'an zaštićen i sačuvan.</h2>
-                    
-                </IonText>
-            </IonItem>
+          {standardSectionItems}
         </div>
         <div className="ion-padding">
           <IonSegment
@@ -127,19 +138,19 @@ const SurahIhlasPage: React.FC = () => {
             onIonChange={(e) =>
               setCurrentTranslationSection(e.detail.value as TranslationSection)
             }
-            
+            mode="md"
           >
             <IonSegmentButton
               value={"arabic" as TranslationSection}
-              color="razimic"
+              className={lesson?.color}
             >
-              Arapski
+              {translationService.getLabel('label-header-arabic')}
             </IonSegmentButton>
             <IonSegmentButton
               value={"translation" as TranslationSection}
-              color="razimic"
+              className={lesson?.color}
             >
-              Bosanski
+              {translationService.getLabel('label-header-bosnian')}
             </IonSegmentButton>
           </IonSegment>
         </div>
@@ -147,36 +158,17 @@ const SurahIhlasPage: React.FC = () => {
           className="ion-padding"
           hidden={currentTranslationSection !== "arabic"}
         >
-          
-              <IonItem className="lesson-note" lines="none">
-            <IonText className="ion-text-center">
-              <p>Kul huvallahu ehad</p>
-              <p>On je Neograničeni Gospodar koga svako treba moliti za pomoć i milost</p>
-              <p>Lem jelid,ve lem juled</p>
-              <p>Ve lem jekullehu kufuven ehad.</p>
-            </IonText>
-          </IonItem>
-             
+          <SegmentSection section={segmentSections[0]}/>
         </div>
         <div
           className="ion-padding"
           hidden={currentTranslationSection !== "translation"}
         >
-          <IonItem className="lesson-note" lines="none">
-            <IonText className="ion-text-center">
-              <p>Reci: On, Allah, - jedan je.</p>
-              <p>
-                On je Neograničeni Gospodar koga svako treba moliti za pomoć i
-                milost
-              </p>
-              <p>Nije nikog rodio, niti je rođen</p>
-              <p>Njemu niko nije ravan</p>
-            </IonText>
-          </IonItem>
+          <SegmentSection section={segmentSections[1]}/>
         </div>
       </IonContent>
     </IonPage>
   );
 };
 
-export default SurahIhlasPage;
+export default SegmentLessonPage;

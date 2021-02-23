@@ -268,11 +268,11 @@
         "value":"Bismillahir-rahmanir-rahim"
     },
     {
-        "name":"label-book1-lesson1_section2-paragraph3",
+        "name":"label-book1-lesson1_section3-paragraph1",
         "value":"Tražim Allahovu zaštitu od prokletog šejtana"
     },
     {
-        "name":"label-book1-lesson1_section2-paragraph4",
+        "name":"label-book1-lesson1_section3-paragraph2",
         "value":"U ime Allaha, Milostivog, Samilosnog"
     },
     {
@@ -521,7 +521,7 @@
     },
     {
         "name":"label-suhah114-ayah1",
-        "value":"Reci:Tražima zaštitu Gospodara ljudi"
+        "value":"Reci:Tražim zaštitu Gospodara ljudi"
     },
     {
         "name":"label-suhah114-ayah2",
@@ -1180,7 +1180,694 @@
     {
         "name":"label-book1-lesson29_section1-paragraph2",
         "value":"Bog, dž.š., zna sve šta će se dogoditi, ali iako je sve određeno (možda ovo drugačije ili brisati), On je dao čovjeku slobodnu volju, a to je naša sposobnost da se sami odlučimo za neko djelo. Ako se odlučimo za dobro djelo, bit ćemo nagrađeni, a ako se odlučimo za zlo, bit ćemo kažnjeni."
+    },
+    {
+        "name":"label-book1-lesson30-title",
+        "value":"Ramazan"
+    },
+    {
+        "name":"label-book1-lesson30-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book1-lesson30-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book1-lesson30_section1-paragraph1",
+        "value":"Ramazanski post znači uz ramazan se ustegnuti od jela, pića, pušenja i spolnog uživanja od prije zore do zalaska sunca, u svrhu odanosti Allahu dž.š."
+    },
+    {
+        "name":"label-book1-lesson30_section2-paragraph1",
+        "value":"Nijjet za početak posta glasi: NEVEJTU EN ESUME LILLAHI TE&#39;ALA MIN ŠEHRI RAMADANE, što u prijevodu znači: Odlučih, Allaha radi, postiti ramazanski post."
+    },
+    {
+        "name":"label-book1-lesson30_section3-paragraph1",
+        "value":"Dova za iftar (prekid posta) glasi: ALLAHUMME INNI LEKE SUMTU VE BIHE (BIKE) AMNETU (AMENTU) VE ALEJKE TEVEKELTU VE BI RIZKIKE EFTARTU, što u prijevodu znači: Allahu moj, u ime Tvoje sam postio/la, Tebe vjerujem, na Tebe se oslanjam i Tvojom se hranom iftarim."
+    },
+    {
+        "name":"label-book1-lesson31-title",
+        "value":"Zekat"
+    },
+    {
+        "name":"label-book1-lesson31-quote",
+        "value":"\"I koji milostinju udjeljuju.\""
+    },
+    {
+        "name":"label-book1-lesson31-quote-reference",
+        "value":"Kur'an, 23:4"
+    },
+    {
+        "name":"label-book1-lesson31_section1-paragraph1",
+        "value":"Zekat je obavezno davanje jednog dijela iz viška imovine siromašnim muslimanima i muslimankama ili u druge korisne svrhe islamske zajednice (Bejtul-mal) u cilju postizanja Allahova zadovoljstva.Zekat je dužan davati svaki musliman i muslimanka, koji su punoljetani, umno zdravi, slobodani i koji posjeduju nisab."
+    },
+    {
+        "name":"label-book1-lesson31_section2-paragraph1",
+        "value":"Nisab je određena vrijednost ili količina imovine koju posjedujemo tokom godine dana da bi podlegla obavezi zekata.Zekat se daje na novac, dragocjenosti (nakit, zlato, srebro), trgovačku robu, živo blago (stoku) i ostale vrijednosti. Imovina koja spada u zekat dijeli se u toku godine do vrijednosti od 2,5% od te imovine."
+    },
+    {
+        "name":"label-book2-lesson1-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson1-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson1_section1-paragraph1",
+        "value":"Prije stupanja u namaz treba ispuniti šest uvjeta ili priprema za namaz. Uvjeti za namaz su:"
+    },
+    {
+        "name":"label-book2-lesson1_section1-paragraph2",
+        "value":"1. Da bude čisto tijelo, odijelo i mjesto gdje če se klanjati."
+    },
+    {
+        "name":"label-book2-lesson1_section1-paragraph3",
+        "value":"2. Uzeti abdest ili, ako je potrebno, okupati se."
+    },
+    {
+        "name":"label-book2-lesson1_section1-paragraph4",
+        "value":"3. Biti pristojno obučen."
+    },
+    {
+        "name":"label-book2-lesson1_section1-paragraph4",
+        "value":"4. Na vrijeme klanjati."
+    },
+    {
+        "name":"label-book2-lesson1_section1-paragraph6",
+        "value":"5. Okrenuti se prema Kibli."
+    },
+    {
+        "name":"label-book2-lesson1_section1-paragraph7",
+        "value":"6. Odlučiti klanjati (nijjet)."
+    },
+    {
+        "name":"label-book2-lesson2-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson2-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson2_section1-paragraph1",
+        "value":"Namaz ima šest sastavnih dijelova, i to:"
+    },
+    {
+        "name":"label-book2-lesson2_section1-paragraph2",
+        "value":"1. Početni tekbir (iftitāh-i tekbir)."
+    },
+    {
+        "name":"label-book2-lesson2_section1-paragraph3",
+        "value":"2. Stajanje (kijam)."
+    },
+    {
+        "name":"label-book2-lesson2_section1-paragraph4",
+        "value":"3. Učenje Kur'ana (kiraet)."
+    },
+    {
+        "name":"label-book2-lesson2_section1-paragraph4",
+        "value":"4. Pregibanje (ruku')."
+    },
+    {
+        "name":"label-book2-lesson2_section1-paragraph6",
+        "value":"5. Spuštanje lica na zemlju (sedžde)."
+    },
+    {
+        "name":"label-book2-lesson2_section1-paragraph7",
+        "value":"6. Sjedenje na svršetku namaza (ka'de-i ehireh)."
+    },
+    {
+        "name":"label-book2-lesson3-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson3-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson3_section1-paragraph1",
+        "value":"Kad čovjek nehotice u namazu učini nešto drukčije nego što zahtijeva propis (izostavi Fatihu, suru ili prvo sjedenje), treba da izvrši dvije sedžde, što zovemo sehv-i sedždom."
+    },
+    {
+        "name":"label-book2-lesson3_section1-paragraph2",
+        "value":"Poslije predaje selama na desnu stranu učine se dvije sedžde, a onda se ponovo prouči Ettehijjatu, salavati i dove, pa se preda selam."
+    },
+    {
+        "name":"label-book2-lesson4-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson4-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson4_section1-paragraph1",
+        "value":"Ako izostavimo neki od pet propisanih (farz) namaza dužni smo ih naklanjati."
+    },
+    {
+        "name":"label-book2-lesson4_section1-paragraph2",
+        "value":"Naklanjavanje se vrši isto kao i redovno klanjanje a u nijjetu se kaže koji se namaz naklanjava, npr: sabahski, podnevski, ikindijski, akšamski ili jacijski farz, i.ovako se zanijjeti: »Ja odlučih da naklanjam, u ime Allaha, sabahski farz-namaz koji mi je prošao."
+    },
+    {
+        "name":"label-book2-lesson5-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson5-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson5_section1-paragraph1",
+        "value":"Farz-namaz klanjamo pojedinačno, svako sam za sebe ili zajednički (džematile), a sunnet namaze klanjamo samo svako za se. Zajedničko klanjanje za imamom zove se džemat (skup, zajednica). Klanjanje u džematu preporučeno je Kuranom i Hadisom a ima i veću nagradu od Boga dž. š. Svaki džemat ima imama, koji ga predvodi i mujezina."
+    },
+    {
+        "name":"label-book2-lesson5_section1-paragraph2",
+        "value":"Kada osoba zakasni u džemat ona će stati u saff, zanijjetiti će i nastaviti klanjati za imamom. Na osnovu ostatka namaza znaće šta je od namaza propustila."
+    },
+    {
+        "name":"label-book2-lesson5_section1-paragraph3",
+        "value":"Na zadnjem sjedenju osoba koja je zakasnila u džemat će učiti samo Ettehijjatu bez Salavata i Dove. Čekaće da imam preda selam na desnu stranu i počne izgovarati i predavati selam na lijevu stranu. Ta osoba neće predavati selam nego će ustati i klanjati one rekate koje je propustila."
+    },
+    {
+        "name":"label-book2-lesson6-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson6-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson6_section1-paragraph1",
+        "value":"Musafir (putnik) je osoba koja pođe na put iz svog mjesta stanovanja u drugo mjesto udaljeno najmanje 18 sati pješačenja (90 kilometara puta). Mukim je osoba „kod kuće”. Osoba koja otputuje u mjesto bliže od 18 časova pješačenja od mjesta stanovanja smatra se mukimom, a ne musafirom."
+    },
+    {
+        "name":"label-book2-lesson6_section1-paragraph2",
+        "value":"Musafir ima pravo i obavezu da farz-namaze od četiri rekata, tj. podnevski, ikindijski i jacijski farz, skrati na dva rekata. Sabahski i akšamski farz kao i vitr-namaz ne mogu se skraćivati. Sunnete i sunsunnete musafir će posve izostaviti osim ako naročito za to bude imao dovoljno vremena. Ako ih odlući klanjali, neće ih skraćivati."
+    },
+    {
+        "name":"label-book2-lesson7-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson7-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson7_section1-paragraph1",
+        "value":"Bolesnik ako ne može namaz obavljati stojeći ili sjedeći, klanjat će išaretom (gestom) ležeći na leđima, a njegove noge treba da budu okrenute prema Kibli, ili ako bude na strani ležao onda će mu lice biti okrenuto prema Kibli. Ovo okretanje je poželjno ali nije uvjet za ispravnost namaza ako prostor u kući/stanu/bolnici to ne dozvoljava. Propuštene namaze iz predoperativnog perioda, odnosno nakon buđenja iz opšte anestezije, ili kad prođe stanje bolesti treba naklanjati, ako broj propuštenih namaza nije veći od pet. Ukoliko se pak u stanju nesvijesti/kome propusti šest i više namaza, prema propisu u našem mezhebu, nema obaveze naklanjavati ih."
+    },
+    {
+        "name":"label-book2-lesson8-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson8-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson8_section1-paragraph1",
+        "value":"Gusul je posebno vjersko kupanje koje je propisano u određenim prilikama spolno zrelim muškarcima i ženama."
+    },
+    {
+        "name":"label-book2-lesson8_section1-paragraph2",
+        "value":"Gusul se uzima na ovaj način:"
+    },
+    {
+        "name":"label-book2-lesson8_section1-paragraph3",
+        "value":"1. Usta i grlo vodom dobro isplakati."
+    },
+    {
+        "name":"label-book2-lesson8_section1-paragraph4",
+        "value":"2. Nos izaprati."
+    },
+    {
+        "name":"label-book2-lesson8_section1-paragraph5",
+        "value":"3. Zatim cijelo tijelo oprati da nigdje suho ne ostane ni koliko se vrhom igle može dotaći."
+    },
+    {
+        "name":"label-book2-lesson10-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson10-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson10_section1-paragraph1",
+        "value":"Mesh znači potrati mokrom rukom jedan dio tijela radi čišćenja tog dijela ili pak potrati mokrom rukom jedan dio odjeće, ako se - u izuzetnim slučajevima - ne može oprati taj dio tijela."
+    },
+    {
+        "name":"label-book2-lesson10_section1-paragraph2",
+        "value":"Glavne vrste mesha su:"
+    },
+    {
+        "name":"label-book2-lesson10_section1-paragraph3",
+        "value":"1. Mesh po zavoju."
+    },
+    {
+        "name":"label-book2-lesson10_section1-paragraph4",
+        "value":"2. Mesh po mestvama."
+    },
+    {
+        "name":"label-book2-lesson9-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson9-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson9_section1-paragraph1",
+        "value":"U izvjesnm slučajevima može se, umjesto abdesta ili gusula, uzeti tejemmum, tj. može se obaviti simbolično čišćenje čistom zemljom (prahom) ili predmetima napravljenim od zemlje.Sve što kvari abdest, pokvariće i tejemmum."
+    },
+    {
+        "name":"label-book2-lesson9_section2-paragraph1",
+        "value":"Tejemum se uzima u slijedećim slučajevima:"
+    },
+    {
+        "name":"label-book2-lesson9_section2-paragraph2",
+        "value":"1. Kada u toku jednog namaskog vremena nije moguće pribaviti vode."
+    },
+    {
+        "name":"label-book2-lesson9_section2-paragraph3",
+        "value":"2. Kada imamo samo malo vode, koja nam je potrebna za piće ili za pribavljanje hrane."
+    },
+    {
+        "name":"label-book2-lesson9_section2-paragraph4",
+        "value":"2. Kade se, u slučaju potrebe, nije moguće okupati."
+    },
+    {
+        "name":"label-book2-lesson9_section3-paragraph1",
+        "value":"Tejemum se uzima na slijedeći način:"
+    },
+    {
+        "name":"label-book2-lesson9_section3-paragraph2",
+        "value":"1. Izgovoriti nijjet. Nijjet tejemmuma za namaz glasi: Ja odlučih uzeti tejemmum radi namaza i radi toga da se očistim, kako bih se mogao približiti Uzvišenom Allahu.."
+    },
+    {
+        "name":"label-book2-lesson9_section3-paragraph3",
+        "value":"2. Zatim dotaknemo dlanovima čistu zemlju, ili predmet od zemlje, dlanove otresemo i njima potaremo lice, kao da ga peremo."
+    },
+    {
+        "name":"label-book2-lesson9_section3-paragraph4",
+        "value":"3. Na isti način ponovo dotaknemo dlanovima čistu zemlju, ili predmet od zemlje, pa potaremo lijevom desnu, a desnom lijevu ruku, sa vrha prstiju do iza laktova."
+    },
+    {
+        "name":"label-book2-lesson15-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson15-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson15_section1-paragraph1",
+        "value":"Muslimanska hidžretska godina određuje se prema kretanju Mjeseca oko Zemlje, a ima 354 ili 355 dana. Muslimanske hidžretske godine računaju se od seobe Muhammeda, a. s., i prvih muslimana iz Meke u Medinu. Kao prvi dan Nove muslimanske godine uzima se 1. muharrem svake godine."
+    },
+    {
+        "name":"label-book2-lesson16-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson16-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson16_section1-paragraph1",
+        "value":"Mevlud je svečanost kojom muslimani obilježavaju 12. rebiul- evel kao rođendan Muhammeda a. s. Tom prilikom u džamijama se prouči mevlud i prigodna predavanja o životu i radu Božijeg Poslanika i uglednih ashaba, kao i u raznim drugim prilikama."
+    },
+    {
+        "name":"label-book2-lesson17-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson17-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson17_section1-paragraph1",
+        "value":"Odabrane (mubarek) ili posebne noći muslimani obilježavaju na prigodan način uz učenje Kur'ana, čitanjem hadisa i događaja iz života Poslanika Muhammeda, a.s."
+    },
+    {
+        "name":"label-book2-lesson17_section2-paragraph1",
+        "value":"Lejlei-regaib pada prvog uoči petka u mjesecu redžebu. Te noći osjetila je hazreti Amina, da je ponijela Muhammeda a. s."
+    },
+    {
+        "name":"label-book2-lesson17_section2-paragraph2",
+        "value":"Lejlei-miradž pada 27. noć mjeseca redžeba. U toj noći Muhammed a. s. doživio je najviše duhovno uzdignuće i dobio od Allaha dž. š. zaduženje za pet dnevnih namaza."
+    },
+    {
+        "name":"label-book2-lesson17_section2-paragraph3",
+        "value":"Lajlei-berat pada 15. noć ša&#39;bana kada Allah dž. š. određuje ljudske sudbine za narednu godinu. Ona nas podsjeća na skori dolazak najdražeg nam gosta, ramazana, da bismo se duhovno i fizički pripremili za post i ostale ibadete."
+    },
+    {
+        "name":"label-book2-lesson17_section2-paragraph4",
+        "value":"Lejlei-kader pada 27. noć ramazana. To je najodabranija noć u godini. Za nju veli Allah dž. š. da je bolja od hiljadu mjeseci jer je u toj noći počeo Allah dž. š. objavljivati Kur'an Muhammedu a. s."
+    },
+    {
+        "name":"label-book2-lesson18-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson18-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson18_section1-paragraph1",
+        "value":"Kur'an je posljednja Božija knjiga u kojoj je Uzvišeni Allah objavio vjeru islam Muhammedu-alejhisselam s ciljem da je prenese i objasni ljudima kako bi primjenom tog zakona postigli sreću na ovom i budućem svijetu."
+    },
+    {
+        "name":"label-book2-lesson18_section1-paragraph2",
+        "value":"Kur'an sadrži upute kako i na koji način treba vjerovati, koje islamske dužnosti treba vršiti te kako i na kkoji način se ljudi trebaju vladati. Kur&#39;an je objavljen na arapskom jeziku."
+    },
+    {
+        "name":"label-book2-lesson19-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson19-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson19_section1-paragraph1",
+        "value":"Posljednji Božiji poslanik je Muhammed a. s. Poslije Muhammeda a. s. neće doći nijedan poslanik niti ijedna objava poslije Kur'ana.Kada spomenemo ime Poslanika obavezno moramo dodati alejhiselam ili proučiti salavat."
+    },
+    {
+        "name":"label-book2-lesson19_section2-paragraph1",
+        "value":"Njegov otac Abdullah umro je dok je on bio u majčinoj utrobi. Njegova majka se zvala Amina bint Vehb. I ona i Abdullah su poticali iz uglednih i cijenjenih porodica. Kada je napunio šest godina majka Amina je preselila na Ahiret. Tako je Muhammed ostao siroče, bez oca i bez majke. Nakon toga, još dvije godine o Muhammedu je brigu vodio njegov djed, koji ga je volio. Kada je Muhammedu bilo osam godina, umro mu je i djed Abdulmutalib, a o njemu je preuzeo brigu amidža Ebu Talib. U 25. godini života oženio se Hatidžom bint Huvejlid, koja je bila poznata u Mekki po čestitosti, ljepoti i bogatstvu. Hatidža je bila poznata po nadimku Tahira, što znači čista, a Muhammed, ’alejhi-sselam, po nadimku Emin (pouzdani). U četrdesetoj godini počeo je primati Objavu. Početak Objave bio je u mjesecu ramazanu, u pećini Hira, na brdu Nur. Prve riječi koje su objavljene Muhammedu, ’alejhi-sselam, bile su riječi: «Ikre bismi rabbike…» («Čitaj u ime Tvoga Gospodara, Čitaj plemenit je Tvoj Gospodar…»). Nakon Hidžre iz Mekke u Medinu i nekoliko važnih događaja koji su se desili u tom periodu u 63. godini života Muhammed, ’alejhi-sselam, preselio je na Ahiret u gradu Medini, a nakon što je za 23. godine potpuno izvršio misiju s kojom ga je Allah, dželle šanuhu, zadužio. On je poslan kao milost svim svjetovima."
+    },
+    {
+        "name":"label-book2-lesson20-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson20-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson20_section1-paragraph1",
+        "value":"U gradu Meki, u Arabiji, nalazi se mubarek mjesto Ka&#39;ba i tamo se okrećemo kad klanjamo (Kibla). Meka se nalazi na jugoistoku od naše zemlje. Ako ne znamo gdje je smjer Meke, a nemamo nikoga upitati, onda se treba okrenuti onamo kuda mislimo da je Kibla."
+    },
+    {
+        "name":"label-book2-lesson21-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson21-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson21_section1-paragraph1",
+        "value":"Čvrsto vjerovati u svih šest temeljnih istina vjere."
+    },
+    {
+        "name":"label-book2-lesson21_section1-paragraph2",
+        "value":"Redovno i sa zadovoljstvom izvršavati islamske dužnosti."
+    },
+    {
+        "name":"label-book2-lesson21_section1-paragraph3",
+        "value":"Imati uvijek na umu da je dobro što god je naredio Svemogući Allah dž. š., a zlo što god je On zabranio."
+    },
+    {
+        "name":"label-book2-lesson22-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson22-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson22_section1-paragraph1",
+        "value":"Porodica je osnovna ljudska zajednica, koja nastaje na islamskom braku i ljubavi. Djeca prema roditeljima imaju ove dužnosti:"
+    },
+    {
+        "name":"label-book2-lesson22_section1-paragraph2",
+        "value":"Da su zahvalna i poslušna."
+    },
+    {
+        "name":"label-book2-lesson22_section1-paragraph3",
+        "value":"Da ih slušaju, poštuju, vole i pomažu."
+    },
+    {
+        "name":"label-book2-lesson22_section1-paragraph4",
+        "value":"Da se na svaki poziv roditelja odmah odazovu."
+    },
+    {
+        "name":"label-book2-lesson22_section1-paragraph5",
+        "value":"Da mrtve roditelje spominju dovom i da u njihovo ime daju sadaku ili pomoć."
+    },
+    {
+        "name":"label-book2-lesson22_section1-paragraph6",
+        "value":"Ako su roditelji bolesni i iznemogli, moraju ih djeca njegovati, a ako su siromašni a djeca imaju imetka ili mogu zarađivati, onda moraju izdršavati svoje roditelje."
+    },
+    {
+        "name":"label-book2-lesson22_section1-paragraph7",
+        "value":"I ostalu rodbinu treba lijepo paziti i pomagati."
+    },
+    {
+        "name":"label-book2-lesson23-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson23-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson23_section1-paragraph1",
+        "value":"Dužnosti roditelja prema djeci su:"
+    },
+    {
+        "name":"label-book2-lesson23_section1-paragraph2",
+        "value":"Brinuti se za zdravlje i život svoje djece."
+    },
+    {
+        "name":"label-book2-lesson23_section1-paragraph3",
+        "value":"Da im daju lijepo islamsko ime."
+    },
+    {
+        "name":"label-book2-lesson23_section1-paragraph4",
+        "value":"Brinuti se da ih dobro u vjeri odgoje."
+    },
+    {
+        "name":"label-book2-lesson23_section1-paragraph5",
+        "value":"Brinuti se da ih upute na nauku ili zanat i osposobe za život."
+    },
+    {
+        "name":"label-book2-lesson24-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson24-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson24_section1-paragraph1",
+        "value":"Život i zdravlje darovao nam je Svemogući Allah i mi trebamo da ih čuvamo. U tu svrhu potrebni su: čistoća, hrana, odijevanje i umjerenost u svemu. Naročito treba paziti na osobnu čistoću. Bog nam je dao raznovrsnu hranu koju jedemo. Zabranjeno je jesti: svinjsko meso i masti i svinjske prerađevine, meso krepane životinje, meso životinje koja nije propisno zaklana i krv. Zabranjeno je piti sva alkoholna pića, radi otklanjanja brojnih štetnih posljedica od upotrebe navedenih jela i pića. Hrana, odijevanje i sve ostalo treba da budu od pošteno zarađenih sredstava. Muslimani i muslimanke treba da budu propisno odjeveni i da ne pretjeruju u luksuzu. Da bismo postigli lijep odgoj trebamo biti uljudni, stidljivi, promišljeni i strpljivi. Ne smijemo biti umišljeni, oholi, srditi i grubi."
+    },
+    {
+        "name":"label-book2-lesson25-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson25-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson25_section1-paragraph1",
+        "value":"Srednji put u Islamu je put koji uspostavlja ispravnu i ravednu mjeru, bez pretjerivanja i nanošenja štete u kompletnom čovjekovom životu. Srednji put podrazumijeva pravednost, ispravnost, humanost, sigurnost, jedinstvo u vjerovanju, u ibadetima i obredima, u etici i moralu, vjerozakonu kao i svakodnevnim ljudskim poslovima."
+    },
+    {
+        "name":"label-book2-lesson26-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson26-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson26_section1-paragraph1",
+        "value":"Istina znači sigurnost i unutrašnju ravnotežu u cjelokupnom čovjekovom životu. Iskrenost u riječima prenosi čovjeka u iskrenost u djelima i ispravnost u postupcima. Izricanje laži udaljava od čovjeka imeleke i uništava mu dobra djela."
+    },
+    {
+        "name":"label-book2-lesson26_section1-paragraph2",
+        "value":"\"Usuđuju se da laži izmišljaju samo oni koji u Allahove riječi ne vjeruju, i oni su ti koji su lažljivci.\"  (En-Nahl; 105)"
+    },
+    {
+        "name":"label-book2-lesson26_section1-paragraph3",
+        "value":"\"Zaista laž vodi do razvrata, i zaista razvrat vodi do Vatre.\""
+    },
+    {
+        "name":"label-book2-lesson27-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson27-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson27_section1-paragraph1",
+        "value":"Islam zabranjuje sve što je loše i štetno za dušu i tijelo, srce ili um, život i porodicu, imovinu ili čast. Činjenje loših odnsono vjerom zabranjenih stvari naziva se grijeh."
+    },
+    {
+        "name":"label-book2-lesson27_section1-paragraph2",
+        "value":"Grijesi počinjeni u javnosti (u prisustvu jedne ili više osoba) nazivaju se javni grijesi a grijesi počinjeni tajno (kada nema prisutnih osoba) nazivaju se tajni grijesi."
+    },
+    {
+        "name":"label-book2-lesson27_section1-paragraph3",
+        "value":"Grijesi se razlikuju po svojoj štetnosti i zauzimaju različita mjesta na skali grijeha. Dijele se u dvije skupine velike i male grijehe. Ako čovjek učini kakav grijeh, hotimično ili nehotice, treba da se odmah pokaje (tevbu učini)."
+    },
+    {
+        "name":"label-book2-lesson27_section1-paragraph4",
+        "value":"Tevba se obično čini usmeno ovako: »Milostivi Bože, ja se iskreno kajem što sam učinio grijeh i molim Tvoj oprost. <i>Estagfirullah, estagfirullah, estagfirullah ve etubu ilejh</i>.Kad se ovo izgovori, prouči se Amentu billahi i Kelime-i šehadet. Uz iskreno kajanje treba učiniti i neko dobro djelo."
+    },
+    {
+        "name":"label-book2-lesson28-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson28-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson28_section1-paragraph1",
+        "value":"Brinuti se da ih upute na nauku ili zanat i osposobe za život."
+    },
+    {
+        "name":"label-book2-lesson28_section2-paragraph1",
+        "value":"Tebbet jeda Ebi-Lehebin ve tebbe"
+    },
+    {
+        "name":"label-book2-lesson28_section2-paragraph2",
+        "value":"Ma agna 'anhu maluhu ve ma keseb"
+    },
+    {
+        "name":"label-book2-lesson28_section2-paragraph3",
+        "value":"Sejasla naren zate-Leheb"
+    },
+    {
+        "name":"label-book2-lesson28_section2-paragraph4",
+        "value":"Vemre-etuhu hamma-letel - hatab"
+    },
+    {
+        "name":"label-book2-lesson28_section2-paragraph5",
+        "value":"Fi džidiha hablun mim-mesed"
+    },
+    {
+        "name":"label-surah111-ayah1",
+        "value":"Proklete neka su ruke Ebu Lehebove, proklet neka je on sam"
+    },
+    {
+        "name":"label-surah111-ayah2",
+        "value":"Njegova imovina i sve što je stekao neće mu pomoći"
+    },
+    {
+        "name":"label-surah111-ayah3",
+        "value":"On će biti pržen na plamenu džehennemskom"
+    },
+    {
+        "name":"label-surah111-ayah4",
+        "value":"Isto tako biće kažnjena i njegova žena koja spletkari!"
+    },
+    {
+        "name":"label-surah111-ayah5",
+        "value":"Za njezin vrat biće privezano uže od vlakna palminog"
+    },
+    {
+        "name":"label-book2-lesson29-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson29-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-book2-lesson29_section1-paragraph1",
+        "value":"Brinuti se da ih upute na nauku ili zanat i osposobe za život."
+    },
+    {
+        "name":"label-book2-lesson29_section2-paragraph1",
+        "value":"Iza džae nasrullahi vel-feth"
+    },
+    {
+        "name":"label-book2-lesson29_section2-paragraph2",
+        "value":"Ve re-ejtennase jedhulune fi dinillahi ef vadža"
+    },
+    {
+        "name":"label-book2-lesson29_section2-paragraph3",
+        "value":"Fesebbih bihamdi Rabbike ves-tag-firh.Innehu kane tevvaba"
+    },
+    {
+        "name":"label-surah110-ayah1",
+        "value":"Kada dođe Allahova pomoć i pobjeda"
+    },
+    {
+        "name":"label-surah110-ayah2",
+        "value":"i kada vidiš da ljudi u skupinama ulaze u Allahovu vjeru"
+    },
+    {
+        "name":"label-surah110-ayah3",
+        "value":"onda slavi i veličaj svoga Gospodara i moli Ga za oprost,jer, zaista, On mnogo oprašta."
+    },
+    {
+        "name":"label-book2-lesson30-quote",
+        "value":"\"O vjernici! Propisuje vam se post.\""
+    },
+    {
+        "name":"label-book2-lesson30-quote-reference",
+        "value":"Kur'an, 2:183"
+    },
+    {
+        "name":"label-surah109-ayah1",
+        "value":"Reci: “O vi nevjernici,"
+    },
+    {
+        "name":"label-surah109-ayah2",
+        "value":"ja se neću klanjati onima kojima se vi klanjate"
+    },
+    {
+        "name":"label-surah109-ayah3",
+        "value":"a ni vi se nećete klanjati Onome kome se ja klanjam"
+    },
+    {
+        "name":"label-surah109-ayah4",
+        "value":"ja se nisam klanjao onima kojima ste se vi klanjali"
+    },
+    {
+        "name":"label-surah109-ayah5",
+        "value":"a i vi se niste klanjali Onome kome se ja klanjam"
+    },
+    {
+        "name":"label-surah109-ayah6",
+        "value":"vama – vaša vjera, a meni – moja!”"
+    },
+    {
+        "name":"label-book2-lesson30_section1-paragraph1",
+        "value":"Brinuti se da ih upute na nauku ili zanat i osposobe za život."
+    },
+    {
+        "name":"label-book2-lesson30_section2-paragraph1",
+        "value":"Kul ja ejjuhel-kafirun"
+    },
+    {
+        "name":"label-book2-lesson30_section2-paragraph2",
+        "value":"la e‘abudu ma ta‘budun"
+    },
+    {
+        "name":"label-book2-lesson30_section2-paragraph3",
+        "value":"ve la entum ‘abidune ma e‘abud"
+    },
+    {
+        "name":"label-book2-lesson30_section2-paragraph4",
+        "value":"ve la ene ‘abidun ma ‘abedtum"
+    },
+    {
+        "name":"label-book2-lesson30_section2-paragraph5",
+        "value":"ve la entum abidune ma eabud"
+    },
+    {
+        "name":"label-book2-lesson30_section2-paragraph6",
+        "value":"lekum dinukum ve lije din"
     }
-
-
+    
 ]

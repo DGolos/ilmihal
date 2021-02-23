@@ -108,7 +108,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson1-title"
                   )}
-                  link="/StandardLessonPage/1/1"
+                  link="/SegmentLessonPage/1/1"
                 />
               </IonCol>
               <IonCol size="6">
@@ -117,7 +117,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson2-title"
                   )}
-                  link="/StandardLessonPage/1/2"
+                  link="/SegmentLessonPage/1/2"
                 />
               </IonCol>
             </IonRow>
@@ -137,7 +137,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson4-title"
                   )}
-                  link="/StandardLessonPage/1/4"
+                  link="/SegmentLessonPage/1/4"
                 />
               </IonCol>
             </IonRow>
@@ -148,7 +148,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson5-title"
                   )}
-                  link="/StandardLessonPage/1/5"
+                  link="/SegmentLessonPage/1/5"
                 />
               </IonCol>
               <IonCol size="6">
@@ -172,7 +172,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson7-title"
                   )}
-                  link="/StandardLessonPage/1/7"
+                  link="/SegmentLessonPage/1/7"
                 />
               </IonCol>
               <IonCol size="6">
@@ -181,7 +181,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson8-title"
                   )}
-                  link="/StandardLessonPage/1/8"
+                  link="/SegmentLessonPage/1/8"
                 />
               </IonCol>
             </IonRow>
@@ -192,7 +192,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson9-title"
                   )}
-                  link="/StandardLessonPage/1/9"
+                  link="/SegmentLessonPage/1/9"
                 />
               </IonCol>
               <IonCol size="6">
@@ -201,7 +201,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson10-title"
                   )}
-                  link="/StandardLessonPage/1/10"
+                  link="/SegmentLessonPage/1/10"
                 />
               </IonCol>
             </IonRow>
@@ -251,7 +251,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson14-title"
                   )}
-                  link="/AdhanPage"
+                  link="/SegmentLessonPage/1/14"
                 />
               </IonCol>
             </IonRow>
@@ -262,7 +262,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson15-title"
                   )}
-                  link="/IqamahPage"
+                  link="/SegmentLessonPage/1/15"
                 />
               </IonCol>
               <IonCol size="6">
@@ -271,7 +271,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson16-title"
                   )}
-                  link="/EttehijatuPage"
+                  link="/SegmentLessonPage/1/16"
                 />
               </IonCol>
             </IonRow>
@@ -282,7 +282,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson17-title"
                   )}
-                  link="/SalavatPage"
+                  link="/SegmentLessonPage/1/17"
                 />
               </IonCol>
               <IonCol size="6">
@@ -291,7 +291,7 @@ const BookOneMainPage: React.FC = () => {
                   title={translationService.getLabel(
                     "label-book1-lesson18-title"
                   )}
-                  link="/DuaPage"
+                  link="/SegmentLessonPage/1/18"
                 />
               </IonCol>
             </IonRow>

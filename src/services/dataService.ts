@@ -57,8 +57,7 @@ class DataService{
     }
 
     getLesson(bookId:string,lessonId:string):Lesson{
-        console.log(bookId);
-        console.log(lessonId);
+        
         const lesson =this.lessons.find(lesson=>lesson.bookId===bookId && lesson.id===lessonId);
 
         if (lesson === undefined) {

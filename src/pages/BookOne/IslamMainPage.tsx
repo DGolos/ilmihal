@@ -42,7 +42,7 @@ const IslamMainPage: React.FC = () => {
           <IonList className="ion-padding transparent" style={{marginTop:0}}>
             <IonItem
               key="1"
-              routerLink={`/ShahadahPage`}
+              routerLink={`/SegmentLessonPage/1/2`}
               lines="none"
               detail={false}
               className="welcome"
@@ -76,7 +76,7 @@ const IslamMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="3"
-              routerLink={`/RamadhanDefinitionPage`}
+              routerLink={`/StandardLessonPage/1/30`}
               lines="none"
               detail={false}
               className="welcome"
@@ -93,7 +93,7 @@ const IslamMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="4"
-              routerLink={`/CharityDefinitionPage`}
+              routerLink={`/StandardLessonPage/1/31`}
               lines="none"
               detail={false}
               className="welcome"
