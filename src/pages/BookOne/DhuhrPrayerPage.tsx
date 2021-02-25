@@ -3,6 +3,7 @@ import { documentTextOutline, videocamOutline } from "ionicons/icons";
 import moment from "moment";
 import React, { useEffect, useState } from "react"
 import { timeService } from "../../services/TimeService";
+import { translationService } from "../../services/TranslationService";
 
 
 const DhuhrPrayerPage: React.FC = () => {
@@ -16,7 +17,7 @@ const DhuhrPrayerPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="light" defaultHref="/BookOneMainPage" />
+              <IonBackButton color="light"/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -27,14 +28,14 @@ const DhuhrPrayerPage: React.FC = () => {
                 <IonRow className="ion-no-padding">
                   <IonCol size="12">
                     <h6 className="welcome ion-no-padding ion-text-center">
-                      Podne namaz
+                    {translationService.getLabel('label-book1-lesson20-title')}
                     </h6>
                   </IonCol>
                 </IonRow>
                 <IonRow>
                   <IonCol size="12">
                     <h3 className="prayer ion-no-padding ion-text-center">
-                      Danas je u {dhuhr}
+                    {translationService.getLabel('label-prayer-today')} {dhuhr}
                     </h3>
                   </IonCol>
                 </IonRow>
@@ -42,9 +43,16 @@ const DhuhrPrayerPage: React.FC = () => {
             </IonItem>
           </div>
           <div className="ion-padding">
+          <IonItem className="lesson-note">
+            <IonText>
+              <h2 className="lesson-note">
+              {translationService.getLabel('label-book1-lesson20_section1-paragraph1')}
+              </h2>
+            </IonText>
+          </IonItem>
             <IonItem className="lesson-note">
             <IonLabel slot="start">
-              <h3 className="prayer-name-bold">Sunnet</h3>
+              <h3 className="prayer-name-bold">{translationService.getLabel('label-sunnah')}</h3>
               <h3 className="prayer-name-normal">4 rekata</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
@@ -63,8 +71,8 @@ const DhuhrPrayerPage: React.FC = () => {
             </IonItem>
             <IonItem className="lesson-note">
             <IonLabel slot="start">
-              <h3 className="prayer-name-bold">Farz</h3>
-              <h3 className="prayer-name-normal">4 rekata</h3>
+              <h3 className="prayer-name-bold">{translationService.getLabel('label-fardh')}</h3>
+              <h3 className="prayer-name-normal">4 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
               <IonFabButton  color="light" >
@@ -82,8 +90,8 @@ const DhuhrPrayerPage: React.FC = () => {
             </IonItem>
             <IonItem className="lesson-note">
             <IonLabel slot="start">
-              <h3 className="prayer-name-bold">Sunsunnet</h3>
-              <h3 className="prayer-name-normal">2 rekata</h3>
+              <h3 className="prayer-name-bold">{translationService.getLabel('label-sunsunnah')}</h3>
+              <h3 className="prayer-name-normal">2 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
               <IonFabButton  color="light" >

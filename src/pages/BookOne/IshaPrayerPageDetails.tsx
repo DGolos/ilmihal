@@ -1,19 +1,17 @@
-import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
-import { caretForwardCircleOutline } from "ionicons/icons";
+import { IonBackButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
 import React, { useEffect, useState } from "react"
 import { RouteComponentProps } from "react-router"
 import FirstRakah from "../../components/FirstRakah";
 import FirstRakahPartTwo from "../../components/FirstRakahPartTwo";
-import FirstTashahud from "../../components/FirstTashahud";
 import FourthRakah from "../../components/FourthRakah";
 import FourthRakahPartTwo from "../../components/FourthRakahPartTwo";
-import PrayerEnd from "../../components/PrayerEnd";
 import Qunut from "../../components/Qunut";
 import SecondRakah from "../../components/SecondRakah";
 import SecondRakahPartTwo from "../../components/SecondRakahPartTwo";
 import Tashashud from "../../components/Tashahud";
 import ThirdRakah from "../../components/ThirdRakah";
 import ThirdRakahPartTwo from "../../components/ThirdRakahPartTwo";
+import { translationService } from "../../services/TranslationService";
 
 export const IshaPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
     const [prayerType,setPrayerType]=useState("");
@@ -21,22 +19,22 @@ export const IshaPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
 
     useEffect(() => {
         if(match.params.type==="sunnah"){
-            setPrayerType("sunnet");
+            setPrayerType(translationService.getLabel('label-isha-sunnah'));
             setNumberOfRakah(4);
         } 
 
         if(match.params.type==="fardh"){
-            setPrayerType("farz");
+            setPrayerType(translationService.getLabel('label-isha-fardh'));
             setNumberOfRakah(4);
         }
 
         if(match.params.type==="sunsunnah"){
-            setPrayerType("sunsunnet");
+            setPrayerType(translationService.getLabel('label-isha-sunsunnah'));
             setNumberOfRakah(2);
         } 
 
         if(match.params.type==="witr"){
-            setPrayerType("vitr");
+            setPrayerType(translationService.getLabel('label-witr'));
             setNumberOfRakah(3);
         } 
     }, []);
@@ -46,7 +44,7 @@ export const IshaPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
         <IonHeader className="ion-no-border">
           <IonToolbar className="prayer">
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/IshaPrayerPage" />
+              <IonBackButton color="purple" defaultHref="/IshaPrayerPage"/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -57,15 +55,15 @@ export const IshaPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
               <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText hidden={match.params.type==="witr"}>
-                  <h1 className="prayer-description">Jacijski {prayerType}</h1>
+                  <h1 className="prayer-description">{prayerType}</h1>
                </IonText>
                <IonText hidden={match.params.type!=="witr"}>
-                  <h1 className="prayer-description">Vitr</h1>
+                  <h1 className="prayer-description">{translationService.getLabel('label-witr')}</h1>
                </IonText>
                 </IonCol>
-                <IonCol size="5">
+                <IonCol size="5" className="ion-text-right">
                 <IonText >
-                  <h2>{numberOfRakah} rekata</h2>
+                  <h2>{numberOfRakah} {translationService.getLabel('label-rakah-cardinal')}</h2>
                 </IonText>
                 </IonCol>
               </IonRow>
@@ -87,35 +85,35 @@ export const IshaPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip  color="burgundy">Prije namaza</IonChip>
+                        <IonChip  color="purple" style={{marginLeft:"0px"}}>{translationService.getLabel('label-before-prayer')}</IonChip>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
-                        <IonText><h2>Nijet</h2></IonText>
+                        <IonText><h2>{translationService.getLabel('label-nijjah-header')}</h2></IonText>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                          Nijet je svjesna odluka u srcu zašto nešto činimo.Prilikom izgovaranja nijeta svoje misli usmjeravamo Uzvišenom Allahu.
+                        {translationService.getLabel('label-nijjah-definition')}
+                          
                         </IonNote>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
                         <IonNote hidden={match.params.type!=="sunnah"}>
-                        Jacijski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-isha-sunnah-nijjah')}
                         </IonNote>
                         <IonNote hidden={match.params.type!=="fardh"}>
-                        Jacijski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-‘išai edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-isha-fardh-nijjah')}
                         </IonNote>
                         <IonNote hidden={match.params.type!=="sunsunnah"}>
-                        Jacijski sunsunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunsunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-isha-sunsunnah-nijjah')}
                         </IonNote>
                         <IonNote hidden={match.params.type!=="witr"}>
-                        Vitr-namaz je posebni namaz, koji se klanja poslije jacijskog sunneta. Vitr-namaz ima tri rekata. Nijjet se učini ovako: Nevejtu en usallije lillahi teala salatel-vitri edaen
-mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-witr-nijjah')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -123,38 +121,38 @@ mustakbilel-kibleti - Allahu ekber.
                 </IonItem>
               </IonSlide>
               <IonSlide>
-                <FirstRakah/>
+                <FirstRakah color="purple"/>
               </IonSlide>
               <IonSlide>
-                <FirstRakahPartTwo/>
+                <FirstRakahPartTwo color="purple"/>
                 
                 
               </IonSlide>
               <IonSlide>
-                <SecondRakah/>
+                <SecondRakah color="purple"/>
               </IonSlide>
               <IonSlide>
-                <SecondRakahPartTwo/>
+                <SecondRakahPartTwo color="purple"/>
               </IonSlide>
               <IonSlide>
-                <Tashashud first={match.params.type!=="sunsunnah"?true:false}/>
+                <Tashashud first={match.params.type!=="sunsunnah"?true:false} color="purple"/>
                 
               </IonSlide>
               
               {match.params.type==="witr"&&
               <>
               <IonSlide>
-                    <ThirdRakah type={match.params.type} showSubhaneke={true} />
+                    <ThirdRakah type={match.params.type} showSubhaneke={true} color="purple"/>
                   </IonSlide>
               <IonSlide>
-                <Qunut/>
+                <Qunut color="purple"/>
                   </IonSlide>
                 
                 <IonSlide>
-                    <ThirdRakahPartTwo />
+                    <ThirdRakahPartTwo color="purple"/>
                   </IonSlide>
                   <IonSlide>
-                <Tashashud first={false}/>
+                <Tashashud first={false} color="purple"/>
                   </IonSlide>
                   
                 
@@ -165,19 +163,19 @@ mustakbilel-kibleti - Allahu ekber.
               {(match.params.type==="sunnah" ||match.params.type==="fardh" )&&
               <>
                 <IonSlide>
-                    <ThirdRakah type={match.params.type} showSubhaneke={match.params.type==="sunnah"}/>
+                    <ThirdRakah type={match.params.type} showSubhaneke={match.params.type==="sunnah"} color="purple"/>
                   </IonSlide>
                   <IonSlide>
-                    <ThirdRakahPartTwo />
+                    <ThirdRakahPartTwo color="purple"/>
                   </IonSlide>
                 <IonSlide>
-                <FourthRakah type={match.params.type}/>
+                <FourthRakah type={match.params.type} color="purple"/>
                 </IonSlide>
                 <IonSlide>
-                <FourthRakahPartTwo />
+                <FourthRakahPartTwo color="purple"/>
                 </IonSlide>
                 <IonSlide>
-                <Tashashud first={false}/>
+                <Tashashud first={false} color="purple"/>
                 
               </IonSlide>
               </>}

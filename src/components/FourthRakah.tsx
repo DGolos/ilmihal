@@ -2,12 +2,14 @@ import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNot
 import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
+import { translationService } from "../services/TranslationService";
 
 interface FourthRakahProps {
   type?: string;
+  color?:string;
 }
 
-const FourthRakah:  React.FC<FourthRakahProps>  = ({ type}) =>{
+const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color}) =>{
   const playerRef = useRef(new Howl({ src: [""] }));
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentAudio,setCurrnetAudio]=useState("");
@@ -54,25 +56,25 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type}) =>{
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2>Četvrti rekat</h2>
+                <h2>{translationService.getLabel('label-fourth-rakah-header')}</h2>
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
-                <IonLabel>Bismilla</IonLabel>
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-bismilla-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>Bismillahir-rahmanir-rahim.</IonNote>
+              <IonNote>{translationService.getLabel('label-prayer-bismilla-description')}</IonNote>
             </IonCol>
           </IonRow>
           <IonRow >
             <IonCol size="12">
-              <IonText className="audio-link">Bismilla</IonText>
+              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-bismilla-header')}</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Bismilla")}}
@@ -82,28 +84,28 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type}) =>{
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
-                <IonLabel>Fatiha</IonLabel>
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-fatiha-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Suru El-Fatiha je obavezno učiti na svakom rekatu.
+              {translationService.getLabel('label-prayer-fatiha-description')}
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonText className="audio-link">El-Fatiha</IonText>
+              <IonText className={`audio-link-${color}`}>El-Fatiha</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Fatiha")}}
@@ -113,29 +115,28 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type}) =>{
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
           </IonRow>
           <IonRow hidden={type==="fardh"}>
             <IonCol size="12">
-              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
-                <IonLabel>Sura</IonLabel>
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-surah-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow hidden={type==="fardh"}>
             <IonCol size="12">
               <IonNote>
-                Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3
-                ajeta iz duže sure.
+              {translationService.getLabel('label-prayer-surah-description')}
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow hidden={type==="fardh"}>
             <IonCol size="4">
-              <IonText className="audio-link">En-Nas</IonText>
+              <IonText className={`audio-link-${color}`}>En-Nas</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Nas")}}
@@ -145,12 +146,12 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type}) =>{
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonText className="audio-link">El-Felek</IonText>
+              <IonText className={`audio-link-${color}`}>El-Felek</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Felek")}}
@@ -160,12 +161,12 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type}) =>{
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonText className="audio-link">El-Ihlas</IonText>
+              <IonText className={`audio-link-${color}`}>El-Ihlas</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Ihlas")}}
@@ -175,7 +176,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type}) =>{
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>

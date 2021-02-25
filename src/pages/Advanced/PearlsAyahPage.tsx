@@ -82,13 +82,13 @@ import SurahListItem from "../../components/SurahListItem";
             </IonRow>
             <IonRow>
               <IonCol size="4">
-              <SurahListItem surahId="31" surahName="El-Mu'minun" firstAyahId="16" lastAyahId="19" surahColor="razimic"/>
+              <SurahListItem surahId="31" surahName="Lukman" firstAyahId="16" lastAyahId="19" surahColor="razimic"/>
               </IonCol>
               <IonCol size="4">
-              <SurahListItem surahId="33" surahName="El-Mu'minun" firstAyahId="35" lastAyahId="35" surahColor="razimic"/>
+              <SurahListItem surahId="33" surahName="El-Azhab" firstAyahId="35" lastAyahId="35" surahColor="razimic"/>
               </IonCol>
               <IonCol size="4">
-              <SurahListItem surahId="49" surahName="El-Mu'minun" firstAyahId="12" lastAyahId="13" surahColor="burgundy"/>
+              <SurahListItem surahId="49" surahName="El-Hugurat" firstAyahId="12" lastAyahId="13" surahColor="burgundy"/>
               </IonCol>
             </IonRow>
           </IonGrid>

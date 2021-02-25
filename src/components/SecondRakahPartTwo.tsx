@@ -2,8 +2,13 @@ import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNot
 import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
+import { translationService } from "../services/TranslationService";
 
-const SecondRakahPartTwo: React.FC = () => {
+interface SecondRakahPartTwoProps{
+  color?:string;
+}
+
+const SecondRakahPartTwo: React.FC<SecondRakahPartTwoProps> = ({color}) => {
   const playerRef = useRef(new Howl({ src: [""] }));
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentAudio,setCurrnetAudio]=useState("");
@@ -50,29 +55,27 @@ const SecondRakahPartTwo: React.FC = () => {
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2>Drugi rekat</h2>
+                <h2>{translationService.getLabel('label-second-rakah-header')}</h2>
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
-                <IonLabel>Ruku</IonLabel>
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-ruku-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim.
-                Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim
-                malo zastanemo i reknemo: Rabbena lekel-hamd.
+              {translationService.getLabel('label-prayer-ruku-description')}
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow className="ayah">
             <IonCol size="12">
-              <IonText className="audio-link">Ruk'u</IonText>
+              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-ruku-header')}</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Ruku")}}
@@ -82,29 +85,28 @@ const SecondRakahPartTwo: React.FC = () => {
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
-                <IonLabel>Sedžda</IonLabel>
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-sujud-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane
-                rabbijel-e ́ala.
+              {translationService.getLabel('label-prayer-sujud-description')}
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonText className="audio-link">Sedžda</IonText>
+              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-sujud-header')}</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Sedzda")}}
@@ -114,7 +116,7 @@ const SecondRakahPartTwo: React.FC = () => {
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>

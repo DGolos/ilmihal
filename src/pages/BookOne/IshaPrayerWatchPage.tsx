@@ -7,38 +7,39 @@ import RukuWatch from "../../components/RukuWatch";
 import SelamWatch from "../../components/SelamWatch";
 import TashahudWatch from "../../components/TashahudWatch";
 import WitrAdditionWatch from "../../components/WitrAdditionWatch";
+import { translationService } from "../../services/TranslationService";
 
 export const IshaPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
     const [prayerType,setPrayerType]=useState("");
     const[numberOfRakah,setNumberOfRakah]=useState(0);
 
     useEffect(() => {
-        if(match.params.type==="sunnah"){
-            setPrayerType("sunnet");
-            setNumberOfRakah(4);
-        } 
+      if(match.params.type==="sunnah"){
+        setPrayerType(translationService.getLabel('label-isha-sunnah'));
+        setNumberOfRakah(4);
+    } 
 
-        if(match.params.type==="fardh"){
-            setPrayerType("farz");
-            setNumberOfRakah(4);
-        }
+    if(match.params.type==="fardh"){
+        setPrayerType(translationService.getLabel('label-isha-fardh'));
+        setNumberOfRakah(4);
+    }
 
-        if(match.params.type==="sunsunnah"){
-            setPrayerType("sunsunet");
-            setNumberOfRakah(2);
-        } 
+    if(match.params.type==="sunsunnah"){
+        setPrayerType(translationService.getLabel('label-isha-sunsunnah'));
+        setNumberOfRakah(2);
+    } 
 
-        if(match.params.type==="witr"){
-            setPrayerType("vitr");
-            setNumberOfRakah(3);
-        } 
+    if(match.params.type==="witr"){
+        setPrayerType(translationService.getLabel('label-witr'));
+        setNumberOfRakah(3);
+    } 
     }, []);
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
           <IonToolbar className="prayer">
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/IshaPrayerPage" />
+              <IonBackButton color="purple" defaultHref="/IshaPrayerPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -48,15 +49,15 @@ export const IshaPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
             <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText hidden={match.params.type==="witr"}>
-                  <h1 className="prayer-description">Jacijski {prayerType}</h1>
+                  <h1 className="prayer-description">{prayerType}</h1>
                </IonText>
                <IonText hidden={match.params.type!=="witr"}>
-                  <h1 className="prayer-description">Vitr</h1>
+                  <h1 className="prayer-description">{translationService.getLabel('label-witr')}</h1>
                </IonText>
                 </IonCol>
-                <IonCol size="5">
+                <IonCol size="5" className="ion-text-right">
                 <IonText >
-                  <h2>{numberOfRakah} rekata</h2>
+                  <h2>{numberOfRakah} {translationService.getLabel('label-rakah-cardinal')}</h2>
                 </IonText>
                 </IonCol>
               </IonRow>
@@ -81,7 +82,7 @@ export const IshaPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                       <IonGrid className="ion-text-left">
                         <IonRow>
                           <IonCol size="12">
-                            <IonChip color="burgundy">Nijet</IonChip>
+                            <IonChip color="purple">{translationService.getLabel('label-nijjah-header')}</IonChip>
                           </IonCol>
                         </IonRow>
 
@@ -89,17 +90,16 @@ export const IshaPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                         <IonRow>
                       <IonCol size="12">
                         <IonNote hidden={match.params.type!=="sunnah"}>
-                        Jacijski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-isha-sunnah-nijjah')}
                         </IonNote>
                         <IonNote hidden={match.params.type!=="fardh"}>
-                        Jacijski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-‘išai edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-isha-fardh-nijjah')}
                         </IonNote>
                         <IonNote hidden={match.params.type!=="sunsunnah"}>
-                        Jacijski sunsunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunsunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-isha-sunsunnah-nijjah')}
                         </IonNote>
                         <IonNote hidden={match.params.type!=="witr"}>
-                        Vitr-namaz je posebni namaz, koji se klanja poslije jacijskog sunneta. Vitr-namaz ima tri rekata. Nijjet se učini ovako: Nevejtu en usallije lillahi teala salatel-vitri edaen
-mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-witr-nijjah')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -125,15 +125,14 @@ mustakbilel-kibleti - Allahu ekber.
                       <IonGrid className="ion-text-left">
                         <IonRow>
                           <IonCol size="12">
-                            <IonChip color="burgundy">Tekbir</IonChip>
+                            <IonChip color="burgundy">{translationService.getLabel('label-prayer-tekbir')}</IonChip>
                           </IonCol>
                         </IonRow>
 
                         <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                              Podignemo ruke do ušiju i izgovorimo "Allahu
-                              ekber".To je znak da je namaz počeo.
+                            {translationService.getLabel('label-prayer-first-rakah-beginning-watch')}
                             </IonNote>
                           </IonCol>
                         </IonRow>
@@ -142,23 +141,23 @@ mustakbilel-kibleti - Allahu ekber.
                   </div>
                 </div>
               </IonSlide>
-              <QijamWatch rakah="1" type={match.params.type} prayer="5"/>
-              <RukuWatch rakah="1"/>
+              <QijamWatch rakah="1" type={match.params.type} prayer="5" color="purple"/>
+              <RukuWatch rakah="1" color="purple"/>
               
-              <QijamWatch rakah="2" type={match.params.type} prayer="5"/>
-              <RukuWatch rakah="2"/>
+              <QijamWatch rakah="2" type={match.params.type} prayer="5" color="purple"/>
+              <RukuWatch rakah="2" color="purple"/>
               
-              <TashahudWatch rakah="2" type={match.params.type} last={match.params.type==="sunsunnah"}/>
+              <TashahudWatch rakah="2" last={match.params.type==="sunsunnah"} color="purple"/>
               {match.params.type==="sunsunnah" &&
-                <SelamWatch  rakah="2" />
+                <SelamWatch  rakah="2" color="purple"/>
               }
               {match.params.type==="witr"&&
               <>
-              <QijamWatch rakah="3" type={match.params.type} prayer="5"/>
-              <WitrAdditionWatch/>
-              <RukuWatch rakah="3"/>
-              <TashahudWatch rakah="3" type={match.params.type} last={true}/>
-              <SelamWatch  rakah="3"/>
+              <QijamWatch rakah="3" type={match.params.type} prayer="5" color="purple"/>
+              <WitrAdditionWatch color="purple"/>
+              <RukuWatch rakah="3" color="purple"/>
+              <TashahudWatch rakah="3" last={true} color="purple"/>
+              <SelamWatch  rakah="3" color="purple"/>
                 
                 </>
               }
@@ -172,7 +171,7 @@ mustakbilel-kibleti - Allahu ekber.
               <RukuWatch rakah="4"/>
               <QijamWatch rakah="4" type={match.params.type} prayer="5"/>
               <RukuWatch rakah="4"/>
-              <TashahudWatch rakah="4" type={match.params.type} last={true}/>
+              <TashahudWatch rakah="4" last={true}/>
               <SelamWatch  rakah="4"/></>}
               
               

@@ -9,24 +9,26 @@ import {
   useIonViewWillEnter,
 } from "@ionic/react";
 import React, { useState } from "react";
+import { translationService } from "../services/TranslationService";
 
 interface QijamProps {
   rakah?: string;
   type?:string;
   prayer?:string;
+  color?:string;
 }
 
-const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer}) => {
+const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color}) => {
   const [currentRakah,setCurrenRakah]=useState("1");
   const [showFull,setShowFull]=useState(false);
   const [showSunnah,setShowSunnah]=useState(false);
   const [showFardh,setShowFardh]=useState(false);
 
   useIonViewWillEnter(() => {
-    if(rakah==="1") setCurrenRakah("Prvi");
-    if(rakah==="2") setCurrenRakah("Drugi");
-    if(rakah==="3") setCurrenRakah("Treći");
-    if(rakah==="4") setCurrenRakah("Četvrti");
+    if(rakah==="1") setCurrenRakah(translationService.getLabel('label-first-rakah-header'));
+    if(rakah==="2") setCurrenRakah(translationService.getLabel('label-second-rakah-header'));
+    if(rakah==="3") setCurrenRakah(translationService.getLabel('label-third-rakah-header'));
+    if(rakah==="4") setCurrenRakah(translationService.getLabel('label-fourth-rakah-header'));
 
     if(rakah==="1") setShowFull(true);
     if(rakah==="2") setShowSunnah(true);
@@ -57,27 +59,26 @@ const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer}) => {
               <IonRow>
                 <IonCol size="12">
                   <IonNote>
-                    <h2>{currentRakah} rekat</h2>
+                    <h2>{currentRakah}</h2>
                   </IonNote>
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol size="12">
-                  <IonChip color="burgundy">Stajanje</IonChip>
+                  <IonChip color={color}>{translationService.getLabel('label-prayer-qijam-header')}</IonChip>
                 </IonCol>
               </IonRow>
 
               <IonRow>
                 <IonCol size="12">
                   <IonNote hidden={!showFull}>
-                    Na stajanju učimo subhaneke,euzu i
-                    Bismillu,Fatihu i jednu suru.
+                    {translationService.getLabel('label-prayer-qijam-description-first-rakah')}
                   </IonNote>
                   <IonNote hidden={!showSunnah}>
-                    Na stajanju učimo Fatihu i jednu suru.
+                  {translationService.getLabel('label-prayer-qijam-description-second-rakah')}
                   </IonNote>
                   <IonNote hidden={!showFardh}>
-                    Na stajanju učimo Fatihu.
+                  {translationService.getLabel('label-prayer-qijam-description-third-rakah')}
                   </IonNote>
                 </IonCol>
               </IonRow>

@@ -151,6 +151,11 @@ export const AyahPage: React.FC<RouteComponentProps<{ surahId: string,firstAyahI
               </h6>
             </div>
             <div>
+              <h6 className="arabic ion-no-padding ion-text-center">
+                {surah?.arabic}
+              </h6>
+            </div>
+            <div>
               <h6 className="ion-no-padding ion-text-center">
                 {match.params.firstAyahId}-{match.params.lastAyahId}
               </h6>

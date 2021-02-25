@@ -1,27 +1,32 @@
-import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader,  IonItem, IonLabel, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
-import { caretForwardCircleOutline } from "ionicons/icons";
-import React, {  useState } from "react"
+import { IonBackButton,  IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader,  IonItem,  IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
+import React, {  useEffect, useState } from "react"
 import { RouteComponentProps } from "react-router"
 import FirstRakah from "../../components/FirstRakah";
 import FirstRakahPartTwo from "../../components/FirstRakahPartTwo";
-import FirstTashahud from "../../components/FirstTashahud";
 import FourthRakah from "../../components/FourthRakah";
 import FourthRakahPartTwo from "../../components/FourthRakahPartTwo";
-import PrayerEnd from "../../components/PrayerEnd";
 import SecondRakah from "../../components/SecondRakah";
 import SecondRakahPartTwo from "../../components/SecondRakahPartTwo";
 import Tashashud from "../../components/Tashahud";
 import ThirdRakah from "../../components/ThirdRakah";
 import ThirdRakahPartTwo from "../../components/ThirdRakahPartTwo";
+import { translationService } from "../../services/TranslationService";
 
 export const AsrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
-        
+  const [prayerType,setPrayerType]=useState("");
+  useEffect(() => {
+    if(match.params.type==="sunnah") setPrayerType(translationService.getLabel('label-asr-sunnah'));
+
+    if(match.params.type==="fardh") setPrayerType(translationService.getLabel('label-asr-fardh'));
+
+    
+});
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
           <IonToolbar className="prayer">
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/AsrPrayerPage" />
+              <IonBackButton color="dark-brown" defaultHref="/AsrPrayerPage"/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -32,12 +37,12 @@ export const AsrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }
               <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText>
-                  <h1 className="prayer-description">Ikindijski {match.params.type==="sunnah"?"sunnet":"farz"}</h1>
+                  <h1 className="prayer-description">{prayerType}</h1>
                </IonText>
                 </IonCol>
-                <IonCol size="5">
+                <IonCol size="5" className="ion-text-right">
                 <IonText >
-                  <h2>4 rekata</h2>
+                  <h2>4 {translationService.getLabel('label-rakah-cardinal')}</h2>
                 </IonText>
                 </IonCol>
               </IonRow>
@@ -59,28 +64,28 @@ export const AsrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip  color="burgundy">Prije namaza</IonChip>
+                        <IonChip  color="dark-brown" style={{marginLeft:"0px"}}>{translationService.getLabel('label-before-prayer')}</IonChip>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
-                        <IonText><h2>Nijet</h2></IonText>
+                        <IonText><h2>{translationService.getLabel('label-nijjah-header')}</h2></IonText>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                          Nijet je svjesna odluka u srcu zašto nešto činimo.Prilikom izgovaranja nijeta svoje misli usmjeravamo Uzvišenom Allahu.
+                        {translationService.getLabel('label-nijjah-definition')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
                         <IonNote hidden={match.params.type!=="sunnah"}>
-                        Ikindijski sunnet se zanijjeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-‘asri edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-asr-sunnah-nijjah')}
                         </IonNote>
                         <IonNote hidden={match.params.type!=="fardh"}>
-                        Ikindijski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-‘asri edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-asr-fardh-nijjah')}
                         </IonNote>
                         
                       </IonCol>
@@ -89,37 +94,37 @@ export const AsrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }
                 </IonItem>
               </IonSlide>
               <IonSlide>
-                <FirstRakah/>
+                <FirstRakah color="dark-brown"/>
               </IonSlide>
               <IonSlide>
-                <FirstRakahPartTwo/>
+                <FirstRakahPartTwo color="dark-brown"/>
                 
                 
               </IonSlide>
               <IonSlide>
-                <SecondRakah/>
+                <SecondRakah color="dark-brown"/>
               </IonSlide>
               <IonSlide>
-                <SecondRakahPartTwo/>
+                <SecondRakahPartTwo color="dark-brown"/>
               </IonSlide>
               <IonSlide>
-                <Tashashud first={true}/>
+                <Tashashud first={true} color="dark-brown"/>
                 
               </IonSlide>
               <IonSlide>
-                    <ThirdRakah type={match.params.type} showSubhaneke={match.params.type==="sunnah"?true:false}/>
+                    <ThirdRakah type={match.params.type} showSubhaneke={match.params.type==="sunnah"?true:false} color="dark-brown"/>
                   </IonSlide>
                   <IonSlide>
-                    <ThirdRakahPartTwo />
+                    <ThirdRakahPartTwo color="dark-brown"/>
                   </IonSlide>
               <IonSlide>
-                <FourthRakah type={match.params.type}/>
+                <FourthRakah type={match.params.type} color="dark-brown"/>
                 </IonSlide>
                 <IonSlide>
-                <FourthRakahPartTwo />
+                <FourthRakahPartTwo color="dark-brown"/>
                 </IonSlide>
                 <IonSlide>
-                <Tashashud first={false}/>
+                <Tashashud first={false} color="dark-brown"/>
                 
               </IonSlide>
             </IonSlides>

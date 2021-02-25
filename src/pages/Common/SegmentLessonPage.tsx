@@ -19,7 +19,7 @@ import { Howl } from "howler";
 import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
-import { Section, SegmentSection } from "../../components/lesson/Section";
+import { Section } from "../../components/lesson/Section";
 import { Lesson, LessonSection } from "../../objects/Lesson";
 import { dataService } from "../../services/dataService";
 import { translationService } from "../../services/TranslationService";
@@ -101,7 +101,7 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
     }
   };
   const standardSectionItems=standardSections.map((section,index)=>(
-    <Section key={index} section={section} />
+    <Section key={index} section={section} isPlaying={isPlaying} toggleFunction={toglePlayPause} color={lesson.color}/>
   ));
   return (
     <IonPage>
@@ -154,17 +154,17 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
             </IonSegmentButton>
           </IonSegment>
         </div>
-        <div
+        <div 
           className="ion-padding"
           hidden={currentTranslationSection !== "arabic"}
         >
-          <SegmentSection section={segmentSections[0]}/>
+          <Section section={segmentSections[0]}/>
         </div>
         <div
           className="ion-padding"
           hidden={currentTranslationSection !== "translation"}
         >
-          <SegmentSection section={segmentSections[1]}/>
+          <Section section={segmentSections[1]}/>
         </div>
       </IonContent>
     </IonPage>

@@ -17,6 +17,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
+import { translationService } from "../../services/TranslationService";
 
 const BeliefPage: React.FC = () => {
   return (
@@ -34,28 +35,33 @@ const BeliefPage: React.FC = () => {
           color="burgundy"
         >
           <IonCardTitle>
-            <h1 className="lesson">Allah dž.š.</h1>
+            <h1 className="lesson">
+              {translationService.getLabel("label-book1-lesson32-title")}
+            </h1>
           </IonCardTitle>
           <IonCardContent>
             <IonCardSubtitle>
               <h3 style={{ fontStyle: "italic" }}>
-                “Allah je izvor svjetlosti nebesa i Zemlje”
+                {translationService.getLabel("label-book1-lesson32-quote")}
               </h3>
-              <p className="quote-reference">Kur'an 24:35</p>
+              <p className="quote-reference">
+                {translationService.getLabel("label-book1-quote-reference")}
+              </p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
           <IonItem className="lesson-note" lines="none">
             <IonText>
-            <h2 className="lesson-note">
-            Allahova svojstva su prevelika da bi ih čovjek mogao razumom obuhvatiti i u potpunosti shvatiti,
-čovjek zna samo onoliko koliko mu je Allah,dž.š., dao da zna o Njemu, ljudsko znanje je
-ograničeno.
+              <h2 className="lesson-note">
+                {translationService.getLabel(
+                  "label-book1-lesson32_section1-paragraph1"
+                )}
               </h2>
               <h2 className="lesson-note">
-                Allaha, dž.š., spoznajemo preko Njegovih svojstava ili sifata.
-                Njih ima četrnaest, i podjeljeni su u dvije grupe:
+                {translationService.getLabel(
+                  "label-book1-lesson32_section1-paragraph2"
+                )}
               </h2>
             </IonText>
           </IonItem>
@@ -64,27 +70,45 @@ ograničeno.
               <IonRow>
                 <IonCol size="12">
                   <IonText>
-                    <h4>Es-Sifatuz-Zatijje</h4>
+                    <h4>
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section2-header"
+                      )}
+                    </h4>
                     <h2 className="lesson-note">
-                      Es-sifatuz-zatijje su osobna, lična svojstva Allaha, dž.š.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section2-paragraph1"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Vudžud</b>- Allah ima i postoji.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section2-paragraph2"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Kidem</b>- Allah nije postao.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section2-paragraph3"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Beka</b>- Bog neće nestati.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section2-paragraph4"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Vahdanijet</b>- Allah je jedan i jedini
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section2-paragraph5"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Muhalefetun lil havadisi</b>- Allah nikome i ničemu nije sličan.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section2-paragraph6"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Kijamun bi nefsihi</b>- Allah sam pio sebi opstoji.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section2-paragraph"
+                      )}
                     </h2>
                   </IonText>
                 </IonCol>
@@ -96,33 +120,55 @@ ograničeno.
               <IonRow>
                 <IonCol size="12">
                   <IonText>
-                    <h4>Es-Sifatus-Subutijje</h4>
+                    <h4>
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-header"
+                      )}
+                    </h4>
                     <h2 className="lesson-note">
-                      Es-sifatus-subutijje su svojstva Božijeg savršenstva.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph1"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Hajat</b>- Allah živi.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph2"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>'ilm'</b>- Allah zna.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph3"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Esme'a</b>- Allah čuje.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph4"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Besar</b>- Allah vidi.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph5"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Kelam</b>- Allah govori.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph6"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Iradet</b>- Allah čini sve svojom voljom.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph7"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Kudret</b>- Allah je svemoćan.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph8"
+                      )}
                     </h2>
                     <h2 className="lesson-note">
-                      <b>Tekvim</b>- Allah sve stvara održava i rastvara.
+                      {translationService.getLabel(
+                        "label-book1-lesson32_section3-paragraph9"
+                      )}
                     </h2>
                   </IonText>
                 </IonCol>

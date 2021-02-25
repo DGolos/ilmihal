@@ -1,5 +1,6 @@
 import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonHeader, IonItem, IonList, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
+import { translationService } from "../../services/TranslationService";
 
 const PrayerDefinitionPage: React.FC = () => {
 
@@ -18,14 +19,14 @@ const PrayerDefinitionPage: React.FC = () => {
           color="dark-brown"
         >
           <IonCardTitle>
-            <h1 className="lesson">Namaz</h1>
+            <h1 className="lesson">{translationService.getLabel('label-book1-lesson34-title')}</h1>
           </IonCardTitle>
           <IonCardContent>
             <IonCardSubtitle>
               <h3 style={{ fontStyle: "italic" }}>
-                “I molitvu obavljajte i zekat dajite”
+              {translationService.getLabel('label-book1-lesson34-quote')}
               </h3>
-              <p className="quote-reference">Kur'an 2:43</p>
+              <p className="quote-reference">{translationService.getLabel('label-book1-lesson34-quote-reference')}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
@@ -33,7 +34,7 @@ const PrayerDefinitionPage: React.FC = () => {
             <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
-                Namaz je muslimanska obaveza koja se izvršava svaki dan klanjanjem i učenjem na propisani način. Svaki dan treba klanjati pet namaza u vrijeme odredjeno za namaz.
+                {translationService.getLabel('label-book1-lesson34_section1-paragraph1')}
                 </h2>
               </IonText>
             </IonItem>
@@ -48,9 +49,9 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>Sabah</IonCardTitle>
-                    <IonCardSubtitle>2 rekata sunneta</IonCardSubtitle>
-                    <IonCardSubtitle>2 rekata farza</IonCardSubtitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-fajr-prayer')}</IonCardTitle>
+                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
@@ -64,10 +65,10 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>Podne</IonCardTitle>
-                    <IonCardSubtitle>4 rekata sunneta</IonCardSubtitle>
-                    <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
-                    <IonCardSubtitle>2 rekata sunsunneta</IonCardSubtitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-dhuhr-prayer')}</IonCardTitle>
+                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
+                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-sunsunnah')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
@@ -81,9 +82,9 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>Ikindija</IonCardTitle>
-                    <IonCardSubtitle>4 rekata sunneta</IonCardSubtitle>
-                    <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-asr-prayer')}</IonCardTitle>
+                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
@@ -97,9 +98,9 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>Akšam</IonCardTitle>
-                    <IonCardSubtitle>3 rekata farza</IonCardSubtitle>
-                    <IonCardSubtitle>2 rekata sunneta</IonCardSubtitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-maghrib-prayer')}</IonCardTitle>
+                    <IonCardSubtitle>3 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
+                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
@@ -113,11 +114,11 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>Jacija</IonCardTitle>
-                    <IonCardSubtitle>4 rekata sunneta</IonCardSubtitle>
-                    <IonCardSubtitle>4 rekata farza</IonCardSubtitle>
-                    <IonCardSubtitle>2 rekata sunsunneta</IonCardSubtitle>
-                    <IonCardSubtitle>3 rekata vitra</IonCardSubtitle>
+                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-isha-prayer')}</IonCardTitle>
+                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
+                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-sunsunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle>3 {translationService.getLabel('label-rakah-witr')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>

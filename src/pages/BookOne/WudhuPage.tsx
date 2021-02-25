@@ -141,7 +141,7 @@ const WudhuPage: React.FC = () => {
                   src="/assets/images/Beginning.png"
                 />
                 <div>
-                  <IonItem detail={false} color="light" lines="none" style={{ marginLeft: "15px", marginRight: "15px" }}>
+                  <IonItem className="full-width" detail={false} color="light" lines="none" style={{ marginLeft: "15px", marginRight: "15px" }}>
                     <IonGrid className="ion-text-left">
                       <IonRow>
                         <IonCol size="12">

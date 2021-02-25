@@ -1,5 +1,6 @@
 import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
+import { translationService } from "../../services/TranslationService";
 
 const HajjDefinitionPage: React.FC = () => {
 
@@ -18,14 +19,14 @@ const HajjDefinitionPage: React.FC = () => {
           color="purple"
         >
           <IonCardTitle>
-            <h1 className="lesson">Hadždž</h1>
+            <h1 className="lesson">{translationService.getLabel('label-book1-lesson33-title')}</h1>
           </IonCardTitle>
           <IonCardContent>
             <IonCardSubtitle>
               <h3 style={{ fontStyle: "italic" }}>
-                “Obavljajte hadž, jer on  čisti grijehe,”
+              {translationService.getLabel('label-book1-lesson33-quote')}
               </h3>
-              <p className="quote-reference">Hadis</p>
+              <p className="quote-reference">{translationService.getLabel('label-hadeeth-reference')}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
@@ -33,10 +34,7 @@ const HajjDefinitionPage: React.FC = () => {
             <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
-                  Hadždž je posjeta Ka&#39;be (Bejtullaha-Božije kuće) u gradu
-                  Mekki jednom u životu.Allah dž.š. u Kur&#39;anu poziva sve
-                  muslimane i muslimanke da posjete Ka&#39;bu i izvrše propisane
-                  obrede hadža ako zato (za to) imaju mogućnosti.Hadž ima tri osnovna farza koja mora svaki hadžija izvršiti.
+                {translationService.getLabel('label-book1-lesson33_section1-paragraph1')}
                 </h2>
               </IonText>
             </IonItem>
@@ -53,42 +51,42 @@ const HajjDefinitionPage: React.FC = () => {
               <IonRow className="ayah">
                 <IonCol size="12">
                   <IonChip color="purple">
-                    <IonText>Ihram</IonText>
+                    <IonText>{translationService.getLabel('label-book1-lesson33-section2-header')}</IonText>
                   </IonChip>
                 </IonCol>
               </IonRow>
               <IonRow className="ayah">
                 <IonCol size="12">
                   <IonNote>
-                   Obući ihram  koji se sastoji od dva čista ogrtača za muškarce, a žene pokrivaju i glavu.
+                  {translationService.getLabel('label-book1-lesson33_section2-paragraph1')}
                   </IonNote>
                 </IonCol>
               </IonRow>
               <IonRow className="ayah">
                 <IonCol size="12">
                   <IonChip color="purple">
-                    <IonText>Arefat</IonText>
+                    <IonText>{translationService.getLabel('label-book1-lesson33-section3-header')}</IonText>
                   </IonChip>
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol size="12">
                   <IonNote>
-                    Boraviti na Arefatu deveti dan zul-hidžeta,
+                  {translationService.getLabel('label-book1-lesson33_section3-paragraph1')}
                   </IonNote>
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol size="12">
                   <IonChip color="purple">
-                    <IonText>Tavaf</IonText>
+                    <IonText>{translationService.getLabel('label-book1-lesson33-section4-header')}</IonText>
                   </IonChip>
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol size="12">
                   <IonNote>
-                  Tavafi zijaret što je počasni obilazak oko Ka&#39;be u danima Kurban-bajrama.
+                  {translationService.getLabel('label-book1-lesson33_section4-paragraph1')}
                   </IonNote>
                 </IonCol>
               </IonRow>

@@ -77,6 +77,7 @@ import { JummahPrayerPage } from './pages/BookTwo/JummahPrayerPage';
 import { dataService } from './services/dataService';
 import { StandardLessonPage } from './pages/Common/StandardLessonPage';
 import SegmentLessonPage from './pages/Common/SegmentLessonPage';
+import ChooseLanguagePage from './pages/ChooseLanguagePage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -104,7 +105,8 @@ const App: React.FC = () => {
           <Route path="/HomePage" component={HomePage} exact={true} />
           <Route path="/MainCategoryPage" component={MainCategoryPage} exact={true} />
           <Route path="/OptionsPage" component={OptionsPage} />
-          <Route path="/" render={() => <Redirect to="/HomePage" />} exact={true} />
+          <Route path="/ChooseLanguagePage" component={ChooseLanguagePage} />
+          <Route path="/" render={() => <Redirect to={translationService.isLoaded()?"/HomePage":"/ChooseLanguagePage"} />} exact={true}/>
           <Route path="/Quran/:type" component={QuranMainPage} />
           <Route path="/QuranReader/:id" component={QuranReaderPage} />
           <Route path="/QuranPlayer/:id" component={QuranPlayerPage} />
@@ -146,7 +148,7 @@ const App: React.FC = () => {
           <Route path="/JummahPrayerPage" component={JummahPrayerPage}/>
           
         </IonRouterOutlet>
-        <IonTabBar slot="bottom" color="background">
+        <IonTabBar slot="bottom" color="background" hidden={!translationService.isLoaded()}>
           <IonTabButton tab="HomePage" href="/HomePage">
             <IonIcon icon={homeOutline} color="burgundy"/>
             <IonLabel>{translationService.getLabel('label-tab-home')}</IonLabel>

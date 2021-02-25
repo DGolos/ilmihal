@@ -1,7 +1,12 @@
 import { IonChip, IonCol, IonGrid, IonItem, IonNote, IonRow, IonSlide } from "@ionic/react"
 import React from "react"
+import { translationService } from "../services/TranslationService";
 
-const WitrAdditionWatch: React.FC = ({ }) => {
+interface WitrAdditionWatchProps{
+  color?:string;
+}
+
+const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({color }) => {
     return(
         <>
         <IonSlide>
@@ -22,21 +27,20 @@ const WitrAdditionWatch: React.FC = ({ }) => {
                       <IonRow>
                         <IonCol size="12">
                           <IonNote>
-                            <h2>Treći rekat</h2>
+                            <h2>{translationService.getLabel('label-third-rakah-header')}</h2>
                           </IonNote>
                         </IonCol>
                       </IonRow>
                         <IonRow>
                           <IonCol size="12">
-                            <IonChip color="burgundy">Tekbir</IonChip>
+                            <IonChip color={color}>{translationService.getLabel('label-prayer-tekbir')}</IonChip>
                           </IonCol>
                         </IonRow>
 
                         <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                              Podignemo ruke do ušiju i izgovorimo "Allahu
-                              ekber".
+                            {translationService.getLabel('label-prayer-witr-tekbir-description')}
                             </IonNote>
                           </IonCol>
                         </IonRow>
@@ -60,20 +64,20 @@ const WitrAdditionWatch: React.FC = ({ }) => {
                       <IonRow>
                         <IonCol size="12">
                           <IonNote>
-                            <h2>Treći rekat</h2>
+                            <h2>{translationService.getLabel('label-third-rakah-header')}</h2>
                           </IonNote>
                         </IonCol>
                       </IonRow>
                       <IonRow>
                         <IonCol size="12">
-                          <IonChip color="burgundy">Kunut dova</IonChip>
+                          <IonChip color={color}>{translationService.getLabel('label-prayer-qunut-header')}</IonChip>
                         </IonCol>
                       </IonRow>
         
                       <IonRow>
                         <IonCol size="12">
                           <IonNote>
-                            Nakon tekbira učimo Kunut dovu
+                          {translationService.getLabel('label-prayer-qunut-detail-watch')}
                           </IonNote>
                           
                         </IonCol>

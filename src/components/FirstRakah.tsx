@@ -1,9 +1,14 @@
 import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText, useIonViewWillLeave } from "@ionic/react";
 import { Howl } from "howler";
-import { caretForwardCircleOutline, play } from "ionicons/icons";
+import { caretForwardCircleOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
+import { translationService } from "../services/TranslationService";
 
-const FirstRakah: React.FC = () => {
+interface FirstRakahProps{
+  color?:string;
+}
+
+const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
   const playerRef = useRef(new Howl({ src: [""] }));
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentAudio,setCurrnetAudio]=useState("");
@@ -50,30 +55,28 @@ const FirstRakah: React.FC = () => {
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2>Prvi rekat</h2>
+                <h2>{translationService.getLabel('label-first-rakah-header')}</h2>
               </IonNote>
             </IonCol>
           </IonRow>
 
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
-                <IonLabel>Tekbir</IonLabel>
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-tekbir')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Podignemo ruke do ušiju i izgovorimo "Allahu ekber".To je znak
-                da je namaz počeo.Nakon tekbira proučimo subhaneke,euzu i
-                bismillu.
+              {translationService.getLabel('label-prayer-first-rakah-beginning')}
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="6">
-              <IonText className="audio-link">Subhaneke</IonText>
+              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-subhaneke')}</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Subhaneke")}}
@@ -85,12 +88,12 @@ const FirstRakah: React.FC = () => {
                   
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
             <IonCol size="6">
-              <IonText className="audio-link">Euza i bismilla</IonText>
+              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-audhu')}</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("EuzaBismilla")}}
@@ -100,28 +103,28 @@ const FirstRakah: React.FC = () => {
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
-                <IonLabel>Fatiha</IonLabel>
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-fatiha-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Suru El-Fatiha je obavezno učiti na svakom rekatu.
+              {translationService.getLabel('label-prayer-fatiha-description')}
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow className="ayah">
             <IonCol size="12">
-              <IonText className="audio-link">El-Fatiha</IonText>
+              <IonText className={`audio-link-${color}`}>El-Fatiha</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Fatiha")}}
@@ -131,44 +134,44 @@ const FirstRakah: React.FC = () => {
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy" style={{marginLeft:"0px"}}>
-                <IonLabel>Sura</IonLabel>
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-surah-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3
-                ajeta iz duže sure.
+              {translationService.getLabel('label-prayer-surah-description')}
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="4">
-              <IonText className="audio-link">En-Nas</IonText>
+              <IonText className={`audio-link-${color}`}>En-Nas</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Nas")}}
                 fill="solid"
                 color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonText className="audio-link">El-Felek</IonText>
+              <IonText className={`audio-link-${color}`}>El-Felek</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Felek")}}
@@ -178,12 +181,12 @@ const FirstRakah: React.FC = () => {
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonText className="audio-link">El-Ihlas</IonText>
+              <IonText className={`audio-link-${color}`}>El-Ihlas</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Ihlas")}}
@@ -193,7 +196,7 @@ const FirstRakah: React.FC = () => {
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>

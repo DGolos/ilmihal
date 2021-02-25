@@ -8,12 +8,14 @@ import {
     IonSlide,
   } from "@ionic/react";
   import React from "react";
+import { translationService } from "../services/TranslationService";
 
   interface SalamWatchProps{
-    rakah:string
+    rakah:string;
+    color?:string;
   }
   
-  const SelamWatch: React.FC<SalamWatchProps> = ({ rakah}) => {
+  const SelamWatch: React.FC<SalamWatchProps> = ({ rakah,color}) => {
     return (
         <IonSlide>
         <div>
@@ -30,20 +32,20 @@ import {
               <IonRow>
                   <IonCol size="12">
                     <IonNote>
-                      <h2>{rakah==="2"?"Drugi rekat":"Četvrti rekat"}</h2>
+                      <h2>{rakah==="2"?translationService.getLabel('label-second-rakah-header'):translationService.getLabel('label-fourth-rakah-header')}</h2>
                     </IonNote>
                   </IonCol>
                 </IonRow>
                 <IonRow>
                   <IonCol size="12">
-                    <IonChip color="burgundy">Selam</IonChip>
+                    <IonChip color={color}>{translationService.getLabel('label-prayer-selam-header')}</IonChip>
                   </IonCol>
                 </IonRow>
 
                 <IonRow>
                   <IonCol size="12">
                     <IonNote>
-                    Na kraju namaza predajemo selam izgovarajući <b>Es-selamu alejkum ve rahmetullah.</b>Selam prvo predajemo na desnu pa na lijevu stranu.
+                    {translationService.getLabel('label-prayer-selam-watch-description')}
                     </IonNote>
                   </IonCol>
                 </IonRow>

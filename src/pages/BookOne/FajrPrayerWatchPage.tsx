@@ -6,6 +6,7 @@ import QijamWatch from "../../components/QijamWatch";
 import RukuWatch from "../../components/RukuWatch";
 import SelamWatch from "../../components/SelamWatch";
 import TashahudWatch from "../../components/TashahudWatch";
+import { translationService } from "../../services/TranslationService";
 
 export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
     
@@ -25,14 +26,13 @@ export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                 <IonCol size="7">
                   <IonText>
                     <h1 className="prayer-description">
-                      Sabahski{" "}
-                      {match.params.type === "sunnah" ? "sunnet" : "farz"}
+                      {match.params.type === "sunnah" ? translationService.getLabel('label-fajr-sunnah') : translationService.getLabel('label-fajr-fardh') }
                     </h1>
                   </IonText>
                 </IonCol>
-                <IonCol size="5">
+                <IonCol size="5" className="ion-text-right">
                   <IonText>
-                    <h2>2 rekata</h2>
+                    <h2>2 {translationService.getLabel('label-rakah-cardinal')}</h2>
                   </IonText>
                 </IonCol>
               </IonRow>
@@ -57,21 +57,17 @@ export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                       <IonGrid className="ion-text-left">
                         <IonRow>
                           <IonCol size="12">
-                            <IonChip color="burgundy">Nijet</IonChip>
+                            <IonChip color="burgundy">{translationService.getLabel('label-nijjah-header')}</IonChip>
                           </IonCol>
                         </IonRow>
 
                         <IonRow>
                           <IonCol size="12">
                             <IonNote hidden={match.params.type !== "sunnah"}>
-                              Sabahski sunnet se zanijeti ovako:Nevejtu en
-                              usallije lillahi teala salate sunnetil-fedžri
-                              edaen mustakbilel-kibleti - Allahu ekber.
+                            {translationService.getLabel('label-fajr-sunnah-nijjah')}
                             </IonNote>
                             <IonNote hidden={match.params.type === "sunnah"}>
-                              Sabahski farz se zanijeti ovako:Nevejtu en
-                              usallije lillahi teala salate fardil-fedžri edaen
-                              mustakbilel-kibleti - Allahu ekber.
+                            {translationService.getLabel('label-fajr-fardh-nijjah')}
                             </IonNote>
                           </IonCol>
                         </IonRow>
@@ -97,15 +93,14 @@ export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                       <IonGrid className="ion-text-left">
                         <IonRow>
                           <IonCol size="12">
-                            <IonChip color="burgundy">Tekbir</IonChip>
+                            <IonChip color="burgundy">{translationService.getLabel('label-prayer-tekbir')}</IonChip>
                           </IonCol>
                         </IonRow>
 
                         <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                              Podignemo ruke do ušiju i izgovorimo "Allahu
-                              ekber".To je znak da je namaz počeo.
+                            {translationService.getLabel('label-prayer-first-rakah-beginning-watch')}
                             </IonNote>
                           </IonCol>
                         </IonRow>
@@ -114,14 +109,14 @@ export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                   </div>
                 </div>
               </IonSlide>
-              <QijamWatch rakah="1" type={match.params.type} prayer="1"/>
-              <RukuWatch rakah="1"/>
+              <QijamWatch rakah="1" type={match.params.type} prayer="1" color="burgundy"/>
+              <RukuWatch rakah="1" color="burgundy"/>
               
-              <QijamWatch rakah="2" type={match.params.type} prayer="1"/>
-              <RukuWatch rakah="2"/>
+              <QijamWatch rakah="2" type={match.params.type} prayer="1" color="burgundy"/>
+              <RukuWatch rakah="2" color="burgundy"/>
               
-              <TashahudWatch rakah="2" type={match.params.type} last={true}/>
-              <SelamWatch rakah="2"/>
+              <TashahudWatch rakah="2" last={true} color="burgundy"/>
+              <SelamWatch rakah="2" color="burgundy"/>
               
             </IonSlides>
           </div>

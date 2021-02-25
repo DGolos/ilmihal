@@ -9,21 +9,23 @@ import {
     useIonViewWillEnter,
   } from "@ionic/react";
   import React, { useState } from "react";
+import { translationService } from "../services/TranslationService";
   
   interface TashahudProps {
     rakah?: string;
-    type?:string;
+    color?:string;
     last?:boolean;
+    
   }
   
-  const TashahudWatch: React.FC<TashahudProps> = ({ rakah,type,last}) => {
+  const TashahudWatch: React.FC<TashahudProps> = ({ rakah,color,last}) => {
     const [currentRakah,setCurrenRakah]=useState("1");
   
     useIonViewWillEnter(() => {
-      if(rakah==="1") setCurrenRakah("Prvi");
-      if(rakah==="2") setCurrenRakah("Drugi");
-      if(rakah==="3") setCurrenRakah("Treći");
-      if(rakah==="4") setCurrenRakah("Četvrti");
+      if(rakah==="1") setCurrenRakah(translationService.getLabel('label-first-rakah-header'));
+    if(rakah==="2") setCurrenRakah(translationService.getLabel('label-second-rakah-header'));
+    if(rakah==="3") setCurrenRakah(translationService.getLabel('label-third-rakah-header'));
+    if(rakah==="4") setCurrenRakah(translationService.getLabel('label-fourth-rakah-header'));
     });
     
     return (
@@ -42,33 +44,33 @@ import {
               <IonRow>
                   <IonCol size="12">
                     <IonNote>
-                      <h2>{currentRakah} rekat</h2>
+                      <h2>{currentRakah}</h2>
                     </IonNote>
                   </IonCol>
                 </IonRow>
                 <IonRow hidden={!last}>
                   <IonCol size="12">
-                    <IonChip color="burgundy">Zadnje sjedenje</IonChip>
+                    <IonChip color={color}>{translationService.getLabel('label-prayer-end-header')}</IonChip>
                   </IonCol>
                 </IonRow>
 
                 <IonRow hidden={!last}>
                   <IonCol size="12">
                     <IonNote>
-                    Na zadnjem sjedenju učimo et-tehijatu,salavate i dovu.
+                    {translationService.getLabel('label-prayer-end-description')}
                     </IonNote>
                   </IonCol>
                 </IonRow>
                 <IonRow hidden={last}>
                   <IonCol size="12">
-                    <IonChip color="burgundy">Prvo sjedenje</IonChip>
+                    <IonChip color={color}>{translationService.getLabel('label-prayer-first-tashahud-header')}</IonChip>
                   </IonCol>
                 </IonRow>
 
                 <IonRow hidden={last}>
                   <IonCol size="12">
                 <IonNote>
-                Na prvom sjedenju svih namaza učimo et-tehijatu.
+                {translationService.getLabel('label-prayer-first-tashahud-description')}
               </IonNote>
             </IonCol>
           </IonRow>

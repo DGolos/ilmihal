@@ -9,20 +9,21 @@ import {
   useIonViewWillEnter,
 } from "@ionic/react";
 import React, { useState } from "react";
+import { translationService } from "../services/TranslationService";
 
 interface RukuProps {
     rakah?: string;
-    
+    color?:string;
   }
 
-const RukuWatch: React.FC<RukuProps> = ({rakah}) => {
+const RukuWatch: React.FC<RukuProps> = ({rakah,color}) => {
     const [currentRakah,setCurrenRakah]=useState("");
 
   useIonViewWillEnter(() => {
-    if(rakah==="1") setCurrenRakah("Prvi");
-    if(rakah==="2") setCurrenRakah("Drugi");
-    if(rakah==="3") setCurrenRakah("Treći");
-    if(rakah==="4") setCurrenRakah("Četvrti");
+    if(rakah==="1") setCurrenRakah(translationService.getLabel('label-first-rakah-header'));
+    if(rakah==="2") setCurrenRakah(translationService.getLabel('label-second-rakah-header'));
+    if(rakah==="3") setCurrenRakah(translationService.getLabel('label-third-rakah-header'));
+    if(rakah==="4") setCurrenRakah(translationService.getLabel('label-fourth-rakah-header'));
   });
   return (
     <>
@@ -41,21 +42,20 @@ const RukuWatch: React.FC<RukuProps> = ({rakah}) => {
                 <IonRow>
                   <IonCol size="12">
                     <IonNote>
-                      <h2>{currentRakah} rekat</h2>
+                      <h2>{currentRakah}</h2>
                     </IonNote>
                   </IonCol>
                 </IonRow>
                 <IonRow>
                   <IonCol size="12">
-                    <IonChip color="burgundy">Ruk'u</IonChip>
+                    <IonChip color={color}>{translationService.getLabel('label-prayer-ruku-header')}</IonChip>
                   </IonCol>
                 </IonRow>
 
                 <IonRow>
                   <IonCol size="12">
                     <IonNote>
-                      Nakon stajanja prelazimu u ruk'u gdje učimo tri puta:{" "}
-                      <b>Subhane rabbijel-azim</b>.
+                    {translationService.getLabel('label-prayer-ruku-watch-description')}
                     </IonNote>
                   </IonCol>
                 </IonRow>
@@ -79,21 +79,20 @@ const RukuWatch: React.FC<RukuProps> = ({rakah}) => {
                 <IonRow>
                   <IonCol size="12">
                     <IonNote>
-                      <h2>{currentRakah} rekat</h2>
+                      <h2>{currentRakah}</h2>
                     </IonNote>
                   </IonCol>
                 </IonRow>
                 <IonRow>
                   <IonCol size="12">
-                    <IonChip color="burgundy">Povratak sa ruk'ua</IonChip>
+                    <IonChip color={color}>{translationService.getLabel('label-prayer-ruku-return--header')}</IonChip>
                   </IonCol>
                 </IonRow>
 
                 <IonRow>
                   <IonCol size="12">
                     <IonNote>
-                      Povratak sa ruk'ua učimo <b>Semiallahu limen hamideh</b> ,
-                      zatim malo zastanemo i reknemo: <b>Rabbena lekel-hamd.</b>
+                      {translationService.getLabel('label-prayer-ruku-return-description')}
                     </IonNote>
                   </IonCol>
                 </IonRow>
@@ -117,20 +116,20 @@ const RukuWatch: React.FC<RukuProps> = ({rakah}) => {
                       <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                              <h2>{currentRakah} rekat</h2>
+                              <h2>{currentRakah}</h2>
                             </IonNote>
                           </IonCol>
                         </IonRow>
                         <IonRow>
                           <IonCol size="12">
-                            <IonChip color="burgundy">Sedžda</IonChip>
+                            <IonChip color={color}>{translationService.getLabel('label-prayer-sujud-header')}</IonChip>
                           </IonCol>
                         </IonRow>
 
                         <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                            Sedždu činimo stavljajući prvo koljena na tlo a zatim lice.Na sedždi učimo tri puta: <b>Subhane rabbijel-e ́ala</b>.
+                            {translationService.getLabel('label-prayer-sujud-watch-description')}
                             </IonNote>
                           </IonCol>
                         </IonRow>
@@ -154,20 +153,20 @@ const RukuWatch: React.FC<RukuProps> = ({rakah}) => {
                       <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                              <h2>{currentRakah} rekat</h2>
+                              <h2>{currentRakah}</h2>
                             </IonNote>
                           </IonCol>
                         </IonRow>
                         <IonRow>
                           <IonCol size="12">
-                            <IonChip color="burgundy">Izmedju dvije sedžde</IonChip>
+                            <IonChip color={color}>{translationService.getLabel('label-prayer-between-sujud-header')}</IonChip>
                           </IonCol>
                         </IonRow>
 
                         <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                              Izmedju dvije sedžde malo zastanemo i zatim idemo na drugu sedždu.
+                            {translationService.getLabel('label-prayer-between-sujud-description')}
                             </IonNote>
                           </IonCol>
                         </IonRow>
@@ -191,20 +190,20 @@ const RukuWatch: React.FC<RukuProps> = ({rakah}) => {
                       <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                              <h2>{currentRakah} rekat</h2>
+                              <h2>{currentRakah}</h2>
                             </IonNote>
                           </IonCol>
                         </IonRow>
                         <IonRow>
                           <IonCol size="12">
-                            <IonChip color="burgundy">Sedžda</IonChip>
+                            <IonChip color={color}>{translationService.getLabel('label-prayer-sujud-header')}</IonChip>
                           </IonCol>
                         </IonRow>
 
                         <IonRow>
                           <IonCol size="12">
                             <IonNote>
-                            Sedždu činimo stavljajući prvo koljena na tlo a zatim lice.Na sedždi učimo tri puta: <b>Subhane rabbijel-e ́ala</b>.
+                            {translationService.getLabel('label-prayer-sujud-watch-description')}
                             </IonNote>
                           </IonCol>
                         </IonRow>

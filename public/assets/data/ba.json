@@ -637,7 +637,7 @@
     },
     {
         "name":"label-book1-lesson11-quote-reference",
-        "value":"Kur'an 42:11"
+        "value":"Kur'an, 42:11"
     },
     {
         "name":"label-book1-lesson11-paragraph1",
@@ -1041,6 +1041,394 @@
         "name":"label-book1-lesson18_section3-paragraph6",
         "value":"i svim vjernicima na Sudnjem danu"
     },
+
+    {
+        "name":"label-book1-lesson19-title",
+        "value":"Sabah namaz"
+    },
+    {
+        "name":"label-book1-lesson19_section1-paragraph1",
+        "value":"Vrijeme sabahskog namaza počinje od zore i traje do izlaska sunca."
+    },
+    {
+        "name":"label-book1-lesson20-title",
+        "value":"Podne namaz"
+    },
+    {
+        "name":"label-book1-lesson20_section1-paragraph1",
+        "value":"Vrijeme podnevskog namaza počinje kad sunce malo odmakne sa sredine neba i traje do ikindije."
+    },
+    {
+        "name":"label-book1-lesson21-title",
+        "value":"Ikindija namaz"
+    },
+    {
+        "name":"label-book1-lesson21_section1-paragraph1",
+        "value":"Vrijeme ikindijskog namaza počinje kada sunce nagne zapadu i traje do akšama."
+    },
+    {
+        "name":"label-book1-lesson22-title",
+        "value":"Akšam namaz"
+    },
+    {
+        "name":"label-book1-lesson22_section1-paragraph1",
+        "value":"Vrijeme akšamskog namaza počinje od zalaska sunca i traje do jacije."
+    },
+    {
+        "name":"label-book1-lesson23-title",
+        "value":"Jacija namaz"
+    },
+    {
+        "name":"label-book1-lesson23_section1-paragraph1",
+        "value":"Vrijeme jacijskog namaza počinje kad potpuno nestane sunčanog sjaja na zapadu i traje do pred zoru."
+    },
+
+    {
+        "name":"label-prayer-today",
+        "value":"Danas je u"
+    },
+    {
+        "name":"label-sunnah",
+        "value":"Sunnet"
+    },
+    {
+        "name":"label-fardh",
+        "value":"Farz"
+    },
+    {
+        "name":"label-sunsunnah",
+        "value":"Sunsunnet"
+    },
+    {
+        "name":"label-witr",
+        "value":"Vitr"
+    },
+    {
+        "name":"label-rakah-cardinal",
+        "value":"rekata"
+    },
+    {
+        "name":"label-before-prayer",
+        "value":"Prije namaza"
+    },
+    {
+        "name":"label-nijjah-header",
+        "value":"Nijjet"
+    },
+
+    {
+        "name":"label-nijjah-definition",
+        "value":"Nijet je svjesna odluka u srcu zašto nešto činimo.Prilikom izgovaranja nijeta svoje misli usmjeravamo Uzvišenom Allahu."
+    },
+    {
+        "name":"label-fajr-fardh",
+        "value":"Sabahski farz"
+    },
+    {
+        "name":"label-fajr-fardh-nijjah",
+        "value":"Sabahski farz se zanijeti ovako:Nevejtu en usallije lillahi teala salate fardil-fedžri edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-fajr-sunnah",
+        "value":"Sabahski sunnet"
+    },
+    {
+        "name":"label-fajr-sunnah-nijjah",
+        "value":"Sabahski sunnet se zanijeti ovako:Nevejtu en usallije lillahi teala salate sunnetil-fedžri edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-dhuhr-fardh",
+        "value":"Podnevski farz"
+    },
+    {
+        "name":"label-dhuhr-fardh-nijjah",
+        "value":"Podnevski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardiz-zuhri edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-dhuhr-sunnah",
+        "value":"Podnevski sunnet"
+    },
+    {
+        "name":"label-dhuhr-sunnah-nijjah",
+        "value":"Podnevski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetiz-zuhri edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-dhuhr-sunsunnah",
+        "value":"Podnevski sunsunnet"
+    },
+    {
+        "name":"label-dhuhr-sunsunnah-nijjah",
+        "value":"Podnevski sunsunnet-namaz se zanijeti se ovako: Nevejtu en usallije lillahi teala salate sunsunnetiz-zuhri edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-asr-fardh",
+        "value":"Ikindijski farz"
+    },
+    {
+        "name":"label-asr-fardh-nijjah",
+        "value":"Ikindijski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-‘asri edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-asr-sunnah",
+        "value":"Ikindijski sunnet"
+    },
+    {
+        "name":"label-asr-sunnah-nijjah",
+        "value":"Ikindijski sunnet se zanijjeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-‘asri edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-maghrib-fardh",
+        "value":"Akšamski farz"
+    },
+    {
+        "name":"label-maghrib-fardh-nijjah",
+        "value":"Akšamski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-magribi edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-maghrib-sunnah",
+        "value":"Akšamski sunnet"
+    },
+    {
+        "name":"label-maghrib-sunnah-nijjah",
+        "value":"Akšamski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-magribi edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-isha-fardh",
+        "value":"Jacijski farz"
+    },
+    {
+        "name":"label-isha-fardh-nijjah",
+        "value":"Jacijski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-‘išai edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-isha-sunnah",
+        "value":"Jacijski sunnet"
+    },
+    {
+        "name":"label-isha-sunnah-nijjah",
+        "value":"Jacijski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-isha-sunsunnah",
+        "value":"Jacijski sunsunnet"
+    },
+    {
+        "name":"label-isha-sunsunnah-nijjah",
+        "value":"Jacijski sunsunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunsunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-witr-nijjah",
+        "value":"Vitr-namaz je posebni namaz, koji se klanja poslije jacijskog sunneta. Vitr-namaz ima tri rekata. Nijjet se učini ovako: Nevejtu en usallije lillahi teala salatel-vitri edaen mustakbilel-kibleti - Allahu ekber."
+    },
+    {
+        "name":"label-first-rakah-header",
+        "value":"Prvi rekat"
+    },
+    {
+        "name":"label-second-rakah-header",
+        "value":"Drugi rekat"
+    },
+    {
+        "name":"label-third-rakah-header",
+        "value":"Treći rekat"
+    },
+    {
+        "name":"label-fourth-rakah-header",
+        "value":"Četvrti rekat"
+    },
+    {
+        "name":"label-prayer-end-header",
+        "value":"Završetak namaza"
+    },
+    {
+        "name":"label-prayer-tekbir",
+        "value":"Tekbir"
+    },
+    {
+        "name":"label-prayer-first-rakah-beginning",
+        "value":"Podignemo ruke do ušiju i izgovorimo \"Allahu ekber\". To je znak da je namaz počeo. Nakon tekbira proučimo subhaneke,euzu i bismillu."
+    },
+    {
+        "name":"label-prayer-first-rakah-beginning-watch",
+        "value":"Podignemo ruke do ušiju i izgovorimo \"Allahu ekber\". To je znak da je namaz počeo."
+    },
+    {
+        "name":"label-prayer-subhaneke",
+        "value":"Subhaneke"
+    },
+    {
+        "name":"label-prayer-audhu",
+        "value":"Euza i bismilla"
+    },
+
+    {
+        "name":"label-prayer-fatiha-header",
+        "value":"Fatiha"
+    },
+    {
+        "name":"label-prayer-fatiha-description",
+        "value":"Suru El-Fatiha je obavezno učiti na svakom rekatu."
+    },
+    {
+        "name":"label-prayer-surah-header",
+        "value":"Sura"
+    },
+    {
+        "name":"label-prayer-surah-description",
+        "value":"Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3 ajeta iz duže sure."
+    },
+    {
+        "name":"label-prayer-bismilla-header",
+        "value":"Bismilla"
+    },
+    {
+        "name":"label-prayer-bismilla-description",
+        "value":"Bismillahir-rahmanir-rahim."
+    },
+    {
+        "name":"label-prayer-dua-header",
+        "value":"Dove"
+    },
+    {
+        "name":"label-prayer-dua-description",
+        "value":"Proučimo subhaneke,euzu i bismillu."
+    },
+    {
+        "name":"label-prayer-ruku-header",
+        "value":"Ruk'u"
+    },
+    {
+        "name":"label-prayer-ruku-return--header",
+        "value":"Povratak sa ruk'ua"
+    },
+    {
+        "name":"label-prayer-ruku-description",
+        "value":"Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd."
+    },
+    {
+        "name":"label-prayer-ruku-return-description",
+        "value":"Povratak sa ruk'ua učimo Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd."
+    },
+    {
+        "name":"label-prayer-ruku-watch-description",
+        "value":"Nakon stajanja prelazimu u ruk'u gdje učimo tri puta: <Subhane rabbijel-azim."
+    },
+    {
+        "name":"label-prayer-sujud-header",
+        "value":"Sedžda"
+    },
+    {
+        "name":"label-prayer-between-sujud-header",
+        "value":"Izmedju dvije sedžde"
+    },
+    {
+        "name":"label-prayer-sujud-description",
+        "value":"Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane rabbijel-e ́ala."
+    },
+    {
+        "name":"label-prayer-between-sujud-description",
+        "value":"Izmedju dvije sedžde malo zastanemo i zatim idemo na drugu sedždu."
+    },
+
+    {
+        "name":"label-prayer-sujud-watch-description",
+        "value":"Sedždu činimo stavljajući prvo koljena na tlo a zatim lice.Na sedždi učimo tri puta: Subhane rabbijel-e ́ala."
+    },
+
+    {
+        "name":"label-prayer-first-tashahud-header",
+        "value":"Prvo sjedenje"
+    },
+    {
+        "name":"label-prayer-first-tashahud-description",
+        "value":"Na prvom sjedenju svih namaza učimo et-tehijatu."
+    },
+    {
+        "name":"label-prayer-last-tashahud-header",
+        "value":"Završetak namaza"
+    },
+    {
+        "name":"label-prayer-end-header",
+        "value":"Zadnje sjedenje"
+    },
+    {
+        "name":"label-prayer-end-description",
+        "value":"Na zadnjem sjedenju učimo et-tehijatu,salavate i dovu."
+    },
+    {
+        "name":"label-prayer-kade-ehire-header",
+        "value":"Kadei-ehire"
+    },
+    {
+        "name":"label-prayer-kade-ehire-description",
+        "value":"Kadei-ehire je posljednje sjedenje na kraju namaza.Na zadnjem sjedenju svih namaza učimo et-tehijatu,salavate i dove."
+    },
+    {
+        "name":"label-prayer-ettehijjatu",
+        "value":"Et-tehijatu"
+    },
+    {
+        "name":"label-prayer-ettehijjatu-description",
+        "value":"Na prvom sjedenju svih namaza učimo et-tehijatu."
+    },
+    {
+        "name":"label-prayer-salawat",
+        "value":"Salavati"
+    },
+    {
+        "name":"label-prayer-selam-header",
+        "value":"Selam"
+    },
+    {
+        "name":"label-prayer-selam-description",
+        "value":"Namaz završavamo predajom selema prvo na desnu stranu pa na lijevu. Selem se predaje izgovarajući es-selamu alejkum ve rahmetullah."
+    },
+    {
+        "name":"label-prayer-selam-watch-description",
+        "value":"Na kraju namaza predajemo selam izgovarajući Es-selamu alejkum ve rahmetullah. Selam prvo predajemo na desnu pa na lijevu stranu."
+    },
+    {
+        "name":"label-prayer-qunut-header",
+        "value":"Kunut dova"
+    },
+    {
+        "name":"label-prayer-qunut-description",
+        "value":"Podignemo ruke do ušiju i izgovorimo \"Allahu ekber\"."
+    },
+    {
+        "name":"label-prayer-qunut-detail",
+        "value":"Nakon tekbira se sastave ruke(svežu), a zatim se uči Kunut-dova."
+    },
+    {
+        "name":"label-prayer-qunut-detail-watch",
+        "value":"Nakon tekbira učimo Kunut dovu."
+    },
+    {
+        "name":"label-prayer-qunut-note",
+        "value":"Allahumme inna neste-inuke ve nestag-firuke, ve nesteh-dike ve nu'minu bike, ve netubu ilejke ve netevekkelu 'alejke, ve nusni 'alejkel-hajre kullehu. Neškuruke va la nekfuruke. Ve nahle'u ve netruku men jefdžuruke. Allahumme ijjake na'budu ve leke nusalli ve nesdžudu, ve ilejke nes'ā ve nahfidu. Nerdžu rahmeteke ve nahša 'azabeke. Inne 'azabeke bil-kuffari mulhik."
+    },
+    {
+        "name":"label-prayer-qijam-header",
+        "value":"Stajanje"
+    },
+    {
+        "name":"label-prayer-qijam-description-first-rakah",
+        "value":"Na stajanju učimo subhaneke,euzu i Bismillu,Fatihu i jednu suru."
+    },
+    {
+        "name":"label-prayer-qijam-description-second-rakah",
+        "value":"Na stajanju učimo Fatihu i jednu suru."
+    },
+    {
+        "name":"label-prayer-qijam-description-third-rakah",
+        "value":"Na stajanju učimo Fatihu."
+    },
+
+    {
+        "name":"label-prayer-witr-tekbir-description",
+        "value":" Podignemo ruke do ušiju i izgovorimo \"Allahu ekber\"."
+    },
+
     {
         "name":"label-book1-lesson25-title",
         "value":"Meleki"
@@ -1225,6 +1613,191 @@
         "name":"label-book1-lesson31_section2-paragraph1",
         "value":"Nisab je određena vrijednost ili količina imovine koju posjedujemo tokom godine dana da bi podlegla obavezi zekata.Zekat se daje na novac, dragocjenosti (nakit, zlato, srebro), trgovačku robu, živo blago (stoku) i ostale vrijednosti. Imovina koja spada u zekat dijeli se u toku godine do vrijednosti od 2,5% od te imovine."
     },
+
+    {
+        "name":"label-book1-lesson32-title",
+        "value":"Allah dž.š."
+    },
+    {
+        "name":"label-book1-lesson32-quote",
+        "value":"\"Allah je izvor svjetlosti nebesa i Zemlje\""
+    },
+    {
+        "name":"label-book1-lesson32-quote-reference",
+        "value":"Kur'an, 24:35"
+    },
+    {
+        "name":"label-book1-lesson32_section1-paragraph1",
+        "value":"Allahova svojstva su prevelika da bi ih čovjek mogao razumom obuhvatiti i u potpunosti shvatiti, čovjek zna samo onoliko koliko mu je Bog,dž.š., dao da zna o Njemu, ljudsko znanje je ograničeno."
+    },
+    {
+        "name":"label-book1-lesson32_section1-paragraph2",
+        "value":"Allaha, dž.š., spoznajemo preko Njegovih svojstava ili sifata. Njih ima četrnaest, i podjeljeni su u dvije grupe:"
+    },
+    {
+        "name":"label-book1-lesson32_section2-header",
+        "value":"Es-Sifatuz-Zatijje"
+    },
+    {
+        "name":"label-book1-lesson32_section2-paragraph1",
+        "value":"Es-sifatuz-zatijje su osobna, lična svojstva Allaha, dž.š."
+    },
+    {
+        "name":"label-book1-lesson32_section2-paragraph2",
+        "value":"Vudžud- Allah ima i postoji."
+    },
+    {
+        "name":"label-book1-lesson32_section2-paragraph3",
+        "value":"Kidem- Allah nije postao."
+    },
+    {
+        "name":"label-book1-lesson32_section2-paragraph4",
+        "value":"Beka- Allah neće nestati."
+    },
+    {
+        "name":"label-book1-lesson32_section2-paragraph5",
+        "value":"Vahdanijet- Allah je jedan i jedini"
+    },
+    {
+        "name":"label-book1-lesson32_section2-paragraph6",
+        "value":"Muhalefetun lil havadisi- Allah nikome i ničemu nije sličan."
+    },
+    {
+        "name":"label-book1-lesson32_section2-paragraph7",
+        "value":"Kijamun bi nefsihi- Allah sam pio sebi opstoji."
+    },
+
+    {
+        "name":"label-book1-lesson32_section3-header",
+        "value":"Es-Sifatus-Subutijje"
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph1",
+        "value":"Es-sifatus-subutijje su svojstva Božijeg savršenstva."
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph2",
+        "value":"Hajat- Allah živi."
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph3",
+        "value":"'Ilm'- Allah zna."
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph4",
+        "value":"Esme'a- Allah čuje."
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph5",
+        "value":"Besar- Allah vidi."
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph6",
+        "value":"Kelam- Allah govori."
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph7",
+        "value":"Iradet- Allah čini sve svojom voljom."
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph8",
+        "value":"Kudret- Allah je svemoćan."
+    },
+    {
+        "name":"label-book1-lesson32_section3-paragraph9",
+        "value":"Tekvim- Allah sve stvara održava i rastvara."
+    },
+
+    {
+        "name":"label-book1-lesson33-title",
+        "value":"Hadždž"
+    },
+    {
+        "name":"label-book1-lesson33-quote",
+        "value":"\"Obavljajte hadž, jer on  čisti grijehe\""
+    },
+    {
+        "name":"label-book1-lesson33_section1-paragraph1",
+        "value":"Hadždž je posjeta Ka'be (Bejtullaha-Božije kuće) u gradu Mekki jednom u životu.Allah dž.š. u Kur'anu poziva sve muslimane i muslimanke da posjete Ka'bu i izvrše propisane obrede hadža ako zato (za to) imaju mogućnosti.Hadž ima tri osnovna farza koja mora svaki hadžija izvršiti."
+    },
+    {
+        "name":"label-book1-lesson33-section2-header",
+        "value":"Ihram"
+    },
+    {
+        "name":"label-book1-lesson33_section2-paragraph1",
+        "value":"Obući ihram  koji se sastoji od dva čista ogrtača za muškarce, a žene pokrivaju i glavu."
+    },
+    {
+        "name":"label-book1-lesson33-section3-header",
+        "value":"Arefat"
+    },
+    {
+        "name":"label-book1-lesson33_section3-paragraph1",
+        "value":"Boraviti na Arefatu deveti dan zul-hidžeta."
+    },
+    {
+        "name":"label-book1-lesson33-section4-header",
+        "value":"Tavaf"
+    },
+    {
+        "name":"label-book1-lesson33_section4-paragraph1",
+        "value":"Tavafi zijaret što je počasni obilazak oko Ka'be u danima Kurban-bajrama."
+    },
+
+    {
+        "name":"label-book1-lesson34-title",
+        "value":"Namaz"
+    },
+    {
+        "name":"label-book1-lesson34-quote",
+        "value":"\"I molitvu obavljajte i zekat dajite\""
+    },
+    {
+        "name":"label-book1-lesson34-quote-reference",
+        "value":"Kur'an, 2:43"
+    },
+    {
+        "name":"label-book1-lesson34_section1-paragraph1",
+        "value":"Namaz je muslimanska obaveza koja se izvršava svaki dan klanjanjem i učenjem na propisani način. Svaki dan treba klanjati pet namaza u vrijeme odredjeno za namaz."
+    },
+    {
+        "name":"label-fajr-prayer",
+        "value":"Sabah"
+    },
+    {
+        "name":"label-dhuhr-prayer",
+        "value":"Podne"
+    },
+    {
+        "name":"label-asr-prayer",
+        "value":"Ikindija"
+    },
+    {
+        "name":"label-maghrib-prayer",
+        "value":"Akšam"
+    },
+    {
+        "name":"label-isha-prayer",
+        "value":"Jacija"
+    },
+    {
+        "name":"label-rakah-sunnah",
+        "value":"rekata sunneta"
+    },
+    {
+        "name":"label-rakah-fardh",
+        "value":"rekata farza"
+    },
+    {
+        "name":"label-rakah-sunsunnah",
+        "value":"rekata sunsunneta"
+    },
+    {
+        "name":"label-rakah-witr",
+        "value":"rekata vitra"
+    },
+
     {
         "name":"label-book2-lesson1-quote",
         "value":"\"O vjernici! Propisuje vam se post.\""

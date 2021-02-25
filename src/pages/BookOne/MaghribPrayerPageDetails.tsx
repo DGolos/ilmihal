@@ -1,24 +1,30 @@
-import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
-import { caretForwardCircleOutline } from "ionicons/icons";
-import React, { useState } from "react"
+import { IonBackButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
+import React, { useEffect, useState } from "react"
 import { RouteComponentProps } from "react-router"
 import FirstRakah from "../../components/FirstRakah";
 import FirstRakahPartTwo from "../../components/FirstRakahPartTwo";
-import PrayerEnd from "../../components/PrayerEnd";
 import SecondRakah from "../../components/SecondRakah";
 import SecondRakahPartTwo from "../../components/SecondRakahPartTwo";
 import Tashashud from "../../components/Tashahud";
 import ThirdRakah from "../../components/ThirdRakah";
 import ThirdRakahPartTwo from "../../components/ThirdRakahPartTwo";
+import { translationService } from "../../services/TranslationService";
 
 export const MaghribPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }>> = ({ match }) => {
+  const [prayerType,setPrayerType]=useState("");
+  useEffect(() => {
+    if(match.params.type==="sunnah") setPrayerType(translationService.getLabel('label-maghrib-sunnah'));
+
+    if(match.params.type==="fardh") setPrayerType(translationService.getLabel('label-maghrib-fardh'));
+
     
+});
     return (
       <IonPage>
         <IonHeader className="ion-no-border">
           <IonToolbar className="prayer">
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/MaghribPrayerPage" />
+              <IonBackButton color="burgundy" defaultHref="/MaghribPrayerPage"/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -29,12 +35,12 @@ export const MaghribPrayerDetailsPage: React.FC<RouteComponentProps<{ type: stri
               <IonRow style={{ marginTop: 5}}>
                 <IonCol size="7">
                 <IonText>
-                  <h1 className="prayer-description">Akšamski {match.params.type==="sunnah"?"sunet":"farz"}</h1>
+                  <h1 className="prayer-description">{prayerType}</h1>
                </IonText>
                 </IonCol>
-                <IonCol size="5">
+                <IonCol size="5" className="ion-text-right">
                 <IonText >
-                  <h2>{match.params.type==="sunnah"?2:3} rekata</h2>
+                  <h2>{match.params.type==="sunnah"?2:3} {translationService.getLabel('label-rakah-cardinal')}</h2>
                 </IonText>
                 </IonCol>
               </IonRow>
@@ -56,64 +62,65 @@ export const MaghribPrayerDetailsPage: React.FC<RouteComponentProps<{ type: stri
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip  color="burgundy">Prije namaza</IonChip>
+                        <IonChip  color="burgundy" style={{marginLeft:"0px"}}>{translationService.getLabel('label-before-prayer')}</IonChip>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
-                        <IonText><h2>Nijet</h2></IonText>
+                        <IonText><h2>{translationService.getLabel('label-nijjah-header')}</h2></IonText>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                          Nijet je svjesna odluka u srcu zašto nešto činimo.Prilikom izgovaranja nijeta svoje misli usmjeravamo Uzvišenom Allahu.
+                        {translationService.getLabel('label-nijjah-definition')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
                     <IonRow>
-                      <IonCol size="12">
+                    <IonCol size="12">
                         <IonNote hidden={match.params.type!=="sunnah"}>
-                        Akšamski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-magribi edaen mustakbilel-kibleti - Allahu ekber.
+                        {translationService.getLabel('label-maghrib-sunnah-nijjah')}
                         </IonNote>
-                        <IonNote hidden={match.params.type==="sunnah"}>
-                        Akšamski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-magribi edaen mustakbilel-kibleti - Allahu ekber.
+                        <IonNote hidden={match.params.type!=="fardh"}>
+                        {translationService.getLabel('label-maghrib-fardh-nijjah')}
                         </IonNote>
+                        
                       </IonCol>
                     </IonRow>
                   </IonGrid>
                 </IonItem>
               </IonSlide>
               <IonSlide>
-                <FirstRakah/>
+                <FirstRakah color="razimic"/>
               </IonSlide>
               <IonSlide>
-                <FirstRakahPartTwo/>
+                <FirstRakahPartTwo color="razimic"/>
                 
                 
               </IonSlide>
               <IonSlide>
-                <SecondRakah/>
+                <SecondRakah color="razimic"/>
               </IonSlide>
               <IonSlide>
-                <SecondRakahPartTwo/>
+                <SecondRakahPartTwo color="razimic"/>
               </IonSlide>
               <IonSlide>
-                <Tashashud first={match.params.type!=="sunnah"?true:false}/>
+                <Tashashud first={match.params.type!=="sunnah"?true:false} color="razimic"/>
                 
               </IonSlide>
               {match.params.type === "fardh" && (
                 <>
                   <IonSlide>
-                    <ThirdRakah type={match.params.type} showSubhaneke={false}/>
+                    <ThirdRakah type={match.params.type} showSubhaneke={false} color="razimic"/>
                   </IonSlide>
                   <IonSlide>
-                    <ThirdRakahPartTwo />
+                    <ThirdRakahPartTwo color="razimic"/>
                   </IonSlide>
                  
                     
                   <IonSlide>
-                    <Tashashud first={false} />
+                    <Tashashud first={false} color="razimic"/>
                   </IonSlide>
                 </>
               )}

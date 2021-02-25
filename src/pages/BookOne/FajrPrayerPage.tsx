@@ -16,10 +16,11 @@ import {
   IonText,
   IonToolbar,
 } from "@ionic/react";
-import { addSharp, documentOutline, documentTextOutline, videocamOffOutline, videocamOutline } from "ionicons/icons";
+import { documentTextOutline, videocamOutline } from "ionicons/icons";
 import moment from "moment";
 import React, { useEffect, useState } from "react";
 import { timeService } from "../../services/TimeService";
+import { translationService } from "../../services/TranslationService";
 
 const FajrPrayerPage: React.FC = () => {
   const [fajr, setFajr] = useState("");
@@ -32,7 +33,7 @@ const FajrPrayerPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/BookOneMainPage" />
+            <IonBackButton color="light"/>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -43,14 +44,14 @@ const FajrPrayerPage: React.FC = () => {
               <IonRow className="ion-no-padding">
                 <IonCol size="12">
                   <h6 className="welcome ion-no-padding ion-text-center">
-                    Sabah namaz
+                    {translationService.getLabel('label-book1-lesson19-title')}
                   </h6>
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol size="12">
                   <h3 className="prayer ion-no-padding ion-text-center">
-                    Danas je u {fajr}
+                  {translationService.getLabel('label-prayer-today')} {fajr}
                   </h3>
                 </IonCol>
               </IonRow>
@@ -61,15 +62,14 @@ const FajrPrayerPage: React.FC = () => {
           <IonItem className="lesson-note">
             <IonText>
               <h2 className="lesson-note">
-                Vrijeme sabahskog namaza počinje od zore i traje do izlaska
-                sunca.
+              {translationService.getLabel('label-book1-lesson19_section1-paragraph1')}
               </h2>
             </IonText>
           </IonItem>
           <IonItem className="lesson-note">
             <IonLabel slot="start">
-              <h3 className="prayer-name-bold">Sunnet</h3>
-              <h3 className="prayer-name-normal">2 rekata</h3>
+              <h3 className="prayer-name-bold">{translationService.getLabel('label-sunnah')}</h3>
+              <h3 className="prayer-name-normal">2 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
               <IonFabButton  color="light">
@@ -87,8 +87,8 @@ const FajrPrayerPage: React.FC = () => {
           </IonItem>
           <IonItem className="lesson-note">
             <IonLabel slot="start">
-              <h3 className="prayer-name-bold">Farz</h3>
-              <h3 className="prayer-name-normal">2 rekata</h3>
+              <h3 className="prayer-name-bold">{translationService.getLabel('label-fardh')}</h3>
+              <h3 className="prayer-name-normal">2 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
               <IonFabButton  color="light" >

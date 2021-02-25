@@ -2,8 +2,13 @@ import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNot
 import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
+import { translationService } from "../services/TranslationService";
 
-const Qunut: React.FC = () => {
+interface QunutProps {
+  color?:string;
+}
+
+const Qunut: React.FC<QunutProps> = ({color}) => {
   const playerRef = useRef(new Howl({ src: [""] }));
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentAudio,setCurrnetAudio]=useState("");
@@ -50,47 +55,44 @@ const Qunut: React.FC = () => {
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                <h2> Treći rekat</h2>
+                <h2> {translationService.getLabel('label-third-rakah-header')}</h2>
               </IonNote>
             </IonCol>
           </IonRow>
 
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
-                <IonLabel>Tekbir</IonLabel>
+              <IonChip color={color}>
+                <IonLabel>{translationService.getLabel('label-prayer-tekbir')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-                Podignemo ruke do ušiju i izgovorimo "Allahu ekber".
+              {translationService.getLabel('llabel-prayer-qunut-description')}
               </IonNote>
             </IonCol>
           </IonRow>
           
           <IonRow>
             <IonCol size="12">
-              <IonChip color="burgundy">
-                <IonLabel>Kunut dova</IonLabel>
+              <IonChip color={color}>
+                <IonLabel>{translationService.getLabel('llabel-prayer-qunut-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-              Nakon tekbira se sastave ruke(svežu), a zatim se uči Kunut-dova.
+              {translationService.getLabel('llabel-prayer-qunut-detail')}
               </IonNote>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonNote>
-              Allahumme inna neste-inuke ve nestag-firuke, ve nesteh-dike ve nu&#39;minu bike, ve netubu ilejke ve
-netevekkelu &#39;alejke, ve nusni &#39;alejkel-hajre kullehu. Neškuruke va la nekfuruke. Ve nahle&#39;u ve
-netruku men jefdžuruke. Allahumme ijjake na&#39;budu ve leke nusalli ve nesdžudu, ve ilejke nes&#39;ā ve
-nahfidu. Nerdžu rahmeteke ve nahša &#39;azabeke. Inne &#39;azabeke bil-kuffari mulhik.
+              {translationService.getLabel('llabel-prayer-qunut-note')}
               </IonNote>
             </IonCol>
           </IonRow>
@@ -106,7 +108,7 @@ nahfidu. Nerdžu rahmeteke ve nahša &#39;azabeke. Inne &#39;azabeke bil-kuffa
                 <IonIcon
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
-                  color="burgundy"
+                  color={color}
                 />
               </IonButton>
             </IonCol>
