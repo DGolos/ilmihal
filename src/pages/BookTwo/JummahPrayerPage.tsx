@@ -1,6 +1,7 @@
 import { IonPage, IonHeader, IonToolbar, IonButtons, IonBackButton, IonContent, IonCard, IonCardTitle, IonCardContent, IonCardSubtitle, IonItem, IonText, IonCol, IonGrid, IonRow, IonSlide, IonSlides, IonChip, IonNote } from "@ionic/react";
 import React from "react";
 import { match } from "react-router-dom";
+import { translationService } from "../../services/TranslationService";
 
 export const JummahPrayerPage: React.FC = () => {
     return (
@@ -19,16 +20,16 @@ export const JummahPrayerPage: React.FC = () => {
                 <IonRow className="ion-no-padding">
                   <IonCol size="12">
                     <h6 className="welcome ion-no-padding ion-text-center">
-                      Džuma namaz
+                    {translationService.getLabel('label-jummah-prayer')}
                     </h6>
                   </IonCol>
                 </IonRow>
                 <IonRow >
                   <IonCol size="12" style={{ marginTop: 0 }}> 
-                    <h3 style={{fontStyle:"italic",fontSize:"14"} } className="prayer ion-no-padding ion-text-center">
-                      "O vjernici, kada se u petak na molitvu pozove, kupoprodaju ostavite i podjite molitvu obaviti"
+                    <h3 style={{fontStyle:"italic",fontSize:"12"} } className="prayer ion-no-padding ion-text-center">
+                    {translationService.getLabel('label-book2-lesson14-quote')}
                     </h3>
-                    <p className="quote-reference ion-text-center">Kur'an, 62:9</p>
+                    <p className="quote-reference ion-text-center">{translationService.getLabel('label-book2-lesson14-quote-reference')}</p>
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -40,29 +41,26 @@ export const JummahPrayerPage: React.FC = () => {
                 <IonItem className="lesson-note" lines="none">
                   <IonText>
                     <h2 className="lesson-note">
-                      Džuma namaz je sedmični namaz koji su muslimani-muškarci
-                      obavezni klanjati petkom u podnevsko vrijeme umjesto podne
-                      namaza i može se klanjati samo u džematu. Džumu-namaz mogu
-                      klanjati i žene ali nisu obavezne.
+                    {translationService.getLabel('label-book2-lesson14_section1-paragraph1')}
                     </h2>
                   </IonText>
                 </IonItem>
                 <IonItem className="lesson-note" lines="none">
                   <IonText>
                     <h2 className="lesson-note">
-                      - četiri rekata sunneta (sunnetil-džumuati)
+                    {translationService.getLabel('label-book2-lesson14_section2-paragraph1')}
                     </h2>
                     <h2 className="lesson-note">
-                      - dva rekata farza (fardil-džumuati)
+                    {translationService.getLabel('label-book2-lesson14_section2-paragraph2')}
                     </h2>
                     <h2 className="lesson-note">
-                      - četriri rekata sun-sunneta (sun-sunnetil džumuati)
+                    {translationService.getLabel('label-book2-lesson14_section2-paragraph3')}
                     </h2>
                     <h2 className="lesson-note">
-                      - četiri rekata ahiriz-zuhri (ahiriz-zuhri)
+                    {translationService.getLabel('label-book2-lesson14_section2-paragraph4')}
                     </h2>
                     <h2 className="lesson-note">
-                      - dva rekata sunnetil-vakti (sunnetil-vakti)
+                    {translationService.getLabel('label-book2-lesson14_section2-paragraph5')}
                     </h2>
                   </IonText>
                 </IonItem>
@@ -80,16 +78,14 @@ export const JummahPrayerPage: React.FC = () => {
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="brown" style={{marginLeft:"0px"}}>Sunnet</IonChip>
+                        <IonChip color="brown" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson14-section3-header')}</IonChip>
                       </IonCol>
                     </IonRow>
-                    
+                   
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Nakon proučenog ezana klanja se prvi džumanski sunnet koji je isti kao i podnevski sunnet i
-sastoji se od četiri rekata koji se zanijeti ovako: <b>Nevejtu en usallije lillahi te’ala salate
-sunnetil- džumu’ati edaen mustakbilel kibleti, Allahu ekber!</b>
+                        {translationService.getLabel('label-book2-lesson14_section3-paragraph1')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -97,22 +93,22 @@ sunnetil- džumu’ati edaen mustakbilel kibleti, Allahu ekber!</b>
                       <IonCol size="12">
                       <IonText>
                     <h2 className="lesson-note">
-                        <b>Prvi rekat:</b> Subhaneke – euza – bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section3-paragraph2')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Drugi rekat:</b> bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section3-paragraph3')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Sjedenje:</b>Sjedenje: et-tehijjatu
+                    {translationService.getLabel('label-book2-lesson14_section3-paragraph4')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Treći rekat:</b> bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section3-paragraph5')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Četvrti rekat:</b> bismilla – fatiha – sura.
+                    {translationService.getLabel('label-book2-lesson14_section3-paragraph6')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Zadnje sjedenje:</b> et-tehijjatu, salavati, dova i selam.
+                    {translationService.getLabel('label-book2-lesson14_section3-paragraph7')}
                     </h2>
                   </IonText>
                       </IonCol>
@@ -133,17 +129,14 @@ sunnetil- džumu’ati edaen mustakbilel kibleti, Allahu ekber!</b>
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="brown" style={{marginLeft:"0px"}}>Hutba</IonChip>
+                        <IonChip color="brown" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson14-section4-header')}</IonChip>
                       </IonCol>
                     </IonRow>
                     
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Pošto se klanja prvi sunnet, mujezin uči drugi ezan a imam uzlazi na minber. Kad mujezin završi
-drugi ezan, imam (hatib), stojeći na minberu, drži hutbu (predavanje) u kojem prisutne vjernike
-upoznaje o važnim tekućim pitanjima Islamske zajednice i daje im upute i savjete o islamskom
-vjerovanju i obavezama.
+                        {translationService.getLabel('label-book2-lesson14_section4-paragraph1')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -164,17 +157,14 @@ vjerovanju i obavezama.
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="brown" style={{marginLeft:"0px"}}>Farz</IonChip>
+                        <IonChip color="brown" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson14-section5-header')}</IonChip>
                       </IonCol>
                     </IonRow>
                     
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Po završetku hutbe muezzin prouči ikamet i pristupa se klanjanju džumanskog farza koji se može
-klanjati samo za imamom (u džematu). Ima dva rekata a uči se sljedeće: Nijet: <b>Nevejtu en
-usallije lillahi te’ala salate fardil- džumu’ati edaen mustakbilel kibleti iktedejtubihazel imami,
-Allahu ekber!</b>
+                        {translationService.getLabel('label-book2-lesson14_section5-paragraph1')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -182,14 +172,14 @@ Allahu ekber!</b>
                       <IonCol size="12">
                       <IonText>
                     <h2 className="lesson-note">
-                        <b>Prvi rekat:</b> Subhaneke – euza – bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section5-paragraph2')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Drugi rekat:</b> bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section5-paragraph3')}
                     </h2>
                     
                     <h2 className="lesson-note">
-                        <b>Zadnje sjedenje:</b> et-tehijjatu, salavati, dova i selam.
+                    {translationService.getLabel('label-book2-lesson14_section5-paragraph4')}
                     </h2>
                   </IonText>
                       </IonCol>
@@ -210,15 +200,14 @@ Allahu ekber!</b>
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="brown" style={{marginLeft:"0px"}}>Sun-sunnet</IonChip>
+                        <IonChip color="brown" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson14-section6-header')}</IonChip>
                       </IonCol>
                     </IonRow>
                     
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Poslije farza klanjamo, svako za se, četiri rakata džumanskih sun-sunneta koji se zanijete ovako:
-                         <b>Nevejtu en usallije lillahi te’ala salate sun-sunnetil- džumu’ati edaen mustakbilel kibleti,Allahu ekber!</b>
+                        {translationService.getLabel('label-book2-lesson14_section6-paragraph1')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -226,22 +215,22 @@ Allahu ekber!</b>
                       <IonCol size="12">
                       <IonText>
                     <h2 className="lesson-note">
-                        <b>Prvi rekat:</b> Subhaneke – euza – bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section6-paragraph2')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Drugi rekat:</b> bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section6-paragraph3')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Sjedenje:</b>Sjedenje: et-tehijjatu
+                    {translationService.getLabel('label-book2-lesson14_section6-paragraph4')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Treći rekat:</b> bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section6-paragraph5')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Četvrti rekat:</b> bismilla – fatiha – sura.
+                    {translationService.getLabel('label-book2-lesson14_section6-paragraph6')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Zadnje sjedenje:</b> et-tehijjatu, salavati, dova i selam.
+                    {translationService.getLabel('label-book2-lesson14_section6-paragraph7')}
                     </h2>
                   </IonText>
                       </IonCol>
@@ -262,14 +251,14 @@ Allahu ekber!</b>
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="brown" style={{marginLeft:"0px"}}>Ahiri zuhr</IonChip>
+                        <IonChip color="brown" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson14-section7-header')}</IonChip>
                       </IonCol>
                     </IonRow>
                     
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Zanijeti se:<b>Nevejtu en usallije lillahi te’ala salate ahiriz- zuhri edaen mustakbilel kibleti,Allahu ekber!</b>
+                        {translationService.getLabel('label-book2-lesson14_section7-paragraph1')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -277,22 +266,22 @@ Allahu ekber!</b>
                       <IonCol size="12">
                       <IonText>
                     <h2 className="lesson-note">
-                        <b>Prvi rekat:</b> Subhaneke – euza – bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section7-paragraph2')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Drugi rekat:</b> bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section7-paragraph3')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Sjedenje:</b>Sjedenje: et-tehijjatu
+                    {translationService.getLabel('label-book2-lesson14_section7-paragraph4')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Treći rekat:</b> bismilla – fatiha 
+                    {translationService.getLabel('label-book2-lesson14_section7-paragraph5')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Četvrti rekat:</b> bismilla – fatiha
+                    {translationService.getLabel('label-book2-lesson14_section7-paragraph6')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Zadnje sjedenje:</b> et-tehijjatu, salavati, dova i selam.
+                    {translationService.getLabel('label-book2-lesson14_section7-paragraph7')}
                     </h2>
                   </IonText>
                       </IonCol>
@@ -313,14 +302,14 @@ Allahu ekber!</b>
                   <IonGrid className="ion-text-left">
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="brown" style={{marginLeft:"0px"}}>Sunnetil- vakt</IonChip>
+                        <IonChip color="brown" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson14-section8-header')}</IonChip>
                       </IonCol>
                     </IonRow>
                     
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Nijet: <b>Nevejtu en usallije lillahi te’ala salate sunnetil- vakti edaen mustakbilel kibleti, Allahu ekber!</b>
+                        {translationService.getLabel('label-book2-lesson14_section8-paragraph1')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
@@ -328,14 +317,14 @@ Allahu ekber!</b>
                       <IonCol size="12">
                       <IonText>
                     <h2 className="lesson-note">
-                        <b>Prvi rekat:</b> Subhaneke – euza – bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section8-paragraph2')}
                     </h2>
                     <h2 className="lesson-note">
-                        <b>Drugi rekat:</b> bismilla – fatiha – sura
+                    {translationService.getLabel('label-book2-lesson14_section8-paragraph3')}
                     </h2>
                     
                     <h2 className="lesson-note">
-                        <b>Zadnje sjedenje:</b> et-tehijjatu, salavati, dova i selam.
+                    {translationService.getLabel('label-book2-lesson14_section8-paragraph4')}
                     </h2>
                   </IonText>
                       </IonCol>

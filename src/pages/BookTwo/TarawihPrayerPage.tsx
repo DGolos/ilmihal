@@ -1,5 +1,6 @@
 import { IonPage, IonHeader, IonToolbar, IonButtons, IonBackButton, IonContent, IonCard, IonCardTitle, IonCardContent, IonCardSubtitle, IonItem, IonText, IonCol, IonGrid, IonRow } from "@ionic/react";
 import React from "react";
+import { translationService } from "../../services/TranslationService";
 
 export const TarawihPrayerPage: React.FC = () => {
     return (
@@ -18,16 +19,16 @@ export const TarawihPrayerPage: React.FC = () => {
                 <IonRow className="ion-no-padding">
                   <IonCol size="12">
                     <h6 className="welcome ion-no-padding ion-text-center">
-                      Teravih namaz
+                    {translationService.getLabel('label-tarawih-prayer')}
                     </h6>
                   </IonCol>
                 </IonRow>
                 <IonRow >
                   <IonCol size="12" style={{ marginTop: 0 }}> 
-                    <h3 style={{fontStyle:"italic",fontSize:"14"} } className="prayer ion-no-padding ion-text-center">
-                      "O vjernici, kada se u petak na molitvu pozove, kupoprodaju ostavite i podjite molitvu obaviti"
+                    <h3 style={{fontStyle:"italic",fontSize:"12"} } className="prayer ion-no-padding ion-text-center">
+                    {translationService.getLabel('label-book2-lesson13-quote')}
                     </h3>
-                    <p className="quote-reference ion-text-center">Kur'an, 62:9</p>
+                    <p className="quote-reference ion-text-center">{translationService.getLabel('label-book2-lesson13-quote-reference')}</p>
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -36,21 +37,15 @@ export const TarawihPrayerPage: React.FC = () => {
           <div className="ion-padding">
             <IonItem className="lesson-note" lines="none">
                 <IonText>
-                <h2 className="lesson-note">Noću uz ramazan klanja se teravih-namaz. Teravih namaz je sunnet (sunneti-muekkede) a sastoji
-se od 20 rekata. Mogu se klanjati u džematu a može svako za sebe. Klanja se kao iknidjski ili
-jacijski sunneti.</h2>
+                <h2 className="lesson-note">{translationService.getLabel('label-book2-lesson13-section1-paragraph1')}</h2>
                                     
                     
                 </IonText>
             </IonItem>
             <IonItem className="lesson-note" lines="none">
                 <IonText>
-                <h2 className="lesson-note">Teravih namaz se zanijeti ovako:&quot;NEVEJTU EN USALLIJE LILLAHI TEALA SALATET-
-TERAVIHI IŠRINE REKATEN, EDAEN MUSTA-BILEL-KIBLETI (iktedejtu bi hazel-imami)
-ALLAHU EKBER.</h2>
-                <h2 className="lesson-note">Prijevod: &quot;Ja odlučih klanjati u ime Uzvišenog Allaha teravih namaz od 20 rekata na vrijeme
-okrenuvši se prema Kibli (klanjajući za ovim imamom) Allah je Najveći. Kada se završi teravih
-namaz klanja se Vitr namaz (u džematu).</h2>
+                <h2 className="lesson-note">{translationService.getLabel('label-book2-lesson13-section2-paragraph1')}</h2>
+                <h2 className="lesson-note">{translationService.getLabel('label-book2-lesson13-section2-paragraph2')}</h2>
                                     
                     
                 </IonText>

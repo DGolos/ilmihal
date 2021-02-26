@@ -1,5 +1,6 @@
 import { IonPage, IonHeader, IonToolbar, IonButtons, IonBackButton, IonContent, IonCard, IonCardTitle, IonCardContent, IonCardSubtitle, IonItem, IonText, IonCol, IonGrid, IonRow, IonChip, IonNote } from "@ionic/react";
 import React from "react";
+import { translationService } from "../../services/TranslationService";
 
 export const EidPrayerPage: React.FC = () => {
     return (
@@ -18,16 +19,16 @@ export const EidPrayerPage: React.FC = () => {
                 <IonRow className="ion-no-padding">
                   <IonCol size="12">
                     <h6 className="welcome ion-no-padding ion-text-center">
-                    Bajram namaz
+                    {translationService.getLabel('label-eid-prayer')}
                     </h6>
                   </IonCol>
                 </IonRow>
                 <IonRow >
                   <IonCol size="12" style={{ marginTop: 0 }}> 
-                    <h3 style={{fontStyle:"italic",fontSize:"14"} } className="prayer ion-no-padding ion-text-center">
-                      "O vjernici, kada se u petak na molitvu pozove, kupoprodaju ostavite i podjite molitvu obaviti"
+                    <h3 style={{fontStyle:"italic",fontSize:"12"} } className="prayer ion-no-padding ion-text-center">
+                    {translationService.getLabel('label-book2-lesson11-quote')}
                     </h3>
-                    <p className="quote-reference ion-text-center">Kur'an, 62:9</p>
+                    <p className="quote-reference ion-text-center">{translationService.getLabel('label-book2-lesson11-quote-reference')}</p>
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -44,51 +45,46 @@ export const EidPrayerPage: React.FC = () => {
                   <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Bajram namaz se klanja nakon sabaha za Ramazanski i Kurban bajram. Namazi se klanjaju istovjetno a razlika je jedino u nijjetu.
+                        {translationService.getLabel('label-book2-lesson11-section1-paragraph1')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="razimic" style={{marginLeft:"0px"}}>Ramazanski</IonChip>
+                        <IonChip color="razimic" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson11-section1-header1')}</IonChip>
                       </IonCol>
                     </IonRow>
                     
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Nevejtu en usallije lillahi te’ala salate ‘idil-fitri edaen mustakbilel-kibleti, iktedejtu bihaze-l-imami: Allahu ekber!
+                        {translationService.getLabel('label-book2-lesson11-section1-paragraph2')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
                     
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="razimic" style={{marginLeft:"0px"}}>Kurban</IonChip>
+                        <IonChip color="razimic" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson11-section1-header2')}</IonChip>
                       </IonCol>
                     </IonRow>
                     
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Nevejtu en usallije lillahi te’ala salate ‘idil-adha edaen mustakbilel-kibleti, iktedejtu bihaze-l-imami: Allahu ekber!
+                        {translationService.getLabel('label-book2-lesson11-section1-paragraph3')}
                         </IonNote>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
-                        <IonChip color="razimic" style={{marginLeft:"0px"}}>Klanjanje</IonChip>
+                        <IonChip color="razimic" style={{marginLeft:"0px"}}>{translationService.getLabel('label-book2-lesson11-section1-header3')}</IonChip>
                       </IonCol>
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
                         <IonNote>
-                        Prouči se Subhaneke i nakon toga se donesu tri tekbira izgovarajući: Allahu ekber. Nakon tekbira
-imam uči Fatihu i suru (odlomak iz Kur’ana) i obave se ostali dijelovi namaza sve do drugog
-rekata. Na drugom rekatu imam uči Fatihu i suru te donese opet tri tekbira izgovarajući: Allahu
-
-ekber. Sa četvrtim tekbirom imam se pregiba – ide na ruk’u, a džematlije ga prate. Nakon selama
-imam održi hutbu.
+                        {translationService.getLabel('label-book2-lesson11-section1-paragraph4')}
                         </IonNote>
                       </IonCol>
                     </IonRow>

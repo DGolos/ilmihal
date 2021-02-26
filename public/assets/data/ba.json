@@ -1213,6 +1213,22 @@
         "value":"Jacijski sunsunnet"
     },
     {
+        "name":"label-eid-prayer",
+        "value":"Bajram namaz"
+    },
+    {
+        "name":"label-jummah-prayer",
+        "value":"Džuma"
+    },
+    {
+        "name":"label-tarawih-prayer",
+        "value":"Teravih namaz"
+    },
+    {
+        "name":"label-funeral-prayer",
+        "value":"Dženaze namaz"
+    },
+    {
         "name":"label-isha-sunsunnah-nijjah",
         "value":"Jacijski sunsunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunsunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber."
     },
@@ -2046,6 +2062,311 @@
         "name":"label-book2-lesson9_section3-paragraph4",
         "value":"3. Na isti način ponovo dotaknemo dlanovima čistu zemlju, ili predmet od zemlje, pa potaremo lijevom desnu, a desnom lijevu ruku, sa vrha prstiju do iza laktova."
     },
+    {
+        "name":"label-book2-lesson11-quote",
+        "value":"\"On je Prvi i Posljednji, i Vidljivi i Nevidljivi; i On zna sve!\""
+    },
+    {
+        "name":"label-book2-lesson11-quote-reference",
+        "value":"Kur'an, 57:3"
+    },
+    {
+        "name":"label-book2-lesson11-section1-paragraph1",
+        "value":"Bajram namaz se klanja nakon sabaha za Ramazanski i Kurban bajram. Namazi se klanjaju istovjetno a razlika je jedino u nijjetu."
+    },
+    {
+        "name":"label-book2-lesson11-section1-header1",
+        "value":"Ramazanski"
+    },
+    {
+        "name":"label-book2-lesson11-section1-header2",
+        "value":"Kurban"
+    },
+    {
+        "name":"label-book2-lesson11-section1-header3",
+        "value":"Klanjanje"
+    },
+    {
+        "name":"label-book2-lesson11-section1-paragraph2",
+        "value":"Nevejtu en usallije lillahi te’ala salate ‘idil-fitri edaen mustakbilel-kibleti, iktedejtu bihaze-l-imami: Allahu ekber!"
+    },
+    {
+        "name":"label-book2-lesson11-section1-paragraph3",
+        "value":"Nevejtu en usallije lillahi te’ala salate ‘idil-adha edaen mustakbilel-kibleti, iktedejtu bihaze-l-imami: Allahu ekber!"
+    },
+    {
+        "name":"label-book2-lesson11-section1-paragraph4",
+        "value":"Prouči se Subhaneke i nakon toga se donesu tri tekbira izgovarajući: Allahu ekber. Nakon tekbira imam uči Fatihu i suru (odlomak iz Kur’ana) i obave se ostali dijelovi namaza sve do drugog rekata. Na drugom rekatu imam uči Fatihu i suru te donese opet tri tekbira izgovarajući: Allahu ekber. Sa četvrtim tekbirom imam se pregiba – ide na ruk’u, a džematlije ga prate. Nakon selama imam održi hutbu."
+    },
+    {
+        "name":"label-book2-lesson12-quote",
+        "value":"\"Na nebesima i na Zemlji, zaista, postoje dokazi za one koji vjeruju.\""
+    },
+    {
+        "name":"label-book2-lesson12-quote-reference",
+        "value":"Kur'an, 45:3"
+    },
+    {
+        "name":"label-book2-lesson12-section1-paragraph1",
+        "value":"Dženaze namaz se klanja za umrlu osobu."
+    },
+    {
+        "name":"label-book2-lesson12-section2-paragraph1",
+        "value":"Nevejtu en usallije lillahi te’ala salatel-l-dženazeti, senaen lillahi te’ala, ve salavaten ‘alen-n-nebijji, ve du’aen li hazel-l-mejjiti (za žensko: li hazihil-l-mejjiteti), edaen mustakbilel-kibleti, iktedejtu bi hazel imami – Allahu ekber!"
+    },
+    {
+        "name":"label-book2-lesson12-section3-paragraph1",
+        "value":"Dženaze-namaz nema niti jednog rekata. Klanja se stojeći (na kijamu), a sastoji se od četiri tekbira (Allahu ekber) i selama."
+    },
+    {
+        "name":"label-book2-lesson12-section3-paragraph2",
+        "value":"Potrebno je imati abdest, kao i za svaki drugi namaz."
+    },
+    {
+        "name":"label-book2-lesson12-section3-paragraph3",
+        "value":"Učiniti nijjet i izgovoriti prvi tekbir."
+    },
+    {
+        "name":"label-book2-lesson12-section3-paragraph4",
+        "value":"Poslije početnog tekbira uči se subhaneke, iza riječi “ve te’ala džedduke”, dodamo “ve dželle senauke, ve la illahe gajruke”."
+    },
+    {
+        "name":"label-book2-lesson12-section3-paragraph5",
+        "value":"Zatim se izgovori drugi tekbir, pa se prouče “Salavati”, koji se uče na drugim namazima na posljednjem sjedenju."
+    },
+    {
+        "name":"label-book2-lesson12-section3-paragraph6",
+        "value":"Poslije “Salavata” donose se treći tekbir i onda se prouči “Dova”."
+    },
+    {
+        "name":"label-book2-lesson12-section3-paragraph7",
+        "value":"Nakon “Dove” prouči se četvrti tekbir i preda se selam."
+    },
+    {
+        "name":"label-book2-lesson12-section3-paragraph8",
+        "value":"Nakon izgovorenog četvrtkog tekbira, predajemo selam na desnu stranu i spuštamo desnu ruku, zatim predajemo selam na lijevu stranu i spuštamo lijevu ruku, nakon toga proučimo Fatihu i sa tim bi završili čin klanjanja Dženaze – namaza."
+    },
+    {
+        "name":"label-book2-lesson12-section4-header",
+        "value":"Dova"
+    },
+    {
+        "name":"label-book2-lesson12-section4-paragraph1",
+        "value":"Allahummagfir lihajjina, ve mejjitina, ve šahidina, ve gaibina, ve sagirina,ve kebirina, ve zekerina, ve unsana. Allahumme men ahjejtehu minna fe ahjijhi alel-islam, ve men teveffejtehu minna feteveffehu alel-iman. Ve hussa hazel-mejjite (hazihil-mejjitete) bir-revhi, ve r-rahati, vel magfireti, ver-ridvan. Allahumme in kane (kanet) muhsinen (muhsineten) fezid fi ihsanih (ihsaniha), ve in kane (kanet) musi`en (musi`eten) fetedžavez anhu (anha) ve lekkihil-emne (lekkihel-emne), vel bušra, vel-keramete, vez-zulfa bi rahmetike ja erhamer-rahimin. (za žensko se uči ovo što je u zagradama)"
+    },
+    {
+        "name":"label-book2-lesson12-section4-paragraph2",
+        "value":"Prevod: Allahu moj, oprosti našim živima i mrtvima, prisutnima i odsutnima, mladima i starima, muškarcima i ženskima. Allahu moj, kome od nas podariš život, daj mu ga u islamu, a kome od nas oduzmeš život oduzmi mu ga u imanu. Obaspi ovog (ovu) umrlog (umrlu) spokojstvom, smirenošću, oprostom grijeha i Svojim zadovoljstvom. Allahu moj, ako je dobro činio (činila), povećaj mu (joj) njegova (njezina) dobra djela, a ako je činio (činila) loša djela, prijeđi mu (joj) preko njih i dočekaj ga (je) sa sigurnošću, radošću, počasti i odlikovanjima, tako ti Tvoje milosti, Najmilostiviji."
+    },
+    {
+        "name":"label-book2-lesson12-section5-header",
+        "value":"Ta'zijja/Saosjećanje"
+    },
+    {
+        "name":"label-book2-lesson12-section5-paragraph1",
+        "value":"Negdje se to izražava učenjem ajeta: \"Svi smo mi Allahovi i svi se Njemu vraćamo\". U Sarajevu se ta'zija čini riječima: \"Bašum sagosum\", a odvraća riječima: \"Dostum sagosum\". Može se to izraziti i našim riječima: Neka se Allah smiluje i oprosti Vašom umrlom, a Vama podari sabur."
+    },
+
+    {
+        "name":"label-book2-lesson13-quote",
+        "value":"\"Allah ne voli nikakve razmetljivce hvalisavce.\""
+    },
+    {
+        "name":"label-book2-lesson13-quote-reference",
+        "value":"Kur'an, 57:23"
+    },
+    {
+        "name":"label-book2-lesson13-section1-paragraph1",
+        "value":"Noću uz ramazan klanja se teravih-namaz. Teravih namaz je sunnet (sunneti-muekkede) a sastoji se od 20 rekata. Mogu se klanjati u džematu a može svako za sebe. Klanja se kao iknidjski ili jacijski sunneti."
+    },
+    {
+        "name":"label-book2-lesson13-section2-paragraph1",
+        "value":"Teravih namaz se zanijeti ovako:&quot;NEVEJTU EN USALLIJE LILLAHI TEALA SALATET-TERAVIHI IŠRINE REKATEN, EDAEN MUSTA-BILEL-KIBLETI (iktedejtu bi hazel-imami) ALLAHU EKBER."
+    },
+    {
+        "name":"label-book2-lesson13-section2-paragraph2",
+        "value":"Prijevod: &quot;Ja odlučih klanjati u ime Uzvišenog Allaha teravih namaz od 20 rekata na vrijeme okrenuvši se prema Kibli (klanjajući za ovim imamom) Allah je Najveći. Kada se završi teravih namaz klanja se Vitr namaz (u džematu)."
+    },
+    {
+        "name":"label-book2-lesson14-quote",
+        "value":"\"O vjernici, kada se u petak na molitvu pozove, kupoprodaju ostavite i podjite molitvu obaviti\""
+    },
+    {
+        "name":"label-book2-lesson14-quote-reference",
+        "value":"Kur'an, 62:9"
+    },
+    {
+        "name":"label-book2-lesson14_section1-paragraph1",
+        "value":"Džuma namaz je sedmični namaz koji su muslimani-muškarci obavezni klanjati petkom u podnevsko vrijeme umjesto podne namaza i može se klanjati samo u džematu. Džumu-namaz mogu klanjati i žene ali nisu obavezne."
+    },
+    {
+        "name":"label-book2-lesson14_section2-paragraph1",
+        "value":"- Četiri rekata sunneta (sunnetil-džumuati)"
+    },
+    {
+        "name":"label-book2-lesson14_section2-paragraph2",
+        "value":"- Dva rekata farza (fardil-džumuati)"
+    },
+    {
+        "name":"label-book2-lesson14_section2-paragraph3",
+        "value":"- Četiri rekata sun-sunneta (sun-sunnetil džumuati)"
+    },
+    {
+        "name":"label-book2-lesson14_section2-paragraph4",
+        "value":" - Četiri rekata ahiriz-zuhri (ahiriz-zuhri)"
+    },
+    {
+        "name":"label-book2-lesson14_section2-paragraph5",
+        "value":"- Dva rekata sunnetil-vakti (sunnetil-vakti)"
+    },
+    {
+        "name":"label-book2-lesson14-section3-header",
+        "value":"Sunnet"
+    },
+    {
+        "name":"label-book2-lesson14_section3-paragraph1",
+        "value":"-Nakon proučenog ezana klanja se prvi džumanski sunnet koji je isti kao i podnevski sunnet i sastoji se od četiri rekata koji se zanijeti ovako: Nevejtu en usallije lillahi te’ala salate sunnetil- džumu’ati edaen mustakbilel kibleti, Allahu ekber!"
+    },
+    {
+        "name":"label-book2-lesson14_section3-paragraph2",
+        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section3-paragraph3",
+        "value":"Drugi rekat: bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section3-paragraph4",
+        "value":"Sjedenje:Sjedenje: et-tehijjatu"
+    },
+    {
+        "name":"label-book2-lesson14_section3-paragraph5",
+        "value":"Treći rekat: bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section3-paragraph6",
+        "value":"Četvrti rekat: bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section3-paragraph7",
+        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam"
+    },
+    {
+        "name":"label-book2-lesson14-section4-header",
+        "value":"Hutba"
+    },
+    {
+        "name":"label-book2-lesson14_section4-paragraph1",
+        "value":"Pošto se klanja prvi sunnet, mujezin uči drugi ezan a imam uzlazi na minber. Kad mujezin završi drugi ezan, imam (hatib), stojeći na minberu, drži hutbu (predavanje) u kojem prisutne vjernike upoznaje o važnim tekućim pitanjima Islamske zajednice i daje im upute i savjete o islamskom vjerovanju i obavezama."
+    },
+    {
+        "name":"label-book2-lesson14-section5-header",
+        "value":"Farz"
+    },
+    {
+        "name":"label-book2-lesson14_section5-paragraph1",
+        "value":"Po završetku hutbe muezzin prouči ikamet i pristupa se klanjanju džumanskog farza koji se može klanjati samo za imamom (u džematu). Ima dva rekata a uči se sljedeće: Nijet: Nevejtu en usallije lillahi te’ala salate fardil- džumu’ati edaen mustakbilel kibleti iktedejtubihazel imami, Allahu ekber!"
+    },
+    {
+        "name":"label-book2-lesson14_section5-paragraph2",
+        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section5-paragraph3",
+        "value":"Drugi rekat: bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section5-paragraph4",
+        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam."
+    },
+    {
+        "name":"label-book2-lesson14-section6-header",
+        "value":"Sun-sunnet"
+    },
+    {
+        "name":"label-book2-lesson14_section6-paragraph1",
+        "value":"Poslije farza klanjamo, svako za se, četiri rakata džumanskih sun-sunneta koji se zanijete ovako: Nevejtu en usallije lillahi te’ala salate sun-sunnetil- džumu’ati edaen mustakbilel kibleti,Allahu ekber!"
+    },
+    {
+        "name":"label-book2-lesson14_section6-paragraph2",
+        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section6-paragraph3",
+        "value":"Drugi rekat: bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section6-paragraph4",
+        "value":"Sjedenje: Sjedenje: et-tehijjatu"
+    },
+    {
+        "name":"label-book2-lesson14_section6-paragraph5",
+        "value":"Treći rekat: bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section6-paragraph6",
+        "value":"Četvrti rekat: bismilla – fatiha – sura."
+    },
+    {
+        "name":"label-book2-lesson14_section6-paragraph7",
+        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam."
+    },
+
+
+    {
+        "name":"label-book2-lesson14-section7-header",
+        "value":"Ahiri zuhr"
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph1",
+        "value":"Zanijeti se: Nevejtu en usallije lillahi te’ala salate ahiriz- zuhri edaen mustakbilel kibleti,Allahu ekber!"
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph2",
+        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph3",
+        "value":"Drugi rekat: bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph4",
+        "value":"Sjedenje: Sjedenje: et-tehijjatu"
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph5",
+        "value":"Treći rekat: bismilla – fatiha"
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph6",
+        "value":"Četvrti rekat: bismilla – fatiha"
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph7",
+        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam."
+    },
+
+    {
+        "name":"label-book2-lesson14-section8-header",
+        "value":"Sunnetil- vakt"
+    },
+    {
+        "name":"label-book2-lesson14_section8-paragraph1",
+        "value":"Nijet: Nevejtu en usallije lillahi te’ala salate sunnetil- vakti edaen mustakbilel kibleti, Allahu ekber!"
+    },
+    {
+        "name":"label-book2-lesson14_section8-paragraph2",
+        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section8-paragraph3",
+        "value":"Drugi rekat: bismilla – fatiha – sura"
+    },
+    {
+        "name":"label-book2-lesson14_section8-paragraph4",
+        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam."
+    },
+
     {
         "name":"label-book2-lesson15-quote",
         "value":"\"O vjernici! Propisuje vam se post.\""
