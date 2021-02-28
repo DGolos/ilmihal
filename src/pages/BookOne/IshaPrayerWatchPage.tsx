@@ -165,14 +165,14 @@ export const IshaPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
 
             {(match.params.type==="sunnah" ||match.params.type==="fardh" )&&
               <>
-              <QijamWatch rakah="3" type={match.params.type} prayer="5"/>
-              <RukuWatch rakah="3"/>
-              <QijamWatch rakah="4" type={match.params.type} prayer="5"/>
-              <RukuWatch rakah="4"/>
-              <QijamWatch rakah="4" type={match.params.type} prayer="5"/>
-              <RukuWatch rakah="4"/>
-              <TashahudWatch rakah="4" last={true}/>
-              <SelamWatch  rakah="4"/></>}
+              <QijamWatch rakah="3" type={match.params.type} prayer="5" color="purple"/>
+              <RukuWatch rakah="3" color="purple"/>
+              <QijamWatch rakah="4" type={match.params.type} prayer="5" color="purple"/>
+              <RukuWatch rakah="4" color="purple"/>
+              <QijamWatch rakah="4" type={match.params.type} prayer="5" color="purple"/>
+              <RukuWatch rakah="4" color="purple"/>
+              <TashahudWatch rakah="4" last={true} color="purple"/>
+              <SelamWatch  rakah="4" color="purple"/></>}
               
               
             </IonSlides>

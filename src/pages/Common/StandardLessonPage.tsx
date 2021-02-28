@@ -34,7 +34,7 @@ export const StandardLessonPage: React.FC<
   });
 
   const sectionListItems = lesson?.sections.map((section, index) => (
-    <Section key={index} section={section} />
+    <Section key={index} section={section} type="0"/>
   ));
 
   return (

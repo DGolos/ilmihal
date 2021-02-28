@@ -8,10 +8,11 @@ interface SectionProps {
   section?: LessonSection;
   isPlaying?:boolean;
   toggleFunction?:any;
-  color?:string,
+  color?:string;
+  type:string;
 }
 
-export const Section: React.FC<SectionProps> = ({ section,isPlaying,toggleFunction,color }) => {
+export const Section: React.FC<SectionProps> = ({ section,isPlaying,toggleFunction,color,type }) => {
   const sectionParagraphsItems = section?.paragraphs.map((paragraph) => (
     <h2 className="lesson-note">{translationService.getLabel(paragraph)}</h2>
   ));
@@ -33,7 +34,7 @@ export const Section: React.FC<SectionProps> = ({ section,isPlaying,toggleFuncti
                     color={color}
                   />
                 </IonButton>
-      <IonText className={"ion-text-left"}>{sectionParagraphsItems}</IonText>
+      <IonText className={type==="0"?"ion-text-left":"ion-text-center"}>{sectionParagraphsItems}</IonText>
     </IonItem>
   );
 };

@@ -101,7 +101,7 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
     }
   };
   const standardSectionItems=standardSections.map((section,index)=>(
-    <Section key={index} section={section} isPlaying={isPlaying} toggleFunction={toglePlayPause} color={lesson.color}/>
+    <Section key={index} section={section} isPlaying={isPlaying} toggleFunction={toglePlayPause} color={lesson.color} type="0"/>
   ));
   return (
     <IonPage>
@@ -154,17 +154,17 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
             </IonSegmentButton>
           </IonSegment>
         </div>
-        <div 
-          className="ion-padding"
+        <div
+          className="ion-padding ion-text-center"
           hidden={currentTranslationSection !== "arabic"}
         >
-          <Section section={segmentSections[0]}/>
+          <Section section={segmentSections[0]} type="1"/>
         </div>
         <div
           className="ion-padding"
           hidden={currentTranslationSection !== "translation"}
         >
-          <Section section={segmentSections[1]}/>
+          <Section section={segmentSections[1]} type="1"/>
         </div>
       </IonContent>
     </IonPage>

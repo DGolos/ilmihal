@@ -27,6 +27,7 @@ import {
 import { Howl } from "howler";
 import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
+import { translationService } from "../../services/TranslationService";
 
 const DhikrPage: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -84,14 +85,14 @@ const DhikrPage: React.FC = () => {
           color="purple"
         >
           <IonCardTitle>
-            <h1 className="lesson">Zikr</h1>
+            <h1 className="lesson">{translationService.getLabel('label-book1-lesson24-title')}</h1>
           </IonCardTitle>
           <IonCardContent>
             <IonCardSubtitle>
               <h3 style={{ fontStyle: "italic" }}>
-                "O vjernici, često Allaha spominjite i hvalite"
+              {translationService.getLabel('label-book1-lesson24-quote')}
               </h3>
-              <p className="quote-reference">Kur'an 33:41</p>
+              <p className="quote-reference">{translationService.getLabel('label-book1-lesson24-quote-reference')}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
@@ -99,8 +100,7 @@ const DhikrPage: React.FC = () => {
           <IonItem className="lesson-note" lines="none">
             <IonText>
               <h2 className="lesson-note">
-                Zikr je veličanje i slavljenje Allaha dž. š. nakon što predamo
-                selam i time završimo namaz.
+              {translationService.getLabel('label-book1-lesson24_section1-paragraph1')}
               </h2>
             </IonText>
           </IonItem>
@@ -119,7 +119,7 @@ const DhikrPage: React.FC = () => {
                   <IonRow className="ayah">
                     <IonCol size="12">
                       <IonChip color="purple">
-                        <IonText>Arapski</IonText>
+                        <IonText>{translationService.getLabel('label-header-arabic')}</IonText>
                       </IonChip>
                       <IonButton
                         className="no-shadow ion-float-right"
@@ -152,7 +152,7 @@ const DhikrPage: React.FC = () => {
                   <IonRow className="ayah">
                     <IonCol size="12">
                       <IonChip color="purple">
-                        <IonLabel>Bosanski</IonLabel>
+                        <IonLabel>{translationService.getLabel('label-header-bosnian')}</IonLabel>
                       </IonChip>
                     </IonCol>
                   </IonRow>

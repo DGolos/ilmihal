@@ -322,7 +322,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/StandardLessonPage/2/8`}
                   color="light"
                   class="category"
                 >
@@ -581,7 +581,7 @@ const MainCategoryPage: React.FC = () => {
                 >
                   <IonRow className="ion-no-padding">
                     <img
-                      src="/assets/images/Shahadah.png"
+                      src="/assets/images/99.png"
                       height="40px"
                       width="40px"
                     />
