@@ -15,7 +15,7 @@ const BookTwoMainPage: React.FC = () => {
             <IonTitle color="light">{translationService.getLabel("label-book2-full-title")}</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonContent className="bg-image-burgundy-gradient" fullscreen>
+        <IonContent className="bg-image-burgundy" fullscreen>
         <IonGrid>
           <IonRow>
             <IonCol size="4">

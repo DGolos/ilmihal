@@ -17,7 +17,7 @@ useIonViewWillEnter(() => {
     <IonPage>
       <IonContent className={period}>
         <div className="center">
-          <IonItem className="welcome">
+          <IonItem className="welcome" lines="none">
             <IonGrid>
               <IonRow className="ion-no-padding">
                 <IonCol size="12">

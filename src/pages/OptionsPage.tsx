@@ -5,7 +5,9 @@ import './OptionsPage.css';
 const OptionsPage: React.FC = () => {
   return (
     <IonPage>
-      
+      <IonContent className="bg-image-brown" fullscreen>
+
+      </IonContent>
     </IonPage>
   );
 };

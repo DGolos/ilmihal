@@ -30,7 +30,7 @@ const BookOneMainPage: React.FC = () => {
           </IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="bg-image-purple-gradient" fullscreen>
+      <IonContent className="bg-image-purple" fullscreen>
         <IonGrid>
           <IonRow>
             <IonCol size="4">
