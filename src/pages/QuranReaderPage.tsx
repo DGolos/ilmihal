@@ -1,10 +1,8 @@
 import { RouteComponentProps } from "react-router";
 import {IonBackButton, IonButton, IonButtons, IonCard, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonPage, IonRange, IonRow, IonToolbar, useIonViewWillEnter} from '@ionic/react';
 import React, { useRef, useState } from "react";
-import './QuranReaderPage.css';
 import { Surah } from "../objects/Surah";
 import { dataService } from "../services/dataService";
-import { setConstantValue } from "typescript";
 import { Ayah } from "../objects/Ayah";
 import { plainToClass } from "class-transformer";
 import { caretForwardCircleOutline } from "ionicons/icons";
@@ -93,38 +91,38 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
         style={{ marginLeft: "15px", marginRight: "15px" }}
       >
         <IonGrid>
-          <IonRow className="ayah" hidden={showArabic === false}>
+          <IonRow hidden={showArabic === false}>
             <IonCol size="12">
               <h3 style={{fontSize:fontSize+20}} className="arabic-ayah ion-text-right ion-no-padding">
                 {ayah.arabic + getArabicAyahNumber(ayah.id)}
               </h3>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah" hidden={showTransliteration === false}>
+          <IonRow hidden={showTransliteration === false}>
             <IonCol size="12">
               <h3 style={{fontSize:fontSize}} className="translation">{ayah.transliteration}</h3>
             </IonCol>
           </IonRow>
-          <IonRow  className="ayah" hidden={showTranslation === false}>
+          <IonRow  hidden={showTranslation === false}>
             <IonCol size="12" >
               <h3 style={{fontSize:fontSize}} className="translation">{ayah.translation}</h3>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow className={`border-top-${surah?.color}`}>
             <IonCol size="2">
-              <h4 className="ayah-details">
+              <h4 className={`ayah-details-${surah?.color}`}>
                 {ayah.surahId}:{ayah.id}
               </h4>
             </IonCol>
             <IonCol size="8" className="text-centered" >
-              <h4 className="ayah-details ion-text-center" hidden={showTranslation === false}>
+              <h4 className={`ayah-details-${surah?.color} ion-text-center`} color={surah?.color} hidden={showTranslation === false}>
                 Prevod:Besim Korkut
               </h4>
             </IonCol>
             <IonCol size="2">
               
-                <IonButton class="no-shadow" onClick={() => {playAyah(ayah.id)}} fill="solid" color="light">
-              <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color="brown"/>
+                <IonButton className="no-shadow" onClick={() => {playAyah(ayah.id)}} fill="solid" color="light">
+              <IonIcon slot="icon-only" icon={caretForwardCircleOutline} color={surah?.color}/>
               </IonButton>
             
               
@@ -133,18 +131,18 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
         </IonGrid>
       </IonItem>
     ));
-
+      
     return (
       <IonPage>
         <IonHeader className="ion-no-border standard">
-          <IonToolbar className="prayer">
+          <IonToolbar >
             <IonButtons slot="start">
               <IonBackButton color={surah?.color} defaultHref="/Quran/Reader" />
             </IonButtons>
           </IonToolbar>
           
         </IonHeader>
-        <IonContent className="bg-image-standard">
+        <IonContent className="bg-image-standard" fullscreen>
         <IonGrid>
             <IonRow >
               <IonCol size="4">
