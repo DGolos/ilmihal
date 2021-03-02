@@ -16,7 +16,7 @@ const IslamMainPage: React.FC = () => {
             </IonButtons>
           </IonToolbar>
         </IonHeader>
-        <IonContent className="bg-image-purple-gradient" fullscreen>
+        <IonContent className="bg-image-purple" fullscreen>
         <IonCard className="lesson-header ion-padding transparent ion-text-center" >
         <IonCardTitle>
               <h1 className="lesson" >{translationService.getLabel('label-book1-lesson12-title')}</h1>

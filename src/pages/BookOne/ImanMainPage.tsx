@@ -13,7 +13,7 @@ const ImanMainPage: React.FC = () => {
             </IonButtons>
           </IonToolbar>
         </IonHeader>
-        <IonContent className="bg-image-burgundy-gradient" fullscreen>
+        <IonContent className="bg-image-burgundy" fullscreen>
         
         <IonCard className="lesson-header ion-padding transparent ion-text-center" >
         <IonCardTitle>
