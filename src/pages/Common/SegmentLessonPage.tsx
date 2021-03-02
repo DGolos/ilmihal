@@ -58,6 +58,10 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
     setSegmentSections(lesson.sections.filter((section)=>{
         return section.type==="1";
     }));
+
+    return ()=>{
+      playerRef.current.unload();
+    };
   }, [lesson]);
 
   useIonViewWillEnter(() => {
@@ -83,7 +87,7 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
       const onPlay = () => {};
 
       playerRef.current = new Howl({
-        src: `/assets/audio/lessons/${lesson.audio}.m4a`,
+        src: `/assets/audio/lessons/${lesson.audio}.mp3`,
         preload: true,
         html5: true,
         onend: onEnd,
