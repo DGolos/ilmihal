@@ -7,4 +7,5 @@ export class Surah{
     numberOfAyah:number=-1;
     revelationCity:string="";
     color:string="";
+    visible:boolean=false;
 }

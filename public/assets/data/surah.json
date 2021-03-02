@@ -7,7 +7,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":7,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
     },
     {
         "id":2,
@@ -17,7 +18,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":286,
         "revelationCity":"Medina",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":false
     },
     {
         "id":3,
@@ -27,7 +29,9 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":200,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":false
+        
     },
     {
         "id":4,
@@ -37,7 +41,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":200,
         "revelationCity":"Medina",
-        "color":"purple"
+        "color":"purple",
+        "visible":false
     },
     {
         "id":6,
@@ -47,7 +52,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":165,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":false
     },
     {
         "id":10,
@@ -57,7 +63,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":123,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":false
     },
     {
         "id":11,
@@ -67,7 +74,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":111,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":false
     },
     {
         "id":13,
@@ -77,7 +85,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":43,
         "revelationCity":"Medina",
-        "color":"purple"
+        "color":"purple",
+        "visible":false
     },
     {
         "id":16,
@@ -87,7 +96,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":128,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":false
     },
     {
         "id":17,
@@ -97,7 +107,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":111,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":false
     },
     {
         "id":23,
@@ -107,7 +118,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":118,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":false
     },
     {
         "id":24,
@@ -117,7 +129,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":64,
         "revelationCity":"Medina",
-        "color":"purple"
+        "color":"purple",
+        "visible":false
     },
     {
         "id":18,
@@ -127,7 +140,8 @@
         "note":"",
         "numberOfAyah":110,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
     },
     {
         "id":31,
@@ -137,7 +151,8 @@
         "note":"",
         "numberOfAyah":34,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
     },
     {
         "id":32,
@@ -147,7 +162,8 @@
         "note":"",
         "numberOfAyah":30,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
     },
     {
         "id":33,
@@ -157,7 +173,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":73,
         "revelationCity":"Medina",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":false
     },
     {
         "id":36,
@@ -167,7 +184,8 @@
         "note":"",
         "numberOfAyah":83,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
     },
     {
         "id":49,
@@ -177,7 +195,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":18,
         "revelationCity":"Medina",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":false
     },
     {
         "id":57,
@@ -187,7 +206,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":29,
         "revelationCity":"Mekka",
-        "color":"purple"
+        "color":"purple",
+        "visible":false
     },
     {
         "id":59,
@@ -197,7 +217,8 @@
         "note":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva.",
         "numberOfAyah":24,
         "revelationCity":"Medina",
-        "color":"brown"
+        "color":"brown",
+        "visible":false
     },
     {
         "id":67,
@@ -207,7 +228,8 @@
         "note":"",
         "numberOfAyah":30,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
     },
     {
         "id":93,
@@ -217,7 +239,8 @@
         "note":"",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
     },
     {
         "id":94,
@@ -227,7 +250,8 @@
         "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
     },
     {
         "id":95,
@@ -237,7 +261,8 @@
         "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
         
     },
     {
@@ -248,7 +273,8 @@
         "note":"",
         "numberOfAyah":19,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
         
     },
     {
@@ -259,7 +285,8 @@
         "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
         
     },
     {
@@ -270,7 +297,8 @@
         "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
         
     },
     {
@@ -281,7 +309,8 @@
         "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
         
     },
     {
@@ -292,7 +321,8 @@
         "note":"",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
         
     },
     {
@@ -303,7 +333,8 @@
         "note":"",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
         
     },
     {
@@ -314,7 +345,8 @@
         "note":"",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
         
     },
     {
@@ -325,7 +357,8 @@
         "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
         
     },
     {
@@ -336,7 +369,8 @@
         "note":"",
         "numberOfAyah":9,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
         
     },
     {
@@ -347,7 +381,8 @@
         "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
         
     },
     {
@@ -358,7 +393,8 @@
         "note":"",
         "numberOfAyah":4,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
         
     },
     {
@@ -369,7 +405,8 @@
         "note":"",
         "numberOfAyah":7,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
         
     },
     {
@@ -380,7 +417,8 @@
         "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
         
     },
     {
@@ -391,7 +429,8 @@
         "note":"",
         "numberOfAyah":6,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
         
     },
     {
@@ -402,7 +441,8 @@
         "note":"",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
         
     },
     {
@@ -413,7 +453,8 @@
         "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
         
     },
     {
@@ -424,7 +465,8 @@
         "note":"",
         "numberOfAyah":4,
         "revelationCity":"Mekka",
-        "color":"burgundy"
+        "color":"burgundy",
+        "visible":true
         
     },
     {
@@ -435,7 +477,8 @@
         "note":"",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"razimic"
+        "color":"razimic",
+        "visible":true
         
     },
     {
@@ -446,7 +489,8 @@
         "note":"",
         "numberOfAyah":6,
         "revelationCity":"Mekka",
-        "color":"brown"
+        "color":"brown",
+        "visible":true
         
     }
 

@@ -29,7 +29,7 @@ class DataService{
 
     
     public getAllSuras():Surah[]{
-        return this.suras;
+        return this.suras.filter(surah=>surah.visible===true);
     }
 
     public getSurahById(id:number):Surah{

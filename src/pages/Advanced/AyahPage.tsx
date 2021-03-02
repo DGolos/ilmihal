@@ -7,6 +7,7 @@ import { Howl } from "howler";
 import { Surah } from "../../objects/surah";
 import { Ayah } from "../../objects/Ayah";
 import { dataService } from "../../services/dataService";
+import { translationService } from "../../services/TranslationService";
 
 export const AyahPage: React.FC<RouteComponentProps<{ surahId: string,firstAyahId:string,lastAyahId:string }>> = ({ match }) => {
 
@@ -101,7 +102,7 @@ export const AyahPage: React.FC<RouteComponentProps<{ surahId: string,firstAyahI
           </IonRow>
           <IonRow  className="ayah" >
             <IonCol size="12" >
-              <h3 style={{fontSize:fontSize}} className="translation">{ayah.translation}</h3>
+              <h3 style={{fontSize:fontSize}} className="translation">{translationService.getLabel(`label-surah${surah?.id}-ayah${ayah.id}`)}</h3>
             </IonCol>
           </IonRow>
           <IonRow>
