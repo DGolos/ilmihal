@@ -3,49 +3,42 @@
         "id":1,
         "surahId":1,
         "arabic":"بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
-        "translation":"U ime Allaha,Milostivog,Samilosnog",
         "transliteration":"Bismillahi rahmani rahim"
     },
     {
         "id":2,
         "surahId":1,
         "arabic":"ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِين",
-        "translation":"Tebe, Allaha,Gospodara svjetova, hvalimo",
         "transliteration":"Elhamdulollahi rabbi alemin"
     },
     {
         "id":3,
         "surahId":1,
         "arabic":"ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
-        "translation":"Milostivog,Samilosnog",
         "transliteration":"Er rahmani rahim"
     },
     {
         "id":4,
         "surahId":1,
         "arabic":"مَٰلِكِ يَوْمِ ٱلدِّينِ",
-        "translation":"Vladara Dana sudnjeg",
         "transliteration":"Maliki jevimid din"
     },
     {
         "id":5,
         "surahId":1,
         "arabic":"إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
-        "translation":"Tebi se klanjamo i od tebe pomoc trazimo",
         "transliteration":"Ijjake nabudu ve ijjake nestain"
     },
     {
         "id":6,
         "surahId":1,
         "arabic":"ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
-        "translation":"Uputi nas na Pravi put",
         "transliteration":"Ihdinas siratal mustakim"
     },
     {
         "id":7,
         "surahId":1,
         "arabic":"صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
-        "translation":"na Put onih kojima si milost Svoju darovao,a ne onih koji su protiv sebe srdzbu izazvali,niti onih koji su zalutali",
         "transliteration":"Siratal ezine en amte alejhim,gajril magdubi alejhim ve leddallin"
     },
 
@@ -54,35 +47,30 @@
         "id":1,
         "surahId":2,
         "arabic":"الٓمٓ",
-        "translation":"Elif Lam Mim.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":2,
         "surahId":2,
         "arabic":"ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
-        "translation":"Ova Knjiga, u koju nema nikakve sumnje, uputstvo je svima onima koji se budu Allaha bojali;",
         "transliteration":"Zalikel kitabu la rajbe fihi hudel lil muttekin"
     },
     {
         "id":3,
         "surahId":2,
         "arabic":"ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
-        "translation":"onima koji u nevidljivi svijet budu vjerovali i molitvu obavljali i udjeljivali dio od onoga što im Mi budemo davali; ",
         "transliteration":"Ellezine ju'minune bil gajbi ve jukimunas salate ve mimma razaknahum junfikun"
     },
     {
         "id":4,
         "surahId":2,
         "arabic":"وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْءَاخِرَةِ هُمْ يُوقِنُونَ",
-        "translation":"i onima koji budu vjerovali u ono što se objavljuje tebi i u ono što je objavljeno prije tebe, i onima koji u onaj svijet budu čvrsto vjerovali.",
         "transliteration":"Velelzine ju'minune bi ma unzile ilejke ve ma unzile min kablik* ve bil ahirati hum jukinun"
     },
     {
         "id":5,
         "surahId":2,
         "arabic":"أُولَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
-        "translation":"Njima ce Gospodar njihov na Pravi put ukazati i oni ce ono što žele ostvariti.",
         "transliteration":"Ulaike ala hudem mir rabbihim ve ulaike humul muflihun"
     },
 
@@ -90,7 +78,6 @@
         "id":30,
         "surahId":2,
         "arabic":"وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً ۖ قَالُوٓا أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
-        "translation":"A kada Gospodar tvoj reče melekima: \"Ja ću na Zemlji namjesnika postaviti!\" - oni rekoše: \"Zar će Ti namjesnik biti onaj koji će na njoj nered činiti i krv proljevati? A mi Tebe veličamo i hvalimo i, kako Tebi dolikuje, štujemo.\" On reče: \"Ja znam ono što vi ne znate.\" ",
         "transliteration":"Ve iz kale rabbuke lil melaiketi inni džailun fil erdi halifeh kalu e tedž'alu fiha mej jufsidu fiha ve jesfikud dima' ve nahnu nusebbihu bi hamdike ve nukaddisu lek kale inni a'lemu ma la ta'lemun"
     },
 
@@ -98,106 +85,91 @@
         "id":31,
         "surahId":2,
         "arabic":"وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى ٱلْمَلَٰٓئِكَةِ فَقَالَ أَنۢبِـُٔونِى بِأَسْمَآءِ هَٰٓؤُلَآءِ إِن كُنتُمْ صَٰدِقِينَ",
-        "translation":"I pouči On Adema nazivima svih stvari, a onda ih predoči melekima i reče: \"Kažite Mi nazive njihove, ako istinu govorite!\"",
         "transliteration":"Ve alleme ademel esmae kulleha summe aradahum alel melaiketi fe kale embiuni bi esmai haulai in kuntum sadikin"
     },
     {
         "id":32,
         "surahId":2,
         "arabic":"قَالُوا سُبْحَٰنَكَ لَا عِلْمَ لَنَآ إِلَّا مَا عَلَّمْتَنَآ ۖ إِنَّكَ أَنتَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
-        "translation":"I pouči On Adema nazivima svih stvari, a onda ih predoči melekima i reče: \"Kažite Mi nazive njihove, ako istinu govorite!\"",
         "transliteration":"Kalu subhaneke la ilme lena illa ma alemtena* inneke entel alimul hakim"
     },
     {
         "id":33,
         "surahId":2,
         "arabic":"الَ يَٰٓـَٔادَمُ أَنۢبِئْهُم بِأَسْمَآئِهِمْ ۖ فَلَمَّآ أَنۢبَأَهُم بِأَسْمَآئِهِمْ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ غَيْبَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنتُمْ تَكْتُمُونَ",
-        "translation":"\"O Ademe,\" - reče On - \"kaži im ti nazive njihove!\" I kad im on kaza nazive njihove, Allah reče: \"Zar vam nisam rekao da samo Ja znam tajne nebesa i Zemlje i da samo Ja znam ono što javno činite i ono što krijete!\"",
         "transliteration":"Kale ja ademu embi'hum bi esmaihim* felemma embeehum bi esmaihim kale e lem ekul lekum inni a'lemu gajbes semavati vel erdi ve a'lemu ma tubdune ve ma kuntum tektumun"
     },
     {
         "id":34,
         "surahId":2,
         "arabic":"وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا لِءَادَمَ فَسَجَدُوٓا إِلَّآ إِبْلِيسَ أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَٰفِرِينَ",
-        "translation":"A kada rekosmo melekima: \"Poklonite se Ademu!\" - oni se pokloniše, ali Iblis ne htjede, on se uzoholi i posta nevjernik.",
         "transliteration":"Ve iz kulna lil melaiketisdžudu li ademe fe sedžedu illa iblise eba vestekbera ve kane minel kafirin"
     },
     {
         "id":35,
         "surahId":2,
         "arabic":"وَقُلْنَا يَٰٓـَٔادَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّٰلِمِينَ",
-        "translation":"I Mi rekosmo: \"O Ademe, živite, ti i žena tvoja, u Džennetu i jedite u njemu koliko god želite i odakle god hoćete, ali se ovom drvetu ne približujte pa da sami sebi nepravdu nanesete!\"",
         "transliteration":"Ve kulna ja ademuskun ente ve zevdžukel džennete ve kula minha ragaden hajsu ši'tuma* ve la takraba hazihiš šedžerate fe tekuna minez zalimin"
     },
     {
         "id":36,
         "surahId":2,
-        "arabic":"فَأَزَلَّهُمَا ٱلشَّيْطَٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ ۖ وَقُلْنَا ٱهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّۭ ۖ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّۭ وَمَتَٰعٌ إِلَىٰ حِينٍۢ",
-        "translation":"I šejtan ih navede da zbog drveta posrnu i izvede ih iz onoga u čemu su bili. \"Siđite!\" - rekosmo Mi - \"jedni drugima ćete neprijatelji biti, a na Zemlji ćete boraviti i do roka određenoga živjeti!\"",
+        "arabic":"فَأَزَلَّهُمَا ٱلشَّيْطَٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ ۖ وَقُلْنَا ٱهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ  وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَٰعٌ إِلَىٰ حِينٍۢ",
         "transliteration":"Fe ezellehumeš šejtanu anha fe ahradžehuma mimma kana fih* ve kulnehbitu ba'dukum li ba'din aduvv* ve lekum fil erdi mustekarruv ve metaun ila hin"
     },
     {
         "id":37,
         "surahId":2,
         "arabic":"فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَٰتٍۢ فَتَابَ عَلَيْهِ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
-        "translation":"I Adem primi neke riječi od Gospodara svoga, pa mu On oprosti; On, doista, prima pokajanje, On je milostiv.",
         "transliteration":"Fe telekka ademu mir rabbihi kelimatin fe tabe alejh innehu huvet tevvabur rahim"
     },
     {
         "id":38,
         "surahId":2,
-        "arabic":"قُلْنَا ٱهْبِطُوا۟ مِنْهَا جَمِيعًۭا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
-        "translation":"Mi rekosmo: \"Silazite iz njega svi! Od Mene će vam uputstvo dolaziti, i oni koji uputstvo moje budu slijedili - ničega se neće bojati i ni za čim neće tugovati.",
+        "arabic":"قُلْنَا ٱهْبِطُوا مِنْهَا جَمِيعًۭا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
         "transliteration":"Kulnehbitu minha džemia* fe imma je'tijennekum minni huden fe men tebia hudaje fe la havfun alejhim ve la hum jahzenun"
     },
     {
         "id":39,
         "surahId":2,
-        "arabic":"وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَٰتِنَآ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
-        "translation":"A onima koji ne budu vjerovali i knjige Naše budu poricali - biće stanovnici Džehennema; u njemu će vječno ostati.\"",
+        "arabic":"وَٱلَّذِينَ كَفَرُوا وَكَذَّبُوا بِـَٔايَٰتِنَآ أُولَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
         "transliteration":"Vellezine keferu ve kezzebu bi ajatina ulaike ashabun nar hum fiha halidun"
     },
 
     {
         "id":152,
         "surahId":2,
-        "arabic":"فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ",
-        "translation":"Sjećajte se vi Mene, i Ja ću se vas sjetiti, i zahvaljujte Mi, i na blagodatima Mojim nemojte neblagodarni biti!",
+        "arabic":"فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا لِى وَلَا تَكْفُرُونِ",
         "transliteration":"Fezkuruni ezkurkum veškuru li ve la tekfurun"
     },
     {
         "id":153,
         "surahId":2,
-        "arabic":"يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
-        "translation":"O vjernici, tražite sebi pomoći u strpljivosti i obavljanju molitve! Allah je doista na strani strpljivih.",
+        "arabic":"يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا ٱسْتَعِينُوا بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
         "transliteration":"Ja ejjuhellezine amenusteijnu bis sabri ves salah innellahe meas sabirin"
     },
     {
         "id":154,
         "surahId":2,
-        "arabic":"وَلَا تَقُولُوا۟ لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتٌۢ ۚ بَلْ أَحْيَآءٌۭ وَلَٰكِن لَّا تَشْعُرُونَ",
-        "translation":"I ne recite za one koji su na Allahovu putu poginuli: \"Mrtvi su!\" Ne, oni su živi, ali vi to ne znate!",
+        "arabic":"وَلَا تَقُولُوا لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتٌۢ ۚ بَلْ أَحْيَآءٌ وَلَٰكِن لَّا تَشْعُرُونَ",
         "transliteration":"Ve la tekulu li mej juktelu fi sebilillahi emvat bel ahjauv ve lakil la teš'urun"
     },
     {
         "id":155,
         "surahId":2,
         "arabic":"وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ",
-        "translation":"Mi ćemo vas dovoditi u iskušenje malo sa strahom i gladovanjem, i time što ćete gubiti imanja i živote, i ljetine. A ti obraduj izdržljive,",
         "transliteration":"Ve le nebluvennekum bi šej'im minel havfi vel džui ve naksim minel emvali vel enfusi ves semerat* ve bešširis sabirin"
     },
     {
         "id":156,
         "surahId":2,
-        "arabic":"ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
-        "translation":"one koji, kada ih kakva nevolja zadesi, samo kažu: \"Mi smo Allahovi i mi ćemo se Njemu vratiti!\"",
+        "arabic":"ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌ قَالُوٓا إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
         "transliteration":"Ellezine iza esabethum musijbetun kalu inna lillahi ve inna ilejhi radžiun"
     },
     {
         "id":157,
         "surahId":2,
-        "arabic":"أُو۟لَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌۭ مِّن رَّبِّهِمْ وَرَحْمَةٌۭ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ",
-        "translation":"Njih čeka oprost od Gospodara njihova i milost; oni su na Pravome putu!",
+        "arabic":"أُولَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌۭ مِّن رَّبِّهِمْ وَرَحْمَةٌۭ ۖ وَأُولَٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ",
         "transliteration":"Ulaike alajhim salevatum mir rabbihim ve rahmetuv ve ulaike humul muhtedun"
     },
 
@@ -205,14 +177,12 @@
         "id":163,
         "surahId":2,
         "arabic":"وَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ",
-        "translation":"A vaš Bog - jedan je Bog! Nema boga osim Njega, Milostivog, Samilosnog!",
         "transliteration":"Ve ilahukum ilahuv vahid* la ilahe illa huver rahmanur rahijm"
     },
     {
         "id":164,
         "surahId":2,
         "arabic":"إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَٱلْفُلْكِ ٱلَّتِى تَجْرِى فِى ٱلْبَحْرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٍۢ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍۢ وَتَصْرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلْمُسَخَّرِ بَيْنَ ٱلسَّمَآءِ وَٱلْأَرْضِ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَعْقِلُونَ",
-        "translation":"Stvaranje nebesa i Zemlje, smjena noći i dana, lađa koja morem plovi s korisnim tovarom za ljude, kiša koju Allah pušta s neba pa tako u život vraća zemlju nakon mrtvila njezina - po kojoj je rasijao svakojaka živa bića, promjena vjetrova, oblaci koji između neba i Zemlje lebde - doista su dokazi za one koji imaju pameti.",
         "transliteration":"Inne fi halkis semavati vel erdi vahtilafil lejli ven nehari vel fulkilleti tedžri fil bahri bima jenfeun nase ve ma enzelellahu mines semai mim main fe ahja bihil erda ba'de mevtiha ve besse fiha min kulli dabbetiv ve tasrifir rijahi ves sehabil musahhari bejnes semai vel erdi le ajatil li kavmij ja'kilun"
     },
 
@@ -220,7 +190,6 @@
         "id":177,
         "surahId":2,
         "arabic":"۞ لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَٱلْمَلَٰٓئِكَةِ وَٱلْكِتَٰبِ وَٱلنَّبِيِّۦنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ",
-        "translation":"Nije čestitost u tome da okrećete lica svoja prema istoku i zapadu; čestiti su oni koji vjeruju u Allaha i u onaj svijet, i u meleke, i u knjige, i u vjerovjesnike, i koji od imetka, iako im je drag, daju rođacima, i siročadi, i siromasima, i putnicima, i prosjacima, i za otkup iz ropstva, i koji molitvu obavljaju i zekat daju, i koji obavezu svoju, kada je preuzmu, ispunjavaju, naročito oni koji su izdržljivi u neimaštini, i u bolesti, i u boju ljutom. Oni su iskreni vjernici, i oni se Allaha boje i ružnih postupaka klone.",
         "transliteration":" Lejsel birra en tuvellu vudžuhekum kibelel mešriki vel magribi ve lakinnel birra men amene billahi vel jevmil ahiri vel melaiketi vel kitabi ven nebijjin* ve atel male ala hubbihi zevil kurba vel jetama vel mesakine sebili ves sailine ve fir rikab* ve ekames salate ve atez zekah vel mufune bi ahdihim iza ahedu* ves sabirine fil be'sai ved darrai ve hijnel be's* ulaikellezine sadeku ve ulaike humul muttekun"
     },
 
@@ -228,7 +197,6 @@
         "id":255,
         "surahId":2,
         "arabic":"ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
-        "translation":"Allah je - nema boga osim Njega - Živi i Vječni! Ne obuzima Ga ni drijemež ni san! Njegovo je ono što je na nebesima i ono što je na Zemlji! Ko se može pred Njim zauzimati za nekoga bez dopuštenja Njegova?! On zna šta je bilo i prije njih i šta će biti poslije njih, a od onoga što On zna - drugi znaju samo onoliko koliko On želi. Moć Njegova obuhvaća i nebesa i Zemlju i Njemu ne dojadi održavanje njihovo; On je Svevišnji, Veličanstveni! ",
         "transliteration":"Allahu la ilahe illa huvel hajjul kajjum la te'huzuhu sinetuv vela nevm* lehu ma fis semavati ve ma fil ard men zellezi ješfeu indehu illa bi iznih* ja'lemu ma bejne ejdihim ve ma halfehum* ve al juhijtune bi šej'im min ilmihi illa bi ma ša'* vesia kursijjuhus semavati vel ard ve la jeuduhu hifzuhuma* ve huvel alijjul azijm"
     },
     
@@ -236,14 +204,12 @@
         "id":285,
         "surahId":2,
         "arabic":"ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِير",
-        "translation":"Poslanik vjeruje u ono što mu se objavljuje od Gospodara njegova, i vjernici - svaki vjeruje u Allaha, i meleke Njegove, i knjige Njegove, i poslanike Njegove: \"Mi ne izdvajamo nijednog od poslanika Njegovih.\" I oni govore: \"Čujemo i pokoravamo se; oprosti nam, Gospodaru naš; tebi ćemo se vratiti.\"",
         "transliteration":"Amener rasulu bi ma unzile ilejhi mir rabbihi vel mu’minun kullun amene billahi ve melaiketihi ve kutubihi ve rusulihi la nuferriku bejne ehadim mir rusulihi ve kalu semi’na ve eta’na gufraneke rabbena ve ilejkel masir"
     },
     {
         "id":286,
         "surahId":2,
         "arabic":" يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
-        "translation":"Allah nikoga ne opterećuje preko mogućnosti njegovih: u njegovu korist je dobro koje učini, a na njegovu štetu zlo koje uradi. Gospodaru naš, ne kazni nas ako zaboravimo ili što nehotice učinimo! Gospodaru naš, ne tovari na nas breme kao što si ga tovario na one prije nas! Gospodaru naš, ne stavljaj nam u dužnost ono što ne možemo podnijeti, pobriši grijehe naše i oprosti nam, i smiluj se na nas. Ti si Gospodar naš pa nam pomozi protiv naroda koji ne vjeruje!",
         "transliteration":"La jukellifullahu nefsen illa vus’aha* leha ma kesebet ve alejha mektesebet* rabbena la tuahizna in nesina ev ahta’na* rabbena ve la tahmil alejna isran kema hameltehu alellezine min kablina* rabbena ve la tuhammilna ma la takate lena bih* va’fu anna* vagfir lena* verhamna ente mevlane fensurna alel kavmil kafirin"
     },
 
@@ -251,42 +217,36 @@
         "id":1,
         "surahId":3,
         "arabic":"الٓمٓ",
-        "translation":"Elif Lam Mim.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":2,
         "surahId":3,
         "arabic":"ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ",
-        "translation":"Allah je - nema boga osim Njega - Živi i Vječni!",
         "transliteration":"Allahu la ilahe illa huvel hajjul kajjum"
     },
     {
         "id":3,
         "surahId":3,
         "arabic":"نَزَّلَ عَلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًۭا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ",
-        "translation":"On tebi objavljuje Knjigu, pravu istinu, koja prethodne potvrđuje, a Tevrat i Indžil objavio je",
         "transliteration":"Nezzele alejkel kitabe bil hakki musaddikal lima bejne jedejhi ve enzelet tevrate vel indžil"
     },
     {
         "id":4,
         "surahId":3,
         "arabic":"مِن قَبْلُ هُدًۭى لِّلنَّاسِ وَأَنزَلَ ٱلْفُرْقَانَ ۗ إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ لَهُمْ عَذَابٌۭ شَدِيدٌۭ ۗ وَٱللَّهُ عَزِيزٌۭ ذُو ٱنتِقَامٍ",
-        "translation":"još prije, kao putokaz ljudima, a objavio je i ostale koje rastavljaju istinu od neistine. One koji u Allahove riječi ne vjeruju čeka teška patnja; - a Allah je silan i strog.",
         "transliteration":"Min kablu hudel lin nasi ve enzelel furkan* innellezine keferu bi ajatillahi lehum azabun šedid* vallahu azizun zuntikam"
     },
     {
         "id":5,
         "surahId":3,
         "arabic":"إِنَّ ٱللَّهَ لَا يَخْفَىٰ عَلَيْهِ شَىْءٌۭ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
-        "translation":"Allahu ništa nije tajna ni na Zemlji ni na nebu!",
         "transliteration":"Innellahe la jahfa alejhi šej'um fil erdi ve la fis sema'"
     },
     {
         "id":6,
         "surahId":3,
         "arabic":"هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
-        "translation":"On vas oblikuje u matericama kako On hoće; nema boga osim Njega, Silnog i Mudrog!",
         "transliteration":"Huvellezi jusavvirukum fil erhami kejfe ješa'* la ilahe illa huvel azizul hakim"
     },
 
@@ -294,14 +254,12 @@
         "id":18,
         "surahId":3,
         "arabic":"شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا هُوَ وَٱلْمَلَٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
-        "translation":"Allah svjedoči da nema drugog boga osim Njega - a i meleki i učeni - i da On postupa pravedno. - Nema boga osim Njega, Silnog i Mudrog! ",
         "transliteration":"Šehidellahu ennehu la ilahe illa huve vel melaiketu ve ulul ilmi kaimem bil kist* la ilahe illa huvel azizul hakim"
     },
     {
         "id":19,
         "surahId":3,
         "arabic":"إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَٰمُ ۗ وَمَا ٱخْتَلَفَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِـَٔايَٰتِ ٱللَّهِ فَإِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
-        "translation":"Allahu je prava vjera jedino - islam. A podvojili su se oni kojima je data Knjiga baš onda kada im je došlo saznanje, i to iz međusobne zavisti. A sa onima koji u Allahove riječi ne budu vjerovali Allah će se brzo obračunati.",
         "transliteration":"Inned dine indellahil islam* ve mahtelefellezine utul kitabe illa mem ba'di ma džaehumul ilmu bagjem bejnehum ve mej jekfur bi ajatillahi fe innellahe seriul hisab"
     },
 
@@ -309,28 +267,24 @@
         "id":189,
         "surahId":3,
         "arabic":"وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ",
-        "translation":"Samo Allahu pripada vlast na nebesima i na Zemlji i jedino je Allah kadar sve!",
         "transliteration":"Ve lillahi mulkus semavati vel ard* vallahu ala kulli šej'in kadir"
     },
     {
         "id":190,
         "surahId":3,
         "arabic":"إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلْأَلْبَٰبِ",
-        "translation":"U stvaranju nebesa i Zemlje i u izmjeni noći i dana su, zaista, znamenja za razumom obdarene,",
         "transliteration":"Inne fi halkis semavati vel erdi vahtilafil lejli ven nehari le ajatil li ulil elbab"
     },
     {
         "id":191,
         "surahId":3,
         "arabic":"ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًۭا وَقُعُودًۭا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًۭا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
-        "translation":"za one koje i stojeći i sjedeći i ležeći Allaha spominju i o stvaranju nebesa i Zemlje razmišljaju. \"Gospodaru naš, Ti nisi ovo uzalud stvorio; hvaljen Ti budi i sačuvaj nas patnje u vatri! ",
         "transliteration":"Ellezine jezkurunellahe kijamev ve kuudev ve ala džunubihim ve jetefekkerune fi halkis semavati vel ard rabbena ma halakte haza batila* subhaneke fekina azaben nar"
     },
     {
         "id":192,
         "surahId":3,
         "arabic":"رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّٰلِمِينَ مِنْ أَنصَارٍۢ",
-        "translation":"Gospodaru naš, onoga koga Ti budeš u vatru ubacio Ti si već osramotio, a nevjernicima neće niko u pomoć priteći.",
         "transliteration":"Rabbena inneka men tudhilin nara fe kad ahzejteh ve ma liz zalimine min ensar"
     },
 
@@ -338,42 +292,36 @@
         "id":36,
         "surahId":4,
         "arabic":"۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًۭٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا",
-        "translation":"I Allahu se klanjajte i nikoga Njemu ravnim ne smatrajte! A roditeljima dobročinstvo činite, i rođacima, i siročadi, i siromasima, i komšijama, bližnjim, i komšijama daljnjim, i drugovima, i putnicima, i onima koji su u vašem posjedu. Allah, zaista, ne voli one koji se ohole i hvališu,",
         "transliteration":"Va'budullahe ve la tušriku bihi šej'ev ve bil validejni ihsanev ve bizil kurba vel jetama vel mesakini vel džari zil kurba vel džaril džunubi ves sahibi vil džembi vebnis sebili ve ma meleket ejmanukum* innellahe la juhibbu men kane muhtalen fehura"
     },
     {
         "id":37,
         "surahId":4,
         "arabic":"ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ وَيَكْتُمُونَ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَأَعْتَدْنَا لِلْكَٰفِرِينَ عَذَابًۭا مُّهِينًۭا",
-        "translation":"one koji škrtare i traže od drugih da budu škrti i koji kriju ono što im je Allah ih obilja svoga darovao; a Mi smo nevjernicima pripremili sramnu patnju -",
         "transliteration":"Ellezine jebhalune ve je'murunen nase bil buhli ve jektumune ma atahumullahu min fadlih* ve a'tedna lil kafirine azabem muhina"
     },
     {
         "id":38,
         "surahId":4,
         "arabic":"وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ ٱلْءَاخِرِ ۗ وَمَن يَكُنِ ٱلشَّيْطَٰنُ لَهُۥ قَرِينًۭا فَسَآءَ قَرِينًۭا",
-        "translation":"i one koji troše imanja svoja da se pred svijetom pokažu, a ni Allaha ni u onaj svijet ne vjeruju. - A kome je šejtan drug, zao mu je drug! ",
         "transliteration":"Vellezine junfikune emvalehum riaen nasi ve la ju'minune billahi ve la bil jevmil ahir* ve mej jekuniš šejtanu lehu karinen fe sae karina"
     },
     {
         "id":39,
         "surahId":4,
         "arabic":"وَمَاذَا عَلَيْهِمْ لَوْ ءَامَنُوا۟ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَأَنفَقُوا۟ مِمَّا رَزَقَهُمُ ٱللَّهُ ۚ وَكَانَ ٱللَّهُ بِهِمْ عَلِيمًا",
-        "translation":"A šta bi im bilo da u Allaha i u onaj svijet vjeruju i da od onoga što im Allah daje udjeljuju, kad Allah o njima sve zna? ",
         "transliteration":"Ve maza alejhim lev amenu billahi vel jevmil ahiri ve enfeku mimma razekahumullah* ve kanellahu bihim alima"
     },
     {
         "id":40,
         "surahId":4,
         "arabic":"إِنَّ ٱللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍۢ ۖ وَإِن تَكُ حَسَنَةًۭ يُضَٰعِفْهَا وَيُؤْتِ مِن لَّدُنْهُ أَجْرًا عَظِيمًۭا",
-        "translation":"Allah neće nikome ni trunku nepravde učiniti. Dobro djelo On će umnogostručiti i još od Sebe nagradu veliku dati.",
         "transliteration":"Innellahe la jazlimu miskale zerrah* ve in teku hasenetej judaifha ve ju'ti mil ledunhu edžran azijma"
     },
     {
         "id":41,
         "surahId":4,
         "arabic":"فَكَيْفَ إِذَا جِئْنَا مِن كُلِّ أُمَّةٍۭ بِشَهِيدٍۢ وَجِئْنَا بِكَ عَلَىٰ هَٰٓؤُلَآءِ شَهِيدًۭا",
-        "translation":"A šta će, tek, biti kada dovedemo svjedoka iz svakoga naroda, a tebe dovedemo kao svjedoka protiv ovih?",
         "transliteration":"Fe kejfe iza dži'na min kulli ummetim bi šehidiv ve dži'nabike ala haulai šehida"
     },
 
@@ -381,70 +329,60 @@
         "id":95,
         "surahId":6,
         "arabic":"۞ إِنَّ ٱللَّهَ فَالِقُ ٱلْحَبِّ وَٱلنَّوَىٰ ۖ يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَمُخْرِجُ ٱلْمَيِّتِ مِنَ ٱلْحَىِّ ۚ ذَٰلِكُمُ ٱللَّهُ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
-        "translation":"Allah čini da zrnje i košpice prokliju. On iz neživa izvodi živo, iz živa neživo - to vam je, eto, Allah, pa kuda se onda odmećete?",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":96,
         "surahId":6,
         "arabic":"فَالِقُ ٱلْإِصْبَاحِ وَجَعَلَ ٱلَّيْلَ سَكَنًۭا وَٱلشَّمْسَ وَٱلْقَمَرَ حُسْبَانًۭا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ",
-        "translation":"On čini da zora sviće, On je noć odredio za počinak, a Sunce i Mjesec za računanje vremena; to je odredba Silnoga, Sveznajućeg.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":97,
         "surahId":6,
         "arabic":"وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلنُّجُومَ لِتَهْتَدُوا۟ بِهَا فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍۢ يَعْلَمُونَ",
-        "translation":"On vam je stvorio zvijezde da se po njima u mraku upravljate, na kopnu i moru. - Mi potanko objašnjavamo znamenja Naša ljudima koji znaju.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":98,
         "surahId":6,
         "arabic":"وَهُوَ ٱلَّذِىٓ أَنشَأَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ فَمُسْتَقَرٌّۭ وَمُسْتَوْدَعٌۭ ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍۢ يَفْقَهُونَ",
-        "translation":"On vas stvara od jednog čovjeka da na Zemlji živite i da u njoj sahranjeni budete. - Mi potanko pružamo dokaze ljudima koji razumiju.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":99,
         "surahId":6,
         "arabic":"وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍۢ فَأَخْرَجْنَا مِنْهُ خَضِرًۭا نُّخْرِجُ مِنْهُ حَبًّۭا مُّتَرَاكِبًۭا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌۭ دَانِيَةٌۭ وَجَنَّٰتٍۢ مِّنْ أَعْنَابٍۢ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًۭا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍۢ لِّقَوْمٍۢ يُؤْمِنُونَ",
-        "translation":"On vodu s neba spušta, pa Mi onda činimo da pomoću nje niču sve vrste bilja i da iz njega izrasta zelenilo, a iz njega klasje gusto, i iz palmi, iz zametka njihova, grozdovi koje je lahko ubrati, i vrtovi lozom zasađeni, naročito masline i šipci, slični i različiti. Posmatrajte, zato, plodove njihove, kad se tek pojave i kad zru. To je zaista dokaz za ljude koji vjeruju. ",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":100,
         "surahId":6,
         "arabic":"وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَٰتٍۭ بِغَيْرِ عِلْمٍۢ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَصِفُونَ",
-        "translation":"Nevjernici smatraju džine ravne Allahu, a On je njih stvorio, i izmislili su, ne misleći šta govore, da On ima sinove i kćeri. Hvaljen neka je On i vrlo visoko iznad onoga kako Ga oni opisuju!",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":101,
         "surahId":6,
         "arabic":"بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌۭ وَلَمْ تَكُن لَّهُۥ صَٰحِبَةٌۭ ۖ وَخَلَقَ كُلَّ شَىْءٍۢ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌۭ",
-        "translation":"On je Stvoritelj nebesa i Zemlje! Otkud Njemu dijete kad nema žene, On sve stvara, i samo On sve zna.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":102,
         "surahId":6,
         "arabic":"ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ خَٰلِقُ كُلِّ شَىْءٍۢ فَٱعْبُدُوهُ ۚ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ وَكِيلٌۭ",
-        "translation":"To vam je Allah, Gospodar vaš, nema drugog boga osim Njega, Stvoritelja svega; zato Njemu robujte; On nad svim bdi!",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":103,
         "surahId":6,
         "arabic":"لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ وَهُوَ يُدْرِكُ ٱلْأَبْصَٰرَ ۖ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
-        "translation":"Pogledi do Njega ne mogu doprijeti, a On do pogleda dopire; On je milostiv i upućen u sve.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":104,
         "surahId":6,
         "arabic":"قَدْ جَآءَكُم بَصَآئِرُ مِن رَّبِّكُمْ ۖ فَمَنْ أَبْصَرَ فَلِنَفْسِهِۦ ۖ وَمَنْ عَمِىَ فَعَلَيْهَا ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍۢ",
-        "translation":"\"Od Gospodara vašeg dolaze vam dokazi, pa onaj ko ih usvaja - u svoju korist to čini, a onaj ko je slijep - na svoju štetu je slijep, a ja nisam vaš čuvar.\"",
         "transliteration":"Elif Lam Mim."
     },
 
@@ -452,63 +390,54 @@
         "id":104,
         "surahId":10,
         "arabic":"قُلْ يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى شَكٍّۢ مِّن دِينِى فَلَآ أَعْبُدُ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ وَلَٰكِنْ أَعْبُدُ ٱللَّهَ ٱلَّذِى يَتَوَفَّىٰكُمْ ۖ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُؤْمِنِين",
-        "translation":"Reci: \"O ljudi, ako vi sumnjate u ispravnost moje vjere -  pa, ja se neću klanjati onima kojima se, mimo Allaha, vi klanjate, već ću se klanjati Allahu, koji će vam duše uzeti. Meni je naređeno da budem vjernik, ",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":105,
         "surahId":10,
         "arabic":"وَأَنْ أَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًۭا وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
-        "translation":"i: \"Predaj se pravoj vjeri, i nikako ne budi kumirima poklonik,",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":106,
         "surahId":10,
         "arabic":"وَلَا تَدْعُ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُكَ وَلَا يَضُرُّكَ ۖ فَإِن فَعَلْتَ فَإِنَّكَ إِذًۭا مِّنَ ٱلظَّٰلِمِينَ",
-        "translation":"i, pored Allaha, ne moli se onome ko ti ne može ni koristiti ni nauditi, jer ako bi to uradio, bio bi uistinu, nevjernik.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":107,
         "surahId":10,
         "arabic":"وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّۢ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍۢ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
-        "translation":"Ako ti Allah dade kakvu nevolju, niko je osim Njega ne može otkloniti, a ako ti zaželi dobro -  pa, niko ne može blagodat Njegovu spriječiti; On njome nagrađuje onoga koga hoće od robova svojih; On prašta i milostiv je.\"",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":108,
         "surahId":10,
         "arabic":"قُلْ يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُمُ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنَا۠ عَلَيْكُم بِوَكِيلٍۢ",
-        "translation":"Reci: \"O ljudi, Istina vam dolazi od Gospodara vašeg, i onaj ko se uputi Pravim putem - uputio se za svoje dobro, a onaj ko krene stranputicom, krenuo je na svoju štetu, a ja nisam vaš odvjetnik.\" ",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":109,
         "surahId":10,
         "arabic":"وَٱتَّبِعْ مَا يُوحَىٰٓ إِلَيْكَ وَٱصْبِرْ حَتَّىٰ يَحْكُمَ ٱللَّهُ ۚ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ",
-        "translation":"Ti slijedi ono što ti se objavljuje i budi strpljiv dok Allah ne presudi, On je sudija najbolji!",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":9,
         "surahId":11,
         "arabic":"وَلَئِنْ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةًۭ ثُمَّ نَزَعْنَٰهَا مِنْهُ إِنَّهُۥ لَيَـُٔوسٌۭ كَفُورٌۭ",
-        "translation":"Ako čovjeku milost Našu pružimo, pa mu je poslije uskratimo, on pada u očajanje i postaje nezahvalnik.",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":10,
         "surahId":11,
         "arabic":"وَلَئِنْ أَذَقْنَٰهُ نَعْمَآءَ بَعْدَ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ ذَهَبَ ٱلسَّيِّـَٔاتُ عَنِّىٓ ۚ إِنَّهُۥ لَفَرِحٌۭ فَخُورٌ",
-        "translation":"A ako ga blagodatima obaspemo, poslije nevolje koja ga zadesila, on će, sigurno, reći: \"Nevolje su me napustile!\" On je doista umišljen i razmetljiv,",
         "transliteration":"Elif Lam Mim."
     },
     {
         "id":11,
         "surahId":11,
         "arabic":"إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌۭ كَبِيرٌۭ",
-        "translation":"a samo strpljive i oni koji dobra djela čine čeka oprost i nagrada velika.",
         "transliteration":"Elif Lam Mim."
     },
 
@@ -3865,42 +3794,36 @@
         "id":1,
         "surahId":109,
         "arabic":"قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
-        "translation":"Reci:O vi nevjernici",
         "transliteration":"Kul jā ejjuhel-kāfirūn"
     },
     {
         "id":2,
         "surahId":109,
         "arabic":"لَآ أَعْبُدُ مَا تَعْبُدُونَ",
-        "translation":"ja se neću klanjati onima kojima se vi klanjate",
         "transliteration":"Lā a'budu ma t'abudūn"
     },
     {
         "id":3,
         "surahId":109,
         "arabic":"وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
-        "translation":"a ni vi se nećete klanjati Onome kome se ja klanjam",
         "transliteration":"Ve lā entum 'abidūne mā a'bud"
     },
     {
         "id":4,
         "surahId":109,
         "arabic":"وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ",
-        "translation":"ja se nisam klanjao onima kojima ste se vi klanjali",
         "transliteration":"Ve lā enne 'abidun mā 'a'bud"
     },
     {
         "id":5,
         "surahId":109,
         "arabic":"وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
-        "translation":"a vi se niste klanjali Onome kome se ja klanjam",
         "transliteration":"Ve lā entum 'abidūne mā a'bud"
     },
     {
         "id":6,
         "surahId":109,
         "arabic":"لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
-        "translation":"vama-vaša vjera,a meni-moja",
         "transliteration":"Lekum dīnukum ve lije dīn"
     },
     
@@ -3908,21 +3831,18 @@
         "id":1,
         "surahId":110,
         "arabic":"إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
-        "translation":"Kada Allahova pomoć i pobjeda dodju",
         "transliteration":"Izā džā-e nasrullāhi vel-feth"
     },
     {
         "id":2,
         "surahId":110,
         "arabic":"وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
-        "translation":"i vidiš ljude kako u skupinama u Allahovu vjeru ulaze",
         "transliteration":"Ve re'ejten-nāse jedhulūne fī dīnillāhi efvadža"
     },
     {
         "id":3,
         "surahId":110,
         "arabic":"فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
-        "translation":"ti veličaj Gospodara svoga hvaleći Ga i moli Ga da ti oprosti,On je uvijek pokajanje primao",
         "transliteration":"Fesebbih bihamdi rabbike vestagfirh.Innehu kāne tevvābā"
     },
     
@@ -3930,35 +3850,30 @@
         "id":1,
         "surahId":111,
         "arabic":"تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
-        "translation":"Neka propadne Ebu Leheb,i propao je",
         "transliteration":"Tebbet jedā ebī lehebin ve tebb"
     },
     {
         "id":2,
         "surahId":111,
         "arabic":"مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
-        "translation":"Neće mu biti od koristi blago njegovo,a ni ono što je stekao",
         "transliteration":"Mā agna 'anhu māluhu ve mā keseb"
     },
     {
         "id":3,
         "surahId":111,
         "arabic":"سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
-        "translation":"ući će on,sigurno,u vatru rasplamsalu",
         "transliteration":"Sejaslā nāren zāte leheb"
     },
     {
         "id":4,
         "surahId":111,
         "arabic":"وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
-        "translation":"i žena njegova,koja spletkari",
         "transliteration":"Vem-re'etuhu hammāletel-hatab"
     },
     {
         "id":5,
         "surahId":111,
         "arabic":"فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
-        "translation":"o vratu njenu biće uže od ličine usukane",
         "transliteration":"Fī džīdihā hablun mim mesed"
     },
     
@@ -3966,28 +3881,24 @@
         "id":1,
         "surahId":112,
         "arabic":"قُلْ هُوَ ٱللَّهُ أَحَدٌ",
-        "translation":"Reci:On je Allah-Jedan",
         "transliteration":"Kul huvallāhu ehad"
     },
     {
         "id":2,
         "surahId":112,
         "arabic":"ٱللَّهُ ٱلصَّمَدُ",
-        "translation":"Allah je utočište svakome",
         "transliteration":"Allāhus-samed"
     },
     {
         "id":3,
         "surahId":112,
         "arabic":"لَمْ يَلِدْ وَلَمْ يُولَدْ",
-        "translation":"Nije rodio i rodjen nije",
         "transliteration":"Lem jelid ve lem jūled"
     },
     {
         "id":4,
         "surahId":112,
         "arabic":"وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌ",
-        "translation":"i niko Mu ravan nije",
         "transliteration":"Ve lem jekun kufuven ehad"
     },
     
@@ -3995,35 +3906,30 @@
         "id":1,
         "surahId":113,
         "arabic":"قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
-        "translation":"Reci:Utječem se Gospodaru svitanja",
         "transliteration":"Kul e'ūzu birabbil-felek"
     },
     {
         "id":2,
         "surahId":113,
         "arabic":"مِن شَرِّ مَا خَلَقَ",
-        "translation":"od zla onoga što On stvara",
         "transliteration":"Min šerri mā halek"
     },
     {
         "id":3,
         "surahId":113,
         "arabic":"وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
-        "translation":"i od zla mrkle noci kada razastre tmine",
         "transliteration":"Ve min šerri gāsikin izā vekab"
     },
     {
         "id":4,
         "surahId":113,
         "arabic":"وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
-        "translation":"i od zla smutljivaca kad smutnje sije",
         "transliteration":"Ve min šerrin-neffāsāti fil-'ukad"
     },
     {
         "id":5,
         "surahId":113,
         "arabic":"وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
-        "translation":"i od zla zavidljivaca kada zavist ne krije",
         "transliteration":"Ve min šerri hāsidin izā hased"
     },
     
@@ -4031,42 +3937,36 @@
         "id":1,
         "surahId":114,
         "arabic":"قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
-        "translation":"Reci:Tražima zaštitu Gospodara ljudi",
         "transliteration":"Kul e'ūzu birabbin-nās"
     },
     {
         "id":2,
         "surahId":114,
         "arabic":"مَلِكِ ٱلنَّاسِ",
-        "translation":"Vladara ljudi",
         "transliteration":"Melikin-nās"
     },
     {
         "id":3,
         "surahId":114,
         "arabic":"إِلَٰهِ ٱلنَّاسِ",
-        "translation":"Boga ljudi",
         "transliteration":"Ilāhin-nās"
     },
     {
         "id":4,
         "surahId":114,
         "arabic":"مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
-        "translation":"od zla šejtana-napasnika",
         "transliteration":"Min šerril-vesvāsil-hannās"
     },
     {
         "id":5,
         "surahId":114,
         "arabic":"ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
-        "translation":"koji zle misli unosi u srca ljudi",
         "transliteration":"Ellezī juvesvisu fis-sudūrin-nās"
     },
     {
         "id":6,
         "surahId":114,
         "arabic":"مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
-        "translation":"od džina i od ljudi",
         "transliteration":"Minel-džinneti ven-nās"
     }
 ]

@@ -189,12 +189,12 @@
       {
         "type":"1",
         "paragraphs": [
-          "label-suhah1-ayah2",
-          "label-suhah1-ayah3",
-          "label-suhah1-ayah4",
-          "label-suhah1-ayah5",
-          "label-suhah1-ayah6",
-          "label-suhah1-ayah7",
+          "label-surah1-ayah2",
+          "label-surah1-ayah3",
+          "label-surah1-ayah4",
+          "label-surah1-ayah5",
+          "label-surah1-ayah6",
+          "label-surah1-ayah7",
           "label-amin"
         ]
       }
@@ -228,12 +228,12 @@
       {
         "type":"1",
         "paragraphs": [
-          "label-suhah114-ayah1",
-          "label-suhah114-ayah2",
-          "label-suhah114-ayah3",
-          "label-suhah114-ayah4",
-          "label-suhah114-ayah5",
-          "label-suhah114-ayah6"
+          "label-surah114-ayah1",
+          "label-surah114-ayah2",
+          "label-surah114-ayah3",
+          "label-surah114-ayah4",
+          "label-surah114-ayah5",
+          "label-surah114-ayah6"
         ]
       }
     ]
@@ -265,11 +265,11 @@
       {
         "type":"1",
         "paragraphs": [
-          "label-suhah113-ayah1",
-          "label-suhah113-ayah2",
-          "label-suhah113-ayah3",
-          "label-suhah113-ayah4",
-          "label-suhah113-ayah5"
+          "label-surah113-ayah1",
+          "label-surah113-ayah2",
+          "label-surah113-ayah3",
+          "label-surah113-ayah4",
+          "label-surah113-ayah5"
         ]
       }
     ]
@@ -300,10 +300,10 @@
       {
         "type":"1",
         "paragraphs": [
-          "label-suhah112-ayah1",
-          "label-suhah112-ayah2",
-          "label-suhah112-ayah3",
-          "label-suhah112-ayah4"
+          "label-surah112-ayah1",
+          "label-surah112-ayah2",
+          "label-surah112-ayah3",
+          "label-surah112-ayah4"
         ]
       }
     ]
