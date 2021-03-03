@@ -280,6 +280,38 @@
         "value":"Arapski"
     },
     {
+        "name":"label-header-translation",
+        "value":"Prevod"
+    },
+    {
+        "name":"label-header-transcription",
+        "value":"Transkripcija"
+    },
+    {
+        "name":"label-header-quran",
+        "value":"Kur'an"
+    },
+    {
+        "name":"label-header-prayer",
+        "value":"Namaz"
+    },
+    {
+        "name":"label-header-faith",
+        "value":"Šarti"
+    },
+    {
+        "name":"label-header-dhikr",
+        "value":"Zikr"
+    },
+    {
+        "name":"label-header-muhammad",
+        "value":"Muhammed"
+    },
+    {
+        "name":"label-header-history",
+        "value":"Historija"
+    },
+    {
         "name":"label-header-bosnian",
         "value":"Bosanski"
     },

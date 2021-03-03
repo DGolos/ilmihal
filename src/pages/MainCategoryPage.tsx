@@ -19,27 +19,27 @@ const MainCategoryPage: React.FC = () => {
     <IonPage>
      
       <IonContent className="bg-image-standard">
-        <div >
+        <div style={{marginTop:"50px"}}>
         <IonGrid>
           <IonRow>
             <IonCol size="4">
-              <IonButton color={current===1?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(1) }>
+              <IonButton color={current===1?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(1) }>
                 <IonLabel color="light" className="ion-text-center">
-                  Kur'an
+                  {translationService.getLabel('label-header-quran')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color={current===2?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(2) }>
+              <IonButton color={current===2?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(2) }>
                 <IonLabel color="light" className="ion-text-center">
-                  Namaz
+                {translationService.getLabel('label-header-prayer')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color={current===3?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(3) }>
+              <IonButton color={current===3?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(3) }>
                 <IonLabel color="light" className="ion-text-center">
-                  Sarti
+                {translationService.getLabel('label-header-faith')}
                 </IonLabel>
               </IonButton>
             </IonCol>
@@ -47,23 +47,23 @@ const MainCategoryPage: React.FC = () => {
 
           <IonRow>
             <IonCol size="4">
-              <IonButton color={current===4?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(4) }>
+              <IonButton color={current===4?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(4) }>
                 <IonLabel color="light" className="ion-text-center">
-                  Zikr
+                {translationService.getLabel('label-header-dhikr')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color={current===5?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(5) }>
+              <IonButton color={current===5?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(5) }>
                 <IonLabel color="light" className="ion-text-center">
-                  Muhammed
+                {translationService.getLabel('label-header-muhammad')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color={current===6?"burgundy":"brown"} shape="round" expand="full" onClick={ () => setCurrent(6) }>
+              <IonButton color={current===6?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(6) }>
                 <IonLabel color="light" className="ion-text-center">
-                  Istorija
+                {translationService.getLabel('label-header-history')}
                 </IonLabel>
               </IonButton>
             </IonCol>
@@ -71,7 +71,7 @@ const MainCategoryPage: React.FC = () => {
         </IonGrid>
         </div>
         <div className="ion-no-padding" id="quran" hidden={current!==1}>
-          <h1 className="category-title ion-padding">Kur'an</h1>
+          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-quran')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -104,7 +104,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Čitaj odabrane sure iz Časnog Kur'ana.
                     </h6>
                   </IonRow>
@@ -213,7 +213,7 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
         <div className="ion-no-padding" id="prayer" hidden={current!==2}>
-          <h1 className="category-title ion-padding">Namaz</h1>
+          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-prayer')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -355,7 +355,7 @@ const MainCategoryPage: React.FC = () => {
         </div>
 
         <div className="ion-no padding" hidden={current!==3}>
-          <h1 className="category-title ion-padding">Šarti</h1>
+          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-faith')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -466,7 +466,7 @@ const MainCategoryPage: React.FC = () => {
         </div>
 
         <div className="ion-no-padding" hidden={current!==4}>
-          <h1 className="category-title ion-padding">Zikr</h1>
+          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-dhikr')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -608,7 +608,7 @@ const MainCategoryPage: React.FC = () => {
         </div>
 
         <div className="ion-no-padding" hidden={current!==5}>
-          <h1 className="category-title ion-padding">Muhammed</h1>
+          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-muhammad')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -717,7 +717,7 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
         <div className="ion-no-padding" hidden={current!==6}> 
-          <h1 className="category-title ion-padding">Historija</h1>
+          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-history')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"

@@ -152,9 +152,10 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
                   color={surah?.color}
                   expand="block"
                   onClick={() => {setShowArabic(showArabic=>!showArabic)}}
+                  
                 >
                   <IonLabel color="light" className="ion-text-center">
-                    Arapski
+                    {translationService.getLabel('label-header-arabic')}
                   </IonLabel>
                 </IonButton>
               </IonCol>
@@ -165,7 +166,7 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
                   onClick={() => {setShowTranslation(showTranslation=>!showTranslation)}}
                 >
                   <IonLabel color="light" className="ion-text-center">
-                    Prevod
+                  {translationService.getLabel('label-header-translation')}
                   </IonLabel>
                 </IonButton>
               </IonCol>
@@ -176,7 +177,7 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
                   onClick={() => {setShowTransliteration(showTransliteration=>!showTransliteration)}}
                 >
                   <IonLabel color="light" className="ion-text-center">
-                    Transkripcija
+                  {translationService.getLabel('label-header-transcription')}
                   </IonLabel>
                 </IonButton>
               </IonCol>
