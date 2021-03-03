@@ -2555,11 +2555,11 @@
     },
     {
         "name":"label-book2-lesson27-quote",
-        "value":"\"O vjernici! Propisuje vam se post.\""
+        "value":"\"Šejtan je, uistinu, vaš neprijatelj\""
     },
     {
         "name":"label-book2-lesson27-quote-reference",
-        "value":"Kur'an, 2:183"
+        "value":"Kur'an, 35:6"
     },
     {
         "name":"label-book2-lesson27_section1-paragraph1",
@@ -2675,6 +2675,40 @@
         "name":"label-translator",
         "value":"Prevod:Besim Korkut"
     },
+    {
+        "name":"label-ruby-header",
+        "value":"Rubini"
+    },
+    {
+        "name":"label-ruby-description",
+        "value":"Ajeti koji govore o veličini i moći Allaha dž.š."
+    },
+    {
+        "name":"label-ruby-quote",
+        "value":"\"On je Silni, Onaj koji prašta\""
+    },
+    {
+        "name":"label-ruby-quote-reference",
+        "value":"Kur'an, 67:2"
+    },
+
+    {
+        "name":"label-pearls-header",
+        "value":"Biseri"
+    },
+    {
+        "name":"label-pearls-description",
+        "value":"Ajeti koji govore ispravnom putu koji svaki musliman treba pratiti"
+    },
+    {
+        "name":"label-pearls-quote",
+        "value":"Ii u Allaha se pouzdaj, Allah je zaštitinik dovoljan!\""
+    },
+    {
+        "name":"label-pearls-quote-reference",
+        "value":"Kur'an, 33:3"
+    },
+
     {
         "name":"label-surah1-description",
         "value":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta."

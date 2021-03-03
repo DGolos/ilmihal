@@ -13,8 +13,9 @@ import {
     IonRow,
     IonToolbar
   } from "@ionic/react";
-  import React, { useEffect, useState } from "react";
+  import React from "react";
 import SurahListItem from "../../../components/SurahListItem";
+import { translationService } from "../../../services/TranslationService";
   
   
   
@@ -31,19 +32,20 @@ import SurahListItem from "../../../components/SurahListItem";
         <IonContent className="bg-image-standard" fullscreen>
         <IonCard
             className="lesson-header ion-padding ion-text-center"
-            color="dark-brown"
+            color="purple"
           >
             <IonCardTitle>
-              <h1 className="lesson">Biseri</h1>
+              <h1 className="lesson">{translationService.getLabel('label-pearls-header')}</h1>
             </IonCardTitle>
             <IonCardContent>
               <IonCardSubtitle>
-                <h3 style={{ fontStyle: "italic" }}>"Ovo su ajeti mudre Knjige"</h3>
-                <p className="quote-reference">Kur'an 10:1</p>
+                <h3 style={{ fontStyle: "italic" }}>{translationService.getLabel('label-pearls-quote')}</h3>
+                <p className="quote-reference">{translationService.getLabel('label-pearls-quote-reference')}</p>
               </IonCardSubtitle>
             </IonCardContent>
           </IonCard>
-          <IonGrid>
+          <div className="grid">
+          <div className="grid-full">
             <IonRow>
               <IonCol size="4">
                 <SurahListItem surahId="2" surahName="El-Bekare" firstAyahId="1" lastAyahId="5" surahColor="razimic"/>
@@ -88,7 +90,8 @@ import SurahListItem from "../../../components/SurahListItem";
               <SurahListItem surahId="49" surahName="El-Hugurat" firstAyahId="12" lastAyahId="13" surahColor="burgundy"/>
               </IonCol>
             </IonRow>
-          </IonGrid>
+            </div>
+          </div>
         </IonContent>
       </IonPage>
     );

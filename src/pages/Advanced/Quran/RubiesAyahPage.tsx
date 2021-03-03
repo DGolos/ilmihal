@@ -15,6 +15,7 @@ import {
   } from "@ionic/react";
   import React, { useEffect, useState } from "react";
 import SurahListItem from "../../../components/SurahListItem";
+import { translationService } from "../../../services/TranslationService";
   
   
   
@@ -31,19 +32,20 @@ import SurahListItem from "../../../components/SurahListItem";
         <IonContent className="bg-image-standard" fullscreen>
         <IonCard
             className="lesson-header ion-padding ion-text-center"
-            color="purple"
+            color="burgundy"
           >
             <IonCardTitle>
-              <h1 className="lesson">Rubini</h1>
+              <h1 className="lesson">{translationService.getLabel('label-ruby-header')}</h1>
             </IonCardTitle>
             <IonCardContent>
               <IonCardSubtitle>
-                <h3 style={{ fontStyle: "italic" }}>"Ovo su ajeti mudre Knjige"</h3>
-                <p className="quote-reference">Kur'an 10:1</p>
+                <h3 style={{ fontStyle: "italic" }}>{translationService.getLabel('label-ruby-quote')}</h3>
+                <p className="quote-reference">{translationService.getLabel('label-ruby-quote-reference')}</p>
               </IonCardSubtitle>
             </IonCardContent>
           </IonCard>
-          <IonGrid>
+          <div className="grid">
+            <div className="grid-full">
             <IonRow>
               <IonCol size="4">
                 <SurahListItem surahId="2" surahName="El-Bekare" firstAyahId="30" lastAyahId="39" surahColor="razimic"/>
@@ -60,7 +62,7 @@ import SurahListItem from "../../../components/SurahListItem";
               <SurahListItem surahId="3" surahName="Ali 'Imran" firstAyahId="1" lastAyahId="6" surahColor="burgundy"/>
               </IonCol>
               <IonCol size="4">
-              <SurahListItem surahId="3" surahName="Ali 'Imran" firstAyahId="18" lastAyahId="19" surahColor="burgundy"/>
+              <SurahListItem surahId="3" surahName="Ali 'Imran"  firstAyahId="18" lastAyahId="19" surahColor="burgundy"/>
               </IonCol>
               <IonCol size="4">
               <SurahListItem surahId="3" surahName="Ali 'Imran" firstAyahId="189" lastAyahId="192" surahColor="burgundy"/>
@@ -88,7 +90,9 @@ import SurahListItem from "../../../components/SurahListItem";
               <SurahListItem surahId="59" surahName="El-Hašr" firstAyahId="22" lastAyahId="24" surahColor="brown"/>
               </IonCol>
             </IonRow>
-          </IonGrid>
+            </div>
+            
+          </div>
         </IonContent>
       </IonPage>
     );
