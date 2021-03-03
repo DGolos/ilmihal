@@ -78,6 +78,7 @@ import { dataService } from './services/dataService';
 import { StandardLessonPage } from './pages/Common/StandardLessonPage';
 import SegmentLessonPage from './pages/Common/SegmentLessonPage';
 import ChooseLanguagePage from './pages/ChooseLanguagePage';
+import UnderConstructionPage from './pages/UnderConstructionPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -146,6 +147,7 @@ const App: React.FC = () => {
           <Route path="/FuneralPrayerPage" component={FuneralPrayerPage}/>
           <Route path="/TarawihPrayerPage" component={TarawihPrayerPage}/>
           <Route path="/JummahPrayerPage" component={JummahPrayerPage}/>
+          <Route path="/UnderConstructionPage" component={UnderConstructionPage}/>
           
         </IonRouterOutlet>
         <IonTabBar slot="bottom" color="background" hidden={!translationService.isLoaded()}>

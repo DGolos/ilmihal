@@ -148,7 +148,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -252,7 +252,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -476,7 +476,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -505,7 +505,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -542,7 +542,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -618,7 +618,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -647,7 +647,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -684,7 +684,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -727,7 +727,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -756,7 +756,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
@@ -793,7 +793,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/UnderConstructionPage`}
                   color="light"
                   class="category"
                 >
