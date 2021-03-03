@@ -20,7 +20,7 @@ export const AsrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string }
     if(match.params.type==="fardh") setPrayerType(translationService.getLabel('label-asr-fardh'));
 
     
-});
+},[match.params.type]);
     return (
       <IonPage>
         <IonHeader className="ion-no-border">

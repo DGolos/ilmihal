@@ -36,7 +36,7 @@ export const FajrPrayerDetailsPage: React.FC<
     if (match.params.type === "fardh") {
       setPrayerType(translationService.getLabel("label-fajr-fardh"));
     }
-  });
+  },[match.params.type]);
   return (
     <IonPage>
       <IonHeader className="ion-no-border">

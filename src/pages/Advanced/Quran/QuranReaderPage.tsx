@@ -1,6 +1,6 @@
 import { RouteComponentProps } from "react-router";
 import {IonBackButton, IonButton, IonButtons, IonCard, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonPage, IonRange, IonRow, IonToolbar, useIonViewWillEnter} from '@ionic/react';
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Surah } from "../../../objects/Surah";
 import { dataService } from "../../../services/dataService";
 import { Ayah } from "../../../objects/Ayah";

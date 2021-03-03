@@ -1,5 +1,4 @@
 import {
-  IonAvatar,
   IonBackButton,
   IonButtons,
   IonCard,
@@ -11,16 +10,12 @@ import {
   IonGrid,
   IonHeader,
   IonItem,
-  IonLabel,
-  IonList,
   IonPage,
   IonRow,
-  IonSearchbar,
   IonSlide,
   IonSlides,
   IonText,
-  IonToolbar,
-  useIonViewWillEnter,
+  IonToolbar
 } from "@ionic/react";
 import React, { useEffect, useState } from "react";
 

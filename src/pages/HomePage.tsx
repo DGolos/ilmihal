@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IonAvatar, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonModal, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
+import { IonAvatar, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
 
 import { timeService } from '../services/TimeService';
 import { translationService } from '../services/TranslationService';

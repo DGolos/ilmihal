@@ -16,8 +16,7 @@ import {
   IonRow,
   IonText,
   IonToolbar,
-  useIonViewWillEnter,
-  useIonViewWillLeave,
+  useIonViewWillEnter
 } from "@ionic/react";
 import React, { useEffect, useRef, useState } from "react";
 import { pause, play } from "ionicons/icons";
@@ -25,7 +24,6 @@ import { Surah } from "../../../objects/surah";
 import { dataService } from "../../../services/dataService";
 import { Howl } from "howler";
 import { translationService } from "../../../services/TranslationService";
-import { isIfStatement } from "typescript";
 
 export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
   match,
@@ -48,7 +46,8 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
   
   useEffect(() => {
     const timer = setInterval(() => {
-      if(isPlaying){
+      
+      if(playerRef.current.state()==='loaded'){
         setElapsedTime((elapsedTime) => elapsedTime + 1);
         setProgress(
           (+playerRef.current.seek() / playerRef.current.duration()) * 100
@@ -60,26 +59,18 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
       playerRef.current.unload();
       clearInterval(timer);
     };
-  }, [match.params.id,isPlaying]);
-
-  const updateProgress = () => {
-    
-    if(isPlaying){
-      setElapsedTime((elapsedTime) => elapsedTime + 1);
-      setProgress(
-        (+playerRef.current.seek() / playerRef.current.duration()) * 100
-      );
-    }
- 
-  };
+  }, [match.params.id]);
 
   const toglePlayPause = () => {
     if (isLoaded === false) {
       const onEnd = () => {
         setIsPlaying(false);
+        playerRef.current.unload();
+        
       };
 
       const onLoad = () => {
+        
         setIsLoaded(true);
       };
 
@@ -96,8 +87,10 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
       playerRef.current.pause();
       setIsPlaying(false);
     } else {
+      setElapsedTime(0);
       playerRef.current.play();
       setIsPlaying(true);
+      
     }
   };
 
@@ -153,7 +146,7 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
                   `label-surah${currentSurah?.id}-description`
                 )}
               </p>
-              <IonChip color="burgundy">Info</IonChip>
+              
               <p>
                 {translationService.getLabel(
                   `label-surah${currentSurah?.id}-note`

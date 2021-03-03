@@ -1,5 +1,4 @@
-import { IonBackButton, IonButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
-import { caretForwardCircleOutline, chevronBackOutline } from "ionicons/icons";
+import { IonBackButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
 import React, { useEffect, useState } from "react"
 import { RouteComponentProps } from "react-router"
 import QijamWatch from "../../components/QijamWatch";

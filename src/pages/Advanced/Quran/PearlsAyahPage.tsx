@@ -9,9 +9,6 @@ import {
     IonContent,
     IonGrid,
     IonHeader,
-    IonItem,
-    IonLabel,
-    IonList,
     IonPage,
     IonRow,
     IonToolbar

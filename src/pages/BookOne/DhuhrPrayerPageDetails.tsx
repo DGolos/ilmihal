@@ -22,7 +22,7 @@ export const DhuhrPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string
         if(match.params.type==="fardh") setPrayerType(translationService.getLabel('label-dhuhr-fardh'));
 
         if(match.params.type==="sunsunnah") setPrayerType(translationService.getLabel('label-dhuhr-sunsunnah'));
-    });
+    },[match.params.type]);
     
     return (
       <IonPage>

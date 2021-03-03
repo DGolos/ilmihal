@@ -1,6 +1,5 @@
-import { IonPage, IonHeader, IonToolbar, IonButtons, IonBackButton, IonContent, IonCard, IonCardTitle, IonCardContent, IonCardSubtitle, IonItem, IonText, IonCol, IonGrid, IonRow, IonSlide, IonSlides, IonChip, IonNote } from "@ionic/react";
+import { IonPage, IonHeader, IonToolbar, IonButtons, IonBackButton, IonContent, IonItem, IonText, IonCol, IonGrid, IonRow, IonSlide, IonSlides, IonChip, IonNote } from "@ionic/react";
 import React from "react";
-import { match } from "react-router-dom";
 import { translationService } from "../../services/TranslationService";
 
 export const JummahPrayerPage: React.FC = () => {

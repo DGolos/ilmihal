@@ -18,7 +18,7 @@ export const MaghribPrayerDetailsPage: React.FC<RouteComponentProps<{ type: stri
     if(match.params.type==="fardh") setPrayerType(translationService.getLabel('label-maghrib-fardh'));
 
     
-});
+},[match.params.type]);
     return (
       <IonPage>
         <IonHeader className="ion-no-border">

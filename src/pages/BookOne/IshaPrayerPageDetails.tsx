@@ -37,7 +37,7 @@ export const IshaPrayerDetailsPage: React.FC<RouteComponentProps<{ type: string 
             setPrayerType(translationService.getLabel('label-witr'));
             setNumberOfRakah(3);
         } 
-    }, []);
+    }, [match.params.type]);
     
     return (
       <IonPage>
