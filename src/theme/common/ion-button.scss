@@ -1,15 +1,11 @@
-ion-button.no-shadow{
-    --box-shadow:none;
-    
+ion-button.no-shadow {
+  --box-shadow: none;
 }
 
-ion-button.pressed{
-    --background: rgba(255,255,255,.3);
+ion-button {
+  text-transform: none;
 }
 
-ion-button.burgundy{
-    --background: rgba(85,26,139,1);
+ion-button.burgundy {
+  --background: rgba(85, 26, 139, 1);
 }
-
-
-

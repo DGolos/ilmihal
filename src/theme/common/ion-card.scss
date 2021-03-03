@@ -1,28 +1,29 @@
-ion-card.lesson{
-    box-shadow: none;
-    border-radius: 14px;
-    width:80%;
-    height:130px;
-    
+ion-card.lesson {
+  box-shadow: none;
+  border-radius: 14px;
+  width: 80%;
+  height: 130px;
 }
 
-ion-card.lesson-header{
-    box-shadow: none;
-    border-radius: 14px;
-    height:130px;
-    
+ion-card.lesson-header {
+  box-shadow: none;
+  border-radius: 14px;
+  height: 130px;
 }
 
-ion-card.prayer{
-   
-    border-radius: 14px;
-    
-    
-    
+ion-card.prayer {
+  border-radius: 14px;
 }
 
-ion-card.transparent{
-    --background: rgba(255,255,255,.2);
-    --border-radius: 14px;
-    color: #FFFFFF;
+ion-card.transparent {
+  --background: rgba(255, 255, 255, 0.2);
+  --border-radius: 14px;
+  color: #ffffff;
+}
+ion-card.category {
+  box-shadow: 0;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0px;
+  padding: 10px;
 }

@@ -10,7 +10,6 @@ import {
   IonRow,
   
 } from "@ionic/react";
-import "./MainCategoryPage.css";
 import { translationService } from "../services/TranslationService";
 
 const MainCategoryPage: React.FC = () => {
