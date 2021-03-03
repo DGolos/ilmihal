@@ -3,11 +3,11 @@ import {IonAvatar, IonBackButton, IonBadge, IonButton, IonButtons, IonCard, IonC
 import React, { useEffect, useRef, useState } from "react";
 import './QuranPlayerPage.css';
 import { pause, play } from "ionicons/icons";
-import { Surah } from "../objects/surah";
-import { dataService } from "../services/dataService";
+import { Surah } from "../../../objects/surah";
+import { dataService } from "../../../services/dataService";
 import {Howl} from 'howler';
 import ShowMore from 'react-show-more';
-import { storageService } from "../services/StorageService";
+import { storageService } from "../../../services/StorageService";
 
 export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({ match }) => {
     const [isPlaying,setIsPlaying]=useState(false);

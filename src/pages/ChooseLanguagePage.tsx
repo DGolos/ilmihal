@@ -10,9 +10,9 @@ import {
   IonRow,
   IonText  
 } from "@ionic/react";
-import "./OptionsPage.css";
 
-const ChooseLabguagePage: React.FC = () => {
+
+const ChooseLanguagePage: React.FC = () => {
   return (
     <IonPage>
       <IonContent color="razimic" fullscreen>
@@ -57,4 +57,4 @@ const ChooseLabguagePage: React.FC = () => {
   );
 };
 
-export default ChooseLabguagePage;
+export default ChooseLanguagePage;

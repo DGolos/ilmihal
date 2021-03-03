@@ -38,3 +38,14 @@ ion-avatar.lesson {
     background-color: #FFFF;
     
   }
+
+  ion-avatar.surah {
+    --border-radius: 30%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 14px 0;
+    background: rgba(255,255,255,.1);
+  }
+  

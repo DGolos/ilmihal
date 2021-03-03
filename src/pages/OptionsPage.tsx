@@ -1,6 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './OptionsPage.css';
+import { IonContent, IonPage } from '@ionic/react';
 
 const OptionsPage: React.FC = () => {
   return (

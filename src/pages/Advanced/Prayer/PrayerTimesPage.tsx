@@ -1,7 +1,7 @@
 import { IonBackButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonList, IonPage, IonRow, IonToolbar } from "@ionic/react"
 import moment from "moment";
 import React, { useCallback, useEffect, useState } from "react"
-import { timeService } from "../services/TimeService";
+import { timeService } from "../../../services/TimeService";
 import './PrayerTimesPage.css';
 
 const PrayerTimesPage: React.FC = () => {
