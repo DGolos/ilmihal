@@ -23,10 +23,7 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
   const [surahs, setSurahs] = useState<Surah[]>([]);
   const [filteredSurahs, setFilteredSurahs] = useState<Surah[]>([]);
   const [searchText, setSearchText] = useState("");
-  const [showArabic, setShowArabic] = useState(true);
-  const [showTranslation, setShowTranslation] = useState(true);
-  const [showTranscription, setShowTranscription] = useState(false);
-
+  
   const loadSurahs = function () {
     setSurahs(dataService.getAllSuras());
   };

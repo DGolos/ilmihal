@@ -365,7 +365,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/RamadhanDefinitionPage`}
+                  routerLink={`/StandardLessonPage/1/30`}
                   color="light"
                   class="category"
                 >
@@ -394,7 +394,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/CharityDefinitionPage`}
+                  routerLink={`/StandardLessonPage/1/31`}
                   color="light"
                   class="category"
                 >

@@ -2676,6 +2676,15 @@
         "value":"Prevod:Besim Korkut"
     },
     {
+        "name":"label-surah1-description",
+        "value":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta."
+    },
+    
+    {
+        "name":"label-surah1-note",
+        "value":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva."
+    },
+    {
         "name":"label-surah1-ayah1",
         "value":"U ime Allaha, Milostivog, Samilosnog"
     },

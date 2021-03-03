@@ -36,8 +36,7 @@ const BookOneMainPage: React.FC = () => {
             <IonCol size="4">
               <IonButton
                 className="pressed"
-                shape="round"
-                expand="full"
+                expand="block"
                 onClick={() => setCurrent(1)}
               >
                 <IonLabel color="light" className="ion-text-center">
@@ -48,8 +47,7 @@ const BookOneMainPage: React.FC = () => {
             <IonCol size="4">
               <IonButton
                 className="pressed"
-                shape="round"
-                expand="full"
+                expand="block"
                 onClick={() => setCurrent(2)}
               >
                 <IonLabel color="light" className="ion-text-center">
@@ -60,8 +58,7 @@ const BookOneMainPage: React.FC = () => {
             <IonCol size="4">
               <IonButton
                 className="pressed"
-                shape="round"
-                expand="full"
+                expand="block"
                 onClick={() => setCurrent(3)}
               >
                 <IonLabel color="light" className="ion-text-center">
@@ -75,8 +72,7 @@ const BookOneMainPage: React.FC = () => {
             <IonCol size="4">
               <IonButton
                 className="pressed"
-                shape="round"
-                expand="full"
+                expand="block"
                 onClick={() => setCurrent(4)}
               >
                 <IonLabel color="light" className="ion-text-center">
@@ -87,8 +83,7 @@ const BookOneMainPage: React.FC = () => {
             <IonCol size="4">
               <IonButton
                 className="pressed"
-                shape="round"
-                expand="full"
+                expand="block"
                 onClick={() => setCurrent(5)}
               >
                 <IonLabel color="light" className="ion-text-center">

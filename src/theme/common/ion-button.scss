@@ -9,3 +9,10 @@ ion-button {
 ion-button.burgundy {
   --background: rgba(85, 26, 139, 1);
 }
+
+ion-button.pressed{
+  --background: rgba(255,255,255,.3);
+}
+ion-button.menu{
+  --border-radius: 14px;
+}

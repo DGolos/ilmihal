@@ -1,6 +1,5 @@
 import {
   IonBackButton,
-  IonButton,
   IonButtons,
   IonCard,
   IonCardContent,
@@ -16,7 +15,6 @@ import {
   useIonViewWillLeave,
 } from "@ionic/react";
 import { Howl } from "howler";
-import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
 import { Section } from "../../components/lesson/Section";
