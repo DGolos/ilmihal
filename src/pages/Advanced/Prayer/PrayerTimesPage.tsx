@@ -1,127 +1,117 @@
-import { IonBackButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonList, IonPage, IonRow, IonToolbar } from "@ionic/react"
-import moment from "moment";
-import React, { useCallback, useEffect, useState } from "react"
-import { timeService } from "../../../services/TimeService";
-import './PrayerTimesPage.css';
+import {
+  IonBackButton,
+  IonButtons,
+  IonCard,
+  IonCardContent,
+  IonCardSubtitle,
+  IonCardTitle,
+  IonContent,
+  IonHeader,
+  IonItem,
+  IonList,
+  IonPage,
+  IonText,
+  IonToolbar,
+} from "@ionic/react";
+import React, { useEffect, useState } from "react";
+import { PrayersProps, timeService } from "../../../services/TimeService";
+import { translationService } from "../../../services/TranslationService";
 
 const PrayerTimesPage: React.FC = () => {
-
-  const [fajr,setFajr]=useState("");
-  const [dhuhr,setDhuhr]=useState("");
-  const [asr,setAsr]=useState("");
-  const [maghrib,setMaghrib]=useState("");
-  const [isha,setIsha]=useState("");
-  const[period,setPeriod]=useState("");
-
+  const[prayers,setPrayers]=useState<PrayersProps>();
+ 
   const getPrayerTimes = () => {
-    const prayers=timeService.getPrayertimes();
+    setPrayers(timeService.getPrayertimes());
     
-     setFajr(moment.utc(prayers.fajr*1000).format("HH:mm"));
-     setDhuhr(moment.utc(prayers.dhuhr*1000).format("HH:mm"));
-     setAsr(moment.utc(prayers.asr*1000).format("HH:mm"));
-     setMaghrib(moment.utc(prayers.maghrib*1000).format("HH:mm"));
-     setIsha(moment.utc(prayers.isha*1000).format("HH:mm"));
-
-     setPeriod("bg-image-"+prayers.period);
-    
+    console.log(prayers?.headers);
   };
 
- 
-    useEffect(() => {
-      getPrayerTimes();
-  }, [getPrayerTimes]);
+  useEffect(() => {
+    getPrayerTimes();
+  },[]);
 
+  return (
+    <IonPage>
+      <IonHeader className="ion-no-border standard">
+        <IonToolbar>
+          <IonButtons slot="start">
+            <IonBackButton color="light" defaultHref="/MainCategoryPage" />
+          </IonButtons>
+        </IonToolbar>
+      </IonHeader>
+      <IonContent className={`bg-image-${ prayers?.period}`} fullscreen>
+        <IonCard className="prayer ion-padding transparent ion-text-center">
+          
+            <h1 style={{fontSize:"24px"}}>
+              {translationService.getLabel(prayers?.headers[0]!)}
+            </h1>
+          
+           
+              <h1 style={{fontSize:"24px"}} hidden={prayers?.headers.length===1}>
+                {prayers?.headers.length!>1?translationService.getLabel(prayers?.headers[1]!):""}
+              </h1>
+              <p hidden={prayers?.headers.length!<3} style={{fontSize:"18px",fontWeight:"bold"}}>
+              {prayers?.headers.length!>2?prayers?.headers[2]!:""}
+              </p>
+           
+        
+        </IonCard>
+        <div className="ion-padding">
+          <IonList>
+            <IonItem lines="full">
+              <IonText slot="start" >
+                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-beginning-fasting')}</h2>
+              </IonText>
+              <IonText slot="end">
+                <h2 style={{fontSize:"16px"}}>{prayers?.startOfFast}</h2>
+              </IonText>
+            </IonItem>
 
-    
-    return (
-      <IonPage>
-        <IonHeader className="ion-no-border standard">
-           <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton color="light" defaultHref="/MainCategoryPage" />
-            </IonButtons>
-          </IonToolbar> 
-        </IonHeader>
-        <IonContent className={period} fullscreen>
-          <IonItem className="prayer-header">
-            <IonGrid>
-              <IonRow className="ion-no-padding">
-                <IonCol size="12" className="ion-no-padding">
-                  <h2 className="prayer-header ion-no-padding ion-text-center">
-                    Slijedeci namaz
-                  </h2>
-                </IonCol>
-              </IonRow>
-              <IonRow>
-                <IonCol size="12" className="ion-no-padding">
-                  <h6 className="welcome ion-no-padding ion-text-center">
-                    Jacija
-                  </h6>
-                </IonCol>
-              </IonRow>
-              <IonRow>
-                <IonCol size="12" className="ion-no-padding">
-                  <h2 className="prayer-header ion-no-padding ion-text-center">
-                    za 52 minute
-                  </h2>
-                </IonCol>
-              </IonRow>
-            </IonGrid>
-          </IonItem>
-
-          <IonList className="prayer-details">
-            <IonItem>
-              <IonLabel slot="start">
-                <h1 slot="start" className="prayer-details">
-                  Danasnja vaktija
-                </h1>
-              </IonLabel>
+            <IonItem lines="full">
+              <IonText slot="start">
+                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-fajr-prayer')}</h2>
+              </IonText>
+              <IonText slot="end">
+                <h2 style={{fontSize:"16px"}}>{prayers?.fajr}</h2>
+              </IonText>
             </IonItem>
-            
-            <IonItem>
-              <IonLabel slot="start">
-                <h2 className="prayer-details">Sabah</h2>
-              </IonLabel>
-              <IonLabel slot="end">
-                <h2 className="prayer-details">{fajr}</h2>
-              </IonLabel>
+            <IonItem lines="full">
+              <IonText slot="start">
+                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-dhuhr-prayer')}</h2>
+              </IonText>
+              <IonText slot="end">
+                <h2 style={{fontSize:"16px"}}>{prayers?.dhuhr}</h2>
+              </IonText>
             </IonItem>
-            <IonItem>
-              <IonLabel slot="start">
-                <h2 className="prayer-details">Podne</h2>
-              </IonLabel>
-              <IonLabel slot="end">
-                <h2 className="prayer-details">{dhuhr}</h2>
-              </IonLabel>
+            <IonItem lines="full">
+              <IonText slot="start">
+                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-asr-prayer')}</h2>
+              </IonText>
+              <IonText slot="end">
+                <h2 style={{fontSize:"16px"}}>{prayers?.asr}</h2>
+              </IonText>
             </IonItem>
-            <IonItem>
-              <IonLabel slot="start">
-                <h2 className="prayer-details">Ikindija</h2>
-              </IonLabel>
-              <IonLabel slot="end">
-                <h2 className="prayer-details">{asr}</h2>
-              </IonLabel>
+            <IonItem lines="full">
+              <IonText slot="start">
+                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-maghrib-prayer')}</h2>
+              </IonText>
+              <IonText slot="end">
+                <h2 style={{fontSize:"16px"}}>{prayers?.maghrib}</h2>
+              </IonText>
             </IonItem>
-            <IonItem>
-              <IonLabel slot="start">
-                <h2 className="prayer-details">Aksam</h2>
-              </IonLabel>
-              <IonLabel slot="end">
-                <h2 className="prayer-details">{maghrib}</h2>
-              </IonLabel>
-            </IonItem>
-            <IonItem>
-              <IonLabel slot="start">
-                <h2 className="prayer-details">Jacija</h2>
-              </IonLabel>
-              <IonLabel slot="end">
-                <h2 className="prayer-details">{isha}</h2>
-              </IonLabel>
+            <IonItem lines="full">
+              <IonText slot="start">
+                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-isha-prayer')}</h2>
+              </IonText>
+              <IonText slot="end">
+                <h2 style={{fontSize:"16px"}}>{prayers?.isha}</h2>
+              </IonText>
             </IonItem>
           </IonList>
-        </IonContent>
-      </IonPage>
-    );
-}
+        </div>
+      </IonContent>
+    </IonPage>
+  );
+};
 
 export default PrayerTimesPage;

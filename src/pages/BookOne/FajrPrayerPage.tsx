@@ -25,7 +25,7 @@ import { translationService } from "../../services/TranslationService";
 const FajrPrayerPage: React.FC = () => {
   const [fajr, setFajr] = useState("");
   useEffect(() => {
-    setFajr(moment.utc(timeService.getFajrTime() * 1000).format("HH:mm"));
+    setFajr(timeService.getFajrTime());
   }, []);
 
   return (

@@ -9,7 +9,7 @@ import { translationService } from "../../services/TranslationService";
 const AsrPrayerPage: React.FC = () => {
     const [asr,setAsr]=useState("");
     useEffect(() => {
-        setAsr(moment.utc(timeService.getAsrTime()*1000).format("HH:mm"));
+        setAsr(timeService.getAsrTime());
     }, []);
     
     return (

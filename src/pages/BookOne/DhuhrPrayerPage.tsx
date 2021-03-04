@@ -9,7 +9,7 @@ import { translationService } from "../../services/TranslationService";
 const DhuhrPrayerPage: React.FC = () => {
     const [dhuhr,setDhuhr]=useState("");
     useEffect(() => {
-        setDhuhr(moment.utc(timeService.getDhuhrTime()*1000).format("HH:mm"));
+        setDhuhr(timeService.getDhuhrTime());
     }, []);
     
     return (

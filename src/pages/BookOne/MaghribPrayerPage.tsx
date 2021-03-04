@@ -9,7 +9,7 @@ import { translationService } from "../../services/TranslationService";
 const MaghribPrayerPage: React.FC = () => {
     const [maghrib,setMaghrib]=useState("");
     useEffect(() => {
-        setMaghrib(moment.utc(timeService.getMaghribTime()*1000).format("HH:mm"));
+        setMaghrib(timeService.getMaghribTime());
     }, []);
     
     return (

@@ -9,7 +9,7 @@ import { translationService } from "../../services/TranslationService";
 const IshaPrayerPage: React.FC = () => {
     const [isha,setIsha]=useState("");
     useEffect(() => {
-      setIsha(moment.utc(timeService.getIshaTime()*1000).format("HH:mm"));
+      setIsha(timeService.getIshaTime());
     }, []);
     
     return (

@@ -1740,6 +1740,10 @@
         "value":"Namaz je muslimanska obaveza koja se izvršava svaki dan klanjanjem i učenjem na propisani način. Svaki dan treba klanjati pet namaza u vrijeme odredjeno za namaz."
     },
     {
+        "name":"label-beginning-fasting",
+        "value":"Početak posta"
+    },
+    {
         "name":"label-fajr-prayer",
         "value":"Sabah"
     },
@@ -1775,6 +1779,19 @@
         "name":"label-rakah-witr",
         "value":"rekata vitra"
     },
+    {
+        "name":"label-next-prayer",
+        "value":"Slijedeći namaz"
+    },
+    {
+        "name":"label-current-prayer",
+        "value":"Vrijeme je"
+    },
+    {
+        "name":"label-no-prayer",
+        "value":"Trenutno nije vrijeme namaza"
+    },
+
 
     {
         "name":"label-book2-lesson1-quote",
