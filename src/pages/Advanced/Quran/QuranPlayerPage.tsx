@@ -96,15 +96,15 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
 
   const formatTime = (duration: number): string => {
     let hours = Math.floor(duration / 3600);
-    let minutes = Math.floor(duration / 3600 / 60);
-    let seconds = Math.floor(duration % 3600);
-
+    let minutes = Math.floor((duration/60) % 60);
+    let seconds = Math.floor(duration-(hours*3600+minutes*60));
+    
     let ret = "";
 
     if (hours > 0) {
       ret += "" + hours + ":" + (minutes < 10 ? "0" : "");
     }
-
+    
     ret += "" + minutes + ":" + (seconds < 10 ? "0" : "");
     ret += "" + seconds;
 

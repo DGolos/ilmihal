@@ -2676,6 +2676,18 @@
         "value":"Prevod:Besim Korkut"
     },
     {
+        "name":"label-chosen-verses-header",
+        "value":"Odabrani ajeti"
+    },
+    {
+        "name":"label-chosen-verses-quote",
+        "value":"\"Ovo su ajeti mudre Knjige\""
+    },
+    {
+        "name":"label-chosen-verses-quote-reference",
+        "value":"Kur'an, 10:1"
+    },
+    {
         "name":"label-ruby-header",
         "value":"Rubini"
     },
@@ -2702,7 +2714,7 @@
     },
     {
         "name":"label-pearls-quote",
-        "value":"Ii u Allaha se pouzdaj, Allah je zaštitinik dovoljan!\""
+        "value":"\"I u Allaha se pouzdaj, Allah je zaštitinik dovoljan!\""
     },
     {
         "name":"label-pearls-quote-reference",

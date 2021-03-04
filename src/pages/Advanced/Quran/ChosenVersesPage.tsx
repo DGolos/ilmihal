@@ -23,24 +23,24 @@ export const ChosenVersesPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="burgundy" defaultHref="/MainCategoryPage" />
+            <IonBackButton color="light"/>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="bg-image-standard" fullscreen>
+      <IonContent className="bg-image-brown" fullscreen>
         <IonCard
           className="lesson-header ion-padding transparent ion-text-center"
-          color="razimic"
+          color="dark-brown"
         >
           <IonCardTitle>
-            <h1 className="lesson">Odabrani ajeti</h1>
+            <h1 className="lesson">{translationService.getLabel('label-chosen-verses-header')}</h1>
           </IonCardTitle>
           <IonCardContent>
             <IonCardSubtitle>
               <h3 style={{ fontStyle: "italic" }}>
-                "Ovo su ajeti mudre Knjige"
+              {translationService.getLabel('label-chosen-verses-quote')}
               </h3>
-              <p className="quote-reference">Kur'an 10:1</p>
+              <p className="quote-reference">{translationService.getLabel('label-chosen-verses-quote-reference')}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

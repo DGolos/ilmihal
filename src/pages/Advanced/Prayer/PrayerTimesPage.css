@@ -10,19 +10,19 @@ ion-item.prayer-header{
     font-weight: normal;
     font-size: 14px;
     color:#FFFFFF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
   }
 
   h2.prayer-details{
     font-weight: normal;
     font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
   }
 
   h1.prayer-details{
     font-weight: bold;
     font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     color:black;
   }
 
