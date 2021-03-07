@@ -1,6 +1,7 @@
 import { IonBackButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader,  IonItem,  IonNote, IonPage, IonRow, IonSlide, IonSlides, IonText, IonToolbar } from "@ionic/react"
 import React from "react"
 import { RouteComponentProps } from "react-router"
+import { Progress } from "../../components/common/Progress";
 import QijamWatch from "../../components/QijamWatch";
 import RukuWatch from "../../components/RukuWatch";
 import SelamWatch from "../../components/SelamWatch";
@@ -55,9 +56,16 @@ export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                     >
                       <IonGrid className="ion-text-left">
                         <IonRow>
-                          <IonCol size="12">
+                          <IonCol size="6">
                             <IonChip color="burgundy">{translationService.getLabel('label-nijjah-header')}</IonChip>
                           </IonCol>
+                          <IonCol size="6">
+                            <Progress
+                              currentValue={1}
+                              maxValue={16}
+                              color="burgundy"
+                            />
+                    </IonCol>
                         </IonRow>
 
                         <IonRow>
@@ -91,9 +99,16 @@ export const FajrPrayerWatchPage: React.FC<RouteComponentProps<{ type: string }>
                     >
                       <IonGrid className="ion-text-left">
                         <IonRow>
-                          <IonCol size="12">
+                          <IonCol size="6">
                             <IonChip color="burgundy">{translationService.getLabel('label-prayer-tekbir')}</IonChip>
                           </IonCol>
+                          <IonCol size="6">
+                            <Progress
+                              currentValue={2}
+                              maxValue={16}
+                              color="burgundy"
+                            />
+                    </IonCol>
                         </IonRow>
 
                         <IonRow>

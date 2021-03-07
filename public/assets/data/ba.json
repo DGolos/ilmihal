@@ -256,6 +256,11 @@
         "value":"Hadis"
     },
     {
+        "name":"label-from",
+        "value":"od"
+    },
+
+    {
         "name":"label-book1-lesson1_section1-paragraph1",
         "value":"U svim poslovima Bismillom spominjemo Boga i molimo Ga da nam dadne snagu i razum da započeti posao sretno završimo, jer naš život, snaga i razum zavise od Njega, Allaha dželle šānuhu."
     },
@@ -1790,6 +1795,26 @@
     {
         "name":"label-no-prayer",
         "value":"Trenutno nije vrijeme namaza"
+    },
+    {
+        "name":"label-hour",
+        "value":"sat"
+    },
+    {
+        "name":"label-hours",
+        "value":"sata"
+    },
+    {
+        "name":"label-minute-nominativ",
+        "value":"minutu"
+    },
+    {
+        "name":"label-minute-genitiv",
+        "value":"minute"
+    },
+    {
+        "name":"label-minute-acusativ",
+        "value":"minuta"
     },
 
 

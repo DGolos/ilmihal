@@ -17,7 +17,7 @@ const DhuhrPrayerPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="light"/>
+              <IonBackButton color="light" defaultHref='/BookOneMainPage'/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -50,10 +50,10 @@ const DhuhrPrayerPage: React.FC = () => {
               </h2>
             </IonText>
           </IonItem>
-            <IonItem className="lesson-note">
-            <IonLabel slot="start">
+            <IonItem color="light">
+            <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-sunnah')}</h3>
-              <h3 className="prayer-name-normal">4 rekata</h3>
+              <h3 className="prayer-name-normal">4 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
               <IonFabButton  color="light" >
@@ -69,8 +69,8 @@ const DhuhrPrayerPage: React.FC = () => {
               </IonFabList>
             </IonFab>
             </IonItem>
-            <IonItem className="lesson-note">
-            <IonLabel slot="start">
+            <IonItem color="light">
+            <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-fardh')}</h3>
               <h3 className="prayer-name-normal">4 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
@@ -88,8 +88,8 @@ const DhuhrPrayerPage: React.FC = () => {
               </IonFabList>
             </IonFab>
             </IonItem>
-            <IonItem className="lesson-note">
-            <IonLabel slot="start">
+            <IonItem color="light">
+            <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-sunsunnah')}</h3>
               <h3 className="prayer-name-normal">2 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>

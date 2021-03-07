@@ -1,6 +1,6 @@
 import { IonBackButton, IonButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonLabel, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react"
 import React, { useState } from "react"
-import LessonListItem from "../../components/LessonListItem";
+import LessonListItem from "../../components/lesson/LessonListItem";
 import { translationService } from "../../services/TranslationService";
 
 const BookTwoMainPage: React.FC = () => {

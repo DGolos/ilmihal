@@ -1,5 +1,6 @@
 import axios from "axios";
 import moment from "moment";
+import { translationService } from "./TranslationService";
 
 export interface PrayersProps {
   startOfFast: string;
@@ -98,16 +99,31 @@ class TimeService {
     
     let hours = Math.floor(duration / 3600);
     let minutes = Math.floor((duration / 60) % 60);
-    let seconds = Math.floor(duration - (hours * 3600 + minutes * 60));
-
+    
     let ret = "";
 
     if (hours > 0) {
-      ret += "" + hours + ":" + (minutes < 10 ? "0" : "");
+      if(hours===1){
+        ret+=`1 ${translationService.getLabel('label-hour')} `
+      }
+      else{
+        ret+=`${hours} ${translationService.getLabel('label-hours')} `
+      }
+      
     }
-
-    ret += "" + minutes + ":" + (seconds < 10 ? "0" : "");
-    ret += "" + seconds;
+    console.log(minutes);
+    if(minutes>0){
+      if(minutes===1){
+        ret+=`1 ${translationService.getLabel('label-minute-nominativ')}`
+      }
+      else if(minutes>1 && minutes<5){
+        ret+=`${minutes} ${translationService.getLabel('label-minute-genitiv')}`
+      }
+      else if((minutes>=5 && minutes<20)||(minutes%10===0)){
+        ret+=`${minutes} ${translationService.getLabel('label-minute-acusativ')}`
+      }
+      
+    }
     
     return ret;
   }

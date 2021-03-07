@@ -209,6 +209,37 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               
             </IonRow>
+            <IonRow>
+              <IonCol size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
+              <IonCard
+                  routerLink={`/QuranTranslations`}
+                  color="light"
+                  class="category"
+                >
+                  <IonRow className="ion-no-padding">
+                    <img
+                      src="/assets/images/ChosenVerses.png"
+                      height="40px"
+                      width="40px"
+                    />
+
+                    <IonLabel className="ion-padding-start ion-text-centered">
+                      <span>
+                        <h4 className="title">Prijevodi </h4>
+                      </span>
+                      <span>
+                        <h4 className="title">Kur'ana</h4>
+                      </span>
+                    </IonLabel>
+                  </IonRow>
+                  <IonRow>
+                    <h6 className="title">
+                      Čitaj odabrane ajete iz Časnog Kur'ana.
+                    </h6>
+                  </IonRow>
+                </IonCard>
+              </IonCol>
+            </IonRow>
           </IonGrid>
         </div>
         <div className="ion-no-padding" id="prayer" hidden={current!==2}>

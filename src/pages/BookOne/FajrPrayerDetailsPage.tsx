@@ -17,17 +17,17 @@ import {
 } from "@ionic/react";
 import React, { useEffect, useState } from "react";
 import { RouteComponentProps } from "react-router";
-import FirstRakah from "../../components/FirstRakah";
-import FirstRakahPartTwo from "../../components/FirstRakahPartTwo";
-import SecondRakah from "../../components/SecondRakah";
-import SecondRakahPartTwo from "../../components/SecondRakahPartTwo";
-import Tashashud from "../../components/Tashahud";
+import { Progress } from "../../components/common/Progress";
+import FirstRakah from "../../components/prayer/FirstRakah";
+import SecondRakah from "../../components/prayer/SecondRakah";
+import Tashashud from "../../components/prayer/Tashahud";
 import { translationService } from "../../services/TranslationService";
 
 export const FajrPrayerDetailsPage: React.FC<
   RouteComponentProps<{ type: string }>
 > = ({ match }) => {
   const [prayerType, setPrayerType] = useState("");
+  const [prayerLength, setPrayerLength] = useState(0);
   useEffect(() => {
     if (match.params.type === "sunnah") {
       setPrayerType(translationService.getLabel("label-fajr-sunnah"));
@@ -36,7 +36,8 @@ export const FajrPrayerDetailsPage: React.FC<
     if (match.params.type === "fardh") {
       setPrayerType(translationService.getLabel("label-fajr-fardh"));
     }
-  },[match.params.type]);
+    setPrayerLength(6);
+  }, [match.params.type]);
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
@@ -77,10 +78,17 @@ export const FajrPrayerDetailsPage: React.FC<
               >
                 <IonGrid className="ion-text-left">
                   <IonRow>
-                    <IonCol size="12">
+                    <IonCol size="6">
                       <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
                         {translationService.getLabel("label-before-prayer")}
                       </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress
+                        currentValue={1}
+                        maxValue={prayerLength}
+                        color="burgundy"
+                      />
                     </IonCol>
                   </IonRow>
                   <IonRow>
@@ -114,21 +122,16 @@ export const FajrPrayerDetailsPage: React.FC<
                 </IonGrid>
               </IonItem>
             </IonSlide>
-            <IonSlide>
-              <FirstRakah color="burgundy"/>
-            </IonSlide>
-            <IonSlide>
-              <FirstRakahPartTwo color="burgundy"/>
-            </IonSlide>
-            <IonSlide>
-              <SecondRakah color="burgundy"/>
-            </IonSlide>
-            <IonSlide>
-              <SecondRakahPartTwo color="burgundy"/>
-            </IonSlide>
-            <IonSlide>
-              <Tashashud first={false} color="burgundy"/>
-            </IonSlide>
+
+            <FirstRakah color="burgundy" prayerLength={prayerLength} />
+
+            <SecondRakah color="burgundy" prayerLength={prayerLength} />
+
+            <Tashashud
+              first={false}
+              color="burgundy"
+              prayerLength={prayerLength}
+            />
           </IonSlides>
         </div>
       </IonContent>

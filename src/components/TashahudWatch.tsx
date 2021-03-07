@@ -10,15 +10,16 @@ import {
   } from "@ionic/react";
   import React, { useState } from "react";
 import { translationService } from "../services/TranslationService";
+import { Progress } from "./common/Progress";
   
   interface TashahudProps {
     rakah?: string;
     color?:string;
     last?:boolean;
-    
+    prayerLength?: number;
   }
   
-  const TashahudWatch: React.FC<TashahudProps> = ({ rakah,color,last}) => {
+  const TashahudWatch: React.FC<TashahudProps> = ({ rakah,color,last,prayerLength}) => {
     const [currentRakah,setCurrenRakah]=useState("1");
   
     useIonViewWillEnter(() => {
@@ -42,11 +43,14 @@ import { translationService } from "../services/TranslationService";
             >
               <IonGrid className="ion-text-left">
               <IonRow>
-                  <IonCol size="12">
+                  <IonCol size="6">
                     <IonNote>
                       <h2>{currentRakah}</h2>
                     </IonNote>
                   </IonCol>
+                  <IonCol className="ion-padding" size="6">
+                    <Progress currentValue={last===false?6:prayerLength!} maxValue={prayerLength!} color={color} />
+                </IonCol>
                 </IonRow>
                 <IonRow hidden={!last}>
                   <IonCol size="12">

@@ -23,7 +23,7 @@ const PrayerTimesPage: React.FC = () => {
   const getPrayerTimes = () => {
     setPrayers(timeService.getPrayertimes());
     
-    console.log(prayers?.headers);
+  
   };
 
   useEffect(() => {
@@ -42,15 +42,15 @@ const PrayerTimesPage: React.FC = () => {
       <IonContent className={`bg-image-${ prayers?.period}`} fullscreen>
         <IonCard className="prayer ion-padding transparent ion-text-center">
           
-            <h1 style={{fontSize:"24px"}}>
+            <h1 style={{fontSize:"24px",fontWeight:"normal"}}>
               {translationService.getLabel(prayers?.headers[0]!)}
             </h1>
           
            
-              <h1 style={{fontSize:"24px"}} hidden={prayers?.headers.length===1}>
+              <h1 style={{fontSize:"24px",fontWeight:"normal"}} hidden={prayers?.headers.length===1}>
                 {prayers?.headers.length!>1?translationService.getLabel(prayers?.headers[1]!):""}
               </h1>
-              <p hidden={prayers?.headers.length!<3} style={{fontSize:"18px",fontWeight:"bold"}}>
+              <p hidden={prayers?.headers.length!<3} style={{fontSize:"18px",fontWeight:"normal"}}>
               {prayers?.headers.length!>2?prayers?.headers[2]!:""}
               </p>
            

@@ -86,13 +86,13 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
       const onPlay = () => {};
 
       playerRef.current = new Howl({
-        src: `/assets/audio/lessons/${lesson.audio}.mp3`,
+        src: `/assets/audio/Lessons/${lesson.audio}.mp3`,
         preload: true,
         html5: true,
         onend: onEnd,
         onload: onLoad,
         onplay: onPlay,
-        format: ["m4a"],
+        format: ["mp3"],
       });
     }
     if (isPlaying) {

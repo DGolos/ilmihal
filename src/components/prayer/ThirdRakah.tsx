@@ -1,14 +1,19 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonText, useIonViewWillLeave } from "@ionic/react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonSlide, IonText, useIonViewWillLeave } from "@ionic/react";
 import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
-import { translationService } from "../services/TranslationService";
+import { RouteComponentProps } from "react-router";
+import { translationService } from "../../services/TranslationService";
+import { Progress } from "./../common/Progress";
 
-interface FirstRakahProps{
+interface ThirdRakahPropsProps {
+  type?: string;
+  showSubhaneke?:boolean;
   color?:string;
+  prayerLength?: number;
 }
 
-const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
+const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color,prayerLength}) =>{
   const playerRef = useRef(new Howl({ src: [""] }));
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentAudio,setCurrnetAudio]=useState("");
@@ -30,11 +35,11 @@ const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
       };
 
       playerRef.current = new Howl({
-        src: `/assets/audio/lessons/${file}.m4a`,
+        src: `/assets/audio/Lessons/${file}.mp3`,
         preload: true,
         html5: true,
         onload: onLoad,
-        format: ["m4a"],
+        format: ["mp3"],
       });
       setCurrnetAudio(file);
     }
@@ -44,7 +49,9 @@ const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
     
   };
     return (
-      <IonItem
+      <>
+      <IonSlide>
+        <IonItem
         key="1"
         detail={false}
         lines="none"
@@ -53,39 +60,40 @@ const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
       >
         <IonGrid className="ion-text-left">
           <IonRow>
-            <IonCol size="12">
+            <IonCol size="6">
               <IonNote>
-                <h2>{translationService.getLabel('label-first-rakah-header')}</h2>
+                <h2>{translationService.getLabel('label-third-rakah-header')}</h2>
               </IonNote>
             </IonCol>
+            <IonCol className="ion-padding" size="6">
+              <Progress currentValue={7} maxValue={prayerLength!} color={color} />
+          </IonCol>
           </IonRow>
-
-          <IonRow>
+          <IonRow hidden={!showSubhaneke}>
             <IonCol size="12">
               <IonChip color={color} style={{marginLeft:"0px"}}>
-                <IonLabel>{translationService.getLabel('label-prayer-tekbir')}</IonLabel>
+                <IonLabel>{translationService.getLabel('label-prayer-dua-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow hidden={!showSubhaneke}>
             <IonCol size="12">
               <IonNote>
-              {translationService.getLabel('label-prayer-first-rakah-beginning')}
+              {translationService.getLabel('label-prayer-dua-description')}
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow>
+          
+          <IonRow hidden={!showSubhaneke}>
             <IonCol size="6">
-              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-subhaneke')}</IonText>
+              <IonText className={`audio-link-${color}`}>Subhaneke</IonText>
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("Subhaneke")}}
                 fill="solid"
                 color="light"
-                
               >
                 <IonIcon
-                  
                   slot="icon-only"
                   icon={caretForwardCircleOutline}
                   color={color}
@@ -97,6 +105,35 @@ const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
               <IonButton
                 class="no-shadow"
                 onClick={() => {toglePlayPause("EuzaBismilla")}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color={color}
+                />
+              </IonButton>
+            </IonCol>
+          </IonRow>
+          <IonRow hidden={showSubhaneke}>
+            <IonCol size="12">
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-bismilla-header')}</IonLabel>
+              </IonChip>
+            </IonCol>
+          </IonRow>
+          <IonRow hidden={showSubhaneke}>
+            <IonCol size="12">
+              <IonNote>{translationService.getLabel('label-prayer-bismilla-description')}</IonNote>
+            </IonCol>
+          </IonRow>
+          <IonRow hidden={showSubhaneke}>
+            <IonCol size="12">
+              <IonText className={`audio-link-${color}`}>Bismilla</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {toglePlayPause("Bismilla")}}
                 fill="solid"
                 color="light"
               >
@@ -122,7 +159,7 @@ const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah">
+          <IonRow >
             <IonCol size="12">
               <IonText className={`audio-link-${color}`}>El-Fatiha</IonText>
               <IonButton
@@ -139,21 +176,21 @@ const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
               </IonButton>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow hidden={type==="fardh"}>
             <IonCol size="12">
               <IonChip color={color} style={{marginLeft:"0px"}}>
                 <IonLabel>{translationService.getLabel('label-prayer-surah-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow hidden={type==="fardh"}>
             <IonCol size="12">
               <IonNote>
               {translationService.getLabel('label-prayer-surah-description')}
               </IonNote>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow hidden={type==="fardh"}>
             <IonCol size="4">
               <IonText className={`audio-link-${color}`}>En-Nas</IonText>
               <IonButton
@@ -161,7 +198,6 @@ const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
                 onClick={() => {toglePlayPause("Nas")}}
                 fill="solid"
                 color="light"
-                
               >
                 <IonIcon
                   slot="icon-only"
@@ -201,9 +237,97 @@ const FirstRakah: React.FC<FirstRakahProps> = ({color}) => {
               </IonButton>
             </IonCol>
           </IonRow>
+          
+          
         </IonGrid>
       </IonItem>
+      </IonSlide>
+      <IonSlide hidden={type==="witr"}>
+        <IonItem
+        key="1"
+        detail={false}
+        lines="none"
+        color="light"
+        style={{ marginLeft: "15px", marginRight: "15px" }}
+      >
+        <IonGrid className="ion-text-left">
+          <IonRow>
+            <IonCol size="6">
+              <IonNote>
+                <h2>{translationService.getLabel('label-third-rakah-header')}</h2>
+              </IonNote>
+            </IonCol>
+            <IonCol className="ion-padding" size="6">
+            <Progress currentValue={8} maxValue={prayerLength!} color={color} />
+          </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="12">
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-ruku-header')}</IonLabel>
+              </IonChip>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="12">
+              <IonNote>
+              {translationService.getLabel('label-prayer-ruku-description')}
+              </IonNote>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="12">
+              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-ruku-header')}</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color={color}
+                />
+              </IonButton>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="12">
+              <IonChip color={color} style={{marginLeft:"0px"}}>
+                <IonLabel>{translationService.getLabel('label-prayer-sujud-header')}</IonLabel>
+              </IonChip>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="12">
+              <IonNote>
+              {translationService.getLabel('label-prayer-sujud-description')}
+              </IonNote>
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="12">
+              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-sujud-header')}</IonText>
+              <IonButton
+                class="no-shadow"
+                onClick={() => {}}
+                fill="solid"
+                color="light"
+              >
+                <IonIcon
+                  slot="icon-only"
+                  icon={caretForwardCircleOutline}
+                  color={color}
+                />
+              </IonButton>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonItem>
+      </IonSlide>
+      </>
     );
 }
 
-export default FirstRakah;
+export default ThirdRakah;
