@@ -2714,6 +2714,224 @@
         "value":"lekum dinukum ve lije din"
     },
     {
+        "name":"label-book3-lesson1-title",
+        "value":"Hadis"
+    },
+    {
+        "name":"label-book3-lesson1-quote",
+        "value":"\"A tebe smo samo kao milost svjetovima poslali\""
+    },
+    {
+        "name":"label-book3-lesson1-quote-reference",
+        "value":"Kur'an, 21:107"
+    },
+    {
+        "name":"label-book3-lesson1_section1-header",
+        "value":"Općenito"
+    },
+    {
+        "name":"label-book3-lesson1_section1-paragraph1",
+        "value":"Hadis je sve ono što je  Muhammed , a.s., rekao, uradio ili vidio da neko nešto čini, pa svojom šutnjom to odobrio i dotičnog ne opomenuo. U hadis spadaju i one vijesti koje govore o Poslanikovim svojstvima tj. o tome kakav je Poslanik bio po svojim vanjskim i duševnim osobinama."
+    },
+    {
+        "name":"label-book3-lesson1_section2-header",
+        "value":"Zapisivanje"
+    },
+    {
+        "name":"label-book3-lesson1_section2-paragraph1",
+        "value":"Rad na pisanju i sabiranju hadisa prošao je kroz pet faza (razdoblja):"
+    },
+    {
+        "name":"label-book3-lesson1_section2-paragraph2",
+        "value":"1. Pisanje hadisa u vrijeme Poslanika, a.s."
+    },
+    {
+        "name":"label-book3-lesson1_section2-paragraph3",
+        "value":"2. Pisanje hadisa nakon smrti Poslanika, a.s., u vrijeme ashaba i tabe’ina."
+    },
+    {
+        "name":"label-book3-lesson1_section2-paragraph4",
+        "value":"3. Početak pisanja i sabiranja hadisa u zasebnim knjigama."
+    },
+    {
+        "name":"label-book3-lesson1_section2-paragraph5",
+        "value":"4. Odvajanje hadisa od govora ashaba i tabe’ina u zasebnim knjigama."
+    },
+    {
+        "name":"label-book3-lesson1_section2-paragraph6",
+        "value":"5. Odvajanje sahih hadisa od daif hadisa u zasebnim knjigama."
+    },
+
+    {
+        "name":"label-book3-lesson1_section3-header",
+        "value":"Zbirke"
+    },
+    {
+        "name":"label-book3-lesson1_section3-paragraph1",
+        "value":"Šest najpoznatijih hadiskih zbirki u koje nema nikakve sumnje u pogledu ispravnost hadisa u bilo kojem obliku nazivaju se jedinstvenim imenom Kutubu sitte. One su poredane sljedećim redom:"
+    },
+    {
+        "name":"label-book3-lesson1_section3-paragraph2",
+        "value":"Sahih Buhari الجامع الصحيح"
+    },
+    {
+        "name":"label-book3-lesson1_section3-paragraph3",
+        "value":"Sahih Muslim صحيح مسلم"
+    },
+    {
+        "name":"label-book3-lesson1_section3-paragraph4",
+        "value":"Sunen Nesaija السنن الصغرى"
+    },
+    {
+        "name":"label-book3-lesson1_section3-paragraph5",
+        "value":"Sunen Ebu Davud سُنن أبو داوود‎"
+    },
+    {
+        "name":"label-book3-lesson1_section3-paragraph6",
+        "value":"Tirmizijin Sunen جامع الترمذي‎"
+    },
+    {
+        "name":"label-book3-lesson1_section3-paragraph6",
+        "value":"Sunen ibn Madže سُنن ابن ماجه‎"
+    },
+    {
+        "name":"label-book3-lesson1_section4-header",
+        "value":"Nauka o hadisima"
+    },
+    {
+        "name":"label-book3-lesson1_section4-paragraph1",
+        "value":"Muhaddis je osoba koja se aktivno bavi hadiskom naukom, te je sposobna razlikovati vjerodostojne hadise od onih koji to nisu."
+    },
+    {
+        "name":"label-book3-lesson1_section4-paragraph2",
+        "value":"Hadiski stručnjak koji dobro poznaje hadisku nauku i odlikuje se pamćenjem velikog broja hadisa i njihovih prenosilaca. Prema većini hadiskih učenjaka smatra da treba poznavat 100.000 hadisa za ovu titulu."
+    },
+    {
+        "name":"label-book3-lesson1_section4-paragraph3",
+        "value":"Hudždže je hadiski strucnjak koji odlično poznaje hadisku nauku i zna oko 300,000 hadisa sa nj. Senedima. Hakim je titula za alima koji poznaje približno sve hadise sa njihovim senedima."
+    },
+    {
+        "name":"label-book3-lesson1_section5-header",
+        "value":"Podjela hadisa"
+    }, 
+    {
+        "name":"label-book3-lesson1_section5-paragraph1",
+        "value":"Obzirom na ishodište hadise nijelimo na:"
+    },
+    {
+        "name":"label-book3-lesson1_section5-paragraph2",
+        "value":"1. El-hadisu-l-kudsi – je hadisi čiji sened (lanac prenosilaca) dolaze od Allaha, dž.š., a nisu kur&#39;anski ajeti ali ti su hadisi iskazani Poslanikovim, a.s., riječima."
+    },
+    {
+        "name":"label-book3-lesson1_section5-paragraph3",
+        "value":"2. El-hadisu-l-merfu – je hadis čiji sened doseže do Allahova Poslanika, a.s."
+    },
+    {
+        "name":"label-book3-lesson1_section5-paragraph4",
+        "value":"3. El-hadisu-l-mevkuf – je hadis čiji sened doseže do nekoga od ashaba, r.a."
+    },
+    {
+        "name":"label-book3-lesson1_section5-paragraph5",
+        "value":"4. El-hadisu-l-maktu - je hadis čiji sened doseže do nekoga od tabiina, r. a., ili do nekoga iz kasnijih generacija."
+    },
+    {
+        "name":"label-book3-lesson1_section6-header",
+        "value":"Vjerodostojnost"
+    }, 
+    {
+        "name":"label-book3-lesson1_section6-paragraph1",
+        "value":"Mutavatir je hadis koji u svakoj generaciji prenosi veliki broj prenosilaca za koje je nemoguće posumnjati da su se uslovno rečeno dogovorili na laž."
+    },
+    {
+        "name":"label-book3-lesson1_section6-paragraph2",
+        "value":"Meshur je hadis koji u svakoj generaciji prenosi 3 ili više prenosilaca, ali ne dostiže stepen mutevatira."
+    },
+    {
+        "name":"label-book3-lesson1_section6-paragraph3",
+        "value":"Aziz se definiše kao hadis koji u svakoj generaciji prenose najmanje dvojica prenosilaca. Garib hadis je hadis koji u svakoj generaciji prenosi samo jedan ravija."
+    },
+    {
+        "name":"label-book3-lesson1_section6-paragraph4",
+        "value":"Sahih je hadis sa spojenim senedom koji prenose pouzdani i sigurni prenosioci, ne posjeduje nikakav skriveni nedostatak i ne protivi se jačem hadisu od sebe."
+    },
+    {
+        "name":"label-book3-lesson1_section6-paragraph5",
+        "value":"Hasen je hadis sa spojenim senedom koji prenose pouzdani prenosioci, ali manje sigurni od prenosilaca sahih hadisa. Razlika je to što sigurnost i memorija kod ravija nije na stepenu sahiha."
+    },
+    {
+        "name":"label-book3-lesson1_section6-paragraph6",
+        "value":"Da'if hadis je hadis koji ne ispunjava jedan ili više uvjeta sahih hadisa, smatra se slabim hadisom. Daif hadis se bez dileme ne može služiti kao argument u akaidskim i šerijatsko-pravnim pitanjima."
+    },
+
+    {
+        "name":"label-book3-lesson2-title",
+        "value":"Prijevodi Kur'ana"
+    },
+    {
+        "name":"label-book3-lesson2-quote",
+        "value":"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\""
+    },
+    {
+        "name":"label-book3-lesson2-quote-reference",
+        "value":"Kur'an, 12:2"
+    },
+    {
+        "name":"label-book3-lesson2_section1-header",
+        "value":"Općenito"
+    },
+    {
+        "name":"label-book3-lesson2_section1-paragraph1",
+        "value":"Kur′an se u Bosni u Hercegovini prevodi već pet stoljeća, ali sve do kraja 19. stoljeća nije izašlo ni jedno izdanje cjelovitog prijevoda Kur′ana. Od pojave prvih prijevoda Kur′ana do danas, Bošnjaci i dalje rade na njegovom prevođenju. Mali je broj naroda koji se može pohvaliti ovolikim brojem prijevoda Kur′ana."
+    },
+    {
+        "name":"label-book3-lesson2_section2-header",
+        "value":"Mićo Ljubibratić"
+    },
+    {
+        "name":"label-book3-lesson2_section2-paragraph1",
+        "value":"Prvi prijevod Kur′ana na ovom području je bio prijevod nemuslimana, Miće Ljubibratića u Beogradu na srpsko-hrvatski jezik. Tek 1937. izlazi prijevod Kur′ana muslimana, hadži Ali Riza Karabega, u Mostaru. Mićo Ljubibratić preveo je Kur′an sa francuskog ili ruskog jezika. Važno je napomenuti da je ovaj prijevod bio na srpsko-hrvatski jezik, a ne na bosanski. On se pojavio 1985. pod nazivom Koran, a štampan je u Beogradu. Mićo Ljubibratić bio je ustanički vođa, koji je bio zagovornik bratske saradnje između Srba i Bošnjaka. Poduhvat prevođenja Kur′ana bio je motiviran političkim razlozima da bi se kod Bošnjaka izazvali određeni nacionalno-politički efekti. Ljubibratićev prijevod objavljen je nakon njegove smrti, i to po trošku zadužbine Ilije Miloslavljevića –Kolarca."
+    },
+    {
+        "name":"label-book3-lesson2_section3-header",
+        "value":"Ali Riza Karabeg"
+    },
+    {
+        "name":"label-book3-lesson2_section3-paragraph1",
+        "value":"Drugi prijevod Kur′ana jeste prijevod hadži Ali Riza Karabega. Ovaj prijevod objavljen je 1937. godine pod naslovom: Kur′an prijevod hadži Ali Riza Karabega. Karabeg je uz prijevod napisao predgovor u kojem je govorio o poteškoćama prevođenja  Kur′ana. Hadži Ali Riza Karabeg bio je istaknuti hercegovački alim. Njegov otac bio je mostarski muftija Mustafa Sidki Karabeg, koji je bio pogubljen pred ulazak austro-ugarskih trupa jer je odbio izdati fetvu o borbi protiv spomenutih trupa. Njegov sin Ali Riza, poslije završene medrese, nastavio je školovanje u Carigradu. Po povratku predavao je vjeronauku u mostarskoj gimnaziji i sarađivao sa časopisima Hikmeti El-Hidaje. Sačinio je prijevod po uzoru na Ljubibratićev, ali tako što je Ljubibratićev prijevod Kur′ana pročistio izbacivši iz njega skoro sve termine kršćanske teologije i davši im izvorne oblike koji su u jeziku muslimanskih čitalaca u Bosni i Hercegovini."
+    },
+    {
+        "name":"label-book3-lesson2_section4-header",
+        "value":"Pandža-Čaušević"
+    },
+    {
+        "name":"label-book3-lesson2_section4-paragraph1",
+        "value":"Pandža-Čaušević prijevod Kur′ana objavljen je 1937., pod naslovom Kur′an časni -prijevod i tumač. Drugo izdanje objavljeno je u Zagrebu 1969., pod istim naslovom. Ovo zagrebačko izdanje služi kao osnov svim ostalim izdanjima. U vremenu kada je izašao novi prijevod Kur′ana od Čauševića i Pandže došlo je do polemike koja se vodila između pogresivnih i konzervativnih snaga. Čaušević je u to vrijeme bio nosilac pogresivne misli. Napadi su dolazili od strane časopise „El-Hidaje“, koji je okupljao tadašnju konzervativnu ulemu. Napadi na ovaj prijevod nisu bila radi grešaka u prijevodu, već da se još jednom izvrši napad na ličnost Džemaluddina Čauševića. Pandža i Čaušević su tvrdili da su svoj prijevod izradili prema turskom prijevodu Kur′ana od Omera Rizaa. Organizacija Ilmije utvrdila je da je Pandža-Čauševićev Kur′an Časni doslovni prijevod Rizaova prijevoda, ali da je Omer Rizaa kopirao engleski prijevod Muhammeda Alija koji je bio pripradnik ahmedijske sekte. Čaušević-Pandža prijevod iz 1937. godine, pročišćen je tako da u narednim izdanjima izostaju mnoga značenja i tumačenja unutar kur′anskog teksta koje je Glavni odbor „El-Hidaje“ argumentirano pobijao."
+    },
+    {
+        "name":"label-book3-lesson2_section5-header",
+        "value":"Besim Korkut"
+    },
+    {
+        "name":"label-book3-lesson2_section5-paragraph1",
+        "value":"Besim Korkut je poznati arabist i prevodilac. Njegov prijevod Kur′ana objavljen je 1977. Godine, u Sarajevu i predstavlja prvi naš cjeloviti prijevod Kur′ana s arapskog na bosanski jezik. To je prva njegova prednost u poređenju s drugim prijevodima. Druga prednost je u tome što je Korkut diplomirani arabist Univerziteta Al-Azhar u Kairu i prevodio je Kur′an zarad, isključivo, vjerske svrhe. Korkut je prije izdanja svoga prijevoda kritizirao drugo izdanje prijevoda Kur′ana od Čauševića i Pandže, a čiju su redakturu izvršili Omer Mušić i Alija Nametak. On je konstatovao da su neka mjesta ispravljena, druga su ostala neispravljena, a neka su čak i gore prevedena. Zbog toga se odlučio da sam prevede Kur′an na bosanski jezik."
+    },
+    {
+        "name":"label-book3-lesson2_section6-header",
+        "value":"Enes Karić"
+    },
+    {
+        "name":"label-book3-lesson2_section6-paragraph1",
+        "value":"Enes Karić (1958., Višnjevo kod Travnika) sačinio je prijevod Kur′ana te uz njega ponudio prvi cjeloviti komentar Kur′ana. Prvo izdanje njegovog prijevoda izašlo je 1995. godine, u Sarajevu. Sa ovim, Karićevim Prijevodom  i Tefsirom, započinje druga faza prevođenja Kur′ana i kur′anologije na bosanskome jeziku. Za razliku od Čaušević-Pandža prijevoda, koji su iz neznanja posegli za prijevodima koji se kosi s islamskim pravovjerjem, te za razliku od Korkuta koji je slijedio mu′teziliju (racionalistu) Zamhašerija, Karić ne slijedi nijedan pristup islamu, ali nijedan pristup i ne izbjegava, i svome prijevodu daje toliko širok zamah, toliko slobode i mogućnosti."
+    },
+    {
+        "name":"label-book3-lesson2_section7-header",
+        "value":"Muhammed Asad"
+    },
+    {
+        "name":"label-book3-lesson2_section7-paragraph1",
+        "value":"Prijevod Kur′ana od Muhammeda Asada sa engleskog preveo je Hilmo Ćerimović. Njegov prijevod objavljen je pod nazivom Poruka Kur′ana, u izdanju El-Kalema 2004. godine. Originalni naziv djela je The Message of the Qur′an. Muhammed Asad je porijeklom jevrej koji je rođen 1900. Godine, u današnjem ukrajinskom gradu Lavovu. Kasnije će se vratiti islamu i uzeti ime Muahmmed Assad. Putovao je po arapskom svijetu, te je proveo znatno vrijeme u Mekki i Medini, studirao je arapski, Kur′an, hadis ili Poslanikovu tradiciju i povijest islama. Muhammed Asad je 1955., odlučio da radi na svom vlastitom prijevodu Kur′ana, za koji Ismail Ibrahim Nawwab tvrdi da je bio njegov životni san."
+    },
+    {
         "name":"label-translator",
         "value":"Prevod:Besim Korkut"
     },

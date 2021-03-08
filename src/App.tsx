@@ -79,6 +79,8 @@ import { StandardLessonPage } from './pages/Common/StandardLessonPage';
 import SegmentLessonPage from './pages/Common/SegmentLessonPage';
 import ChooseLanguagePage from './pages/ChooseLanguagePage';
 import UnderConstructionPage from './pages/UnderConstructionPage';
+import { HadeethPage } from './pages/Advanced/HadeethPage';
+import { QuranTranslationPage } from './pages/Advanced/Quran/QuranTranslations';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -116,7 +118,9 @@ const App: React.FC = () => {
           <Route path="/ChosenVerses/" component={ChosenVersesPage} />
           <Route path="/RubiesAyahPage/" component={RubiesAyahPage} />
           <Route path="/PearlsAyahPage/" component={PearlsAyahPage} />
+          <Route path="/QuranTranslationPage/" component={QuranTranslationPage} />
           <Route path="/AyahPage/:surahId/:firstAyahId/:lastAyahId" component={AyahPage} />
+          <Route path="/HadeethPage/" component={HadeethPage} />
           <Route path="/BookOneMainPage" component={BookOneMainPage}/>
           <Route path="/StandardLessonPage/:bookId/:lessonId" component={StandardLessonPage}/>
           <Route path="/SegmentLessonPage/:bookId/:lessonId" component={SegmentLessonPage}/>

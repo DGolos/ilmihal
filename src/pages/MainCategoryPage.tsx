@@ -212,7 +212,7 @@ const MainCategoryPage: React.FC = () => {
             <IonRow>
               <IonCol size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
               <IonCard
-                  routerLink={`/QuranTranslations`}
+                  routerLink={`/QuranTranslationPage`}
                   color="light"
                   class="category"
                 >
@@ -678,7 +678,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/HadeethPage`}
                   color="light"
                   class="category"
                 >
@@ -691,7 +691,7 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Hadis </h4>
+                        <h4 className="title">{translationService.getLabel('label-book3-lesson1-title')} </h4>
                       </span>
                       <span>
                         <h4 className="title"></h4>

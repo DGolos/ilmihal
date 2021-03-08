@@ -17,7 +17,7 @@ import {
   IonText,
   IonToolbar
 } from "@ionic/react";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 
 interface NamesCardProps {
