@@ -1,12 +1,12 @@
-ion-content.bg-image-purple{
+.bg-image-purple{
   --background: url(./../../assets/images/purple.jpg) no-repeat center/cover fixed;
 }
 
-ion-content.bg-image-brown{
+.bg-image-brown{
   --background: url(./../../assets/images/brown.jpg) no-repeat center/cover fixed;
 }
 
-ion-content.bg-image-burgundy{
+.bg-image-burgundy{
   --background: url(./../../assets/images/burgundy.jpg) no-repeat center/cover fixed;
 }
   
@@ -45,10 +45,4 @@ ion-content.bg-image-burgundy{
     --ion-background-color:#F5ECEA;
   }
 
-  ion-content.bg-image-burgundy-gradient{
-    --background:linear-gradient(180deg,rgba(128,0,32,1) 0%,rgba(141,25,54,1) 35%,rgba(153,51,77,1) 100%)
-  }
-
-  ion-content.bg-image-purple-gradient{
-    --background:linear-gradient(180deg,rgba(104,59,171,1) 0%,rgba(118,68,195,1) 35%,rgba(133,77,220,1) 100%)
-  }
+  

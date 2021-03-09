@@ -70,7 +70,6 @@ const MainCategoryPage: React.FC = () => {
         </IonGrid>
         </div>
         <div className="ion-no-padding" id="quran" hidden={current!==1}>
-          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-quran')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -243,7 +242,6 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
         <div className="ion-no-padding" id="prayer" hidden={current!==2}>
-          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-prayer')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -385,7 +383,6 @@ const MainCategoryPage: React.FC = () => {
         </div>
 
         <div className="ion-no padding" hidden={current!==3}>
-          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-faith')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -496,7 +493,6 @@ const MainCategoryPage: React.FC = () => {
         </div>
 
         <div className="ion-no-padding" hidden={current!==4}>
-          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-dhikr')}</h1>
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -638,7 +634,7 @@ const MainCategoryPage: React.FC = () => {
         </div>
 
         <div className="ion-no-padding" hidden={current!==5}>
-          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-muhammad')}</h1>
+          
           <IonGrid>
             <IonRow
               className="ion-no-padding"
@@ -715,7 +711,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/CompanionsPage`}
                   color="light"
                   class="category"
                 >
@@ -747,7 +743,7 @@ const MainCategoryPage: React.FC = () => {
           </IonGrid>
         </div>
         <div className="ion-no-padding" hidden={current!==6}> 
-          <h1 className="category-title ion-padding">{translationService.getLabel('label-header-history')}</h1>
+          
           <IonGrid>
             <IonRow
               className="ion-no-padding"

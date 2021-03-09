@@ -2907,6 +2907,7 @@
         "name":"label-book3-lesson2_section4-paragraph1",
         "value":"Pandža-Čaušević prijevod Kur′ana objavljen je 1937., pod naslovom Kur′an časni -prijevod i tumač. Drugo izdanje objavljeno je u Zagrebu 1969., pod istim naslovom. Ovo zagrebačko izdanje služi kao osnov svim ostalim izdanjima. U vremenu kada je izašao novi prijevod Kur′ana od Čauševića i Pandže došlo je do polemike koja se vodila između pogresivnih i konzervativnih snaga. Čaušević je u to vrijeme bio nosilac pogresivne misli. Napadi su dolazili od strane časopise „El-Hidaje“, koji je okupljao tadašnju konzervativnu ulemu. Napadi na ovaj prijevod nisu bila radi grešaka u prijevodu, već da se još jednom izvrši napad na ličnost Džemaluddina Čauševića. Pandža i Čaušević su tvrdili da su svoj prijevod izradili prema turskom prijevodu Kur′ana od Omera Rizaa. Organizacija Ilmije utvrdila je da je Pandža-Čauševićev Kur′an Časni doslovni prijevod Rizaova prijevoda, ali da je Omer Rizaa kopirao engleski prijevod Muhammeda Alija koji je bio pripradnik ahmedijske sekte. Čaušević-Pandža prijevod iz 1937. godine, pročišćen je tako da u narednim izdanjima izostaju mnoga značenja i tumačenja unutar kur′anskog teksta koje je Glavni odbor „El-Hidaje“ argumentirano pobijao."
     },
+
     {
         "name":"label-book3-lesson2_section5-header",
         "value":"Besim Korkut"
@@ -2930,6 +2931,107 @@
     {
         "name":"label-book3-lesson2_section7-paragraph1",
         "value":"Prijevod Kur′ana od Muhammeda Asada sa engleskog preveo je Hilmo Ćerimović. Njegov prijevod objavljen je pod nazivom Poruka Kur′ana, u izdanju El-Kalema 2004. godine. Originalni naziv djela je The Message of the Qur′an. Muhammed Asad je porijeklom jevrej koji je rođen 1900. Godine, u današnjem ukrajinskom gradu Lavovu. Kasnije će se vratiti islamu i uzeti ime Muahmmed Assad. Putovao je po arapskom svijetu, te je proveo znatno vrijeme u Mekki i Medini, studirao je arapski, Kur′an, hadis ili Poslanikovu tradiciju i povijest islama. Muhammed Asad je 1955., odlučio da radi na svom vlastitom prijevodu Kur′ana, za koji Ismail Ibrahim Nawwab tvrdi da je bio njegov životni san."
+    },
+    {
+        "name":"label-book3-lesson3-title",
+        "value":"Ashabi"
+    },
+    {
+        "name":"label-book3-lesson3-quote",
+        "value":"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\""
+    },
+    {
+        "name":"label-book3-lesson3-quote-reference",
+        "value":"Kur'an, 12:2"
+    },
+    {
+        "name":"label-book3-lesson4-title",
+        "value":"Pravedne halife"
+    },
+    {
+        "name":"label-book3-lesson4-title-description",
+        "value":"Pravedne halife"
+    },
+    {
+        "name":"label-book3-lesson4-quote",
+        "value":"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\""
+    },
+    {
+        "name":"label-book3-lesson4-quote-reference",
+        "value":"Kur'an, 12:2"
+    },
+    {
+        "name":"label-book3-lesson4-header1",
+        "value":"Ukratko"
+    },
+    {
+        "name":"label-book3-lesson4_section1-paragraph1",
+        "value":"Pravedne halife nazvani su hulef'i-rrašiduni zbog toga što su spoznali Istinu i u skladu s njom vladali. Također, to je zajedničko ime za četvoricu prvih halifa ( pravovjernih vladara) nakon smrti Poslanika, a.s.,"
+    },
+    {
+        "name":"label-book3-lesson4-header2",
+        "value":"Ebu Bekr Es-Siddik"
+    },
+    {
+        "name":"label-book3-lesson4_section2-paragraph1",
+        "value":"Ebu Bekr Es-Siddik, r.a., Poslanikov, a.s., saputnik Hidžre, njegov ashab u pećini Sevr, prvi halifa Hulefair-rašidina, ashab za kojeg je Muhammed, a.s., rekao: &quot;Kada bi se izvagao iman Ebu Bekra sa imanom svih stvorenja, prevagnuo bi iman Ebu Bekra.&quot;"
+    },
+    {
+        "name":"label-book3-lesson4-header3",
+        "value":"Omer ibn el-Hattab"
+    },
+    {
+        "name":"label-book3-lesson4_section3-paragraph1",
+        "value":"Omer ibn el-Hattab, r.a., koji je prihvatio islam nakon Hamze ibn Abdu-l-Muttaliba, r.a., do tri dana. Prije njegovoga prelaska na islam Muhammed, a.s., je učio dovu: &quot;Allahu moj, pomozi islam sa jednim od dvojice koji je Tebi draži: Omerom ibn El-Hattabom ili Amrom ibn Hišamom (Ebu Džehlom)!&quot; Allah dž.š. je islam pomogao sa Omerom ibn el-Hattabom, velikanom islama, koji je nakon smrti Ebu Bekra es-Siddika izabran za halifu, a u njegovo vrijeme hilafeta je došlo do velikog proširenja islamske države."
+    },
+    {
+        "name":"label-book3-lesson4-header4",
+        "value":"Osman ibn Affan"
+    },
+    {
+        "name":"label-book3-lesson4_section4-paragraph1",
+        "value":"Osman ibn Affan, r.a., blagi, darežljivi i stidljivi ashab \"zbog čijeg stida se stide meleki\". Osman je bio treći halifa Hulefair-rašidina."
+    },
+    {
+        "name":"label-book3-lesson4-header5",
+        "value":"Alija ibn Ebi Talib"
+    },
+    {
+        "name":"label-book3-lesson4_section5-paragraph1",
+        "value":"Alija ibn Ebi Talib, r.a., četvrti halifa Hulefair-rašidina, neustrašivi ashab, muž h. Fatime i otac Hasana i Husejna, Poslanikovih unuka, ashab koji je kao dijete primio islam."
+    },
+
+    {
+        "name":"label-book3-lesson5-title",
+        "value":"Poznati ashabi"
+    },
+    {
+        "name":"label-book3-lesson5-title-description",
+        "value":"Poznati ashabi"
+    },
+    {
+        "name":"label-book3-lesson5-quote",
+        "value":"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\""
+    },
+    {
+        "name":"label-book3-lesson5-quote-reference",
+        "value":"Kur'an, 12:2"
+    },
+    {
+        "name":"label-book3-lesson6-title",
+        "value":"Žene u islamu"
+    },
+    {
+        "name":"label-book3-lesson6-title-description",
+        "value":"Žene u islamu"
+    },
+    {
+        "name":"label-book3-lesson6-quote",
+        "value":"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\""
+    },
+    {
+        "name":"label-book3-lesson6-quote-reference",
+        "value":"Kur'an, 12:2"
     },
     {
         "name":"label-translator",
