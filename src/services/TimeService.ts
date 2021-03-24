@@ -42,38 +42,35 @@ class TimeService {
   }
 
   async init() {
-    //const response=await axios.get("http://api.aladhan.com/v1/timingsByCity?city=Cazin&country=BA&method=2");
+    const response=await axios.get("https://api.vaktija.ba/vaktija/v1/19");
 
-    //const fajrObj=moment(response.data.data.timings.Fajr,"H:m");
-    const fajrObj = moment("5:08", "H:m");
+    const timeTable:string[]=response.data.vakat;
+    
+    const fajrObj = moment(timeTable[0], "H:m");
     this.fajrSeconds = fajrObj.hours() * 3600 + fajrObj.minutes() * 60;
     this.fajr = moment.utc(this.fajrSeconds * 1000).format("HH:mm");
     this.startOfFast = moment.utc(this.fajrSeconds * 1000).format("HH:mm");
 
-    //const sunriseObj=moment(response.data.data.timings.Sunrise,"H:m");
-    const sunriseObj = moment("6:29", "H:m");
+    const sunriseObj = moment(timeTable[1], "H:m");
     this.sunriseSeconds = sunriseObj.hours() * 3600 + sunriseObj.minutes() * 60;
     this.sunrise = moment.utc(this.sunriseSeconds * 1000).format("HH:mm");
 
-    //const dhuhrObj=moment(response.data.data.timings.Dhuhr,"H:m");
-    const dhuhrObj = moment("12:08", "H:m");
+    const dhuhrObj = moment(timeTable[2], "H:m");
     this.dhuhrSeconds = dhuhrObj.hours() * 3600 + dhuhrObj.minutes() * 60;
     this.dhuhr = moment.utc(this.dhuhrSeconds * 1000).format("HH:mm");
     this.preDhuhrSeconds = (this.dhuhrSeconds + this.sunriseSeconds) / 2;
 
-    //const asrObj=moment(response.data.data.timings.Asr,"H:m");
-    const asrObj = moment("15:13", "H:m");
+    const asrObj = moment(timeTable[3], "H:m");
     this.asrSeconds = asrObj.hours() * 3600 + asrObj.minutes() * 60;
     this.asr = moment.utc(this.asrSeconds * 1000).format("HH:mm");
     this.preAsrSeconds = (this.asrSeconds + this.dhuhrSeconds) / 2;
 
-    //const maghribObj=moment(response.data.data.timings.Maghrib,"H:m");
-    const maghribObj = moment("17:48", "H:m");
+    const maghribObj = moment(timeTable[4], "H:m");
     this.maghribSeconds = maghribObj.hours() * 3600 + maghribObj.minutes() * 60;
     this.maghrib = moment.utc(this.maghribSeconds * 1000).format("HH:mm");
     this.preMaghribSeconds = (this.maghribSeconds + this.asrSeconds) / 2;
-    //const ishaObj=moment(response.data.data.timings.Isha,"H:m");
-    const ishaObj = moment("19:08", "H:m");
+    
+    const ishaObj = moment(timeTable[5], "H:m");
     this.ishaSeconds = ishaObj.hours() * 3600 + ishaObj.minutes() * 60;
     this.isha = moment.utc(this.ishaSeconds * 1000).format("HH:mm");
     this.preIshaSeconds = (this.ishaSeconds + this.maghribSeconds) / 2;
@@ -91,7 +88,7 @@ class TimeService {
     if (timeStamp < this.preAsrSeconds) return "dhuhr";
     if (timeStamp < this.preMaghribSeconds) return "asr";
     if (timeStamp < this.maghribSeconds) return "late-asr";
-    if (timeStamp < this.ishaSeconds) return "maghrib";
+    if (timeStamp < this.preIshaSeconds) return "maghrib";
     return "isha";
   }
 
@@ -111,7 +108,7 @@ class TimeService {
       }
       
     }
-    console.log(minutes);
+    
     if(minutes>0){
       if(minutes===1){
         ret+=`1 ${translationService.getLabel('label-minute-nominativ')}`
@@ -175,7 +172,7 @@ class TimeService {
       headers.push("label-current-prayer");
       headers.push("label-maghrib-prayer");
     }
-    else if (timeStamp < this.preIshaSeconds && timeStamp < this.ishaSeconds) {
+    else if (timeStamp >= this.preIshaSeconds && timeStamp < this.ishaSeconds) {
       headers.push("label-next-prayer");
       headers.push("label-isha-prayer");
       headers.push(this.formatTime(this.ishaSeconds - timeStamp));
@@ -184,7 +181,7 @@ class TimeService {
       headers.push("label-current-prayer");
       headers.push("label-isha-prayer");
     }
-    console.log(headers);
+    
     return headers;
   }
 

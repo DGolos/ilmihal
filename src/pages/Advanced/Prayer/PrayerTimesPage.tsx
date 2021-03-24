@@ -23,7 +23,7 @@ const PrayerTimesPage: React.FC = () => {
   const getPrayerTimes = () => {
     setPrayers(timeService.getPrayertimes());
     
-  
+    
   };
 
   useEffect(() => {

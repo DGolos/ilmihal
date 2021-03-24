@@ -85,6 +85,15 @@ import { CompanionsPage } from './pages/Advanced/CompanionsPage';
 import { CaliphsPage } from './pages/Advanced/CaliphsPage';
 import { ChosenCompanionsPage } from './pages/Advanced/ChosenCompanionsPage';
 import { WomensPage } from './pages/Advanced/WomensPage';
+import { QuranRevelationPage } from './pages/Advanced/Quran/QuranRevelationPage';
+import { QuranRecitationPage } from './pages/Advanced/Quran/QuranRecitationPage';
+import { VoluntaryPrayersPage } from './pages/Advanced/Prayer/VoluntaryPrayersPage';
+import { GuidancePrayerPage } from './pages/Advanced/Prayer/GuidancePrayerPage';
+import { MorningPrayerPage } from './pages/Advanced/Prayer/MorningPrayerPage';
+import { NightPrayerPage } from './pages/Advanced/Prayer/NightPrayerPage';
+import { BosnianScholarsPage } from './pages/Advanced/Homeland/BosnianScholarsPage';
+import { BosniaPage } from './pages/Advanced/Homeland/BosniaPage';
+import { SirahPage } from './pages/Advanced/SirahPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -118,16 +127,25 @@ const App: React.FC = () => {
           <Route path="/QuranReader/:id" component={QuranReaderPage} />
           <Route path="/QuranPlayer/:id" component={QuranPlayerPage} />
           <Route path="/PrayerTimes/" component={PrayerTimesPage} />
+          <Route path="/VoluntaryPrayersPage/" component={VoluntaryPrayersPage} />
+          <Route path="/NightPrayerPage/" component={NightPrayerPage} />
+          <Route path="/MorningPrayerPage/" component={MorningPrayerPage} />
+          <Route path="/GuidancePrayerPage/" component={GuidancePrayerPage} />
           <Route path="/BeautifulNames/" component={BeautifulNamesPage} />
           <Route path="/ChosenVerses/" component={ChosenVersesPage} />
           <Route path="/RubiesAyahPage/" component={RubiesAyahPage} />
           <Route path="/PearlsAyahPage/" component={PearlsAyahPage} />
           <Route path="/QuranTranslationPage/" component={QuranTranslationPage} />
+          <Route path="/QuranRecitationPage/" component={QuranRecitationPage} />
+          <Route path="/QuranRevelationPage/" component={QuranRevelationPage} />
           <Route path="/AyahPage/:surahId/:firstAyahId/:lastAyahId" component={AyahPage} />
           <Route path="/HadeethPage/" component={HadeethPage} />
+          <Route path="/SirahPage/" component={SirahPage} />
           <Route path="/CompanionsPage/" component={CompanionsPage} />
           <Route path="/CaliphsPage" component={CaliphsPage} />
           <Route path="/ChosenCompanionsPage" component={ChosenCompanionsPage} />
+          <Route path="/BosnianScholarsPage" component={BosnianScholarsPage} />
+          <Route path="/BosniaPage" component={BosniaPage} />
           <Route path="/WomensPage" component={WomensPage} />
           <Route path="/BookOneMainPage" component={BookOneMainPage}/>
           <Route path="/StandardLessonPage/:bookId/:lessonId" component={StandardLessonPage}/>

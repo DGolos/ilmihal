@@ -62,7 +62,7 @@ const MainCategoryPage: React.FC = () => {
             <IonCol size="4">
               <IonButton color={current===6?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(6) }>
                 <IonLabel color="light" className="ion-text-center">
-                {translationService.getLabel('label-header-history')}
+                {translationService.getLabel('label-header-homeland')}
                 </IonLabel>
               </IonButton>
             </IonCol>
@@ -147,7 +147,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/QuranRevelationPage`}
                   color="light"
                   class="category"
                 >
@@ -238,6 +238,35 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                 </IonCard>
               </IonCol>
+              <IonCol size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
+              <IonCard
+                  routerLink={`/QuranRecitationPage`}
+                  color="light"
+                  class="category"
+                >
+                  <IonRow className="ion-no-padding">
+                    <img
+                      src="/assets/images/ChosenVerses.png"
+                      height="40px"
+                      width="40px"
+                    />
+
+                    <IonLabel className="ion-padding-start ion-text-centered">
+                      <span>
+                        <h4 className="title">Učenje </h4>
+                      </span>
+                      <span>
+                        <h4 className="title">Kur'ana</h4>
+                      </span>
+                    </IonLabel>
+                  </IonRow>
+                  <IonRow>
+                    <h6 className="title">
+                      Čitaj odabrane ajete iz Časnog Kur'ana.
+                    </h6>
+                  </IonRow>
+                </IonCard>
+              </IonCol>
             </IonRow>
           </IonGrid>
         </div>
@@ -281,7 +310,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/VoluntaryPrayersPage`}
                   color="light"
                   class="category"
                 >
@@ -645,7 +674,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/SirahPage`}
                   color="light"
                   class="category"
                 >
@@ -754,7 +783,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/BosnianScholarsPage`}
                   color="light"
                   class="category"
                 >
@@ -767,10 +796,10 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Historija</h4>
+                        <h4 className="title">Bošnjački</h4>
                       </span>
                       <span>
-                        <h4 className="title">islama</h4>
+                        <h4 className="title">alimi</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
@@ -783,7 +812,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/BosniaPage`}
                   color="light"
                   class="category"
                 >
@@ -796,11 +825,10 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Historija </h4>
+                        <h4 className="title">Domovina </h4>
                       </span>
-                      <span>
-                        <h4 className="title">Bosne</h4>
-                      </span>
+                      
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>

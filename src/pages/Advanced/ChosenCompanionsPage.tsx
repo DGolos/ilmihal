@@ -19,7 +19,7 @@ import { translationService } from "../../services/TranslationService";
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="burgundy"/>
+              <IonBackButton color="burgundy" defaultHref="/CompanionsPage"/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
