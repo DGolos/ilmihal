@@ -81,52 +81,62 @@ const Tashashud: React.FC<TashashudProps> = ({ first,color,prayerLength}) => {
               </IonNote>
             </IonCol>
           </IonRow>
+         
           <IonRow hidden={first}>
-            <IonCol size="5">
-              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-ettehijjatu')}</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {toglePlayPause("Ettehijjatu")}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color={color}
-                />
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-salawat')}</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {toglePlayPause("Salavati")}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color={color}
-                />
-              </IonButton>
-            </IonCol>
-            <IonCol size="3">
-              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-dua-header')}</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {toglePlayPause("Dova")}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color={color}
-                />
-              </IonButton>
-            </IonCol>
+          <IonCol size="4">
+                <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-ettehijjatu')}</IonText>
+                <br />
+                <IonButton
+                  class="no-shadow"
+                  onClick={() => {
+                    toglePlayPause("Ettehijjatu");
+                  }}
+                  fill="solid"
+                  color="light"
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={caretForwardCircleOutline}
+                    color={color}
+                  />
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-salawat')}</IonText>
+                <br />
+                <IonButton
+                  class="no-shadow"
+                  onClick={() => {
+                    toglePlayPause("Salavati");
+                  }}
+                  fill="solid"
+                  color="light"
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={caretForwardCircleOutline}
+                    color={color}
+                  />
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-dua-header')}</IonText>
+                <br />
+                <IonButton
+                  class="no-shadow"
+                  onClick={() => {
+                    toglePlayPause("Dova");
+                  }}
+                  fill="solid"
+                  color="light"
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={caretForwardCircleOutline}
+                    color={color}
+                  />
+                </IonButton>
+              </IonCol>
           </IonRow>
           <IonRow hidden={first}>
             <IonCol size="12">
@@ -161,6 +171,7 @@ const Tashashud: React.FC<TashashudProps> = ({ first,color,prayerLength}) => {
               <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-ettehijjatu')}</IonText>
               <IonButton
                 class="no-shadow"
+                style={{marginTop:"0px"}}
                 onClick={() => {toglePlayPause("Ettehijjatu")}}
                 fill="solid"
                 color="light"

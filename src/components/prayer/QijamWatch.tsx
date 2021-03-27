@@ -9,16 +9,19 @@ import {
   useIonViewWillEnter,
 } from "@ionic/react";
 import React, { useState } from "react";
-import { translationService } from "../services/TranslationService";
+import { translationService } from "../../services/TranslationService";
+import { Progress } from "../common/Progress";
 
 interface QijamProps {
   rakah?: string;
   type?:string;
   prayer?:string;
   color?:string;
+  stepValue?:number;
+  maxValue?:number;
 }
 
-const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color}) => {
+const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color,stepValue,maxValue}) => {
   const [currentRakah,setCurrenRakah]=useState("1");
   const [showFull,setShowFull]=useState(false);
   const [showSunnah,setShowSunnah]=useState(false);
@@ -64,9 +67,16 @@ const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color}) => {
                 </IonCol>
               </IonRow>
               <IonRow>
-                <IonCol size="12">
+                <IonCol size="6">
                   <IonChip color={color}>{translationService.getLabel('label-prayer-qijam-header')}</IonChip>
                 </IonCol>
+                <IonCol size="6">
+                            <Progress
+                              currentValue={stepValue!}
+                              maxValue={maxValue!}
+                              color={color}
+                            />
+                            </IonCol>
               </IonRow>
 
               <IonRow>

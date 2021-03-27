@@ -84,6 +84,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength}) =
               <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-bismilla-header')}</IonText>
               <IonButton
                 class="no-shadow"
+                style={{marginTop:"0px"}}
                 onClick={() => {toglePlayPause("Bismilla")}}
                 fill="solid"
                 color="light"
@@ -115,6 +116,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength}) =
               <IonText className={`audio-link-${color}`}>El-Fatiha</IonText>
               <IonButton
                 class="no-shadow"
+                style={{marginTop:"0px"}}
                 onClick={() => {toglePlayPause("Fatiha")}}
                 fill="solid"
                 color="light"
@@ -142,52 +144,61 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength}) =
             </IonCol>
           </IonRow>
           <IonRow hidden={type==="fardh"}>
-            <IonCol size="4">
-              <IonText className={`audio-link-${color}`}>En-Nas</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {toglePlayPause("Nas")}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color={color}
-                />
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonText className={`audio-link-${color}`}>El-Felek</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {toglePlayPause("Felek")}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color={color}
-                />
-              </IonButton>
-            </IonCol>
-            <IonCol size="4">
-              <IonText className={`audio-link-${color}`}>El-Ihlas</IonText>
-              <IonButton
-                class="no-shadow"
-                onClick={() => {toglePlayPause("Ihlas")}}
-                fill="solid"
-                color="light"
-              >
-                <IonIcon
-                  slot="icon-only"
-                  icon={caretForwardCircleOutline}
-                  color={color}
-                />
-              </IonButton>
-            </IonCol>
-          </IonRow>
+              <IonCol size="4">
+                <IonText className={`audio-link-${color}`}>En-Nas</IonText>
+                <br />
+                <IonButton
+                  class="no-shadow"
+                  onClick={() => {
+                    toglePlayPause("Nas");
+                  }}
+                  fill="solid"
+                  color="light"
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={caretForwardCircleOutline}
+                    color={color}
+                  />
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonText className={`audio-link-${color}`}>El-Felek</IonText>
+                <br />
+                <IonButton
+                  class="no-shadow"
+                  onClick={() => {
+                    toglePlayPause("Felek");
+                  }}
+                  fill="solid"
+                  color="light"
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={caretForwardCircleOutline}
+                    color={color}
+                  />
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonText className={`audio-link-${color}`}>El-Ihlas</IonText>
+                <br />
+                <IonButton
+                  class="no-shadow"
+                  onClick={() => {
+                    toglePlayPause("Ihlas");
+                  }}
+                  fill="solid"
+                  color="light"
+                >
+                  <IonIcon
+                    slot="icon-only"
+                    icon={caretForwardCircleOutline}
+                    color={color}
+                  />
+                </IonButton>
+              </IonCol>
+            </IonRow>
         </IonGrid>
       </IonItem>
       </IonSlide>
@@ -229,6 +240,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength}) =
               <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-ruku-header')}</IonText>
               <IonButton
                 class="no-shadow"
+                style={{marginTop:"0px"}}
                 onClick={() => {}}
                 fill="solid"
                 color="light"
@@ -260,6 +272,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength}) =
               <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-sujud-header')}</IonText>
               <IonButton
                 class="no-shadow"
+                style={{marginTop:"0px"}}
                 onClick={() => {}}
                 fill="solid"
                 color="light"

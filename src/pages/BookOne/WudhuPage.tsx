@@ -54,61 +54,48 @@ const WudhuPage: React.FC = () => {
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
-        <div className="ion-padding">
-          <IonItem className="lesson-note" lines="none">
-            <IonText>
-              <h2 className="lesson-note">
-                {translationService.getLabel("label-book1-lesson13-paragraph1")}
-              </h2>
-            </IonText>
-          </IonItem>
-        </div>
-        <div>
-          <IonSlides>
-            <IonSlide>
-              <div>
-                <img
-                  style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
-                />
-                <div>
-                  <IonItem
-                    detail={false}
-                    color="light"
-                    lines="none"
-                    style={{ marginLeft: "15px", marginRight: "15px" }}
-                  >
-                    <IonGrid className="ion-text-left">
-                      <IonRow>
-                        <IonCol size="6">
-                          <IonChip color="burgundy">Bismilla</IonChip>
-                        </IonCol>
-                        <IonCol size="6">
-                          <Progress
-                            currentValue={1}
-                            maxValue={10}
-                            color="burgundy"
-                          />
-                        </IonCol>
-                      </IonRow>
 
-                      <IonRow>
-                        <IonCol size="12">
-                          <IonNote>Bismillahir-rahmani-rahim</IonNote>
-                        </IonCol>
-                      </IonRow>
-                    </IonGrid>
-                  </IonItem>
-                </div>
-              </div>
+        <div >
+          <IonSlides>
+            <IonSlide className="ion-padding">
+              <IonItem className="lesson-note" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
+                        {translationService.getLabel(
+                          "label-book1-lesson3_section1-header"
+                        )}
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress
+                        currentValue={1}
+                        maxValue={10}
+                        color="burgundy"
+                      />
+                    </IonCol>
+                  </IonRow>
+
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonNote>
+                        {translationService.getLabel(
+                          "label-book1-lesson13-paragraph1"
+                        )}
+                      </IonNote>
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+              </IonItem>
             </IonSlide>
             <IonSlide>
               <div>
                 <img
-                  style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  style={{ height: 230 }}
+                  src="/assets/images/WudhuHands.png"
                 />
-                <div>
+                <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
                     color="light"
@@ -148,10 +135,10 @@ const WudhuPage: React.FC = () => {
             <IonSlide>
               <div>
                 <img
-                  style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  style={{ height: 230 }}
+                  src="/assets/images/WudhuMouth.png"
                 />
-                <div>
+                <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
                     color="light"
@@ -191,10 +178,10 @@ const WudhuPage: React.FC = () => {
             <IonSlide>
               <div>
                 <img
-                  style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  style={{ height: 230 }}
+                  src="/assets/images/WudhuMouth.png"
                 />
-                <div>
+                <div style={{ marginTop: "15px" }}>
                   <IonItem
                     className="full-width"
                     detail={false}
@@ -235,10 +222,10 @@ const WudhuPage: React.FC = () => {
             <IonSlide>
               <div>
                 <img
-                  style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  style={{ height: 230 }}
+                  src="/assets/images/WudhuFace.png"
                 />
-                <div>
+                <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
                     color="light"
@@ -278,10 +265,10 @@ const WudhuPage: React.FC = () => {
             <IonSlide>
               <div>
                 <img
-                  style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  style={{ height: 230 }}
+                  src="/assets/images/WudhuElbow.png"
                 />
-                <div>
+                <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
                     color="light"
@@ -321,10 +308,10 @@ const WudhuPage: React.FC = () => {
             <IonSlide>
               <div>
                 <img
-                  style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  style={{ height: 230 }}
+                  src="/assets/images/WudhuHead.png"
                 />
-                <div>
+                <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
                     color="light"
@@ -364,10 +351,10 @@ const WudhuPage: React.FC = () => {
             <IonSlide>
               <div>
                 <img
-                  style={{ height: 330 }}
+                  style={{ height: 230 }}
                   src="/assets/images/Beginning.png"
                 />
-                <div>
+                <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
                     color="light"
@@ -407,10 +394,10 @@ const WudhuPage: React.FC = () => {
             <IonSlide>
               <div>
                 <img
-                  style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  style={{ height: 230 }}
+                  src="/assets/images/WudhuFeet.png"
                 />
-                <div>
+                <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
                     color="light"
@@ -447,44 +434,39 @@ const WudhuPage: React.FC = () => {
                 </div>
               </div>
             </IonSlide>
-            <IonSlide>
-              <div>
-                <IonItem
-                  detail={false}
-                  color="light"
-                  lines="none"
-                  style={{ marginLeft: "15px", marginRight: "15px" }}
-                >
-                  <IonGrid className="ion-text-left">
-                    <IonRow>
-                      <IonCol size="6">
-                        <IonChip color="burgundy">
-                          {translationService.getLabel(
-                            "label-what-breaks-wudhu"
-                          )}
-                        </IonChip>
-                      </IonCol>
-                      <IonCol size="6">
-                        <Progress
-                          currentValue={10}
-                          maxValue={10}
-                          color="burgundy"
-                        />
-                      </IonCol>
-                    </IonRow>
+            
+            
+            <IonSlide className="ion-padding">
+              <IonItem className="lesson-note" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
+                        {translationService.getLabel(
+                          "label-what-breaks-wudhu"
+                        )}
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress
+                        currentValue={10}
+                        maxValue={10}
+                        color="burgundy"
+                      />
+                    </IonCol>
+                  </IonRow>
 
-                    <IonRow>
-                      <IonCol size="12">
-                        <IonNote>
-                          {translationService.getLabel(
-                            "label-what-breaks-wudhu-description"
-                          )}
-                        </IonNote>
-                      </IonCol>
-                    </IonRow>
-                  </IonGrid>
-                </IonItem>
-              </div>
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonNote>
+                        {translationService.getLabel(
+                          "label-what-breaks-wudhu-description"
+                        )}
+                      </IonNote>
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+              </IonItem>
             </IonSlide>
           </IonSlides>
         </div>

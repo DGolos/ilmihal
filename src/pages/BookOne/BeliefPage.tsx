@@ -44,7 +44,7 @@ const BeliefPage: React.FC = () => {
                 {translationService.getLabel("label-book1-lesson32-quote")}
               </h3>
               <p className="quote-reference">
-                {translationService.getLabel("label-book1-quote-reference")}
+                {translationService.getLabel("label-book1-lesson32-quote-reference")}
               </p>
             </IonCardSubtitle>
           </IonCardContent>

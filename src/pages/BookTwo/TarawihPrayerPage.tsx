@@ -25,7 +25,7 @@ export const TarawihPrayerPage: React.FC = () => {
                 </IonRow>
                 <IonRow >
                   <IonCol size="12" style={{ marginTop: 0 }}> 
-                    <h3 style={{fontStyle:"italic",fontSize:"12"} } className="prayer ion-no-padding ion-text-center">
+                    <h3 style={{fontStyle:"italic"} } className="prayer ion-no-padding ion-text-center">
                     {translationService.getLabel('label-book2-lesson13-quote')}
                     </h3>
                     <p className="quote-reference ion-text-center">{translationService.getLabel('label-book2-lesson13-quote-reference')}</p>

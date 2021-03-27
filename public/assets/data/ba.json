@@ -657,8 +657,12 @@
         "value":"\"Čistoća je pola vjere.\""
     },
     {
+        "name":"label-book1-lesson3_section1-header",
+        "value":"Uvod"
+    },
+    {
         "name":"label-book1-lesson13-paragraph1",
-        "value":"Abdest je posebno pranje čistom vodom radi klanjanja namaza ili učenja gledajući iz Kur'ana."
+        "value":"Abdest je posebno pranje čistom vodom radi klanjanja namaza ili učenja gledajući iz Kur'ana. Prije uzimanja abdesta uvijek proučimo bismillu."
     },
     {
         "name":"label-wash-hands",
@@ -666,7 +670,7 @@
     },
     {
         "name":"label-wash-hands-description",
-        "value":"Operemo ruke do iza šake (tri puta)."
+        "value":"Operemo prvo desnu a zatim lijevu ruku do iza šake (tri puta)."
     },
     {
         "name":"label-wash-mouth",
@@ -674,23 +678,16 @@
     },
     {
         "name":"label-wash-mouth-description",
-        "value":"Desnom rukom ispiramo usta(tri puta)."
+        "value":"Desnom rukom ispiramo usta tako da voda dodje do grla(tri puta)."
     },
-    {
-        "name":"label-wash-mouth",
-        "value":"Isprati usta"
-    },
-    {
-        "name":"label-wash-mouth-description",
-        "value":"Desnom rukom ispiramo usta(tri puta)."
-    },
+    
     {
         "name":"label-wash-nose",
         "value":"Očistiti nos"
     },
     {
         "name":"label-wash-nose-description",
-        "value":"Lijevom rukom čistimo nos(tri puta)."
+        "value":"Lijevom rukom dobro isperemo nos(tri puta)."
     },
     {
         "name":"label-wash-face",
@@ -1280,7 +1277,7 @@
     },
     {
         "name":"label-prayer-ruku-watch-description",
-        "value":"Nakon stajanja prelazimu u ruk'u gdje učimo tri puta: <Subhane rabbijel-azim."
+        "value":"Nakon stajanja prelazimu u ruk'u gdje učimo tri puta: Subhane rabbijel-azim."
     },
     {
         "name":"label-prayer-sujud-header",
@@ -1570,7 +1567,7 @@
     },
     {
         "name":"label-book1-lesson30_section2-paragraph1",
-        "value":"Nijjet za početak posta glasi: NEVEJTU EN ESUME LILLAHI TE&#39;ALA MIN ŠEHRI RAMADANE, što u prijevodu znači: Odlučih, Allaha radi, postiti ramazanski post."
+        "value":"Nijjet za početak posta glasi: NEVEJTU EN ESUME LILLAHI TE'ALA MIN ŠEHRI RAMADANE, što u prijevodu znači: Odlučih, Allaha radi, postiti ramazanski post."
     },
     {
         "name":"label-book1-lesson30_section3-paragraph1",
@@ -1815,6 +1812,393 @@
     {
         "name":"label-minute-acusativ",
         "value":"minuta"
+    },
+
+    {
+        "name":"label-book1-lesson35-title",
+        "value":"Allahumme"
+    },
+    {
+        "name":"label-book1-lesson35-quote",
+        "value":"\"I molitvu obavljajte i zekat dajite\""
+    },
+    {
+        "name":"label-book1-lesson35-quote-reference",
+        "value":"Kur'an, 2:43"
+    },
+    {
+        "name":"label-book1-lesson35_section1-paragraph1",
+        "value":"Allahumme entes-selamu"
+    },
+    {
+        "name":"label-book1-lesson35_section1-paragraph2",
+        "value":"ve minkes-selam"
+    },
+    {
+        "name":"label-book1-lesson35_section1-paragraph3",
+        "value":"Tebarekte ja zel-dželali vel-ikram"
+    },
+    {
+        "name":"label-book1-lesson35_section2-paragraph1",
+        "value":"Allahu moj, Ti si spas"
+    },
+    {
+        "name":"label-book1-lesson35_section2-paragraph2",
+        "value":"i od Tebe je spas"
+    },
+    {
+        "name":"label-book1-lesson35_section2-paragraph3",
+        "value":"Blagoslovljen si, o Vlasniče Veličanstva i Časti"
+    },
+
+    {
+        "name":"label-book1-lesson36-title",
+        "value":"Salavati"
+    },
+    {
+        "name":"label-book1-lesson36-quote",
+        "value":"\"I molitvu obavljajte i zekat dajite\""
+    },
+    {
+        "name":"label-book1-lesson36-quote-reference",
+        "value":"Kur'an, 2:43"
+    },
+    {
+        "name":"label-book1-lesson36_section1-paragraph1",
+        "value":"Ala resulillahi salavat"
+    },
+    {
+        "name":"label-book1-lesson36_section1-paragraph2",
+        "value":"Allahumme salli ala Muhammedin"
+    },
+    {
+        "name":"label-book1-lesson36_section1-paragraph3",
+        "value":"ve ala ali Muhammed"
+    },
+    {
+        "name":"label-book1-lesson36_section2-paragraph1",
+        "value":"Salavat na Allahovog Poslanika"
+    },
+    {
+        "name":"label-book1-lesson36_section2-paragraph2",
+        "value":"Allahu, blagoslovi Muhammeda"
+    },
+    {
+        "name":"label-book1-lesson36_section2-paragraph3",
+        "value":"i porodicu Muhammedovu"
+    },
+
+    {
+        "name":"label-book1-lesson37-title",
+        "value":"Hamd"
+    },
+    {
+        "name":"label-book1-lesson37-quote",
+        "value":"\"I molitvu obavljajte i zekat dajite\""
+    },
+    {
+        "name":"label-book1-lesson37-quote-reference",
+        "value":"Kur'an, 2:43"
+    },
+    {
+        "name":"label-book1-lesson37_section1-paragraph1",
+        "value":"Subhanallahi vel-hamdu lillahi"
+    },
+    {
+        "name":"label-book1-lesson37_section1-paragraph2",
+        "value":"ve la ilahe illellahu vallahu ekber"
+    },
+    {
+        "name":"label-book1-lesson37_section1-paragraph3",
+        "value":"Ve la havle ve la kuvvete"
+    },
+    {
+        "name":"label-book1-lesson37_section1-paragraph4",
+        "value":"illa billahil-alijjil-azim"
+    },
+    {
+        "name":"label-book1-lesson37_section2-paragraph1",
+        "value":"Slavljen je Allah i hvala Allahu"
+    },
+    {
+        "name":"label-book1-lesson37_section2-paragraph2",
+        "value":"Nema drugog boga osim Allaha, Allah je najveći"
+    },
+    {
+        "name":"label-book1-lesson37_section2-paragraph3",
+        "value":"Nema snage niti moći"
+    },
+    {
+        "name":"label-book1-lesson37_section2-paragraph4",
+        "value":"osim u Svevišnjeg Allaha"
+    },
+    {
+        "name":"label-book1-lesson38-title",
+        "value":"Ajetul-Kursija"
+    },
+    {
+        "name":"label-book1-lesson38-quote",
+        "value":"\"I molitvu obavljajte i zekat dajite\""
+    },
+    {
+        "name":"label-book1-lesson38-quote-reference",
+        "value":"Kur'an, 2:43"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph1",
+        "value":"Euzu billahi mineš-šejtanir-radžim"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph2",
+        "value":"Bismillahir-rahmanir-rahim"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph3",
+        "value":"Allahu la illahe illa Hu, El-hajjul-kajjum"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph4",
+        "value":"La tehuzuhu sinetun ve la nevm"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph5",
+        "value":"Lehu ma fis-semavati ve ma fil-erd"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph6",
+        "value":"Men zellezi ješfe’u indehu illa bi-iznih"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph7",
+        "value":"J ́alemu ma bejne ejdihim ve ma halfehum"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph8",
+        "value":"ve la jahitune bi šej-in min ilmihi illa bima šae"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph9",
+        "value":"Vesia kurijjuhus-semavati vel-erda, ve la jeuduhu hifzuhuma"
+    },
+    {
+        "name":"label-book1-lesson38_section1-paragraph10",
+        "value":"ve huvel- alijjul-azim"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph1",
+        "value":"Tražim Allahovu zaštitu od prokletog šejtana"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph2",
+        "value":"U ime Allaha, Milostivog, Samilosnog"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph3",
+        "value":"Allah je, nema bogs osim njega, Živi i Vječni!"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph4",
+        "value":"Ne obuzima ga ni drijemež ni san!"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph5",
+        "value":"Nejgovo je sve ono što je na nebesima i ono što je na zemlji"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph6",
+        "value":"Ko se može pred Njim zauzimati za nekoga bez dopuštenja Negovog"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph7",
+        "value":"O zna šta je bilo prije njih i šta će biti poslije njih"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph8",
+        "value":"A od onoga što On zna, drugi znaju samo onoliko koliko On želi"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph9",
+        "value":"Moć Njegova obuhvata nebesa i zemlju i Njemu ne dojadi održavanje njihovo"
+    },
+    {
+        "name":"label-book1-lesson38_section2-paragraph10",
+        "value":"On je Svevišnji, Veličanstveni"
+    },
+    {
+        "name":"label-book1-lesson39-title",
+        "value":"Tesbih"
+    },
+    {
+        "name":"label-book1-lesson39-quote",
+        "value":"\"I molitvu obavljajte i zekat dajite\""
+    },
+    {
+        "name":"label-book1-lesson39-quote-reference",
+        "value":"Kur'an, 2:43"
+    },
+    {
+        "name":"label-book1-lesson39_section1-paragraph1",
+        "value":"Ja Rabbi zel-dželali subhanallah a zatim Subhanallah 33 puta."
+    },
+    {
+        "name":"label-book1-lesson39_section1-paragraph2",
+        "value":"Subhanel-baki daimen elhamdu lillah a zatim Elhamdu lillah 33 puta."
+    },
+    {
+        "name":"label-book1-lesson39_section1-paragraph3",
+        "value":"Rabbil-allmine teala šanuhu Allahu ekber a zatim Allahu ekber 33 puta."
+    },
+    {
+        "name":"label-book1-lesson40-title",
+        "value":"Kabiren"
+    },
+    {
+        "name":"label-book1-lesson40-quote",
+        "value":"\"I molitvu obavljajte i zekat dajite\""
+    },
+    {
+        "name":"label-book1-lesson40-quote-reference",
+        "value":"Kur'an, 2:43"
+    },
+    {
+        "name":"label-book1-lesson40_section1-paragraph1",
+        "value":"Kebiren, Azimen"
+    },
+    {
+        "name":"label-book1-lesson40_section1-paragraph2",
+        "value":"La ilahe illellahu vahdehu la šerike leh"
+    },
+    {
+        "name":"label-book1-lesson40_section1-paragraph3",
+        "value":"Lehul-mulku ve lehul-hamdu"
+    },
+    {
+        "name":"label-book1-lesson40_section1-paragraph4",
+        "value":"ve Huve ́ala kulli šej-in kadir"
+    },
+    {
+        "name":"label-book1-lesson40_section1-paragraph5",
+        "value":"Ve ma erselnake illa rahmeten lil-alemin"
+    },
+    {
+        "name":"label-book1-lesson40_section2-paragraph1",
+        "value":"Kebiren, Azimen"
+    },
+    {
+        "name":"label-book1-lesson40_section2-paragraph2",
+        "value":"La ilahe illellahu vahdehu la šerike leh"
+    },
+    {
+        "name":"label-book1-lesson40_section2-paragraph3",
+        "value":"Lehul-mulku ve lehul-hamdu"
+    },
+    {
+        "name":"label-book1-lesson40_section2-paragraph4",
+        "value":"ve Huve ́ala kulli šej-in kadir"
+    },
+    {
+        "name":"label-book1-lesson40_section2-paragraph5",
+        "value":"Ve ma erselnake illa rahmeten lil-alemin"
+    },
+    {
+        "name":"label-book1-lesson41-title",
+        "value":"Dova"
+    },
+    {
+        "name":"label-book1-lesson41-quote",
+        "value":"\"I molitvu obavljajte i zekat dajite\""
+    },
+    {
+        "name":"label-book1-lesson41-quote-reference",
+        "value":"Kur'an, 2:43"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph1",
+        "value":"El-hamdu lillahi rabbil-‘alemin"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph2",
+        "value":"Ves-salatu ves-selamu ‘ala sejjidina Muhammedin ve ‘ala alihi ve sahbihi edžmein"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph3",
+        "value":"Allahumme rabbena tekabbel minna salatena"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph4",
+        "value":"Inneke entes- semiul-‘alim"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph5",
+        "value":"Ve tub ‘alejna ja mevlana"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph6",
+        "value":"Inneke entet-tevvabur- rahim"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph7",
+        "value":"Allahumme rabbena atina fid-dunja haseneten ve fil-ahireti haseneten vekina ‘azaben-nar"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph8",
+        "value":"Rabbena-gfir li ve li validejje ve lil-mu’minine jevme jekumul-hisab"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph9",
+        "value":"Subhane rabbike rabbil-‘izzeti ‘amma jesifun"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph10",
+        "value":"Ve selamun ‘alel-murselin"
+    },
+    {
+        "name":"label-book1-lesson41_section1-paragraph11",
+        "value":"Vel-hamdu lillahi rabbil-’alemīn. El-Fatiha"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph1",
+        "value":"El-hamdu lillahi rabbil-‘alemin"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph2",
+        "value":"Ves-salatu ves-selamu ‘ala sejjidina Muhammedin ve ‘ala alihi ve sahbihi edžmein"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph3",
+        "value":"Allahumme rabbena tekabbel minna salatena"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph4",
+        "value":"Inneke entes- semiul-‘alim"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph5",
+        "value":"Ve tub ‘alejna ja mevlana"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph6",
+        "value":"inneke entet-tevvabur- rahim"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph7",
+        "value":"Allahumme rabbena atina fid-dunja haseneten ve fil-ahireti haseneten vekina ‘azaben-nar"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph8",
+        "value":"Rabbena-gfir li ve li validejje ve lil-mu’minine jevme jekumul-hisab"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph9",
+        "value":"Subhane rabbike rabbil-‘izzeti ‘amma jesifun"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph10",
+        "value":"Ve selamun ‘alel-murselin"
+    },
+    {
+        "name":"label-book1-lesson41_section2-paragraph11",
+        "value":"Vel-hamdu lillahi rabbil-’alemīn. El-Fatiha"
     },
 
 
@@ -2506,11 +2890,11 @@
     },
     {
         "name":"label-book2-lesson22-quote",
-        "value":"\"O vjernici! Propisuje vam se post.\""
+        "value":"\"Mi smo naredili čovjeku da sluša roditelje svoje.\""
     },
     {
         "name":"label-book2-lesson22-quote-reference",
-        "value":"Kur'an, 2:183"
+        "value":"Kur'an, 31:14"
     },
     {
         "name":"label-book2-lesson22_section1-paragraph1",

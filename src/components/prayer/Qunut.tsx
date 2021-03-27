@@ -104,9 +104,10 @@ const Qunut: React.FC<QunutProps> = ({color,prayerLength}) => {
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonText className="audio-link">Kunut dova</IonText>
+              <IonText className="audio-link-purple">Kunut dova</IonText>
               <IonButton
                 class="no-shadow"
+                style={{marginTop:"0px"}}
                 onClick={() => {toglePlayPause("KunutDova")}}
                 fill="solid"
                 color="light"

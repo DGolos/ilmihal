@@ -22,22 +22,22 @@ const MainCategoryPage: React.FC = () => {
         <IonGrid>
           <IonRow>
             <IonCol size="4">
-              <IonButton color={current===1?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(1) }>
-                <IonLabel color="light" className="ion-text-center">
+              <IonButton className="no-shadow" color={current===1?"button":"brown"} expand="block" onClick={ () => setCurrent(1) }>
+                <IonLabel color={current===1?"burgundy":"light"} className="ion-text-center">
                   {translationService.getLabel('label-header-quran')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color={current===2?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(2) }>
-                <IonLabel color="light" className="ion-text-center">
+              <IonButton className="no-shadow" color={current===2?"button":"brown"} expand="block" onClick={ () => setCurrent(2) }>
+                <IonLabel color={current===2?"burgundy":"light"} className="ion-text-center">
                 {translationService.getLabel('label-header-prayer')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color={current===3?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(3) }>
-                <IonLabel color="light" className="ion-text-center">
+              <IonButton className="no-shadow" color={current===3?"button":"brown"} expand="block" onClick={ () => setCurrent(3) }>
+                <IonLabel color={current===3?"burgundy":"light"} className="ion-text-center">
                 {translationService.getLabel('label-header-faith')}
                 </IonLabel>
               </IonButton>
@@ -46,22 +46,22 @@ const MainCategoryPage: React.FC = () => {
 
           <IonRow>
             <IonCol size="4">
-              <IonButton color={current===4?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(4) }>
-                <IonLabel color="light" className="ion-text-center">
+              <IonButton className="no-shadow" color={current===4?"button":"brown"} expand="block" onClick={ () => setCurrent(4) }>
+                <IonLabel color={current===4?"burgundy":"light"} className="ion-text-center">
                 {translationService.getLabel('label-header-dhikr')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color={current===5?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(5) }>
-                <IonLabel color="light" className="ion-text-center">
+              <IonButton className="no-shadow" color={current===5?"button":"brown"} expand="block" onClick={ () => setCurrent(5) }>
+                <IonLabel color={current===5?"burgundy":"light"} className="ion-text-center">
                 {translationService.getLabel('label-header-muhammad')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton color={current===6?"dark-brown":"brown"} expand="block" onClick={ () => setCurrent(6) }>
-                <IonLabel color="light" className="ion-text-center">
+              <IonButton className="no-shadow" color={current===6?"button":"brown"} expand="block" onClick={ () => setCurrent(6) }>
+                <IonLabel color={current===6?"burgundy":"light"} className="ion-text-center">
                 {translationService.getLabel('label-header-homeland')}
                 </IonLabel>
               </IonButton>
@@ -131,7 +131,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Slušaj odabrane sure iz Časnog Kur'ana.
                     </h6>
                   </IonRow>
@@ -168,7 +168,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Objava Kur'ana Muhammedu a.s.
                     </h6>
                   </IonRow>
@@ -200,7 +200,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Čitaj odabrane ajete iz Časnog Kur'ana.
                     </h6>
                   </IonRow>
@@ -232,8 +232,8 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
-                      Čitaj odabrane ajete iz Časnog Kur'ana.
+                    <h6 style={{fontSize:"12px"}}>
+                      Prijevodi Časnog Kur'ana na bosanski jezik
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -261,8 +261,8 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
-                      Čitaj odabrane ajete iz Časnog Kur'ana.
+                    <h6 style={{fontSize:"12px"}}>
+                      Etiketa učenja Časnog Kur'ana
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -302,7 +302,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Danasnja vaktija za zemlje iznad 50 paralele
                     </h6>
                   </IonRow>
@@ -331,7 +331,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Ostali namazi pored dnevnih vakata
                     </h6>
                   </IonRow>
@@ -368,7 +368,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Kako se pravilno uzima abdest
                     </h6>
                   </IonRow>
@@ -400,7 +400,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Kako se pravilno uzima gusul
                     </h6>
                   </IonRow>
@@ -443,7 +443,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Osnove o ramazanskom postu
                     </h6>
                   </IonRow>
@@ -472,7 +472,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Osnove o davanju zekata
                     </h6>
                   </IonRow>
@@ -509,7 +509,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Osnove o obavljanju hadžža
                     </h6>
                   </IonRow>
@@ -553,7 +553,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Odabrane dove koje upućujemo Allahu dž.š.
                     </h6>
                   </IonRow>
@@ -582,7 +582,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Zikr koji činimo Allahu dž.š.
                     </h6>
                   </IonRow>
@@ -619,7 +619,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Označavanje pripadnosti islamu
                     </h6>
                   </IonRow>
@@ -651,7 +651,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Allahova najljepša imena
                     </h6>
                   </IonRow>
@@ -695,7 +695,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                     Život posljednjeg Allahovog poslanika
                     </h6>
                   </IonRow>
@@ -724,7 +724,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                     Govor posljednjeg Allahovog poslanika
                     </h6>
                   </IonRow>
@@ -761,7 +761,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Ashabi posljednjeg Allahovog poslanika.
                     </h6>
                   </IonRow>
@@ -804,7 +804,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                       Kratko o historiji islama
                     </h6>
                   </IonRow>
@@ -832,7 +832,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                     Kratko o historiji Bosne
                     </h6>
                   </IonRow>
@@ -869,7 +869,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 className="title">
+                    <h6 style={{fontSize:"12px"}}>
                     Kratko o znamenitim bošnjacima
                     </h6>
                   </IonRow>

@@ -43,7 +43,7 @@ export const FuneralPrayerPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12" style={{ marginTop: 0 }}>
                   <h3
-                    style={{ fontStyle: "italic", fontSize: "12" }}
+                    style={{ fontStyle: "italic"}}
                     className="prayer ion-no-padding ion-text-center"
                   >
                     {translationService.getLabel("label-book2-lesson12-quote")}

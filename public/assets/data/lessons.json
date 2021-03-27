@@ -33,7 +33,7 @@
     "bookId": "1",
     "title": "label-book1-lesson2-title",
     "color": "burgundy",
-    "audio": "",
+    "audio": "Sehadet",
     "quoteText": "label-book1-lesson2-quote",
     "quoteReference": "label-book1-lesson2-quote-reference",
     "sections": [
@@ -703,6 +703,228 @@
      
     ]
   },
+
+  {
+    "id": "35",
+    "bookId": "1",
+    "title": "label-book1-lesson35-title",
+    "color": "purple",
+    "audio": "RabbiJessir",
+    "quoteText": "label-book1-lesson35-quote",
+    "quoteReference": "label-book1-lesson35-quote-reference",
+    "sections": [
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson35_section1-paragraph1",
+          "label-book1-lesson35_section1-paragraph2",
+          "label-book1-lesson35_section1-paragraph3"
+        ]
+      },
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson35_section2-paragraph1",
+          "label-book1-lesson35_section2-paragraph2",
+          "label-book1-lesson35_section2-paragraph3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "bookId": "1",
+    "title": "label-book1-lesson36-title",
+    "color": "purple",
+    "audio": "RabbiJessir",
+    "quoteText": "label-book1-lesson36-quote",
+    "quoteReference": "label-book1-lesson36-quote-reference",
+    "sections": [
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson36_section1-paragraph1",
+          "label-book1-lesson36_section1-paragraph2",
+          "label-book1-lesson36_section1-paragraph3"
+        ]
+      },
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson36_section2-paragraph1",
+          "label-book1-lesson36_section2-paragraph2",
+          "label-book1-lesson36_section2-paragraph3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "bookId": "1",
+    "title": "label-book1-lesson37-title",
+    "color": "purple",
+    "audio": "RabbiJessir",
+    "quoteText": "label-book1-lesson37-quote",
+    "quoteReference": "label-book1-lesson37-quote-reference",
+    "sections": [
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson37_section1-paragraph1",
+          "label-book1-lesson37_section1-paragraph2",
+          "label-book1-lesson37_section1-paragraph3",
+          "label-book1-lesson37_section1-paragraph4"
+        ]
+      },
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson37_section2-paragraph1",
+          "label-book1-lesson37_section2-paragraph2",
+          "label-book1-lesson37_section2-paragraph3",
+          "label-book1-lesson37_section2-paragraph4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "bookId": "1",
+    "title": "label-book1-lesson38-title",
+    "color": "purple",
+    "audio": "RabbiJessir",
+    "quoteText": "label-book1-lesson38-quote",
+    "quoteReference": "label-book1-lesson38-quote-reference",
+    "sections": [
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson38_section1-paragraph1",
+          "label-book1-lesson38_section1-paragraph2",
+          "label-book1-lesson38_section1-paragraph3",
+          "label-book1-lesson38_section1-paragraph4",
+          "label-book1-lesson38_section1-paragraph5",
+          "label-book1-lesson38_section1-paragraph6",
+          "label-book1-lesson38_section1-paragraph7",
+          "label-book1-lesson38_section1-paragraph8",
+          "label-book1-lesson38_section1-paragraph9",
+          "label-book1-lesson38_section1-paragraph10"
+        ]
+      },
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson38_section2-paragraph1",
+          "label-book1-lesson38_section2-paragraph2",
+          "label-book1-lesson38_section2-paragraph3",
+          "label-book1-lesson38_section2-paragraph4",
+          "label-book1-lesson38_section2-paragraph5",
+          "label-book1-lesson38_section2-paragraph6",
+          "label-book1-lesson38_section2-paragraph7",
+          "label-book1-lesson38_section2-paragraph8",
+          "label-book1-lesson38_section2-paragraph9",
+          "label-book1-lesson38_section2-paragraph10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "bookId": "1",
+    "title": "label-book1-lesson39-title",
+    "color": "purple",
+    "audio": "",
+    "quoteText": "label-book1-lesson39-quote",
+    "quoteReference": "label-book1-lesson39-quote-reference",
+    "sections": [
+      {
+        "type":"0",
+        "paragraphs": [
+          "label-book1-lesson39_section1-paragraph1",
+          "label-book1-lesson39_section1-paragraph2",
+          "label-book1-lesson39_section1-paragraph3"
+        ]
+      }
+      
+    ]
+  },
+
+  {
+    "id": "40",
+    "bookId": "1",
+    "title": "label-book1-lesson40-title",
+    "color": "purple",
+    "audio": "RabbiJessir",
+    "quoteText": "label-book1-lesson40-quote",
+    "quoteReference": "label-book1-lesson40-quote-reference",
+    "sections": [
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson40_section1-paragraph1",
+          "label-book1-lesson40_section1-paragraph2",
+          "label-book1-lesson40_section1-paragraph3",
+          "label-book1-lesson40_section1-paragraph4",
+          "label-book1-lesson40_section1-paragraph5"
+        ]
+      },
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson40_section2-paragraph1",
+          "label-book1-lesson40_section2-paragraph2",
+          "label-book1-lesson40_section2-paragraph3",
+          "label-book1-lesson40_section2-paragraph4",
+          "label-book1-lesson40_section2-paragraph5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "bookId": "1",
+    "title": "label-book1-lesson41-title",
+    "color": "purple",
+    "audio": "RabbiJessir",
+    "quoteText": "label-book1-lesson41-quote",
+    "quoteReference": "label-book1-lesson41-quote-reference",
+    "sections": [
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson41_section1-paragraph1",
+          "label-book1-lesson41_section1-paragraph2",
+          "label-book1-lesson41_section1-paragraph3",
+          "label-book1-lesson41_section1-paragraph4",
+          "label-book1-lesson41_section1-paragraph5",
+          "label-book1-lesson41_section1-paragraph6",
+          "label-book1-lesson41_section1-paragraph7",
+          "label-book1-lesson41_section1-paragraph8",
+          "label-book1-lesson41_section1-paragraph9",
+          "label-book1-lesson41_section1-paragraph10",
+          "label-book1-lesson41_section1-paragraph11"
+        ]
+      },
+      {
+        "type":"1",
+        "paragraphs": [
+          "label-book1-lesson41_section2-paragraph1",
+          "label-book1-lesson41_section2-paragraph2",
+          "label-book1-lesson41_section2-paragraph3",
+          "label-book1-lesson41_section2-paragraph4",
+          "label-book1-lesson41_section2-paragraph5",
+          "label-book1-lesson41_section2-paragraph6",
+          "label-book1-lesson41_section2-paragraph7",
+          "label-book1-lesson41_section2-paragraph8",
+          "label-book1-lesson41_section2-paragraph9",
+          "label-book1-lesson41_section2-paragraph10",
+          "label-book1-lesson41_section2-paragraph11"
+        ]
+      }
+    ]
+  },
+  
+
   {
     "id": "1",
     "bookId": "2",

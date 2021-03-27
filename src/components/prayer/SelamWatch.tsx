@@ -8,14 +8,17 @@ import {
     IonSlide,
   } from "@ionic/react";
   import React from "react";
-import { translationService } from "../services/TranslationService";
+import { translationService } from "../../services/TranslationService";
+import { Progress } from "../common/Progress";
 
   interface SalamWatchProps{
     rakah:string;
     color?:string;
+    stepValue?: number;
+    maxValue?: number;
   }
   
-  const SelamWatch: React.FC<SalamWatchProps> = ({ rakah,color}) => {
+  const SelamWatch: React.FC<SalamWatchProps> = ({ rakah,color,stepValue,maxValue}) => {
     return (
         <IonSlide>
         <div>
@@ -37,8 +40,15 @@ import { translationService } from "../services/TranslationService";
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="12">
+                  <IonCol size="6">
                     <IonChip color={color}>{translationService.getLabel('label-prayer-selam-header')}</IonChip>
+                  </IonCol>
+                  <IonCol size="6">
+                    <Progress
+                      currentValue={stepValue!}
+                      maxValue={maxValue!}
+                      color={color}
+                    />
                   </IonCol>
                 </IonRow>
 

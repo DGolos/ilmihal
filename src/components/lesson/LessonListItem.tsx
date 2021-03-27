@@ -21,9 +21,9 @@ const LessonListItem: React.FC<LessonItemProps> = ({ id, title, link }) => {
           <h4>{id}</h4>
         </IonLabel>
       </IonAvatar>
-      <IonNote className="ion-padding-start ion-text-center">
-        <h4>{title}</h4>
-      </IonNote>
+        <h6 className="ion-text-center" style={{paddingLeft:"6px",marginTop:"5px"}}>{title}</h6>
+        
+      
     </IonItem>
   );
 };
