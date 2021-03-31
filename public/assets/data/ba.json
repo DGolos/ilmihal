@@ -310,7 +310,7 @@
     },
     {
         "name":"label-header-muhammad",
-        "value":"Muhammed"
+        "value":"Poslanik a.s."
     },
     {
         "name":"label-header-homeland",
@@ -1816,7 +1816,7 @@
 
     {
         "name":"label-book1-lesson35-title",
-        "value":"Allahumme"
+        "value":"Selam"
     },
     {
         "name":"label-book1-lesson35-quote",
@@ -1890,7 +1890,7 @@
 
     {
         "name":"label-book1-lesson37-title",
-        "value":"Hamd"
+        "value":"Zahvala Allahu"
     },
     {
         "name":"label-book1-lesson37-quote",
@@ -2042,7 +2042,7 @@
     },
     {
         "name":"label-book1-lesson39_section1-paragraph2",
-        "value":"Subhanel-baki daimen elhamdu lillah a zatim Elhamdu lillah 33 puta."
+        "value":"Subhanellahi ve bihamdihi elhamdu lillah a zatim Elhamdu lillah 33 puta."
     },
     {
         "name":"label-book1-lesson39_section1-paragraph3",
@@ -2050,7 +2050,7 @@
     },
     {
         "name":"label-book1-lesson40-title",
-        "value":"Kabiren"
+        "value":"Veličanje Allaha"
     },
     {
         "name":"label-book1-lesson40-quote",
@@ -2082,23 +2082,23 @@
     },
     {
         "name":"label-book1-lesson40_section2-paragraph1",
-        "value":"Kebiren, Azimen"
+        "value":"Veliki, Moćni"
     },
     {
         "name":"label-book1-lesson40_section2-paragraph2",
-        "value":"La ilahe illellahu vahdehu la šerike leh"
+        "value":"Samo je jadan Bog Allah. On je jedan i nema druga"
     },
     {
         "name":"label-book1-lesson40_section2-paragraph3",
-        "value":"Lehul-mulku ve lehul-hamdu"
+        "value":"Njemu pripada sva vlast i moć. Samo je On dostojan da se hvali i veliča"
     },
     {
         "name":"label-book1-lesson40_section2-paragraph4",
-        "value":"ve Huve ́ala kulli šej-in kadir"
+        "value":"On je svemoćan"
     },
     {
         "name":"label-book1-lesson40_section2-paragraph5",
-        "value":"Ve ma erselnake illa rahmeten lil-alemin"
+        "value":"Mi smo te, Muhammede, poslali kao milost ljudskom rodu"
     },
     {
         "name":"label-book1-lesson41-title",
@@ -2158,47 +2158,47 @@
     },
     {
         "name":"label-book1-lesson41_section2-paragraph1",
-        "value":"El-hamdu lillahi rabbil-‘alemin"
+        "value":"Hvala Allahu, Gospodaru svih svjetova"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph2",
-        "value":"Ves-salatu ves-selamu ‘ala sejjidina Muhammedin ve ‘ala alihi ve sahbihi edžmein"
+        "value":"Salavat i selam donosima na našeg plemenitog Muhammeda njegovu rodbinu i sve ashabe"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph3",
-        "value":"Allahumme rabbena tekabbel minna salatena"
+        "value":"O Allahu, Gospodaru naš, molimo te da primiš naš namaz"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph4",
-        "value":"Inneke entes- semiul-‘alim"
+        "value":"Uistinu, Ti sve čuješ i sve znaš"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph5",
-        "value":"Ve tub ‘alejna ja mevlana"
+        "value":"I opsrosti nam, O Zaštitniče naš"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph6",
-        "value":"inneke entet-tevvabur- rahim"
+        "value":"zaista Ti primaš pokajanje, Milostivi"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph7",
-        "value":"Allahumme rabbena atina fid-dunja haseneten ve fil-ahireti haseneten vekina ‘azaben-nar"
+        "value":"O Allahu, Gospodaru naš, podari nam dobro na ovom i na onom svijetu i sačuvaj naspatnje u Vatri"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph8",
-        "value":"Rabbena-gfir li ve li validejje ve lil-mu’minine jevme jekumul-hisab"
+        "value":"Gospodaru naš, oprosti meni, mojim roditeljima i svim vjernicima na Dan polaganja računa"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph9",
-        "value":"Subhane rabbike rabbil-‘izzeti ‘amma jesifun"
+        "value":"Veličanstven je Gospodar tvoj Dostojanstveni, i daleko od onoga kako Ga predstavljaju oni"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph10",
-        "value":"Ve selamun ‘alel-murselin"
+        "value":"i mir poslanicima"
     },
     {
         "name":"label-book1-lesson41_section2-paragraph11",
-        "value":"Vel-hamdu lillahi rabbil-’alemīn. El-Fatiha"
+        "value":"i hvaljen neka je Allah, Gospodar svjetova"
     },
 
 
@@ -2492,7 +2492,7 @@
     },
     {
         "name":"label-book2-lesson12-title-description",
-        "value":"Namaz koji se klanja za umrlu osobu"
+        "value":"Namaz koji se u džematu klanja za umrlu osobu"
     },
     {
         "name":"label-book2-lesson12-quote",
@@ -2589,7 +2589,7 @@
     },
     {
         "name":"label-book2-lesson14-title-description",
-        "value":"Obavezni namaz petkom"
+        "value":"Obavezni namaz u džematu koji se klanje svakog petka"
     },
     
     {
@@ -3351,7 +3351,7 @@
     },
     {
         "name":"label-book3-lesson4-title-description",
-        "value":"Pravedne halife"
+        "value":"Životna priča četvorice pravednih halifa koji su dali veliki doprinos islamu"
     },
     {
         "name":"label-book3-lesson4-quote",
@@ -3408,7 +3408,7 @@
     },
     {
         "name":"label-book3-lesson5-title-description",
-        "value":"Poznati ashabi"
+        "value":"Ukratko o ashabima Muhammeda a.s. kojima je obećan džennet"
     },
     {
         "name":"label-book3-lesson5-quote",
@@ -3419,12 +3419,63 @@
         "value":"Kur'an, 12:2"
     },
     {
+        "name":"label-book3-lesson5_section1-paragraph1",
+        "value":"Svaki ashab bio je institucija za sebe. Svaki ashab bio je Ummet. Svi ashabi Božijeg Poslanika su posebni i prepoznatljivi po nečemu, ali se desetorica izdvajaju. Desetorica kojima je nagoviješten Džennet, koji se zovu \"Ašere-i mubeššere\", a to su:"
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph2",
+        "value":"Ebu Bekr Es-Siddik, r.a., Poslanikov, a.s., saputnik Hidžre, njegov ashab u pećini Sevr, prvi halifa Hulefair-rašidina, ashab za kojeg je Muhammed, a.s., rekao: \"Kada bi se izvagao iman Ebu Bekra sa imanom svih stvorenja, prevagnuo bi iman Ebu Bekra.\""
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph3",
+        "value":"Omer ibn el-Hattab, r.a., koji je prihvatio islam nakon Hamze ibn Abdu-l-Muttaliba, r.a., do tri dana. Prije njegovoga prelaska na islam Muhammed, a.s., je učio dovu: \"Allahu moj, pomozi islam sa jednim od dvojice koji je Tebi draži: Omerom ibn El-Hattabom ili Amrom ibn Hišamom (Ebu Džehlom)\" Allah dž.š. je islam pomogao sa Omerom ibn el-Hattabom, velikanom islama, koji je nakon smrti Ebu Bekra es-Siddika izabran za halifu, a u njegovo vrijeme hilafeta je došlo do velikog proširenja islamske države."
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph4",
+        "value":"Osman ibn Affan, r.a., blagi, darežljivi i stidljivi ashab \"zbog čijeg stida se stide meleki\". Osman je bio treći halifa Hulefair-rašidina."
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph5",
+        "value":"Alija ibn Ebi Talib, r.a., četvrti halifa Hulefair-rašidina, neustrašivi ashab, muž h. Fatime i otac Hasana i Husejna, Poslanikovih unuka, ashab koji je kao dijete primio islam."
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph6",
+        "value":"Seid ibn Zejd, r.a., koji je u vrijeme dok je bio namjesnik Damaska pisao pismo Ebu Ubejdi da umjesto njega za namjesnika postavi nekoga drugog, kako bi se on priključio mudžahidima, jer mu je borba na Allahovome putu bila draža od namjesnikovanja."
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph7",
+        "value":"Sa'd ibn Ebi Vekkas, r.a., veliki i neustrašivi vojskovođa, oslobodilac perzijskih riznica i junak Kadisijje."
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph8",
+        "value":"Abdurrahman ibn Avf, r.a., koji je bio prepoznatljiv po svojoj odvažnosti i darežljivosti do te mjere da ne bi htio leći dok ne bi podijelio sve što je imao, a Allah bi mu imetak stalno uvećavao. I često je plakao od straha pred Allahom zbog imetka koji je postizao i potom ga dijelio!"
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph9",
+        "value":"Talha ibn Ubejdullah, r.a., koji je prednjačio u džihadu i dobročinstvu, za kojeg je Poslanik, a.s., nakon Uhuda rekao da je on \"šehid koji hoda po Zemlji.\""
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph10",
+        "value":"Ebu Ubejde Amir ibn El-Džerrah, r.a., rječiti i povjerljivi ashab, koji je imao nadimak Emin ummeta."
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph11",
+        "value":"Zubejr ibn El-Avvam, r.a., odvažni ashab koji je na Uhudu po naređenju Poslanika, a.s., ubio jednog od najhrabrijih mušrika, a u bici na Hunejnu mušrici su ispred njega bježali."
+    },
+    {
+        "name":"label-book3-lesson5_section1-paragraph12",
+        "value":"Spomenuta desetorica ashaba, imenom i prezimenom, su desetorica koji su poznati kao Ašere mubeššere – desetorica koje je još za života Poslanik obavjestio da su stanovnici Dženneta. Ovdje svakako trebamo spomenuti unuke Hasana, r.a., i Husejna, r.a."
+    },
+    
+
+
+    {
         "name":"label-book3-lesson6-title",
         "value":"Žene u islamu"
     },
     {
         "name":"label-book3-lesson6-title-description",
-        "value":"Žene u islamu"
+        "value":"Uloga žene u islamu i odlike koje krase muslimanske žene"
     },
     {
         "name":"label-book3-lesson6-quote",
@@ -3597,10 +3648,22 @@
     },
     {
         "name":"label-book3-lesson8_section2-header",
-        "value":"Hifz"
+        "value":"Tedžvid"
     },
     {
         "name":"label-book3-lesson8_section2-paragraph1",
+        "value":"Tedžvid je nauka, koja nas upućuje u pravilno učenje Kur'ana. Pored nauke tedžvid je i vještina obzirom da iziskuje maksimalnu vježbu."
+    },
+    {
+        "name":"label-book3-lesson8_section2-paragraph2",
+        "value":"Vrijednost ove islamske nauke je ogromna, a njena važnost se najbolje ogleda u tome, što bez pravilnog učenja Kur'ana u pitanje dolazi vridnost namaza. Svaka islamska zajednica je obavezna da ima dovoljan broj poznavalaca ove nauke."
+    }, 
+    {
+        "name":"label-book3-lesson8_section3-header",
+        "value":"Hifz"
+    },
+    {
+        "name":"label-book3-lesson8_section3-paragraph1",
         "value":"Jedna od posebnosti Kur’ana časnog je da je to knjiga koja se može naučiti napamet. Taj proces se na arapskom jeziku naziva hifzu-l-Kur’an, a osoba koja je u cijelosti naučila Kur’an napamet naziva se hafizu-l-Kur’an, što bi se moglo prevesti kao čuvar Kur’ana. Proces memorisanja Kur’ana kod nas se naziva hifz ili hafizluk, a osoba koja je naučila cijeli Kur’an napamet dobiva časnu titulu hafiza."
     },
     
@@ -3623,7 +3686,7 @@
     },
     {
         "name":"label-book3-lesson9-title-description",
-        "value":"Dobrovoljni noćni namaz"
+        "value":"Dobrovoljni noćni namaz koji se klanje prije ne nastupi vrijeme sabah namaza"
     },
     {
         "name":"label-book3-lesson9-quote",
@@ -3648,7 +3711,7 @@
     },
     {
         "name":"label-book3-lesson10-title-description",
-        "value":"Dobrovoljni jutarnji namaz"
+        "value":"Dobrovoljni jutarnji namaz koji se klanja kada sunce odskoči"
     },
     {
         "name":"label-book3-lesson10-quote",
@@ -3668,7 +3731,7 @@
     },
     {
         "name":"label-book3-lesson11-title-description",
-        "value":"Namaz gdje molimo Allaha dž.š. za uputu"
+        "value":"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi"
     },
     {
         "name":"label-book3-lesson11-quote",
@@ -4012,6 +4075,87 @@
         "name":"label-book3-lesson14_section13-paragraph1",
         "value":"Na kraju desete godine nakon preseljenja u Medinu, Muhammed, a.s., je prvi put u potpunosti obavio hadždž. Na njemu je održao poznati govor na kome je prisustvovalo preko 100 hiljada ljudi. Muhammed, a.s., je tada, između ostalog, govorio o pravu pojedinca, nacionalnoj i rasnoj jednakosti, pravima žena i djece, položaju djece bez roditelja i još nekim smjernicama. U tefsirima se navodi da je u tom momentu oprosnog hadždža objavljen ajet: \"Danas sam vam vašu vjeru usavršio i blagodat svoju prema vama upotpunio i zadovoljan sam da vam islam bude vjera.\" (El-Ma'ide, 3). Nekoliko mjeseci nakon oprosnog hadždža Muhammed, a.s., se razbolio. Imao je jake glavobolje i osjećao slabost. Umro je u ponedjeljak, 8. juna 632. godine u podnevskom vremenu u gradu Medini, u kući i naručju supruge Aiše."
     },
+    {
+        "name":"label-book3-lesson15-title",
+        "value":"Kultura Bošnjaka"
+    },
+    {
+        "name":"label-book3-lesson15-quote",
+        "value":"\"A onaj kome je data mudrost, doista, mu je dato veliko dobro!\""
+    },
+    {
+        "name":"label-book3-lesson15-quote-reference",
+        "value":"Kur'an, 2:269"
+    },
+    {
+        "name":"label-book3-lesson15_section1-header",
+        "value":"Kultura"
+    },
+    {
+        "name":"label-book3-lesson15_section1-paragraph1",
+        "value":"Kultura je cjelokupno društveno naslijeđe neke grupe ljudi, to jest naučeni obrasci mišljenja, osjećanja i djelovanja neke grupe, zajednice ili društva, kao i izrazi tih obrazaca u materijalnim objektima."
+    },
+    {
+        "name":"label-book3-lesson15_section1-paragraph2",
+        "value":"Bošnjačka kultura svoj korijen ponajviše ima u islamu kao riznici dobra i svevremenog, zatim u bogatoj prošlosti, historiji i raznovrsnim kulturama koje su se na ovim prostorima vijekovima smjenjivali. Bošnjaci su modele ponašanja prepisivali i oponašali i od drugih naroda, nikad ne odustajući i ne odmičući se pretjerano od sebe i svojih uzusa. Zanimljivo je da su Bošnjaci unatoč raznim agresijama i pritiscima koje su ih kroz vrijeme lomili, ipak uspijeli zadržati nešto autentično i svoje, samo sebi svojstveno i prepoznatljivo u cijelom svijetu."
+    },
+    {
+        "name":"label-book3-lesson15_section2-header",
+        "value":"Tradicija"
+    },
+    {
+        "name":"label-book3-lesson15_section2-paragraph1",
+        "value":"Tradicija je prije svega usmena predaja znanja, vještina, načina ponašanja i običaja unutar jedne kulture ili skupine ljudi. Tradicija je kulturno nasljeđe koje se prenosi s generacije na generaciju. Tu spadaju i naučeno znanje, i umjetnički zanati kao i rituali, moralna pravila i hranidbeni običaji."
+    },
+    {
+        "name":"label-book3-lesson15_section3-header",
+        "value":"Jezik"
+    },
+    {
+        "name":"label-book3-lesson15_section3-paragraph1",
+        "value":"Bosanski jezik je južnoslavenski jezik zasnovan na štokavskom narječju. \"Bosanski jezik je ono što nas određuje, što svjedoči o nama, što govori o našem historijskom kontinuitetu na ovim prostorima (Bosni i Hercegovini) i što govori o tome da smo mi vezani za ovaj prostor i da mimo ovoga prostora, bez obzira na sve nevolje koje su nas raspršile po svijetu nemamo šta tražiti u savremenom svijetu bez svoje bosansko-hercegovačke matice, što potvrđuje svaka iole ozbiljnija nauka, ne samo filologija nego i svaka druga to zna i tvrdi, ali je problem u tome što naše glave najbolje ne shvataju tu toliko puta provjerenu lekciju.\" (dr. Jahić Dževad)"
+    },
+    {
+        "name":"label-book3-lesson15_section3-paragraph2",
+        "value":"Bosanski pjesnik Muhamed Hevai Uskufi je sastavljač tursko-bosanskog rječnika. To je prvi rječnik nekog od južnoslavenskih jezika, kojeg on tada naziva bosanskim (bosnevi). U Uvodu za svoj rječnik autor je napisao: &quot;Mnogo je lijepih rječnika napisano, sve kao dragi kamen pribranih i omiljenih, ali nema napisana na bosanskom jeziku.&quot; Rječnik je objavio 1631. godine."
+    },
+    {
+        "name":"label-book3-lesson15_section4-header",
+        "value":"Običaji"
+    },
+    {
+        "name":"label-book3-lesson15_section4-paragraph1",
+        "value":"Bujrum je riječ koja znači toliko mnogo u kulturi ponašanja u Bosni. Ta riječ je vrlo važna kada su u pitanju međuljudski odnosi, ovom se riječi poziva u goste, poziva na druženje, daje dozvola za korištenje nečega, za posluživanje. To je riječ kojom vas domaćin dočekuje na vratima i izražava dobrodošlicu."
+    },
+    {
+        "name":"label-book3-lesson15_section4-paragraph2",
+        "value":"Unatoč brzini i srkletu koji je model ponašanja i života većine ljudi u današnjem vremenu, Bošnjaci se sve škrtije i rjeđe odmiču od ovog tradicionalnog naslijeđa. Ćeif je način i percepcije svijeta i života, to je vrlo smjela sposobnost čovjeka da u svakom trenutku uživa i nađe vremena za odmor i odušak. Da ćeifi i uživa makar nakratko, makar u šoljici kafe i par dimova cigarete. Ćeif je užitak, ritual iz života svakog pojedinca koji je dio njegovog životnog hedonizma. Merak je onda svojevrstan pandan ćeifu, njegova nadogradnja, potpuna predanost u užitku, u ćeifu."
+    },
+    {
+        "name":"label-book3-lesson15_section4-paragraph3",
+        "value":"Jemin je vrsta datog obećanja, povjerenja ili zakletve. Dati jemin znači čvrsto obećati, zakleti se i nipošto ne iznevjeriti dato obećanje."
+    },
+    {
+        "name":"label-book3-lesson15_section4-paragraph4",
+        "value":"Teferič je u novo doba reikarnirao u party, tulum, žurku, zabavu i razne druge vrste kolektivnih i personalnih vidova zabave. Međutim, tradicionalni teferič podrazumijevao je okupljanje s povodom i razlogom, obično se zbog nekog praznika uvijek isto doba u godini organizovao. Značio je odlazak u prirodu, posebnu, svečaniju trpezu, muziku, pjesmu i kolo. Sve je vrlo često bilo praćeno nekom vrstom sporta i nadmetanja u igrama."
+    },
+    {
+        "name":"label-book3-lesson15_section4-paragraph5",
+        "value":"Svečana prilika kada se pozivaju gosti na ručak ili večeru obično se zove zijafet. Pozivu, tj. zijafetu uvijek je potreban odgovarajući povod pa je to najčešće neka vesela i svečana prigoda, bilo da se radi o svadbi, proslavi zaruka, rođenju dijeteta, iftar, bajramski ručak i slično."
+    },
+    {
+        "name":"label-book3-lesson15_section5-header",
+        "value":"Književnost"
+    },
+    {
+        "name":"label-book3-lesson15_section5-paragraph1",
+        "value":"Bošnjačka književnost predstavlja književnost Bošnjaka pisanu uglavnom na bosanskom jeziku. Najstariji sačuvani pisani oblik dokumenta na bosanskom jeziku potiče s kraja 10. ili početka 11. stoljeća je Humačka ploča iz Humca. Poslije prve faze koja se završava poveljom Kulina bana Dubrovčanima 1189. godine razvijaju se novi oblici pismenog izražavanja, kao povelje, testamenti, darovnice, pisma, zapisi na marginama knjiga i tekstovi uklesani na nadgrobnim biljezima - epitafi."
+    },
+    {
+        "name":"label-book3-lesson15_section5-paragraph2",
+        "value":"Najistaknutiji bosanskohercegovački književnici su: Enver Čolaković – Legenda o Ali paši, Mehmedalija Mak Dizdar – Modra rijeka (poema), Irfan Horozović - Berlinski nepoznati prolaznik, Meša Selimović – Tvrđava, Nedžad Ibrišimović – Vječnik, Alija Isaković – Hasanaginica (drama), Safvet-beg Bašagić – Mevlud, Mula Mustafa Bašeskija – Ljetopis, Nura Bazdulj-Hubijar – Begovica, Hasan Kaimija – Divan, Nasiha Kapidžić-Hadžić - Maskenbal u šumi, Abdurezak Hivzi Bjelevac- Pod drugim suncem, Dževad Karahasan - Istočni diwan, Edhem Mulabdić – Zeleno Busnje, Besim Korkut - Prijevod Kur'ana na bosanski jezik"
+    },
+    
     
     {
         "name":"label-chosen-verses-header",
@@ -4031,7 +4175,7 @@
     },
     {
         "name":"label-ruby-description",
-        "value":"Ajeti koji govore o veličini i moći Allaha dž.š."
+        "value":"Ajeti koji govore o veličini i moći Allaha dž.š., Stvoritelja svega što postoji"
     },
     {
         "name":"label-ruby-quote",
@@ -4061,12 +4205,12 @@
 
     {
         "name":"label-surah1-description",
-        "value":"Sura El Fatiha je objavljena u Mekki i ima 7 ajeta."
+        "value":"Ova sura je mekkanska i nalazi se u prvom džuzu"
     },
     
     {
         "name":"label-surah1-note",
-        "value":"Fatiha je srž Kur'ana.U hadisu je nazvana Ummul Kur'an ili temelj Kur'ana.Fatiha kao molitva sadrži veliku vrijednost. Svaki musliman se moli Stvoritelju,a u Fatihi koju uči na svakom rekatu obraća se na savršeno dostojan način Onome koji je sve stvorio ističući svojstva njgove svemoći i izdiže ga iznad ove planete.Molitva koja je sadržana u Fatihi jeste najuzvišmolitva od molitava svih svjetskih vjera, a ujedno je prva kur'anska molitva."
+        "value":"Prema hadisima, bez obzira što je kratka, ova sura je srž Kur'ana. suru El-Fatiha je obavezno proučiti na svako rekatu namaza, kako farza tako i sunneta. Glavna tema El-Fatihe je tevhid i zahvala Allahu dž.š. Učenje sure El-Fatiha se preporučuje nakon namaza, za bolesnika i kada se mejt polaže u kabur."
     },
     {
         "name":"label-surah1-ayah1",
@@ -4484,6 +4628,16 @@
     {
         "name":"label-surah17-ayah39",
         "value":"To je mudrost koju ti Gospodar tvoj objavljuje. I ne dodaji Allahu drugog boga da ne bi u Džehennem bio bačen, prekoren i od milosti Njegove udaljen."
+    },
+
+    {
+        "name":"label-surah18-description",
+        "value":"Ova sura je mekkanska i nalazi se u 15 i 16 džuzu. Naziv sure \"kehf\" znači \"pećina\" i sura je tako nazvana jer je u njoj priča o stanovnicima pećine."
+    },
+    
+    {
+        "name":"label-surah18-note",
+        "value":"Nekoliko priča je spomenuto u ovoj suri, tri od njih su detaljnije od drugih. Priča o stanovnicima pećine, priča o susretu Muse a.s. sa jednim od Allahovih robova(Khidr a.s.) i priča o Zul Karnejnu. Hadis koji se prenosi od Muhammeda a.s. govori da je sedamdeset hiljada meleka pratilo objavljivanje sure El-Kehf. Ko prouči ovu suru petkom Allah će mu oprostiti grijehe do slijedećeg petka i biće siguran od Dajjala."
     },
 
     {
@@ -4987,6 +5141,15 @@
         "value":"da bi ih Allah lijepom nagradom za djela njihova nagradio i da bi im od dobrote Svoje i više dao. A Allah daje kome hoće, bez računa."
     },
     {
+        "name":"label-surah31-description",
+        "value":"Ova sura je mekkanska i nalazi se u 21 džuzu. Sura se naziva \"Lukman\" po poslaniku Lukmanu a.s. i njegovim savjetima svome sinu."
+    },
+    
+    {
+        "name":"label-surah31-note",
+        "value":"Ova sura spominje život poslanika Lukmana a.s., njegov moral i njegovu mudrost. Pored toga u suri se upućuje na tevhid, osobine ljudi koji čine dobro, osobine despota i onih koji odbacuju istinu i opis Sudnje ga dana. Ko proči suru Lukman, taj će sa njim biti prijatelj na sudnjem danu."
+    },
+    {
         "name":"label-surah31-ayah1",
         "value":"Elif Lam Mim."
     },
@@ -5123,6 +5286,15 @@
         "value":"Samo Allah zna kad će Smak svijeta nastupiti, samo On spušta kišu i samo On zna šta je u matericama, a čovjek ne zna šta će sutra zaraditi i ne zna čovjek u kojoj će zemlji umrijeti; Allah, uistinu, sve zna i o svemu je obaviješten."
     },
     {
+        "name":"label-surah32-description",
+        "value":"Ovo je mekkanska sura koja se nalazu u 21 džuzu. Naziv nosi po obaveznoj sedždi nakon što se prouči ili čuje 15 ajet."
+    },
+    
+    {
+        "name":"label-surah32-note",
+        "value":"Teme ove sure su oživljenje na Sudnjem danu, stvaranje svega što postoji u šest vremenskih perioda i stvaranje čovjeka od zemlje. U ovoj suri Allah dž.š. upozorava bolnom kazanom za one koji ne vjeruju u oživljenje na Sudnjem danu i donosi dobre vijesti onima što vjeruju da će za svoje verovanje doboti nagradu koju nijeedan insan ne može zamisliti"
+    },
+    {
         "name":"label-surah32-ayah1",
         "value":"Elif Lam Mim."
     },
@@ -5245,6 +5417,15 @@
     {
         "name":"label-surah33-ayah35",
         "value":"Muslimanima i muslimankama, i vjernicima i vjernicama, i poslušnim muškarcima i poslušnim ženama, i iskrenim muškarcima i iskrenim ženama, i strpljivim muškarcima i strpljivim ženama, i poniznim muškarcima i poniznim ženama, i muškarcima koji dijele zekat i ženama koje dijele zekat i muškarcima koji poste i ženama koje poste, i muškarcima koji o svojim stidnim mjestima vode brigu i ženama koje o svojim stidnim mjestima vode brigu, i muškarcima koji često spominju Allaha i ženama koje često spominju Allaha - Allah je, doista, za sve njih oprost i veliku nagradu pripremio."
+    },
+    {
+        "name":"label-surah36-description",
+        "value":"Ovo je mekkanska sura koja se nalazu u 22 džuzu. Naziv nosi po početnim harfovima \"Ya\" i \"Sin\"."
+    },
+    
+    {
+        "name":"label-surah36-note",
+        "value":"Prema hadisima sura Jasin \"Srce Kur'ana\". Nagrade za učenje sure Jasin su mnogobrojne. Učenje ove sure se preporučuje dnevno."
     },
     {
         "name":"label-surah36-ayah1",
@@ -5609,6 +5790,15 @@
     {
         "name":"label-surah59-ayah24",
         "value":"On je Allah, Tvorac, Onaj koji iz ničega stvara, Onaj koji svemu daje oblik, On ima najljepša imena. Njega hvale oni na nebesima i na Zemlji, On je Silni i Mudri."
+    },
+    {
+        "name":"label-surah67-description",
+        "value":"Ovo je mekkanska sura koja se nalazu u 29 džuzu. Sura se zove \"El-Mulk\" i \"Tebarek\" zato što se ove dvije riječi spominju u prvom ajetu sure."
+    },
+    
+    {
+        "name":"label-surah67-note",
+        "value":"Glavna tema sure El-Mulk je Allahova vlast nad cijelim svemirom u upozorenje o oživljenju ba sudnjem danu. Proporučuje se učenje ove sure svaku večer i da je nagrada za to jednaka ibadetu cijelu Lejlet ul Qadr."
     },
     {
         "name":"label-surah67-ayah1",

@@ -54,14 +54,14 @@ export const CompanionsPage: React.FC = () => {
                 <h3>
                 {translationService.getLabel('label-book3-lesson4-title')}
                 </h3>
-                <p>
+                <h2 className="lesson-note">
                 {translationService.getLabel('label-book3-lesson4-title-description')}
 
-                </p>
+                </h2>
               </IonText>
             </IonItem>
             <IonItem lines="none" color="burgundy" routerLink={`/ChosenCompanionsPage`} key="2">
-              <IonText>
+              <IonText className="ion-text-center">
                 <h2>
                 {translationService.getLabel('label-book3-lesson5-title')}
                 </h2>
@@ -72,7 +72,7 @@ export const CompanionsPage: React.FC = () => {
               </IonText>
             </IonItem>
             <IonItem lines="none" color="dark-brown" routerLink={`/WomensPage`} key="3">
-              <IonText>
+              <IonText className="ion-text-center">
                 <h2>
                 {translationService.getLabel('label-book3-lesson6-title')}
                 </h2>

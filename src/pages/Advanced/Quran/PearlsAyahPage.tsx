@@ -25,7 +25,7 @@ import { translationService } from "../../../services/TranslationService";
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="dark-brown" defaultHref="/ChosenVerses" />
+              <IonBackButton color="purple" defaultHref="/ChosenVerses" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -44,8 +44,8 @@ import { translationService } from "../../../services/TranslationService";
               </IonCardSubtitle>
             </IonCardContent>
           </IonCard>
-          <div className="grid">
-          <div className="grid-full">
+          <div style={{marginLeft:"10px",marginRight:"10px"}}>
+          
             <IonRow>
               <IonCol size="4">
                 <SurahListItem surahId="2" surahName="El-Bekare" firstAyahId="1" lastAyahId="5" surahColor="razimic"/>
@@ -65,7 +65,7 @@ import { translationService } from "../../../services/TranslationService";
               <SurahListItem surahId="4" surahName="En-Nisa" firstAyahId="36" lastAyahId="41" surahColor="purple"/>
               </IonCol>
               <IonCol size="4">
-              <SurahListItem surahId="11" surahName="Jusuf" firstAyahId="9" lastAyahId="11" surahColor="burgundy"/>
+              <SurahListItem surahId="11" surahName="Hud" firstAyahId="9" lastAyahId="11" surahColor="burgundy"/>
               </IonCol>
             </IonRow>
             <IonRow>
@@ -90,7 +90,7 @@ import { translationService } from "../../../services/TranslationService";
               <SurahListItem surahId="49" surahName="El-Hugurat" firstAyahId="12" lastAyahId="13" surahColor="burgundy"/>
               </IonCol>
             </IonRow>
-            </div>
+            
           </div>
         </IonContent>
       </IonPage>

@@ -32,11 +32,12 @@ export const VoluntaryPrayersPage: React.FC = () => {
             <IonRow>
               <IonCol size="6">
                 <IonButton
-                  color={current === 1 ? "dark-brown" : "brown"}
+                  color={current === 1 ? "button" : "brown"}
                   expand="block"
                   onClick={() => setCurrent(1)}
+                  className="no-shadow"
                 >
-                  <IonText color="light" className="ion-text-center">
+                  <IonText color={current===1?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                     {translationService.getLabel(
                       "label-header-communal-prayer"
                     )}
@@ -45,11 +46,12 @@ export const VoluntaryPrayersPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonButton
-                  color={current === 2 ? "dark-brown" : "brown"}
+                  color={current === 2 ? "button" : "brown"}
                   expand="block"
                   onClick={() => setCurrent(2)}
+                  className="no-shadow"
                 >
-                  <IonText color="light" className="ion-text-center">
+                  <IonText color={current===2?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                     {translationService.getLabel(
                       "label-header-individual-prayer"
                     )}

@@ -86,6 +86,7 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
 
     const ayahListItems = ayah.map((ayah) => (
       <IonItem
+        hidden={showArabic === false && showTranslation === false && showTransliteration === false}
         key={ayah.id}
         detail={false}
         color="light"

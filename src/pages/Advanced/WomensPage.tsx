@@ -1,40 +1,38 @@
 import {
-    IonBackButton,
-    IonButtons,
-    IonCard,
-    IonCardContent,
-    IonCardSubtitle,
-    IonCardTitle,
-    IonChip,
-    IonCol,
-    IonContent,
-    IonGrid,
-    IonHeader,
-    IonItem,
-    IonNote,
-    IonPage,
-    IonRow,
-    IonSlide,
-    IonSlides,
-    IonToolbar,
-  } from "@ionic/react";
-  import React from "react";
+  IonBackButton,
+  IonButtons,
+  IonCard,
+  IonCardContent,
+  IonCardSubtitle,
+  IonCardTitle,
+  IonChip,
+  IonCol,
+  IonContent,
+  IonGrid,
+  IonHeader,
+  IonItem,
+  IonNote,
+  IonPage,
+  IonRow,
+  IonSlide,
+  IonSlides,
+  IonToolbar,
+} from "@ionic/react";
+import React from "react";
 import { Progress } from "../../components/common/Progress";
 import { translationService } from "../../services/TranslationService";
-  
-  export const WomensPage: React.FC = () => {
-    
-        
-    return (
-      <IonPage>
-        <IonHeader className="ion-no-border">
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton color="dark-brown" defaultHref="/CompanionsPage"/>
-            </IonButtons>
-          </IonToolbar>
-        </IonHeader>
-        <IonContent className="bg-image-standard" fullscreen>
+
+export const WomensPage: React.FC = () => {
+  return (
+    <IonPage>
+      <IonHeader className="ion-no-border">
+        <IonToolbar>
+          <IonButtons slot="start">
+            <IonBackButton color="dark-brown" defaultHref="/CompanionsPage" />
+          </IonButtons>
+        </IonToolbar>
+      </IonHeader>
+      <IonContent className="bg-image-standard" fullscreen>
         <IonCard
           className="lesson-header ion-padding ion-text-center"
           color="dark-brown"
@@ -58,9 +56,9 @@ import { translationService } from "../../services/TranslationService";
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-        <IonSlides>
+          <IonSlides>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -71,7 +69,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={1} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={1}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -88,7 +90,7 @@ import { translationService } from "../../services/TranslationService";
               </IonItem>
             </IonSlide>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -99,7 +101,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={2} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={2}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -116,7 +122,7 @@ import { translationService } from "../../services/TranslationService";
               </IonItem>
             </IonSlide>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -127,7 +133,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={3} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={3}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -144,7 +154,7 @@ import { translationService } from "../../services/TranslationService";
               </IonItem>
             </IonSlide>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -155,7 +165,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={4} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={4}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -172,7 +186,7 @@ import { translationService } from "../../services/TranslationService";
               </IonItem>
             </IonSlide>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -183,7 +197,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={5} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={5}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -200,7 +218,7 @@ import { translationService } from "../../services/TranslationService";
               </IonItem>
             </IonSlide>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -211,7 +229,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={6} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={6}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -228,7 +250,7 @@ import { translationService } from "../../services/TranslationService";
               </IonItem>
             </IonSlide>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -239,7 +261,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={7} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={7}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -256,7 +282,7 @@ import { translationService } from "../../services/TranslationService";
               </IonItem>
             </IonSlide>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -267,7 +293,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={8} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={8}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -284,7 +314,7 @@ import { translationService } from "../../services/TranslationService";
               </IonItem>
             </IonSlide>
             <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} color="light" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -295,7 +325,11 @@ import { translationService } from "../../services/TranslationService";
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress currentValue={9} maxValue={9} color="dark-brown" />
+                      <Progress
+                        currentValue={9}
+                        maxValue={9}
+                        color="dark-brown"
+                      />
                     </IonCol>
                   </IonRow>
 
@@ -311,11 +345,9 @@ import { translationService } from "../../services/TranslationService";
                 </IonGrid>
               </IonItem>
             </IonSlide>
-        </IonSlides>
+          </IonSlides>
         </div>
-        
-        </IonContent>
-      </IonPage>
-    );
-  };
-  
+      </IonContent>
+    </IonPage>
+  );
+};

@@ -14,12 +14,16 @@ export const AyahPage: React.FC<RouteComponentProps<{ surahId: string,firstAyahI
     const [surah,setSurah]=useState<Surah>();
     const[fontSize,setFontSize]=useState(14);
     const [ayahs,setAyahs]=useState<Ayah[]>([]);
+    const[translator,setTranslator]=useState("");
+    const[showArabic,setShowArabic]=useState(true);
+    const[showTranslation,setShowTranslation]=useState(true);
+    const[showTransliteration,setShowTransliteration]=useState(true);
             
     const loadSurah =()=>{
         setSurah(dataService.getSurahById(+(match.params.surahId)));
         console.log(match.params.surahId)               
         setAyahs(plainToClass(Ayah,dataService.getAyah(+(match.params.surahId),+(match.params.firstAyahId),+(match.params.lastAyahId))));
-        
+        setTranslator(translationService.getLabel('label-translator'));
      };
 
      
@@ -80,7 +84,7 @@ export const AyahPage: React.FC<RouteComponentProps<{ surahId: string,firstAyahI
   
 
     const ayahListItems = ayahs.map((ayah) => (
-      <IonItem
+      <IonItem hidden={showArabic === false && showTranslation === false && showTransliteration === false}
         key={ayah.id}
         detail={false}
         color="light"
@@ -88,38 +92,38 @@ export const AyahPage: React.FC<RouteComponentProps<{ surahId: string,firstAyahI
         style={{ marginLeft: "15px", marginRight: "15px" }}
       >
         <IonGrid>
-          <IonRow className="ayah">
+          <IonRow hidden={showArabic === false}>
             <IonCol size="12">
-              <h3 style={{fontSize:fontSize+8}} className="arabic-ayah ion-text-right ion-no-padding">
+              <h3 style={{fontSize:fontSize+20}} className="arabic-ayah ion-text-right ion-no-padding">
                 {ayah.arabic + getArabicAyahNumber(ayah.id)}
               </h3>
             </IonCol>
           </IonRow>
-          <IonRow className="ayah">
+          <IonRow hidden={showTransliteration === false}>
             <IonCol size="12">
               <h3 style={{fontSize:fontSize}} className="translation">{ayah.transliteration}</h3>
             </IonCol>
           </IonRow>
-          <IonRow  className="ayah" >
+          <IonRow  hidden={showTranslation === false}>
             <IonCol size="12" >
               <h3 style={{fontSize:fontSize}} className="translation">{translationService.getLabel(`label-surah${surah?.id}-ayah${ayah.id}`)}</h3>
             </IonCol>
           </IonRow>
-          <IonRow>
+          <IonRow className={`border-top-${surah?.color}`}>
             <IonCol size="2">
-              <h4 style={{fontSize:"12px"}} color={surah?.color}>
+              <h4 className={`ayah-details-${surah?.color}`}>
                 {ayah.surahId}:{ayah.id}
               </h4>
             </IonCol>
             <IonCol size="8" className="text-centered" >
-              <h4 className="ion-text-center" style={{fontSize:"12px"}} color={surah?.color}>
-                Prevod:Besim Korkut
+              <h4 className={`ayah-details-${surah?.color} ion-text-center`} color={surah?.color} >
+                {translator}
               </h4>
             </IonCol>
             <IonCol size="2">
               
-                <IonButton class="no-shadow" onClick={() => {playAyah(ayah.id)}} fill="solid" color="light">
-              <IonIcon  slot="icon-only" icon={caretForwardCircleOutline} color={surah?.color}/>
+                <IonButton className="no-shadow" onClick={() => {playAyah(ayah.id)}} fill="solid" color="light">
+              <IonIcon slot="icon-only" icon={caretForwardCircleOutline} color={surah?.color}/>
               </IonButton>
             
               
@@ -128,19 +132,57 @@ export const AyahPage: React.FC<RouteComponentProps<{ surahId: string,firstAyahI
         </IonGrid>
       </IonItem>
     ));
-
     return (
       <IonPage>
         <IonHeader className="ion-no-border standard">
           <IonToolbar className="prayer">
             <IonButtons slot="start">
-              <IonBackButton color={surah?.color} defaultHref="/PearlsAyahPage" />
+              <IonBackButton color={surah?.color}/>
             </IonButtons>
           </IonToolbar>
           
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
-        
+        <IonGrid>
+            <IonRow >
+              <IonCol size="4">
+                <IonButton
+                  color={showArabic?surah?.color:"button"}
+                  expand="block"
+                  onClick={() => {setShowArabic(showArabic=>!showArabic)}}
+                  className="no-shadow"
+                >
+                  <IonLabel color={showArabic?"light":surah?.color} className="ion-text-center">
+                    {translationService.getLabel('label-header-arabic')}
+                  </IonLabel>
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonButton
+                  color={showTranslation?surah?.color:"button"}
+                  className="no-shadow"
+                  expand="block"
+                  onClick={() => {setShowTranslation(showTranslation=>!showTranslation)}}
+                >
+                  <IonLabel color={showTranslation?"light":surah?.color} className="ion-text-center">
+                  {translationService.getLabel('label-header-translation')}
+                  </IonLabel>
+                </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonButton
+                  color={showTransliteration?surah?.color:"button"}
+                  className="no-shadow"
+                  expand="block"
+                  onClick={() => {setShowTransliteration(showTransliteration=>!showTransliteration)}}
+                >
+                  <IonLabel color={showTransliteration?"light":surah?.color} className="ion-text-center">
+                  {translationService.getLabel('label-header-transcription')}
+                  </IonLabel>
+                </IonButton>
+              </IonCol>
+            </IonRow>
+          </IonGrid>
           <IonCard color={surah?.color} className="surah">
             <div className="overlay">
               <img className="mask" src="./assets/images/quran-page.jpg" />

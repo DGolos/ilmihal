@@ -17,13 +17,6 @@ class TranslationService{
 
     
     async load(){
-        this.currentLocale=await storageService.get("languageData");
-        
-        if(this.currentLocale===null){
-            storageService.set("languageData","ba");
-           
-        }
-
         const body=await fetch("assets/data/ba.json").then(response=>response.json());
         this.labels = JSON.parse(JSON.stringify(body));
         this.loaded=true;

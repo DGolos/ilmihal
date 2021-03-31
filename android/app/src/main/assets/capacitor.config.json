@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "Ilmihal",
+  "appId": "no.izbih.iMekteb",
+  "appName": "iMekteb",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",

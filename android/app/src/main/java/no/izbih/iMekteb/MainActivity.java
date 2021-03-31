@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package no.izbih.iMekteb;
 
 import android.os.Bundle;
 

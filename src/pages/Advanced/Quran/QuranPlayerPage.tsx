@@ -16,7 +16,7 @@ import {
   IonRow,
   IonText,
   IonToolbar,
-  useIonViewWillEnter
+  useIonViewWillEnter,
 } from "@ionic/react";
 import React, { useEffect, useRef, useState } from "react";
 import { pause, play } from "ionicons/icons";
@@ -34,7 +34,7 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
   const playerRef = useRef(new Howl({ src: [""] }));
   const [elapsedTime, setElapsedTime] = useState(0);
   const [progress, setProgress] = useState(0);
-  
+
   const loadSurah = function () {
     setCurrentSurah(dataService.getSurahById(+match.params.id));
   };
@@ -43,11 +43,9 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
     loadSurah();
   });
 
-  
   useEffect(() => {
     const timer = setInterval(() => {
-      
-      if(playerRef.current.state()==='loaded'){
+      if (playerRef.current.state() === "loaded") {
         setElapsedTime((elapsedTime) => elapsedTime + 1);
         setProgress(
           (+playerRef.current.seek() / playerRef.current.duration()) * 100
@@ -66,11 +64,9 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
       const onEnd = () => {
         setIsPlaying(false);
         playerRef.current.unload();
-        
       };
 
       const onLoad = () => {
-        
         setIsLoaded(true);
       };
 
@@ -90,21 +86,20 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
       setElapsedTime(0);
       playerRef.current.play();
       setIsPlaying(true);
-      
     }
   };
 
   const formatTime = (duration: number): string => {
     let hours = Math.floor(duration / 3600);
-    let minutes = Math.floor((duration/60) % 60);
-    let seconds = Math.floor(duration-(hours*3600+minutes*60));
-    
+    let minutes = Math.floor((duration / 60) % 60);
+    let seconds = Math.floor(duration - (hours * 3600 + minutes * 60));
+
     let ret = "";
 
     if (hours > 0) {
       ret += "" + hours + ":" + (minutes < 10 ? "0" : "");
     }
-    
+
     ret += "" + minutes + ":" + (seconds < 10 ? "0" : "");
     ret += "" + seconds;
 
@@ -137,16 +132,18 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
             </h6>
           </div>
         </IonCard>
-        <div className="ion-padding">
-          <IonItem color="light">
-            <IonText style={{ fontSize: "12px" }}>
-            <IonChip color="burgundy">Info</IonChip>
+        <div
+          style={{ marginLeft: "15px", marginRight: "15px", marginTop: "-3px" }}
+        >
+          <IonItem color="light" lines="none">
+            <IonText style={{ fontSize: "14px" }}>
+              <IonChip color="burgundy">Info</IonChip>
               <p>
                 {translationService.getLabel(
                   `label-surah${currentSurah?.id}-description`
                 )}
               </p>
-              
+
               <p>
                 {translationService.getLabel(
                   `label-surah${currentSurah?.id}-note`
@@ -154,7 +151,18 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
               </p>
             </IonText>
           </IonItem>
-          
+        </div>
+        <div
+          style={{ marginLeft: "15px", marginRight: "15px", marginTop: "-4px" }}
+        >
+          <IonItem className="reciter">
+            <IonAvatar>
+              <img src="./assets/images/Mishary.jpg" />
+            </IonAvatar>
+            <IonText className="ion-padding-start">
+            <h4>Mishary Al Alfasy</h4>
+            </IonText>
+          </IonItem>
         </div>
       </IonContent>
       <IonFooter className="ion-no-border">

@@ -5,6 +5,7 @@ import {
   IonCardContent,
   IonCardSubtitle,
   IonCardTitle,
+  IonChip,
   IonCol,
   IonContent,
   IonGrid,
@@ -15,10 +16,10 @@ import {
   IonSlide,
   IonSlides,
   IonText,
-  IonToolbar
+  IonToolbar,
 } from "@ionic/react";
 import React from "react";
-
+import { Progress } from "../../../components/common/Progress";
 
 interface NamesCardProps {
   arabic: string;
@@ -32,17 +33,15 @@ const NamesCard: React.FC<NamesCardProps> = ({
   translation,
 }) => {
   return (
-    <IonCard
-      className="ion-text-center"
-      color="light"
-      style={{ marginRight: "0px" }}
-    >
-      <h3 style={{ fontSize: 24 }} className="arabic-ayah ion-no-padding">
-        {arabic}{" "}
-      </h3>
-      <h6 style={{ fontStyle: "italic" }}>{transcription}</h6>
-      <p className="quote-reference">{translation}</p>
-    </IonCard>
+    <IonItem color="light" lines="none">
+      <IonText className="ion-text-center">
+        <h3 style={{ fontSize: 24 }} className="arabic-ayah ion-no-padding">
+          {arabic}{" "}
+        </h3>
+        <h6 style={{ fontStyle: "italic" }}>{transcription}</h6>
+        <p style={{ fontSize: "12px" }}>{translation}</p>
+      </IonText>
+    </IonItem>
   );
 };
 export const BeautifulNamesPage: React.FC = () => {
@@ -70,184 +69,180 @@ export const BeautifulNamesPage: React.FC = () => {
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>
-        <div className="ion-padding">
-          <IonItem className="lesson-note" lines="none">
-            <IonText>
-              <h2 className="lesson-note">
-                Vjerodostoji hadisi prenose da svako ko nauči Allahovih 99 imena
-                ima osigurano mjesto u džennetu.
-              </h2>
-            </IonText>
-          </IonItem>
-        </div>
+
         <div>
-          <IonSlides>
+          <IonSlides className="ion-padding">
             <IonSlide>
-              <div>
-                <img style={{ height: 330 }} src="/assets/images/Allah-razimic.svg" />
-              </div>
+              <img
+                style={{ height: 230 }}
+                src="/assets/images/Allah-razimic.svg"
+              />
             </IonSlide>
             <IonSlide>
+              <div>
+              <IonItem detail={false} color="light" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="razimic" style={{ marginLeft: "0px" }}>
+                        Esma ul Husna
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress
+                        currentValue={1}
+                        maxValue={13}
+                        color="razimic"
+                      />
+                    </IonCol>
+                  </IonRow>
+                  </IonGrid>
+              </IonItem>
+              </div>
+              <div>
               <IonGrid>
-                <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                    <NamesCard
-                      arabic="ٱلرَّحْمَٰنُ"
-                      transcription="Er-Rahman"
-                      translation="Sveopći Dobročinitelj"
-                    />
-                  </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                    <NamesCard
-                      arabic="ٱلرَّحِيمُ"
-                      transcription="Er-Rahim"
-                      translation="Svemilostivi"
-                    />
-                    
-                  </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                    <NamesCard
-                      arabic="ٱلْمَلِكُ"
-                      transcription="El-Melik"
-                      translation="Vladar, Suvereni"
-                    />
-                    
-                  </IonCol>
-                </IonRow>
-                <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                    <NamesCard
-                      arabic="لْقُدُّوسُ"
-                      transcription="El-Kuddus"
-                      translation="Sveti, Najčistiji"
-                    />
-                    
-                  </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
-                      arabic="ٱلسَّلَٰمُ"
-                      transcription="Es-Selam"
-                      translation="Onaj koji daj mir"
-                    />
-                    
-                  </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
-                      arabic="ٱلْمُؤْمِنُ"
-                      transcription="El-Mu'min"
-                      translation="Pouzdani"
-                    />
-                          
-                  </IonCol>
-                </IonRow>
-                <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
-                      arabic="ٱلْمُهَيْمِنُ"
-                      transcription="El-Muhejmin"
-                      translation="Zaštitnik"
-                    />
-                    
-                  </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
-                      arabic="ٱلْعَزِيزُ"
-                      transcription="El-Aziz"
-                      translation="Onaj koji sve pazi i prati"
-                    />
-                    
-                  </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
-                      arabic="ٱلْجَبَّارُ"
-                      transcription="El-Džebbar"
-                      translation="Silni"
-                    />
-                    
-                  </IonCol>
-                </IonRow>
-              </IonGrid>
+                  <IonRow>
+                    <IonCol size="6">
+                      <NamesCard
+                        arabic="ٱلرَّحْمَٰنُ"
+                        transcription="Er-Rahman"
+                        translation="Sveopći Dobročinitelj"
+                      />
+                    </IonCol>
+                    <IonCol size="6">
+                      <NamesCard
+                        arabic="ٱلرَّحِيمُ"
+                        transcription="Er-Rahim"
+                        translation="Svemilostivi"
+                      />
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="6">
+                      <NamesCard
+                        arabic="ٱلْمَلِكُ"
+                        transcription="El-Melik"
+                        translation="Vladar, Suvereni"
+                      />
+                    </IonCol>
+                    <IonCol size="6">
+                      <NamesCard
+                        arabic="لْقُدُّوسُ"
+                        transcription="El-Kuddus"
+                        translation="Sveti, Najčistiji"
+                      />
+                    </IonCol>
+                  </IonRow>
+
+                  <IonRow>
+                    <IonCol size="6">
+                      <NamesCard
+                        arabic="ٱلسَّلَٰمُ"
+                        transcription="Es-Selam"
+                        translation="Onaj koji daj mir"
+                      />
+                    </IonCol>
+
+                    <IonCol size="6">
+                      <NamesCard
+                        arabic="ٱلْمُؤْمِنُ"
+                        transcription="El-Mu'min"
+                        translation="Pouzdani"
+                      />
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
+                    <IonCol size="6">
+                      <NamesCard
+                        arabic="ٱلْمُهَيْمِنُ"
+                        transcription="El-Muhejmin"
+                        translation="Zaštitnik"
+                      />
+                    </IonCol>
+                    <IonCol size="6">
+                      <NamesCard
+                        arabic="ٱلْعَزِيزُ"
+                        transcription="El-Aziz"
+                        translation="Onaj koji sve pazi i prati"
+                      />
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+              </div>
+              
+             
             </IonSlide>
 
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْمُتَكَبِّرُ"
                       transcription="El-Mutekebbir"
                       translation="Gordi"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْخَالِقُ"
                       transcription="El-Halik"
                       translation="Stvoritelj"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْبَارِئُ"
                       transcription="El-Bari'"
                       translation="Onaj koji divno stvara"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْمُصَوِّرُ"
                       transcription="El-Musavvir"
                       translation="Oblikovatelj"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْغَفَّارُ"
                       transcription="El-Gaffar"
                       translation="Svepraštajući"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْقَهَّارُ"
                       transcription="El-Kahhar"
                       translation="Onaj koji nadvladava"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْوَهَّابُ"
                       transcription="El-Vehhab"
                       translation="Milostivi darivatelj"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْرَّزَّاقُ"
                       transcription="Er-Rezzak"
                       translation="Obskrbitelj"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْفَتَّاحُ"
                       transcription="El-Fettah"
                       translation="Onaj koji sve otvara"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -256,81 +251,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْعَلِيمُ"
                       transcription="El-Alim"
                       translation="Sveznajući"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْقَابِضُ"
                       transcription="El-Kabid"
                       translation="Onaj koji steže i stišće"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْبَاسِطُ"
                       transcription="El-Basit"
                       translation="Onaj koji pruža"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْخَافِضُ"
                       transcription="El-Hafid"
                       translation="Onaj koji spušta"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْرَّافِعُ"
                       transcription="Er-Rafi’"
                       translation="Onaj koji uzdiže"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُعِزُّ"
                       transcription="El-Mu’izz"
                       translation="Onaj koji uzvisuje"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُذِلُّ"
                       transcription="El-Muzill"
                       translation="Onaj koji ponižava"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْسَّمِيعُ"
                       transcription="Es-Semi’"
                       translation="Svečujni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْبَصِيرُ"
                       transcription="El-Besir"
                       translation="Svevideći"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -339,81 +326,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْحَكَمُ"
                       transcription="El-Hakem"
                       translation="Sudac"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْعَدْلُ"
                       transcription="El-‘Adl"
                       translation="Pravedni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْلَّطِيفُ"
                       transcription="El-Latif "
                       translation="Dobri"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْخَبِيرُ"
                       transcription="El-Habir"
                       translation="O svemu obaviješteni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْحَلِيمُ"
                       transcription="El-Halim"
                       translation="Blagi, Srdačni"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْعَظِيمُ"
                       transcription="El-Azim"
                       translation="Veliki, Neizmjerljivi"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْغَفُورُ"
                       transcription="El-Gafur"
                       translation="Svepraštajući"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْشَّكُورُ"
                       transcription="Eš-Šekur"
                       translation="Zahvalni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْعَلِيُّ"
                       transcription="El-‘Alijj"
                       translation="Uzvišeni"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -421,81 +400,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْكَبِيرُ"
                       transcription="El-Kebir"
                       translation="Beskrajno veliki"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْحَفِيظُ"
                       transcription="El-Hafiz"
                       translation="Onaj koji čuva"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْمُقِيتُ"
                       transcription="El-Mukit"
                       translation="Onaj koji pazi i uzdržava"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْحَسِيبُ"
                       transcription="El-Hasib"
                       translation="Onaj koji obračun svodi"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْجَلِيلُ"
                       transcription="El-Dželil"
                       translation="Veličanstveni"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْكَرِيمُ"
                       transcription="El-Kerim"
                       translation="Plemeniti"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْرَّقِيبُ"
                       transcription="Er-Rekib"
                       translation="Budni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُجِيبُ"
                       transcription="El-Mudžib"
                       translation="Onaj koji uslišava molbe"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْوَاسِعُ"
                       transcription="El-Vasi’"
                       translation="Onaj koji sve obuhvata"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -503,81 +474,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْحَكِيمُ"
                       transcription="El-Hakim"
                       translation="Mudri"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْوَدُودُ"
                       transcription="El-Vedud"
                       translation="Onaj koji voli"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْمَجِيدُ"
                       transcription="El-Medžid"
                       translation="Slavljeni, Najslavniji"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْبَاعِثُ"
                       transcription="El-Ba’is"
                       translation="Onaj koji podiže iz mrtvih"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْشَّهِيدُ"
                       transcription="Eš-Šahid"
                       translation="Svjedok svemu"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْحَقُّ"
                       transcription="El-Hakk"
                       translation="Svjedok svemu"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْوَكِيلُ"
                       transcription="El-Vekil"
                       translation="Sveopći Skrbnik"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْقَوِيُّ"
                       transcription="El-Kavijj"
                       translation="Moćni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمَتِينُ"
                       transcription="El-Metin"
                       translation="Čvrsti, Postojani"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -586,81 +549,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْوَلِيُّ"
                       transcription="El-Velijj"
                       translation="Zaštitnik"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْحَمِيدُ"
                       transcription="El-Hamid"
                       translation="Hvaljeni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْمُحْصِيُ"
                       transcription="El-Muhsi"
                       translation="Onaj koji sve obuhvata"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْمُبْدِئُ"
                       transcription="El-Mubdi"
                       translation="Početni Stvaralac"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُعِيدُ"
                       transcription="El-Mu’id"
                       translation="Onaj koji daje novo postojanje"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُحْيِى"
                       transcription="El-Muhijj"
                       translation="Onaj koji život daje"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُمِيتُ"
                       transcription="El-Mumit"
                       translation="Onaj koji usmrćuje"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْحَىُّ"
                       transcription="El-Hajj"
                       translation="Živi"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْقَيُّومُ"
                       transcription="El-Kajjum"
                       translation="Onaj koji sve održava"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -669,81 +624,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْوَاجِدُ"
                       transcription="El-Vadžid"
                       translation="Bogati"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْمَاجِدُ"
                       transcription="El-Madžid"
                       translation="Slavni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْوَاحِدُ"
                       transcription="El-Vahid"
                       translation="Jedan"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْأَحَد"
                       transcription="El-Ahad"
                       translation="Jedini"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْصَّمَدُ"
                       transcription="Es-Samed"
                       translation="Onaj kome se svatko obraća"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْقَادِرُ"
                       transcription="El-Kadir"
                       translation="Svemoćni"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُقْتَدِرُ"
                       transcription="El-Muktedir"
                       translation="Onaj kome apsolutna moć pripada"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُقَدِّمُ"
                       transcription="El-Mukaddim"
                       translation="Onaj koji unapređuje"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُؤَخِّرُ"
                       transcription="El-Mu’ehhir"
                       translation="Onaj koji unazađuje"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -752,81 +699,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلأَوَّلُ"
                       transcription="El-Evvel"
                       translation="Prvi"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْآخِرُ"
                       transcription="El-Ahir"
                       translation="Posljednji"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْظَّاهِرُ"
                       transcription="El-Zahir"
                       translation="Vidljivi"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْبَاطِنُ"
                       transcription="El-Batin"
                       translation="Skriveni"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْوَالِي"
                       transcription="El-Vali"
                       translation="Čuvar"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُتَعَالِي"
                       transcription="El-Mute’ali"
                       translation="Najuzvišeniji"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْبَرُّ"
                       transcription="El-Berr"
                       translation="Dobročinitelj"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْتَّوَّابُ"
                       transcription="Et-Tevvab"
                       translation="Onaj koji prima pokajanje"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُنْتَقِمُ"
                       transcription="El-Muntekim"
                       translation="Osvetnik"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -835,81 +774,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْعَفُوُّ"
                       transcription="El-Afuvv"
                       translation="Onaj čiji je oprost neizmjerljiv"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْرَّؤُفُ"
                       transcription="Er-Re’uf "
                       translation="Samilosni, Sažaljivi"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="مَالِكُ ٱلْمُلْكُ"
                       transcription="Malik-ul-Mulk"
                       translation="Posjednik sve Vlasti"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ"
                       transcription="Zul-Dželali vel-Ikram"
                       translation="Posjednik svakog Visočanstva i Darežljivosti"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُقْسِطُ"
                       transcription="El-Muksit"
                       translation="Pravedni"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْجَامِعُ"
                       transcription="El-Džami’"
                       translation="Ujedinitelj"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْغَنيُّ"
                       transcription="El-Ganijj"
                       translation="Bogati"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمُغْنِيُّ"
                       transcription="El-Mugni"
                       translation="Onaj koji bogatstvo dodjeljuje"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْمَانِعُ"
                       transcription="El-Mani’"
                       translation="Onaj koji bogatstvo oduzima"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -918,81 +849,73 @@ export const BeautifulNamesPage: React.FC = () => {
             <IonSlide>
               <IonGrid>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْضَّارُ"
                       transcription="Ed-Darr"
                       translation="Onaj daje štetu i nevolju"
                     />
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْنَّافِعُ"
                       transcription="En-Nafi’"
                       translation="Onaj daje korist i dobro"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْنُّورُ"
                       transcription="En-Nur"
                       translation="Sveopće svjetlo"
                     />
-                    
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
+                  <IonCol size="4">
                     <NamesCard
                       arabic="ٱلْهَادِي"
                       transcription="El-Hadi"
                       translation="Onaj koji vodi i upućuje"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْبَدِيعُ"
                       transcription="El-Bedi’"
                       translation="Nedostižni, Neusporedivi"
                     />
-                    
                   </IonCol>
-                  
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْبَاقِي"
                       transcription="El-Baki"
                       translation="Vječni"
                     />
-                          
                   </IonCol>
                 </IonRow>
                 <IonRow>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْوَارِثُ"
                       transcription="El-Varis"
                       translation="Nasljednik svega"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْرَّشِيدُ"
                       transcription="Er-Rešid"
                       translation="Upućivatelj na dobro"
                     />
-                    
                   </IonCol>
-                  <IonCol size="4" className="ion-no-padding">
-                  <NamesCard
+                  <IonCol size="4">
+                    <NamesCard
                       arabic="ٱلْصَّبُورُ"
                       transcription="Es-Sabur"
                       translation="Strpljivi"
                     />
-                    
                   </IonCol>
                 </IonRow>
               </IonGrid>

@@ -14,12 +14,16 @@ ion-item.welcome{
    
   }
 
+  ion-item.recitatio{
+    border-radius: 20px 20px 0px 0px;
+  }
+
   ion-item.reciter{
     --background: rgba(255,255,255,.1);
-        padding: 0;
-        margin: 20px 0;
-        --border-radius: 14px;
-        color: #FFFFFF;
+    padding: 0;
+    margin: 20px 0;
+    --border-radius: 14px;
+    color: #FFFFFF;
         
   }
 
@@ -44,9 +48,8 @@ ion-item.welcome{
   }
 
   ion-item.dark-brown{
-    --background: rgba(123,0,0,.8);
+    --background: var(--ion-color-dark-brown)
   }
-
   ion-item.white{
     --background: #FFFF;
   }
@@ -69,6 +72,20 @@ ion-item.welcome{
    
   }
 
+  ion-item.transparent{
+    background-color: transparent;
+  }
+
   ion-list.transparent{
     background-color: transparent;
+  }
+
+  ion-list.white{
+    background-color: #FFF;
+    border-radius: 14px;
+  }
+
+  ion-list.razimic{
+    background-color: rgba(135,86,146,.8);
+    border-radius: 14px;
   }

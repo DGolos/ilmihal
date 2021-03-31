@@ -23,7 +23,7 @@ export const ChosenVersesPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light"/>
+            <IonBackButton color="light" defaultHref="/MainCategoryPage"/>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -54,15 +54,10 @@ export const ChosenVersesPage: React.FC = () => {
               className="welcome"
               color="burgundy"
             >
-              <IonAvatar className="white lesson">
-                <img
-                  src="/assets/images/ruby.svg"
-                  
-                />
-              </IonAvatar>
-              <IonText className="ion-padding-start" color="light">
-              <h4> {translationService.getLabel('label-ruby-header')}</h4>
-              <p> {translationService.getLabel('label-ruby-description')}</p>
+             
+              <IonText className="ion-text-center" color="light">
+              <h4 style={{fontSize:"22px",fontWeight:"bold"}}> {translationService.getLabel('label-ruby-header')}</h4>
+              <p style={{fontSize:"16px"}}> {translationService.getLabel('label-ruby-description')}</p>
               </IonText>
             </IonItem>
             <IonItem
@@ -73,15 +68,9 @@ export const ChosenVersesPage: React.FC = () => {
               className="welcome"
               color="purple"
             >
-              <IonAvatar className="white lesson">
-                <img
-                  src="/assets/images/pearls.svg"
-                  
-                />
-              </IonAvatar>
-              <IonText className="ion-padding-start" color="light">
-              <h4> {translationService.getLabel('label-pearls-header')}</h4>
-              <p> {translationService.getLabel('label-pearls-description')}</p>
+             <IonText className="ion-text-center" color="light">
+              <h4 style={{fontSize:"22px",fontWeight:"bold"}}> {translationService.getLabel('label-pearls-header')}</h4>
+              <p style={{fontSize:"16px"}}> {translationService.getLabel('label-pearls-description')}</p>
               </IonText>
             </IonItem>
             

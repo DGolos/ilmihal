@@ -179,7 +179,7 @@ const WudhuPage: React.FC = () => {
               <div>
                 <img
                   style={{ height: 230 }}
-                  src="/assets/images/WudhuMouth.png"
+                  src="/assets/images/WudhuNose.png"
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
@@ -352,7 +352,7 @@ const WudhuPage: React.FC = () => {
               <div>
                 <img
                   style={{ height: 230 }}
-                  src="/assets/images/Beginning.png"
+                  src="/assets/images/WudhuEars.png"
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem

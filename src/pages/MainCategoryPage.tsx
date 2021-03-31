@@ -23,21 +23,21 @@ const MainCategoryPage: React.FC = () => {
           <IonRow>
             <IonCol size="4">
               <IonButton className="no-shadow" color={current===1?"button":"brown"} expand="block" onClick={ () => setCurrent(1) }>
-                <IonLabel color={current===1?"burgundy":"light"} className="ion-text-center">
+                <IonLabel color={current===1?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                   {translationService.getLabel('label-header-quran')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
               <IonButton className="no-shadow" color={current===2?"button":"brown"} expand="block" onClick={ () => setCurrent(2) }>
-                <IonLabel color={current===2?"burgundy":"light"} className="ion-text-center">
+                <IonLabel color={current===2?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                 {translationService.getLabel('label-header-prayer')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
               <IonButton className="no-shadow" color={current===3?"button":"brown"} expand="block" onClick={ () => setCurrent(3) }>
-                <IonLabel color={current===3?"burgundy":"light"} className="ion-text-center">
+                <IonLabel color={current===3?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                 {translationService.getLabel('label-header-faith')}
                 </IonLabel>
               </IonButton>
@@ -47,21 +47,21 @@ const MainCategoryPage: React.FC = () => {
           <IonRow>
             <IonCol size="4">
               <IonButton className="no-shadow" color={current===4?"button":"brown"} expand="block" onClick={ () => setCurrent(4) }>
-                <IonLabel color={current===4?"burgundy":"light"} className="ion-text-center">
+                <IonLabel color={current===4?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                 {translationService.getLabel('label-header-dhikr')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
               <IonButton className="no-shadow" color={current===5?"button":"brown"} expand="block" onClick={ () => setCurrent(5) }>
-                <IonLabel color={current===5?"burgundy":"light"} className="ion-text-center">
+                <IonLabel color={current===5?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                 {translationService.getLabel('label-header-muhammad')}
                 </IonLabel>
               </IonButton>
             </IonCol>
             <IonCol size="4">
               <IonButton className="no-shadow" color={current===6?"button":"brown"} expand="block" onClick={ () => setCurrent(6) }>
-                <IonLabel color={current===6?"burgundy":"light"} className="ion-text-center">
+                <IonLabel color={current===6?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                 {translationService.getLabel('label-header-homeland')}
                 </IonLabel>
               </IonButton>
@@ -473,7 +473,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Osnove o davanju zekata
+                      Osnove o davanju zekata i sadake
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -510,7 +510,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Osnove o obavljanju hadžža
+                      Osnove o obavljanju hadžža i umre
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -805,7 +805,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Kratko o historiji islama
+                      Alimi koji su dali veliki doprinos islamu u Bosni
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -825,15 +825,17 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Domovina </h4>
+                        <h4 className="title">Naša</h4>
                       </span>
-                      
+                      <span>
+                        <h4 className="title">zemlja </h4>
+                      </span>
                       
                     </IonLabel>
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                    Kratko o historiji Bosne
+                    Kratko o našoj domovini Bosni i Hercegovini
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -848,7 +850,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/BosnianCulturePage`}
                   color="light"
                   class="category"
                 >
@@ -861,16 +863,16 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Poznati</h4>
+                        <h4 className="title">Kultura</h4>
                       </span>
                       <span>
-                        <h4 className="title">Bosnjaci</h4>
+                        <h4 className="title">Bošnjaka</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                    Kratko o znamenitim bošnjacima
+                    Kratko o vrijednostima bošnjačke kulture i tradicije
                     </h6>
                   </IonRow>
                 </IonCard>

@@ -44,8 +44,8 @@ import { translationService } from "../../../services/TranslationService";
               </IonCardSubtitle>
             </IonCardContent>
           </IonCard>
-          <div className="grid">
-            <div className="grid-full">
+          
+            <div style={{marginLeft:"10px",marginRight:"10px"}}>
             <IonRow>
               <IonCol size="4">
                 <SurahListItem surahId="2" surahName="El-Bekare" firstAyahId="30" lastAyahId="39" surahColor="razimic"/>
@@ -73,7 +73,7 @@ import { translationService } from "../../../services/TranslationService";
               <SurahListItem surahId="6" surahName="El-'Anam" firstAyahId="95" lastAyahId="104" surahColor="brown"/>
               </IonCol>
               <IonCol size="4">
-              <SurahListItem surahId="10" surahName="Hud" firstAyahId="104" lastAyahId="109" surahColor="razimic"/>
+              <SurahListItem surahId="10" surahName="Junus" firstAyahId="104" lastAyahId="109" surahColor="razimic"/>
               </IonCol>
               <IonCol size="4">
               <SurahListItem surahId="13" surahName="Er-R'ad" firstAyahId="8" lastAyahId="18" surahColor="purple"/>
@@ -81,7 +81,7 @@ import { translationService } from "../../../services/TranslationService";
             </IonRow>
             <IonRow>
               <IonCol size="4">
-              <SurahListItem surahId="24" surahName="En-Nur" firstAyahId="35" lastAyahId="37" surahColor="purple"/>
+              <SurahListItem surahId="24" surahName="En-Nur" firstAyahId="35" lastAyahId="38" surahColor="purple"/>
               </IonCol>
               <IonCol size="4">
               <SurahListItem surahId="57" surahName="El-Hadid" firstAyahId="1" lastAyahId="3" surahColor="purple"/>
@@ -90,7 +90,7 @@ import { translationService } from "../../../services/TranslationService";
               <SurahListItem surahId="59" surahName="El-Hašr" firstAyahId="22" lastAyahId="24" surahColor="brown"/>
               </IonCol>
             </IonRow>
-            </div>
+            
             
           </div>
         </IonContent>

@@ -116,6 +116,42 @@ export const QuranRecitationPage: React.FC = () => {
                             "label-book3-lesson8_section2-paragraph1"
                           )}
                         </h2>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson8_section2-paragraph2"
+                          )}
+                        </h2>
+                       
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+              </IonItem>
+              </IonSlide>
+              <IonSlide>
+              <IonItem detail={false} color="light" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
+                        {translationService.getLabel(
+                          "label-book3-lesson8_section3-header"
+                        )}
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress currentValue={3} maxValue={3} color="burgundy" />
+                    </IonCol>
+                  </IonRow>
+
+                  <IonRow>
+                    <IonCol size="12">
+                    <IonText>
+                      <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson8_section3-paragraph1"
+                          )}
+                        </h2>
                        
                       </IonText>
                     </IonCol>

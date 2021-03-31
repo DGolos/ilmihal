@@ -5,7 +5,7 @@
         "arabic":"الفاتحة",
         "numberOfAyah":7,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
     },
     {
@@ -42,12 +42,12 @@
         "arabic":"الأنعام",
         "numberOfAyah":165,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":false
     },
     {
         "id":10,
-        "name":"Hud",
+        "name":"Junus",
         "arabic":"هود",
         "numberOfAyah":123,
         "revelationCity":"Mekka",
@@ -56,7 +56,7 @@
     },
     {
         "id":11,
-        "name":"Jusuf",
+        "name":"Hud",
         "arabic":"يوسف",
         "numberOfAyah":111,
         "revelationCity":"Mekka",
@@ -78,7 +78,7 @@
         "arabic":"النحل",
         "numberOfAyah":128,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":false
     },
     {
@@ -132,7 +132,7 @@
         "arabic":"السجدة",
         "numberOfAyah":30,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
     },
     {
@@ -177,7 +177,7 @@
         "arabic":"الحشر",
         "numberOfAyah":24,
         "revelationCity":"Medina",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":false
     },
     {
@@ -195,7 +195,7 @@
         "arabic":"الضحى",
         "numberOfAyah":11,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
     },
     {
@@ -223,7 +223,7 @@
         "arabic":"العلق",
         "numberOfAyah":19,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
         
     },
@@ -253,7 +253,7 @@
         "arabic":"الزلزلة",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
         
     },
@@ -283,7 +283,7 @@
         "arabic":"التكاثر",
         "numberOfAyah":8,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
         
     },
@@ -313,7 +313,7 @@
         "arabic":"الفيل",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
         
     },
@@ -343,7 +343,7 @@
         "arabic":"الكوثر",
         "numberOfAyah":3,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
         
     },
@@ -373,7 +373,7 @@
         "arabic":"المسد",
         "numberOfAyah":5,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
         
     },
@@ -403,7 +403,7 @@
         "arabic":"الناس",
         "numberOfAyah":6,
         "revelationCity":"Mekka",
-        "color":"brown",
+        "color":"dark-brown",
         "visible":true
         
     }

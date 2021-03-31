@@ -94,6 +94,8 @@ import { NightPrayerPage } from './pages/Advanced/Prayer/NightPrayerPage';
 import { BosnianScholarsPage } from './pages/Advanced/Homeland/BosnianScholarsPage';
 import { BosniaPage } from './pages/Advanced/Homeland/BosniaPage';
 import { SirahPage } from './pages/Advanced/SirahPage';
+import { BosnianCulturePage } from './pages/Advanced/Homeland/BosnianCulturePage';
+import TasbihPage from './pages/BookOne/TasbihPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -145,6 +147,7 @@ const App: React.FC = () => {
           <Route path="/CaliphsPage" component={CaliphsPage} />
           <Route path="/ChosenCompanionsPage" component={ChosenCompanionsPage} />
           <Route path="/BosnianScholarsPage" component={BosnianScholarsPage} />
+          <Route path="/BosnianCulturePage" component={BosnianCulturePage} />
           <Route path="/BosniaPage" component={BosniaPage} />
           <Route path="/WomensPage" component={WomensPage} />
           <Route path="/BookOneMainPage" component={BookOneMainPage}/>
@@ -172,6 +175,7 @@ const App: React.FC = () => {
           <Route path="/IshaPrayerWatchPage/:type" component={IshaPrayerWatchPage}/>
           <Route path="/IshaPrayerPage" component={IshaPrayerPage}/>
           <Route path="/DhikrPage" component={DhikrPage}/>
+          <Route path="/TasbihPage" component={TasbihPage}/>
           <Route path="/BookTwoMainPage" component={BookTwoMainPage}/>
           <Route path="/EidPrayerPage" component={EidPrayerPage}/>
           <Route path="/FuneralPrayerPage" component={FuneralPrayerPage}/>

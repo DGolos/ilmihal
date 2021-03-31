@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Ilmihal</string>
-    <string name="title_activity_main">Ilmihal</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_name">iMekteb</string>
+    <string name="title_activity_main">iMekteb</string>
+    <string name="package_name">no.izbih.iMekteb</string>
+    <string name="custom_url_scheme">no.izbih.iMekteb</string>
 </resources>

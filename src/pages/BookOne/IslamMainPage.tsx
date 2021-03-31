@@ -1,4 +1,4 @@
-import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
+import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 import { translationService } from "../../services/TranslationService";
 
@@ -45,85 +45,60 @@ const IslamMainPage: React.FC = () => {
               routerLink={`/SegmentLessonPage/1/2`}
               lines="none"
               detail={false}
-              className="welcome"
+              className="welcome ion-text-center"
             >
-              <IonAvatar className="white lesson">
-                <img
-                  src="/assets/images/Shahadah.png"
-                  
-                />
-              </IonAvatar>
-              <IonText className="ion-padding-start" color="light">
-                <h3>{translationService.getLabel('label-shahadah')} </h3>
-              </IonText>
+              
+              <IonLabel color="light">
+                <h3 style={{fontSize:"24px"}}>{translationService.getLabel('label-shahadah')} </h3>
+              </IonLabel>
             </IonItem>
             <IonItem
               key="2"
               routerLink={`/PrayerDefinitionPage`}
               lines="none"
               detail={false}
-              className="welcome"
+              className="welcome ion-text-center"
             >
-              <IonAvatar className="white lesson">
-                <img
-                  src="/assets/images/Prayers.png"
-                 
-                />
-              </IonAvatar>
-              <IonText className="ion-padding-start" color="light">
-                <h3> {translationService.getLabel('label-prayer')}</h3>
-              </IonText>
+              
+              <IonLabel color="light">
+                <h3 style={{fontSize:"24px"}}> {translationService.getLabel('label-prayer')}</h3>
+              </IonLabel>
             </IonItem>
             <IonItem
               key="3"
               routerLink={`/StandardLessonPage/1/30`}
               lines="none"
               detail={false}
-              className="welcome"
+              className="welcome ion-text-center"
             >
-              <IonAvatar className="white lesson">
-                <img
-                  src="/assets/images/Fasting.png"
-                 
-                />
-              </IonAvatar>
-              <IonText className="ion-padding-start" color="light">
-                <h3> {translationService.getLabel('label-ramadhan')}</h3>
-              </IonText>
+              
+              <IonLabel color="light">
+                <h3 style={{fontSize:"24px"}}> {translationService.getLabel('label-ramadhan')}</h3>
+              </IonLabel>
             </IonItem>
             <IonItem
               key="4"
               routerLink={`/StandardLessonPage/1/31`}
               lines="none"
               detail={false}
-              className="welcome"
+              className="welcome ion-text-center"
             >
-              <IonAvatar className="white lesson">
-                <img
-                  src="/assets/images/Charity.png"
-                  
-                />
-              </IonAvatar>
-              <IonText className="ion-padding-start " color="light">
-                <h3> {translationService.getLabel('label-charity')}</h3>
-              </IonText>
+              
+              <IonLabel color="light">
+                <h3 style={{fontSize:"24px"}}> {translationService.getLabel('label-charity')}</h3>
+              </IonLabel>
             </IonItem>
             <IonItem
               key="5"
               routerLink={`/HajjDefinitionPage`}
               lines="none"
               detail={false}
-              className="welcome"
+              className="welcome ion-text-center"
             >
-              <IonAvatar className="white lesson">
-                <img
-                  src="/assets/images/Kaba.png"
-                  
-                />
-              </IonAvatar>
-              <IonText className="ion-padding-start" color="light">
-                <h3> {translationService.getLabel('label-hajj')}</h3>
-              </IonText>
+              
+              <IonLabel color="light">
+                <h3 style={{fontSize:"24px"}}> {translationService.getLabel('label-hajj')}</h3>
+              </IonLabel>
             </IonItem>
           </IonList>
         </IonContent>
