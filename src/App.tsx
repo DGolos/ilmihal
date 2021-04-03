@@ -112,7 +112,7 @@ const App: React.FC = () => {
   }, [initialization]);
 
   if (!initialized) {
-    return (<IonLoading isOpen={!initialized} message=" Starter..." />)
+    return (<IonLoading isOpen={!initialized} message=" Pokretanje..." />)
   }
   
   return (
@@ -124,7 +124,7 @@ const App: React.FC = () => {
           <Route path="/MainCategoryPage" component={MainCategoryPage} exact={true} />
           <Route path="/OptionsPage" component={OptionsPage} />
           <Route path="/ChooseLanguagePage" component={ChooseLanguagePage} />
-          <Route path="/" render={() => <Redirect to={translationService.isLoaded()?"/HomePage":"/ChooseLanguagePage"} />} exact={true}/>
+          <Route exact path="/" component={HomePage}/>
           <Route path="/Quran/:type" component={QuranMainPage} />
           <Route path="/QuranReader/:id" component={QuranReaderPage} />
           <Route path="/QuranPlayer/:id" component={QuranPlayerPage} />

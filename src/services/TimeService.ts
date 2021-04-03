@@ -32,15 +32,7 @@ class TimeService {
   ishaSeconds = 0;
   lastComputedDate: Date = new Date(1900, 0, 1);
 
-  isPeriodUpdated(): boolean {
-    const currentTime = new Date();
-
-    return (
-      this.lastComputedDate.getFullYear() === currentTime.getFullYear() &&
-      this.lastComputedDate.getMonth() === currentTime.getMonth()
-    );
-  }
-
+  
   async init() {
     const response=await axios.get("https://api.vaktija.ba/vaktija/v1/19");
 

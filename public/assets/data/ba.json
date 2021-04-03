@@ -5921,6 +5921,15 @@
         "value":"Reci:\"Šta mislite, ako vam vode presuše - ko će vam tekuću vodu dati?\""
     },
     {
+        "name":"label-surah93-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah93-note",
+        "value":"Ova sura je objavljena Poslaniku a.s. u cijelosti nakon perioda bez objave. Nevjernici su to kosistili da bi za kritiku Poslanika a.s."
+    },
+    {
         "name":"label-surah93-ayah1",
         "value":"Tako mi jutra"
     },
@@ -5965,6 +5974,15 @@
         "value":"i o blagodati Gospodara svoga kazuj!"
     },
     {
+        "name":"label-surah94-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu. Ime sure je iz prvog ajeta koji govori o otvorenosti Poslanikovog a.s. srca."
+    },
+    
+    {
+        "name":"label-surah94-note",
+        "value":"Sura govori o blagodetima kojima je Allah dž.š. obdario Poslanika a.s. i da olakšanje uvijek dolazi nakon muke."
+    },
+    {
         "name":"label-surah94-ayah1",
         "value":"Zar grudi tvoje nismo prostranim učinili,"
     },
@@ -5997,6 +6015,15 @@
         "value":"i samo se Gospodaru svome obraćaj!"
     },
     {
+        "name":"label-surah95-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah95-note",
+        "value":"Tema sure tin je ahiret i nagrada koja čeka vjernike. Allah se zaklinje četiri puta i govori ja je čovjek najbolje stvorenje."
+    },
+    {
         "name":"label-surah95-ayah1",
         "value":"Tako mi smokve i masline,"
     },
@@ -6027,6 +6054,15 @@
     {
         "name":"label-surah95-ayah8",
         "value":"zar Allah nije sudija najpravedniji?!"
+    },
+    {
+        "name":"label-surah96-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah96-note",
+        "value":"Objava Kur'ana počinje sa prvih šest ajeta sure Alak kada je Džibril a.s. naredio Poslaniku a.s. \"Čitaj, u ime Gospodara tvoga, koji stvara\"."
     },
     {
         "name":"label-surah96-ayah1",
@@ -6105,6 +6141,15 @@
         "value":"Ne valja to! Ti njega ne slušaj, već molitvu obavljaj i nastoj da se Gospodaru svome približiš!"
     },
     {
+        "name":"label-surah97-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu. Ime sure je referenca na prvi ajet koji govori da je objava Kur'ana počela u toj mubarek noći."
+    },
+    
+    {
+        "name":"label-surah97-note",
+        "value":"Sura Kadr govori o veličini, značenju i blagoslovi u noći kadr. Preporučuje se svakodnevno učenje ove sure u dnevnim namazima."
+    },
+    {
         "name":"label-surah97-ayah1",
         "value":"Mi smo ga počeli objavljivati u Noći Kadr"
     },
@@ -6123,6 +6168,15 @@
     {
         "name":"label-surah97-ayah5",
         "value":"sigurnost je u njoj sve dok zora ne svane."
+    },
+    {
+        "name":"label-surah98-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah98-note",
+        "value":"Ova sura govori o nevjernicima medju ehlu kitabijama i njihovoj ravnodušnosti prema istini koju donosi islam."
     },
     {
         "name":"label-surah98-ayah1",
@@ -6157,6 +6211,15 @@
         "value":"njih nagrada u Gospodara njihova čeka; edenski vrtovi kroz koji će rijeke teći, u kojima će vječno i zauvijek boraviti; Allah će biti njima zadovoljan, a i oni će biti Njime zadovoljni. To će biti za onoga koji se bude bojao Gospodara svoga."
     },
     {
+        "name":"label-surah99-description",
+        "value":"Ova sura je madinska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah99-note",
+        "value":"Ova sura govori o znakovima Sudnjeg dana i kako će svi tada vidjeti rezultate onoga što su radili u dunjalučkom životu."
+    },
+    {
         "name":"label-surah99-ayah1",
         "value":"Kada se Zemlja najžešćim potresom svojim potrese"
     },
@@ -6187,6 +6250,15 @@
     {
         "name":"label-surah99-ayah8",
         "value":"a onaj ko bude uradio koliko trun zla - vidjeće ga."
+    },
+    {
+        "name":"label-surah100-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah100-note",
+        "value":"Ova sura govori o Sudnjem danu i kako je čovjek nezahvalan i da samo misli o sakupljanju bogatstva."
     },
     {
         "name":"label-surah100-ayah1",
@@ -6233,6 +6305,15 @@
         "value":"Gospodar njihov toga Dana, sigurno, sve znati o njima."
     },
     {
+        "name":"label-surah101-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah101-note",
+        "value":"Ova sura govori o Sudnjem danu i šta će se tada desiti i kako će svi biti pravedno nagradjeni za dobro što su uradili i kažnjeni za grijehe što su uradili."
+    },
+    {
         "name":"label-surah101-ayah1",
         "value":"Smak svijeta!"
     },
@@ -6276,7 +6357,15 @@
         "name":"label-surah101-ayah11",
         "value":"Vatra užarena!"
     },
-
+    {
+        "name":"label-surah102-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah102-note",
+        "value":"Ova sura govori o ljudima koji gomilaju svoje bogatstvo opominjujući ih da će odgovarati za sve blagodeti koje su doboli."
+    },
     {
         "name":"label-surah102-ayah1",
         "value":"Zaokuplja vas nastojanje da što imućniji budete"
@@ -6310,6 +6399,15 @@
         "value":"Zatim ćete toga dana za sladak život biti pitani sigurno!"
     },
     {
+        "name":"label-surah103-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah103-note",
+        "value":"Ova sura tako što se Allah dž.š. kune vremenom. Poslanik a.s. je rekao da će učenje ove sure učiniti da čovjek bude strpljiviji i tolerantniji."
+    },
+    {
         "name":"label-surah103-ayah1",
         "value":"Tako mi vremena"
     },
@@ -6320,6 +6418,15 @@
     {
         "name":"label-surah103-ayah3",
         "value":"samo ne oni koji vjeruju i dobra djela čine, i koji jedni drugima istinu preporučuju i koji jedni drugima preporučuju strpljenje."
+    },
+    {
+        "name":"label-surah104-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah104-note",
+        "value":"Ovo sura govori o ljudima koji sakupljaju blago da bi stekli moć nad ostalim ljudima i kako njih čeka kazna na sudnjem danu."
     },
     {
         "name":"label-surah104-ayah1",
@@ -6358,6 +6465,15 @@
         "value":"plamenim stupovima zasvođena."
     },
     {
+        "name":"label-surah105-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah105-note",
+        "value":"OVa sura govori priču o ljudiam koji su hteli uništiti Ka'bu ali i kako ih je Allah dž.š. spriječio u tome."
+    },
+    {
         "name":"label-surah105-ayah1",
         "value":"Zar nisi čuo šta je sa vlasnicima slona Gospodar tvoj uradio!"
     },
@@ -6378,6 +6494,15 @@
         "value":"pa ih On kao lišće koje su crvi istočili učinio?"
     },
     {
+        "name":"label-surah106-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah106-note",
+        "value":"OVa sura govori blagodetima koje je pleme Kurejš dobilo od Allaha dž.š."
+    },
+    {
         "name":"label-surah106-ayah1",
         "value":"Reci: “Zbog navike Kurejšija,"
     },
@@ -6392,6 +6517,15 @@
     {
         "name":"label-surah106-ayah4",
         "value":"koji ih gladne hrani i od straha brani."
+    },
+    {
+        "name":"label-surah107-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah107-note",
+        "value":"OVa sura govori o osobinama ljudi koji poriču Sudnji dan i o munaficima."
     },
     {
         "name":"label-surah107-ayah1",
@@ -6422,6 +6556,15 @@
         "value":"i nikome ništa ni u naručje ne daju!"
     },
     {
+        "name":"label-surah108-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah108-note",
+        "value":"OVa sura govori džennetskoj rijeci Kevser."
+    },
+    {
         "name":"label-surah108-ayah1",
         "value":"Mi smo ti, uistinu, mnogo dobro dali,"
     },
@@ -6433,7 +6576,15 @@
         "name":"label-surah108-ayah3",
         "value":"onaj koji tebe mrzi sigurno će on bez spomena ostati."
     },
+    {
+        "name":"label-surah109-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
     
+    {
+        "name":"label-surah109-note",
+        "value":"OVa sura govori o Poslanikovom a.s. isključivom odbijanju idolopokloništva."
+    },
     {
         "name":"label-surah109-ayah1",
         "value":"Reci: “O vi nevjernici,"
@@ -6459,6 +6610,15 @@
         "value":"vama – vaša vjera, a meni – moja!”"
     },
     {
+        "name":"label-surah110-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah110-note",
+        "value":"OVa sura govori tri stvari koje će se dogoditi. Osvajanje Mekke, pobjedi islama i da će ljudi masovno primati islam."
+    },
+    {
         "name":"label-surah110-ayah1",
         "value":"Kada dođe Allahova pomoć i pobjeda"
     },
@@ -6469,6 +6629,15 @@
     {
         "name":"label-surah110-ayah3",
         "value":"onda slavi i veličaj svoga Gospodara i moli Ga za oprost,jer, zaista, On mnogo oprašta."
+    },
+    {
+        "name":"label-surah111-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah111-note",
+        "value":"OVa sura govori o Ebu Lehebu i njgovoj ženi koji su bili najveći Poslanikovi a.s. protivnici i ako će oni završiti u Vatri."
     },
     {
         "name":"label-surah111-ayah1",
@@ -6491,6 +6660,15 @@
         "value":"Za njezin vrat biće privezano uže od vlakna palminog"
     },
     {
+        "name":"label-surah112-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah112-note",
+        "value":"OVa sura govori o tevhidu i kako je Allah dž.š. neovisan od svega i ako se ovisi od Allaha dž.š."
+    },
+    {
         "name":"label-surah112-ayah1",
         "value":"Reci:On je Allah-Jedan"
     },
@@ -6507,6 +6685,15 @@
         "value":"i niko Mu ravan nije"
     },
     {
+        "name":"label-surah113-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah113-note",
+        "value":"OVa sura govori naredbi Poslaniku a.s. da od Allaha dž.š. traži zaštitu, posebno od zla mrkle noći."
+    },
+    {
         "name":"label-surah113-ayah1",
         "value":"Reci:Utječem se Gospodaru svitanja"
     },
@@ -6516,7 +6703,7 @@
     },
     {
         "name":"label-surah113-ayah3",
-        "value":"i od zla mrkle noci kada razastre tmine"
+        "value":"i od zla mrkle noći kada razastre tmine"
     },
     {
         "name":"label-surah113-ayah4",
@@ -6525,6 +6712,15 @@
     {
         "name":"label-surah113-ayah5",
         "value":"i od zla zavidljivaca kada zavist ne krije"
+    },
+    {
+        "name":"label-surah114-description",
+        "value":"Ova sura je mekkanska i nalazi se u 30-tom džuzu."
+    },
+    
+    {
+        "name":"label-surah114-note",
+        "value":"OVa sura govori naredbi Poslaniku a.s. da od Allaha dž.š. traži zaštitu, od zlih i zavisnih ljudi."
     },
     {
         "name":"label-surah114-ayah1",
