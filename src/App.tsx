@@ -96,6 +96,7 @@ import { BosniaPage } from './pages/Advanced/Homeland/BosniaPage';
 import { SirahPage } from './pages/Advanced/SirahPage';
 import { BosnianCulturePage } from './pages/Advanced/Homeland/BosnianCulturePage';
 import TasbihPage from './pages/BookOne/TasbihPage';
+import SupplicationMainPage from './pages/Advanced/SupplicationMainPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -141,6 +142,7 @@ const App: React.FC = () => {
           <Route path="/QuranRecitationPage/" component={QuranRecitationPage} />
           <Route path="/QuranRevelationPage/" component={QuranRevelationPage} />
           <Route path="/AyahPage/:surahId/:firstAyahId/:lastAyahId" component={AyahPage} />
+          <Route path="/SupplicationMainPage/" component={SupplicationMainPage} />
           <Route path="/HadeethPage/" component={HadeethPage} />
           <Route path="/SirahPage/" component={SirahPage} />
           <Route path="/CompanionsPage/" component={CompanionsPage} />

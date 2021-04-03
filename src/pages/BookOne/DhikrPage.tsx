@@ -1,31 +1,20 @@
 import {
   IonBackButton,
-  IonButton,
   IonButtons,
   IonCard,
   IonCardContent,
   IonCardSubtitle,
   IonCardTitle,
-  IonChip,
-  IonCol,
   IonContent,
-  IonGrid,
   IonHeader,
-  IonIcon,
   IonItem,
-  IonLabel,
   IonList,
-  IonNote,
   IonPage,
-  IonRow,
-  IonSlide,
-  IonSlides,
   IonText,
   IonToolbar,
   useIonViewWillLeave,
 } from "@ionic/react";
 import { Howl } from "howler";
-import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
 import { translationService } from "../../services/TranslationService";
 
