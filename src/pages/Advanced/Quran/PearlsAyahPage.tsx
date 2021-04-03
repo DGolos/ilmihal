@@ -70,7 +70,7 @@ import { translationService } from "../../../services/TranslationService";
             </IonRow>
             <IonRow>
               <IonCol size="4">
-              <SurahListItem surahId="16" surahName="En-Nahl" firstAyahId="96" lastAyahId="100" surahColor="brown"/>
+              <SurahListItem surahId="16" surahName="En-Nahl" firstAyahId="96" lastAyahId="100" surahColor="dark-brown"/>
               </IonCol>
               <IonCol size="4">
               <SurahListItem surahId="17" surahName="El-Isra'" firstAyahId="23" lastAyahId="39" surahColor="razimic"/>

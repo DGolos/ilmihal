@@ -70,7 +70,7 @@ import { translationService } from "../../../services/TranslationService";
             </IonRow>
             <IonRow>
               <IonCol size="4">
-              <SurahListItem surahId="6" surahName="El-'Anam" firstAyahId="95" lastAyahId="104" surahColor="brown"/>
+              <SurahListItem surahId="6" surahName="El-'Anam" firstAyahId="95" lastAyahId="104" surahColor="dark-brown"/>
               </IonCol>
               <IonCol size="4">
               <SurahListItem surahId="10" surahName="Junus" firstAyahId="104" lastAyahId="109" surahColor="razimic"/>
@@ -87,7 +87,7 @@ import { translationService } from "../../../services/TranslationService";
               <SurahListItem surahId="57" surahName="El-Hadid" firstAyahId="1" lastAyahId="3" surahColor="purple"/>
               </IonCol>
               <IonCol size="4">
-              <SurahListItem surahId="59" surahName="El-Hašr" firstAyahId="22" lastAyahId="24" surahColor="brown"/>
+              <SurahListItem surahId="59" surahName="El-Hašr" firstAyahId="22" lastAyahId="24" surahColor="dark-brown"/>
               </IonCol>
             </IonRow>
             
