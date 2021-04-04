@@ -1,5 +1,6 @@
 import axios from "axios";
 import moment from "moment";
+import { storageService } from "./StorageService";
 import { translationService } from "./TranslationService";
 
 export interface PrayersProps {
@@ -11,6 +12,15 @@ export interface PrayersProps {
   isha: string;
   period: string;
   headers: string[];
+}
+
+export interface prayerStorage{
+  fajr: string;
+  sunrise: string;
+  dhuhr: string;
+  asr: string;
+  maghrib: string;
+  isha: string;
 }
 class TimeService {
   startOfFast = "";
@@ -32,41 +42,76 @@ class TimeService {
   ishaSeconds = 0;
   lastComputedDate: Date = new Date(1900, 0, 1);
 
-  
-  async init() {
-    const response=await axios.get("https://api.vaktija.ba/vaktija/v1/19");
-
-    const timeTable:string[]=response.data.vakat;
+  async calculatePrayertimes() {
     
-    const fajrObj = moment(timeTable[0], "H:m");
+    const fajrObj = moment(this.fajr, "H:m");
     this.fajrSeconds = fajrObj.hours() * 3600 + fajrObj.minutes() * 60;
     this.fajr = moment.utc(this.fajrSeconds * 1000).format("HH:mm");
+
     this.startOfFast = moment.utc(this.fajrSeconds * 1000).format("HH:mm");
 
-    const sunriseObj = moment(timeTable[1], "H:m");
+    const sunriseObj = moment(this.sunrise, "H:m");
     this.sunriseSeconds = sunriseObj.hours() * 3600 + sunriseObj.minutes() * 60;
     this.sunrise = moment.utc(this.sunriseSeconds * 1000).format("HH:mm");
 
-    const dhuhrObj = moment(timeTable[2], "H:m");
+    const dhuhrObj = moment(this.dhuhr, "H:m");
     this.dhuhrSeconds = dhuhrObj.hours() * 3600 + dhuhrObj.minutes() * 60;
-    this.dhuhr = moment.utc(this.dhuhrSeconds * 1000).format("HH:mm");
     this.preDhuhrSeconds = (this.dhuhrSeconds + this.sunriseSeconds) / 2;
 
-    const asrObj = moment(timeTable[3], "H:m");
+    const asrObj = moment(this.asr, "H:m");
     this.asrSeconds = asrObj.hours() * 3600 + asrObj.minutes() * 60;
-    this.asr = moment.utc(this.asrSeconds * 1000).format("HH:mm");
     this.preAsrSeconds = (this.asrSeconds + this.dhuhrSeconds) / 2;
 
-    const maghribObj = moment(timeTable[4], "H:m");
+    const maghribObj = moment(this.maghrib, "H:m");
     this.maghribSeconds = maghribObj.hours() * 3600 + maghribObj.minutes() * 60;
-    this.maghrib = moment.utc(this.maghribSeconds * 1000).format("HH:mm");
     this.preMaghribSeconds = (this.maghribSeconds + this.asrSeconds) / 2;
-    
-    const ishaObj = moment(timeTable[5], "H:m");
+
+    const ishaObj = moment(this.isha, "H:m");
     this.ishaSeconds = ishaObj.hours() * 3600 + ishaObj.minutes() * 60;
-    this.isha = moment.utc(this.ishaSeconds * 1000).format("HH:mm");
     this.preIshaSeconds = (this.ishaSeconds + this.maghribSeconds) / 2;
     this.lastComputedDate = new Date();
+  }
+
+  async getTimesFromStorage(){
+    const prayerObj=await storageService.get("prayerData");
+    console.log(prayerObj);
+    const prayerStrings:prayerStorage=JSON.parse(prayerObj!);
+    console.log(prayerStrings);
+    this.fajr=prayerStrings?.fajr;
+    this.sunrise=prayerStrings?.sunrise;
+    this.dhuhr=prayerStrings?.dhuhr;
+    this.asr=prayerStrings?.asr;
+    this.maghrib=prayerStrings?.maghrib;
+    this.isha=prayerStrings?.isha;
+
+    this.calculatePrayertimes();
+  }
+
+  async updateStorage(){
+    storageService.set("prayerData",{fajr:this.fajr,sunrise:this.sunrise,dhuhr:this.dhuhr,asr:this.asr,maghrib:this.maghrib,isha:this.isha});
+  }
+
+  async init() {
+    try{
+      const response = await axios.get("https://api.vaktija.ba/vaktija/v1/19",{timeout:3000});
+      console.log(response);
+      const timeTable: string[] = response.data.vakat;
+
+      this.fajr = timeTable[0];
+      this.sunrise = timeTable[1];
+      this.dhuhr = timeTable[2];
+      this.asr = timeTable[3];
+      this.maghrib = timeTable[4];
+      this.isha = timeTable[5];
+
+      this.calculatePrayertimes();
+      this.updateStorage();
+    }
+    catch(e){
+      this.getTimesFromStorage();
+    }
+        
+    
   }
 
   getCurrentPeriod() {
@@ -85,41 +130,38 @@ class TimeService {
   }
 
   formatTime(duration: number): string {
-    
     let hours = Math.floor(duration / 3600);
     let minutes = Math.floor((duration / 60) % 60);
-    
+
     let ret = "";
 
     if (hours > 0) {
-      if(hours===1){
-        ret+=`1 ${translationService.getLabel('label-hour')} `
+      if (hours === 1) {
+        ret += `1 ${translationService.getLabel("label-hour")} `;
+      } else {
+        ret += `${hours} ${translationService.getLabel("label-hours")} `;
       }
-      else{
-        ret+=`${hours} ${translationService.getLabel('label-hours')} `
-      }
-      
     }
-    
-    if(minutes>0){
-      if(minutes===1){
-        ret+=`1 ${translationService.getLabel('label-minute-nominativ')}`
+
+    if (minutes > 0) {
+      if (minutes % 10 === 0) {
+        ret += `${minutes} ${translationService.getLabel(
+          "label-minute-acusativ"
+        )}`;
+      } else {
+        ret += `${minutes} ${translationService.getLabel(
+          "label-minute-genitiv"
+        )}`;
       }
-      else if(minutes>1 && minutes<5){
-        ret+=`${minutes} ${translationService.getLabel('label-minute-genitiv')}`
-      }
-      else if((minutes>=5 && minutes<20)||(minutes%10===0)){
-        ret+=`${minutes} ${translationService.getLabel('label-minute-acusativ')}`
-      }
-      
     }
-    
+
     return ret;
   }
 
   getHeaders() {
     const currentTime = new Date();
-    const timeStamp = currentTime.getHours() * 3600 + currentTime.getMinutes() * 60;
+    const timeStamp =
+      currentTime.getHours() * 3600 + currentTime.getMinutes() * 60;
 
     let headers: string[] = [];
 
@@ -127,53 +169,65 @@ class TimeService {
       headers.push("label-next-prayer");
       headers.push("label-fajr-prayer");
       headers.push(this.formatTime(this.fajrSeconds - timeStamp));
-    }
-
-    else if (timeStamp >= this.fajrSeconds && timeStamp < this.sunriseSeconds) {
+    } else if (
+      timeStamp >= this.fajrSeconds &&
+      timeStamp < this.sunriseSeconds
+    ) {
       headers.push("label-current-prayer");
       headers.push("label-fajr-prayer");
-    }
-
-    else if (timeStamp >= this.sunriseSeconds && timeStamp < this.preDhuhrSeconds) {
+    } else if (
+      timeStamp >= this.sunriseSeconds &&
+      timeStamp < this.preDhuhrSeconds
+    ) {
       headers.push("label-no-prayer");
-    }
-    else if (timeStamp >= this.preDhuhrSeconds && timeStamp < this.dhuhrSeconds) {
+    } else if (
+      timeStamp >= this.preDhuhrSeconds &&
+      timeStamp < this.dhuhrSeconds
+    ) {
       headers.push("label-next-prayer");
       headers.push("label-dhuhr-prayer");
       headers.push(this.formatTime(this.dhuhrSeconds - timeStamp));
-    }
-    else if (timeStamp >= this.dhuhrSeconds && timeStamp < this.preAsrSeconds) {
+    } else if (
+      timeStamp >= this.dhuhrSeconds &&
+      timeStamp < this.preAsrSeconds
+    ) {
       headers.push("label-current-prayer");
       headers.push("label-dhuhr-prayer");
-    }
-    else if (timeStamp >= this.preAsrSeconds && timeStamp < this.asrSeconds) {
+    } else if (timeStamp >= this.preAsrSeconds && timeStamp < this.asrSeconds) {
       headers.push("label-next-prayer");
       headers.push("label-asr-prayer");
       headers.push(this.formatTime(this.asrSeconds - timeStamp));
-    }
-    else if (timeStamp >= this.asrSeconds && timeStamp < this.preMaghribSeconds) {
+    } else if (
+      timeStamp >= this.asrSeconds &&
+      timeStamp < this.preMaghribSeconds
+    ) {
       headers.push("label-current-prayer");
       headers.push("label-asr-prayer");
-    }
-    else if (timeStamp >= this.preMaghribSeconds && timeStamp < this.maghribSeconds) {
+    } else if (
+      timeStamp >= this.preMaghribSeconds &&
+      timeStamp < this.maghribSeconds
+    ) {
       headers.push("label-next-prayer");
       headers.push("label-maghrib-prayer");
       headers.push(this.formatTime(this.maghribSeconds - timeStamp));
-    }
-    else if (timeStamp >= this.maghribSeconds && timeStamp < this.preIshaSeconds) {
+    } else if (
+      timeStamp >= this.maghribSeconds &&
+      timeStamp < this.preIshaSeconds
+    ) {
       headers.push("label-current-prayer");
       headers.push("label-maghrib-prayer");
-    }
-    else if (timeStamp >= this.preIshaSeconds && timeStamp < this.ishaSeconds) {
+    } else if (
+      timeStamp >= this.preIshaSeconds &&
+      timeStamp < this.ishaSeconds
+    ) {
       headers.push("label-next-prayer");
       headers.push("label-isha-prayer");
       headers.push(this.formatTime(this.ishaSeconds - timeStamp));
-    }
-    else if (timeStamp >= this.ishaSeconds) {
+    } else if (timeStamp >= this.ishaSeconds) {
       headers.push("label-current-prayer");
       headers.push("label-isha-prayer");
     }
-    
+
     return headers;
   }
 
