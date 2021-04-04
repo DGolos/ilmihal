@@ -561,7 +561,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/DhikrMainPage`}
                   color="light"
                   class="category"
                 >
@@ -625,38 +625,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                 </IonCard>
               </IonCol>
-              <IonCol
-                size="6"
-                style={{ marginTop: "0px", marginBottom: "0px" }}
-              >
-                <IonCard
-                  routerLink={`/BeautifulNames`}
-                  color="light"
-                  class="category"
-                >
-                  <IonRow className="ion-no-padding">
-                    <img
-                      src="/assets/images/99.png"
-                      height="40px"
-                      width="40px"
-                    />
-
-                    <IonLabel className="ion-padding-start ion-text-centered">
-                      <span>
-                        <h4 className="title">Allahova</h4>
-                      </span>
-                      <span>
-                        <h4 className="title">imena</h4>
-                      </span>
-                    </IonLabel>
-                  </IonRow>
-                  <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
-                      Allahova najljepša imena
-                    </h6>
-                  </IonRow>
-                </IonCard>
-              </IonCol>
+              
               
             </IonRow>
           </IonGrid>

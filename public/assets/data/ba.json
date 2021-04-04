@@ -4167,6 +4167,10 @@
         "name":"label-book3-lesson16-quote-reference",
         "value":"Kur'an, 2:269"
     },
+    {
+        "name":"label-book3-lesson16_section1-paragraph1",
+        "value":"Dova, obraćanje Uzvišenom Allahu je vrlo važna stvar u životu čovjeka. Dova se čini izravno i samo Allahu dž.š. Dova preporođuje dušu vjernika i upravlja ga pravim putem. Dovu činimo za sebe, za svoju porodicu, rodbinu, prijatelje, braću u vjeri, za žive i umrle. Dovu činimo i Allahu se obraćamo i u dobru i u nevolji. Allah dž.š. u Kur&#39;anu kaže: «A kada te robovi Moji za Mene upitaju, Ja sam, sigurno, blizu: odazivam se dovi molitelja kad Me zamoli. Zato neka oni pozivu Mome udovolje i neka vjeruju u Mene, da bi bili na pravom putu.» (El-Bekare, 186)"
+    },
 
     {
         "name":"label-book3-lesson17-title",
@@ -4181,6 +4185,70 @@
         "value":"Kur'an, 2:269"
     },
     {
+        "name":"label-book3-lesson17_section1-paragraph1",
+        "value":"Allahumme inni e'uzu bike min šerri ma amiltu ve šerri ma lem e'amel."
+    },
+    {
+        "name":"label-book3-lesson17_section1-paragraph2",
+        "value":"Allahu, Tebi sam se predao, u Tebe sam povjerovao, na Tebe se oslonio, Tebi se kajem i u ime Tvoje se borim."
+    },
+    {
+        "name":"label-book3-lesson17_section2-paragraph1",
+        "value":"Allahumme leke eslemtu, ve bike amentu, ve 'alejke tevekkeltu, ve ilejke enebtu, ve bike hasamtu."
+    },
+    {
+        "name":"label-book3-lesson17_section2-paragraph2",
+        "value":"Allahu, utječem ti se od zla onoga što sam uradio i zla onoga što nisam uradio."
+    },
+    {
+        "name":"label-book3-lesson17_section3-paragraph1",
+        "value":"Allahumme inni e'uzu bi 'izzetike la ilahe illa Ente en tudilleni, Ente-l-hajjullezi la jemutu ve-l-džinnu ve-l-insu jemutun."
+    },
+    {
+        "name":"label-book3-lesson17_section3-paragraph2",
+        "value":"Allahu utječem se sa Tvojom veličinom, nema boga osim Tebe, nemoj me odvesti u zabludu. Ti si živi, koji ne umire, a džini i ljudi umiru."
+    },
+    {
+        "name":"label-book3-lesson17_section4-paragraph1",
+        "value":"Semi'a sami'u bi hamdillahi ve husni belaihi alejna. Rabbena sahibna ve efdil 'alejna 'aizen billahi mine-n-nari."
+    },
+    {
+        "name":"label-book3-lesson17_section4-paragraph2",
+        "value":"Allahu utječem se sa Tvojom veličinom, nema boga osim Tebe, nemoj me odvesti u zabludu. Ti si živi, koji ne umire, a džini i ljudi umiru."
+    },
+    {
+        "name":"label-book3-lesson17_section5-paragraph1",
+        "value":"Allahummagfir li hatieti, ve džehli, ve israfi fi emri vema Ente e'alemu bihi minni."
+    },
+    {
+        "name":"label-book3-lesson17_section5-paragraph2",
+        "value":"Allahu oprosti mi grijehe, neznanje, propuste u djelima koje Ti poznaješ bolje od mene."
+    },
+    {
+        "name":"label-book3-lesson17_section6-paragraph1",
+        "value":"Allahummagfir li džiddi ve hezli, ve hatai ve amdi ve kullu zalike indi."
+    },
+    {
+        "name":"label-book3-lesson17_section6-paragraph2",
+        "value":"Allahu, oprosti mi propuste koje sam uradio u zbilji i šali, nenamjerno i namjerno, jer se su to moje osobine."
+    },
+    {
+        "name":"label-book3-lesson17_section7-paragraph1",
+        "value":"Allahummagfir li ma kaddemtu vema ehhartu vema esrertu vema 'alentu vema Ente 'alemu bihi minni. Ente-l-mukaddimu ve Ente-l-mu&'ehhiru ve Ente 'ala kulli šej'in kadir."
+    },
+    {
+        "name":"label-book3-lesson17_section7-paragraph2",
+        "value":"Allahu, oprosti ono što sam uradio i što ću uraditi, što sam tajno i javno učinio. Ti to bolje poznaješ od mene. Ti si onaj koji uzdiže i ponižava i Svemoćan Ti si."
+    },
+    {
+        "name":"label-book3-lesson17_section8-paragraph1",
+        "value":"Allahumme inni euzu bike minel-hemmi wel-huzni.“ "
+    },
+    {
+        "name":"label-book3-lesson17_section8-paragraph2",
+        "value":"Allahu moj, utjecem ti se od potistenosti/skrhanosti i tuge."
+    },
+    {
         "name":"label-book3-lesson18-title",
         "value":"Dnevne dove"
     },
@@ -4193,6 +4261,93 @@
         "value":"Kur'an, 2:269"
     },
     {
+        "name":"label-book3-lesson18_section1-header",
+        "value":"Budjenje"
+    },
+    {
+        "name":"label-book3-lesson18_section1-paragraph1",
+        "value":"El-hamdu lillahillezi ahjana ba'de ma ematena ve ilejhi-nnušur."
+    },
+    {
+        "name":"label-book3-lesson18_section1-paragraph2",
+        "value":"Hvala Allahu, koji nas oživi nakon što nas (snom) umrtvi, i Njemu se, konačno, sve vraća."
+    },
+    {
+        "name":"label-book3-lesson18_section2-header",
+        "value":"Ulazak u nužnik"
+    },
+    {
+        "name":"label-book3-lesson18_section2-paragraph1",
+        "value":"Bismillahi Allahumme inni euzu bike minel- hubsi vel-habaisi."
+    },
+    {
+        "name":"label-book3-lesson18_section2-paragraph2",
+        "value":"U ime Allaha Allahu moj, tražim zaštitu kod Tebe od svega štetnog i lošeg."
+    },
+    {
+        "name":"label-book3-lesson18_section3-header",
+        "value":"Izlaz iz Nužnia"
+    },
+    {
+        "name":"label-book3-lesson18_section3-paragraph1",
+        "value":"Gufraneke."
+    },
+    {
+        "name":"label-book3-lesson18_section3-paragraph2",
+        "value":"Za oprost Te molim!"
+    },
+    {
+        "name":"label-book3-lesson18_section4-header",
+        "value":"Oblačenje"
+    },
+    {
+        "name":"label-book3-lesson18_section4-paragraph1",
+        "value":"Allahumme inni es'eluke min hajrihi ve bajri ma buve lehu ve euzu bike min šerrihi ve šerri ma buve lehu."
+    },
+    {
+        "name":"label-book3-lesson18_section4-paragraph2",
+        "value":"Gospodaru naš, molim Te za dobro u njoj i dobro zbog čegaj e ova odjeća napravljena. Utječem Ti se od zla u njoj i zla kojeg u sebi sadrži."
+    },
+    {
+        "name":"label-book3-lesson18_section5-header",
+        "value":"Ulazak u kuću"
+    },
+    {
+        "name":"label-book3-lesson18_section5-paragraph1",
+        "value":"Bismillahi veledžna ve bismillabi baredžna ve ala Rabbina tevekkelna."
+    },
+    {
+        "name":"label-book3-lesson18_section5-paragraph2",
+        "value":"Sa Allahovim imenom ulazimo i sa Allahovim imenom izlazimo. Na Gospodara našeg se oslanjamo."
+    },
+    {
+        "name":"label-book3-lesson18_section6-header",
+        "value":"Za svaku priliku"
+    },
+    {
+        "name":"label-book3-lesson18_section6-paragraph1",
+        "value":"Bismillahillezi la jedurru mea'smihi šej&#39;un fil- erdi ve la fissemai, ve Huve-ssemiul-alim, neće mu ništa nauditi."
+    },
+    {
+        "name":"label-book3-lesson18_section6-paragraph2",
+        "value":"Počinjem s imenom Allaha uz čije ime ne može nauditi ni na Zemlji ni na Nebu, a On sve čuje i sve zna."
+    },
+    {
+        "name":"label-book3-lesson18_section7-header",
+        "value":"Za povećanje imana"
+    },
+    {
+        "name":"label-book3-lesson18_section7-paragraph1",
+        "value":"Reditu billahi Rabben ve bil-islami dinen vebi Muhammedin a.s. nebijjen."
+    },
+    {
+        "name":"label-book3-lesson18_section7-paragraph2",
+        "value":"Zadovoljan sam da mi je Allah Gospodar, Islam vjera i Muhammed a.s. Poslanik."
+    },
+
+
+
+    {
         "name":"label-book3-lesson19-title",
         "value":"Dove"
     },
@@ -4203,6 +4358,54 @@
     {
         "name":"label-book3-lesson19-quote-reference",
         "value":"Kur'an, 2:269"
+    },
+    {
+        "name":"label-book3-lesson20-title",
+        "value":"Zikr"
+    },
+    {
+        "name":"label-book3-lesson20-quote",
+        "value":"\"A onaj kome je data mudrost, doista, mu je dato veliko dobro!\""
+    },
+    {
+        "name":"label-book3-lesson20-quote-reference",
+        "value":"Kur'an, 2:269"
+    },
+    {
+        "name":"label-book3-lesson21-title",
+        "value":"Toba"
+    },
+    {
+        "name":"label-book3-lesson21-quote",
+        "value":"\"A onaj kome je data mudrost, doista, mu je dato veliko dobro!\""
+    },
+    {
+        "name":"label-book3-lesson21-quote-reference",
+        "value":"Kur'an, 2:269"
+    },
+    {
+        "name":"label-book3-lesson22-title",
+        "value":"Sejjidu-l-istigfar"
+    },
+    {
+        "name":"label-book3-lesson22-quote",
+        "value":"\"A onaj kome je data mudrost, doista, mu je dato veliko dobro!\""
+    },
+    {
+        "name":"label-book3-lesson22-quote-reference",
+        "value":"Kur'an, 2:269"
+    },
+    {
+        "name":"label-book3-lesson23-title",
+        "value":"Allahova imena"
+    },
+    {
+        "name":"label-book3-lesson23-quote",
+        "value":"\"On ima najljepša imena\""
+    },
+    {
+        "name":"label-book3-lesson23-quote-reference",
+        "value":"Kur'an, 59:24"
     },
     
     

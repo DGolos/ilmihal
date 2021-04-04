@@ -20,6 +20,7 @@ import {
 } from "@ionic/react";
 import React from "react";
 import { Progress } from "../../../components/common/Progress";
+import { translationService } from "../../../services/TranslationService";
 
 interface NamesCardProps {
   arabic: string;
@@ -50,7 +51,7 @@ export const BeautifulNamesPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="razimic" defaultHref="/MainCategoryPage" />
+            <IonBackButton color="razimic" defaultHref="/DhikrMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -60,12 +61,12 @@ export const BeautifulNamesPage: React.FC = () => {
           color="razimic"
         >
           <IonCardTitle>
-            <h1 className="lesson">Allahova imena</h1>
+            <h1 className="lesson">{translationService.getLabel('label-book3-lesson23-title')}</h1>
           </IonCardTitle>
           <IonCardContent>
             <IonCardSubtitle>
-              <h3 style={{ fontStyle: "italic" }}>"On ima najljepša imena"</h3>
-              <p className="quote-reference">Kur'an 59:24</p>
+              <h3 style={{ fontStyle: "italic" }}>{translationService.getLabel('label-book3-lesson23-quote')}</h3>
+              <p className="quote-reference">{translationService.getLabel('label-book3-lesson23-quote-reference')}</p>
             </IonCardSubtitle>
           </IonCardContent>
         </IonCard>

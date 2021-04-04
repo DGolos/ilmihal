@@ -97,6 +97,10 @@ import { SirahPage } from './pages/Advanced/SirahPage';
 import { BosnianCulturePage } from './pages/Advanced/Homeland/BosnianCulturePage';
 import TasbihPage from './pages/BookOne/TasbihPage';
 import SupplicationMainPage from './pages/Advanced/SupplicationMainPage';
+import DhikrMainPage from './pages/Advanced/DhikrMainPage';
+import { SupplicationValuePage } from './pages/Advanced/SupplicationsValuePage';
+import { MessangersSupplicationsPage } from './pages/Advanced/MessangersSupplicationsPage';
+import { DailySupplicationsPage } from './pages/Advanced/DailySupplicationsPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -143,6 +147,10 @@ const App: React.FC = () => {
           <Route path="/QuranRevelationPage/" component={QuranRevelationPage} />
           <Route path="/AyahPage/:surahId/:firstAyahId/:lastAyahId" component={AyahPage} />
           <Route path="/SupplicationMainPage/" component={SupplicationMainPage} />
+          <Route path="/SupplicationValuePage/" component={SupplicationValuePage} />
+          <Route path="/MessangersSupplicationsPage/" component={MessangersSupplicationsPage} />
+          <Route path="/DailySupplicationsPage/" component={DailySupplicationsPage} />
+          <Route path="/DhikrMainPage/" component={DhikrMainPage} />
           <Route path="/HadeethPage/" component={HadeethPage} />
           <Route path="/SirahPage/" component={SirahPage} />
           <Route path="/CompanionsPage/" component={CompanionsPage} />
