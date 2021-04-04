@@ -11,7 +11,7 @@ import {
   IonTabs
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { bookOutline, homeOutline, settingsOutline} from 'ionicons/icons';
+import { bookOutline, homeOutline, informationOutline, settingsOutline} from 'ionicons/icons';
 import HomePage from './pages/HomePage';
 import MainCategoryPage from './pages/MainCategoryPage';
 import OptionsPage from './pages/OptionsPage';
@@ -101,6 +101,8 @@ import DhikrMainPage from './pages/Advanced/DhikrMainPage';
 import { SupplicationValuePage } from './pages/Advanced/SupplicationsValuePage';
 import { MessangersSupplicationsPage } from './pages/Advanced/MessangersSupplicationsPage';
 import { DailySupplicationsPage } from './pages/Advanced/DailySupplicationsPage';
+import RepetancePage from './pages/Advanced/RepetencePage';
+import ForgivnesPage from './pages/Advanced/ForgivnesOage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -151,6 +153,8 @@ const App: React.FC = () => {
           <Route path="/MessangersSupplicationsPage/" component={MessangersSupplicationsPage} />
           <Route path="/DailySupplicationsPage/" component={DailySupplicationsPage} />
           <Route path="/DhikrMainPage/" component={DhikrMainPage} />
+          <Route path="/RepetancePage/" component={RepetancePage} />
+          <Route path="/ForgivnesPage/" component={ForgivnesPage} />
           <Route path="/HadeethPage/" component={HadeethPage} />
           <Route path="/SirahPage/" component={SirahPage} />
           <Route path="/CompanionsPage/" component={CompanionsPage} />
@@ -204,8 +208,8 @@ const App: React.FC = () => {
             <IonLabel>{translationService.getLabel('label-tab-treasure')}</IonLabel>
           </IonTabButton>
           <IonTabButton tab="OptionsPage" href="/OptionsPage">
-            <IonIcon icon={settingsOutline} color="burgundy" />
-            <IonLabel>{translationService.getLabel('label-tab-options')}</IonLabel>
+            <IonIcon icon={informationOutline} color="burgundy" />
+            <IonLabel>{translationService.getLabel('label-tab-info')}</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

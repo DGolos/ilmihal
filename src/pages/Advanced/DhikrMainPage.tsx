@@ -39,7 +39,7 @@ import {
             <IonCardContent>
               <IonCardSubtitle>
                 <h3 style={{ fontStyle: "italic" }}>
-                {translationService.getLabel('label-book3-lesson19-quote')}
+                {translationService.getLabel('label-book3-lesson20-quote')}
                 </h3>
                 <p className="quote-reference">{translationService.getLabel('label-book3-lesson20-quote-reference')}</p>
               </IonCardSubtitle>
@@ -55,7 +55,7 @@ import {
                 
               </IonItem>
   
-              <IonItem color="light" lines="full" routerLink='/ForgivenrssPage'>
+              <IonItem color="light" lines="full" routerLink='/ForgivnesPage'>
                 <IonText slot="start">
                   <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson22-title')}</h2>
                 </IonText>
