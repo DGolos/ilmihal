@@ -103,6 +103,7 @@ import { MessangersSupplicationsPage } from './pages/Advanced/MessangersSupplica
 import { DailySupplicationsPage } from './pages/Advanced/DailySupplicationsPage';
 import RepetancePage from './pages/Advanced/RepetencePage';
 import ForgivnesPage from './pages/Advanced/ForgivnesOage';
+import CreditsPage from './pages/Advanced/CeditsPage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
@@ -130,6 +131,7 @@ const App: React.FC = () => {
           <Route path="/HomePage" component={HomePage} exact={true} />
           <Route path="/MainCategoryPage" component={MainCategoryPage} exact={true} />
           <Route path="/OptionsPage" component={OptionsPage} />
+          <Route path="/CreditsPage" component={CreditsPage} />
           <Route path="/ChooseLanguagePage" component={ChooseLanguagePage} />
           <Route exact path="/" component={HomePage}/>
           <Route path="/Quran/:type" component={QuranMainPage} />

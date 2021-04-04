@@ -31,7 +31,7 @@ const OptionsPage: React.FC = () => {
                 <h4  style={{ fontSize: "20px", fontWeight: 300 }}>Islamska zajednica Bošnjaka u Norveškoj</h4>
               </IonText>
             </IonItem>
-            <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }}>
+            <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }} routerLink={`/CreditsPage`}>
               <IonAvatar>
                 <IonIcon icon={peopleOutline} color="light"  style={{ fontSize: "36px" }}/>
               </IonAvatar>
