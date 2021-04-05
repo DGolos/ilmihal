@@ -31,12 +31,12 @@ const CreditsPage: React.FC = () => {
                 Sva hvala i zahvala pripada Allahu dž.š. koji je omogućio provedbu ovog projekta. Nekea je salavat i selam na Poslanika Muhammeda a.s. kao i njegovu časnu porodivu i ashabe.
                 </h2>
                 <h2 className="lesson-note">
-                Ova aplikacija nastala je kao iskazana potreba jednog vremesnkog (vremenskog) perioda digitalizacije u kojem se nalazimo s ciljem olakšane vjersko-odgojene (odgojne) edukacije djece i omladine koji žive na prostoru IZ Bošnjaka u Norveškoj, ali i šire. Prilikom izrade aplikacije korištena je stručna literatura iz ove oblasti te praksa i iskustvo imama na mektebima.
+                Ova aplikacija nastala je kao iskazana potreba jednog vremesnkog perioda digitalizacije u kojem se nalazimo s ciljem olakšane vjersko-odgojene edukacije djece i omladine koji žive na prostoru IZ Bošnjaka u Norveškoj, ali i šire. Prilikom izrade aplikacije korištena je stručna literatura iz ove oblasti te praksa i iskustvo imama na mektebima.
                 </h2>
                 <h2 className="lesson-note">
                     <b>Stručni dio:</b> Ibrahim ef. Šabić<br/>
-                    <b>Učač Kur'ana:</b> Hafiz Omer ef. Zurlić<br/>
-                    <b>Dizajn:</b> Ewlina Sőderlund<br/>
+                    <b>Učač Kur'ana:</b> Hafiz Omer ef. Zulić<br/>
+                    <b>Dizajn:</b> Ewelina Sőderlund<br/>
                     <b>Programer:</b> Đenan Gološ
                 </h2>
               </IonText>

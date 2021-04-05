@@ -27,7 +27,7 @@ export const FajrPrayerDetailsPage: React.FC<
   RouteComponentProps<{ type: string }>
 > = ({ match }) => {
   const [prayerType, setPrayerType] = useState("");
-  const [prayerLength, setPrayerLength] = useState(0);
+  
   useEffect(() => {
     if (match.params.type === "sunnah") {
       setPrayerType(translationService.getLabel("label-fajr-sunnah"));
@@ -36,7 +36,7 @@ export const FajrPrayerDetailsPage: React.FC<
     if (match.params.type === "fardh") {
       setPrayerType(translationService.getLabel("label-fajr-fardh"));
     }
-    setPrayerLength(6);
+    
   }, [match.params.type]);
   return (
     <IonPage>
@@ -86,7 +86,7 @@ export const FajrPrayerDetailsPage: React.FC<
                     <IonCol size="6">
                       <Progress
                         currentValue={1}
-                        maxValue={prayerLength}
+                        maxValue={6}
                         color="burgundy"
                       />
                     </IonCol>
@@ -123,14 +123,14 @@ export const FajrPrayerDetailsPage: React.FC<
               </IonItem>
             </IonSlide>
 
-            <FirstRakah color="burgundy" prayerLength={prayerLength} />
+            <FirstRakah color="burgundy" prayerLength={6} />
 
-            <SecondRakah color="burgundy" prayerLength={prayerLength} />
+            <SecondRakah color="burgundy" prayerLength={6} />
 
             <Tashashud
               first={false}
               color="burgundy"
-              prayerLength={prayerLength}
+              prayerLength={6}
             />
           </IonSlides>
         </div>
