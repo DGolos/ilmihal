@@ -598,7 +598,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/UnderConstructionPage`}
+                  routerLink={`/SegmentLessonPage/1/2`}
                   color="light"
                   class="category"
                 >

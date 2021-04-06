@@ -14,7 +14,7 @@ import {
 } from "@ionic/react";
 import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { translationService } from "../../services/TranslationService";
 import { Progress } from "../common/Progress";
 
@@ -32,6 +32,12 @@ const FirstRakah: React.FC<FirstRakahProps> = ({ color, prayerLength }) => {
       playerRef.current.stop();
     }
   });
+
+  useEffect(() => {
+    return ()=>{
+      playerRef.current.unload();
+    };
+  }, []);
 
   const toglePlayPause = (file: string) => {
     playerRef.current.stop();

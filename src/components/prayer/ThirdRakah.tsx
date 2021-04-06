@@ -1,7 +1,7 @@
 import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonSlide, IonText, useIonViewWillLeave } from "@ionic/react";
 import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
 import { translationService } from "../../services/TranslationService";
 import { Progress } from "./../common/Progress";
@@ -22,6 +22,11 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
       playerRef.current.stop();
     }
   });
+  useEffect(() => {
+    return ()=>{
+      playerRef.current.unload();
+    };
+  }, []);
 
   const toglePlayPause = (file:string) => {
     

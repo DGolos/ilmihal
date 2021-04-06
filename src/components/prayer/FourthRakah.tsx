@@ -1,7 +1,7 @@
 import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonSlide, IonText, useIonViewWillLeave } from "@ionic/react";
 import { Howl } from "howler";
 import { caretForwardCircleOutline } from "ionicons/icons";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { translationService } from "../../services/TranslationService";
 import { Progress } from "./../common/Progress";
 
@@ -20,6 +20,12 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength}) =
       playerRef.current.stop();
     }
   });
+  useEffect(() => {
+    return ()=>{
+      playerRef.current.unload();
+    };
+  }, []);
+  
 
   const toglePlayPause = (file:string) => {
     
