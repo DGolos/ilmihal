@@ -13,7 +13,6 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonText,
   IonSlide,
@@ -80,11 +79,13 @@ export const HadeethPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson1_section1-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson1_section1-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -277,23 +278,25 @@ export const HadeethPage: React.FC = () => {
               </IonItem>
             </IonSlide>
             <IonSlide>
-                <IonItem detail={false} color="light" lines="none">
-                    <IonGrid className="ion-text-left">
-                        <IonRow>
-                            <IonCol size="6">
-                            <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                                {translationService.getLabel("label-book3-lesson1_section5-header")}
-                            </IonChip>
-                            </IonCol>
-                            <IonCol size="6">
-                                <Progress
-                                    currentValue={5}
-                                    maxValue={6}
-                                    color="burgundy"
-                                />
-                            </IonCol>
-                        </IonRow>
-                        <IonRow>
+              <IonItem detail={false} color="light" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
+                        {translationService.getLabel(
+                          "label-book3-lesson1_section5-header"
+                        )}
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress
+                        currentValue={5}
+                        maxValue={6}
+                        color="burgundy"
+                      />
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
                     <IonCol size="12">
                       <IonText>
                         <h2 className="lesson-note">
@@ -321,31 +324,32 @@ export const HadeethPage: React.FC = () => {
                             "label-book3-lesson1_section5-paragraph5"
                           )}
                         </h2>
-                       
                       </IonText>
                     </IonCol>
                   </IonRow>
-                    </IonGrid>
-                </IonItem>
+                </IonGrid>
+              </IonItem>
             </IonSlide>
             <IonSlide>
-                <IonItem detail={false} color="light" lines="none">
-                    <IonGrid className="ion-text-left">
-                        <IonRow>
-                            <IonCol size="6">
-                            <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                                {translationService.getLabel("label-book3-lesson1_section6-header")}
-                            </IonChip>
-                            </IonCol>
-                            <IonCol size="6">
-                                <Progress
-                                    currentValue={6}
-                                    maxValue={6}
-                                    color="burgundy"
-                                />
-                            </IonCol>
-                        </IonRow>
-                        <IonRow>
+              <IonItem detail={false} color="light" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
+                        {translationService.getLabel(
+                          "label-book3-lesson1_section6-header"
+                        )}
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress
+                        currentValue={6}
+                        maxValue={6}
+                        color="burgundy"
+                      />
+                    </IonCol>
+                  </IonRow>
+                  <IonRow>
                     <IonCol size="12">
                       <IonText>
                         <h2 className="lesson-note">
@@ -378,12 +382,11 @@ export const HadeethPage: React.FC = () => {
                             "label-book3-lesson1_section6-paragraph6"
                           )}
                         </h2>
-                       
                       </IonText>
                     </IonCol>
                   </IonRow>
-                    </IonGrid>
-                </IonItem>
+                </IonGrid>
+              </IonItem>
             </IonSlide>
           </IonSlides>
         </div>

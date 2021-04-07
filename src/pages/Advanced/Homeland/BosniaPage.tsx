@@ -13,10 +13,10 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonSlide,
   IonSlides,
+  IonText,
 } from "@ionic/react";
 import React from "react";
 import { Progress } from "../../../components/common/Progress";
@@ -56,94 +56,107 @@ export const BosniaPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-        <IonSlides>
-          <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
-              <IonGrid className="ion-text-left">
-                <IonRow>
-                  <IonCol size="6">
-                    <IonChip color="purple" style={{ marginLeft: "0px" }}>
-                      {translationService.getLabel(
-                        "label-book3-lesson12_section1-header"
-                      )}
-                    </IonChip>
-                  </IonCol>
-                  <IonCol size="6">
-                    <Progress currentValue={1} maxValue={3} color="purple" />
-                  </IonCol>
-                </IonRow>
+          <IonSlides>
+            <IonSlide>
+              <IonItem detail={false} color="light" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="purple" style={{ marginLeft: "0px" }}>
+                        {translationService.getLabel(
+                          "label-book3-lesson12_section1-header"
+                        )}
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress currentValue={1} maxValue={3} color="purple" />
+                    </IonCol>
+                  </IonRow>
 
-                <IonRow>
-                  <IonCol size="12">
-                    <IonNote>
-                      {translationService.getLabel(
-                        "label-book3-lesson13_section1-paragraph1"
-                      )}
-                    </IonNote>
-                  </IonCol>
-                </IonRow>
-              </IonGrid>
-            </IonItem>
-          </IonSlide>
-          <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
-              <IonGrid className="ion-text-left">
-                <IonRow>
-                  <IonCol size="6">
-                    <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                      {translationService.getLabel(
-                        "label-book3-lesson13_section2-header"
-                      )}
-                    </IonChip>
-                  </IonCol>
-                  <IonCol size="6">
-                    <Progress currentValue={2} maxValue={3} color="burgundy" />
-                  </IonCol>
-                </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson13_section1-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+              </IonItem>
+            </IonSlide>
+            <IonSlide>
+              <IonItem detail={false} color="light" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
+                        {translationService.getLabel(
+                          "label-book3-lesson13_section2-header"
+                        )}
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress
+                        currentValue={2}
+                        maxValue={3}
+                        color="burgundy"
+                      />
+                    </IonCol>
+                  </IonRow>
 
-                <IonRow>
-                  <IonCol size="12">
-                    <IonNote>
-                      {translationService.getLabel(
-                        "label-book3-lesson13_section2-paragraph1"
-                      )}
-                    </IonNote>
-                  </IonCol>
-                </IonRow>
-              </IonGrid>
-            </IonItem>
-          </IonSlide>
-          <IonSlide>
-            <IonItem detail={false} color="light" lines="none">
-              <IonGrid className="ion-text-left">
-                <IonRow>
-                  <IonCol size="6">
-                    <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                      {translationService.getLabel(
-                        "label-book3-lesson13_section1-header"
-                      )}
-                    </IonChip>
-                  </IonCol>
-                  <IonCol size="6">
-                    <Progress currentValue={3} maxValue={3} color="burgundy" />
-                  </IonCol>
-                </IonRow>
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson13_section2-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+              </IonItem>
+            </IonSlide>
+            <IonSlide>
+              <IonItem detail={false} color="light" lines="none">
+                <IonGrid className="ion-text-left">
+                  <IonRow>
+                    <IonCol size="6">
+                      <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
+                        {translationService.getLabel(
+                          "label-book3-lesson13_section1-header"
+                        )}
+                      </IonChip>
+                    </IonCol>
+                    <IonCol size="6">
+                      <Progress
+                        currentValue={3}
+                        maxValue={3}
+                        color="burgundy"
+                      />
+                    </IonCol>
+                  </IonRow>
 
-                <IonRow>
-                  <IonCol size="12">
-                    <IonNote>
-                      {translationService.getLabel(
-                        "label-book3-lesson13_section3-paragraph1"
-                      )}
-                    </IonNote>
-                  </IonCol>
-                </IonRow>
-              </IonGrid>
-            </IonItem>
-          </IonSlide>
-        </IonSlides>
+                  <IonRow>
+                    <IonCol size="12">
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson13_section3-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
+                    </IonCol>
+                  </IonRow>
+                </IonGrid>
+              </IonItem>
+            </IonSlide>
+          </IonSlides>
         </div>
-        
       </IonContent>
     </IonPage>
   );

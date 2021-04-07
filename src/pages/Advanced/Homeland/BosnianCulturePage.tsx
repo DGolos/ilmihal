@@ -13,10 +13,10 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonSlide,
   IonSlides,
+  IonText,
 } from "@ionic/react";
 import React from "react";
 import { Progress } from "../../../components/common/Progress";
@@ -75,7 +75,7 @@ export const BosnianCulturePage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
                         <h2 className="lesson-note">
                           {translationService.getLabel(
                             "label-book3-lesson15_section1-paragraph1"
@@ -86,7 +86,7 @@ export const BosnianCulturePage: React.FC = () => {
                             "label-book3-lesson15_section1-paragraph2"
                           )}
                         </h2>
-                      </IonNote>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -110,13 +110,13 @@ export const BosnianCulturePage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
                         <h2 className="lesson-note">
                           {translationService.getLabel(
                             "label-book3-lesson15_section2-paragraph1"
                           )}
                         </h2>
-                      </IonNote>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -140,7 +140,7 @@ export const BosnianCulturePage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
                         <h2 className="lesson-note">
                           {translationService.getLabel(
                             "label-book3-lesson15_section3-paragraph1"
@@ -151,7 +151,7 @@ export const BosnianCulturePage: React.FC = () => {
                             "label-book3-lesson15_section3-paragraph2"
                           )}
                         </h2>
-                      </IonNote>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -175,7 +175,7 @@ export const BosnianCulturePage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
                         <h2 className="lesson-note">
                           {translationService.getLabel(
                             "label-book3-lesson15_section4-paragraph1"
@@ -201,7 +201,7 @@ export const BosnianCulturePage: React.FC = () => {
                             "label-book3-lesson15_section5-paragraph4"
                           )}
                         </h2>
-                      </IonNote>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -225,7 +225,7 @@ export const BosnianCulturePage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
                         <h2 className="lesson-note">
                           {translationService.getLabel(
                             "label-book3-lesson15_section5-paragraph1"
@@ -236,7 +236,7 @@ export const BosnianCulturePage: React.FC = () => {
                             "label-book3-lesson15_section5-paragraph2"
                           )}
                         </h2>
-                      </IonNote>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>

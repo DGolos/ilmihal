@@ -59,10 +59,10 @@ export const SupplicationValuePage: React.FC = () => {
         <div className="ion-padding">
           <IonItem detail={false} color="light" lines="none">
             <IonText>
-            <h2 className="lesson-note">
-              {translationService.getLabel(
-                "label-book3-lesson16_section1-paragraph1"
-              )}
+              <h2 className="lesson-note">
+                {translationService.getLabel(
+                  "label-book3-lesson16_section1-paragraph1"
+                )}
               </h2>
             </IonText>
           </IonItem>

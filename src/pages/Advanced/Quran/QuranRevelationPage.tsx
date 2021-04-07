@@ -15,7 +15,6 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonText,
 } from "@ionic/react";

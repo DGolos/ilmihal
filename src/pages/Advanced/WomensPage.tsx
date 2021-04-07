@@ -11,11 +11,11 @@ import {
   IonGrid,
   IonHeader,
   IonItem,
-  IonNote,
   IonPage,
   IonRow,
   IonSlide,
   IonSlides,
+  IonText,
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
@@ -79,11 +79,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section1-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section1-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -111,11 +113,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section2-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section2-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -143,11 +147,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section3-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section3-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -175,11 +181,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section4-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section4-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -207,11 +215,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section5-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section5-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -239,11 +249,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section6-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section6-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -271,11 +283,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section7-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section7-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -303,11 +317,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section8-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section8-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -335,11 +351,13 @@ export const WomensPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson6_section9-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson6_section9-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>

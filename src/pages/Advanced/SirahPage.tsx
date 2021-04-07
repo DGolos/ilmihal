@@ -15,7 +15,6 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonText,
 } from "@ionic/react";
@@ -70,21 +69,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={1}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={1} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section1-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section1-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -102,21 +99,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={2}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={2} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section2-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section2-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -134,21 +129,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={3}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={3} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section3-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section3-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -166,21 +159,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={4}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={4} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section4-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section4-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -198,21 +189,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={5}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={5} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section5-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section5-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -230,21 +219,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={6}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={6} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section6-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section6-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -262,21 +249,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={7}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={7} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section7-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section7-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -294,21 +279,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={8}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={8} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section8-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section8-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -326,21 +309,19 @@ export const SirahPage: React.FC = () => {
                       </IonChip>
                     </IonCol>
                     <IonCol size="6">
-                      <Progress
-                        currentValue={9}
-                        maxValue={13}
-                        color="purple"
-                      />
+                      <Progress currentValue={9} maxValue={13} color="purple" />
                     </IonCol>
                   </IonRow>
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section9-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section9-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -368,11 +349,13 @@ export const SirahPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section10-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section10-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -400,8 +383,8 @@ export const SirahPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                    <IonText>
-                      <h2 className="lesson-note">
+                      <IonText>
+                        <h2 className="lesson-note">
                           {translationService.getLabel(
                             "label-book3-lesson14_section11-paragraph1"
                           )}
@@ -460,7 +443,7 @@ export const SirahPage: React.FC = () => {
                   <IonRow>
                     <IonCol size="12">
                       <IonText>
-                      <h2 className="lesson-note">
+                        <h2 className="lesson-note">
                           {translationService.getLabel(
                             "label-book3-lesson14_section12-paragraph1"
                           )}
@@ -518,11 +501,13 @@ export const SirahPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson14_section13-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson14_section13-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>

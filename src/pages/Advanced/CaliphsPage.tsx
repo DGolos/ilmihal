@@ -11,11 +11,11 @@ import {
   IonGrid,
   IonHeader,
   IonItem,
-  IonNote,
   IonPage,
   IonRow,
   IonSlide,
   IonSlides,
+  IonText,
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
@@ -28,7 +28,7 @@ export const CaliphsPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="purple" defaultHref="/CompanionsPage"/>
+            <IonBackButton color="purple" defaultHref="/CompanionsPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -75,11 +75,13 @@ export const CaliphsPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson4_section1-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson4_section1-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -103,11 +105,13 @@ export const CaliphsPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson4_section2-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson4_section2-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -131,11 +135,13 @@ export const CaliphsPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson4_section3-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson4_section3-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -159,11 +165,13 @@ export const CaliphsPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson4_section4-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson4_section4-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -187,11 +195,13 @@ export const CaliphsPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book3-lesson4_section5-paragraph1"
-                        )}
-                      </IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book3-lesson4_section5-paragraph1"
+                          )}
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
