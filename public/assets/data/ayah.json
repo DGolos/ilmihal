@@ -27,13 +27,13 @@
         "id":5,
         "surahId":1,
         "arabic":"إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
-        "transliteration":"Ijjake na'budu ve ijjake neste'in"
+        "transliteration":"ijjake na'budu ve ijjake neste'in"
     },
     {
         "id":6,
         "surahId":1,
         "arabic":"ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
-        "transliteration":"Ihdine-s-siratal mustakim"
+        "transliteration":"ihdine-s-siratal mustakim"
     },
     {
         "id":7,
@@ -183,7 +183,7 @@
         "id":164,
         "surahId":2,
         "arabic":"إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَٱلْفُلْكِ ٱلَّتِى تَجْرِى فِى ٱلْبَحْرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٍۢ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍۢ وَتَصْرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلْمُسَخَّرِ بَيْنَ ٱلسَّمَآءِ وَٱلْأَرْضِ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَعْقِلُونَ",
-        "transliteration":"Inne fi halki-ssemavati ve-l-'erdi va htilafi-llejli ve-nnehari ve-lfulki-lleti tedžri fi-l-bahri bima jenfe'u-nnase ve ma enzela-llahu mine-ssemai mim main fe ahja bihi-l-'erda ba'de mevtiha ve besse fiha min kulli dabbetin ve tasrifi-rrijahi ve-ssehabi-l-musahhari bejne-ssemai ve-l-'erdi le ajatin li kavmin ja'kilun"
+        "transliteration":"inne fi halki-ssemavati ve-l-'erdi va htilafi-llejli ve-nnehari ve-lfulki-lleti tedžri fi-l-bahri bima jenfe'u-nnase ve ma enzela-llahu mine-ssemai mim main fe ahja bihi-l-'erda ba'de mevtiha ve besse fiha min kulli dabbetin ve tasrifi-rrijahi ve-ssehabi-l-musahhari bejne-ssemai ve-l-'erdi le ajatin li kavmin ja'kilun"
     },
 
     {
@@ -241,7 +241,7 @@
         "id":5,
         "surahId":3,
         "arabic":"إِنَّ ٱللَّهَ لَا يَخْفَىٰ عَلَيْهِ شَىْءٌ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
-        "transliteration":"Inne-llahe la jahfa 'alejhi šej'um fi-l-'erdi ve la fi-ssema'"
+        "transliteration":"inne-llahe la jahfa 'alejhi šej'um fi-l-'erdi ve la fi-ssema'"
     },
     {
         "id":6,
@@ -260,7 +260,7 @@
         "id":19,
         "surahId":3,
         "arabic":"إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَٰمُ ۗ وَمَا ٱخْتَلَفَ ٱلَّذِينَ أُوتُوا ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِـَٔايَٰتِ ٱللَّهِ فَإِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
-        "transliteration":"Inne-ddine 'inda-llahil 'islamu ve ma-htelefe-llezine utu-l-kitabe illa mem ba'di ma džaehumu-l-'ilmu bagjem bejnehum ve men jekfur bi ajati-llahi fe inna-llahe seriu-l-hisab"
+        "transliteration":"inne-ddine 'inda-llahil 'islamu ve ma-htelefe-llezine utu-l-kitabe illa mem ba'di ma džaehumu-l-'ilmu bagjem bejnehum ve men jekfur bi ajati-llahi fe inna-llahe seriu-l-hisab"
     },
 
     {
@@ -273,7 +273,7 @@
         "id":190,
         "surahId":3,
         "arabic":"إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَءَايَٰتٍۢ لِّأُولِى ٱلْأَلْبَٰبِ",
-        "transliteration":"Inne fi halki-ssemavati ve-l-'erdi va-htilafi-llejli ve-nnehari le ajatin li uli-l-elbab"
+        "transliteration":"inne fi halki-ssemavati ve-l-'erdi va-htilafi-llejli ve-nnehari le ajatin li uli-l-elbab"
     },
     {
         "id":191,
@@ -316,7 +316,7 @@
         "id":40,
         "surahId":4,
         "arabic":"إِنَّ ٱللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍۢ ۖ وَإِن تَكُ حَسَنَةً يُضَٰعِفْهَا وَيُؤْتِ مِن لَّدُنْهُ أَجْرًا عَظِيمًۭا",
-        "transliteration":"Inne-llahe la jazlimu miskale zerretin ve in teku haseneten juda'ifha ve ju'ti min ledunhu edžran 'azima"
+        "transliteration":"inne-llahe la jazlimu miskale zerretin ve in teku haseneten juda'ifha ve ju'ti min ledunhu edžran 'azima"
     },
     {
         "id":41,
@@ -329,7 +329,7 @@
         "id":95,
         "surahId":6,
         "arabic":"۞ إِنَّ ٱللَّهَ فَالِقُ ٱلْحَبِّ وَٱلنَّوَىٰ ۖ يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَمُخْرِجُ ٱلْمَيِّتِ مِنَ ٱلْحَىِّ ۚ ذَٰلِكُمُ ٱللَّهُ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
-        "transliteration":"Inna-llahe faliku--habbi ve-nneva juhridžu-l-hajje mine-l-mejjiti ve muhridžu-l-mejjiti mie-l-hajji zalikumu-llahu fe enna tu'fekun"
+        "transliteration":"inna-llahe faliku--habbi ve-nneva juhridžu-l-hajje mine-l-mejjiti ve muhridžu-l-mejjiti mie-l-hajji zalikumu-llahu fe enna tu'fekun"
     },
     {
         "id":96,
@@ -438,7 +438,7 @@
         "id":11,
         "surahId":11,
         "arabic":"إِلَّا ٱلَّذِينَ صَبَرُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ أُولَٰٓئِكَ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌۭ",
-        "transliteration":"Ille-llezine saberu ve 'amilu-ssalihati ulaike lehum megfiretun ve edžrum kebir"
+        "transliteration":"ille-llezine saberu ve 'amilu-ssalihati ulaike lehum megfiretun ve edžrum kebir"
     },
 
     {
@@ -530,13 +530,13 @@
         "id":99,
         "surahId":16,
         "arabic":"إِنَّهُۥ لَيْسَ لَهُۥ سُلْطَٰنٌ عَلَى ٱلَّذِينَ ءَامَنُوا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
-        "transliteration":"Innehu lejse lehu sultanun 'ale-llezine va 'ala rabbihim jetevekkelun"
+        "transliteration":"innehu lejse lehu sultanun 'ale-llezine va 'ala rabbihim jetevekkelun"
     },
     {
         "id":100,
         "surahId":16,
         "arabic":"إِنَّمَا سُلْطَٰنُهُۥ عَلَى ٱلَّذِينَ يَتَوَلَّوْنَهُۥ وَٱلَّذِينَ هُم بِهِۦ مُشْرِكُونَ",
-        "transliteration":"Innema sultanuhu 'ale-llezine jetevellevnehu ve-llezine hum bihi mušrikun"
+        "transliteration":"innema sultanuhu 'ale-llezine jetevellevnehu ve-llezine hum bihi mušrikun"
     },
 
     {
@@ -567,7 +567,7 @@
         "id":27,
         "surahId":17,
         "arabic":"إِنَّ ٱلْمُبَذِّرِينَ كَانُوٓا إِخْوَٰنَ ٱلشَّيَٰطِينِ ۖ وَكَانَ ٱلشَّيْطَٰنُ لِرَبِّهِۦ كَفُورًۭا",
-        "transliteration":"Inne-l-mubezzirine kanu ihvane-ššejtani ve kane-ššejtanu lirabbihi kefura"
+        "transliteration":"inne-l-mubezzirine kanu ihvane-ššejtani ve kane-ššejtanu lirabbihi kefura"
     },
     {
         "id":28,
@@ -585,7 +585,7 @@
         "id":30,
         "surahId":17,
         "arabic":"إِنَّ رَبَّكَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًۭا",
-        "transliteration":"Inne rabbeke jebsutu-rrizka limen ješau ve jakdiru innehu kane bi 'badihi habiren besira"
+        "transliteration":"inne rabbeke jebsutu-rrizka limen ješau ve jakdiru innehu kane bi 'badihi habiren besira"
     },
     {
         "id":31,
@@ -682,7 +682,7 @@
         "id":7,
         "surahId":18,
         "arabic":"إِنَّا جَعَلْنَا مَا عَلَى ٱلْأَرْضِ زِينَةً لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًۭا",
-        "transliteration":"Inna dže'alna ma 'ale-l-'erdi zineten leha linebluvehum ejjuhum ahsenu 'amela"
+        "transliteration":"inna dže'alna ma 'ale-l-'erdi zineten leha linebluvehum ejjuhum ahsenu 'amela"
     },
     {
         "id":8,
@@ -700,7 +700,7 @@
         "id":10,
         "surahId":18,
         "arabic":"إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
-        "transliteration":"Iz eve-l-fitjetu ile-l-kehfi fe kalu rabbena atina min ledunke rahmeten ve lejji lena min emrina rešeda"
+        "transliteration":"iz eve-l-fitjetu ile-l-kehfi fe kalu rabbena atina min ledunke rahmeten ve lejji lena min emrina rešeda"
     },
 
     {
@@ -761,7 +761,7 @@
         "id":20,
         "surahId":18,
         "arabic":"إِنَّهُمْ إِن يَظْهَرُوا عَلَيْكُمْ يَرْجُمُوكُمْ أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا إِذًا أَبَدًا",
-        "transliteration":"Innehum in jazheru 'alejkum jerdžumukum ev ju'idukum fi milletihim ve len tuhlifu izen ebeda"
+        "transliteration":"innehum in jazheru 'alejkum jerdžumukum ev ju'idukum fi milletihim ve len tuhlifu izen ebeda"
     },
 
     {
@@ -786,7 +786,7 @@
         "id":24,
         "surahId":18,
         "arabic":"إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَٰذَا رَشَدًا",
-        "transliteration":"Illa en ješaa-llahu ve-zkur rabbeke iza nesite ve kul'asa en jehdijeni rabbi liakrebe min haza rešeda"
+        "transliteration":"illa en ješaa-llahu ve-zkur rabbeke iza nesite ve kul'asa en jehdijeni rabbi liakrebe min haza rešeda"
     },
     {
         "id":25,
@@ -822,7 +822,7 @@
         "id":30,
         "surahId":18,
         "arabic":"إِنَّ ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ إِنَّا لَا نُضِيعُ أَجْرَ مَنْ أَحْسَنَ عَمَلً",
-        "transliteration":"Inne-llezine amenu ve 'amilu-ssalihati inna la nudi'u edžre men ahsene 'amela"
+        "transliteration":"inne-llezine amenu ve 'amilu-ssalihati inna la nudi'u edžre men ahsene 'amela"
     },
     {
         "id":31,
@@ -1149,7 +1149,7 @@
         "id":84,
         "surahId":18,
         "arabic":"إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًا",
-        "transliteration":"Inna maekkenna lehu fi-l'erdi ve atejnahu min kulli šej'in sebeba"
+        "transliteration":"inna maekkenna lehu fi-l'erdi ve atejnahu min kulli šej'in sebeba"
     },
     {
         "id":85,
@@ -1290,7 +1290,7 @@
         "id":107,
         "surahId":18,
         "arabic":"إِنَّ ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ كَانَتْ لَهُمْ جَنَّٰتُ ٱلْفِرْدَوْسِ نُزُلًا",
-        "transliteration":"Inne-llezine amenu ve 'amilu-ssalihati kanet lehum dženatu-l-firdevsi nuzula"
+        "transliteration":"inne-llezine amenu ve 'amilu-ssalihati kanet lehum dženatu-l-firdevsi nuzula"
     },
     {
         "id":108,
@@ -1346,7 +1346,7 @@
         "id":6,
         "surahId":23,
         "arabic":"إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
-        "transliteration":"Illa 'ala ezvadžihim ev ma meleket ejmanuhum fe innehum gajru melumin"
+        "transliteration":"illa 'ala ezvadžihim ev ma meleket ejmanuhum fe innehum gajru melumin"
     },
     {
         "id":7,
@@ -1451,7 +1451,7 @@
         "id":8,
         "surahId":31,
         "arabic":"إِنَّ ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ لَهُمْ جَنَّٰتُ ٱلنَّعِيمِ",
-        "transliteration":"Inne-llezine amenu ve 'amilu-ssalihati lehum džennatu-nne'im"
+        "transliteration":"inne-llezine amenu ve 'amilu-ssalihati lehum džennatu-nne'im"
     },
     {
         "id":9,
@@ -1611,7 +1611,7 @@
         "id":34,
         "surahId":31,
         "arabic":"إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍۢ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
-        "transliteration":"Inna-llahe 'indehu 'ilmu-ssa'ati ve junezzilu-l-gajse ve ja'lemu ma fi-l-erhami va ma tedri nefsun maza teksibu gaden ve ma tedri nefsun bi ejji erdin temutu inna-llahe 'alimun habir"
+        "transliteration":"inna-llahe 'indehu 'ilmu-ssa'ati ve junezzilu-l-gajse ve ja'lemu ma fi-l-erhami va ma tedri nefsun maza teksibu gaden ve ma tedri nefsun bi ejji erdin temutu inna-llahe 'alimun habir"
     },
     {
         "id":1,
@@ -1653,7 +1653,7 @@
         "id":7,
         "surahId":32,
         "arabic":"ٱلَّذِىٓ أَحْسَنَ كُلَّ شَىْءٍ خَلَقَهُۥ ۖ وَبَدَأَ خَلْقَ ٱلْإِنسَٰنِ مِن طِينٍ",
-        "transliteration":"Ellejli izāEllezi ahsane kulle šej'in halekahu ve bed'e halka-l-insani min tin"
+        "transliteration":"Ellejli izaEllezi ahsane kulle šej'in halekahu ve bed'e halka-l-insani min tin"
     },
     {
         "id":8,
@@ -1701,7 +1701,7 @@
         "id":15,
         "surahId":32,
         "arabic":"إِنَّمَا يُؤْمِنُ بِـَٔايَٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا بِهَا خَرُّوا سُجَّدًا وَسَبَّحُوا بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ ۩",
-        "transliteration":"Innema ju'minu bi ajatine-llezine iza zukkiru biha harru sudždžeden"
+        "transliteration":"innema ju'minu bi ajatine-llezine iza zukkiru biha harru sudždžeden"
     },
     {
         "id":16,
@@ -1761,7 +1761,7 @@
         "id":25,
         "surahId":32,
         "arabic":"إِنَّ رَبَّكَ هُوَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ",
-        "transliteration":"Inne rabbeke huve jefsilu bejnehum jevme-l-kijameti fima kanu fihi jahtelifun"
+        "transliteration":"inne rabbeke huve jefsilu bejnehum jevme-l-kijameti fima kanu fihi jahtelifun"
     },
     {
         "id":26,
@@ -1798,7 +1798,7 @@
         "id":35,
         "surahId":33,
         "arabic":"إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَٰتِ وَٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَٱلْقَٰنِتِينَ وَٱلْقَٰنِتَٰتِ وَٱلصَّٰدِقِينَ وَٱلصَّٰدِقَٰتِ وَٱلصَّٰبِرِينَ وَٱلصَّٰبِرَٰتِ وَٱلْخَٰشِعِينَ وَٱلْخَٰشِعَٰتِ وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَٰتِ وَٱلصَّٰٓئِمِينَ وَٱلصَّٰٓئِمَٰتِ وَٱلْحَٰفِظِينَ فُرُوجَهُمْ وَٱلْحَٰفِظَٰتِ وَٱلذَّٰكِرِينَ ٱللَّهَ كَثِيرًا وَٱلذَّٰكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا",
-        "transliteration":"Inne-l-muslimine ve-l-muslimati ve-l-mu'minine ve-l-mu'minati ve-l-kanitine ve-l-kanitati ve-ssadikine ve-ssadikati ve-l- haš'ine ve-h-haš'iati ve-l-mutesaddikine ve-l-mutessadikati ve-ssaimine ve-ssaimati ve-l-hafizine ve-l-hafizati furudžehum ve-l-hafizati ve-zzakirina-llahe kesiren ve-zzakirati e'adda-llahu lehum magfireten ve edžren azima"
+        "transliteration":"inne-l-muslimine ve-l-muslimati ve-l-mu'minine ve-l-mu'minati ve-l-kanitine ve-l-kanitati ve-ssadikine ve-ssadikati ve-l- haš'ine ve-h-haš'iati ve-l-mutesaddikine ve-l-mutessadikati ve-ssaimine ve-ssaimati ve-l-hafizine ve-l-hafizati furudžehum ve-l-hafizati ve-zzakirina-llahe kesiren ve-zzakirati e'adda-llahu lehum magfireten ve edžren azima"
     },
 
     {
@@ -1817,7 +1817,7 @@
         "id":3,
         "surahId":36,
         "arabic":"إِنَّكَ لَمِنَ ٱلْمُرْسَلِينَ",
-        "transliteration":"Inneke lemine-l-murselin"
+        "transliteration":"inneke lemine-l-murselin"
     },
     {
         "id":4,
@@ -1847,7 +1847,7 @@
         "id":8,
         "surahId":36,
         "arabic":"إِنَّا جَعَلْنَا فِىٓ أَعْنَٰقِهِمْ أَغْلَٰلًا فَهِىَ إِلَى ٱلْأَذْقَانِ فَهُم مُّقْمَحُونَ",
-        "transliteration":"Inna dže'alna fi a'nakihim aglalen fe hije ile-l-ezkani fehum mukmehun"
+        "transliteration":"inna dže'alna fi a'nakihim aglalen fe hije ile-l-ezkani fehum mukmehun"
     },
     {
         "id":9,
@@ -1865,13 +1865,13 @@
         "id":11,
         "surahId":36,
         "arabic":"إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍۢ وَأَجْرٍۢ كَرِيمٍ",
-        "transliteration":"Innema tunziru meni-ttebe'a-zzikre ve hašije-rrahmane bi-l-gajbi fe bešširhu bimagfiretin ve edžrin kerim"
+        "transliteration":"innema tunziru meni-ttebe'a-zzikre ve hašije-rrahmane bi-l-gajbi fe bešširhu bimagfiretin ve edžrin kerim"
     },
     {
         "id":12,
         "surahId":36,
         "arabic":"إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا وَءَاثَٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍۢ مُّبِينٍۢ",
-        "transliteration":"Inna nahnu nuhji-l-mevta ve nektubu ma kaddemu ve asarehum ve kulle šej'in ahsajnahu fi imamin mubin"
+        "transliteration":"inna nahnu nuhji-l-mevta ve nektubu ma kaddemu ve asarehum ve kulle šej'in ahsajnahu fi imamin mubin"
     },
     {
         "id":13,
@@ -1883,7 +1883,7 @@
         "id":14,
         "surahId":36,
         "arabic":"إِذْ أَرْسَلْنَآ إِلَيْهِمُ ٱثْنَيْنِ فَكَذَّبُوهُمَا فَعَزَّزْنَا بِثَالِثٍۢ فَقَالُوٓا إِنَّآ إِلَيْكُم مُّرْسَلُونَ",
-        "transliteration":"Iz erselna ilejhimu-snejni fe kezzebuhuma fe'azzezna bisalisin fe kalu inna ilejkum murselun"
+        "transliteration":"iz erselna ilejhimu-snejni fe kezzebuhuma fe'azzezna bisalisin fe kalu inna ilejkum murselun"
     },
     {
         "id":15,
@@ -1925,7 +1925,7 @@
         "id":21,
         "surahId":36,
         "arabic":"ٱتَّبِعُوا مَن لَّا يَسْـَٔلُكُمْ أَجْرًا وَهُم مُّهْتَدُونَ",
-        "transliteration":"Ittebi'u men la jese'lukum edžren ve hum muhtedun"
+        "transliteration":"ittebi'u men la jese'lukum edžren ve hum muhtedun"
     },
     {
         "id":22,
@@ -1943,13 +1943,13 @@
         "id":24,
         "surahId":36,
         "arabic":"إِنِّىٓ إِذًا لَّفِى ضَلَٰلٍۢ مُّبِينٍ",
-        "transliteration":"Inni izen lefi dalalin mubin"
+        "transliteration":"inni izen lefi dalalin mubin"
     },
     {
         "id":25,
         "surahId":36,
         "arabic":"إِنِّىٓ ءَامَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ",
-        "transliteration":"Inni amentu birabbikum fe-sme'un"
+        "transliteration":"inni amentu birabbikum fe-sme'un"
     },
     {
         "id":26,
@@ -1973,7 +1973,7 @@
         "id":29,
         "surahId":36,
         "arabic":"إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ خَٰمِدُونَ",
-        "transliteration":"In kanet ille sahjaten vadideten fe iza hum hamidun"
+        "transliteration":"in kanet ille sahjaten vadideten fe iza hum hamidun"
     },
     {
         "id":30,
@@ -2064,7 +2064,7 @@
         "id":44,
         "surahId":36,
         "arabic":"إِلَّا رَحْمَةً مِّنَّا وَمَتَٰعًا إِلَىٰ حِينٍۢ",
-        "transliteration":"Illa rahmeten minna ve meta'an ila hin"
+        "transliteration":"illa rahmeten minna ve meta'an ila hin"
     },
     {
         "id":45,
@@ -2118,7 +2118,7 @@
         "id":53,
         "surahId":36,
         "arabic":"إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
-        "transliteration":"In kanet ille sajheten vahideten fe iza hum džemi'un ledejna muhdarun"
+        "transliteration":"in kanet ille sajheten vahideten fe iza hum džemi'un ledejna muhdarun"
     },
     {
         "id":54,
@@ -2130,7 +2130,7 @@
         "id":55,
         "surahId":36,
         "arabic":"إِنَّ أَصْحَٰبَ ٱلْجَنَّةِ ٱلْيَوْمَ فِى شُغُلٍۢ فَٰكِهُونَ",
-        "transliteration":"Inne ashame-l-dženneti-l-jevme fi šugulin fakihun"
+        "transliteration":"inne ashame-l-dženneti-l-jevme fi šugulin fakihun"
     },
     {
         "id":56,
@@ -2184,7 +2184,7 @@
         "id":64,
         "surahId":36,
         "arabic":"ٱصْلَوْهَا ٱلْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ",
-        "transliteration":"Islevhe-l-jevme bima kuntum tekfurun"
+        "transliteration":"islevhe-l-jevme bima kuntum tekfurun"
     },
     {
         "id":65,
@@ -2292,7 +2292,7 @@
         "id":82,
         "surahId":36,
         "arabic":"إِنَّمَآ أَمْرُهُۥٓ إِذَآ أَرَادَ شَيْـًٔا أَن يَقُولَ لَهُۥ كُن فَيَكُونُ",
-        "transliteration":"Innema emruhu iza erade šej'en en jekule lehu kun fejekun"
+        "transliteration":"innema emruhu iza erade šej'en en jekule lehu kun fejekun"
     },
     {
         "id":83,
@@ -2394,7 +2394,7 @@
         "id":7,
         "surahId":67,
         "arabic":"إِذَآ أُلْقُوا فِيهَا سَمِعُوا لَهَا شَهِيقًا وَهِىَ تَفُورُ",
-        "transliteration":"Iza ulku fiha semi'u leha šehikan ve hije tefur"
+        "transliteration":"iza ulku fiha semi'u leha šehikan ve hije tefur"
     },
     {
         "id":8,
@@ -2412,7 +2412,7 @@
         "id":10,
         "surahId":67,
         "arabic":"وَقَالُوا لَوْ كُنَّا نَسْمَع أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَٰبِ ٱلسَّعِيرِ",
-        "translation":"I reći će: \"Da smo slušali ili razmišljali, ne bismo među stanovnicima Džehennema bili!\"",
+        "translation":"i reći će: \"Da smo slušali ili razmišljali, ne bismo među stanovnicima Džehennema bili!\"",
         "transliteration":"Ve kalu lev kunna nesme'u ev na'kilu ma kunna fi ashabi-sse'ir"
     },
     {
@@ -2425,7 +2425,7 @@
         "id":12,
         "surahId":67,
         "arabic":"إِنَّ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
-        "transliteration":"Inne-llezine jahševne rabbehum bi-l-gajbi lehum magfiretun ve edžrun kebir"
+        "transliteration":"inne-llezine jahševne rabbehum bi-l-gajbi lehum magfiretun ve edžrun kebir"
     },
     {
         "id":13,
@@ -2541,67 +2541,67 @@
         "id":1,
         "surahId":93,
         "arabic":"وَٱلضُّحَىٰ",
-        "transliteration":"Vedduhā"
+        "transliteration":"Vedduha"
     },
     {
         "id":2,
         "surahId":93,
         "arabic":"وَٱلَّيْلِ إِذَا سَجَىٰ",
-        "transliteration":"Vellejli izā sedžā"
+        "transliteration":"Vellejli iza sedža"
     },
     {
         "id":3,
         "surahId":93,
         "arabic":"مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
-        "transliteration":"Mā vedde'ke rabbuke ve mā kalā"
+        "transliteration":"Ma vedde'ke rabbuke ve ma kala"
     },
     {
         "id":4,
         "surahId":93,
         "arabic":"وَلَلْءَاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
-        "transliteration":"Ve lel-āhiretu hajrun leke minell-ūlā"
+        "transliteration":"Ve lel-ahiretu hajrun leke minell-ula"
     },
     {
         "id":5,
         "surahId":93,
         "arabic":"وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
-        "transliteration":"Ve lesevfe ju'tike rabbuke feterdā"
+        "transliteration":"Ve lesevfe ju'tike rabbuke feterda"
     },
     {
         "id":6,
         "surahId":93,
         "arabic":"أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
-        "transliteration":"Elem jedžidke jetimen fe-'āvā"
+        "transliteration":"Elem jedžidke jetimen fe-'ava"
     },
     {
         "id":7,
         "surahId":93,
         "arabic":"وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
-        "transliteration":"Ve vedžeddeke dāllen fehedā"
+        "transliteration":"Ve vedžeddeke dallen feheda"
     },
     {
         "id":8,
         "surahId":93,
         "arabic":"وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
-        "transliteration":"Ve vedžeddeke 'ā-ilen fe agnā"
+        "transliteration":"Ve vedžeddeke 'a-ilen fe agna"
     },
     {
         "id":9,
         "surahId":93,
         "arabic":"فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
-        "transliteration":"Fe emmel-jetime felā takher"
+        "transliteration":"Fe emmel-jetime fela takher"
     },
     {
         "id":10,
         "surahId":93,
         "arabic":"وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
-        "transliteration":"Ve emmessa-ile felā tenher"
+        "transliteration":"Ve emmessa-ile fela tenher"
     },
     {
         "id":11,
         "surahId":93,
         "arabic":"وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
-        "transliteration":"Ve emmā bini'meti rabbike fehaddis"
+        "transliteration":"Ve emma bini'meti rabbike fehaddis"
     },
 
     {
@@ -2614,98 +2614,98 @@
         "id":2,
         "surahId":94,
         "arabic":"وَوَضَعْنَا عَنكَ وِزْرَكَ",
-        "transliteration":"Ve veda'naā 'anke vizrek"
+        "transliteration":"Ve veda'naa 'anke vizrek"
     },
     {
         "id":3,
         "surahId":94,
         "arabic":"ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
-        "transliteration":"Ellezī enkada zahrek"
+        "transliteration":"Ellezi enkada zahrek"
     },
     {
         "id":4,
         "surahId":94,
         "arabic":"وَرَفَعْنَا لَكَ ذِكْرَكَ",
-        "transliteration":"Ve refa'nā leke zikrek"
+        "transliteration":"Ve refa'na leke zikrek"
     },
     {
         "id":5,
         "surahId":94,
         "arabic":"فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
-        "transliteration":"Ve lesevfe ju'tike rabbuke feterdā"
+        "transliteration":"Ve lesevfe ju'tike rabbuke feterda"
     },
     {
         "id":6,
         "surahId":94,
         "arabic":"إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
-        "transliteration":"Inne me'al-'usri jusrā"
+        "transliteration":"inne me'al-'usri jusra"
     },
     {
         "id":7,
         "surahId":94,
         "arabic":"فَإِذَا فَرَغْتَ فَٱنصَبْ",
-        "transliteration":"Fe-izā feragte fensab"
+        "transliteration":"Fe-iza feragte fensab"
     },
     {
         "id":8,
         "surahId":94,
         "arabic":"وَإِلَىٰ رَبِّكَ فَٱرْغَب",
-        "transliteration":"Ve ilā rabbike fergab"
+        "transliteration":"Ve ila rabbike fergab"
     },
     {
         "id":1,
         "surahId":95,
         "arabic":"حِيمِ وَٱلتِّينِ وَٱلزَّ",
-        "transliteration":"Vettīni vezzejtūn"
+        "transliteration":"Vettīni vezzejtun"
     },
     {
         "id":2,
         "surahId":95,
         "arabic":"وَطُورِ سِينِينَ",
-        "transliteration":"Ve tūri sīnīn"
+        "transliteration":"Ve turi sinin"
     },
     {
         "id":3,
         "surahId":95,
         "arabic":"وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
-        "transliteration":"Ve hāzel-beledil-emīn"
+        "transliteration":"Ve hazel-beledil-emin"
     },
     {
         "id":4,
         "surahId":95,
         "arabic":"لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ",
-        "transliteration":"Lekad heleknel-insāne fi ahseni tekvīm"
+        "transliteration":"Lekad heleknel-insane fi ahseni tekvim"
     },
     {
         "id":5,
         "surahId":95,
         "arabic":"ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ",
-        "transliteration":"Summe redednāhu es-fele sāfilīn"
+        "transliteration":"Summe redednahu es-fele safilin"
     },
     {
         "id":6,
         "surahId":95,
         "arabic":"إِلَّا ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
-        "transliteration":"Illellezīne āmenū ve 'amilus-sālihāti felehum edžrun gajru memnūn"
+        "transliteration":"illellezine amenu ve 'amilus-salihati felehum edžrun gajru memnun"
     },
     {
         "id":7,
         "surahId":95,
         "arabic":"فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
-        "transliteration":"Femā jukezzibuke ba'du biddīn"
+        "transliteration":"Fema jukezzibuke ba'du biddin"
     },
     {
         "id":8,
         "surahId":95,
         "arabic":"أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ",
-        "transliteration":"Elejsellāhu bi-ahkemil-hākimīn"
+        "transliteration":"Elejsellahu bi-ahkemil-hakimin"
     },
 
     {
         "id":1,
         "surahId":96,
         "arabic":"ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
-        "transliteration":"Ikre' bismi rabbikellezī"
+        "transliteration":"ikre' bismi rabbikellezi"
     },
     {
         "id":2,
@@ -2717,116 +2717,116 @@
         "id":3,
         "surahId":96,
         "arabic":"ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
-        "transliteration":"Ikre' verebbukel-ekrem"
+        "transliteration":"ikre' verebbukel-ekrem"
     },
     {
         "id":4,
         "surahId":96,
         "arabic":"ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
-        "transliteration":"Ellezī 'aleme bil-kalem"
+        "transliteration":"Ellezi 'aleme bil-kalem"
     },
     {
         "id":5,
         "surahId":96,
         "arabic":"عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
-        "transliteration":"'Alemel-insāne mā lem ja'lem"
+        "transliteration":"'Alemel-insane ma lem ja'lem"
     },
     {
         "id":6,
         "surahId":96,
         "arabic":"كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
-        "transliteration":"Kellā innel-insāne lejatgā"
+        "transliteration":"Kella innel-insane lejatga"
     },
     {
         "id":7,
         "surahId":96,
         "arabic":"أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
         "translation":"čim se neovisnim osjeti",
-        "transliteration":"En reāhustagnā"
+        "transliteration":"En reahustagna"
     },
     {
         "id":8,
         "surahId":96,
         "arabic":"إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
-        "transliteration":"Inne ilā rabbiker-rudž'ā"
+        "transliteration":"inne ila rabbiker-rudž'a"
     },
     {
         "id":9,
         "surahId":96,
         "arabic":"أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
-        "transliteration":"Ere-'ejte in kāne 'alel-hudā"
+        "transliteration":"Ere-'ejte in kane 'alel-huda"
     },
     {
         "id":10,
         "surahId":96,
         "arabic":"عَبْدًا إِذَا صَلَّىٰٓ",
-        "transliteration":"'abden izā sallā"
+        "transliteration":"'abden iza salla"
     },
     {
         "id":11,
         "surahId":96,
         "arabic":"أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
-        "transliteration":"Ere-'ejte in kane alel-hudā"
+        "transliteration":"Ere-'ejte in kane alel-huda"
     },
     {
         "id":12,
         "surahId":96,
         "arabic":"أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
-        "transliteration":"Ev emere bittakvā"
+        "transliteration":"Ev emere bittakva"
     },
     {
         "id":13,
         "surahId":96,
         "arabic":"أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
-        "transliteration":"Ere-'ejte in kezzebe ve tevellā"
+        "transliteration":"Ere-'ejte in kezzebe ve tevella"
     },
     {
         "id":14,
         "surahId":96,
         "arabic":"أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
-        "transliteration":"Elem ja'lem bi-ennellāhe jerā"
+        "transliteration":"Elem ja'lem bi-ennellahe jera"
     },
     {
         "id":15,
         "surahId":96,
         "arabic":"كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
-        "transliteration":"Kellā le-in lem jentehi lenefse'an binnāsijeh"
+        "transliteration":"Kella le-in lem jentehi lenefse'an binnasijeh"
     },
     {
         "id":16,
         "surahId":96,
         "arabic":"نَاصِيَةٍۢ كَٰذِبَةٍ خَاطِئَةٍۢ",
-        "transliteration":"Nāsijetin kāzibetin hāti-eh"
+        "transliteration":"Nasijetin kazibetin hati-eh"
     },
     {
         "id":17,
         "surahId":96,
         "arabic":"فَلْيَدْعُ نَادِيَهُۥ",
-        "transliteration":"Fel-jed'u nādijeh"
+        "transliteration":"Fel-jed'u nadijeh"
     },
     {
         "id":18,
         "surahId":96,
         "arabic":"سَنَدْعُ ٱلزَّبَانِيَةَ",
-        "transliteration":"Sened-'uzzebānijeh"
+        "transliteration":"Sened-'uzzebanijeh"
     },
     {
         "id":19,
         "surahId":96,
         "arabic":"كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
-        "transliteration":"Kellā lā tuti'hu vesdzud vakterib"
+        "transliteration":"Kella la tuti'hu vesdzud vakterib"
     },
     {
         "id":1,
         "surahId":97,
         "arabic":"بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ",
-        "transliteration":"Innā enzelnāhu fī lejletil-kadr"
+        "transliteration":"inna enzelnahu fī lejletil-kadr"
     },
     {
         "id":2,
         "surahId":97,
         "arabic":"وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
-        "transliteration":"Ve mā edrāke mā lejletul-kadr"
+        "transliteration":"Ve ma edrake ma lejletul-kadr"
     },
     {
         "id":3,
@@ -2838,128 +2838,128 @@
         "id":4,
         "surahId":97,
         "arabic":"تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
-        "transliteration":"Tenezzelul-melā-iketu verrūhu fihā bi-izni rabbihim min kulli emr"
+        "transliteration":"Tenezzelul-mela-iketu verruhu fiha bi-izni rabbihim min kulli emr"
     },
     {
         "id":5,
         "surahId":97,
         "arabic":"سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
-        "transliteration":"Selāmun hije hattā matle'il-fedžr"
+        "transliteration":"Selamun hije hatta matle'il-fedžr"
     },
 
     {
         "id":1,
         "surahId":98,
         "arabic":"لَمْ يَكُنِ ٱلَّذِينَ كَفَرُو مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
-        "transliteration":"Lem jekunillezīne keferū min ehlil-kitābi vel-musrikīne munfekkīne hattā te'tijelhumul-bejjineh"
+        "transliteration":"Lem jekunillezīne keferu min ehlil-kitabi vel-musrikīne munfekkīne hatta te'tijelhumul-bejjineh"
     },
     {
         "id":2,
         "surahId":98,
         "arabic":"سُولٌ مِّنَ ٱللَّهِ يَتْلُوا صُحُفًا مُّطَهَّرَةًۭ",
-        "transliteration":"Resūlun minallahi jetlū suhufen mutahhereh"
+        "transliteration":"Resulun minallahi jetlu suhufen mutahhereh"
     },
     {
         "id":3,
         "surahId":98,
         "arabic":"ِيهَا كُتُبٌ قَيِّمَةٌۭ",
-        "transliteration":"Fihā kutubun kajjimeh"
+        "transliteration":"Fiha kutubun kajjimeh"
     },
     {
         "id":4,
         "surahId":98,
         "arabic":"وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ",
-        "transliteration":"Ve mā teferrekallezīne ūtul-kitābe illā min ba'di mā dža'et-humul-bejjineh"
+        "transliteration":"Ve ma teferrekallezīne utul-kitabe illa min ba'di ma dža'et-humul-bejjineh"
     },
     {
         "id":5,
         "surahId":98,
         "arabic":"وَمَآ أُمِرُوٓا إِلَّا لِيَعْبُدُوا ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا ٱلصَّلَوٰةَ وَيُؤْتُوا ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
-        "transliteration":"Ve mā umirū illā lija'budullāhe muhlisīne lehud-dīne hunefāe ve jukimūs-salāte ve ju'tuz-zekāte ve zālike dinul-kajjimeh"
+        "transliteration":"Ve ma umiru illa lija'budullahe muhlisīne lehud-dīne hunefae ve jukimus-salate ve ju'tuz-zekate ve zalike dinul-kajjimeh"
     },
     {
         "id":6,
         "surahId":98,
         "arabic":"إِنَّ ٱلَّذِينَ كَفَرُوا مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ ۚ أُولَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
-        "transliteration":"Innellezīne keferū min ehlil-kitābi vel-mušrikīne fī nāri džehenneme hālidine fihā ulā'ike hum šerrul-berijjeh"
+        "transliteration":"innellezīne keferu min ehlil-kitabi vel-mušrikīne fī nari džehenneme halidine fiha ula'ike hum šerrul-berijjeh"
     },
     {
         "id":7,
         "surahId":98,
         "arabic":"إِنَّ ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ",
-        "transliteration":"Innellezīne āmenuū ve 'amilus-sālihati ulā'ike hum hajrul-berijjeh"
+        "transliteration":"innellezīne amenuu ve 'amilus-salihati ula'ike hum hajrul-berijjeh"
     },
     {
         "id":8,
         "surahId":98,
         "arabic":"جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ",
-        "transliteration":"Džezāuhum 'inde rabbihim džennātu 'adnin tedžri min tahtihel-enhāru hālidine fihā ebedā.Radijellāhu 'anhum ve radū 'anh.Zālike limen hašije rabbeh"
+        "transliteration":"Džezauhum 'inde rabbihim džennatu 'adnin tedžri min tahtihel-enharu halidine fiha ebeda.Radijellahu 'anhum ve radu 'anh.Zalike limen hašije rabbeh"
     },
     {
         "id":1,
         "surahId":99,
         "arabic":"إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
-        "transliteration":"Izā zul-ziletil-erdu zilzālehā"
+        "transliteration":"iza zul-ziletil-erdu zilzaleha"
     },
     {
         "id":2,
         "surahId":99,
         "arabic":"وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
-        "transliteration":"Ve ahredžetil-erdu eskālehā"
+        "transliteration":"Ve ahredžetil-erdu eskaleha"
     },
     {
         "id":3,
         "surahId":99,
         "arabic":"وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
-        "transliteration":"ve kālel-insānu mā lehā"
+        "transliteration":"ve kalel-insanu ma leha"
     },
     {
         "id":4,
         "surahId":99,
         "arabic":"يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
-        "transliteration":"Jevme-izīn tuhaddisu ahbārehā"
+        "transliteration":"Jevme-izīn tuhaddisu ahbareha"
     },
     {
         "id":5,
         "surahId":99,
         "arabic":"بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
-        "transliteration":"Bi-enne rabbeke evhā lehā"
+        "transliteration":"Bi-enne rabbeke evha leha"
     },
     {
         "id":6,
         "surahId":99,
         "arabic":"يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا أَعْمَٰلَهُمْ",
-        "transliteration":"Jevme-izīn jasdurun-nāsu eštāten lijurev a'mālehum"
+        "transliteration":"Jevme-izīn jasdurun-nasu eštaten lijurev a'malehum"
     },
     {
         "id":7,
         "surahId":99,
         "arabic":"فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
-        "transliteration":"Femen ja'mel miskāle zerretin hajren jereh"
+        "transliteration":"Femen ja'mel miskale zerretin hajren jereh"
     },
     {
         "id":8,
         "surahId":99,
         "arabic":"وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّا يَرَهُۥ",
-        "transliteration":"Ve men ja'mel miskāle zerretin šerren jereh"
+        "transliteration":"Ve men ja'mel miskale zerretin šerren jereh"
     },
     {
         "id":1,
         "surahId":100,
         "arabic":"وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
-        "transliteration":"Vel-'adijāti dabhā"
+        "transliteration":"Vel-'adijati dabha"
     },
     {
         "id":2,
         "surahId":100,
         "arabic":"فَٱلْمُورِيَٰتِ قَدْحًۭا",
-        "transliteration":"Fel-mūrijāti kadhā"
+        "transliteration":"Fel-murijati kadha"
     },
     {
         "id":3,
         "surahId":100,
         "arabic":"فَٱلْمُغِيرَٰتِ صُبْحًۭا",
-        "transliteration":"Fel-mūgirāti subhā"
+        "transliteration":"Fel-mugirati subha"
     },
     {
         "id":4,
@@ -2971,19 +2971,19 @@
         "id":5,
         "surahId":100,
         "arabic":"فَوَسَطْنَ بِهِۦ جَمْعًا",
-        "transliteration":"Fevesatne bihi džem'ā"
+        "transliteration":"Fevesatne bihi džem'a"
     },
     {
         "id":6,
         "surahId":100,
         "arabic":"إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌ",
-        "transliteration":"Innel-insāne lirabbihi lekenūd"
+        "transliteration":"innel-insane lirabbihi lekenud"
     },
     {
         "id":7,
         "surahId":100,
         "arabic":"وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
-        "transliteration":"Ve-innehu 'ala zālike lešehid"
+        "transliteration":"Ve-innehu 'ala zalike lešehid"
     },
     {
         "id":8,
@@ -2995,116 +2995,116 @@
         "id":9,
         "surahId":100,
         "arabic":"أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
-        "transliteration":"Efelā ja'lemu izā bu'sire mā fil-kubūr"
+        "transliteration":"Efela ja'lemu iza bu'sire ma fil-kubur"
     },
     {
         "id":10,
         "surahId":100,
         "arabic":"وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
-        "transliteration":"Ve hussile mā fis-sudūr"
+        "transliteration":"Ve hussile ma fis-sudur"
     },
     {
         "id":11,
         "surahId":100,
         "arabic":"إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
-        "transliteration":"Inne rabbehum bihim jevme-izin lehabir"
+        "transliteration":"inne rabbehum bihim jevme-izin lehabir"
     },
 
     {
         "id":1,
         "surahId":101,
         "arabic":"ٱلْقَارِعَةُ",
-        "transliteration":"El-kāri'ah"
+        "transliteration":"El-kari'ah"
     },
     {
         "id":2,
         "surahId":101,
         "arabic":"مَا ٱلْقَارِعَةُ",
-        "transliteration":"Mel-kāri'ah"
+        "transliteration":"Mel-kari'ah"
     },
     {
         "id":3,
         "surahId":101,
         "arabic":"وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
-        "transliteration":"Ve mā edrāke mel-kāri'ah"
+        "transliteration":"Ve ma edrake mel-kari'ah"
     },
     {
         "id":4,
         "surahId":101,
         "arabic":"يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
-        "transliteration":"Jevme jekunun-nāsu kel-ferāšil-mebsūs"
+        "transliteration":"Jevme jekunun-nasu kel-ferašil-mebsus"
     },
     {
         "id":5,
         "surahId":101,
         "arabic":"وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
-        "transliteration":"Ve tekūnul-džibālu kel-'ihnil-menfuš"
+        "transliteration":"Ve tekunul-džibalu kel-'ihnil-menfuš"
     },
     {
         "id":6,
         "surahId":101,
         "arabic":"فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
-        "transliteration":"Fe-emmā men sekulet mevāzinuh"
+        "transliteration":"Fe-emma men sekulet mevazinuh"
     },
     {
         "id":7,
         "surahId":101,
         "arabic":"فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
-        "transliteration":"Fehuve fi 'išetin rādijeh"
+        "transliteration":"Fehuve fi 'išetin radijeh"
     },
     {
         "id":8,
         "surahId":101,
         "arabic":"وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُ",
-        "transliteration":"Ve emmā men haffet mevāzinuh"
+        "transliteration":"Ve emma men haffet mevazinuh"
     },
     {
         "id":9,
         "surahId":101,
         "arabic":"فَأُمُّهُۥ هَاوِيَةٌۭ",
-        "transliteration":"Fe'ummuhu hāvijeh"
+        "transliteration":"Fe'ummuhu havijeh"
     },
     {
         "id":10,
         "surahId":101,
         "arabic":"َمَآ أَدْرَىٰكَ مَا هِيَهْ",
-        "transliteration":"Ve mā edrāke mā hijeh"
+        "transliteration":"Ve ma edrake ma hijeh"
     },
     {
         "id":11,
         "surahId":101,
         "arabic":"َنَارٌ حَامِيَةٌۢ",
-        "transliteration":"Nārun hāhijeh"
+        "transliteration":"Narun hahijeh"
     },
     {
         "id":1,
         "surahId":102,
         "arabic":"أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
-        "transliteration":"El-hākumut-tekāsur"
+        "transliteration":"El-hakumut-tekasur"
     },
     {
         "id":2,
         "surahId":102,
         "arabic":"حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
-        "transliteration":"Hattā zurtumul-mekābir"
+        "transliteration":"Hatta zurtumul-mekabir"
     },
     {
         "id":3,
         "surahId":102,
         "arabic":"كَلَّا سَوْفَ تَعْلَمُونَ",
-        "transliteration":"Kellā sevfe ta'lemūn"
+        "transliteration":"Kella sevfe ta'lemun"
     },
     {
         "id":4,
         "surahId":102,
         "arabic":"ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
-        "transliteration":"Summe kellā sevfe ta'lemūn"
+        "transliteration":"Summe kella sevfe ta'lemun"
     },
     {
         "id":5,
         "surahId":102,
         "arabic":"كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
-        "transliteration":"Kellā lev ta'lemūne 'ilmel-jekin"
+        "transliteration":"Kella lev ta'lemune 'ilmel-jekin"
     },
     {
         "id":6,
@@ -3116,7 +3116,7 @@
         "id":7,
         "surahId":102,
         "arabic":"ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
-        "transliteration":"Summe leterevunnehā 'ajnel-jekin"
+        "transliteration":"Summe leterevunneha 'ajnel-jekin"
     },
     {
         "id":8,
@@ -3134,13 +3134,13 @@
         "id":2,
         "surahId":103,
         "arabic":"إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
-        "transliteration":"Innel-insāne lef i husr"
+        "transliteration":"innel-insane lef i husr"
     },
     {
         "id":3,
         "surahId":103,
         "arabic":"إِلَّا ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ وَتَوَاصَوْ بِٱلْحَقِّ وَتَوَاصَوْا بِٱلصَّبْر",
-        "transliteration":"Illellezīne āamenū ve amilussalihāti ve tevāsav bil-hakki tevāsav bissabr"
+        "transliteration":"illellezīne aamenu ve amilussalihati ve tevasav bil-hakki tevasav bissabr"
     },
 
     {
@@ -3153,31 +3153,31 @@
         "id":2,
         "surahId":104,
         "arabic":"ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُ",
-        "transliteration":"Ellezī džeme'a mālen ve 'addedeh"
+        "transliteration":"Ellezī džeme'a malen ve 'addedeh"
     },
     {
         "id":3,
         "surahId":104,
         "arabic":"يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
-        "transliteration":"Jahsebu enne mālehu ahledeh"
+        "transliteration":"Jahsebu enne malehu ahledeh"
     },
     {
         "id":4,
         "surahId":104,
         "arabic":"كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
-        "transliteration":"Kellā lejunbezenne fil-hutameh"
+        "transliteration":"Kella lejunbezenne fil-hutameh"
     },
     {
         "id":5,
         "surahId":104,
         "arabic":"وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
-        "transliteration":"Ve mā edrāke mel-hutameh"
+        "transliteration":"Ve ma edrake mel-hutameh"
     },
     {
         "id":6,
         "surahId":104,
         "arabic":"نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
-        "transliteration":"Nārullāhil-mūkadeh"
+        "transliteration":"Narullahil-mukadeh"
     },
     {
         "id":7,
@@ -3189,7 +3189,7 @@
         "id":8,
         "surahId":104,
         "arabic":"إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ",
-        "transliteration":"Innehā 'alejhim mu'sadeh"
+        "transliteration":"inneha 'alejhim mu'sadeh"
     },
     {
         "id":9,
@@ -3202,7 +3202,7 @@
         "id":1,
         "surahId":105,
         "arabic":"أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
-        "transliteration":"Elem tere kejfe fe'ale rabbuke bi-ashābil-fīl"
+        "transliteration":"Elem tere kejfe fe'ale rabbuke bi-ashabil-fīl"
     },
     {
         "id":2,
@@ -3214,45 +3214,45 @@
         "id":3,
         "surahId":105,
         "arabic":"وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
-        "transliteration":"Ve ersele 'alejhim tajren ebābīl"
+        "transliteration":"Ve ersele 'alejhim tajren ebabīl"
     },
     {
         "id":4,
         "surahId":105,
         "arabic":"تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
-        "transliteration":"Termīhim bihidžāretin min sidždžīl"
+        "transliteration":"Termīhim bihidžaretin min sidždžīl"
     },
     {
         "id":5,
         "surahId":105,
         "arabic":"فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
-        "transliteration":"Fedže'alehum ke-'asfin me'kūl"
+        "transliteration":"Fedže'alehum ke-'asfin me'kul"
     },
     
     {
         "id":1,
         "surahId":106,
         "arabic":"لِإِيلَٰفِ قُرَيْشٍ",
-        "transliteration":"Li-ilāfi kurejš"
+        "transliteration":"Li-ilafi kurejš"
     },
     {
         "id":2,
         "surahId":106,
         "arabic":"إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
         "translation":"navike njihove da zimi i ljeti putuju",
-        "transliteration":"Īlāfihim rihleteš-šitā-i vessajf"
+        "transliteration":"Īlafihim rihleteš-šita-i vessajf"
     },
     {
         "id":3,
         "surahId":106,
         "arabic":"فَلْيَعْبُدُوا رَبَّ هَٰذَا ٱلْبَيْتِ",
-        "transliteration":"Fel ja'budu rabbe hāzel-bejt"
+        "transliteration":"Fel ja'budu rabbe hazel-bejt"
     },
     {
         "id":4,
         "surahId":106,
         "arabic":"ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍ",
-        "transliteration":"Ellezī at-'amehum min džū'in ve āmenehum min havf"
+        "transliteration":"Ellezī at-'amehum min džu'in ve amenehum min havf"
     },
     
     {
@@ -3265,13 +3265,13 @@
         "id":2,
         "surahId":107,
         "arabic":"َذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
-        "transliteration":"Fezālikellezī jedu''ul-jetīm"
+        "transliteration":"Fezalikellezī jedu''ul-jetīm"
     },
     {
         "id":3,
         "surahId":107,
         "arabic":"وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
-        "transliteration":"Ve lā jehuddu 'alā ta'āmil-miskīn"
+        "transliteration":"Ve la jehuddu 'ala ta'amil-miskīn"
     },
     {
         "id":4,
@@ -3283,26 +3283,26 @@
         "id":5,
         "surahId":107,
         "arabic":"ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
-        "transliteration":"Ellezīne hum 'an salātihim sahūn"
+        "transliteration":"Ellezīne hum 'an salatihim sahun"
     },
     {
         "id":6,
         "surahId":107,
         "arabic":"ٱلَّذِينَ هُمْ يُرَآءُونَ",
-        "transliteration":"Ellezīne hum jurā'ūn"
+        "transliteration":"Ellezīne hum jura'un"
     },
     {
         "id":7,
         "surahId":107,
         "arabic":"وَيَمْنَعُونَ ٱلْمَاعُونَ",
-        "transliteration":"Ve jemne'ūnel-mā'ūn"
+        "transliteration":"Ve jemne'unel-ma'un"
     },
     
     {
         "id":1,
         "surahId":108,
         "arabic":"ِإِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
-        "transliteration":"Innā a'tajnakel-kevser"
+        "transliteration":"inna a'tajnakel-kevser"
     },
     {
         "id":2,
@@ -3314,38 +3314,38 @@
         "id":3,
         "surahId":108,
         "arabic":"إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
-        "transliteration":"Inne šāni-eke huvel-ebter"
+        "transliteration":"inne šani-eke huvel-ebter"
     },
     
     {
         "id":1,
         "surahId":109,
         "arabic":"قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
-        "transliteration":"Kul jā ejjuhel-kāfirūn"
+        "transliteration":"Kul ja ejjuhel-kafirun"
     },
     {
         "id":2,
         "surahId":109,
         "arabic":"لَآ أَعْبُدُ مَا تَعْبُدُونَ",
-        "transliteration":"Lā a'budu ma t'abudūn"
+        "transliteration":"La a'budu ma t'abudun"
     },
     {
         "id":3,
         "surahId":109,
         "arabic":"وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
-        "transliteration":"Ve lā entum 'abidūne mā a'bud"
+        "transliteration":"Ve la entum 'abidune ma a'bud"
     },
     {
         "id":4,
         "surahId":109,
         "arabic":"وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
-        "transliteration":"Ve lā enne 'abidun mā 'a'bud"
+        "transliteration":"Ve la enne 'abidun ma 'a'bud"
     },
     {
         "id":5,
         "surahId":109,
         "arabic":"وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
-        "transliteration":"Ve lā entum 'abidūne mā a'bud"
+        "transliteration":"Ve la entum 'abidune ma a'bud"
     },
     {
         "id":6,
@@ -3358,69 +3358,69 @@
         "id":1,
         "surahId":110,
         "arabic":"إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
-        "transliteration":"Izā džā-e nasrullāhi vel-feth"
+        "transliteration":"iza dža-e nasrullahi vel-feth"
     },
     {
         "id":2,
         "surahId":110,
         "arabic":"وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
-        "transliteration":"Ve re'ejten-nāse jedhulūne fī dīnillāhi efvadža"
+        "transliteration":"Ve re'ejten-nase jedhulune fī dīnillahi efvadža"
     },
     {
         "id":3,
         "surahId":110,
         "arabic":"فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
-        "transliteration":"Fesebbih bihamdi rabbike vestagfirh.Innehu kāne tevvābā"
+        "transliteration":"Fesebbih bihamdi rabbike vestagfirh.innehu kane tevvaba"
     },
     
     {
         "id":1,
         "surahId":111,
         "arabic":"تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
-        "transliteration":"Tebbet jedā ebī lehebin ve tebb"
+        "transliteration":"Tebbet jeda ebī lehebin ve tebb"
     },
     {
         "id":2,
         "surahId":111,
         "arabic":"مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
-        "transliteration":"Mā agna 'anhu māluhu ve mā keseb"
+        "transliteration":"Ma agna 'anhu maluhu ve ma keseb"
     },
     {
         "id":3,
         "surahId":111,
         "arabic":"سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍۢ",
-        "transliteration":"Sejaslā nāren zāte leheb"
+        "transliteration":"Sejasla naren zate leheb"
     },
     {
         "id":4,
         "surahId":111,
         "arabic":"وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
-        "transliteration":"Vem-re'etuhu hammāletel-hatab"
+        "transliteration":"Vem-re'etuhu hammaletel-hatab"
     },
     {
         "id":5,
         "surahId":111,
         "arabic":"فِى جِيدِهَا حَبْلٌ مِّن مَّسدٍۭ",
-        "transliteration":"Fī džīdihā hablun mim mesed"
+        "transliteration":"Fī džīdiha hablun mim mesed"
     },
     
     {
         "id":1,
         "surahId":112,
         "arabic":"قُلْ هُوَ ٱللَّهُ أَحَدٌ",
-        "transliteration":"Kul huvallāhu ehad"
+        "transliteration":"Kul huvallahu ehad"
     },
     {
         "id":2,
         "surahId":112,
         "arabic":"ٱللَّهُ ٱلصَّمَدُ",
-        "transliteration":"Allāhus-samed"
+        "transliteration":"Allahus-samed"
     },
     {
         "id":3,
         "surahId":112,
         "arabic":"لَمْ يَلِدْ وَلَمْ يُولَدْ",
-        "transliteration":"Lem jelid ve lem jūled"
+        "transliteration":"Lem jelid ve lem juled"
     },
     {
         "id":4,
@@ -3433,67 +3433,67 @@
         "id":1,
         "surahId":113,
         "arabic":"قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
-        "transliteration":"Kul e'ūzu birabbil-felek"
+        "transliteration":"Kul e'uzu birabbil-felek"
     },
     {
         "id":2,
         "surahId":113,
         "arabic":"مِن شَرِّ مَا خَلَقَ",
-        "transliteration":"Min šerri mā halek"
+        "transliteration":"Min šerri ma halek"
     },
     {
         "id":3,
         "surahId":113,
         "arabic":"وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
-        "transliteration":"Ve min šerri gāsikin izā vekab"
+        "transliteration":"Ve min šerri gasikin iza vekab"
     },
     {
         "id":4,
         "surahId":113,
         "arabic":"وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
-        "transliteration":"Ve min šerrin-neffāsāti fil-'ukad"
+        "transliteration":"Ve min šerrin-neffasati fil-'ukad"
     },
     {
         "id":5,
         "surahId":113,
         "arabic":"وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
-        "transliteration":"Ve min šerri hāsidin izā hased"
+        "transliteration":"Ve min šerri hasidin iza hased"
     },
     
     {
         "id":1,
         "surahId":114,
         "arabic":"قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
-        "transliteration":"Kul e'ūzu birabbin-nās"
+        "transliteration":"Kul e'uzu birabbin-nas"
     },
     {
         "id":2,
         "surahId":114,
         "arabic":"مَلِكِ ٱلنَّاسِ",
-        "transliteration":"Melikin-nās"
+        "transliteration":"Melikin-nas"
     },
     {
         "id":3,
         "surahId":114,
         "arabic":"إِلَٰهِ ٱلنَّاسِ",
-        "transliteration":"Ilāhin-nās"
+        "transliteration":"ilahin-nas"
     },
     {
         "id":4,
         "surahId":114,
         "arabic":"مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
-        "transliteration":"Min šerril-vesvāsil-hannās"
+        "transliteration":"Min šerril-vesvasil-hannas"
     },
     {
         "id":5,
         "surahId":114,
         "arabic":"ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
-        "transliteration":"Ellezī juvesvisu fis-sudūrin-nās"
+        "transliteration":"Ellezī juvesvisu fis-sudurin-nas"
     },
     {
         "id":6,
         "surahId":114,
         "arabic":"مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
-        "transliteration":"Minel-džinneti ven-nās"
+        "transliteration":"Minel-džinneti ven-nas"
     }
 ]

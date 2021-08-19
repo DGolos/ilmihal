@@ -24,7 +24,7 @@ const ImanMainPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/BookOneMainPage" />
+            <IonBackButton color="light" defaultHref="/tabs/BookOneMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -63,7 +63,7 @@ const ImanMainPage: React.FC = () => {
         <IonList className="transparent ion-padding">
           <IonItem
             key="1"
-            routerLink={`/BeliefPage`}
+            routerLink={`/tabs/BeliefPage`}
             lines="none"
             detail={false}
             className="welcome ion-text-center"
@@ -78,7 +78,7 @@ const ImanMainPage: React.FC = () => {
           </IonItem>
           <IonItem
             key="2"
-            routerLink={`/StandardLessonPage/1/25`}
+            routerLink={`/tabs/StandardLessonPage/1/25`}
             lines="none"
             detail={false}
             className="welcome ion-text-center"
@@ -93,7 +93,7 @@ const ImanMainPage: React.FC = () => {
           </IonItem>
           <IonItem
             key="3"
-            routerLink={`/StandardLessonPage/1/26`}
+            routerLink={`/tabs/StandardLessonPage/1/26`}
             lines="none"
             detail={false}
             className="welcome ion-text-center"
@@ -109,7 +109,7 @@ const ImanMainPage: React.FC = () => {
           </IonItem>
           <IonItem
             key="4"
-            routerLink={`/StandardLessonPage/1/27`}
+            routerLink={`/tabs/StandardLessonPage/1/27`}
             lines="none"
             detail={false}
             className="welcome ion-text-center"
@@ -124,7 +124,7 @@ const ImanMainPage: React.FC = () => {
           </IonItem>
           <IonItem
             key="5"
-            routerLink={`/StandardLessonPage/1/28`}
+            routerLink={`/tabs/StandardLessonPage/1/28`}
             lines="none"
             detail={false}
             className="welcome ion-text-center"
@@ -140,7 +140,7 @@ const ImanMainPage: React.FC = () => {
           </IonItem>
           <IonItem
             key="6"
-            routerLink={`/StandardLessonPage/1/29`}
+            routerLink={`/tabs/StandardLessonPage/1/29`}
             lines="none"
             detail={false}
             className="welcome ion-text-center"

@@ -1402,11 +1402,7 @@
     "quoteText": "label-book2-lesson28-quote",
     "quoteReference": "label-book2-lesson28-quote-reference",
     "sections": [
-      {
-        "type":"0",
-        "paragraphs": ["label-book2-lesson28_section1-paragraph1"]
-      },
-      {
+       {
         "type":"1",
         "paragraphs": [
           "label-book2-lesson28_section2-paragraph1",
@@ -1437,11 +1433,7 @@
     "quoteText": "label-book2-lesson29-quote",
     "quoteReference": "label-book2-lesson29-quote-reference",
     "sections": [
-      {
-        "type":"0",
-        "paragraphs": ["label-book2-lesson29_section1-paragraph1"]
-      },
-      {
+       {
         "type":"1",
         "paragraphs": [
           "label-book2-lesson29_section2-paragraph1",
@@ -1468,10 +1460,6 @@
     "quoteText": "label-book2-lesson30-quote",
     "quoteReference": "label-book2-lesson30-quote-reference",
     "sections": [
-      {
-        "type":"0",
-        "paragraphs": ["label-book2-lesson30_section1-paragraph1"]
-      },
       {
         "type":"1",
         "paragraphs": [

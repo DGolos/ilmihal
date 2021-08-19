@@ -23,7 +23,7 @@ const SupplicationMainPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="dark-brown" defaultHref="/MainCategoryPage" />
+            <IonBackButton color="dark-brown" defaultHref="/tabs/MainCategoryPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -56,7 +56,7 @@ const SupplicationMainPage: React.FC = () => {
             <IonItem
               color="light"
               lines="full"
-              routerLink="/SupplicationValuePage"
+              routerLink="/tabs/SupplicationValuePage"
             >
               <IonText slot="start">
                 <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>
@@ -68,7 +68,7 @@ const SupplicationMainPage: React.FC = () => {
             <IonItem
               color="light"
               lines="full"
-              routerLink="/MessangersSupplicationsPage"
+              routerLink="/tabs/MessangersSupplicationsPage"
             >
               <IonText slot="start">
                 <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>
@@ -79,7 +79,7 @@ const SupplicationMainPage: React.FC = () => {
             <IonItem
               color="light"
               lines="full"
-              routerLink="/DailySupplicationsPage"
+              routerLink="/tabs/DailySupplicationsPage"
             >
               <IonText slot="start">
                 <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>

@@ -60,10 +60,10 @@ const MaghribPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/MaghribPrayerDetailsPage/fardh">
+                <IonFabButton routerLink="/tabs/MaghribPrayerDetailsPage/fardh">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/MaghribPrayerWatchPage/fardh">
+                <IonFabButton routerLink="/tabs/MaghribPrayerWatchPage/fardh">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
@@ -79,10 +79,10 @@ const MaghribPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/MaghribPrayerDetailsPage/sunnah">
+                <IonFabButton routerLink="/tabs/MaghribPrayerDetailsPage/sunnah">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/MaghribPrayerWatchPage/sunnah">
+                <IonFabButton routerLink="/tabs/MaghribPrayerWatchPage/sunnah">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>

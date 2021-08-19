@@ -23,7 +23,7 @@ export const ChosenVersesPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/MainCategoryPage"/>
+            <IonBackButton color="light" defaultHref="/tabs/MainCategoryPage"/>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -48,7 +48,7 @@ export const ChosenVersesPage: React.FC = () => {
         <IonList className="ion-padding transparent">
           <IonItem
               key="1"
-              routerLink={`/RubiesAyahPage`}
+              routerLink={`/tabs/RubiesAyahPage`}
               lines="none"
               detail={false}
               className="welcome"
@@ -62,7 +62,7 @@ export const ChosenVersesPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="2"
-              routerLink={`/PearlsAyahPage`}
+              routerLink={`/tabs/PearlsAyahPage`}
               lines="none"
               detail={false}
               className="welcome"

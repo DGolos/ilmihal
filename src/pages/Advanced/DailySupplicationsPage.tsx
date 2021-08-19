@@ -27,7 +27,7 @@ export const DailySupplicationsPage: React.FC = () => {
           <IonButtons slot="start">
             <IonBackButton
               color="burgundy"
-              defaultHref="/SupplicationMainPage"
+              defaultHref="/tabs/SupplicationMainPage"
             />
           </IonButtons>
         </IonToolbar>

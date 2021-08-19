@@ -34,7 +34,7 @@ const AsrPrayerPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/BookOneMainPage" />
+            <IonBackButton color="light" defaultHref="/tabs/BookOneMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -85,7 +85,7 @@ const AsrPrayerPage: React.FC = () => {
               <IonFabList side="start">
                 <IonFabButton
                   onClick={() => {
-                    history.push("/AsrPrayerDetailsPage/sunnah");
+                    history.push("/tabs/AsrPrayerDetailsPage/sunnah");
                   }}
                 >
                   <IonIcon
@@ -94,7 +94,7 @@ const AsrPrayerPage: React.FC = () => {
                     color="purple"
                   />
                 </IonFabButton>
-                <IonFabButton routerLink="/AsrPrayerWatchPage/sunnah">
+                <IonFabButton routerLink="/tabs/AsrPrayerWatchPage/sunnah">
                   <IonIcon
                     icon={videocamOutline}
                     size="zmdi-hc-2x"
@@ -118,14 +118,14 @@ const AsrPrayerPage: React.FC = () => {
                 <IonIcon src="/assets/images/prayer.svg" color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/AsrPrayerDetailsPage/fardh">
+                <IonFabButton routerLink="/tabs/AsrPrayerDetailsPage/fardh">
                   <IonIcon
                     icon={documentTextOutline}
                     size="zmdi-hc-2x"
                     color="purple"
                   />
                 </IonFabButton>
-                <IonFabButton routerLink="/AsrPrayerWatchPage/fardh">
+                <IonFabButton routerLink="/tabs/AsrPrayerWatchPage/fardh">
                   <IonIcon
                     icon={videocamOutline}
                     size="zmdi-hc-2x"

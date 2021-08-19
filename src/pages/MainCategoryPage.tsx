@@ -60,7 +60,7 @@ const MainCategoryPage: React.FC = () => {
               </IonButton>
             </IonCol>
             <IonCol size="4">
-              <IonButton className="no-shadow" color={current===6?"button":"brown"} expand="block" onClick={ () => setCurrent(6) }>
+              <IonButton hidden={translationService.isNorwegian()} className="no-shadow" color={current===6?"button":"brown"} expand="block" onClick={ () => setCurrent(6) }>
                 <IonLabel color={current===6?"burgundy":"light"} className="ion-text-center" style={{fontWeight:"bold"}}>
                 {translationService.getLabel('label-header-homeland')}
                 </IonLabel>
@@ -81,7 +81,7 @@ const MainCategoryPage: React.FC = () => {
                 
               >
                 <IonCard
-                  routerLink={`/Quran/Reader`}
+                  routerLink={`/tabs/Quran/Reader`}
                   color="light"
                   class="category"
                 >
@@ -94,7 +94,7 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Čitaj </h4>
+                        <h4 className="title">{translationService.getLabel('label-read-quran')} </h4>
                       </span>
                       <span>
                         <h4 className="title">Kur'an</h4>
@@ -103,51 +103,17 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Čitaj odabrane sure iz Časnog Kur'ana.
+                    {translationService.getLabel('label-read-quran-description')}
                     </h6>
                   </IonRow>
                 </IonCard>
               </IonCol>
-              <IonCol size="6">
-                <IonCard
-                  routerLink={`/Quran/Player`}
-                  color="light"
-                  class="category"
-                >
-                  <IonRow className="ion-no-padding">
-                    <img
-                      src="/assets/images/Sound.png"
-                      height="40px"
-                      width="40px"
-                    />
-
-                    <IonLabel className="ion-padding-start ion-text-centered">
-                      <span>
-                        <h4 className="title">Slušaj </h4>
-                      </span>
-                      <span>
-                        <h4 className="title">Kur'an</h4>
-                      </span>
-                    </IonLabel>
-                  </IonRow>
-                  <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
-                      Slušaj odabrane sure iz Časnog Kur'ana.
-                    </h6>
-                  </IonRow>
-                </IonCard>
-              </IonCol>
-            </IonRow>
-            <IonRow
-              className="ion-no-padding"
-              style={{ marginTop: "0px", marginBottom: "0px" }}
-            >
               <IonCol
                 size="6"
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/QuranRevelationPage`}
+                  routerLink={`/tabs/QuranRevelationPage`}
                   color="light"
                   class="category"
                 >
@@ -160,7 +126,7 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Objava </h4>
+                        <h4 className="title">{translationService.getLabel('label-quran-revelation')} </h4>
                       </span>
                       <span>
                         <h4 className="title">Kur'ana</h4>
@@ -169,7 +135,41 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Objava Kur'ana Muhammedu a.s.
+                    {translationService.getLabel('label-quran-revelation-description')}
+                    </h6>
+                  </IonRow>
+                </IonCard>
+              </IonCol>
+            </IonRow>
+            <IonRow
+              className="ion-no-padding"
+              style={{ marginTop: "0px", marginBottom: "0px" }}
+            >
+              <IonCol size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
+              <IonCard
+                  routerLink={`/tabs/QuranRecitationPage`}
+                  color="light"
+                  class="category"
+                >
+                  <IonRow className="ion-no-padding">
+                    <img
+                      src="/assets/images/ChosenVerses.png"
+                      height="40px"
+                      width="40px"
+                    />
+
+                    <IonLabel className="ion-padding-start ion-text-centered">
+                      <span>
+                        <h4 className="title">Učenje </h4>
+                      </span>
+                      <span>
+                        <h4 className="title">Kur'ana</h4>
+                      </span>
+                    </IonLabel>
+                  </IonRow>
+                  <IonRow>
+                    <h6 style={{fontSize:"12px"}}>
+                      Etiketa učenja Časnog Kur'ana
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -179,7 +179,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/ChosenVerses`}
+                  routerLink={`/tabs/ChosenVerses`}
                   color="light"
                   class="category"
                 >
@@ -209,9 +209,9 @@ const MainCategoryPage: React.FC = () => {
               
             </IonRow>
             <IonRow>
-              <IonCol size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
+              <IonCol hidden={translationService.isNorwegian()} size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
               <IonCard
-                  routerLink={`/QuranTranslationPage`}
+                  routerLink={`/tabs/QuranTranslationPage`}
                   color="light"
                   class="category"
                 >
@@ -238,35 +238,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                 </IonCard>
               </IonCol>
-              <IonCol size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
-              <IonCard
-                  routerLink={`/QuranRecitationPage`}
-                  color="light"
-                  class="category"
-                >
-                  <IonRow className="ion-no-padding">
-                    <img
-                      src="/assets/images/ChosenVerses.png"
-                      height="40px"
-                      width="40px"
-                    />
-
-                    <IonLabel className="ion-padding-start ion-text-centered">
-                      <span>
-                        <h4 className="title">Učenje </h4>
-                      </span>
-                      <span>
-                        <h4 className="title">Kur'ana</h4>
-                      </span>
-                    </IonLabel>
-                  </IonRow>
-                  <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
-                      Etiketa učenja Časnog Kur'ana
-                    </h6>
-                  </IonRow>
-                </IonCard>
-              </IonCol>
+              
             </IonRow>
           </IonGrid>
         </div>
@@ -281,7 +253,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/PrayerTimes`}
+                  routerLink={`/tabs/PrayerTimes`}
                   color="light"
                   class="category"
                 >
@@ -310,7 +282,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/VoluntaryPrayersPage`}
+                  routerLink={`/tabs/VoluntaryPrayersPage`}
                   color="light"
                   class="category"
                 >
@@ -347,7 +319,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/WudhuPage`}
+                  routerLink={`/tabs/WudhuPage`}
                   color="light"
                   class="category"
                 >
@@ -379,7 +351,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/StandardLessonPage/2/8`}
+                  routerLink={`/tabs/StandardLessonPage/2/8`}
                   color="light"
                   class="category"
                 >
@@ -422,7 +394,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/StandardLessonPage/1/30`}
+                  routerLink={`/tabs/StandardLessonPage/1/30`}
                   color="light"
                   class="category"
                 >
@@ -451,7 +423,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/StandardLessonPage/1/31`}
+                  routerLink={`/tabs/StandardLessonPage/1/31`}
                   color="light"
                   class="category"
                 >
@@ -488,7 +460,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/HajjDefinitionPage`}
+                  routerLink={`/tabs/HajjDefinitionPage`}
                   color="light"
                   class="category"
                 >
@@ -532,7 +504,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/SupplicationMainPage`}
+                  routerLink={`/tabs/SupplicationMainPage`}
                   color="light"
                   class="category"
                 >
@@ -561,7 +533,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/DhikrMainPage`}
+                  routerLink={`/tabs/DhikrMainPage`}
                   color="light"
                   class="category"
                 >
@@ -598,7 +570,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/SegmentLessonPage/1/2`}
+                  routerLink={`/tabs/SegmentLessonPage/1/2`}
                   color="light"
                   class="category"
                 >
@@ -643,7 +615,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/SirahPage`}
+                  routerLink={`/tabs/SirahPage`}
                   color="light"
                   class="category"
                 >
@@ -672,7 +644,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/HadeethPage`}
+                  routerLink={`/tabs/HadeethPage`}
                   color="light"
                   class="category"
                 >
@@ -709,7 +681,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/CompanionsPage`}
+                  routerLink={`/tabs/CompanionsPage`}
                   color="light"
                   class="category"
                 >
@@ -752,7 +724,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/BosnianScholarsPage`}
+                  routerLink={`/tabs/BosnianScholarsPage`}
                   color="light"
                   class="category"
                 >
@@ -781,7 +753,7 @@ const MainCategoryPage: React.FC = () => {
               </IonCol>
               <IonCol size="6">
                 <IonCard
-                  routerLink={`/BosniaPage`}
+                  routerLink={`/tabs/BosniaPage`}
                   color="light"
                   class="category"
                 >
@@ -819,7 +791,7 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/BosnianCulturePage`}
+                  routerLink={`/tabs/BosnianCulturePage`}
                   color="light"
                   class="category"
                 >

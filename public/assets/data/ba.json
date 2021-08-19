@@ -12,6 +12,14 @@
         "value":"Info"
     },
     {
+        "name":"label-save",
+        "value":"Spasi"
+    },
+    {
+        "name":"label-change-location",
+        "value":"Promijeni"
+    },
+    {
         "name":"label-welcome-hadeeth",
         "value":"\"Allah će učiniti put do Dženneta lahkim svakome ko traži znanje\""
     },
@@ -185,7 +193,7 @@
     },
     {
         "name":"label-book2-lesson15-title",
-        "value":"Hidžetska godina"
+        "value":"Hidžretska godina"
     },
     {
         "name":"label-book2-lesson16-title",
@@ -261,6 +269,11 @@
     },
 
     {
+        "name":"label-ayahs",
+        "value":"ajeta"
+    },
+
+    {
         "name":"label-book1-lesson1_section1-paragraph1",
         "value":"U svim poslovima Bismillom spominjemo Boga i molimo Ga da nam dadne snagu i razum da započeti posao sretno završimo, jer naš život, snaga i razum zavise od Njega, Allaha dželle šānuhu."
     },
@@ -293,6 +306,10 @@
         "value":"Transkripcija"
     },
     {
+        "name":"label-header-font-size",
+        "value":"Veličina teksta"
+    },
+    {
         "name":"label-header-quran",
         "value":"Kur'an"
     },
@@ -317,7 +334,7 @@
         "value":"Domovina"
     },
     {
-        "name":"label-header-bosnian",
+        "name":"label-header-native-language",
         "value":"Bosanski"
     },
     {
@@ -586,7 +603,7 @@
     
     {
         "name":"label-book1-lesson11-quote",
-        "value":"\"Niko nije kao On.On sve čuje i vidi\""
+        "value":"\"Niko nije kao On.On sve čuje i vidi.\""
     },
     {
         "name":"label-book1-lesson11-quote-reference",
@@ -807,7 +824,7 @@
     },
     {
         "name":"label-book1-lesson15-quote",
-        "value":"\"Hvaljen je Allah, stvoritelj nebesa i Zemlje\""
+        "value":"\"Hvaljen je Allah, stvoritelj nebesa i Zemlje.\""
     },
     {
         "name":"label-book1-lesson15-quote-reference",
@@ -879,7 +896,7 @@
     },
     {
         "name":"label-book1-lesson17-quote",
-        "value":"\"Allah i meleki Njegovi blagosilju Vjerovjesnika\""
+        "value":"\"Allah i meleki Njegovi blagosilju Vjerovjesnika.\""
     },
     {
         "name":"label-book1-lesson17-quote-reference",
@@ -933,7 +950,7 @@
 
     {
         "name":"label-book1-lesson18-quote",
-        "value":"\"Reci: Zovite:Allah, ili zovite: Milostivi\""
+        "value":"\"Reci: Zovite:Allah, ili zovite: Milostivi.\""
     },
     {
         "name":"label-book1-lesson18-quote-reference",
@@ -1397,7 +1414,7 @@
 
     {
         "name":"label-book1-lesson24-quote",
-        "value":"“O vjernici, često Allaha spominjite i hvalite”"
+        "value":"“O vjernici, često Allaha spominjite i hvalite.”"
     },
     {
         "name":"label-book1-lesson24-quote-reference",
@@ -1415,7 +1432,7 @@
     },
     {
         "name":"label-book1-lesson25-quote",
-        "value":"“On ga je na obzorju jasnom vidio”"
+        "value":"“On ga je na obzorju jasnom vidio.”"
     },
     {
         "name":"label-book1-lesson25-quote-reference",
@@ -1531,7 +1548,7 @@
     },
     {
         "name":"label-book1-lesson29-quote",
-        "value":"“Ono što je Allah odredio - dogodiće se”"
+        "value":"“Ono što je Allah odredio - dogodiće se.”"
     },
     {
         "name":"label-book1-lesson29-quote-reference",
@@ -1600,7 +1617,7 @@
     },
     {
         "name":"label-book1-lesson32-quote",
-        "value":"\"Allah je izvor svjetlosti nebesa i Zemlje\""
+        "value":"\"Allah je izvor svjetlosti nebesa i Zemlje.\""
     },
     {
         "name":"label-book1-lesson32-quote-reference",
@@ -1694,7 +1711,7 @@
     },
     {
         "name":"label-book1-lesson33-quote",
-        "value":"\"Obavljajte hadž, jer on  čisti grijehe\""
+        "value":"\"Obavljajte hadž, jer on  čisti grijehe.\""
     },
     {
         "name":"label-book1-lesson33_section1-paragraph1",
@@ -1731,7 +1748,7 @@
     },
     {
         "name":"label-book1-lesson34-quote",
-        "value":"\"I molitvu obavljajte i zekat dajite\""
+        "value":"\"I molitvu obavljajte i zekat dajite.\""
     },
     {
         "name":"label-book1-lesson34-quote-reference",
@@ -1820,7 +1837,7 @@
     },
     {
         "name":"label-book1-lesson35-quote",
-        "value":"\"Milostivi, koji upravlja svemirom svim\""
+        "value":"\"Milostivi, koji upravlja svemirom svim.\""
     },
     {
         "name":"label-book1-lesson35-quote-reference",
@@ -1894,7 +1911,7 @@
     },
     {
         "name":"label-book1-lesson37-quote",
-        "value":"\"Molite se ponizno i u sebi Gospodaru svome\""
+        "value":"\"Molite se ponizno i u sebi Gospodaru svome.\""
     },
     {
         "name":"label-book1-lesson37-quote-reference",
@@ -1938,7 +1955,7 @@
     },
     {
         "name":"label-book1-lesson38-quote",
-        "value":"\"Ja sam, uistinu, Allah, drugog boga, osim Mene, nema\""
+        "value":"\"Ja sam, uistinu, Allah, drugog boga, osim Mene, nema.\""
     },
     {
         "name":"label-book1-lesson38-quote-reference",
@@ -1970,7 +1987,7 @@
     },
     {
         "name":"label-book1-lesson38_section1-paragraph7",
-        "value":"J ́alemu ma bejne ejdihim ve ma halfehum"
+        "value":"Jalemu ma bejne ejdihim ve ma halfehum"
     },
     {
         "name":"label-book1-lesson38_section1-paragraph8",
@@ -2002,7 +2019,7 @@
     },
     {
         "name":"label-book1-lesson38_section2-paragraph5",
-        "value":"Nejgovo je sve ono što je na nebesima i ono što je na zemlji"
+        "value":"Njegovo je sve ono što je na nebesima i ono što je na zemlji"
     },
     {
         "name":"label-book1-lesson38_section2-paragraph6",
@@ -2022,7 +2039,7 @@
     },
     {
         "name":"label-book1-lesson38_section2-paragraph10",
-        "value":"On je Svevišnji, Veličanstveni"
+        "value":"On je Svevišnji, Veličanstveni."
     },
     {
         "name":"label-book1-lesson39-title",
@@ -2106,7 +2123,7 @@
     },
     {
         "name":"label-book1-lesson41-quote",
-        "value":"\"O, vjernici često Allaha spominjite i hvalite\""
+        "value":"\"O, vjernici često Allaha spominjite i hvalite.\""
     },
     {
         "name":"label-book1-lesson41-quote-reference",
@@ -2204,7 +2221,7 @@
 
     {
         "name":"label-book2-lesson1-quote",
-        "value":"\"Allahu se pokorava sve što je na nebesima i na Zemlji\""
+        "value":"\"Allahu se pokorava sve što je na nebesima i na Zemlji.\""
     },
     {
         "name":"label-book2-lesson1-quote-reference",
@@ -2276,7 +2293,7 @@
     },
     {
         "name":"label-book2-lesson3-quote",
-        "value":"\"Kad bi more bilo mastilo da se ispišu riječi Gospodara moga, more bi presahlo, ali ne i riječi Gospodara moga\""
+        "value":"\"Kad bi more bilo mastilo da se ispišu riječi Gospodara moga, more bi presahlo, ali ne i riječi Gospodara moga.\""
     },
     {
         "name":"label-book2-lesson3-quote-reference",
@@ -2344,7 +2361,7 @@
     },
     {
         "name":"label-book2-lesson7-quote",
-        "value":"\"Neka je uzvišen Onaj koji robu Svome objavljuje Kur’an\""
+        "value":"\"Neka je uzvišen Onaj koji robu Svome objavljuje Kur’an.\""
     },
     {
         "name":"label-book2-lesson7-quote-reference",
@@ -2356,7 +2373,7 @@
     },
     {
         "name":"label-book2-lesson8-quote",
-        "value":"\"A Gospodar tvoj je, doista, Silan i Milostiv\""
+        "value":"\"A Gospodar tvoj je, doista, Silan i Milostiv.\""
     },
     {
         "name":"label-book2-lesson8-quote-reference",
@@ -2432,7 +2449,7 @@
     },
     {
         "name":"label-book2-lesson9_section2-paragraph4",
-        "value":"2. Kade se, u slučaju potrebe, nije moguće okupati."
+        "value":"3. Kade se, u slučaju potrebe, nije moguće okupati."
     },
     {
         "name":"label-book2-lesson9_section3-paragraph1",
@@ -2564,7 +2581,7 @@
     },
     {
         "name":"label-book2-lesson13-title-description",
-        "value":"Namaz koji se klanja svake večeri u toku Ramazana"
+        "value":"Namaz koji se klanja svake večeri u toku Ramazana."
     },
 
     {
@@ -2585,16 +2602,16 @@
     },
     {
         "name":"label-book2-lesson13-section2-paragraph2",
-        "value":"Prijevod: &quot;Ja odlučih klanjati u ime Uzvišenog Allaha teravih namaz od 20 rekata na vrijeme okrenuvši se prema Kibli (klanjajući za ovim imamom) Allah je Najveći. Kada se završi teravih namaz klanja se Vitr namaz (u džematu)."
+        "value":"Prijevod:Ja odlučih klanjati u ime Uzvišenog Allaha teravih namaz od 20 rekata na vrijeme okrenuvši se prema Kibli (klanjajući za ovim imamom) Allah je Najveći. Kada se završi teravih namaz klanja se Vitr namaz (u džematu)."
     },
     {
         "name":"label-book2-lesson14-title-description",
-        "value":"Obavezni namaz u džematu koji se klanje svakog petka"
+        "value":"Obavezni namaz u džematu koji se klanje svakog petka."
     },
     
     {
         "name":"label-book2-lesson14-quote",
-        "value":"\"O vjernici, kada se u petak na molitvu pozove, kupoprodaju ostavite i podjite molitvu obaviti\""
+        "value":"\"O vjernici, kada se u petak na molitvu pozove, kupoprodaju ostavite i podjite molitvu obaviti.\""
     },
     {
         "name":"label-book2-lesson14-quote-reference",
@@ -2634,27 +2651,27 @@
     },
     {
         "name":"label-book2-lesson14_section3-paragraph2",
-        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph3",
-        "value":"Drugi rekat: bismilla – fatiha – sura"
+        "value":"Drugi rekat: bismilla – fatiha – sura."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph4",
-        "value":"Sjedenje:Sjedenje: et-tehijjatu"
+        "value":"Sjedenje: Et-tehijjatu."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph5",
-        "value":"Treći rekat: bismilla – fatiha – sura"
+        "value":"Treći rekat: bismilla – fatiha – sura."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph6",
-        "value":"Četvrti rekat: bismilla – fatiha – sura"
+        "value":"Četvrti rekat: bismilla – fatiha – sura."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph7",
-        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam"
+        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam."
     },
     {
         "name":"label-book2-lesson14-section4-header",
@@ -2702,7 +2719,7 @@
     },
     {
         "name":"label-book2-lesson14_section6-paragraph4",
-        "value":"Sjedenje: Sjedenje: et-tehijjatu"
+        "value":"Sjedenje: Et-tehijjatu"
     },
     {
         "name":"label-book2-lesson14_section6-paragraph5",
@@ -2786,11 +2803,11 @@
     },
     {
         "name":"label-book2-lesson16-quote",
-        "value":"\"O vjernici! Propisuje vam se post.\""
+        "value":"\"I naredjuje mi se da budem prvi musliman.\""
     },
     {
         "name":"label-book2-lesson16-quote-reference",
-        "value":"Kur'an, 2:183"
+        "value":"Kur'an, 39:12"
     },
     {
         "name":"label-book2-lesson16_section1-paragraph1",
@@ -2798,7 +2815,7 @@
     },
     {
         "name":"label-book2-lesson17-quote",
-        "value":"\"Jedan od dokaza njegovih je to što vas od zemlje stvara, i odjednom vas, ljudi, svuda ima razasutih\""
+        "value":"\"Jedan od dokaza njegovih je to što vas od zemlje stvara, i odjednom vas, ljudi, svuda ima razasutih.\""
     },
     {
         "name":"label-book2-lesson17-quote-reference",
@@ -2818,7 +2835,7 @@
     },
     {
         "name":"label-book2-lesson17_section2-paragraph3",
-        "value":"Lajlei-berat pada 15. noć ša&#39;bana kada Allah dž. š. određuje ljudske sudbine za narednu godinu. Ona nas podsjeća na skori dolazak najdražeg nam gosta, ramazana, da bismo se duhovno i fizički pripremili za post i ostale ibadete."
+        "value":"Lajlei-berat pada 15. noć ša'bana kada Allah dž. š. određuje ljudske sudbine za narednu godinu. Ona nas podsjeća na skori dolazak najdražeg nam gosta, ramazana, da bismo se duhovno i fizički pripremili za post i ostale ibadete."
     },
     {
         "name":"label-book2-lesson17_section2-paragraph4",
@@ -2826,7 +2843,7 @@
     },
     {
         "name":"label-book2-lesson18-quote",
-        "value":"\"I obraduj vjernike da će Allah na njih veliku milost prosuti\""
+        "value":"\"I obraduj vjernike da će Allah na njih veliku milost prosuti.\""
     },
     {
         "name":"label-book2-lesson18-quote-reference",
@@ -2842,7 +2859,7 @@
     },
     {
         "name":"label-book2-lesson19-quote",
-        "value":"\"To je onaj koji zna i nevidljivi i vidljivi svijet, Silni i Milostivi\""
+        "value":"\"To je onaj koji zna i nevidljivi i vidljivi svijet, Silni i Milostivi.\""
     },
     {
         "name":"label-book2-lesson19-quote-reference",
@@ -2858,19 +2875,19 @@
     },
     {
         "name":"label-book2-lesson20-quote",
-        "value":"\"O vjernici! Propisuje vam se post.\""
+        "value":"\"I grada ovog, sigurnog.\""
     },
     {
         "name":"label-book2-lesson20-quote-reference",
-        "value":"Kur'an, 2:183"
+        "value":"Kur'an, 95:3"
     },
     {
         "name":"label-book2-lesson20_section1-paragraph1",
-        "value":"U gradu Meki, u Arabiji, nalazi se mubarek mjesto Ka&#39;ba i tamo se okrećemo kad klanjamo (Kibla). Meka se nalazi na jugoistoku od naše zemlje. Ako ne znamo gdje je smjer Meke, a nemamo nikoga upitati, onda se treba okrenuti onamo kuda mislimo da je Kibla."
+        "value":"U gradu Meki, u Arabiji, nalazi se mubarek mjesto Ka'ba i tamo se okrećemo kad klanjamo (Kibla). Meka se nalazi na jugoistoku od naše zemlje. Ako ne znamo gdje je smjer Meke, a nemamo nikoga upitati, onda se treba okrenuti onamo kuda mislimo da je Kibla."
     },
     {
         "name":"label-book2-lesson21-quote",
-        "value":"\"Neka je hvaljen Allah, čije je sve ono na nebesima i sve ono na Zemlji! \""
+        "value":"\"Neka je hvaljen Allah, čije je sve ono na nebesima i sve ono na Zemlji!\""
     },
     {
         "name":"label-book2-lesson21-quote-reference",
@@ -2926,7 +2943,7 @@
     },
     {
         "name":"label-book2-lesson23-quote",
-        "value":"\"Milost koju Allah podari ljudima niko ne može uskratiti\""
+        "value":"\"Milost koju Allah podari ljudima niko ne može uskratiti.\""
     },
     {
         "name":"label-book2-lesson23-quote-reference",
@@ -2954,7 +2971,7 @@
     },
     {
         "name":"label-book2-lesson24-quote",
-        "value":"\"Dokaz im je mrtva zemlja: Mi joj život dajemo i iz nje niče žito koje oni jedu\""
+        "value":"\"Dokaz im je mrtva zemlja: Mi joj život dajemo i iz nje niče žito koje oni jedu.\""
     },
     {
         "name":"label-book2-lesson24-quote-reference",
@@ -2966,7 +2983,7 @@
     },
     {
         "name":"label-book2-lesson25-quote",
-        "value":"\"Veličanstven je Gospodar tvoj, Dostojanstveni\""
+        "value":"\"Veličanstven je Gospodar tvoj, Dostojanstveni.\""
     },
     {
         "name":"label-book2-lesson25-quote-reference",
@@ -2978,7 +2995,7 @@
     },
     {
         "name":"label-book2-lesson26-quote",
-        "value":"\"I slijedite ono najljepše, ono što vam Gospodar vaš objavljuje\""
+        "value":"\"I slijedite ono najljepše, ono što vam Gospodar vaš objavljuje.\""
     },
     {
         "name":"label-book2-lesson26-quote-reference",
@@ -2998,7 +3015,7 @@
     },
     {
         "name":"label-book2-lesson27-quote",
-        "value":"\"Šejtan je, uistinu, vaš neprijatelj\""
+        "value":"\"Šejtan je, uistinu, vaš neprijatelj.\""
     },
     {
         "name":"label-book2-lesson27-quote-reference",
@@ -3018,11 +3035,11 @@
     },
     {
         "name":"label-book2-lesson27_section1-paragraph4",
-        "value":"Tevba se obično čini usmeno ovako: »Milostivi Bože, ja se iskreno kajem što sam učinio grijeh i molim Tvoj oprost. <i>Estagfirullah, estagfirullah, estagfirullah ve etubu ilejh</i>.Kad se ovo izgovori, prouči se Amentu billahi i Kelime-i šehadet. Uz iskreno kajanje treba učiniti i neko dobro djelo."
+        "value":"Tevba se obično čini usmeno ovako: »Milostivi Bože, ja se iskreno kajem što sam učinio grijeh i molim Tvoj oprost. Estagfirullah, estagfirullah, estagfirullah ve etubu ilejh. Kad se ovo izgovori, prouči se Amentu billahi i Kelime-i šehadet. Uz iskreno kajanje treba učiniti i neko dobro djelo."
     },
     {
         "name":"label-book2-lesson28-quote",
-        "value":"\"O Allahovim ajetima raspravljaju samo oni koji ne vjeruju\""
+        "value":"\"O Allahovim ajetima raspravljaju samo oni koji ne vjeruju.\""
     },
     {
         "name":"label-book2-lesson28-quote-reference",
@@ -3055,7 +3072,7 @@
     
     {
         "name":"label-book2-lesson29-quote",
-        "value":"\"A on je, zaista, knjiga zaštićena\""
+        "value":"\"A on je, zaista, knjiga zaštićena.\""
     },
     {
         "name":"label-book2-lesson29-quote-reference",
@@ -3114,13 +3131,32 @@
         "name":"label-book2-lesson30_section2-paragraph6",
         "value":"lekum dinukum ve lije din"
     },
+
+    {
+        "name":"label-read-quran",
+        "value":"Čitaj"
+    },
+    {
+        "name":"label-read-quran-description",
+        "value":"Čitaj odabrane sure iz Časnog Kur'ana."
+    },
+    {
+        "name":"label-quran-revelation",
+        "value":"Objava"
+    },
+    {
+        "name":"label-quran-revelation-description",
+        "value":"Objava Kur'ana Muhammedu a.s."
+    },
+
+
     {
         "name":"label-book3-lesson1-title",
         "value":"Hadis"
     },
     {
         "name":"label-book3-lesson1-quote",
-        "value":"\"A tebe smo samo kao milost svjetovima poslali\""
+        "value":"\"A tebe smo samo kao milost svjetovima poslali.\""
     },
     {
         "name":"label-book3-lesson1-quote-reference",
@@ -3412,7 +3448,7 @@
     },
     {
         "name":"label-book3-lesson5-quote",
-        "value":"\"A oni koji su se Allaha bojali, oni će na sigurnu mjestu biti\""
+        "value":"\"A oni koji su se Allaha bojali, oni će na sigurnu mjestu biti.\""
     },
     {
         "name":"label-book3-lesson5-quote-reference",
@@ -3466,9 +3502,6 @@
         "name":"label-book3-lesson5_section1-paragraph12",
         "value":"Spomenuta desetorica ashaba, imenom i prezimenom, su desetorica koji su poznati kao Ašere mubeššere – desetorica koje je još za života Poslanik obavjestio da su stanovnici Dženneta. Ovdje svakako trebamo spomenuti unuke Hasana, r.a., i Husejna, r.a."
     },
-    
-
-
     {
         "name":"label-book3-lesson6-title",
         "value":"Žene u islamu"
@@ -3479,7 +3512,7 @@
     },
     {
         "name":"label-book3-lesson6-quote",
-        "value":"\"A roditeljima dobročinstvo činite\""
+        "value":"\"A roditeljima dobročinstvo činite.\""
     },
     {
         "name":"label-book3-lesson6-quote-reference",
@@ -3560,7 +3593,7 @@
 
     {
         "name":"label-book3-lesson7-quote",
-        "value":"\"Na nebesima i na Zemlji, zaista, postoje dokazi za one koji vjeruju\""
+        "value":"\"Na nebesima i na Zemlji, zaista, postoje dokazi za one koji vjeruju.\""
     },
     {
         "name":"label-book3-lesson7-quote-reference",
@@ -3624,7 +3657,7 @@
     },
     {
         "name":"label-book3-lesson8-quote",
-        "value":"\"Eto, od takvih ćemo Mi dobra djela koja su radili primiti\""
+        "value":"\"Eto, od takvih ćemo Mi dobra djela koja su radili primiti.\""
     },
     {
         "name":"label-book3-lesson8-quote-reference",
@@ -3644,7 +3677,7 @@
     },
     {
         "name":"label-book3-lesson8_section1-paragraph2",
-        "value":"Prema Kur'anu se trebamo odnositi s posebnom pažnjom. Abdest je uslov za njegovo čitanje i držanje u rukama. (Zabranjeno ga je uzimati u ruke i čitati bez abdesta.) Osobe koje nisu čiste (džunup, žene u stanju hajza i nifasa) također Kur'an ne mogu uzimati u ruke i čitati. Preporučeno je što više čitati i učiti Kur'an. Uzvišeni hvaleći one koji to čine kaže:...koji uče ajete Allahove po cijelu noć (Ali &#39;Imran, 113). U Dva sahiha u hadisu od Ibn Omera kaže se: \"Nema zavidnosti osim u dva slučaja: čoveku kome je Allah dao Kur'an i on postupa po njemu i danju i noću...\" Tirmizi prenosi slijedeći hadis od Ibn Mes'uda: &#39;&#39;Ko prouči harf iz Allahove Knjige, ima za to dobro djelo, a dobro djelo se nagrađuje deseterostruko\". Učenje Kur'ana počinjemo sa učenjem Euze i Bismille"
+        "value":"Prema Kur'anu se trebamo odnositi s posebnom pažnjom. Abdest je uslov za njegovo čitanje i držanje u rukama. (Zabranjeno ga je uzimati u ruke i čitati bez abdesta.) Osobe koje nisu čiste (džunup, žene u stanju hajza i nifasa) također Kur'an ne mogu uzimati u ruke i čitati. Preporučeno je što više čitati i učiti Kur'an. Uzvišeni hvaleći one koji to čine kaže:...koji uče ajete Allahove po cijelu noć (Ali 'Imran, 113). U Dva sahiha u hadisu od Ibn Omera kaže se: \"Nema zavidnosti osim u dva slučaja: čoveku kome je Allah dao Kur'an i on postupa po njemu i danju i noću...\" Tirmizi prenosi slijedeći hadis od Ibn Mes'uda: Ko prouči harf iz Allahove Knjige, ima za to dobro djelo, a dobro djelo se nagrađuje deseterostruko\". Učenje Kur'ana počinjemo sa učenjem Euze i Bismille"
     },
     {
         "name":"label-book3-lesson8_section2-header",
@@ -3690,7 +3723,7 @@
     },
     {
         "name":"label-book3-lesson9-quote",
-        "value":"\"A one koji su na Pravome putu On će i dalje voditi \""
+        "value":"\"A one koji su na Pravome putu On će i dalje voditi.\""
     },
     {
         "name":"label-book3-lesson9-quote-reference",
@@ -3715,7 +3748,7 @@
     },
     {
         "name":"label-book3-lesson10-quote",
-        "value":"\"On uliva smirenost u srca vjernika\""
+        "value":"\"On uliva smirenost u srca vjernika.\""
     },
     {
         "name":"label-book3-lesson10-quote-reference",
@@ -3735,7 +3768,7 @@
     },
     {
         "name":"label-book3-lesson11-quote",
-        "value":"\"Allah, sigurno, zna tajne nebesa i Zemlje\""
+        "value":"\"Allah, sigurno, zna tajne nebesa i Zemlje.\""
     },
     {
         "name":"label-book3-lesson11-quote-reference",
@@ -3888,7 +3921,7 @@
     },
     {
         "name":"label-book3-lesson13-quote",
-        "value":"\"Mi s neba spuštamo vodu kao blagoslov\""
+        "value":"\"Mi s neba spuštamo vodu kao blagoslov.\""
     },
     {
         "name":"label-book3-lesson13-quote-reference",
@@ -3925,7 +3958,7 @@
     },
     {
         "name":"label-book3-lesson14-quote",
-        "value":"\"Tako Mi neba punog zvjezdanih puteva\""
+        "value":"\"Tako Mi neba punog zvjezdanih puteva.\""
     },
     {
         "name":"label-book3-lesson14-quote-reference",
@@ -3953,7 +3986,7 @@
     },
     {
         "name":"label-book3-lesson14_section3-paragraph1",
-        "value":"Kako mu je otac umro prije njegovog rođenja, Muhammed je ostao samo s majkom i djedom. Među predislamskim uglednim Arapima vladao je običaj da se muška djeca šalju u pustinju, izvan grada, kako bi dio djetinjstva provodili u nekom od beduinskih plemena. Među takvim plemenima koja su uživala veliki ugled među Arapima bilo je i pelem Benu Sa&#39;ad ibn Bekr. To pleme je naseljavalo područje koje se nalazi jugoistočno od Meke. Poslanikova majka Amina je upravo željela Muhammeda povjeriti nekoj od žena iz toga plemena. Historičar Ibn Hašim u svom djelu Poslanikov životopis navodi da je Muhammedova dojilja bila Halima iz plemena Benu Sa'd. Kod Halime u pustinji je ostao do perioda kada je napunio dvije godine, naučio arapski jezik i prestao sa dojenjem. Kada je doveden u Meku, u kojoj se u to doba često javljale epidemije i bolesti Halima je iskoristila tu situaciju i nagovorila Njegovu majku da Muhameda, a.s., zadrži još dvije godine što se i desilo. Kada mu je bilo šest godina, umrla mu je i majka, a kako mu je otac umro prije i prije njegovog rođenja, Muhamed, a.s., je sa šest godina ostao siroče. Dvije godine poslije umire mu i djed nakon čega ga prihvaća amidža Ebu Talib koji se brine o njemu. U tradicionalnim predajama prenosi se da je kao dječak bio poznat po mudrosti i moralnosti. Tako se prenosi da su se zidovi Kabe radi poplave srušili i da su mekanska plemena odlučila da je renoviraju. Međutim, nastao je spor oko počasnog čina vraćanj Crnog kamena u zidove Kabe. S obzirom da su Muhammeda, a.s., znali u gradu kao najmoralnijeg i najnepristrasnijeg, pozvali su njega da presudi oko tog spora. On je presudio na sljedeći način: rekao im je da Crni kamen stave na jedno platno i da glavešine svih plemena uzmu za krajeve platna i tako ga polože u zid Kabe. Kad je imao 25 godina, oženio je Hatidžu bint Huvejlid i uspješno se bavio trgovinom."
+        "value":"Kako mu je otac umro prije njegovog rođenja, Muhammed je ostao samo s majkom i djedom. Među predislamskim uglednim Arapima vladao je običaj da se muška djeca šalju u pustinju, izvan grada, kako bi dio djetinjstva provodili u nekom od beduinskih plemena. Među takvim plemenima koja su uživala veliki ugled među Arapima bilo je i pelem Benu Sa'ad ibn Bekr. To pleme je naseljavalo područje koje se nalazi jugoistočno od Meke. Poslanikova majka Amina je upravo željela Muhammeda povjeriti nekoj od žena iz toga plemena. Historičar Ibn Hašim u svom djelu Poslanikov životopis navodi da je Muhammedova dojilja bila Halima iz plemena Benu Sa'd. Kod Halime u pustinji je ostao do perioda kada je napunio dvije godine, naučio arapski jezik i prestao sa dojenjem. Kada je doveden u Meku, u kojoj se u to doba često javljale epidemije i bolesti Halima je iskoristila tu situaciju i nagovorila Njegovu majku da Muhameda, a.s., zadrži još dvije godine što se i desilo. Kada mu je bilo šest godina, umrla mu je i majka, a kako mu je otac umro prije i prije njegovog rođenja, Muhamed, a.s., je sa šest godina ostao siroče. Dvije godine poslije umire mu i djed nakon čega ga prihvaća amidža Ebu Talib koji se brine o njemu. U tradicionalnim predajama prenosi se da je kao dječak bio poznat po mudrosti i moralnosti. Tako se prenosi da su se zidovi Kabe radi poplave srušili i da su mekanska plemena odlučila da je renoviraju. Međutim, nastao je spor oko počasnog čina vraćanj Crnog kamena u zidove Kabe. S obzirom da su Muhammeda, a.s., znali u gradu kao najmoralnijeg i najnepristrasnijeg, pozvali su njega da presudi oko tog spora. On je presudio na sljedeći način: rekao im je da Crni kamen stave na jedno platno i da glavešine svih plemena uzmu za krajeve platna i tako ga polože u zid Kabe. Kad je imao 25 godina, oženio je Hatidžu bint Huvejlid i uspješno se bavio trgovinom."
     },
     {
         "name":"label-book3-lesson14_section4-header",
@@ -4081,7 +4114,7 @@
     },
     {
         "name":"label-book3-lesson15-quote",
-        "value":"\"A ti strpljivo čekaj presudu Gospodara svoga\""
+        "value":"\"A ti strpljivo čekaj presudu Gospodara svoga.\""
     },
     {
         "name":"label-book3-lesson15-quote-reference",
@@ -4178,7 +4211,7 @@
     },
     {
         "name":"label-book3-lesson17-quote",
-        "value":"\"A Mi smo Kur’an učinili dostupnim za pouku\""
+        "value":"\"A Mi smo Kur’an učinili dostupnim za pouku.\""
     },
     {
         "name":"label-book3-lesson17-quote-reference",
@@ -4326,7 +4359,7 @@
     },
     {
         "name":"label-book3-lesson18_section6-paragraph1",
-        "value":"Bismillahillezi la jedurru mea'smihi šej&#39;un fil- erdi ve la fissemai, ve Huve-ssemiul-alim, neće mu ništa nauditi."
+        "value":"Bismillahillezi la jedurru mea'smihi šej'un fil- erdi ve la fissemai, ve Huve-ssemiul-alim, neće mu ništa nauditi."
     },
     {
         "name":"label-book3-lesson18_section6-paragraph2",
@@ -4377,7 +4410,7 @@
     },
     {
         "name":"label-book3-lesson21-quote",
-        "value":"\"Sašaptavanje je posao šejtanski\""
+        "value":"\"Sašaptavanje je posao šejtanski.\""
     },
     {
         "name":"label-book3-lesson21-quote-reference",
@@ -4418,7 +4451,7 @@
     },
     {
         "name":"label-book3-lesson23-quote",
-        "value":"\"On ima najljepša imena\""
+        "value":"\"On ima najljepša imena.\""
     },
     {
         "name":"label-book3-lesson23-quote-reference",
@@ -4432,7 +4465,7 @@
     },
     {
         "name":"label-chosen-verses-quote",
-        "value":"\"Ovo su ajeti mudre Knjige\""
+        "value":"\"Ovo su ajeti mudre Knjige.\""
     },
     {
         "name":"label-chosen-verses-quote-reference",
@@ -4448,7 +4481,7 @@
     },
     {
         "name":"label-ruby-quote",
-        "value":"\"On je Silni, Onaj koji prašta\""
+        "value":"\"On je Silni, Onaj koji prašta.\""
     },
     {
         "name":"label-ruby-quote-reference",
@@ -4470,6 +4503,77 @@
     {
         "name":"label-pearls-quote-reference",
         "value":"Kur'an, 33:3"
+    },
+
+    {
+        "name":"label-options-islamic-community",
+        "value":"Islamska zajednica Bošnjaka u Norveškoj"
+    },
+
+    {
+        "name":"label-options-team",
+        "value":"iMekteb tim"
+    },
+    {
+        "name":"label-options-team-description",
+        "value":"Ljudi koji su implementirali iMekteb projekat"
+    },
+    {
+        "name":"label-options-contact-description",
+        "value":"Pošaljite vaše prijedloge i sugestije"
+    },
+
+    {
+        "name":"label-options-rate",
+        "value":"Ocijenite iMekteb"
+    },
+    {
+        "name":"label-options-rate-description",
+        "value":"Ocijenite iMekteb app i ostavite komentar na kako vam se svidja"
+    },
+
+    {
+        "name":"label-options-keep-touch",
+        "value":"Budite u vezi sa nama"
+    },
+
+    {
+        "name":"label-options-change-language",
+        "value":"Promijenite jezik"
+    },
+    {
+        "name":"label-options-change-language-description",
+        "value":"Promijenite jezik aplikacije"
+    },
+    {
+        "name":"label-options-team-introduction-paragraph1",
+        "value":"Sva hvala i zahvala pripada Allahu dž.š. koji je omogućio provedbu ovog projekta. Nekea je salavat i selam na Poslanika Muhammeda a.s. kao i njegovu časnu porodivu i ashabe."
+    },
+
+    {
+        "name":"label-options-team-expertise",
+        "value":"Stručni dio: "
+    },
+    {
+        "name":"label-options-team-quran",
+        "value":"Učač Kur'ana: "
+    },
+    {
+        "name":"label-options-team-design",
+        "value":"Dizajn: "
+    },
+    {
+        "name":"label-options-team-translation",
+        "value":"Prijevod: "
+    },
+    {
+        "name":"label-options-team-programming",
+        "value":"Programer: "
+    },
+
+    {
+        "name":"label-options-team-introduction-paragraph2",
+        "value":"Ova aplikacija nastala je kao iskazana potreba jednog vremesnkog perioda digitalizacije u kojem se nalazimo s ciljem olakšane vjersko-odgojene edukacije djece i omladine koji žive na prostoru IZ Bošnjaka u Norveškoj, ali i šire. Prilikom izrade aplikacije korištena je stručna literatura iz ove oblasti te praksa i iskustvo imama na mektebima."
     },
 
     {
@@ -6102,7 +6206,7 @@
         "value":"gotovo da se od bijesa raspadne. Kad god se koja gomila u nj baci, stražari u njemu će je upitati: \"Zar nije niko dolazio da vas opominje?\""
     },
     {
-        "name":"label-surah67-ayah8",
+        "name":"label-surah67-ayah9",
         "value":"\"Jest, dolazio nam je onaj koji nas je opominjao\" - odgovoriće   - \"a mi smo poricali i govorili: Allah nije objavio ništa, vi ste u velikoj zabludi!\""
     },
     {

@@ -28,7 +28,7 @@ const SurahListItem: React.FC<surahListItemProps> = ({
 }) => {
   return (
     <IonItem
-      routerLink={`/AyahPage/${surahId}/${firstAyahId}/${lastAyahId}`}
+      routerLink={`/tabs/AyahPage/${surahId}/${firstAyahId}/${lastAyahId}`}
       color="light"
       lines="none"
     >

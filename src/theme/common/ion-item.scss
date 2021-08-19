@@ -3,6 +3,11 @@ ion-item.welcome{
     color: #FFFFFF;
   }
 
+  ion-item.activated{
+    --background: rgba(255,255,255,.5);
+    color: #FFFFFF;
+  }
+
   ion-item.lesson-note{
     --background: #FFFFFF;
       
@@ -12,6 +17,26 @@ ion-item.welcome{
     --border-radius: 14px;
     margin-bottom: 15px;
    
+  }
+
+  ion-item.border-purple{
+    border-left: var(--ion-color-purple) 5px solid;
+  }
+
+  ion-item.border-razimic{
+    border-left: var(--ion-color-razimic) 5px solid;
+  }
+
+  ion-item.border-burgundy{
+    border-left: var(--ion-color-burgundy) 5px solid;
+  }
+
+  ion-item.border-brown{
+    border-left: var(--ion-color-brown) 5px solid;
+  }
+
+  ion-item.border-dark-brown{
+    border-left: var(--ion-color-dark-brown) 5px solid;
   }
 
   ion-item.recitatio{

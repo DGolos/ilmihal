@@ -40,12 +40,12 @@ const PrayerDefinitionPage: React.FC = () => {
             </IonItem>
           </div>
           
-            <IonCard color="light" className="prayer" routerLink={`/FajrPrayerPage`}>
+            <IonCard color="light" className="prayer" routerLink={`/tabs/FajrPrayerPage`}>
               <IonCardContent>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/fajr.jpg'/>
+                      <img src='assets/images/fajr.png'/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
@@ -56,12 +56,12 @@ const PrayerDefinitionPage: React.FC = () => {
                 </IonRow>
               </IonCardContent>
             </IonCard>
-            <IonCard color="light" className="prayer" routerLink={`/DhuhrPrayerPage`}>
+            <IonCard color="light" className="prayer" routerLink={`/tabs/DhuhrPrayerPage`}>
               <IonCardContent>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/fajr.jpg'/>
+                      <img src='assets/images/dhuhr.png'/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
@@ -73,12 +73,12 @@ const PrayerDefinitionPage: React.FC = () => {
                 </IonRow>
               </IonCardContent>
             </IonCard>
-            <IonCard color="light" className="prayer" routerLink={`/AsrPrayerPage`}>
+            <IonCard color="light" className="prayer" routerLink={`/tabs/AsrPrayerPage`}>
               <IonCardContent style={{ marginTop: "0px", marginBottom: "6px" }}>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/fajr.jpg'/>
+                      <img src='assets/images/asr.png'/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
@@ -89,12 +89,12 @@ const PrayerDefinitionPage: React.FC = () => {
                 </IonRow>
               </IonCardContent>
             </IonCard>
-            <IonCard color="light" className="prayer" routerLink={`/MaghribPrayerPage`}>
+            <IonCard color="light" className="prayer" routerLink={`/tabs/MaghribPrayerPage`}>
               <IonCardContent>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/maghrib.jpg'/>
+                      <img src='assets/images/maghrib.png'/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
@@ -105,12 +105,12 @@ const PrayerDefinitionPage: React.FC = () => {
                 </IonRow>
               </IonCardContent>
             </IonCard>
-            <IonCard color="light" className="prayer" routerLink={`/IshaPrayerPage`}>
+            <IonCard color="light" className="prayer" routerLink={`/tabs/IshaPrayerPage`}>
               <IonCardContent>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/isha.jpg'/>
+                      <img src='assets/images/isha.png'/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">

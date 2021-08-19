@@ -11,9 +11,10 @@ class DataService{
     private async loadQuran(){
         const surahBody=await fetch("assets/data/surah.json").then(response=>response.json());
         this.suras = JSON.parse(JSON.stringify(surahBody));
-
+        
         const ayahBody=await fetch("assets/data/ayah.json").then(response=>response.json());
         this.ayahs = JSON.parse(JSON.stringify(ayahBody));
+        
     }
 
     private async loadLessons(){
@@ -33,6 +34,7 @@ class DataService{
     }
 
     public getSurahById(id:number):Surah{
+        
         const surah =this.suras.find(surah=>surah.id===id);
 
         if (surah === undefined) {
@@ -43,9 +45,11 @@ class DataService{
     }
 
     public getAyahForSurah(surahId:number):Ayah[]{
+        const ayahInSurah=this.ayahs.filter((ayah)=>{
+            return ayah.surahId===surahId;
+        });
 
-        const ayah=this.ayahs.filter(ayah=>ayah.surahId===surahId);
-        return ayah;
+       return ayahInSurah;
     }
 
     public getAyah(surahId:number,firstAyahId:number,lastAyahId:number):Ayah[]{

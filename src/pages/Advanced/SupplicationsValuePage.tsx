@@ -29,7 +29,7 @@ export const SupplicationValuePage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="purple" defaultHref="/SupplicationMainPage" />
+            <IonBackButton color="purple" defaultHref="/tabs/SupplicationMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>

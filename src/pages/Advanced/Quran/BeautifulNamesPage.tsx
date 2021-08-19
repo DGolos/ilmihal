@@ -54,7 +54,7 @@ export const BeautifulNamesPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="razimic" defaultHref="/DhikrMainPage" />
+            <IonBackButton color="razimic" defaultHref="/tabs/DhikrMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>

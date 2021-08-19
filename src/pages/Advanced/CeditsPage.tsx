@@ -1,5 +1,6 @@
 import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React, { useRef, useState } from "react";
+import { translationService } from "../../services/TranslationService";
 
 const CreditsPage: React.FC = () => {
     return(
@@ -7,7 +8,7 @@ const CreditsPage: React.FC = () => {
             <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="dark-brown" defaultHref="/OptionsPage" />
+              <IonBackButton color="dark-brown" defaultHref="/tabs/OptionsPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -28,16 +29,16 @@ const CreditsPage: React.FC = () => {
             <IonItem detail={false} color="light" lines="none">
               <IonText>
                 <h2 className="lesson-note">
-                Sva hvala i zahvala pripada Allahu dž.š. koji je omogućio provedbu ovog projekta. Nekea je salavat i selam na Poslanika Muhammeda a.s. kao i njegovu časnu porodivu i ashabe.
+                {translationService.getLabel('label-options-team-introduction-paragraph1')}
                 </h2>
                 <h2 className="lesson-note">
-                Ova aplikacija nastala je kao iskazana potreba jednog vremesnkog perioda digitalizacije u kojem se nalazimo s ciljem olakšane vjersko-odgojene edukacije djece i omladine koji žive na prostoru IZ Bošnjaka u Norveškoj, ali i šire. Prilikom izrade aplikacije korištena je stručna literatura iz ove oblasti te praksa i iskustvo imama na mektebima.
+                {translationService.getLabel('label-options-team-introduction-paragraph2')}
                 </h2>
                 <h2 className="lesson-note">
-                    <b>Stručni dio:</b> Ibrahim ef. Šabić<br/>
-                    <b>Učač Kur'ana:</b> Hafiz Omer ef. Zulić<br/>
-                    <b>Dizajn:</b> Ewelina Sőderlund<br/>
-                    <b>Programer:</b> Đenan Gološ
+                    <b>{translationService.getLabel('label-options-team-expertise')}</b> Ibrahim ef. Šabić<br/>
+                    <b>{translationService.getLabel('label-options-team-quran')}</b> Hafiz Omer ef. Zulić<br/>
+                    <b>{translationService.getLabel('label-options-team-design')}</b> Ewelina Sőderlund<br/>
+                    <b>{translationService.getLabel('label-options-team-programming')}</b> Đenan Gološ
                 </h2>
               </IonText>
             </IonItem>

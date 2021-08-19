@@ -25,7 +25,7 @@ import { translationService } from "../../../services/TranslationService";
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="purple" defaultHref="/ChosenVerses" />
+              <IonBackButton color="purple" defaultHref="/tabs/ChosenVerses" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>

@@ -153,7 +153,7 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
               value={"translation" as TranslationSection}
               className={lesson?.color}
             >
-              {translationService.getLabel('label-header-bosnian')}
+              {translationService.getLabel('label-header-native-language')}
             </IonSegmentButton>
           </IonSegment>
         </div>

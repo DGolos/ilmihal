@@ -22,7 +22,7 @@ export const CompanionsPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/MainCategoryPage" />
+              <IonBackButton color="burgundy" defaultHref="/tabs/MainCategoryPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -49,7 +49,7 @@ export const CompanionsPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-        <IonItem lines="none" color="purple"  routerLink={`/CaliphsPage`} key="1">
+        <IonItem lines="none" color="purple"  routerLink={`/tabs/CaliphsPage`} key="1">
               <IonText className="ion-text-center">
                 <h3>
                 {translationService.getLabel('label-book3-lesson4-title')}
@@ -60,7 +60,7 @@ export const CompanionsPage: React.FC = () => {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem lines="none" color="burgundy" routerLink={`/ChosenCompanionsPage`} key="2">
+            <IonItem lines="none" color="burgundy" routerLink={`/tabs/ChosenCompanionsPage`} key="2">
               <IonText className="ion-text-center">
                 <h2>
                 {translationService.getLabel('label-book3-lesson5-title')}
@@ -71,7 +71,7 @@ export const CompanionsPage: React.FC = () => {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem lines="none" color="dark-brown" routerLink={`/WomensPage`} key="3">
+            <IonItem lines="none" color="dark-brown" routerLink={`/tabs/WomensPage`} key="3">
               <IonText className="ion-text-center">
                 <h2>
                 {translationService.getLabel('label-book3-lesson6-title')}

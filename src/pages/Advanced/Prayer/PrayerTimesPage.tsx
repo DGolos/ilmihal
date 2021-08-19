@@ -1,41 +1,47 @@
 import {
   IonBackButton,
+  IonButton,
   IonButtons,
   IonCard,
-  IonCardContent,
-  IonCardSubtitle,
-  IonCardTitle,
+  IonCol,
   IonContent,
+  IonGrid,
   IonHeader,
   IonItem,
   IonList,
   IonPage,
+  IonRow,
   IonText,
   IonToolbar,
+  useIonViewWillEnter
 } from "@ionic/react";
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
+import { useHistory } from "react-router";
 import { PrayersProps, timeService } from "../../../services/TimeService";
 import { translationService } from "../../../services/TranslationService";
 
 const PrayerTimesPage: React.FC = () => {
   const[prayers,setPrayers]=useState<PrayersProps>();
- 
-  const getPrayerTimes = () => {
-    setPrayers(timeService.getPrayertimes());
-    
-    
-  };
+  const history=useHistory();
+  
+  
+  const changeLocation=()=>{
+    history.push("/tabs/LocationOptionsPage");
+  }
 
-  useEffect(() => {
-    getPrayerTimes();
-  },[]);
+  useIonViewWillEnter(() => {
+    timeService.getPrayertimes().then((data)=>{
+      setPrayers(data);
+    })
+  });
+    
 
   return (
     <IonPage>
       <IonHeader className="ion-no-border standard">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/MainCategoryPage" />
+            <IonBackButton color="light" defaultHref="/tabs/MainCategoryPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -56,6 +62,22 @@ const PrayerTimesPage: React.FC = () => {
            
         
         </IonCard>
+        <div >
+          <IonGrid>
+            <IonRow>
+              <IonCol size="8">
+                <IonText color="light" style={{fontSize:"18px",fontWeight:"normal"}}>{prayers?.city}, {prayers?.country==="BA"?"Bosna i Hercegovina":"Norge"}</IonText>
+              </IonCol>
+              <IonCol size="4">
+                <IonButton className="pressed no-shadow" onClick={() => {
+                  changeLocation();
+                }}>
+                  {translationService.getLabel('label-change-location')}
+                  </IonButton>
+              </IonCol>
+            </IonRow>
+          </IonGrid>
+        </div>
         <div className="ion-padding">
           <IonList>
             <IonItem lines="full">
@@ -115,3 +137,5 @@ const PrayerTimesPage: React.FC = () => {
 };
 
 export default PrayerTimesPage;
+
+

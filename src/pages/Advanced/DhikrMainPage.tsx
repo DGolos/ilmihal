@@ -24,7 +24,7 @@ import {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="razimic" defaultHref="/MainCategoryPage" />
+              <IonBackButton color="razimic" defaultHref="/tabs/MainCategoryPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -48,20 +48,20 @@ import {
           
           <div className="ion-padding">
             <IonList className="white">
-              <IonItem color="light" lines="full" routerLink='/RepetancePage'>
+              <IonItem color="light" lines="full" routerLink='/tabs/RepetancePage'>
                 <IonText slot="start" >
                   <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson21-title')}</h2>
                 </IonText>
                 
               </IonItem>
   
-              <IonItem color="light" lines="full" routerLink='/ForgivnesPage'>
+              <IonItem color="light" lines="full" routerLink='/tabs/ForgivnesPage'>
                 <IonText slot="start">
                   <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson22-title')}</h2>
                 </IonText>
                
               </IonItem>
-              <IonItem color="light" lines="full" routerLink='/BeautifulNames'>
+              <IonItem color="light" lines="full" routerLink='/tabs/BeautifulNames'>
                 <IonText slot="start">
                   <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson23-title')}</h2>
                 </IonText>

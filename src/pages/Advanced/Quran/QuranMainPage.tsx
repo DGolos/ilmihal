@@ -16,6 +16,7 @@ import React, { useEffect, useState } from "react";
 import { RouteComponentProps } from "react-router";
 import { dataService } from "../../../services/dataService";
 import { Surah } from "../../../objects/Surah";
+import { translationService } from "../../../services/TranslationService";
 
 export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
   match,
@@ -43,7 +44,7 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
   const surahsListItems = filteredSurahs.map((surah) => (
     <IonItem
       key={surah.id}
-      routerLink={`/Quran${match.params.type}/${surah.id}`}
+      routerLink={`/tabs/Quran${match.params.type}/${surah.id}`}
       lines="none"
       detail={false}
       color="light"
@@ -56,7 +57,7 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
       <IonLabel className="ion-padding-start">
         <h4 className="name">{surah.name}</h4>
         <h6>
-          {surah.revelationCity} {surah.numberOfAyah} ajeta
+          {surah.revelationCity} {surah.numberOfAyah} {translationService.getLabel('label-ayahs')}
         </h6>
       </IonLabel>
       <IonLabel className="ion-text-right">
@@ -70,7 +71,7 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="burgundy" defaultHref="/MainCategoryPage" />
+            <IonBackButton color="burgundy" defaultHref="/tabs/MainCategoryPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>

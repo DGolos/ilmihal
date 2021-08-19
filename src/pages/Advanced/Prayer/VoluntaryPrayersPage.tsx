@@ -22,7 +22,7 @@ export const VoluntaryPrayersPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="razimic" defaultHref="/MainCategoryPage" />
+            <IonBackButton color="razimic" defaultHref="/tabs/MainCategoryPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -65,7 +65,7 @@ export const VoluntaryPrayersPage: React.FC = () => {
           <IonItem
             lines="none"
             color="razimic"
-            routerLink={`/JummahPrayerPage`}
+            routerLink={`/tabs/JummahPrayerPage`}
             key="1"
           >
             <IonText className="ion-text-center">
@@ -82,7 +82,7 @@ export const VoluntaryPrayersPage: React.FC = () => {
           <IonItem
             lines="none"
             color="burgundy"
-            routerLink={`/EidPrayerPage`}
+            routerLink={`/tabs/EidPrayerPage`}
             key="2"
           >
             <IonText className="ion-text-center">
@@ -99,7 +99,7 @@ export const VoluntaryPrayersPage: React.FC = () => {
           <IonItem
             lines="none"
             color="purple"
-            routerLink={`/TarawihPrayerPage`}
+            routerLink={`/tabs/TarawihPrayerPage`}
             key="3"
           >
             <IonText className="ion-text-center">
@@ -116,7 +116,7 @@ export const VoluntaryPrayersPage: React.FC = () => {
           <IonItem
             lines="none"
             color="dark-brown"
-            routerLink={`/FuneralPrayerPage`}
+            routerLink={`/tabs/FuneralPrayerPage`}
             key="4"
           >
             <IonText className="ion-text-center">
@@ -139,7 +139,7 @@ export const VoluntaryPrayersPage: React.FC = () => {
             <IonItem
             lines="none"
             color="purple"
-            routerLink={`/NightPrayerPage`}
+            routerLink={`/tabs/NightPrayerPage`}
             key="5"
           >
             <IonText className="ion-text-center">
@@ -156,7 +156,7 @@ export const VoluntaryPrayersPage: React.FC = () => {
           <IonItem
             lines="none"
             color="burgundy"
-            routerLink={`/MorningPrayerPage`}
+            routerLink={`/tabs/MorningPrayerPage`}
             key="6"
           >
             <IonText className="ion-text-center">
@@ -173,7 +173,7 @@ export const VoluntaryPrayersPage: React.FC = () => {
           <IonItem
             lines="none"
             color="dark-brown"
-            routerLink={`/GuidancePrayerPage`}
+            routerLink={`/tabs/GuidancePrayerPage`}
             key="7"
           >
             <IonText className="ion-text-center">

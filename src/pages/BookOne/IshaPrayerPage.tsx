@@ -60,10 +60,10 @@ const IshaPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/IshaPrayerDetailsPage/sunnah">
+                <IonFabButton routerLink="/tabs/IshaPrayerDetailsPage/sunnah">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/IshaPrayerWatchPage/sunnah">
+                <IonFabButton routerLink="/tabs/IshaPrayerWatchPage/sunnah">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
@@ -79,10 +79,10 @@ const IshaPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/IshaPrayerDetailsPage/fardh">
+                <IonFabButton routerLink="/tabs/IshaPrayerDetailsPage/fardh">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/IshaPrayerWatchPage/fardh">
+                <IonFabButton routerLink="/tabs/IshaPrayerWatchPage/fardh">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
@@ -98,10 +98,10 @@ const IshaPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/IshaPrayerDetailsPage/sunsunnah">
+                <IonFabButton routerLink="/tabs/IshaPrayerDetailsPage/sunsunnah">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/IshaPrayerWatchPage/sunsunnah">
+                <IonFabButton routerLink="/tabs/IshaPrayerWatchPage/sunsunnah">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
@@ -117,10 +117,10 @@ const IshaPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/IshaPrayerDetailsPage/witr">
+                <IonFabButton routerLink="/tabs/IshaPrayerDetailsPage/witr">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/IshaPrayerWatchPage/witr">
+                <IonFabButton routerLink="/tabs/IshaPrayerWatchPage/witr">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>

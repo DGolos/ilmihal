@@ -1,23 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   IonButton,
-  IonCard,
   IonCol,
   IonContent,
+  IonFooter,
   IonGrid,
   IonImg,
+  IonItem,
+  IonLabel,
   IonPage,
   IonRow,
   IonText  
 } from "@ionic/react";
+import { storageService } from "../services/StorageService";
+import { useHistory } from "react-router";
+import { translationService } from "../services/TranslationService";
 
 
 const ChooseLanguagePage: React.FC = () => {
+  const [language, setLanguage] = useState<string>("");
+  const history=useHistory();
+  const save = () => {
+    storageService.set("languageData",language);
+    translationService.load();
+    history.push("/ChooseLocationPage");
+  }
   return (
     <IonPage>
-      <IonContent color="razimic" fullscreen>
+      <IonContent className="bg-image-purple" fullscreen>
         <div className="center">
-          <IonCard color="purple" className="prayer">
+          <IonItem className={`${language==="ba"?"activated":"welcome"}`} onClick={() => {
+                    setLanguage("ba");
+                  }}>
             <IonGrid>
               <IonRow>
                 <IonCol size="4">
@@ -30,8 +44,10 @@ const ChooseLanguagePage: React.FC = () => {
                 </IonCol>
               </IonRow>
             </IonGrid>
-          </IonCard>
-          <IonCard color="burgundy" className="prayer">
+          </IonItem>
+          <IonItem className={`${language==="no"?"activated":"welcome"}`} onClick={() => {
+                    setLanguage("no");
+                  }}>
             <IonGrid>
               <IonRow>
                 <IonCol size="4">
@@ -44,15 +60,37 @@ const ChooseLanguagePage: React.FC = () => {
                 </IonCol>
               </IonRow>
             </IonGrid>
-          </IonCard>
+          </IonItem>
 
-          <IonButton
-            className="ion-padding"
-            expand="full"
-            color="dark-brown"
-          ></IonButton>
+          
         </div>
+        
+        
       </IonContent>
+      <IonFooter className="ion-no-border">
+          <IonGrid>
+            <IonRow>
+              
+              <IonCol size="12">
+              <IonButton
+                className="pressed"
+                expand="block"
+                size="large"
+                shape="round"
+                onClick={() => {
+                  save();
+                }}
+                disabled={language===""}
+              >
+                <IonLabel color="light" className="ion-text-center">
+                  Slijedeća/ Neste
+                </IonLabel>
+              </IonButton>
+              </IonCol>
+              
+            </IonRow>
+          </IonGrid>
+        </IonFooter>
     </IonPage>
   );
 };

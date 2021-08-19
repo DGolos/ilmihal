@@ -11,7 +11,7 @@ const IslamMainPage: React.FC = () => {
             <IonButtons slot="start">
               <IonBackButton
                 color="light"
-                defaultHref="/BookOneMainPage"
+                defaultHref="/tabs/BookOneMainPage"
               />
             </IonButtons>
           </IonToolbar>
@@ -42,7 +42,7 @@ const IslamMainPage: React.FC = () => {
           <IonList className="ion-padding transparent" style={{marginTop:0}}>
             <IonItem
               key="1"
-              routerLink={`/SegmentLessonPage/1/2`}
+              routerLink={`/tabs/SegmentLessonPage/1/2`}
               lines="none"
               detail={false}
               className="welcome ion-text-center"
@@ -54,7 +54,7 @@ const IslamMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="2"
-              routerLink={`/PrayerDefinitionPage`}
+              routerLink={`/tabs/PrayerDefinitionPage`}
               lines="none"
               detail={false}
               className="welcome ion-text-center"
@@ -66,7 +66,7 @@ const IslamMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="3"
-              routerLink={`/StandardLessonPage/1/30`}
+              routerLink={`/tabs/StandardLessonPage/1/30`}
               lines="none"
               detail={false}
               className="welcome ion-text-center"
@@ -78,7 +78,7 @@ const IslamMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="4"
-              routerLink={`/StandardLessonPage/1/31`}
+              routerLink={`/tabs/StandardLessonPage/1/31`}
               lines="none"
               detail={false}
               className="welcome ion-text-center"
@@ -90,7 +90,7 @@ const IslamMainPage: React.FC = () => {
             </IonItem>
             <IonItem
               key="5"
-              routerLink={`/HajjDefinitionPage`}
+              routerLink={`/tabs/HajjDefinitionPage`}
               lines="none"
               detail={false}
               className="welcome ion-text-center"

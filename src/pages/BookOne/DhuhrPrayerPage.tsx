@@ -17,7 +17,7 @@ const DhuhrPrayerPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="light" defaultHref='/BookOneMainPage'/>
+              <IonBackButton color="light" defaultHref='/tabs/BookOneMainPage'/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -60,10 +60,10 @@ const DhuhrPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/DhuhrPrayerDetailsPage/sunnah">
+                <IonFabButton routerLink="/tabs/DhuhrPrayerDetailsPage/sunnah">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/DhuhrPrayerWatchPage/sunnah">
+                <IonFabButton routerLink="/tabs/DhuhrPrayerWatchPage/sunnah">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
@@ -79,10 +79,10 @@ const DhuhrPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/DhuhrPrayerDetailsPage/fardh">
+                <IonFabButton routerLink="/tabs/DhuhrPrayerDetailsPage/fardh">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/DhuhrPrayerWatchPage/fardh">
+                <IonFabButton routerLink="/tabs/DhuhrPrayerWatchPage/fardh">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
@@ -98,10 +98,10 @@ const DhuhrPrayerPage: React.FC = () => {
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/DhuhrPrayerDetailsPage/sunsunnah">
+                <IonFabButton routerLink="/tabs/DhuhrPrayerDetailsPage/sunsunnah">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/DhuhrPrayerWatchPage/sunsunnah">
+                <IonFabButton routerLink="/tabs/DhuhrPrayerWatchPage/sunsunnah">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>

@@ -5,7 +5,6 @@ import { timeService } from '../services/TimeService';
 import { translationService } from '../services/TranslationService';
 
 const HomePage: React.FC = () => {
-  const [showModal, setShowModal] = useState(false);
   const[period,setPeriod]=useState("");
   
 
@@ -47,7 +46,7 @@ useIonViewWillEnter(() => {
               <IonCol size="6">
               <IonItem
                     key="1"
-                    routerLink={`/BookOneMainPage`}
+                    routerLink={`/tabs/BookOneMainPage`}
                     lines="none"
                     detail={false}
                     className="lesson welcome"
@@ -65,7 +64,7 @@ useIonViewWillEnter(() => {
               <IonCol size="6">
               <IonItem
                     key="2"
-                    routerLink={`/BookTwoMainPage`}
+                    routerLink={`/tabs/BookTwoMainPage`}
                     lines="none"
                     detail={false}
                     className="lesson welcome"

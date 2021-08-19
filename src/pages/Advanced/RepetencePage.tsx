@@ -21,7 +21,7 @@ const RepetancePage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="dark-brown" defaultHref="/DhikrMainPage" />
+            <IonBackButton color="dark-brown" defaultHref="/tabs/DhikrMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>

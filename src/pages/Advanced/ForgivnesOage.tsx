@@ -21,7 +21,7 @@ import {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="burgundy" defaultHref="/DhikrMainPage" />
+              <IonBackButton color="burgundy" defaultHref="/tabs/DhikrMainPage" />
             </IonButtons>
           </IonToolbar>
         </IonHeader>

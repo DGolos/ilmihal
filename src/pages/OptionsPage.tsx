@@ -10,15 +10,47 @@ import {
   IonIcon,
   IonItem,
   IonLabel,
-  IonList,
   IonPage,
   IonRow,
   IonText,
 } from "@ionic/react";
-import { link } from "fs";
-import { arrowRedoOutline, linkSharp, logoFacebook, mailOpen, peopleOutline, thumbsUpOutline } from "ionicons/icons";
+import { useHistory } from "react-router";
+import { arrowRedoOutline, chatbubbleEllipsesOutline, linkSharp, logoFacebook, mailOpen, mailOutline, peopleOutline, thumbsUpOutline } from "ionicons/icons";
+import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { translationService } from "../services/TranslationService";
 
 const OptionsPage: React.FC = () => {
+  const history=useHistory();
+
+  const rateApp=()=>{
+    /*const appRate=new AppRate();
+    appRate.preferences.storeAppURL = {
+      ios: 'no.izbih.iMekteb',
+      android: 'market://details?id=no.izbih.iMekteb',
+    }
+    appRate.promptForRating(true);*/
+    
+  }
+  const changeLanguage=()=>{
+    history.push("/tabs/LanguageOptionsPage");
+  }
+
+  const openHomePage=async()=>{
+    const browser = InAppBrowser.create("https://izbih.no");
+    
+  }
+
+  const openTermsOfUse=async()=>{
+    const browser = InAppBrowser.create("https://izbih.no/privacy-policy");
+    
+  }
+
+  const openFacebook=async()=>{
+    const browser = InAppBrowser.create("https://www.facebook.com/DetIslamskeFellesskapBosniaHerzegovina/");
+    
+  }
+
+
   return (
     <IonPage>
       <IonContent className="bg-image-purple" fullscreen>
@@ -27,30 +59,37 @@ const OptionsPage: React.FC = () => {
             <IonItem className="dark-brown ion-text-center white-line" style={{ marginBottom: "0px" }}>
               <IonText color="light" >
                 <h4  style={{ fontSize: "28px", fontWeight: "bold" }}>iMekteb</h4>
-                <p style={{ fontSize: "10px" }}> app by</p>
-                <h4  style={{ fontSize: "20px", fontWeight: 300 }}>Islamska zajednica Bošnjaka u Norveškoj</h4>
+                <p style={{ fontSize: "12px" }}> app by</p>
+                <h4  style={{ fontSize: "20px", fontWeight: 300 }}>{translationService.getLabel('label-options-islamic-community')}</h4>
               </IonText>
             </IonItem>
-            <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }} routerLink={`/CreditsPage`}>
+            <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }} routerLink={`/tabs/CreditsPage`}>
               <IonAvatar>
                 <IonIcon icon={peopleOutline} color="light"  style={{ fontSize: "36px" }}/>
               </IonAvatar>
-              <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>iMekteb tim</h4>
-                <p style={{ fontSize: "12px" }}> Ljudi koji su implementirali iMekteb projekat</p></IonLabel>
+              <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-team')}</h4>
+                <p style={{ fontSize: "12px" }}> {translationService.getLabel('label-options-team-description')}</p></IonLabel>
             </IonItem>
             <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }}>
             <IonAvatar>
-                <IonIcon icon={arrowRedoOutline} color="light"  style={{ fontSize: "36px" }}/>
+                <IonIcon icon={mailOutline} color="light"  style={{ fontSize: "36px" }}/>
               </IonAvatar>
-            <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>Podijelite</h4>
-                <p style={{ fontSize: "12px" }}> Podijelite link za iMekteb app sa porodicom i prijateljima</p></IonLabel>
+            <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>Kontakt</h4>
+                <p style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-contact-description')} </p></IonLabel>
             </IonItem>
-            <IonItem className="dark-brown" lines="none" style={{ marginBottom: "0px" }}>
+            <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }} onClick={() => {rateApp()}}>
             <IonAvatar>
                 <IonIcon icon={thumbsUpOutline} color="light"  style={{ fontSize: "36px" }}/>
               </IonAvatar>
-            <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>Ocijenite iMekteb</h4>
-                <p style={{ fontSize: "12px" }}>Ocijenite iMekteb app i ostavite komentar na kako vam se svidja </p></IonLabel>
+            <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-rate')}</h4>
+                <p style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-rate-description')} </p></IonLabel>
+            </IonItem>
+            <IonItem className="dark-brown" lines="none" style={{ marginBottom: "0px" }} onClick={() => {changeLanguage()}}>
+            <IonAvatar>
+                <IonIcon icon={chatbubbleEllipsesOutline} color="light"  style={{ fontSize: "36px" }}/>
+              </IonAvatar>
+            <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-change-language')}</h4>
+                <p style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-change-language-description')}</p></IonLabel>
             </IonItem>
             
           </IonCard>
@@ -59,25 +98,26 @@ const OptionsPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12">
                   <IonText style={{ fontSize: "20px", fontWeight: "bold" }}>
-                    Budite u vezi
+                  {translationService.getLabel('label-options-keep-touch')}
                   </IonText>
                 </IonCol>
               </IonRow>
               <IonRow>
-                <IonCol size="4">
-                  <IonButton fill="clear">
+                <IonCol size="6">
+                  <IonButton fill="clear" onClick={() => {openHomePage()}}>
                   <IonIcon
                     style={{ fontSize: "20px" }}
                     icon={linkSharp}
                     color="light"
                     slot="start"
+                    
                   />
                   <IonText color="light" >Web</IonText>
                   </IonButton>
                   
                 </IonCol>
-                <IonCol size="4">
-                <IonButton fill="clear">
+                <IonCol size="6">
+                <IonButton fill="clear" onClick={() => {openFacebook()}}>
                   <IonIcon
                     style={{ fontSize: "20px" }}
                     icon={logoFacebook}
@@ -87,17 +127,7 @@ const OptionsPage: React.FC = () => {
                   <IonText color="light">Facebook</IonText>
                   </IonButton>
                 </IonCol>
-                <IonCol size="4">
-                <IonButton fill="clear">
-                  <IonIcon
-                    style={{ fontSize: "20px" }}
-                    icon={mailOpen}
-                    color="light"
-                    slot="start"
-                  />
-                  <IonText color="light">Kontakt</IonText>
-                  </IonButton>
-                </IonCol>
+                
               </IonRow>
             </IonGrid>
           </IonCard>
@@ -106,7 +136,7 @@ const OptionsPage: React.FC = () => {
         
       </IonContent>
       <IonFooter className="ion-padding ion-no-border">
-            <IonText style={{ fontSize: "12px" }} color="light">Privacy policy</IonText>
+            <IonText style={{ fontSize: "12px" }} color="light" onClick={() => {openTermsOfUse()}}>Privacy policy</IonText>
           </IonFooter>
     </IonPage>
   );

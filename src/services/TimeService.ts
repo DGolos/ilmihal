@@ -12,6 +12,14 @@ export interface PrayersProps {
   isha: string;
   period: string;
   headers: string[];
+  city:string;
+  country:string;
+}
+
+interface Location{
+  id:string;
+  name:string;
+  country:string;
 }
 
 export interface prayerStorage{
@@ -41,6 +49,7 @@ class TimeService {
   preIshaSeconds = 0;
   ishaSeconds = 0;
   lastComputedDate: Date = new Date(1900, 0, 1);
+  currentLocation:Location={id:"",name:"",country:""};
 
   async calculatePrayertimes() {
     
@@ -74,9 +83,7 @@ class TimeService {
 
   async getTimesFromStorage(){
     const prayerObj=await storageService.get("prayerData");
-    console.log(prayerObj);
     const prayerStrings:prayerStorage=JSON.parse(prayerObj!);
-    console.log(prayerStrings);
     this.fajr=prayerStrings?.fajr;
     this.sunrise=prayerStrings?.sunrise;
     this.dhuhr=prayerStrings?.dhuhr;
@@ -93,17 +100,45 @@ class TimeService {
 
   async init() {
     try{
-      const response = await axios.get("https://api.vaktija.ba/vaktija/v1/19",{timeout:3000});
-      console.log(response);
-      const timeTable: string[] = response.data.vakat;
 
-      this.fajr = timeTable[0];
-      this.sunrise = timeTable[1];
-      this.dhuhr = timeTable[2];
-      this.asr = timeTable[3];
-      this.maghrib = timeTable[4];
-      this.isha = timeTable[5];
+      const locationObj=await storageService.get("locationData");
+      this.currentLocation=JSON.parse(locationObj!);
+      var timeTable: string[]=[];
+      if(this.currentLocation.country==="BA"){
+        
+        const response = await axios.get(`https://api.vaktija.ba/vaktija/v1/${this.currentLocation.id}`);
+        timeTable= response.data.vakat;
+        this.fajr = timeTable[0];
+        this.sunrise = timeTable[1];
+        this.dhuhr = timeTable[2];
+        this.asr = timeTable[3];
+        this.maghrib = timeTable[4];
+        this.isha = timeTable[5];
+  
+      }else{
+        const response=await axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${this.currentLocation.id}&country=${this.currentLocation.country}&method=13`);
+        
+        const fajrObj = moment(response.data.data.timings.Fajr,"H:m");
+        this.fajr = moment.utc((fajrObj.hours() * 3600 + fajrObj.minutes() * 60) * 1000).format("HH:mm");
 
+        const sunriseObj = moment(response.data.data.timings.Sunrise,"H:m");
+        this.sunrise = moment.utc((sunriseObj.hours() * 3600 + sunriseObj.minutes() * 60) * 1000).format("HH:mm");
+
+        const dhuhrObj = moment(response.data.data.timings.Dhuhr,"H:m");
+        this.dhuhr = moment.utc((dhuhrObj.hours() * 3600 + dhuhrObj.minutes() * 60) * 1000).format("HH:mm");
+
+        const asrObj = moment(response.data.data.timings.Asr,"H:m");
+        this.asr = moment.utc((asrObj.hours() * 3600 + asrObj.minutes() * 60) * 1000).format("HH:mm");
+
+        const maghribObj = moment(response.data.data.timings.Maghrib,"H:m");
+        this.maghrib = moment.utc((maghribObj.hours() * 3600 + maghribObj.minutes() * 60) * 1000).format("HH:mm");
+
+        const ishaObj = moment(response.data.data.timings.Isha,"H:m");
+        this.isha = moment.utc((ishaObj.hours() * 3600 + ishaObj.minutes() * 60) * 1000).format("HH:mm");
+        
+      }
+      
+      
       this.calculatePrayertimes();
       this.updateStorage();
     }
@@ -251,7 +286,7 @@ class TimeService {
     return this.isha;
   }
 
-  getPrayertimes() {
+  async getPrayertimes() {
     return {
       startOfFast: this.startOfFast,
       fajr: this.fajr,
@@ -261,6 +296,8 @@ class TimeService {
       isha: this.isha,
       period: this.getCurrentPeriod(),
       headers: this.getHeaders(),
+      city:this.currentLocation.name,
+      country:this.currentLocation.country,
     };
   }
 }

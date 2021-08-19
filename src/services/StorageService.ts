@@ -2,7 +2,7 @@ import { Plugins } from '@capacitor/core';
 const { Storage } = Plugins;
 
 export type StorageKeys =
-    "languageData" | "userData" | "prayerData";
+    "languageData" | "locationData" | "prayerData";
 
 export const storageService = {
     invalidate: async () => {

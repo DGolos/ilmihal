@@ -6,6 +6,7 @@ import {
   IonCard,
   IonCol,
   IonContent,
+  IonFooter,
   IonGrid,
   IonHeader,
   IonIcon,
@@ -18,39 +19,48 @@ import {
   IonToolbar,
   useIonViewWillEnter,
 } from "@ionic/react";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Surah } from "../../../objects/Surah";
 import { dataService } from "../../../services/dataService";
 import { Ayah } from "../../../objects/Ayah";
 import { plainToClass } from "class-transformer";
-import { caretForwardCircleOutline } from "ionicons/icons";
+import { caretForwardCircleOutline, pause, play } from "ionicons/icons";
 import { Howl } from "howler";
 import { translationService } from "../../../services/TranslationService";
 
 export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
   match,
 }) => {
+  const [isPlaying,setIsPlaying]=useState(false);
+  const [isLoaded,setIsLoaded]=useState(false);
   const [surah, setSurah] = useState<Surah>();
   const [fontSize, setFontSize] = useState(14);
-  const [ayah, setAyah] = useState<Ayah[]>([]);
+  const [ayahs, setAyahs] = useState<Ayah[]>([]);
+  const [currentAyah,setCurrentAyah]=useState(-1);   
   const [showArabic, setShowArabic] = useState(true);
   const [showTranslation, setShowTranslation] = useState(true);
   const [showTransliteration, setShowTransliteration] = useState(true);
+  const playerRef=useRef(new Howl({src:[""]}));
   const [bismillah, setBismillah] = useState(
     "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
   );
   const [translator, setTranslator] = useState("");
 
   const loadSurah = () => {
-    setSurah(dataService.getSurahById(+match.params.id));
-
-    setAyah(plainToClass(Ayah, dataService.getAyahForSurah(+match.params.id)));
+    
+    setSurah(dataService.getSurahById(+(match.params.id)));
+    setAyahs(plainToClass(Ayah, dataService.getAyahForSurah(+match.params.id)));
     setTranslator(translationService.getLabel("label-translator"));
+    
   };
 
-  useIonViewWillEnter(() => {
+  useEffect(() => {
     loadSurah();
-  });
+
+    return ()=>{
+      playerRef.current.unload();
+    };
+  },[]);
 
   const getArabicAyahNumber = (id: number): string => {
     let ret = "";
@@ -93,16 +103,79 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
     return ret;
   };
 
-  const playAyah = (ayahId: number) => {
-    const player = new Howl({
-      src: `/assets/audio/Mishary/${surah?.id}/${ayahId}.mp3`,
-      format: ["mp3"],
-    });
+  const scrollToAyah=(id:number)=>{
+    let y=document.getElementById(id.toString())?.offsetTop;
+    let content=document.querySelector("ion-content");
+    content?.scrollToPoint(0,y);
+  }
 
-    player.play();
-  };
+  const playlist=(id:number)=>{
+    if(isPlaying){
+      playerRef.current.unload();
+    }
+    let count=0;
+    let current=id;
+    setCurrentAyah(current);
+    const ayahToPlay=ayahs.filter(ayah=>+(ayah.id)>=id);
+    let howlerBank=[new Howl({src:[""]})];
+    howlerBank.pop();
 
-  const ayahListItems = ayah.map((ayah) => (
+            
+    const onEnd=()=>{
+        count=count+1;
+        current=current+1;
+        if(count<ayahToPlay.length){
+            setCurrentAyah(current);
+            scrollToAyah(current);
+            playerRef.current=howlerBank[count];
+            playerRef.current.play();
+        }
+        else{
+            setIsPlaying(false);
+            setCurrentAyah(-1);
+        }
+       
+    }
+    
+    
+    ayahs.forEach((current,i)=>{
+        const ayah=ayahToPlay[i];
+        
+        howlerBank.push(new Howl({
+            src:`/assets/audio/Mishary/${ayah?.surahId}/${ayah?.id}.mp3`,
+           
+            onend:onEnd
+            
+        }
+        ))
+    })
+    
+    scrollToAyah(id);
+    playerRef.current=howlerBank[count];
+    playerRef.current.play();
+    setIsPlaying(true);
+    setIsLoaded(true);
+}
+
+
+
+const toglePlayPause=()=>{
+    if(isLoaded===false){
+        playlist(1);
+    }
+    else{
+        if(isPlaying){
+            playerRef.current.pause();
+            setIsPlaying(false);
+        }
+        else{
+            setIsPlaying(true);
+            playerRef.current.play();
+        }
+    }
+};
+
+  const ayahListItems = ayahs.map((ayah) => (
     <IonItem
       hidden={
         showArabic === false &&
@@ -110,10 +183,12 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
         showTransliteration === false
       }
       key={ayah.id}
+      id={ayah.id.toString()}
       detail={false}
-      color="light"
       lines="none"
       style={{ marginLeft: "15px", marginRight: "15px" }}
+      color="light"
+      className={`${ayah.id===currentAyah?`border-${surah?.color}`:""}`}
     >
       <IonGrid>
         <IonRow hidden={showArabic === false}>
@@ -142,7 +217,7 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
             </h3>
           </IonCol>
         </IonRow>
-        <IonRow className={`border-top-${surah?.color}`}>
+        <IonRow className={ayah.id===currentAyah?"border-top-white":`border-top-${surah?.color}`}>
           <IonCol size="2">
             <h4 className={`ayah-details-${surah?.color}`}>
               {ayah.surahId}:{ayah.id}
@@ -161,7 +236,7 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
             <IonButton
               className="no-shadow"
               onClick={() => {
-                playAyah(ayah.id);
+                playlist(ayah.id)
               }}
               fill="solid"
               color="light"
@@ -183,11 +258,11 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
       <IonHeader className="ion-no-border standard">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color={surah?.color} defaultHref="/Quran/Reader" />
+            <IonBackButton color={surah?.color} defaultHref="/tabs/Quran/Reader" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="bg-image-standard" fullscreen>
+      <IonContent className="bg-image-standard" scrollEvents={true} onIonScroll={()=>{}} onIonScrollStart={()=>{}} onIonScrollEnd={()=>{}} fullscreen>
         <IonGrid>
           <IonRow>
             <IonCol size="4">
@@ -271,8 +346,8 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
             style={{ marginLeft: "75px", marginRight: "75px" }}
             onIonChange={(e) => setFontSize(e.detail.value as number)}
           >
-            <IonLabel slot="start" className="ion-no-padding">
-              Velicina teksta
+            <IonLabel slot="start" className="ion-no-padding" style={{fontSize:"14px"}}>
+            {translationService.getLabel("label-header-font-size")}
             </IonLabel>
           </IonRange>
         </div>
@@ -291,6 +366,7 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
         </IonCard>
         <IonList>{ayahListItems}</IonList>
       </IonContent>
+      
     </IonPage>
   );
 };

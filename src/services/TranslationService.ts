@@ -1,4 +1,3 @@
-import { plainToClass } from "class-transformer";
 import { storageService } from "./StorageService";
 
 
@@ -17,9 +16,18 @@ class TranslationService{
 
     
     async load(){
-        const body=await fetch("assets/data/ba.json").then(response=>response.json());
-        this.labels = JSON.parse(JSON.stringify(body));
-        this.loaded=true;
+        
+        const lang=await storageService.get("languageData");
+        
+        if(lang!==null){
+            const body=await fetch(`assets/data/${lang}.json`).then(response=>response.json());
+            this.labels = JSON.parse(JSON.stringify(body));
+            this.loaded=true;
+        }
+        else{
+            this.loaded=false;
+        }
+        
        
     }
     isLoaded():boolean{
@@ -31,6 +39,10 @@ class TranslationService{
         if(item===null) return "";
 
         return item?.value!;
+    }
+
+    isNorwegian():boolean{
+        return this.currentLocale==="no";
     }
 }
 
