@@ -3131,6 +3131,14 @@
         "name":"label-book2-lesson30_section2-paragraph6",
         "value":"lekum dinukum ve lije din"
     },
+    {
+        "name":"label-quran-nominative",
+        "value":"Kur'an"
+    },
+    {
+        "name":"label-quran-genitive",
+        "value":"Kur'ana"
+    },
 
     {
         "name":"label-read-quran",
@@ -3148,7 +3156,67 @@
         "name":"label-quran-revelation-description",
         "value":"Objava Kur'ana Muhammedu a.s."
     },
+    {
+        "name":"label-quran-recitation",
+        "value":"Učenje"
+    },
+    {
+        "name":"label-quran-recitation-description",
+        "value":"Etiketa učenja Časnog Kur'ana"
+    },
 
+    {
+        "name":"label-quran-chosen-verses-1",
+        "value":"Odabrani"
+    },
+    {
+        "name":"label-quran-chosen-verses-2",
+        "value":"ajeti"
+    },
+    {
+        "name":"label-quran-chosen-verses-description",
+        "value":"Čitaj odabrane ajete iz Časnog Kur'ana"
+    },
+    {
+        "name":"label-daily-prayer-1",
+        "value":"Vakat"
+    },
+    {
+        "name":"label-daily-prayer-2",
+        "value":"namazi"
+    },
+    {
+        "name":"label-daily-prayer-description",
+        "value":"Dnevna vaktija za odabranu lokaciju"
+    },
+    {
+        "name":"label-other-prayer-1",
+        "value":"Ostali"
+    },
+    {
+        "name":"label-other-prayer-2",
+        "value":"namazi"
+    },
+    {
+        "name":"label-other-prayer-description",
+        "value":"Ostali namazi pored dnevnih vakata"
+    },
+    {
+        "name":"label-wudhu",
+        "value":"Abdest"
+    },
+    {
+        "name":"label-wudhu-description",
+        "value":"Kako se pravilno uzima abdest"
+    },
+    {
+        "name":"label-wudhu",
+        "value":"Gusl"
+    },
+    {
+        "name":"label-wudhu-description",
+        "value":"Kako se pravilno uzima gusl"
+    },
 
     {
         "name":"label-book3-lesson1-title",
@@ -3435,7 +3503,7 @@
     },
     {
         "name":"label-book3-lesson4_section5-paragraph1",
-        "value":"Pošto je i halifa Osman bio ubijen, za halifu je bio izabran Alija ibn ebi Talib. Alija je odrasta u Poslanikovu, a.s., domu i bio je oženjen njegovom kćerkom Fatimom. Bio je jedan od pisara Kur'ana i slovio je kao jedan od najboljih poznavalaca islamskog prava. Osim toga bio je veliki junak, učesnik skoro svih vojnih pohoda te pobjednik u svim, mnogobrojnim, dvobojima kojima su u ono doba otpočinjale bitke. Islam je prihvatio još kao dječak. Nakon Osmanovog ubistva, Alija nije želio preuzeti hilafet. Nakon nagovaranja odlučio je popustiti, ali pod uslovom da mu svi u džamiji daju prisegu na vjernost. Prvi je dao prisegu Talha ibn Ubejdullah, a nakon njega i ostali prisutni. Na taj način Alija postade 4. halifa i ujedno i posljednji &quot;pravedni halifa&quot;. Odmah po preuzimanju hilafeta, novi halifa je naišao na probleme. Poslije izbora Alije za halifu, taj izbor nije priznao namjesnik Sirije, Muavija. Vođeno je nekoliko žestokih bitaka u kojima je Alijina vojska odnijela pobjede. Muavija ni dalje nije priznavao Aliju za halifu nego se i on proglasio halifom. Četrdesetih godina po Hidžri sastala su se tri čovjeka iz reda Haridžija (jedna fanatična vjerska sekta, nastala tokom tih borbi) i, smatrajući da su muslimani zalutali, te da se trebaju ubiti namjesnici: Alija, Muavija i Amr ibn el-'As. Dogovor je pao da se sva tri ubistva odigraju 17. ramazana. Pokušaj ubistva Muavije je propao, iako ga je ubica ranio zatrovanom sabljom po debelom mesu. Nakon dugotrajnog liječenja Muavija je ozdravio. Amr ibn el-'As se razbolio, te nije izašao na sabah namaz, nego je poslao Haridžea ibn Huzejfea, kojega je Amrov ubica ubio. Abdurrahman ibn Muldžem je sačekao Aliju ispred njegove kuće kada je ovaj krenuo klanjati sabah namaz u džamiji i udario ga sabljom po čelu. Halifa nije odmah podlegao ranama, nego je uspio poživjeti dovoljno dugo da naredi da se ne kažnjava niko osim njegovog ubice i to bez mučenja. Naredio je sljedbenicima da nipošto ne traže osvetu. Umro je neprestano ponavljajući šehadet."
+        "value":"Pošto je i halifa Osman bio ubijen, za halifu je bio izabran Alija ibn ebi Talib. Alija je odrasta u Poslanikovu, a.s., domu i bio je oženjen njegovom kćerkom Fatimom. Bio je jedan od pisara Kur'ana i slovio je kao jedan od najboljih poznavalaca islamskog prava. Osim toga bio je veliki junak, učesnik skoro svih vojnih pohoda te pobjednik u svim, mnogobrojnim, dvobojima kojima su u ono doba otpočinjale bitke. Islam je prihvatio još kao dječak. Nakon Osmanovog ubistva, Alija nije želio preuzeti hilafet. Nakon nagovaranja odlučio je popustiti, ali pod uslovom da mu svi u džamiji daju prisegu na vjernost. Prvi je dao prisegu Talha ibn Ubejdullah, a nakon njega i ostali prisutni. Na taj način Alija postade 4. halifa i ujedno i posljednji \"pravedni halifa\". Odmah po preuzimanju hilafeta, novi halifa je naišao na probleme. Poslije izbora Alije za halifu, taj izbor nije priznao namjesnik Sirije, Muavija. Vođeno je nekoliko žestokih bitaka u kojima je Alijina vojska odnijela pobjede. Muavija ni dalje nije priznavao Aliju za halifu nego se i on proglasio halifom. Četrdesetih godina po Hidžri sastala su se tri čovjeka iz reda Haridžija (jedna fanatična vjerska sekta, nastala tokom tih borbi) i, smatrajući da su muslimani zalutali, te da se trebaju ubiti namjesnici: Alija, Muavija i Amr ibn el-'As. Dogovor je pao da se sva tri ubistva odigraju 17. ramazana. Pokušaj ubistva Muavije je propao, iako ga je ubica ranio zatrovanom sabljom po debelom mesu. Nakon dugotrajnog liječenja Muavija je ozdravio. Amr ibn el-'As se razbolio, te nije izašao na sabah namaz, nego je poslao Haridžea ibn Huzejfea, kojega je Amrov ubica ubio. Abdurrahman ibn Muldžem je sačekao Aliju ispred njegove kuće kada je ovaj krenuo klanjati sabah namaz u džamiji i udario ga sabljom po čelu. Halifa nije odmah podlegao ranama, nego je uspio poživjeti dovoljno dugo da naredi da se ne kažnjava niko osim njegovog ubice i to bez mučenja. Naredio je sljedbenicima da nipošto ne traže osvetu. Umro je neprestano ponavljajući šehadet."
     },
 
     {
@@ -4098,7 +4166,7 @@
     },
     {
         "name":"label-book3-lesson14_section12-paragraph6",
-        "value":"On zatim oprema vojsku za osvojenje Mekke i u nju okuplja preko 10.000 ljudi. Osvaja Mekku bez većih konflikta i bez žrtava. Nakon ulaska u Mekku, amnestira sve okupljene stanovnike Mekke i &quot;oprašta&quot; im riječima: &quot;Reći ću vam ono što je Jusuf rekao svojoj braći: \"Ja vas danas neću koriti, idite, slobodni ste\" Nakon toga je porušio kipove koji su se nalazili u dvorištu Kabe."
+        "value":"On zatim oprema vojsku za osvojenje Mekke i u nju okuplja preko 10.000 ljudi. Osvaja Mekku bez većih konflikta i bez žrtava. Nakon ulaska u Mekku, amnestira sve okupljene stanovnike Mekke i \"oprašta\" im riječima: \"Reći ću vam ono što je Jusuf rekao svojoj braći: \"Ja vas danas neću koriti, idite, slobodni ste\" Nakon toga je porušio kipove koji su se nalazili u dvorištu Kabe."
     },
     {
         "name":"label-book3-lesson14_section13-header",
@@ -4150,7 +4218,7 @@
     },
     {
         "name":"label-book3-lesson15_section3-paragraph2",
-        "value":"Bosanski pjesnik Muhamed Hevai Uskufi je sastavljač tursko-bosanskog rječnika. To je prvi rječnik nekog od južnoslavenskih jezika, kojeg on tada naziva bosanskim (bosnevi). U Uvodu za svoj rječnik autor je napisao: &quot;Mnogo je lijepih rječnika napisano, sve kao dragi kamen pribranih i omiljenih, ali nema napisana na bosanskom jeziku.&quot; Rječnik je objavio 1631. godine."
+        "value":"Bosanski pjesnik Muhamed Hevai Uskufi je sastavljač tursko-bosanskog rječnika. To je prvi rječnik nekog od južnoslavenskih jezika, kojeg on tada naziva bosanskim (bosnevi). U Uvodu za svoj rječnik autor je napisao: \"Mnogo je lijepih rječnika napisano, sve kao dragi kamen pribranih i omiljenih, ali nema napisana na bosanskom jeziku.\" Rječnik je objavio 1631. godine."
     },
     {
         "name":"label-book3-lesson15_section4-header",
@@ -4267,7 +4335,7 @@
     },
     {
         "name":"label-book3-lesson17_section7-paragraph1",
-        "value":"Allahummagfir li ma kaddemtu vema ehhartu vema esrertu vema 'alentu vema Ente 'alemu bihi minni. Ente-l-mukaddimu ve Ente-l-mu&'ehhiru ve Ente 'ala kulli šej'in kadir."
+        "value":"Allahummagfir li ma kaddemtu vema ehhartu vema esrertu vema 'alentu vema Ente 'alemu bihi minni. Ente-l-mukaddimu ve Ente-l-mu'ehhiru ve Ente 'ala kulli šej'in kadir."
     },
     {
         "name":"label-book3-lesson17_section7-paragraph2",

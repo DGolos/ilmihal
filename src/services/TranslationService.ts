@@ -23,6 +23,7 @@ class TranslationService{
             const body=await fetch(`assets/data/${lang}.json`).then(response=>response.json());
             this.labels = JSON.parse(JSON.stringify(body));
             this.loaded=true;
+            this.currentLocale=lang;
         }
         else{
             this.loaded=false;

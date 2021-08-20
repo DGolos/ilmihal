@@ -177,19 +177,19 @@
     },
     {
         "name":"label-book2-lesson11-title",
-        "value":"Bajram namaz"
+        "value":"Eid bønn"
     },
     {
         "name":"label-book2-lesson12-title",
-        "value":"Dženaze namaz"
+        "value":"Janazah bønn"
     },
     {
         "name":"label-book2-lesson13-title",
-        "value":"Teravih namaz"
+        "value":"Teravih bønn"
     },
     {
         "name":"label-book2-lesson14-title",
-        "value":"Džuma namaz"
+        "value":"Jummah bønn"
     },
     {
         "name":"label-book2-lesson15-title",
@@ -1794,11 +1794,11 @@
     },
     {
         "name":"label-next-prayer",
-        "value":"Slijedeći namaz"
+        "value":"Neste bønn"
     },
     {
         "name":"label-current-prayer",
-        "value":"Vrijeme je"
+        "value":"Tid for"
     },
     {
         "name":"label-no-prayer",
@@ -1806,23 +1806,23 @@
     },
     {
         "name":"label-hour",
-        "value":"sat"
+        "value":"time"
     },
     {
         "name":"label-hours",
-        "value":"sata"
+        "value":"timer"
     },
     {
         "name":"label-minute-nominativ",
-        "value":"minutu"
+        "value":"minutt"
     },
     {
         "name":"label-minute-genitiv",
-        "value":"minute"
+        "value":"minutter"
     },
     {
         "name":"label-minute-acusativ",
-        "value":"minuta"
+        "value":"minutter"
     },
 
     {
@@ -2463,7 +2463,7 @@
     },
     {
         "name":"label-book2-lesson11-title-description",
-        "value":"Namaz koji se lkanja za ramazanski i kurban bajram"
+        "value":"Bønn som utføres for eid-ul-fitr og eid-ul-adha"
     },
     {
         "name":"label-book2-lesson11-quote",
@@ -2503,7 +2503,7 @@
     },
     {
         "name":"label-book2-lesson12-title-description",
-        "value":"Bønn for de avdøde"
+        "value":"Bønn for de avdøde som utføres før personen blir begravd"
     },
     {
         "name":"label-book2-lesson12-quote",
@@ -2515,7 +2515,7 @@
     },
     {
         "name":"label-book2-lesson12-section1-paragraph1",
-        "value":"Dženaze bønn utføres for de avdøde."
+        "value":"Dženaze bønn utføres for de avdøde"
     },
     {
         "name":"label-book2-lesson12-section2-paragraph1",
@@ -3123,7 +3123,14 @@
         "name":"label-book2-lesson30_section2-paragraph6",
         "value":"lekum dinukum ve lije din"
     },
-
+    {
+        "name":"label-quran-nominative",
+        "value":"Kur'an"
+    },
+    {
+        "name":"label-quran-genitive",
+        "value":"Kur'an"
+    },
     {
         "name":"label-read-quran",
         "value":"Les"
@@ -3134,13 +3141,72 @@
     },
     {
         "name":"label-quran-revelation",
-        "value":"Åpenbaring"
+        "value":"Åpenbaring av"
     },
     {
         "name":"label-quran-revelation-description",
-        "value":"Kur'ana åpenbaring til Muhammed a.s."
+        "value":"Hvordan Kur'an ble åpenbart til Muhammed a.s."
     },
-
+    {
+        "name":"label-quran-recitation",
+        "value":"Resitering av"
+    },
+    {
+        "name":"label-quran-recitation-description",
+        "value":"Hvordan riktig å resitere Kur'an"
+    },
+    {
+        "name":"label-quran-chosen-verses-1",
+        "value":"Utvalgte"
+    },
+    {
+        "name":"label-quran-chosen-verses-2",
+        "value":"vers"
+    },
+    {
+        "name":"label-quran-chosen-verses-description",
+        "value":"Les utvalgte ayah fra Den Hellige Kur'an"
+    },
+    {
+        "name":"label-daily-prayer-1",
+        "value":"Daglige"
+    },
+    {
+        "name":"label-daily-prayer-2",
+        "value":"bønn"
+    },
+    {
+        "name":"label-daily-prayer-description",
+        "value":"Daglige bønntider for valgt sted"
+    },
+    {
+        "name":"label-other-prayer-1",
+        "value":"Andre"
+    },
+    {
+        "name":"label-other-prayer-2",
+        "value":"bønn"
+    },
+    {
+        "name":"label-other-prayer-description",
+        "value":"Andre bønn ved siden av daglige bønn"
+    },
+    {
+        "name":"label-wudhu",
+        "value":"Wudhu"
+    },
+    {
+        "name":"label-wudhu-description",
+        "value":"Hvordan ta wudhu på riktig måte"
+    },
+    {
+        "name":"label-ghusl",
+        "value":"Gusl"
+    },
+    {
+        "name":"label-ghusl-description",
+        "value":"Hvordan ta gusl på riktig måte"
+    },
     {
         "name":"label-book3-lesson1-title",
         "value":"Hadis"
@@ -3587,7 +3653,7 @@
 
     {
         "name":"label-book3-lesson7-quote",
-        "value":"\"Na nebesima i na Zemlji, zaista, postoje dokazi za one koji vjeruju\""
+        "value":"\"Sannelig, i himlene og på jorden er det visselig tegn for de troende.\""
     },
     {
         "name":"label-book3-lesson7-quote-reference",
@@ -3623,7 +3689,7 @@
     },
     {
         "name":"label-book3-lesson7_section3-paragraph1",
-        "value":"MEngel Gabriel, a.s., er ansvarlig for bringing av Allahs Åpenbaringer. Han bragte Allahs Åpenbaringer blant annet, Zebur, Indžil i Kur'an. Skaperen av alle verdener sier dette om Gabriel:” Kur'an er uten tvil Åpenbaringen fra Herre over verdener, er bragt av pålitelige Gabriel i ditt hjerte, slik at du kan advare folk.’’ (El-Bekara, 285) Åpenbaringen er bragt gradvis, i løpet av 23 år, 13 år i Makkah og 10 år i Madinah. Gabriel kom til Muhammad a.s., i hans naturlige statilstandnju, og dette var tøft for Muhammad a.s.. I andre tilfeller kom Gabriel som menneske og dette var mye lettere for Muhammad a.s.. Aishah, r.a., rapporterer at Haris ibn Hashim, r.a., spurte Allahs Sendebud a.s.: \"Å Allahs Sendebud, hvordan kommer åpenbaringen til deg?\" Allahs Sendebud a.s. svarte: “Enkelte ganger kommer det som ringing av bjeller og det er det vanskeligste. når det er ferdig så har jeg allerede husket alt som er åpenbart. Og enkelte ganger kommer Gabriel som menneskelig skikkelse, og forteller det til megi og jeg husker det han sa til meg.” (Buhari: 18/1, no. 2.)"
+        "value":"Engel Gabriel, a.s., er ansvarlig for bringing av Allahs Åpenbaringer. Han bragte Allahs Åpenbaringer blant annet, Zebur, Indžil i Kur'an. Skaperen av alle verdener sier dette om Gabriel:” Kur'an er uten tvil Åpenbaringen fra Herre over verdener, er bragt av pålitelige Gabriel i ditt hjerte, slik at du kan advare folk.’’ (El-Bekara, 285) Åpenbaringen er bragt gradvis, i løpet av 23 år, 13 år i Makkah og 10 år i Madinah. Gabriel kom til Muhammad a.s., i hans naturlige statilstandnju, og dette var tøft for Muhammad a.s.. I andre tilfeller kom Gabriel som menneske og dette var mye lettere for Muhammad a.s.. Aishah, r.a., rapporterer at Haris ibn Hashim, r.a., spurte Allahs Sendebud a.s.: \"Å Allahs Sendebud, hvordan kommer åpenbaringen til deg?\" Allahs Sendebud a.s. svarte: “Enkelte ganger kommer det som ringing av bjeller og det er det vanskeligste. når det er ferdig så har jeg allerede husket alt som er åpenbart. Og enkelte ganger kommer Gabriel som menneskelig skikkelse, og forteller det til megi og jeg husker det han sa til meg.” (Buhari: 18/1, no. 2.)"
     },
     {
         "name":"label-book3-lesson7_section4-header",
@@ -3651,7 +3717,7 @@
     },
     {
         "name":"label-book3-lesson8-quote",
-        "value":"\"Eto, od takvih ćemo Mi dobra djela koja su radili primiti\""
+        "value":"\"Disse er de hvis dydige handlinger Vi godtar.\""
     },
     {
         "name":"label-book3-lesson8-quote-reference",
@@ -3659,31 +3725,31 @@
     },
     {
         "name":"label-book3-lesson8-title",
-        "value":"Učenje Kur'ana"
+        "value":"Kur'an lære"
     },
     {
         "name":"label-book3-lesson8_section1-header",
-        "value":"Uvod"
+        "value":"Innføring"
     },
     {
         "name":"label-book3-lesson8_section1-paragraph1",
-        "value":"O, sljedbenici Kur'ana, ne skrivajte Kur'an ispod svojih jastuka, već ga ispravno učite noću i danju, i širite ga i razmišljajte o onome što on sadrži - da biste bili spašeni! (hadis)"
+        "value":"Å, dere som følger Kur'an, ikke gjem Kur'an under deres puter, leds den både om natten og dagen, og tenk om hva den inneholder - slik at dere kan bli reddet! (hadis)"
     },
     {
         "name":"label-book3-lesson8_section1-paragraph2",
-        "value":"Prema Kur'anu se trebamo odnositi s posebnom pažnjom. Abdest je uslov za njegovo čitanje i držanje u rukama. (Zabranjeno ga je uzimati u ruke i čitati bez abdesta.) Osobe koje nisu čiste (džunup, žene u stanju hajza i nifasa) također Kur'an ne mogu uzimati u ruke i čitati. Preporučeno je što više čitati i učiti Kur'an. Uzvišeni hvaleći one koji to čine kaže:...koji uče ajete Allahove po cijelu noć (Ali &#39;Imran, 113). U Dva sahiha u hadisu od Ibn Omera kaže se: \"Nema zavidnosti osim u dva slučaja: čoveku kome je Allah dao Kur'an i on postupa po njemu i danju i noću...\" Tirmizi prenosi slijedeći hadis od Ibn Mes'uda: &#39;&#39;Ko prouči harf iz Allahove Knjige, ima za to dobro djelo, a dobro djelo se nagrađuje deseterostruko\". Učenje Kur'ana počinjemo sa učenjem Euze i Bismille"
+        "value":"Vi må behandle Kur'an med respekt. Vi må ta wudhu før vi holder den i våre hender eller leser den. Det er anbefalt å lese Kur'an så ofte som mulig. Allah lovpriser dem som leser Kur'an ofte:...og de som leser tegn fra Allahs bok hele natten (Ali 'Imran, 113). Sahih Bukhari og Muslim rapporterer hadis fra Ibn Umar: \"Sjalusi gjelder ikke i to tilfeller: mot man som handler ifølge Kur'an både om dagen og natten...\" Tirmidhi rapporterer hadis fra Ibn Mes'ud: \"Enhver som leser en bokstav fra Allahs Bok, får belønning for god gjerning\". Før vi begynner å resitere fra Kur'an leser vi Euza og Bismillah"
     },
     {
         "name":"label-book3-lesson8_section2-header",
-        "value":"Tedžvid"
+        "value":"Tajweed"
     },
     {
         "name":"label-book3-lesson8_section2-paragraph1",
-        "value":"Tedžvid je nauka, koja nas upućuje u pravilno učenje Kur'ana. Pored nauke tedžvid je i vještina obzirom da iziskuje maksimalnu vježbu."
+        "value":"Tajweed er lære om riktig resitering av Kur'an slik Jibril a.s. lærte Muhammad a.s.. Tajweed krever mye øvelse før man kan si at han resiterer Kur'an riktig."
     },
     {
         "name":"label-book3-lesson8_section2-paragraph2",
-        "value":"Vrijednost ove islamske nauke je ogromna, a njena važnost se najbolje ogleda u tome, što bez pravilnog učenja Kur'ana u pitanje dolazi vridnost namaza. Svaka islamska zajednica je obavezna da ima dovoljan broj poznavalaca ove nauke."
+        "value":"Verdi av tajweed er stor, og det ser vi best i det faktumet at bønn kan være ugylding hvis resitering er feil. Hvert muslimsk samfunn er pålagt å ha tilstrekkelig antall eksperter i tajweed slik at de kan lære vanlig befolkning."
     }, 
     {
         "name":"label-book3-lesson8_section3-header",
@@ -3691,7 +3757,7 @@
     },
     {
         "name":"label-book3-lesson8_section3-paragraph1",
-        "value":"Jedna od posebnosti Kur’ana časnog je da je to knjiga koja se može naučiti napamet. Taj proces se na arapskom jeziku naziva hifzu-l-Kur’an, a osoba koja je u cijelosti naučila Kur’an napamet naziva se hafizu-l-Kur’an, što bi se moglo prevesti kao čuvar Kur’ana. Proces memorisanja Kur’ana kod nas se naziva hifz ili hafizluk, a osoba koja je naučila cijeli Kur’an napamet dobiva časnu titulu hafiza."
+        "value":"En av tingene som skiller ut Kur'an er det at det kan læres utenat. Denne læren kalles hifzu-l-Kur’an og personen som har lært Kur'an utenat kalles hafizu-l-Kur’an, som på arabisk betyr Kur’ans våkter."
     },
     
     {
@@ -3700,20 +3766,20 @@
     },
     {
         "name":"label-header-communal-prayer",
-        "value":"Džemat"
+        "value":"Jam'at"
     },
 
     {
         "name":"label-header-individual-prayer",
-        "value":"Pojedinačno"
+        "value":"Individuelt"
     },
     {
         "name":"label-book3-lesson9-title",
-        "value":"Noćni namaz"
+        "value":"Nattbønn"
     },
     {
         "name":"label-book3-lesson9-title-description",
-        "value":"Dobrovoljni noćni namaz koji se klanje prije ne nastupi vrijeme sabah namaza"
+        "value":"Frivilling nattebønn som utføres før det er tid for morgenbønn"
     },
     {
         "name":"label-book3-lesson9-quote",
@@ -3734,11 +3800,11 @@
     
     {
         "name":"label-book3-lesson10-title",
-        "value":"Duha namaz"
+        "value":"Duha bønn"
     },
     {
         "name":"label-book3-lesson10-title-description",
-        "value":"Dobrovoljni jutarnji namaz koji se klanja kada sunce odskoči"
+        "value":"Frivillig bønn om morgenen etter at sola har gått opp"
     },
     {
         "name":"label-book3-lesson10-quote",
@@ -3754,11 +3820,11 @@
     },
     {
         "name":"label-book3-lesson11-title",
-        "value":"Istihare namaz"
+        "value":"Istihare bønn"
     },
     {
         "name":"label-book3-lesson11-title-description",
-        "value":"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi"
+        "value":"Bønn hvor vi ber Allaha dž.š. for veiledning når vi skal foreta oss noe"
     },
     {
         "name":"label-book3-lesson11-quote",

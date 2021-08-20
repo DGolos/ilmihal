@@ -97,7 +97,7 @@ const MainCategoryPage: React.FC = () => {
                         <h4 className="title">{translationService.getLabel('label-read-quran')} </h4>
                       </span>
                       <span>
-                        <h4 className="title">Kur'an</h4>
+                        <h4 className="title">{translationService.getLabel('label-quran-nominative')}</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
@@ -129,7 +129,7 @@ const MainCategoryPage: React.FC = () => {
                         <h4 className="title">{translationService.getLabel('label-quran-revelation')} </h4>
                       </span>
                       <span>
-                        <h4 className="title">Kur'ana</h4>
+                        <h4 className="title">{translationService.getLabel('label-quran-genitive')}</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
@@ -160,16 +160,16 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Učenje </h4>
+                        <h4 className="title">{translationService.getLabel('label-quran-recitation')} </h4>
                       </span>
                       <span>
-                        <h4 className="title">Kur'ana</h4>
+                        <h4 className="title">{translationService.getLabel('label-quran-genitive')}</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Etiketa učenja Časnog Kur'ana
+                    {translationService.getLabel('label-quran-recitation-description')}
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -192,24 +192,24 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Odabrani </h4>
+                        <h4 className="title">{translationService.getLabel('label-quran-chosen-verses-1')}</h4>
                       </span>
                       <span>
-                        <h4 className="title">ajeti</h4>
+                        <h4 className="title">{translationService.getLabel('label-quran-chosen-verses-2')}</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Čitaj odabrane ajete iz Časnog Kur'ana.
+                    {translationService.getLabel('label-quran-chosen-verses-description')}
                     </h6>
                   </IonRow>
                 </IonCard>
               </IonCol>
               
             </IonRow>
-            <IonRow>
-              <IonCol hidden={translationService.isNorwegian()} size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
+            <IonRow hidden={translationService.isNorwegian()===true}>
+              <IonCol  size="6" style={{ marginTop: "0px", marginBottom: "0px" }}>
               <IonCard
                   routerLink={`/tabs/QuranTranslationPage`}
                   color="light"
@@ -227,7 +227,7 @@ const MainCategoryPage: React.FC = () => {
                         <h4 className="title">Prijevodi </h4>
                       </span>
                       <span>
-                        <h4 className="title">Kur'ana</h4>
+                        <h4 className="title">{translationService.getLabel('label-quran-genitive')}</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
@@ -266,16 +266,16 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Vakat</h4>
+                        <h4 className="title">{translationService.getLabel('label-daily-prayer-1')}</h4>
                       </span>
                       <span>
-                        <h4 className="title">namazi</h4>
+                        <h4 className="title">{translationService.getLabel('label-daily-prayer-2')}</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Danasnja vaktija za zemlje iznad 50 paralele
+                    {translationService.getLabel('label-daily-prayer-description')}
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -295,16 +295,16 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Ostali </h4>
+                        <h4 className="title">{translationService.getLabel('label-other-prayer-1')} </h4>
                       </span>
                       <span>
-                        <h4 className="title">namazi</h4>
+                        <h4 className="title">{translationService.getLabel('label-other-prayer-2')}</h4>
                       </span>
                     </IonLabel>
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Ostali namazi pored dnevnih vakata
+                    {translationService.getLabel('label-other-prayer-description')}
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -332,7 +332,7 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Abdest</h4>
+                        <h4 className="title">{translationService.getLabel('label-wudhu')}</h4>
                       </span>
                       <span>
                         <h4 className="title"></h4>
@@ -341,7 +341,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Kako se pravilno uzima abdest
+                    {translationService.getLabel('label-wudhu-description')}
                     </h6>
                   </IonRow>
                 </IonCard>
@@ -364,7 +364,7 @@ const MainCategoryPage: React.FC = () => {
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
-                        <h4 className="title">Gusul</h4>
+                        <h4 className="title">{translationService.getLabel('label-ghusl')}</h4>
                       </span>
                       <span>
                         <h4 className="title"></h4>
@@ -373,7 +373,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                      Kako se pravilno uzima gusul
+                    {translationService.getLabel('label-ghusl-description')}
                     </h6>
                   </IonRow>
                 </IonCard>
