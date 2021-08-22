@@ -137,11 +137,11 @@
     },
     {
         "name":"label-book2-lesson1-title",
-        "value":"Uvjeti za namaz"
+        "value":"Vilkår for bønn"
     },
     {
         "name":"label-book2-lesson2-title",
-        "value":"Dijelovi namaza"
+        "value":"Deler av bønn"
     },
     {
         "name":"label-book2-lesson3-title",
@@ -149,19 +149,19 @@
     },
     {
         "name":"label-book2-lesson4-title",
-        "value":"Propušteni namazi"
+        "value":"Tapte bønn"
     },
     {
         "name":"label-book2-lesson5-title",
-        "value":"Namaz u džematu"
+        "value":"Bønn i jamat"
     },
     {
         "name":"label-book2-lesson6-title",
-        "value":"Namaz putnika"
+        "value":"Bønn for reisende"
     },
     {
         "name":"label-book2-lesson7-title",
-        "value":"Namaz bolesnika"
+        "value":"Bønn for syke"
     },
     {
         "name":"label-book2-lesson8-title",
@@ -193,7 +193,7 @@
     },
     {
         "name":"label-book2-lesson15-title",
-        "value":"Hidžetska godina"
+        "value":"Hijra år"
     },
     {
         "name":"label-book2-lesson16-title",
@@ -201,7 +201,7 @@
     },
     {
         "name":"label-book2-lesson17-title",
-        "value":"Mubarek noći"
+        "value":"Velsignede netter"
     },
     {
         "name":"label-book2-lesson18-title",
@@ -209,7 +209,7 @@
     },
     {
         "name":"label-book2-lesson19-title",
-        "value":"Poslanik"
+        "value":"Profet"
     },
     {
         "name":"label-book2-lesson20-title",
@@ -217,43 +217,43 @@
     },
     {
         "name":"label-book2-lesson21-title",
-        "value":"Dužnosti prema Allahu"
+        "value":"Plikter overfor Allah"
     },
     {
         "name":"label-book2-lesson22-title",
-        "value":"Dužnosti prema roditeljima"
+        "value":"Plikter overfor foreldre"
     },
     {
         "name":"label-book2-lesson23-title",
-        "value":"Dužnosti roditelja"
+        "value":"Foreldrenes plikter"
     },
     {
         "name":"label-book2-lesson24-title",
-        "value":"Dužnosti prema sebi"
+        "value":"Plikter overfor seg selv"
     },
     {
         "name":"label-book2-lesson25-title",
-        "value":"Srednji put"
+        "value":"Midtveien"
     },
     {
         "name":"label-book2-lesson26-title",
-        "value":"Snaga istine"
+        "value":"Sannhetens makt"
     },
     {
         "name":"label-book2-lesson27-title",
-        "value":"Grijesi"
+        "value":"Synder"
     },
     {
         "name":"label-book2-lesson28-title",
-        "value":"Sura Leheb"
+        "value":"Surah Leheb"
     },
     {
         "name":"label-book2-lesson29-title",
-        "value":"Sura En-Nasr"
+        "value":"Surah En-Nasr"
     },
     {
         "name":"label-book2-lesson30-title",
-        "value":"Sura El-Kafirun"
+        "value":"Surah El-Kafirun"
     },
     {
         "name":"label-book1-lesson1-quote",
@@ -261,7 +261,7 @@
     },
     {
         "name":"label-hadeeth-reference",
-        "value":"Hadeeth"
+        "value":"Hadith"
     },
     {
         "name":"label-from",
@@ -3023,7 +3023,7 @@
     },
     {
         "name":"label-book2-lesson27_section1-paragraph3",
-        "value":"Synder begått åpenlyst (i nærvær av en eller flere personer) kalles offentlige synder og synder begått i det skjulte (når ingen personer er til stede) kalles skjulte synder."
+        "value":"Synder er forskjellige i sin skadelighet og opptar forskjellige steder på syndens skala. De er delt inn i to grupper med store og små synder. Hvis en person begår en synd, med vilje eller utilsiktet, bør han umiddelbart omvende seg (begå tawba)."
     },
     {
         "name":"label-book2-lesson27_section1-paragraph4",
@@ -3208,12 +3208,84 @@
         "value":"Hvordan ta gusl på riktig måte"
     },
     {
+        "name":"label-ramadhan",
+        "value":"Ramadhan"
+    },
+    {
+        "name":"label-ramadhan-description",
+        "value":"Grunnleggende beskrivelse av ramadhan fasting"
+    },
+    {
+        "name":"label-zakah",
+        "value":"Zakah"
+    },
+    {
+        "name":"label-zakah-description",
+        "value":"Grunnleggende beskrivelse av zakah og sadaqah"
+    },
+    {
+        "name":"label-hajj",
+        "value":"Hajj"
+    },
+    {
+        "name":"label-hajj-description",
+        "value":"Grunnleggende beskrivelse av hajj og umrah"
+    },
+    {
+        "name":"label-dua",
+        "value":"Du'a"
+    },
+    {
+        "name":"label-dua-description",
+        "value":"Utvalgte du'a hvor vi ber til Allah"
+    },
+    {
+        "name":"label-tasbih",
+        "value":"Tespih"
+    },
+    {
+        "name":"label-tasbih-description",
+        "value":"Utvalgte zikr som vi gjør til Allah"
+    },
+    {
+        "name":"label-shahada",
+        "value":"Shahadah"
+    },
+    {
+        "name":"label-shahadah-description",
+        "value":"Hvordan vi erkjenner vår tilhørighet til islam"
+    },
+    {
+        "name":"label-sira",
+        "value":"Sira"
+    },
+    {
+        "name":"label-sira-description",
+        "value":"Livet til Allahs siste sendebud"
+    },
+    {
+        "name":"label-hadith",
+        "value":"Hadith"
+    },
+    {
+        "name":"label-hadith-description",
+        "value":"Talen til Allahs siste sendebud"
+    },
+    {
+        "name":"label-sahaba",
+        "value":"Sahaba"
+    },
+    {
+        "name":"label-sahaba-description",
+        "value":"Ledsagerne til Allahs siste sendebud."
+    },
+    {
         "name":"label-book3-lesson1-title",
-        "value":"Hadis"
+        "value":"Hadith"
     },
     {
         "name":"label-book3-lesson1-quote",
-        "value":"\"A tebe smo samo kao milost svjetovima poslali\""
+        "value":"\"Vi har ikke sendt deg som noe annet enn nåde for alle verdener.\""
     },
     {
         "name":"label-book3-lesson1-quote-reference",
@@ -3221,52 +3293,52 @@
     },
     {
         "name":"label-book3-lesson1_section1-header",
-        "value":"Uvod"
+        "value":"Introduksjon"
     },
     {
         "name":"label-book3-lesson1_section1-paragraph1",
-        "value":"Hadis je sve ono što je  Muhammed , a.s., rekao, uradio ili vidio da neko nešto čini, pa svojom šutnjom to odobrio i dotičnog ne opomenuo. U hadis spadaju i one vijesti koje govore o Poslanikovim svojstvima tj. o tome kakav je Poslanik bio po svojim vanjskim i duševnim osobinama."
+        "value":"Hadithen er alt Muhammad, a.s., sa, gjorde eller så at noen gjorde noe, så ved sin taushet godkjente han det og advarte ikke den det gjaldt. Hadithen inkluderer også de nyhetene som snakker om profetens egenskaper, dvs. om hvordan profeten var i sine ytre og mentale egenskaper."
     },
     {
         "name":"label-book3-lesson1_section2-header",
-        "value":"Zapisivanje"
+        "value":"Skriving"
     },
     {
         "name":"label-book3-lesson1_section2-paragraph1",
-        "value":"Rad na pisanju i sabiranju hadisa prošao je kroz pet faza (razdoblja):"
+        "value":"Arbeidet med å skrive og samle hadith gikk gjennom fem faser (perioder):"
     },
     {
         "name":"label-book3-lesson1_section2-paragraph2",
-        "value":"1. Pisanje hadisa u vrijeme Poslanika, a.s."
+        "value":"1. I Muhhammads a.s. tid"
     },
     {
         "name":"label-book3-lesson1_section2-paragraph3",
-        "value":"2. Pisanje hadisa nakon smrti Poslanika, a.s., u vrijeme ashaba i tabe’ina."
+        "value":"2. Etter Muhammads a.s. død, skrevet ned av ashaba og tabe’ina."
     },
     {
         "name":"label-book3-lesson1_section2-paragraph4",
-        "value":"3. Početak pisanja i sabiranja hadisa u zasebnim knjigama."
+        "value":"3. Begynnelsen på å skrive og samle hadith i separate bøker."
     },
     {
         "name":"label-book3-lesson1_section2-paragraph5",
-        "value":"4. Odvajanje hadisa od govora ashaba i tabe’ina u zasebnim knjigama."
+        "value":"4. Adskillelse av hadith fra talen til ledsagere og Taba’in i separate bøker."
     },
     {
         "name":"label-book3-lesson1_section2-paragraph6",
-        "value":"5. Odvajanje sahih hadisa od daif hadisa u zasebnim knjigama."
+        "value":"5. Separasjon av sahih hadith fra daif hadith i separate bøker."
     },
 
     {
         "name":"label-book3-lesson1_section3-header",
-        "value":"Zbirke"
+        "value":"Samlinger"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph1",
-        "value":"Šest najpoznatijih hadiskih zbirki u koje nema nikakve sumnje u pogledu ispravnost hadisa u bilo kojem obliku nazivaju se jedinstvenim imenom Kutubu sitte. One su poredane sljedećim redom:"
+        "value":"De seks mest kjente hadith -samlingene der det ikke er tvil om hadithens korrekthet i noen form, kalles det unike navnet Kutubu sitte. De er ordnet i følgende rekkefølge:"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph2",
-        "value":"Sahih Buhari الجامع الصحيح"
+        "value":"Sahih Bukhari الجامع الصحيح"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph3",
@@ -3274,87 +3346,87 @@
     },
     {
         "name":"label-book3-lesson1_section3-paragraph4",
-        "value":"Sunen Nesaija السنن الصغرى"
+        "value":"Sunnen Nesaija السنن الصغرى"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph5",
-        "value":"Sunen Ebu Davud سُنن أبو داوود‎"
+        "value":"Sunnen Ebu Davud سُنن أبو داوود‎"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph6",
-        "value":"Tirmizijin Sunen جامع الترمذي‎"
+        "value":"Sunnen Tirmidhi جامع الترمذي‎"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph6",
-        "value":"Sunen ibn Madže سُنن ابن ماجه‎"
+        "value":"Sunnen ibn Maja سُنن ابن ماجه‎"
     },
     {
         "name":"label-book3-lesson1_section4-header",
-        "value":"Nauka o hadisima"
+        "value":"Vitenskapen om hadith"
     },
     {
         "name":"label-book3-lesson1_section4-paragraph1",
-        "value":"Muhaddis je osoba koja se aktivno bavi hadiskom naukom, te je sposobna razlikovati vjerodostojne hadise od onih koji to nisu."
+        "value":"En muhaddis er en person som er aktivt engasjert i vitenskapen om hadith, og er i stand til å skille autentiske hadith fra de som ikke er det."
     },
     {
         "name":"label-book3-lesson1_section4-paragraph2",
-        "value":"Hadiski stručnjak koji dobro poznaje hadisku nauku i odlikuje se pamćenjem velikog broja hadisa i njihovih prenosilaca. Prema većini hadiskih učenjaka smatra da treba poznavat 100.000 hadisa za ovu titulu."
+        "value":"En hadith -ekspert som er godt kjent med vitenskapen om hadith og kjennetegnes ved minnet om et stort antall hadiths og sendere derav. I følge de fleste hadith -lærde mener han at man burde vite 100 000 hadiths for denne tittelen."
     },
     {
         "name":"label-book3-lesson1_section4-paragraph3",
-        "value":"Hudždže je hadiski strucnjak koji odlično poznaje hadisku nauku i zna oko 300,000 hadisa sa nj. Senedima. Hakim je titula za alima koji poznaje približno sve hadise sa njihovim senedima."
+        "value":"Hujja er en hadith -ekspert som er godt kjent med vitenskapen om hadith og kjenner omtrent 300 000 hadither fra den. Senedima. Hakim er en tittel for en lærd som kjenner omtrent alle hadithene med sine sanedis."
     },
     {
         "name":"label-book3-lesson1_section5-header",
-        "value":"Podjela hadisa"
+        "value":"Inndeling av hadith"
     }, 
     {
         "name":"label-book3-lesson1_section5-paragraph1",
-        "value":"Obzirom na ishodište hadise nijelimo na:"
+        "value":"Med tanke på opprinnelsen til hadith, deler vi den inn i:"
     },
     {
         "name":"label-book3-lesson1_section5-paragraph2",
-        "value":"1. El-hadisu-l-kudsi – je hadisi čiji sened (lanac prenosilaca) dolaze od Allaha, dž.š., a nisu Kur'anski ajeti ali ti su hadisi iskazani Poslanikovim, a.s., riječima."
+        "value":"1. El-hadisu-l-kudsi – er en hadith hvis sened (kjede av forteller) kommer fra Allah, js, og ikke er Koranvers, men disse hadithene kommer til uttrykk i Profetens ord, a.s."
     },
     {
         "name":"label-book3-lesson1_section5-paragraph3",
-        "value":"2. El-hadisu-l-merfu – je hadis čiji sened doseže do Allahova Poslanika, a.s."
+        "value":"2. El-hadisu-l-merfu – er en hadith hvis sened når Allahs Profet, a.s."
     },
     {
         "name":"label-book3-lesson1_section5-paragraph4",
-        "value":"3. El-hadisu-l-mevkuf – je hadis čiji sened doseže do nekoga od ashaba, r.a."
+        "value":"3. El-hadisu-l-mevkuf – er en hadith hvis sened når en av ashaba, r.a."
     },
     {
         "name":"label-book3-lesson1_section5-paragraph5",
-        "value":"4. El-hadisu-l-maktu - je hadis čiji sened doseže do nekoga od tabiina, r. a., ili do nekoga iz kasnijih generacija."
+        "value":"4. El-hadisu-l-maktu - er en hadith hvis sened når en av tabinene, r. a., eller til noen fra senere generasjoner."
     },
     {
         "name":"label-book3-lesson1_section6-header",
-        "value":"Vjerodostojnost"
+        "value":"Troverdighet"
     }, 
     {
         "name":"label-book3-lesson1_section6-paragraph1",
-        "value":"Mutavatir je hadis koji u svakoj generaciji prenosi veliki broj prenosilaca za koje je nemoguće posumnjati da su se uslovno rečeno dogovorili na laž."
+        "value":"Mutawatir er en hadith som overføres i hver generasjon av et stort antall forteller som det er umulig å mistenke for at de har betinget seg for å lyve."
     },
     {
         "name":"label-book3-lesson1_section6-paragraph2",
-        "value":"Meshur je hadis koji u svakoj generaciji prenosi 3 ili više prenosilaca, ali ne dostiže stepen mutevatira."
+        "value":"Meshur er en hadith som sender 3 eller flere sendere i hver generasjon, men ikke når graden av mutawatir."
     },
     {
         "name":"label-book3-lesson1_section6-paragraph3",
-        "value":"Aziz se definiše kao hadis koji u svakoj generaciji prenose najmanje dvojica prenosilaca. Garib hadis je hadis koji u svakoj generaciji prenosi samo jedan ravija."
+        "value":"Aziz er definert som en hadith overført av minst to sendere i hver generasjon. Garib hadith er en hadith som overføres av bare en ravi i hver generasjon."
     },
     {
         "name":"label-book3-lesson1_section6-paragraph4",
-        "value":"Sahih je hadis sa spojenim senedom koji prenose pouzdani i sigurni prenosioci, ne posjeduje nikakav skriveni nedostatak i ne protivi se jačem hadisu od sebe."
+        "value":"Sahih er en hadith med en tilkoblet senad overført av pålitelige og pålitelige sendere, den har ingen skjult feil og motsetter seg ikke en sterkere hadith enn seg selv."
     },
     {
         "name":"label-book3-lesson1_section6-paragraph5",
-        "value":"Hasen je hadis sa spojenim senedom koji prenose pouzdani prenosioci, ali manje sigurni od prenosilaca sahih hadisa. Razlika je to što sigurnost i memorija kod ravija nije na stepenu sahiha."
+        "value":"Hasan er en hadith med tilkoblet senad overført av pålitelige forteller, men mindre sikker enn fortellerne om sahih hadith. Forskjellen er at sikkerheten og minnet til ravi ikke er på nivået med sahih."
     },
     {
         "name":"label-book3-lesson1_section6-paragraph6",
-        "value":"Da'if hadis je hadis koji ne ispunjava jedan ili više uvjeta sahih hadisa, smatra se slabim hadisom. Daif hadis se bez dileme ne može služiti kao argument u akaidskim i šerijatsko-pravnim pitanjima."
+        "value":"Da'if hadith er en hadith som ikke oppfyller ett eller flere av kravene til sahih hadith, det regnes som en svak hadith. Daif hadith kan uten tvil tjene som et argument i Aqeedah og sharialovgivende spørsmål."
     },
 
     {
@@ -3428,11 +3500,11 @@
     },
     {
         "name":"label-book3-lesson3-title",
-        "value":"Ashabi"
+        "value":"Sahaba"
     },
     {
         "name":"label-book3-lesson3-quote",
-        "value":"\"On je Bog i na nebu i na Zemlji, On je Mudri i Sveznajući!\""
+        "value":"\"Og Han er Den som alene er tilbedelsesverdig i himlene og alene tilbedelsesverdig på jorden, og Han er den mest Vise, den Allvitende.\""
     },
     {
         "name":"label-book3-lesson3-quote-reference",
@@ -3440,15 +3512,15 @@
     },
     {
         "name":"label-book3-lesson4-title",
-        "value":"Pravedne halife"
+        "value":"Rettferdige kalifer"
     },
     {
         "name":"label-book3-lesson4-title-description",
-        "value":"Životna priča četvorice pravednih halifa koji su dali veliki doprinos islamu"
+        "value":"Livshistorien til fire rettferdige kalifer som ga et stort bidrag til islam"
     },
     {
         "name":"label-book3-lesson4-quote",
-        "value":"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\""
+        "value":"\"Sannelig, Vi har åpenbart den som Koranen på det arabiske språket, slik at dere må forstå den.\""
     },
     {
         "name":"label-book3-lesson4-quote-reference",
@@ -3456,11 +3528,11 @@
     },
     {
         "name":"label-book3-lesson4-header1",
-        "value":"Uvod"
+        "value":"Innledning"
     },
     {
         "name":"label-book3-lesson4_section1-paragraph1",
-        "value":"Halife su bili svjetovne i duhovne vođe. Oni su bili nasljednici Božjeg Poslanika Muhammeda, a.s., u svemu osim u domenu primanja Božje objave. Institucija hilafeta postojala je od Poslanikove, a.s., smrti 632. godine pa sve dok ga Kemal-paša Ataturk nije dokinuo 1924. godine, svrgnuvši tako posljednjeg turskog sultana Abdul Medžida koji je ujedno obnašao i funkciju halife."
+        "value":"Kalifene var sekulære og åndelige ledere. De var etterfølgerne til Guds profet Muhammed, a.s., på alt annet enn domenet for å motta Guds åpenbaring. Kalifatets institusjon eksisterte fra profetens (fred og velsignelse være med ham) død i 632 til Kemal Pasha Ataturk opphevet det i 1924 og styrtet den siste tyrkiske sultanen, Abdul Majid, som også tjente som kalif."
     },
     {
         "name":"label-book3-lesson4-header2",
@@ -3468,44 +3540,44 @@
     },
     {
         "name":"label-book3-lesson4_section2-paragraph1",
-        "value":"Odmah nakon Poslanikove,a.s., smrti za halifu je izabran Ebu Bekr koga je sam Poslanik, a.s., nazvao Es-Siddik – Iskreni. Bio je među prvima koji je primio islam i otac Poslanikove supruge Aiše. Poslanik, a.s., ga je odabrao da mu bude saputnikom prilikom hidžre – preseljenja iz Mekke u Medinu. Sa Poslanikom, a.s., je učestvovao u svim bitkama. Čitav svoju, nemalu, imovinu je potrošio za potrebe zajednice. Poslanik, a.s., ga je imenovao svojim zamjenikom u predvođenju muslimana prilikom zajedničkog obavljanja namaza kada bi bio spriječen da to lično Poslanik, a.s., čini. Uživao je veliki ugled u zajednici. Vladao je kratko ali je za zajednicu učinio mnogo. Kad je Poslanik, a.s., umro mnoga plemena koja su samo formalno bila prihvatila islam i priznala Poslanikovu, a.s., vlast su se pokušala odcijepiti a pojavilo se i mnogo lažnih poslanika koji su taj metež pokušali iskoristiti. Ebu Bekr je u prvoj godini svoje vladavine uspio skršiti sve te pobune i zavesti red u islamskoj državi. U drugoj godini njegove vladavine od Perzije je osvojena čitava dolina rijeke Eufrat u Iraku a od Bizantije dobar dio Sirije. Historičari su zapisali njegovu naredbu vojnicima, koja je poslije postala kodeks koga su se muslimanski vojnici držali, a koja je glasila:«Ne kršite zadanu riječ, niti pretjerujte u vjeri. Ne mrcvarite ubijene i ne ubijajte djecu, žene i starce. Ne sijecite drveće i ne palite usjeve. Ne koljite ovace, goveda i deva osim koliko vam bude potrebno za hranu. Proći ćete pokraj nekih, koji su se osamili u svojim samostanima, pa ih pustite na miru i onome čemu su se odali»."
+        "value":"Umiddelbart etter profetens (fred og velsignelse med Allah være med ham) død, ble Abu Bakr valgt til kalif, som profeten (Allahs fred og velsignelse være med ham) kalte As -Siddiq - oppriktig. Han var blant de første som konverterte til islam og faren til profetens kone Aisha. Profeten, a.s., valgte ham til å være hans ledsager under hijraen - flyttet fra Mekka til Medina. Med profeten, a.s., deltok han i alle kampene. Han brukte all sin betydelige eiendom til samfunnets behov. Profeten, a.s., utnevnte ham til hans stedfortreder i ledelsen av muslimene under felles bønnevisning da han ville bli forhindret fra å gjøre det personlig av profeten, a.s. Han hadde et godt rykte i samfunnet. Han styrte kort, men gjorde mye for samfunnet. Da profeten a.s. døde mange stammer som bare formelt hadde akseptert islam og anerkjente profeten a.s., prøvde regjeringen å løsrive seg og mange falske profeter dukket opp som prøvde å dra nytte av denne uroen. I det første året av hans regjeringstid klarte Abu Bakr å knuse alle disse opprørene og bringe orden til Den islamske staten. I det andre året av hans regjeringstid ble hele Eufrat -dalen i Irak erobret fra Persia, og en god del av Syria fra Bysantium. Historikere skrev ned ordren til soldatene, som senere ble koden som muslimske soldater holdt seg til, og som lød: «Ikke bry det gitte ordet, og overdriv ikke i tro. Ikke slakt de drepte og ikke drep barn, kvinner og eldre. Ikke feller trær eller brenner avlinger. Ikke slakt sau, storfe og kameler bortsett fra så mye du trenger til mat. Du vil gå forbi noen som er alene i sine klostre, så la dem være i fred og til det de har gitt seg selv."
     },
     {
         "name":"label-book3-lesson4-header3",
-        "value":"Omer ibn el-Hattab"
+        "value":"Umar ibn el-Hattab"
     },
     {
         "name":"label-book3-lesson4_section3-paragraph1",
-        "value":"Dok je još bio u bolesti, predosjećajući skoru smrt, Ebu Bekr je konsultirao mnoge ugledne i utjecajne prvake zajednice u svezi svoga nasljednika i dobio njihovu suglasnost da to bude Omer Ibnu-l-Hattab koga je u svojoj oporuci preporučio za to mjesto. Odmah nakon smrti Ebu Bekra, Omer i bi izabran na tu dužnost. Za vrijeme Omerove desetogodišnje vladavine skoro u potpunosti je osvojeno slavno Perzijsko carstvo, čitav Irak, Sirija, Palestina i Egipat. U historijskim djelima je ostalo zapisano da su stanovnici Jerusalema u toku opsade izrazili želju da se predaju halifi lično. Halifa je uslišao tu njihovu želju, otišao u Jeruzalem i lično primio ključeve grada. Jerusalem tako bi zauzet bez kapi krvi a halifa dade garancije stanovnicima Jerusalema da će uživati građansku sigurnost i vjerske slobode. Ostale su zapamćene njegove riječi kojima im se obratio: «O jeruzalemljani! Imate ista prava ali i iste dužnosti kao i mi». Za vrijeme njegove vladavine je uveden hidžretski kalendar. Naime, odlučeno je da se za početak ere uzme hidžra (preseljenje Poslanika, a.s., i prvih muslimana iz Meke u Medinu) a da se vrijeme računa po mjesečevu kalendaru u kome je godina za deset dana kraća od sunčeve godine. Također, uspostavio je zajedničko klanjanje teravih namaza u džematu tokom Ramazana."
+        "value":"Mens han fremdeles var syk, og ventet på forestående død, konsulterte Abu Bakr mange fremtredende og innflytelsesrike samfunnsledere angående hans etterfølger og fikk samtykke til å være Omar Ibnu-l-Khattab som han anbefalte i sitt testamente for stillingen. Umiddelbart etter Abu Bakrs død, ville Umar bli valgt til det kontoret. Under Omars tiårige regjeringstid ble det strålende persiske riket, hele Irak, Syria, Palestina og Egypt nesten fullstendig erobret. Det er nedtegnet i historiske arbeider at innbyggerne i Jerusalem under beleiringen uttrykte et ønske om å overgi seg til kalifen personlig. Kalifen innfridde sitt ønske, dro til Jerusalem og mottok personlig nøklene til byen. Jerusalem ville dermed bli okkupert uten en dråpe blod, og kalifen ga forsikring til innbyggerne i Jerusalem om at de ville nyte sivil sikkerhet og religionsfrihet. Hans ord han talte dem med, huskes: “Jerusalems folk! Du har de samme rettighetene, men også de samme pliktene som oss. \"Under hans regjeringstid ble Hijri -kalenderen introdusert. Det ble nemlig bestemt å ta Hijra i begynnelsen av epoken (flyttingen av profeten, og de første muslimene fra Mekka til Medina) og beregne tiden i henhold til månekalenderen der året er ti dager kortere enn solåret. Han etablerte også en felles tilbedelse av tarawih -bønner i menigheten under Ramadan."
     },
     {
         "name":"label-book3-lesson4-header4",
-        "value":"Osman ibn Affan"
+        "value":"Uthman ibn Affan"
     },
     {
         "name":"label-book3-lesson4_section4-paragraph1",
-        "value":"Bio je jedan od najuglednijih mekanskih prvaka i zet Muhammedov. Uz to je bio i jedan od Poslanikovih pisara Kur'ana i izuzetno darežljiv, tako da je sav svoj veliki imetak potrošio za potrebe zajednice. Halifa Omer nije oporučio jednu osobu za halifu, nego je u svojoj oporuci naveo šest najugledinijih prvaka zajednice, među kojima je bio i Osman i oporučio da oni između sebe izaberu njegova nasljednika. Kad je halifa Omer bio ubijen njegova oporuka je realizirana i ova šestorica su odlučila da nasljednik bude Osman ibn Affan. Za vrijeme njegove dvanaestogodišnje vladavine država se proširila na skoro čitavu sjevernu Afriku i sjeverno od Iraka sve do Armenije. Kako je izgrađena i snažna mornarica tako su osvojeni mnogi otoci istočnog Sredozemlja zajedno sa Kiprom. Pošto su i mnogi (ne)arapi prigrlili islam uočene su mnoge nepravilnosti u recitiranju Kur'ana. Da ne bi došlo do iskrivljivanja Kur'ana izvršena je još jedna stroga recenzija Kur'ana, koji je za Ebu Bekra bio sakupljen u jednu zbirku, a onda je za vrijeme halife Osmana Kur'an umnožen i razaslat u sve krajeve države."
+        "value":"Han var en av de mest fremtredende mekka-mesterne og svigersønnen til Muhammad. I tillegg var han en av profetens skriftlærde i Koranen og ekstremt sjenerøs, så han brukte all sin store formue på samfunnets behov. Kalif Omar testamenterte ikke en person til kalifen, men i testamentet utpekte han de seks mest fremtredende lederne i samfunnet, blant dem Uthman, og testamenterte at de valgte hans etterfølger blant seg selv. Da kalifen Umar ble myrdet, ble hans vilje realisert, og disse seks bestemte at etterfølgeren skulle være Uthman ibn Affan. I løpet av hans tolvårige regjeringstid utvidet staten seg til nesten hele Nord-Afrika og nord for Irak helt til Armenia. Etter hvert som en sterk marine ble bygget, ble så mange øyer i det østlige Middelhavet erobret sammen med Kypros. Siden mange (ikke) arabere også omfavnet islam, ble det lagt merke til mange uregelmessigheter i resitasjonen av Koranen. For ikke å forvride Koranen ble det utført nok en streng gjennomgang av Koranen, som for Abu Bakr ble samlet i en samling, og deretter under Kalifen i Uthman ble Koranen multiplisert og distribuert til alle deler av landet."
     },
     {
         "name":"label-book3-lesson4-header5",
-        "value":"Alija ibn Ebi Talib"
+        "value":"Ali ibn Ebi Talib"
     },
     {
         "name":"label-book3-lesson4_section5-paragraph1",
-        "value":"Pošto je i halifa Osman bio ubijen, za halifu je bio izabran Alija ibn ebi Talib. Alija je odrasta u Poslanikovu, a.s., domu i bio je oženjen njegovom kćerkom Fatimom. Bio je jedan od pisara Kur'ana i slovio je kao jedan od najboljih poznavalaca islamskog prava. Osim toga bio je veliki junak, učesnik skoro svih vojnih pohoda te pobjednik u svim, mnogobrojnim, dvobojima kojima su u ono doba otpočinjale bitke. Islam je prihvatio još kao dječak. Nakon Osmanovog ubistva, Alija nije želio preuzeti hilafet. Nakon nagovaranja odlučio je popustiti, ali pod uslovom da mu svi u džamiji daju prisegu na vjernost. Prvi je dao prisegu Talha ibn Ubejdullah, a nakon njega i ostali prisutni. Na taj način Alija postade 4. halifa i ujedno i posljednji &quot;pravedni halifa&quot;. Odmah po preuzimanju hilafeta, novi halifa je naišao na probleme. Poslije izbora Alije za halifu, taj izbor nije priznao namjesnik Sirije, Muavija. Vođeno je nekoliko žestokih bitaka u kojima je Alijina vojska odnijela pobjede. Muavija ni dalje nije priznavao Aliju za halifu nego se i on proglasio halifom. Četrdesetih godina po Hidžri sastala su se tri čovjeka iz reda Haridžija (jedna fanatična vjerska sekta, nastala tokom tih borbi) i, smatrajući da su muslimani zalutali, te da se trebaju ubiti namjesnici: Alija, Muavija i Amr ibn el-'As. Dogovor je pao da se sva tri ubistva odigraju 17. ramazana. Pokušaj ubistva Muavije je propao, iako ga je ubica ranio zatrovanom sabljom po debelom mesu. Nakon dugotrajnog liječenja Muavija je ozdravio. Amr ibn el-'As se razbolio, te nije izašao na sabah namaz, nego je poslao Haridžea ibn Huzejfea, kojega je Amrov ubica ubio. Abdurrahman ibn Muldžem je sačekao Aliju ispred njegove kuće kada je ovaj krenuo klanjati sabah namaz u džamiji i udario ga sabljom po čelu. Halifa nije odmah podlegao ranama, nego je uspio poživjeti dovoljno dugo da naredi da se ne kažnjava niko osim njegovog ubice i to bez mučenja. Naredio je sljedbenicima da nipošto ne traže osvetu. Umro je neprestano ponavljajući šehadet."
+        "value":"Siden kalif Uthman også ble drept, ble Ali ibn Abi Talib valgt til kalif. Alija vokste opp hjemme hos profeten, a.s., og var gift med datteren Fatima. Han var en av de skriftlærde i Koranen og ble kjent for å være en av de beste kjennerne av islamsk lov. I tillegg var han en stor helt, deltaker i nesten alle militære kampanjer og en vinner i alt, mange dueller som startet kamper på den tiden. Han godtok islam som en gutt. Etter mordet på Osman ønsket ikke Ali å overta kalifatet. Etter overtalelse bestemte han seg for å gi seg, men under forutsetning av at alle i moskeen sverger troskap til ham. Den første som avla ed var Talha ibn Ubaydullah, etterfulgt av de andre tilstedeværende. På denne måten ble Ali den fjerde kalifen og samtidig den siste \"rettferdige kalifen\". Umiddelbart etter å ha overtatt kalifatet, opplevde den nye kalifen problemer. Etter valget av Ali som kalif, ble valget ikke anerkjent av guvernøren i Syria, Muawiya. Flere harde kamper ble utkjempet der Alis hær vant seire. Muawiya anerkjente fremdeles ikke Ali som kalif, men han utropte seg også som kalif. På 1940-tallet møttes tre harijier (en fanatisk religiøs sekt, dannet under disse kampene) etter hijraen og trodde at muslimene hadde kommet på avveie og at guvernørene skulle drepes: Ali, Muawiya og Amr ibn al-'As. Det ble enighet om at alle tre drapene skulle finne sted den 17. Ramadan. Attentatet mot Muawiya mislyktes, selv om leiemorderen såret ham med et forgiftet sverd på det tykke kjøttet. Etter langvarig behandling ble Muawiya frisk. Amr ibn al-'As ble syk, og gikk ikke ut for morgenbønnen, men sendte Kharij ibn Huzayfa, som ble drept av Amrs leiemorder. Abdurrahman ibn Muljam ventet på Ali foran huset hans da han gikk for å bære morgenbønnen i moskeen og slo ham i pannen med et sverd. Kalifen ga ikke etter for sårene umiddelbart, men klarte å leve lenge nok til å beordre at ingen skulle bli straffet bortsett fra morderen uten tortur. Han beordret sine følgere til ikke å søke hevn i det hele tatt. Han døde og gjentok martyriet."
     },
 
     {
         "name":"label-book3-lesson5-title",
-        "value":"Poznati ashabi"
+        "value":"Kjente sahaba"
     },
     {
         "name":"label-book3-lesson5-title-description",
-        "value":"Ukratko o ashabima Muhammeda a.s. kojima je obećan džennet"
+        "value":"Kort om sahaba til hvem paradiset er lovet"
     },
     {
         "name":"label-book3-lesson5-quote",
-        "value":"\"A oni koji su se Allaha bojali, oni će na sigurnu mjestu biti\""
+        "value":"\"Sannelig, de gudfryktige vil være på et trygt sted.\""
     },
     {
         "name":"label-book3-lesson5-quote-reference",
@@ -3513,66 +3585,66 @@
     },
     {
         "name":"label-book3-lesson5_section1-paragraph1",
-        "value":"Svaki ashab bio je institucija za sebe. Svaki ashab bio je Ummet. Svi ashabi Božijeg Poslanika su posebni i prepoznatljivi po nečemu, ali se desetorica izdvajaju. Desetorica kojima je nagoviješten Džennet, koji se zovu \"Ašere-i mubeššere\", a to su:"
+        "value":"Hver ledsager var en institusjon for seg selv. Hver ledsager var en Ummah. Alle følgesvennene til Guds sendebud er spesielle og gjenkjennelige på noen måter, men ti skiller seg ut. De ti som paradiset antydes til, kalt \"Asherah-i mubeshshere\", er:"
     },
     {
         "name":"label-book3-lesson5_section1-paragraph2",
-        "value":"Ebu Bekr Es-Siddik, r.a., Poslanikov, a.s., saputnik Hidžre, njegov ashab u pećini Sevr, prvi halifa Hulefair-rašidina, ashab za kojeg je Muhammed, a.s., rekao: \"Kada bi se izvagao iman Ebu Bekra sa imanom svih stvorenja, prevagnuo bi iman Ebu Bekra.\""
+        "value":"Abu Bakr As-Siddiq, ra, profeten, som, ledsager av Hijra, hans ledsager i hulen Sevr, den første kalifen til Hulefair-rashidin, ledsageren til hvem Muhammad, som, sa: Iman Abu Bakr ville seire.\""
     },
     {
         "name":"label-book3-lesson5_section1-paragraph3",
-        "value":"Omer ibn el-Hattab, r.a., koji je prihvatio islam nakon Hamze ibn Abdu-l-Muttaliba, r.a., do tri dana. Prije njegovoga prelaska na islam Muhammed, a.s., je učio dovu: \"Allahu moj, pomozi islam sa jednim od dvojice koji je Tebi draži: Omerom ibn El-Hattabom ili Amrom ibn Hišamom (Ebu Džehlom)\" Allah dž.š. je islam pomogao sa Omerom ibn el-Hattabom, velikanom islama, koji je nakon smrti Ebu Bekra es-Siddika izabran za halifu, a u njegovo vrijeme hilafeta je došlo do velikog proširenja islamske države."
+        "value":"Umar ibn al-Khattab, r.a., som godtok islam etter Hamza ibn Abdu-l-Muttalib, r.a., i opptil tre dager. Før han konverterte til islam, reciterte Muhammad (fred og velsignelse med Allah) bønnen: Islam hjalp med Umar ibn al-Khattab, islams store mann, som etter døden til Abu Bakr es-Siddiq ble valgt til kalif, og i sin tid med kalifatet var det en stor utvidelse av den islamske staten."
     },
     {
         "name":"label-book3-lesson5_section1-paragraph4",
-        "value":"Osman ibn Affan, r.a., blagi, darežljivi i stidljivi ashab \"zbog čijeg stida se stide meleki\". Osman je bio treći halifa Hulefair-rašidina."
+        "value":"Uthman ibn Affan, r.a., en mild, sjenerøs og sjenert følgesvenn \"for hvis skam englene skammer seg\". Osman var den tredje kalifen i Hulefair-Rashidin."
     },
     {
         "name":"label-book3-lesson5_section1-paragraph5",
-        "value":"Alija ibn Ebi Talib, r.a., četvrti halifa Hulefair-rašidina, neustrašivi ashab, muž h. Fatime i otac Hasana i Husejna, Poslanikovih unuka, ashab koji je kao dijete primio islam."
+        "value":"Ali ibn Abi Talib, r.a., fjerde kalif Hulefair-rashidin, fryktløs følgesvenn, ektemann h. Fatima og faren til Hasan og Husayn, profetens barnebarn, en ledsager som konverterte til islam som barn."
     },
     {
         "name":"label-book3-lesson5_section1-paragraph6",
-        "value":"Seid ibn Zejd, r.a., koji je u vrijeme dok je bio namjesnik Damaska pisao pismo Ebu Ubejdi da umjesto njega za namjesnika postavi nekoga drugog, kako bi se on priključio mudžahidima, jer mu je borba na Allahovome putu bila draža od namjesnikovanja."
+        "value":"Saeed ibn Zayd, ra, som på den tiden da han var guvernør i Damaskus skrev et brev til Abu Ubaydah for å utnevne noen andre til guvernør i hans sted, slik at han kunne slutte seg til Mujahideen, for å kjempe i Allahs vei var dyrere til ham enn guvernørskap."
     },
     {
         "name":"label-book3-lesson5_section1-paragraph7",
-        "value":"Sa'd ibn Ebi Vekkas, r.a., veliki i neustrašivi vojskovođa, oslobodilac perzijskih riznica i junak Kadisijje."
+        "value":"Sa'd ibn Abi Waqqas, r.a., en stor og fryktløs militær leder, befrieren av de persiske statskassene og helten i Qadisiyya."
     },
     {
         "name":"label-book3-lesson5_section1-paragraph8",
-        "value":"Abdurrahman ibn Avf, r.a., koji je bio prepoznatljiv po svojoj odvažnosti i darežljivosti do te mjere da ne bi htio leći dok ne bi podijelio sve što je imao, a Allah bi mu imetak stalno uvećavao. I često je plakao od straha pred Allahom zbog imetka koji je postizao i potom ga dijelio!"
+        "value":"Abdurrahman ibn Awf, r.a., som var kjent for sitt mot og raushet i den grad at han ikke ville legge seg ned før han delte alt han hadde, og Allah ville stadig øke sin formue. Og han gråt ofte av frykt for Allah på grunn av rikdommen han oppnådde og delte den deretter!"
     },
     {
         "name":"label-book3-lesson5_section1-paragraph9",
-        "value":"Talha ibn Ubejdullah, r.a., koji je prednjačio u džihadu i dobročinstvu, za kojeg je Poslanik, a.s., nakon Uhuda rekao da je on \"šehid koji hoda po Zemlji.\""
+        "value":"Talha ibn Ubaydullah, r.a., som var i spissen for jihad og veldedighet, som profeten a.s., etter at Uhud sa var \"en martyr som vandrer på jorden.\""
     },
     {
         "name":"label-book3-lesson5_section1-paragraph10",
-        "value":"Ebu Ubejde Amir ibn El-Džerrah, r.a., rječiti i povjerljivi ashab, koji je imao nadimak Emin ummeta."
+        "value":"Abu Ubaydah Amir ibn Al-Jarrah, r.a., en veltalende og konfidensiell følgesvenn, som hadde kallenavnet Amin Ummah."
     },
     {
         "name":"label-book3-lesson5_section1-paragraph11",
-        "value":"Zubejr ibn El-Avvam, r.a., odvažni ashab koji je na Uhudu po naređenju Poslanika, a.s., ubio jednog od najhrabrijih mušrika, a u bici na Hunejnu mušrici su ispred njega bježali."
+        "value":"Zubayr ibn Al-Awwam, r.a., en modig ledsager som drepte en av de modigste polyteistene i Uhud på ordre fra profeten, a.s., og i slaget ved Hunayn flyktet polytheistene før ham."
     },
     {
         "name":"label-book3-lesson5_section1-paragraph12",
-        "value":"Spomenuta desetorica ashaba, imenom i prezimenom, su desetorica koji su poznati kao Ašere mubeššere – desetorica koje je još za života Poslanik obavjestio da su stanovnici Dženneta. Ovdje svakako trebamo spomenuti unuke Hasana, r.a., i Husejna, r.a."
+        "value":"De nevnte ti ledsagere, med navn og etternavn, er ti som er kjent som Asher mubasheras - ti som profeten informerte i løpet av hans levetid om at de var innbyggerne i Paradiset. Her bør vi absolutt nevne barnebarna til Hasan, r.a., og Hussein, r.a."
     },
     
 
 
     {
         "name":"label-book3-lesson6-title",
-        "value":"Žene u islamu"
+        "value":"Kvinner i islam"
     },
     {
         "name":"label-book3-lesson6-title-description",
-        "value":"Uloga žene u islamu i odlike koje krase muslimanske žene"
+        "value":"Kvinners rolle i islam og egenskapene som pryder muslimske kvinner"
     },
     {
         "name":"label-book3-lesson6-quote",
-        "value":"\"A roditeljima dobročinstvo činite\""
+        "value":"\"Og behandle foreldrene moralsk fortreffelig.\""
     },
     {
         "name":"label-book3-lesson6-quote-reference",
@@ -3580,59 +3652,59 @@
     },
     {
         "name":"label-book3-lesson6-header1",
-        "value":"Uvod"
+        "value":"Innledning"
     },
     {
         "name":"label-book3-lesson6_section1-paragraph1",
-        "value":"Islam nam govori da su istinski uspješni ljudi oni ljudi sa integritetom, koji su ispunili svrhu svog stvaranja, dorasli životnim izazovima koji su stavljeni pred njih, težeći da postignu zadovoljstvo svog Stvoritelja i vječni uspjeh za naredni život. Poslanik Muhammed a.s. u jednom hadisu kaže:\"Najbolje žene od džennetskih žena su Hatidža bint Huvejlid, Fatima bint Muhammed, Merjem bint Imran i Asija bint Muzahim (žena faraona).\""
+        "value":"Islam forteller oss at virkelig vellykkede mennesker er de menneskene med integritet, som har oppfylt hensikten med skapelsen, har tatt seg opp til de utfordringene de stiller seg foran dem, og streber etter å oppnå tilfredsheten til sin Skaper og evig suksess for neste liv. Profeten Muhammad a.s. i en hadith sier han: \"De beste kvinnene til kvinnene i Paradis er Khadija bint Huwaylid, Fatima bint Muhammad, Maryam bint Imran og Asiya bint Muzahim (faraos kone).\""
     },
     {
         "name":"label-book3-lesson6-header2",
-        "value":"Prihvatanje istine"
+        "value":"Godta sannheten"
     },
     {
         "name":"label-book3-lesson6_section2-paragraph1",
-        "value":"Četiri najbolje žene odmah su se i bez ikakvog oklijevanja pokorile istini, i naredbama Uzvišenog Allaha. Obratite pažnju na to kako je Merjem prihvatila težak zadatak koji joj je Allah dž.š. postavio. Prošla je kroz trudnoću i porođaj sama, bez podrške muškarca, a zatim predstavila svoje dijete ljudima koji bi je neizbiježno optužili da je bila nečasna. Hatidža r.a. je prihvatila islam bez oklijevanja, i postala prva muslimanka. Kad se Poslanik s.a.v.s. vratio sa brda Nur, gdje je primio prvu objavu od meleka Džibrila, ona je smjesta prihvatila njegovu poruku i vjerovala u njega, iako je i on sam bio potresen ovim događajem."
+        "value":"De fire beste kvinnene fulgte umiddelbart og uten å nøle sannheten og befalene fra den allmektige Allah. Legg merke til hvordan Maryam godtok den vanskelige oppgaven som Allah den allmektige ga henne. sett. Hun gjennomgikk graviditet og fødsel alene, uten støtte fra en mann, og introduserte deretter barnet sitt for mennesker som uunngåelig ville beskylde henne for å være uærlig. Khadija r.a. hun aksepterte islam uten å nøle, og ble den første muslimen. Når profeten s.a.v.s. tilbake fra Nur -høyden, hvor han mottok den første åpenbaringen fra engelen Jibril, godtok hun straks budskapet hans og trodde på ham, selv om han selv ble rystet av denne hendelsen."
     },
     {
         "name":"label-book3-lesson6-header3",
-        "value":"Veza sa Allahom dž.š."
+        "value":"Kontakt med Allah dž.š."
     },
     {
         "name":"label-book3-lesson6_section3-paragraph1",
-        "value":"Njihovo znanje o Allahu dž.š. i Njegovim svojstvima ih je približilo Njemu. Kad se a.s. vratio iz pećine Hira u strahu da mu se nije nešto loše desilo, Hatidža je znala da ga Allah dž.š. neće napustiti. Rekla je: „Allah te ne bi nikada ponizio, jer si dobar prema rodbini, govoriš istinu, udjeljuješ siromašnima, pomažeš slabima, lijepo primaš gosta, odazivaš se na poziv onih koji su u nevolji.“Znala je da je Allah dž.š. pravedan i da ne ponižava pravovjerne. Asija je znala, dok ju je faraon mučio kako bi je okrenuo od njene vjere, da Allah dž.š. čuje njen plač i njene dove. Tražila je od Allaha dž.š. kuću u Džennetu. Tokom teških muka koje je prolazila, Allah dž.š. joj je pokazao kuću u Džennetu, na što se ona nasmiješila. Merjem je bila u tako bliskoj vezi sa svojim Gospodarem da ju je On opskrbljivao sa ljetnim voćem zimi, i zimskim voćem ljeti. Kad je poslanik Zekerijja a.s. ovo vidio, pitao ju je odakle joj hrana, a ona je odgovorila: \"To je od Allaha!“ Allah, doista, opskrbljuje koga hoće, bez ikakva računa!\" (Ali-Imran, 37)"
+        "value":"Deres kunnskap om Allah j.s. og ved hans egenskaper førte dem nærmere ham. Når a.s. kom tilbake fra Hira -grotten i frykt for at noe ille hadde hendt ham, visste Khadija at Allah j.s. vil ikke forlate. Hun sa: \"Allah ville aldri ydmyke deg, fordi du er god mot dine slektninger, du forteller sannheten, du deler med de fattige, du hjelper de svake, du tar godt imot gjesten, du svarer på kallet til de som trenger det. \" rettferdig og ikke for å ydmyke de ortodokse. Asiya visste, mens Farao torturerte henne for å vende henne bort fra troen, at Allah j.s. han hører hennes rop og hennes bønner. Hun spurte Allah den Allmektige. et hus i Paradise. Under de vanskelighetene hun gjennomgikk, Allah den Allmektige han viste henne huset i Paradise, som hun smilte til. Maryam var i så nær kontakt med sin Herre at han forsynte henne med sommerfrukt om vinteren og vinterfrukt om sommeren. Da profeten Sakarja a.s. så dette, spurte han henne hvor maten hennes kom fra, og hun svarte: \"Det er fra Allah!\" Ja, Allah sørger for hvem Han vil, uten noen beregning! \"(Ali-Imran, 37)"
     },
     {
         "name":"label-book3-lesson6-header4",
-        "value":"Pokoravanje Allahu dž.š."
+        "value":"Lydighet til Allah dž.š."
     },
     {
         "name":"label-book3-lesson6_section4-paragraph1",
-        "value":"Allah dž.š. istinske vjernice opisuje kao pokorne, a Merjem je posebno opisao kao pokornu. Allah dž.š. kaže: \"O Merjema, budi pokorna svome Gospodaru, ničice padaj (pred Njim), i saginji se (sedždu i ruku čini) s onima koji se saginju (pred Njim)!\" Ovo se odnosi na dugo stajanje u namazu, a bilo je karakteristično za Merjem i Fatimu. Ovo također znači biti u pobožnoj poslušnosti i pokornosti Allahu dž.š."
+        "value":"Allah den allmektige han beskriver sanne troende som underdanige, og Maryam beskrev henne spesifikt som underdanig. Allah den allmektige han sier: \"O Maria, vær lydig mot din Herre, legg deg ned (foran ham), og bøy deg (legg deg ned og gjør en hånd) sammen med dem som bøyer seg (foran ham)! \" Dette refererer til en langvarig stilling i bønn, og det var karakteristisk for Maria og Fatima. Dette betyr også å være i from lydighet og lydighet mot Allah."
     },
     {
         "name":"label-book3-lesson6-header5",
-        "value":"Podržavanje vjernika"
+        "value":"Støtter de trofaste"
     },
     {
         "name":"label-book3-lesson6_section5-paragraph1",
-        "value":"Asija je spasila Musa a.s. kao bebu od faraona, odgojila ga i vjerovala u njega. Merjem je bila centralna ličnost za objavu Isaa a.s., i predstavila ga je ljudima kao znak od Allaha dž.š. Fatima je branila svog oca od idolopoklonika u Mekki, koji su bacali krv i iznutricu mrtve kamile na leđa njenog oca, dok je on klanjao. Ona je uklonila prljavštinu, i suprotstavila se ljudima koji su napali njenog oca, nakon čega ju je Ebu Džehl ošamario. Hatidža je uvijek bila uz Poslanika s.a.v.s., i trošila svoj imetak da bi pomogla širenje njegove poruke. Izdržala je težak period izbjeglištva, u kojem su muslimani i oni koji su ih podržavali, bili primorani stanovati u jednoj dolini, udaljenoj od stanovnika Mekke, gdje su bili bez hrane, i bez mogućnosti da trguju. Hatidža je pretrpjela ove teškoće, i stala je uz Poslanika a.s."
+        "value":"Asia reddet Musa a.s. som en baby fra farao, reiste hun ham og trodde på ham. Maryam var den sentrale figuren for åpenbaringen av Isa a.s., og introduserte ham for folket som et tegn fra Allah j.s. Fatima forsvarte faren sin fra avgudsdyrkere i Mekka, som kastet blod og innvoller av en død kamel på farens rygg mens han tilbad. Hun fjernet smusset og konfronterte menneskene som angrep faren, hvoretter Abu Jahl slo henne. Khadija var alltid hos profeten s.a.v.s., og brukte formuen på å hjelpe til med å spre budskapet hans. Hun opplevde en vanskelig eksilperiode, der muslimer og de som støttet dem ble tvunget til å bo i en dal, langt fra innbyggerne i Mekka, hvor de var uten mat og uten mulighet til å handle. Khadija led disse vanskelighetene, og sto ved profeten a.s."
     },
     {
         "name":"label-book3-lesson6-header6",
-        "value":"Hrabrost"
+        "value":"Mot"
     },
     {
         "name":"label-book3-lesson6_section6-paragraph1",
-        "value":"Fatima je često učestvovala u bitkama koje su muslimani vodili: Previjala je rane ranjenicima, i suprotstavila se Ebu Džehlu kada je napao Poslanika s.a.v.s. Merjem je imala hrabrost da predstavi Isa a.s. svom narodu, nakon teškog iskušenja. Znala je da će je optužiti da je bila nečasna, a ona se ipak hrabro pokorila Allahovoj naredbi. Hatidža je hrabro slijedila Poslanika a.s. u njegovoj misiji, iako je pretrpila razne teškoće zbog toga. Asija se hrabro suprotstavila faraonu koji je bio najveći tiranin tog vremena i odbila da bude nevjernica."
+        "value":"Fatima deltok ofte i kamper som ble utkjempet av muslimer: Hun banderte sårene til de sårede, og motarbeidet Abu Jahl da han angrep profeten s.a.v.s. Mary hadde mot til å presentere Isa a.s. til sitt folk, etter en alvorlig fristelse. Hun visste at han ville beskylde henne for å være uærlig, og likevel fulgte hun tappert Allahs befaling. Khadija fulgte tappert profeten a.s. i hans misjon, selv om hun led forskjellige vanskeligheter på grunn av det. Asia motarbeidet tappert Farao som var datidens største tyrann og nektet å være en vantro."
     },
     {
         "name":"label-book3-lesson6-header7",
-        "value":"Istikama i sabur"
+        "value":"Istikama og sabur"
     },
     {
         "name":"label-book3-lesson6_section7-paragraph1",
-        "value":"\"Istikama\" znači čvrsto stajati na putu istine, a \"sabur\" predstavlja ustrajavanje u strpljenju. Drugim riječima, one su uporno ustrajavale na istini, bez obzira šta se desilo. Asija je ostala čvrsta u Musaovoj vjeri iako je prošla kroz torture i patnje. Merjem je također ostala strpljiva kada se suočila sa optužbama ljudi i iskušenjima. Hatidža i Fatima su izdržale trogodišnji period izbjeglištva koje im je bilo nametnuto i strpljivo su podnijele progone od strane stanovnika Mekke, čvrste u vjeri."
+        "value":"\"Istikama \" betyr å stå fast på sannhetens vei, og \"sabur\" representerer utholdenhet i tålmodighet. Med andre ord insisterte de på sannheten, uansett hva som skjedde. Asia forble fast i Musas tro, selv om hun gjennomgikk tortur og lidelse. Maryam forble også tålmodig når hun sto overfor folks anklager og fristelser. Khadija og Fatima utholdt den treårige eksilperioden som ble pålagt dem og tålmodig utholdt forfølgelse av innbyggerne i Mekka, fast i troen."
     },
     {
         "name":"label-book3-lesson6-header8",
@@ -3640,15 +3712,15 @@
     },
     {
         "name":"label-book3-lesson6_section8-paragraph1",
-        "value":"Kada je bila progonjena zbog toga što je obožavala Allaha dž.š., ona se u velikoj mjeri oslonila na Allaha, te je tako ostala čvrsta u vjeri i nije popustila pod jakim pritiskom. Fatima se suočila sa siromaštvom i fizičkim teškoćama nakon što se udala za Aliju r.a., do te mjere da su joj ruke postale grube i lice joj promijenilo boju zbog teških poslova koje je morala raditi. Uprkos tome svemu, nije joj bilo dozvoljeno da primi zekat niti da priušti sebi slugu. Umjesto sluge, Poslanik a.s. je naučio nju i Aliju r.a. da kažu 33 puta subhanallah, 33 puta elhamdulillah i 34 puta allahuekber. Podsjetio ih je da im jedino Allah dž.š. može olakšati i da se trebaju u potpunosti na Njega osloniti. Sve četiri žene su bile sposobne prevazići iskušenja sa kojim su se suočile, jer su se uzdale u to da će Allah dž.š. olakšati njihovu borbu."
+        "value":"Da hun ble forfulgt for å tilbe Allah, stolte hun sterkt på Allah, så hun forble fast i sin tro og ga ikke etter for sterkt press. Fatima møtte fattigdom og fysisk motgang etter å ha giftet seg med Ali r.a., til det punktet at hendene hennes ble tøffe og ansiktet hennes endret farge på grunn av det harde arbeidet hun måtte gjøre. Til tross for alt dette, fikk hun ikke lov til å motta zakat eller ha råd til en tjener. I stedet for en tjener, profeten a.s. lærte henne og Ali r.a. å si 33 ganger subhanallah, 33 ganger elhamdulillah og 34 ganger allahuekber. Han minnet dem om at bare Allah den allmektige det kan også gjøre det lettere for dem å stole helt på Ham. Alle fire kvinnene klarte å overvinne fristelsene de møtte, fordi de stolte på Allah, den allmektige. lette deres kamp."
     },
     {
         "name":"label-book3-lesson6-header9",
-        "value":"Dunjalučki život"
+        "value":"Verdslig liv"
     },
     {
         "name":"label-book3-lesson6_section9-paragraph1",
-        "value":"Poslanik s.a.v.s. je jednom rekao Fatimi da ukloni zlatne narukvice koje je nosila, jer je htio da je nauči da se ne veže za dunjalučke stvari. Ona ih je odmah skinula i dala u dobrotvorne svrhe. Hatidža je svojim bogatstvom pomagala širenje Allahove riječi tokom„mekkanskog perioda“. Ona, kao jedna od najpoznatijih i najcjenjenijih žena plemena Kurejš, odrekla se je svog društvenog položaja da bi bila uz Poslanika s.a.v.s. Asija je mogla imati luksuzan život jer je bila udata za najbogatijeg i najmoćnijeg čovjeka na svijetu. Ona se, ipak, odrekla dunjalučkih užitaka koje je mogla imati ako bi se pokorila faraonovim željama. Odabrala je ono što je u Allaha, umjesto dunjaluka."
+        "value":"Profeten s.a.v.s. han ba Fatima en gang om å fjerne gullarmbåndene hun hadde på seg fordi han ville lære henne å ikke knytte seg til verdslige ting. Hun tok dem umiddelbart av og ga dem til veldedighet. Khadija brukte rikdommen til å spre Allahs ord under \"mekka -perioden\". Hun, som en av de mest kjente og anerkjente kvinnene i Quraysh -stammen, ga avkall på sin sosiale posisjon for å være sammen med profeten s.a.v.s. Asia kunne ha hatt et luksuriøst liv fordi hun var gift med den rikeste og mektigste mannen i verden. Hun ga imidlertid avkall på de verdslige gledene hun kunne ha hatt hvis hun hadde adlatt Faraos ønsker. Hun valgte det som er i Allah, i stedet for det verdslige livet."
     },
 
     {
@@ -3713,7 +3785,7 @@
     },
     {
         "name":"label-book3-lesson7_section6-paragraph1",
-        "value":"Rana muslimanska zajednica na čelu sa halifama Ebu Bekrom i Osmanom, r.a., poduzela je niz idžtihadskih poteza u vezi sa: a) nastankom mushafa, b) njegovim prepisivanjem i umnožavanjem i c) reformom kur’anskog pisma. U vrijeme Allahovog Poslanika, s.a.v.s., Kur’an je zapisivan na različitim materijalima: kamenim plohama, palminom granju, kostima i slično, ali nije bio sakupljen u jednu zbirku (mushaf). Svi ti predmeti bili su pohranjivani kod Zejda ibn Sabita, glavnog Poslanikovog, s.a.v.s., pisara Objave. Usporedo s time, i još u većoj mjeri, teklo je učenje Kur’ana napamet. Sa halifom Ebu Bekrom nastaje prvi mushaf. Naime, kada je na Jemami (12/634. godine) poginula skupina ashaba u borbi protiv Musejlime el-Kezzaba, Omer b. el-Hattab ukazao je Ebu Bekru, r.a., da sakupi Kur’an zbog straha da on ne nestane sa smrću njegovih učača poznavalaca. Ebu Bekr je izdao fetvu Zejdu b. Sabitu, i Kur’an je zapisan, odnosno sakupljen u jednu zbirku (mushaf). Taj mushaf ostao je kod Ebu Bekra, zatim kod Omera, a onda kod Omerove kćerke Hafse. Tokom toga perioda raširile se su kopije Kur’ana širom tadašnjeg carstva. Među njima je bilo određenih razlika pa je Huzejfe b. el-Jemani (25. godine po Hidžri) na to ukazao Osmanu b. el-‚Affanu, r.a. Onda je Osman formirao komisiju na čelu sa Zejdom b. Sabitom da po drugi put zapišu Kur’an. Mushaf koji je bio kod Hafse uzeli su kao osnovni tekst (imamu l-mushaf) prilikom ovog posljednjeg zapisivanja/sakupljanja Kur’ana. Osman, r.a., lično je nadzirao ovaj posao i u njemu sudjelovao. Osman, r.a., im je rekao: „Ako se u nečemu ne složite, zapišite prema jeziku plemena Kurejš.“ Kada je mushaf završen, Osman, r.a., načinio je njegove kopije i poslao u glavne centre carstva, a za sve mimo njega naredio je da se podere ili spali (prenose se obje ove mogućnosti)."
+        "value":"Tidlig muslimsk felleskap ledet av khalifaer Ebu Bekr og Uthman, r.a., tok en del skritt for å gjøre Kur'an tilgjengelig til befolkning: a) Samle alle Kur'an vers i bokform(mushaf) b) Lage flere kopier av originalen c) Reformerer arabisk skrift. I Muhammads s.a.v.s. tid, Kur’an forskjellige ting ble brukt for å skrive ned Kur'an vers: stein, palmiegren, bein og lignende. Men den ble aldri samlet i bokform mens Muhammad s.a.v.s. levde. Zejd ibn Sabita, som var Muhammads s.a.v.s. skribent hadde alle nedskrevne vers. Samtidig lærte flere og flere Kur'an utenat. Khlifa Ebu Bekr var første som samlen alle vers i mushaf. Etter slaget ved Jemama (12/634. godine), hvor flere av de som kunne Kur'an utenat ble drept, uttrykte Umar b. el-Hattab sin bekymring til khalifa Ebu Bekr, r.a. og foreslo at Kur'an samøes i bokform i frykt at man risikerer bevaring av Kur'an hvis for mange av de som kunne det utenat blir drept. Ebu Bekr ga ordre til Zejd b. Sabit, og Kur’an ble skrevet ned i bokform(mushaf). Mushaf ble gitt til khalifa Ebu Bekr og etter til ble den gitt til hans etterfølger khalifa Umar som ga den til sin datter Hafsa. Flere kopier ble laget og distribuert over hele landet. r.a. Noen år senere dannet khalifa Uthman bin Affan r.a. utvalg ledet av  Zejd b. Sabit. Mushaf, som har vært hos Hafsa ble brukt som hovedteskt (imamu l-mushaf). Khalifa Osman, r.a., deltok personlig i nedskrivning. Uthman, r.a., im je rekao: „Hvis dere ikke er enige om noe, skriv det ned i Kureisj dialekt.“ Når mushaf ble ferdig, distribuerte Uthman kopier til alle deler av riket som på dette tidspunktet strakk seg til Persia, Syria og Egypt. Alle tidligere kopier ble breant."
     },
     {
         "name":"label-book3-lesson8-quote",
@@ -3783,7 +3855,7 @@
     },
     {
         "name":"label-book3-lesson9-quote",
-        "value":"\"A one koji su na Pravome putu On će i dalje voditi \""
+        "value":"\"Han skal fortsette å veilede dem som er på den rette veien\""
     },
     {
         "name":"label-book3-lesson9-quote-reference",
@@ -3791,11 +3863,11 @@
     },
     {
         "name":"label-book3-lesson9_section1-paragraph1",
-        "value":"Za dobrovoljni noćni namaz kijamu-llej l Muhammed s.a.v.s. je rekao: O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru."
+        "value":"Muhammed s.a.v.s. sa følgende for frivillige nattebønn kijamu-llej: Å mwennesker, hils hverandre med selam, gi mat til fattige og gjør nattebønn mens de andre sover. Slik kommer dere til Paradiset i fred."
     },
     {
-        "name":"label-book3-lesson9_section2-paragraph1",
-        "value":"Za dobrovoljni noćni namaz kijamu-llej l Muhammed s.a.v.s. je rekao: O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru."
+        "name":"label-book3-lesson9_section2-paragraph2",
+        "value":"Qiyamu-llayl har mellom 2 og 8 rak'ah. Etter hvert sett av 2 rak'ah sier man selam. Til slutt ber man 3 rak'ah witr."
     },
     
     {
@@ -3808,7 +3880,7 @@
     },
     {
         "name":"label-book3-lesson10-quote",
-        "value":"\"On uliva smirenost u srca vjernika\""
+        "value":"\"Han er Den som nedsendte sjelefred i de troendes hjerte.\""
     },
     {
         "name":"label-book3-lesson10-quote-reference",
@@ -3816,7 +3888,7 @@
     },
     {
         "name":"label-book3-lesson10_section1-paragraph1",
-        "value":"Od dobrovoljnih ibadeta ujutro je i klanjanje duha namaza. Vrijeme ovog namaza je ujutro, kada sunce odskoči, pa do pred podne. Klanja se od dva rekata, ili više ko može stići. Za duha namaz Muhammed s.a.v.s. je rekao: Svako jutro na svaki zglob daje se sadaka; svaki tesbih (izgovoreno Subahanellah) je sadaka, svako izgovoreno Elhamdulillahije sadaka, svako izgovoreno La ilahe illallah je sadaka, svaki izgovoreni tekbir - Allahu ekber je sadaka, naređivanjedobra je sadaka, odvraćanje od zla je sadaka, a sve to zamjenjuju dva rekata duha namaza."
+        "value":"Duha bønn er frivillig bønn. Tiden for duha bønn er om morningen, etter at sola har gått opp, til middagen. Man kan be to rak'ah, eller flere hvis man har tid for det. Muhammed s.a.v.s. sa følgende om duha bønn: Man ggir hver morning sadaqah for hvert ledd; hver tasbih (Subahanellah) er sadaqah, hver Elhamdulillahije er sadaqah, hver La ilahe illallah er sadaqah, hver tekbir - Allahu ekber er sadaqah, å befale godt er sadaqah, og stoppe ondt er sadaqah, og alt dette kan erstattes med to rakah av duha bønn."
     },
     {
         "name":"label-book3-lesson11-title",
@@ -3828,7 +3900,7 @@
     },
     {
         "name":"label-book3-lesson11-quote",
-        "value":"\"Allah, sigurno, zna tajne nebesa i Zemlje\""
+        "value":"\"Sannelig, Allah kjenner svært vel til alt det usette av himlene og jorden.\""
     },
     {
         "name":"label-book3-lesson11-quote-reference",
@@ -3836,11 +3908,11 @@
     },
     {
         "name":"label-book3-lesson11_section1-paragraph1",
-        "value":"Allahov Poslanik s.a.v.s. nas j e podučavao istihari namazu za svaku priliku, kao što nas je podučavao nekoj suri iz Kur'ana. Govorioje: Kada neko od vas hoće uraditi (neki posao), neka mimo farza klanja dva rekata, a zatim neka prouči ovu dovu:"
+        "value":"Allahov Budbringer s.a.v.s. anbefalt istihara bønn for hver anledning. Han pleide å si: Når dere ønsker å gjøre noe, be to rak'ah etter fardh og deretter si følgende du'a:"
     },
     {
         "name":"label-book3-lesson11_section1-paragraph2",
-        "value":"Allahu moj, ja tražim dobro s Tvojim znanjem, i tražim od Tebe s Tvojom moći, i iskreno molim Te da mi daš od Tvoje velike blagodati. Ti zaista sve možešajanemogu!Tisveznaš,ajaneznam, i Ti si poznavalac tajni! Allahu moj, ako je ovo djelo korisno za mene, moju vjeru, moj život i svršetak (Ahiret) (ili je rekao: u mojoj bliskoj i dalekoj budućnosti), Ti mi ga odredi (propziši) i olakšaj, a zatim mi daj berićet (blagoslov) u njemu. A ako je ovo moje djelo loše za mene, moju vjeru, moj život i svršetak (Ahiret) (ili je rekao: u mojoj bliskoj i dalekoj budućnosti), Ti ga od mene otkloni i udalji ga od mene i odredi (propiši) mi dobro i hajr, ma gdje se ono nalazilo, zatim mi daj da s njim budem zadovoljan. Potom spomene svoju želju i potrebu."
+        "value":"Å Allah, jeg søker godhet med Din kunnskap, og jeg søker fra Deg med Din makt, og jeg fra at du gir til meg fra din nåde. Du kan gjøre alt mens jeg ikke kan gjøre noe uten Deg! Du vet alt, mens jeg ikke vet, Du kjenner alle hemmeligheter! Å Allah, hvis denne gjerningen er bra for meg, min tro, min dunja og akhira, bestem den for meg og gjør den lettere, og gi Din barakah i den. Hvis denne gjerningen ikke er bra for meg, min tro, min dunja og akhira, få meg vekk fra den og gi meg hajr, uansett hvor den er, og gjøe at jeg blir fornøyd med den. Etter det sier man ønske eller behov."
     },
 
     {
@@ -4018,7 +4090,7 @@
     },
     {
         "name":"label-book3-lesson14-quote",
-        "value":"\"Tako Mi neba punog zvjezdanih puteva\""
+        "value":"\"Og ved himmelen, som har galakser og stier\""
     },
     {
         "name":"label-book3-lesson14-quote-reference",
@@ -4026,59 +4098,60 @@
     },
     {
         "name":"label-book3-lesson14_section1-header",
-        "value":"Uvod"
+        "value":"Introduksjon"
     },
     {
         "name":"label-book3-lesson14_section1-paragraph1",
-        "value":"Životopis posljednjeg Allahovog Poslanika Muhammeda, a.s., zovemo posebnim imenom „Sira“. Sira predstavlja historijske doživljaje i događaje Allahovog Poslanika od njegovog rođenja do njegove smrti. Prvi koji je pisao Poslanikov životopis bio je 'Urve b. el-Zubejr b. el-'Avam (umro 92. godine po Hidžri), zatim Ebban b. 'Usman (umro 105. god.), Vehb b. Munebbeh (urmo 110. god.), itd. Nažalost, sve njihove knjige su izgubljene i samo se neki njihovi fragmenti mogu naći razasuti tu i tamo po pojedinim historijskim djelima kao što je, primjerice, Taberijeva historija. Jedino je sačuvan dio knjige Vehba b. Munebbeha i on se nalazi u Heidelbergu, u Njemačkoj! Od svih dosadašnjih knjiga najznačajnije i najpouzdanije knjige o životu Poslanikov su \"Životopis Muhammeda, a.s.,\" od b. Ishaka i \"Životopis\" od Ibn Hišama."
+        "value":"Biografien til Allahs siste sendebud, Muhammed, fred være med ham, kalles \"Sira\". Sira representerer de historiske opplevelsene og hendelsene til Allahs sendebud fra hans fødsel til hans død. Den første som skrev biografien om profeten var ‘Urve f. al-Zubayr f. al-'Awam (død 92 AH), deretter Ebban f. 'Usman (død 105), Vehb f. Munebbeh (urmo 110), etc. Dessverre har alle bøkene deres gått tapt, og bare noen av fragmentene deres kan finnes spredt her og der i visse historiske verk som for eksempel Taberis historie. Bare en del av boken Vehba b. Munebbeha og han er lokalisert i Heidelberg, Tyskland! Av alle bøkene til dags dato er de mest betydningsfulle og pålitelige bøkene om profetens liv \"Biografi om Muhammed, a.s., \" av b. Ishaq og \"Biografi\" til Ibn Hisham."
     },
     {
         "name":"label-book3-lesson14_section2-header",
-        "value":"Rodjenje"
+        "value":"Fødsel"
     },
     {
         "name":"label-book3-lesson14_section2-paragraph1",
-        "value":"Kada je Abdullah, Muhammedov, a.s., otac, stasao u dob od 25 godina oženio je Aminu, kćerku Vehbovu, koji je bio unuk Kusajjovog brata Zuhre. Muhammed, a.s., je rođen 12. aprila 571. godine u Mekki, u plemenu Kurejš. Godina rođenje Muhammeda je poznata i kao Godina slona jer se tada zbio poznati događaj kada je abesinski namjesnik današnjeg Jemena, Ebreha pokušao sa vojskom koju je predvodio slon srušiti Kabu u Meki o čemu govori i jedna kur'anska sura El-Fil (Slon)."
+        "value":"Da Abdullah, Muhammeds, a.s., far, fylte 25 år, giftet han seg med Amina, datteren til Vehb, som var barnebarnet til Qusays bror Zuhra. Muhammad, a.s., ble født 12. april 571 i Mekka i Quraysh -stammen. Årets fødselsår er også kjent som elefantens år, fordi en berømt hendelse fant sted da den abessinske guvernøren i dagens Jemen, Ebreha, prøvde å styrte Kaaba i Mekka med en hær ledet av en elefant, som nevnt i en Koranens surah Al-Fil (elefant)."
     },
     {
         "name":"label-book3-lesson14_section3-header",
-        "value":"Rani život"
+        "value":"Tidlig liv"
     },
     {
         "name":"label-book3-lesson14_section3-paragraph1",
-        "value":"Kako mu je otac umro prije njegovog rođenja, Muhammed je ostao samo s majkom i djedom. Među predislamskim uglednim Arapima vladao je običaj da se muška djeca šalju u pustinju, izvan grada, kako bi dio djetinjstva provodili u nekom od beduinskih plemena. Među takvim plemenima koja su uživala veliki ugled među Arapima bilo je i pelem Benu Sa&#39;ad ibn Bekr. To pleme je naseljavalo područje koje se nalazi jugoistočno od Meke. Poslanikova majka Amina je upravo željela Muhammeda povjeriti nekoj od žena iz toga plemena. Historičar Ibn Hašim u svom djelu Poslanikov životopis navodi da je Muhammedova dojilja bila Halima iz plemena Benu Sa'd. Kod Halime u pustinji je ostao do perioda kada je napunio dvije godine, naučio arapski jezik i prestao sa dojenjem. Kada je doveden u Meku, u kojoj se u to doba često javljale epidemije i bolesti Halima je iskoristila tu situaciju i nagovorila Njegovu majku da Muhameda, a.s., zadrži još dvije godine što se i desilo. Kada mu je bilo šest godina, umrla mu je i majka, a kako mu je otac umro prije i prije njegovog rođenja, Muhamed, a.s., je sa šest godina ostao siroče. Dvije godine poslije umire mu i djed nakon čega ga prihvaća amidža Ebu Talib koji se brine o njemu. U tradicionalnim predajama prenosi se da je kao dječak bio poznat po mudrosti i moralnosti. Tako se prenosi da su se zidovi Kabe radi poplave srušili i da su mekanska plemena odlučila da je renoviraju. Međutim, nastao je spor oko počasnog čina vraćanj Crnog kamena u zidove Kabe. S obzirom da su Muhammeda, a.s., znali u gradu kao najmoralnijeg i najnepristrasnijeg, pozvali su njega da presudi oko tog spora. On je presudio na sljedeći način: rekao im je da Crni kamen stave na jedno platno i da glavešine svih plemena uzmu za krajeve platna i tako ga polože u zid Kabe. Kad je imao 25 godina, oženio je Hatidžu bint Huvejlid i uspješno se bavio trgovinom."
+        "value":"Da faren døde før han ble født, ble Muhammad alene igjen med sin mor og bestefar. Det var en skikk blant pre-islamske fremtredende arabere å sende mannlige barn til ørkenen, utenfor byen, for å tilbringe deler av barndommen i en av beduinstammene. Blant slike stammer som hadde et godt rykte blant araberne, var pelemene til Banu Sa'ad ibn Bakr. Denne stammen bebodde området sørøst for Mekka. Profetens mor Amina ville bare overlate Muhammed til en av kvinnene i den stammen. Historikeren Ibn Hashim i sitt arbeid profetens biografi sier at Muhammeds sykepleier var Halima fra stammen Benu Sa'd. Han bodde hos Halima i ørkenen til han var to år gammel, lærte arabisk og sluttet å amme. Da han ble brakt til Mekka, hvor epidemier og sykdommer ofte forekom på den tiden, utnyttet Halima situasjonen og overtalte moren til å beholde Muhammed, fred være med ham, i ytterligere to år, noe han gjorde. Da han var seks år gammel, døde også moren hans, og da faren døde før og før fødselen, ble Muhammad, a.s., etterlatt foreldreløs i en alder av seks år. To år senere døde bestefaren, hvoretter han ble akseptert av onkelen Abu Talib, som tok seg av ham. Tradisjonelle sagn sier at han som gutt var kjent for sin visdom og moral. Det rapporteres at veggene til Kaaba kollapset på grunn av flommen og at de mekanske stammene bestemte seg for å renovere den. Imidlertid oppsto det en tvist om æresakten for å returnere den svarte steinen til veggene i Kaaba. Siden Muhammad, a.s., var kjent i byen som den mest moralske og upartiske, ba de ham om å dømme i den tvisten. Han regjerte slik: han fortalte dem å legge den svarte steinen på ett lerret og ta sjefene for alle stammene ved enden av lerretet og dermed legge den i veggen til Kaaba. Da han var 25, giftet han seg med Khadija bint Huwaylid og var en vellykket kjøpmann."
     },
     {
         "name":"label-book3-lesson14_section4-header",
-        "value":"Objava"
+        "value":"Åpenbaring"
     },
     {
         "name":"label-book3-lesson14_section4-paragraph1",
-        "value":"U tradicionalnim predajama (Buharija, Muslim i ostali) prenosi se da je Muhammed, a.s, u 40-im godinama sve više bio razočaran izopačavanjem vjerskih običaja i udaljavanja njegovih sugrađana od monoteizma i prakticiranjem primitivnog oblika politeizma. I uobičavao je osamljivanje na lokalnom brdu u pećini Hira. U jednom takvom osamljivanju, godine 610. u mjesecu ramazanu, Muhammeda, a.s, je prema islamskoj predaji, posjetio melek (anđeo) Džibril (Gabrijel) koji mu je tada prenio prve Božije riječi, imperativ Ikre! (Uči!). To su bile prve Kur'anske riječi i tim događajem zvanično je počela objava Kur'ana. Muhammed, a.s, je brzo počeo širiti islamsku vjeru u Mekki s novim pogledom na ekonomske, vjerske i socijalne odnose. Međutim, trgovci i tadašnji vladari Mekke bojali su se da bi nova vjera, sa sve više novih pristalica i s novim pristupom hodočašću u Mekku (koji je tada bio jedini izvor gradskih prihoda) mogla štetiti njihovim ličnim koristima. Upravo na mjestu drevnog hrama Kabe bili su izloženi mnogobrojni paganski idoli koje su jednom godišnje posjećivali obožavaoci iz svih krajeva tadašnje Arabije, što je ostavljalo velike prihode tadašnjim vlastima u Mekki. Tako je Muhammedovo, a.s, pozivanje u islam odmah u startu steklo velike neprijatelje. Zbog niza opstruiranja, pritisaka i napada koje je doživljavala tadašnja malobrojna islamska zajednica, bili su prisiljeni da napokon 622. godine izbjegnu prvo u tadašnju Abesiniju, a zatim u Medinu. Navodi se da je bilo i nekoliko pokušaja atentata u Mekki na samog Muhammeda, a.s, što se završilo neuspješno. U mekanskom periodu Muhammeda, a.s, je neprestano štitio amidža Ebu-Talib, koji je, također, bio jedan od mekanskih uglednik."
+        "value":"I tradisjonelle tradisjoner (Bukhari, muslimer og andre) blir det fortalt at Muhammad, a.s., på 1940 -tallet i stadig større grad ble desillusjonert over perversjonen av religiøse skikker og fremmedgjøring av sine medborgere fra monoteisme og utøvelsen av en primitiv form for polyteisme. Og han pleide å være alene på den lokale bakken i Hira -hulen. I en slik ensomhet, i år 610 i Ramadan -måneden, ble Muhammed, som ifølge islamsk tradisjon, besøkt av en engel (engel) Jibril (Gabriel) som deretter overførte ham de første ordene fra Gud, imperativet til Ikra! (Lære!). Dette var Koranens første ord, og med denne hendelsen begynte åpenbaringen av Koranen offisielt. Muhammad, a.s., begynte raskt å spre den islamske troen i Mekka med et nytt syn på økonomiske, religiøse og sosiale forhold. Kjøpmenn og de daværende herskerne i Mekka fryktet imidlertid at den nye religionen, med flere og flere nye tilhengere og en ny tilnærming til pilegrimsreisen til Mekka (som den gang var den eneste inntektskilden) kunne skade deres personlige gevinst. Det var på stedet for det gamle tempelet i Kaaba at mange hedenske avguder ble stilt ut, som ble besøkt en gang i året av fans fra hele det daværende Arabia, noe som etterlot en stor inntekt til de daværende myndighetene i Mekka. Således oppnådde Muhammeds oppfordring til islam store fiender helt fra starten. På grunn av en rekke hindringer, press og angrep som det da lille islamske samfunnet opplevde, ble de tvunget til å flykte i 622, først til det daværende Abyssinia og deretter til Medina. Det er også opplyst at det var flere attentatforsøk i Mekka av Muhammad selv, a.s., som endte med fiasko. I den mekka-perioden ble Muhammad, a.s., konstant beskyttet av onkelen Abu-Talib, som også var en av de mekanske dignitariene."
+        
     },
     {
         "name":"label-book3-lesson14_section5-header",
-        "value":"Godina tuge"
+        "value":"Sorgens år"
     },
     {
         "name":"label-book3-lesson14_section5-paragraph1",
-        "value":"Godine 619. umire EbuTalib i Muhammed, a.s, gubi jaku podršku. Nakon toga umire njegova supruga Hatidža, koja je od samog početka također bila velika podrška Poslaniku, a.s,. Zbog tuge i neprestanog pritiska sugrađana, koji su sve više neprijateljski nastupali prema njemu, sam Muhammed, a.s, nazvao je tu godinu godinom tuge."
+        "value":"I 619 døde Abu Talib og Muhammad, fred være med ham, mistet sterk støtte. Etter det døde kona Khadija, som helt fra begynnelsen også var en stor støtte for profeten, a.s,. På grunn av sorgen og det konstante presset fra sine medborgere, som ble stadig mer fiendtlig mot ham, kalte Muhammad selv, fred være med ham, det året for sorgens år."
     },
     {
         "name":"label-book3-lesson14_section6-header",
-        "value":"Isra i Miradž"
+        "value":"Isra g Miraj"
     },
     {
         "name":"label-book3-lesson14_section6-paragraph1",
-        "value":"U vrijeme kada je Poslanik, a.s, proživljavao teške trenutke zbog gubitka važnih oslonaca u svom životu, Hatidže i Ebu Taliba, a istovremeno je zajedno sa muslimanskom zajednicom u Mekki bio na udaru mušrika i kada se njihova misija pa i životi bili ugroženi dešava se događaj koji je veoma značajan u historiji islama i jedan od najznačajnijih u životu Poslanika, a.s,. Isra i Miradž, svojevrsna mudžiza, je putovanje iz dva dijela koje je Muhammed, a.s,, prema većini autora imao u noći sa 26/27. redžeba godinu prije Hidžre, 620. ili 621. godine. Prvi dio putovanja je bilo posredstvom Buraka (bijela džennetska životinja, manja od mazge a veća od magarca) a sastojalo se od odlaska iz Mekke do hrama dalekog tj. Mesdžidul-Aksa. Na tom mjestu Muhammed, a.s, je predvodio namaz svim prijašnjim Poslanicima. Nakon Isre, u drugom dijelu putovanja poznatom kao Miradž, Muhammed, a.s, je prošao kroz sedam nebesa pri čemu se na svakom od njih susreo i razgovarao sa nekim od najodabranijih poslanika kao što su: Ibrahim, Musa i Isa. Zatim je stupio i na Arš. Višestruki je značaj tog putovanja za muslimane a jedna od njih je i naredba obavljanja namaza (pet dnevnih namaza) koji predstavlja najznačajni od pet stubova islama. Iako je Muhammed, a.s, u društvu važio kao iskren i pouzdan, nakon ovog putovanja većina stanovnika Mekke mu nije povjerovala. Tada je, njegov najvjerniji prijatelj Ebu Bekr i prvi od pravednih halifa rekao: \"Čudite se da je Muhammed s.a.v.s u jednoj noći otputovao do Mesdžidul-Aksa i nazad? Pa ja sam mu povjerovao i više od toga a to je da prima Objavu sa nebesa.\" Ovaj za islam važan događaj je ukratko opisan i u Kur'anskoj suri El-Isra (noćno putovanje) gdje se kaže: \"U ime Allaha, Svemilosnog, Milostivog! Uzvišen neka je Onaj Koji je u jednom času noći preveo Svoga roba iz Mesdžid-Harama u Mesdžid-Aksa, čiju smo okolicu blagoslovili kako bismo mu neka znamenja Naša pokazali. - On, uistinu, sve čuje i sve vidi.“"
+        "value":"I en tid da profeten (Allahs fred og velsignelser være med ham) gikk gjennom vanskelige tider på grunn av tap av viktig støtte i livet hans, Khadija og Abu Talib, og samtidig sammen med det muslimske samfunnet i Mekka ble angrepet av polyteister. som er veldig viktig i islams historie og en av de mest betydningsfulle i profetens liv, som,. Isra og Miraj, et slags mirakel, er en todelt reise som Muhammad, a.s., ifølge de fleste forfattere hadde natt til 26/27. rajab et år før Hijra, 620 eller 621. Den første delen av reisen var gjennom Burak (et hvitt paradisdyr, mindre enn et muldyr og større enn et esel) og besto av å gå fra Mekka til et fjernt tempel. Masjidul-Aqsa. På dette stedet ledet Muhammad, a.s., bønnen til alle de tidligere profetene. Etter Israh, i den andre delen av reisen kjent som Mirage, passerte Muhammad, a.s., gjennom de syv himlene, hvor han på hver av dem møtte og snakket med noen av de mest utvalgte profetene som: Ibrahim, Musa og Isa. Så gikk han inn i Arsh. Betydningen av denne reisen er flere for muslimer, og en av dem er ordren om å utføre bønner (fem daglige bønner), som er den viktigste av de fem søylene i islam. Selv om Muhammed, a.s., i samfunnet ble sett på som ærlig og pålitelig, trodde ikke de fleste innbyggerne i Mekka etter denne reisen ham. Deretter sa hans mest trofaste venn Abu Bakr og den første av de rettferdige kalifene: \"Er du overrasket over at Muhammad sallallaahu 'alayhi wa sallam reiste til Masjid al-Aqsa og tilbake på en natt? Så jeg trodde ham mer enn det og det er å motta åpenbaringen med himmelen. \"Denne viktige hendelsen for islam er også kort beskrevet i Koranen Surah Al-Isra (nattreise) hvor det sies: \" I Allahs, den barmhjertiges, Mest barmhjertig! Opphøyet være Han som oversatte sine varer fra Masjid-Haram til Masjid-Aqsa, hvis omgivelser vi har velsignet for å vise ham noen av Våre tegn. \"Faktisk, han hører alt og ser alt.\""
     },
     {
         "name":"label-book3-lesson14_section7-header",
-        "value":"Hidžra"
+        "value":"Hijra"
     },
     {
         "name":"label-book3-lesson14_section7-paragraph1",
-        "value":"Pod prijetnjom smrću i nekoliko pokušaja atentata i sve većim pritiscima na njegove sljedbenik (koji su već prije napustili Mekku i otišli u Abesiniju), Muhammed, a.s., 622. godine, posljednji nakon što je ispratio sve ostale muslimane, sa svojim najboljim prijateljem Ebu Bekrom napušta Mekku i odlazi u Medinu. Dolazak u Medinu postaje historijski događaj i prekretnica za muslimane iz više razloga. Taj događaj koji se desio septembra 622. godine po Gregorijanskom kalendaru će se poslije uzeti za početak islamskog kalendara, prema kojem muslimani računaju vrijeme. Osim toga, prednost dolaska u Medinu je i taj što su prvi muslimani u mirnijem okruženju tadašnje Medine, koja im je ponudila gostoprimstvo, mogli slobodno upotpunjavati i širiti islam. S druge strane, i Medina je dobila dolaskom Poslanika. Pomirio je dotad dva zavađena arapska plemena koja su imala dugu historiju međusobnog ratovanja. Napisan je i prvi Medinski ustav tj. povelja, koji uređuje međusobne odnose Arapa i Jevreja, kojih je u gradu bilo u značajnom broju. Grad Medina, nakon Hidžre postaje središte islama te se i sam naziv grada mijenja iz tadašnjeg Jesriba u Medinetun Nebi (arap. Poslanikov grad) ili kraće Medina."
+        "value":"Under trussel om død og flere attentatforsøk og økende press på sin tilhenger (som allerede hadde forlatt Mekka og dratt til Abyssinia), Muhammad, fred være med ham, i 622, den siste etter å ha eskortert alle andre muslimer, med sin beste venn Abu Bakr forlater Mekka og drar til Medina. Ankomsten til Medina blir en historisk begivenhet og et vendepunkt for muslimer av flere grunner. Denne hendelsen, som fant sted i september 622 i henhold til den gregorianske kalenderen, vil senere bli tatt som begynnelsen på den islamske kalenderen, ifølge hvilken muslimer teller tid. I tillegg er fordelen med å komme til Medina at de første muslimene i det mer fredelige miljøet i daværende Medina, som tilbød dem gjestfrihet, stod fritt til å utfylle og spre islam. På den annen side oppnådde Medina også ved profetens ankomst. Han forenet de hittil to kranglende arabiske stammene som hadde en lang historie med innbyrdes krigføring. Den første Medina -grunnloven ble skrevet, det vil si. charter, som regulerer de gjensidige forholdene mellom arabere og jøder, som det var et betydelig antall i byen. Byen Medina, etter Hijra, ble sentrum for islam og selve byen endret seg fra daværende Jesrib til Medinetun Nebi (arabisk: profetens by) eller Medina for kort."
     },
     {
         "name":"label-book3-lesson14_section8-header",
@@ -4086,7 +4159,7 @@
     },
     {
         "name":"label-book3-lesson14_section8-paragraph1",
-        "value":"Mir ipak nije dugo trajao. Nakon što su muslimani napustili Mekku, njihovi neprijatelji devastirali su njihove domove i pripremali napad na Medinu, prvenstveno zbog straha od ugrožavanja karavana i glavnih puteva prema Mekki od medinskih muslimana. Tako je 624. godine oko 900 dobro opremljenih mekanskih vojnika na čelu s mekanskim vladarima, među kojima je bio i Ebu Džehl, krenulo u pravcu Medine. Islamska vojska, koja je brojala oko 300 vojnika, na čelu s Poslanikom, a.s, susreće ih kod bunara u okolini Medine (Bedr) i poražava. Ubijena su 44 mekanska vojnika, među kojima i Ebu Džehl, te zarobljeno njih 70, koji su poslije u razmjeni pušteni. Ubijeno je i 14 muslimanskih vojnika. Ta je bitka odjeknula širom Arapskog poluostrva, što je doprinijelo da se i šire čuje za vjeru islam u srcu Arabije."
+        "value":"Fred varte imidlertid ikke lenge. Etter at muslimene forlot Mekka, ødela fiendene deres hjemmene og forberedte et angrep på Medina, først og fremst av frykt for å sette campingvogner og hovedveier til Mekka i fare av Medina -muslimer. Således, i 624, marsjerte rundt 900 velutstyrte mekka-soldater ledet av mekanske herskere, inkludert Abu Jahl, i retning Medina. Den islamske hæren, med rundt 300 soldater, ledet av profeten a.s., møtte dem i en brønn nær Medina (Bedr) og beseiret dem. 44 mekka -soldater ble drept, inkludert Abu Jahl, og 70 ble tatt til fange, som senere ble løslatt i bytte. 14 muslimske soldater ble også drept. Denne kampen gjentok i hele den arabiske halvøy, noe som bidro til den bredere spredningen av troen på islam i hjertet av Arabia."
     },
     {
         "name":"label-book3-lesson14_section9-header",
@@ -4094,7 +4167,7 @@
     },
     {
         "name":"label-book3-lesson14_section9-paragraph1",
-        "value":"Ebu Sufjan, mekanski vladar, skupio je oko 3.000 vojnika za osvetnički napad na Medinu. Bitka se odigrala 22. januara 625. godine u dolini brda Uhud, gdje je boravila mekanska vojska koja je krenula na Medinu. U toku bitke, koja je u jednom momentu išla u korist muslimana, tadašnji mekanski, a poslije veliki muslimanski vojskovođa Halid ibn Velid čini iznenadni manevar s konjicom oko brda Uhud i iznenađuje muslimansku vojsku i poražava ih. U toj bici ranjen je i sam Muhammed, a.s., i tom prilikom izgubio je zub (očnjak). Poginulo je 75 muslimana, uključujući velikog borca Hamzu (Poslanikov amidža). , a.s.,"
+        "value":"Abu Sufyan, herskeren i Mekka, samlet om lag 3000 soldater for et hevngjerrig angrep på Medina. Slaget fant sted 22. januar 625 i dalen Mount Uhud, der den mekanske hæren marsjerte mot Medina. Under slaget, som på et tidspunkt var til fordel for muslimene, gjorde den daværende mekkaen, og senere den store muslimske militærlederen Khalid ibn Walid en plutselig manøver med kavaleriet rundt Mount Uhud og overrasket den muslimske hæren og beseiret dem. Muhammed, fred være med ham, ble såret i den kampen, og ved den anledning mistet han en tann (hjørnetann). 75 muslimer ble drept, inkludert den store krigeren Hamza (profetens onkel)."
     },
     {
         "name":"label-book3-lesson14_section10-header",
@@ -4102,71 +4175,71 @@
     },
     {
         "name":"label-book3-lesson14_section10-paragraph1",
-        "value":"Uz pomoć utjecajnog jevrejskog plemena Benu Nadir, kurejšijski vojni zapovjednik Ebu Sufjan okuplja neka arapska plemena u jednu zajedničku vojsku, koja je brojala 10.000 ljudi i još jednom se sprema da napadne Medinu, odnosno 627. godine. Muhammed, a.s., je okupio oko 3.000 muslimana, koji su se, po prijedlogu ashaba Selmana el Farisija (Perzijanca), odbranili tako što su iskopali rovove oko grada (stari perzijski način odbrane) (ar. hendek – jarak, rov, kanal), po čemu je bitka i dobila ime Bitka na Hendeku. Opsada pod kojom se našla Medina trajala je dvije sedmice. U tom periodu još jedno jevrejsko pleme koje je bilo stacionirano sjeverno od Medine, Benu Kurejze, s kojim su muslimani imali Medinski ugovor, sklopili su pakt s mnogobošcima iz Mekke protiv medinskih muslimana. Nekoliko su puta manje jedinice pokušale probiti linije odbrane medinskih muslimana, ali bezuspješno. Nakon dvije sedmice opsade, mekanska vojska ipak se iznenada povlači. Nakon toga muslimanska zajednica Medine zbog izdaje napada pleme Benu Kurejze, nakon čega ih i pobijeđuje."
+        "value":"Ved hjelp av den innflytelsesrike jødiske stammen Benu Nadir samler Quraysh -militærkommandøren Abu Sufyan noen arabiske stammer i en enkelt hær, som teller 10 000 mann, og forbereder seg igjen til å angripe Medina, det vil si i 627. Muhammed, fred være med ham, samlet rundt 3000 muslimer, som etter forslag fra Selman al -Farisi (perser) forsvarte seg ved å grave skyttergraver rundt i byen (den gamle persiske forsvarsmetoden) (ar. Hendek - grøft, grøft, kanal), hvoretter slaget ble kalt slaget ved Hendek. Beleiringen som Medina befant seg under varte i to uker. I løpet av denne perioden inngikk en annen jødisk stamme nord for Medina, Benu Qurayza, som muslimene hadde en Medina -traktat med, en pakt med polyteistene fra Mekka mot Medina -muslimene. Flere ganger prøvde mindre enheter å bryte gjennom forsvarslinjene til Medinan -muslimene, men uten hell. Etter en to ukers beleiring, trekker den mekanske hæren seg plutselig tilbake. Etter det forrådte det muslimske samfunnet Medina angrepet på Benu Qurayza -stammen, hvoretter det beseiret dem."
     },
     {
         "name":"label-book3-lesson14_section11-header",
-        "value":"Hudejbija"
+        "value":"Hudaybiya"
     },
     {
         "name":"label-book3-lesson14_section11-paragraph1",
-        "value":"Nakon Bitke na Hendeku, medinski muslimani i mekanski mnogobošci potpisuju primirje na 10 godina, 12.02.628., godine sa sljedećim tačkama:"
+        "value":"Etter slaget ved Hendek signerte muslimene i Medina og de mekkaiske polyteister en våpenhvile i 10 år, 12. februar 628, med følgende punkter:"
     },
     {
         "name":"label-book3-lesson14_section11-paragraph2",
-        "value":"- Dozvoljeno je muslimanima Medine da učine hodočašće u Mekku, ali ne više od četri dana u godini, ali ove godine to ne mogu učiniti, tek naredne."
+        "value":"- Muslimene i Medina har lov til å pilegrimsreise til Mekka, men ikke mer enn fire dager i året, men i år kan de ikke gjøre det, bare neste år."
     },
     {
         "name":"label-book3-lesson14_section11-paragraph3",
-        "value":"- Prekidanje svih ratnih djelovanja i garantiranje sigurnosti na objema zaraćenim stranama"
+        "value":"- Opphør av alle fiendtlighetene og garantere sikkerhet på begge stridende sider."
     },
     {
         "name":"label-book3-lesson14_section11-paragraph4",
-        "value":"- Svako vanjsko neprijateljstvo s jednom od potpisnica primirja obavezuje drugo na djelovanje, a svako prijateljstvo nekog arapskog plemena s jednom od članica ugovora o primirju obavezuje sve na prijateljstvo s njima"
+        "value":"- Enhver ekstern fiendtlighet med en av parterne i våpenhvilen forplikter den andre til å handle, og ethvert vennskap mellom en arabisk stamme og et av medlemmene i våpenhvile -kontrakten forplikter alle til å være venner med dem."
     },
     {
         "name":"label-book3-lesson14_section11-paragraph5",
-        "value":"- Zabrana primanja izbjeglica iz Mekke u Medinu, a oni koji pribjegnu iz Medine u Mekku nisu dužni da se vrate u Medinu"
+        "value":"- Forbud mot flyktninger fra Mekka til Medina, og de som søker tilflukt fra Medina til Mekka, er ikke forpliktet til å returnere til Medina"
     },
     {
         "name":"label-book3-lesson14_section11-paragraph6",
-        "value":"Za vrijeme primirja Muhammed, a.s., se posvećuje širenju islama u granicama Arabijskog poluostrva i izvan njega. Tako šalje pisma tadašnjim svjetskim vladarima kojima ih poziva u islam."
+        "value":"Under våpenhvilen viet Muhammad a.s. seg til islams spredning innenfor grensene til den arabiske halvøy og utover. Dermed sender han brev til de daværende verdensherskere som inviterer dem til islam."
     },
     {
         "name":"label-book3-lesson14_section12-header",
-        "value":"Oslobodjenje Mekke"
+        "value":"Frigjøring av Mekka"
     },
     {
         "name":"label-book3-lesson14_section12-paragraph1",
-        "value":"Primirje na Hudejbiji trajalo je svega dvije godine. Pleme Benu Huza imalo je dobre odnose s Muhammedom, a.s., a pleme Benu Bekr s idolopoklonicima iz Mekke. Prenosi se da je u jednom noćnom napadu pleme Benu Bekr napalo pleme Benu Huza, a da su im pri tome logistiku dali Mekanci, a po nekim izvorima, u napadu je učestvovalo nekoliko mekanaca. Nakon tog incidenta Muhammed, a.s., daje tri uvjeta mekancima, tražeći od njih da usvoje jedan:"
+        "value":"Våpenhvilen på Hudaybiya varte bare to år. Stammen Benu Huza hadde gode forbindelser med Muhammad, a.s., og stammen Benu Bakr med avgudsdyrkere fra Mekka. Det rapporteres at i et nattangrep angrep Benu Bakr -stammen Benu Huza -stammen, og at logistikken ble gitt til dem av mekanerne, og ifølge noen kilder deltok flere mekanere i angrepet. Etter denne hendelsen ga Muhammad, a.s., tre betingelser til mekkaerne og ba dem om å adoptere en:"
     },
     {
         "name":"label-book3-lesson14_section12-paragraph2",
-        "value":"- Da plate \"krvarinu\" plemenu Huza"
+        "value":"- Å betale \"blodpengene\" til Huza -stammen"
     },
     {
         "name":"label-book3-lesson14_section12-paragraph3",
-        "value":"- Da se odreknu prijateljstva s plemenom Benu Bekr (jer ih od odmazde štiti treći član Hudejbijskog primirja)"
+        "value":"- Å gi avkall på vennskap med Benu Bakr -stammen (fordi de er beskyttet mot gjengjeldelse av et tredje medlem av Hudaybiya -våpenhvilen)"
     },
     {
         "name":"label-book3-lesson14_section12-paragraph4",
-        "value":"- Da ponište Hudejbijsko primirje"
+        "value":"- Å annullere Hudaybij -våpenhvilen"
     },
     {
         "name":"label-book3-lesson14_section12-paragraph5",
-        "value":"Mekanci su prihvatili treći uvjet, tj. prestalo je važiti Hudejbijsko primirje. Ubrzo nakon toga uvidjeli su kakvu su grešku počinili jer nisu dobro procijenili na kojem su nivou već tada bili muslimani. Pridobili su veliki broj arapskih plemena, a osnažili su se vojno i ekonomski. Ebu Sufjan lično dolazi da obnovi Hudejbijsko primirje, međutim, Muhammed, a.s., odbija tu ponudu."
+        "value":"Mekkanerne godtok den tredje betingelsen, dvs. våpenhvilen i Hudaybiya opphørte å være gyldig. Like etter innså de hvilken feil de hadde gjort fordi de ikke gjorde en god vurdering av nivået de allerede var muslimer på den tiden. De skaffet seg et stort antall arabiske stammer, og styrket seg militært og økonomisk. Abu Sufyan kom personlig for å fornye Hudaybiyya -våpenhvilen, men Muhammad, a.s., nektet tilbudet."
     },
     {
         "name":"label-book3-lesson14_section12-paragraph6",
-        "value":"On zatim oprema vojsku za osvojenje Mekke i u nju okuplja preko 10.000 ljudi. Osvaja Mekku bez većih konflikta i bez žrtava. Nakon ulaska u Mekku, amnestira sve okupljene stanovnike Mekke i &quot;oprašta&quot; im riječima: &quot;Reći ću vam ono što je Jusuf rekao svojoj braći: \"Ja vas danas neću koriti, idite, slobodni ste\" Nakon toga je porušio kipove koji su se nalazili u dvorištu Kabe."
+        "value":"Deretter utstyrer han hæren til å erobre Mekka og samler over 10 000 mennesker i den. Han erobrer Mekka uten store konflikter og uten tap. Etter å ha kommet inn i Mekka amnestierte han alle de innbyggerne i Mekka og & quot; tilgav & quot; med ordene: & quot; Jeg skal fortelle deg hva Yusuf sa til brødrene sine: \"Jeg vil ikke irettesette deg i dag, gå, du er fri \" Etter det rev han statuene som var på gården til Kaaba."
     },
     {
         "name":"label-book3-lesson14_section13-header",
-        "value":"Preseljenje na ahiret"
+        "value":"Død"
     },
     {
         "name":"label-book3-lesson14_section13-paragraph1",
-        "value":"Na kraju desete godine nakon preseljenja u Medinu, Muhammed, a.s., je prvi put u potpunosti obavio hadždž. Na njemu je održao poznati govor na kome je prisustvovalo preko 100 hiljada ljudi. Muhammed, a.s., je tada, između ostalog, govorio o pravu pojedinca, nacionalnoj i rasnoj jednakosti, pravima žena i djece, položaju djece bez roditelja i još nekim smjernicama. U tefsirima se navodi da je u tom momentu oprosnog hadždža objavljen ajet: \"Danas sam vam vašu vjeru usavršio i blagodat svoju prema vama upotpunio i zadovoljan sam da vam islam bude vjera.\" (El-Ma'ide, 3). Nekoliko mjeseci nakon oprosnog hadždža Muhammed, a.s., se razbolio. Imao je jake glavobolje i osjećao slabost. Umro je u ponedjeljak, 8. juna 632. godine u podnevskom vremenu u gradu Medini, u kući i naručju supruge Aiše."
+        "value":"På slutten av det tiende året etter at han flyttet til Medina, utførte Muhammad, a.s., Hajj helt for første gang. Han holdt en berømt tale der den deltok av over 100 tusen mennesker. Muhammad, a.s., snakket deretter blant annet om individets rettigheter, nasjonal og rasemessig likhet, kvinners og barns rettigheter, foreldreløse posisjon og noen andre retningslinjer. Tafsirene uttaler at i det øyeblikket av avskjeden Hajj, ble et vers avslørt: \"I dag har jeg perfeksjonert din tro og fullført min nåde mot deg, og jeg er glad for at islam er din tro.\" (Al-Ma'ida, 3 ). Noen måneder etter avskjeden ble Hajj Muhammad, a.s., syk. Han hadde alvorlig hodepine og følte seg svak. Han døde mandag 8. juni 632 ved middagstid i byen Medina, i huset og armene til kona Aisha."
     },
     {
         "name":"label-book3-lesson15-title",
@@ -4250,11 +4323,11 @@
     },
     {
         "name":"label-book3-lesson16-title",
-        "value":"Vrijednosti dove"
+        "value":"Du'as verdier"
     },
     {
         "name":"label-book3-lesson16-quote",
-        "value":"\"Bolje padajte licem na tle pred Allahom i klanjajte se!\""
+        "value":"\"Knel med ansiktet ned for Allah, og tilbe alene.\""
     },
     {
         "name":"label-book3-lesson16-quote-reference",
@@ -4262,16 +4335,16 @@
     },
     {
         "name":"label-book3-lesson16_section1-paragraph1",
-        "value":"Dova, obraćanje Uzvišenom Allahu je vrlo važna stvar u životu čovjeka. Dova se čini izravno i samo Allahu dž.š. Dova preporođuje dušu vjernika i upravlja ga pravim putem. Dovu činimo za sebe, za svoju porodicu, rodbinu, prijatelje, braću u vjeri, za žive i umrle. Dovu činimo i Allahu se obraćamo i u dobru i u nevolji. Allah dž.š. u Kur'anu kaže: «A kada te robovi Moji za Mene upitaju, Ja sam, sigurno, blizu: odazivam se dovi molitelja kad Me zamoli. Zato neka oni pozivu Mome udovolje i neka vjeruju u Mene, da bi bili na pravom putu.» (El-Bekare, 186)"
+        "value":"Du'a, vårt kall til Opphøyede Allah er veldig viktig tings i menneskets liv. Vi gjør du'a direkte til Allah og kun til Ham. Du'a sørger at vi holder oss på den rette veien. Vi gjør du'a for oss selv, vår familie, slektinger, venner, brødrene i troen, for dem som lever og for dem som har dødd. Vi gjør du'a både når vi har det godt og når vi sliter i livet. Allah dž.š. sier i Kur'an: «Og, når Mine tjenere spør deg om Meg, Jeg er nær! Jeg besvarer anroperens anrop når han anroper Meg. Så de bør omfavne Min lydighet og ha fast tro på Meg, for at de må oppnå veien.» (El-Bekare, 186)"
     },
 
     {
         "name":"label-book3-lesson17-title",
-        "value":"Poslanikove a.s. dove"
+        "value":"Muhammads a.s. du'a"
     },
     {
         "name":"label-book3-lesson17-quote",
-        "value":"\"A Mi smo Kur’an učinili dostupnim za pouku\""
+        "value":"\"Og uten tvil, Vi har gjort Koranen lett for formaningen.\""
     },
     {
         "name":"label-book3-lesson17-quote-reference",
@@ -4283,15 +4356,16 @@
     },
     {
         "name":"label-book3-lesson17_section1-paragraph2",
-        "value":"Allahu, Tebi sam se predao, u Tebe sam povjerovao, na Tebe se oslonio, Tebi se kajem i u ime Tvoje se borim."
+        "value":"Å Allah, jeg søker tilflukt hos Deg fra det onde som jeg har gjorrt og fra onde som jeg ikke har gjort."
     },
+    
     {
         "name":"label-book3-lesson17_section2-paragraph1",
         "value":"Allahumme leke eslemtu, ve bike amentu, ve 'alejke tevekkeltu, ve ilejke enebtu, ve bike hasamtu."
     },
     {
         "name":"label-book3-lesson17_section2-paragraph2",
-        "value":"Allahu, utječem ti se od zla onoga što sam uradio i zla onoga što nisam uradio."
+        "value":"Å Allah, Jeg hengir meg kun til Deg, jeg tror på Deg, jeg stoler kun på Deg, jeg søker tilgivelse kun fra Deg og jeg bestreber kun i Ditt navn."
     },
     {
         "name":"label-book3-lesson17_section3-paragraph1",
@@ -4299,7 +4373,7 @@
     },
     {
         "name":"label-book3-lesson17_section3-paragraph2",
-        "value":"Allahu utječem se sa Tvojom veličinom, nema boga osim Tebe, nemoj me odvesti u zabludu. Ti si živi, koji ne umire, a džini i ljudi umiru."
+        "value":"Å Allah, jeg søker tilflukt i Din storhet, det finnes ingen gud enn Deg, ikke før meg til vrangforestillinger. Du lever og aldri dør mens jinner og mennesker dør."
     },
     {
         "name":"label-book3-lesson17_section4-paragraph1",
@@ -4307,7 +4381,7 @@
     },
     {
         "name":"label-book3-lesson17_section4-paragraph2",
-        "value":"Allahu utječem se sa Tvojom veličinom, nema boga osim Tebe, nemoj me odvesti u zabludu. Ti si živi, koji ne umire, a džini i ljudi umiru."
+        "value":"La den som hører høre, la den som vitner om vår takk til Allah og hans vakre fristelse mot oss vitne. Vår Herre være med oss, og hell ut dine nåde over oss og beskytt oss mot ilden."
     },
     {
         "name":"label-book3-lesson17_section5-paragraph1",
@@ -4315,7 +4389,7 @@
     },
     {
         "name":"label-book3-lesson17_section5-paragraph2",
-        "value":"Allahu oprosti mi grijehe, neznanje, propuste u djelima koje Ti poznaješ bolje od mene."
+        "value":"Tilgi Allah mine synder, uvitenhet, utelatelser i gjerninger som du vet bedre enn meg."
     },
     {
         "name":"label-book3-lesson17_section6-paragraph1",
@@ -4323,7 +4397,7 @@
     },
     {
         "name":"label-book3-lesson17_section6-paragraph2",
-        "value":"Allahu, oprosti mi propuste koje sam uradio u zbilji i šali, nenamjerno i namjerno, jer se su to moje osobine."
+        "value":"Allah, tilgi meg utelatelsene jeg gjorde i virkeligheten og vitser, utilsiktet og med vilje, fordi dette er mine kvaliteter."
     },
     {
         "name":"label-book3-lesson17_section7-paragraph1",
@@ -4331,7 +4405,7 @@
     },
     {
         "name":"label-book3-lesson17_section7-paragraph2",
-        "value":"Allahu, oprosti ono što sam uradio i što ću uraditi, što sam tajno i javno učinio. Ti to bolje poznaješ od mene. Ti si onaj koji uzdiže i ponižava i Svemoćan Ti si."
+        "value":"Allah, tilgi det jeg har gjort og det jeg skal gjøre, det jeg har gjort i hemmelighet og offentlig. Du vet det bedre enn meg. Du er den som opphøyer og ydmyker og du er allmektig."
     },
     {
         "name":"label-book3-lesson17_section8-paragraph1",
@@ -4339,15 +4413,15 @@
     },
     {
         "name":"label-book3-lesson17_section8-paragraph2",
-        "value":"Allahu moj, utjecem ti se od potistenosti/skrhanosti i tuge."
+        "value":"Min Allah, jeg tar tilflukt til deg fra depresjon og sorg."
     },
     {
         "name":"label-book3-lesson18-title",
-        "value":"Dnevne dove"
+        "value":"Daglige du'a"
     },
     {
         "name":"label-book3-lesson18-quote",
-        "value":"\"Pa, koju blagodat Gospodara svoga poričete?!\""
+        "value":"\"Så, hvilke av deres Herres velsignelser vil dere begge forsverge?\""
     },
     {
         "name":"label-book3-lesson18-quote-reference",
@@ -4355,7 +4429,7 @@
     },
     {
         "name":"label-book3-lesson18_section1-header",
-        "value":"Budjenje"
+        "value":"Oppvåkning"
     },
     {
         "name":"label-book3-lesson18_section1-paragraph1",
@@ -4363,11 +4437,11 @@
     },
     {
         "name":"label-book3-lesson18_section1-paragraph2",
-        "value":"Hvala Allahu, koji nas oživi nakon što nas (snom) umrtvi, i Njemu se, konačno, sve vraća."
+        "value":"Lovet være Allah, som gjenoppliver oss etter at han (søvnen) dreper oss, og til ham kommer alt tilbake."
     },
     {
         "name":"label-book3-lesson18_section2-header",
-        "value":"Ulazak u nužnik"
+        "value":"Inn på toalettet"
     },
     {
         "name":"label-book3-lesson18_section2-paragraph1",
@@ -4375,11 +4449,11 @@
     },
     {
         "name":"label-book3-lesson18_section2-paragraph2",
-        "value":"U ime Allaha Allahu moj, tražim zaštitu kod Tebe od svega štetnog i lošeg."
+        "value":"I Allahs navn, min Allah, søker jeg beskyttelse fra deg mot alt som er skadelig og ondt."
     },
     {
         "name":"label-book3-lesson18_section3-header",
-        "value":"Izlaz iz Nužnika"
+        "value":"Ut av toalettet"
     },
     {
         "name":"label-book3-lesson18_section3-paragraph1",
@@ -4387,11 +4461,11 @@
     },
     {
         "name":"label-book3-lesson18_section3-paragraph2",
-        "value":"Za oprost Te molim!"
+        "value":"Tilgi meg"
     },
     {
         "name":"label-book3-lesson18_section4-header",
-        "value":"Oblačenje"
+        "value":"Dressing"
     },
     {
         "name":"label-book3-lesson18_section4-paragraph1",
@@ -4399,11 +4473,11 @@
     },
     {
         "name":"label-book3-lesson18_section4-paragraph2",
-        "value":"Gospodaru naš, molim Te za dobro u njoj i dobro zbog čegaj e ova odjeća napravljena. Utječem Ti se od zla u njoj i zla kojeg u sebi sadrži."
+        "value":"Herre, jeg ber om det gode i henne og det gode som disse plaggene er laget for. Jeg søker tilflukt hos deg fra det onde i det og det onde det inneholder inne."
     },
     {
         "name":"label-book3-lesson18_section5-header",
-        "value":"Ulazak u kuću"
+        "value":"Inn i huset"
     },
     {
         "name":"label-book3-lesson18_section5-paragraph1",
@@ -4411,11 +4485,11 @@
     },
     {
         "name":"label-book3-lesson18_section5-paragraph2",
-        "value":"Sa Allahovim imenom ulazimo i sa Allahovim imenom izlazimo. Na Gospodara našeg se oslanjamo."
+        "value":"Med Allahs navn går vi inn og med Allahs navn går vi ut. Vi stoler på vår Herre."
     },
     {
         "name":"label-book3-lesson18_section6-header",
-        "value":"Za svaku priliku"
+        "value":"For alle anledninger"
     },
     {
         "name":"label-book3-lesson18_section6-paragraph1",
@@ -4423,11 +4497,11 @@
     },
     {
         "name":"label-book3-lesson18_section6-paragraph2",
-        "value":"Počinjem s imenom Allaha uz čije ime ne može nauditi ni na Zemlji ni na Nebu, a On sve čuje i sve zna."
+        "value":"Jeg begynner med navnet Allah i hvis navn Han ikke kan gjøre skade på jorden eller i himmelen, og han hører alt og vet alt."
     },
     {
         "name":"label-book3-lesson18_section7-header",
-        "value":"Za povećanje imana"
+        "value":"Å øke iman"
     },
     {
         "name":"label-book3-lesson18_section7-paragraph1",
@@ -4435,18 +4509,15 @@
     },
     {
         "name":"label-book3-lesson18_section7-paragraph2",
-        "value":"Zadovoljan sam da mi je Allah Gospodar, Islam vjera i Muhammed a.s. Poslanik."
+        "value":"Jeg er glad for at Allah er min Herre, Islam er min religion og Muhammad a.s. Profeten."
     },
-
-
-
     {
         "name":"label-book3-lesson19-title",
-        "value":"Dove"
+        "value":"Du'a"
     },
     {
         "name":"label-book3-lesson19-quote",
-        "value":"\"Zato hvali ime Gospodara svoga Veličanstvenog!\""
+        "value":"\"Så forherlige helligheten til din Herres navn, den Veldige.\""
     },
     {
         "name":"label-book3-lesson19-quote-reference",
@@ -4458,7 +4529,7 @@
     },
     {
         "name":"label-book3-lesson20-quote",
-        "value":"\"A onaj kome je data mudrost, doista, mu je dato veliko dobro!\""
+        "value":"\"Han gir visdom til den Han vil. Og den som gis visdom, han har mottatt et svært enormt gode.\""
     },
     {
         "name":"label-book3-lesson20-quote-reference",
@@ -4466,11 +4537,11 @@
     },
     {
         "name":"label-book3-lesson21-title",
-        "value":"Toba"
+        "value":"Tawbah"
     },
     {
         "name":"label-book3-lesson21-quote",
-        "value":"\"Sašaptavanje je posao šejtanski\""
+        "value":"\"Hemmelig rådslagning er fra Satan\""
     },
     {
         "name":"label-book3-lesson21-quote-reference",
@@ -4478,11 +4549,11 @@
     },
     {
         "name":"label-book3-lesson21_section1-paragraph1",
-        "value":"Muhammed a.s. kaže: \"Tako mi Allaha ja dnevno po sedamdeset puta i više zatražim oprost od Allaha i pokajem se riječima: Estagfirullahe veetubuilejh.\""
+        "value":"Muhammed a.s. har sagt: \"Ved Allah, søker tilgivelse fra Allah minst 70 ganger daglig ved å si: Estagfirullahe vettubuilejh.\""
     },
     {
         "name":"label-book3-lesson21_section1-paragraph2",
-        "value":"Svakom vjerniku koji počini grijeh, pa potom uzme lijepo abdest, klanja dva rekata namaza i zatim zamoli Ailaha za oprost, Allah oprosti počinjeni grijeh."
+        "value":"Alle troende som etter at de har syndet, gjør wudhu, og tar 2 rak'ah og deretter søker tilgivelse fra Allah, hans synder blir tilgitt"
     },
 
     {
@@ -4491,7 +4562,7 @@
     },
     {
         "name":"label-book3-lesson22-quote",
-        "value":"\"O, kako je Allahu mrsko kada govorite riječi koje djela ne prate!\""
+        "value":"\"Det er svært hatet av Allah at dere sier det dere ikke gjør.\""
     },
     {
         "name":"label-book3-lesson22-quote-reference",
@@ -4503,15 +4574,15 @@
     },
     {
         "name":"label-book3-lesson22_section1-paragraph2",
-        "value":"Allahu, Ti si moj Gospodar, nema boga osim Tebe, stvorio si me i ja sam rob Tvoj, Tebi sam obavezu i obećanje dao u granicama mogućnosti svojih. Tebi se utječem od zla djela koja počinih. Priznajem Tvoje blagodati prema meni, kao što priznajem i svoje grijehe, s toga oprosti mi, jer grijehe ne oprašta niko osim Ti."
+        "value":"Å Allah, Du er min Herre, det finnes ingen gud enn Deg, Du har skapt meg og jeg er din tjener, jeg har gitt løfte til Deg. hos Deg søker jeg tilflukt fra dårlige gjerninger. Jeg erkjenner deg Du har gjort for meg, og jeg erkjenner mine synder, derfor tilgi meg, for ingen tilgir som Deg."
     },
     {
         "name":"label-book3-lesson23-title",
-        "value":"Allahova imena"
+        "value":"Allahs navn"
     },
     {
         "name":"label-book3-lesson23-quote",
-        "value":"\"On ima najljepša imena\""
+        "value":"\"Hans er alle vakre navn.\""
     },
     {
         "name":"label-book3-lesson23-quote-reference",
@@ -4521,11 +4592,11 @@
     
     {
         "name":"label-chosen-verses-header",
-        "value":"Odabrani ajeti"
+        "value":"Utvalgte vers"
     },
     {
         "name":"label-chosen-verses-quote",
-        "value":"\"Ovo su ajeti mudre Knjige\""
+        "value":"\"Dette er den vise skrifts vers.\""
     },
     {
         "name":"label-chosen-verses-quote-reference",
@@ -4533,15 +4604,15 @@
     },
     {
         "name":"label-ruby-header",
-        "value":"Rubini"
+        "value":"Rubiner"
     },
     {
         "name":"label-ruby-description",
-        "value":"Ajeti koji govore o veličini i moći Allaha dž.š., Stvoritelja svega što postoji"
+        "value":"Vers som beskriver Allahs dž.š., Skaperen av alt som finnes, storhet og makt"
     },
     {
         "name":"label-ruby-quote",
-        "value":"\"On je Silni, Onaj koji prašta\""
+        "value":"\"Han er den Allmektige, den mest Tilgivende.\""
     },
     {
         "name":"label-ruby-quote-reference",
@@ -4550,15 +4621,15 @@
 
     {
         "name":"label-pearls-header",
-        "value":"Biseri"
+        "value":"Perler"
     },
     {
         "name":"label-pearls-description",
-        "value":"Ajeti koji govore ispravnom putu koji svaki musliman treba pratiti"
+        "value":"Vers som beskriver den rette veien som enhver muslim må følge"
     },
     {
         "name":"label-pearls-quote",
-        "value":"\"I u Allaha se pouzdaj, Allah je zaštitinik dovoljan!\""
+        "value":"\"Og fortsett å sette din lit til Allah alene.\""
     },
     {
         "name":"label-pearls-quote-reference",

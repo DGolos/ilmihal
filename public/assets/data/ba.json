@@ -3210,12 +3210,60 @@
         "value":"Kako se pravilno uzima abdest"
     },
     {
-        "name":"label-wudhu",
+        "name":"label-ghusl",
         "value":"Gusl"
     },
     {
         "name":"label-wudhu-description",
         "value":"Kako se pravilno uzima gusl"
+    },
+    {
+        "name":"label-ramadhan",
+        "value":"Ramazan"
+    },
+    {
+        "name":"label-ramadhan-description",
+        "value":"Osnove o ramazansom postu"
+    },
+    {
+        "name":"label-zakah",
+        "value":"Zekat"
+    },
+    {
+        "name":"label-zakah-description",
+        "value":"Osnove davanju zekata i sadake"
+    },
+    {
+        "name":"label-hajj",
+        "value":"Hadždž"
+    },
+    {
+        "name":"label-hajj-description",
+        "value":"Osnove obavljanju hadždža i umre"
+    },
+    {
+        "name":"label-dua",
+        "value":"Dove"
+    },
+    {
+        "name":"label-dua-description",
+        "value":"Odabrane dove koje upućujemo Allahu dž.š."
+    },
+    {
+        "name":"label-tasbih",
+        "value":"Tespih"
+    },
+    {
+        "name":"label-tasbih-description",
+        "value":"Odabrani zikrovi koje činimo Allahu dž.š."
+    },
+    {
+        "name":"label-shahadah",
+        "value":"Šehadet"
+    },
+    {
+        "name":"label-shahadah-description",
+        "value":"Označavanje pripadnosti islamu"
     },
 
     {
@@ -3321,7 +3369,7 @@
     }, 
     {
         "name":"label-book3-lesson1_section5-paragraph1",
-        "value":"Obzirom na ishodište hadise nijelimo na:"
+        "value":"Obzirom na ishodište hadise dijelimo na:"
     },
     {
         "name":"label-book3-lesson1_section5-paragraph2",
@@ -3799,11 +3847,11 @@
     },
     {
         "name":"label-book3-lesson9_section1-paragraph1",
-        "value":"Za dobrovoljni noćni namaz kijamu-llej l Muhammed s.a.v.s. je rekao: O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru."
+        "value":"Za dobrovoljni noćni namaz kijamu-llejl Muhammed s.a.v.s. je rekao: O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru."
     },
     {
-        "name":"label-book3-lesson9_section2-paragraph1",
-        "value":"Za dobrovoljni noćni namaz kijamu-llej l Muhammed s.a.v.s. je rekao: O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru."
+        "name":"label-book3-lesson9_section2-paragraph2",
+        "value":"Kijamu-llejl ima od 2 do 8 rekata. Nakon svaka 2 rekata predaje se selam. Na kraju se klanjaju 3 rekata vitr namaza."
     },
     
     {
@@ -3848,7 +3896,7 @@
     },
     {
         "name":"label-book3-lesson11_section1-paragraph2",
-        "value":"Allahu moj, ja tražim dobro s Tvojim znanjem, i tražim od Tebe s Tvojom moći, i iskreno molim Te da mi daš od Tvoje velike blagodati. Ti zaista sve možešajanemogu!Tisveznaš,ajaneznam, i Ti si poznavalac tajni! Allahu moj, ako je ovo djelo korisno za mene, moju vjeru, moj život i svršetak (Ahiret) (ili je rekao: u mojoj bliskoj i dalekoj budućnosti), Ti mi ga odredi (propziši) i olakšaj, a zatim mi daj berićet (blagoslov) u njemu. A ako je ovo moje djelo loše za mene, moju vjeru, moj život i svršetak (Ahiret) (ili je rekao: u mojoj bliskoj i dalekoj budućnosti), Ti ga od mene otkloni i udalji ga od mene i odredi (propiši) mi dobro i hajr, ma gdje se ono nalazilo, zatim mi daj da s njim budem zadovoljan. Potom spomene svoju želju i potrebu."
+        "value":"Allahu moj, ja tražim dobro s Tvojim znanjem, i tražim od Tebe s Tvojom moći, i iskreno molim Te da mi daš od Tvoje velike blagodati. Ti zaista sve možeš a ja ne mogu!Ti sve znaš,a ja ne znam, i Ti si poznavalac tajni! Allahu moj, ako je ovo djelo korisno za mene, moju vjeru, moj život i svršetak (Ahiret) (ili je rekao: u mojoj bliskoj i dalekoj budućnosti), Ti mi ga odredi (propziši) i olakšaj, a zatim mi daj berićet (blagoslov) u njemu. A ako je ovo moje djelo loše za mene, moju vjeru, moj život i svršetak (Ahiret) (ili je rekao: u mojoj bliskoj i dalekoj budućnosti), Ti ga od mene otkloni i udalji ga od mene i odredi (propiši) mi dobro i hajr, ma gdje se ono nalazilo, zatim mi daj da s njim budem zadovoljan. Potom spomene svoju želju i potrebu."
     },
 
     {
@@ -4291,7 +4339,7 @@
     },
     {
         "name":"label-book3-lesson17_section1-paragraph2",
-        "value":"Allahu, Tebi sam se predao, u Tebe sam povjerovao, na Tebe se oslonio, Tebi se kajem i u ime Tvoje se borim."
+        "value":"Allahu, utječem ti se od zla onoga što sam uradio i zla onoga što nisam uradio."
     },
     {
         "name":"label-book3-lesson17_section2-paragraph1",
@@ -4299,7 +4347,7 @@
     },
     {
         "name":"label-book3-lesson17_section2-paragraph2",
-        "value":"Allahu, utječem ti se od zla onoga što sam uradio i zla onoga što nisam uradio."
+        "value":"Allahu, Tebi sam se predao, u Tebe sam povjerovao, na Tebe se oslonio, Tebi se kajem i u ime Tvoje se borim."
     },
     {
         "name":"label-book3-lesson17_section3-paragraph1",
@@ -4315,7 +4363,7 @@
     },
     {
         "name":"label-book3-lesson17_section4-paragraph2",
-        "value":"Allahu utječem se sa Tvojom veličinom, nema boga osim Tebe, nemoj me odvesti u zabludu. Ti si živi, koji ne umire, a džini i ljudi umiru."
+        "value":"Neka čuje onaj ko čuje neka svjedoči onaj koji svjedoči našu zahvalu Allahu i Njegovo lijepo iskušenje prema nama. Naš Gospodaru budi s nama, pa prospi Svoje blagodati na nas i zaštiti nas od vatre."
     },
     {
         "name":"label-book3-lesson17_section5-paragraph1",

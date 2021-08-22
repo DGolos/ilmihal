@@ -65,7 +65,7 @@ export const NightPrayerPage: React.FC = () => {
             <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
-                  "label-book3-lesson9_section2-paragraph1"
+                  "label-book3-lesson9_section2-paragraph2"
                 )}
               </h2>
             </IonText>
