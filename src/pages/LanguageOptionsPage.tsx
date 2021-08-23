@@ -103,7 +103,7 @@ const LanguageOptionsPage: React.FC = () => {
                 
               >
                 <IonLabel color="light" className="ion-text-center">
-                  Spasi
+                  {translationService.getLabel('label-save')}
                 </IonLabel>
               </IonButton>
               </IonCol>
