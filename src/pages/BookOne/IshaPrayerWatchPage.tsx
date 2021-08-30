@@ -227,6 +227,7 @@ export const IshaPrayerWatchPage: React.FC<
               color="purple"
               stepValue={15}
               maxValue={prayerLength}
+              salawat={match.params.type === "sunnah" || match.params.type === "witr" ? true : false}
             />
             {match.params.type === "sunsunnah" && (
               <SelamWatch
@@ -263,6 +264,7 @@ export const IshaPrayerWatchPage: React.FC<
                   color="purple"
                   stepValue={24}
                   maxValue={prayerLength}
+                  salawat={false}
                 />
                 <SelamWatch
                   rakah="3"
@@ -310,6 +312,7 @@ export const IshaPrayerWatchPage: React.FC<
                   color="purple"
                   stepValue={28}
                   maxValue={prayerLength}
+                  salawat={false}
                 />
                 <SelamWatch
                   rakah="4"

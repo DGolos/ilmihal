@@ -19,6 +19,7 @@ interface TashahudProps {
   prayerLength?: number;
   stepValue?: number;
   maxValue?: number;
+  salawat?:boolean;
 }
 
 const TashahudWatch: React.FC<TashahudProps> = ({
@@ -28,6 +29,7 @@ const TashahudWatch: React.FC<TashahudProps> = ({
   prayerLength,
   stepValue,
   maxValue,
+  salawat
 }) => {
   const [currentRakah, setCurrenRakah] = useState("1");
 
@@ -106,9 +108,7 @@ const TashahudWatch: React.FC<TashahudProps> = ({
               <IonRow hidden={last}>
                 <IonCol size="12">
                   <IonNote>
-                    {translationService.getLabel(
-                      "label-prayer-first-tashahud-description"
-                    )}
+                    {salawat===true? translationService.getLabel("label-prayer-first-tashahud-sunnah-description"):translationService.getLabel("label-prayer-first-tashahud-description")}
                   </IonNote>
                 </IonCol>
               </IonRow>

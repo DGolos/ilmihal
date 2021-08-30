@@ -96,44 +96,44 @@ const DhikrPage: React.FC = () => {
         </div>
         <div className="ion-padding">
           <IonList className="white">
-            <IonItem color="light" lines="full" routerLink='/SegmentLessonPage/1/35'>
+            <IonItem color="light" lines="full" routerLink='/tabs/SegmentLessonPage/1/35'>
               <IonText slot="start" >
                 <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book1-lesson35-title')}</h2>
               </IonText>
               
             </IonItem>
 
-            <IonItem color="light" lines="full" routerLink='/SegmentLessonPage/1/36'>
+            <IonItem color="light" lines="full" routerLink='/tabs/SegmentLessonPage/1/36'>
               <IonText slot="start">
                 <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book1-lesson36-title')}</h2>
               </IonText>
              
             </IonItem>
-            <IonItem color="light" lines="full" routerLink='/SegmentLessonPage/1/37'>
+            <IonItem color="light" lines="full" routerLink='/tabs/SegmentLessonPage/1/37'>
               <IonText slot="start">
                 <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book1-lesson37-title')}</h2>
               </IonText>
              
             </IonItem>
-            <IonItem color="light" lines="full" routerLink='/SegmentLessonPage/1/38'>
+            <IonItem color="light" lines="full" routerLink='/tabs/SegmentLessonPage/1/38'>
               <IonText slot="start">
                 <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book1-lesson38-title')}</h2>
               </IonText>
               
             </IonItem>
-            <IonItem color="light" lines="full" routerLink='/TasbihPage'>
+            <IonItem color="light" lines="full" routerLink='/tabs/TasbihPage'>
               <IonText slot="start">
                 <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book1-lesson39-title')}</h2>
               </IonText>
               
             </IonItem>
-            <IonItem color="light" lines="full" routerLink='/SegmentLessonPage/1/40'>
+            <IonItem color="light" lines="full" routerLink='/tabs/SegmentLessonPage/1/40'>
               <IonText slot="start">
                 <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book1-lesson40-title')}</h2>
               </IonText>
               
             </IonItem>
-            <IonItem color="light" lines="full" routerLink='/SegmentLessonPage/1/41'>
+            <IonItem color="light" lines="full" routerLink='/tabs/SegmentLessonPage/1/41'>
               <IonText slot="start">
                 <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book1-lesson41-title')}</h2>
               </IonText>

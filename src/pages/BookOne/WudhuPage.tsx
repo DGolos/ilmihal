@@ -16,7 +16,6 @@ import {
   IonRow,
   IonSlide,
   IonSlides,
-  IonText,
   IonToolbar,
 } from "@ionic/react";
 import React from "react";

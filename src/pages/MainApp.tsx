@@ -1,13 +1,12 @@
 import {
   IonIcon,
   IonLabel,
-  IonPage,
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
   IonTabs,
 } from "@ionic/react";
-import { IonReactRouter } from "@ionic/react-router";
+
 import { bookOutline, homeOutline, informationOutline } from "ionicons/icons";
 import React from "react";
 import { Redirect, Route } from "react-router";
@@ -91,7 +90,7 @@ const MainApp: React.FC<MainAppProps> = () => {
       <IonTabs>
         <IonRouterOutlet>
           <Redirect exact path="/tabs" to="/tabs/HomePage" />
-          <Route path="/tabs/HomePage" render={() => <HomePage />}                   />
+          <Route path="/tabs/HomePage" render={() => <HomePage />}/>
           <Route path="/tabs/MainCategoryPage" render={() => <MainCategoryPage />} exact={true}/>
           <Route path="/tabs/OptionsPage" render={() => <OptionsPage /> } exact={true} />
           <Route path="/tabs/CreditsPage" component={CreditsPage} />

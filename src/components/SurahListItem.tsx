@@ -1,14 +1,8 @@
 import {
-  IonAvatar,
-  IonCard,
-  IonCardContent,
-  IonCardHeader,
-  IonCardSubtitle,
-  IonCardTitle,
   IonItem,
   IonText,
 } from "@ionic/react";
-import React, { useState } from "react";
+import React from "react";
 
 interface surahListItemProps {
   surahId?: string;

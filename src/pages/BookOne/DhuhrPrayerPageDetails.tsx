@@ -14,8 +14,10 @@ import {
   IonSlides,
   IonText,
   IonToolbar,
+  useIonViewDidLeave,
 } from "@ionic/react";
-import React, { useEffect, useState } from "react";
+import { Howl } from "howler";
+import React, { useEffect, useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
 import { Progress } from "../../components/common/Progress";
 import FirstRakah from "../../components/prayer/FirstRakah";
@@ -30,6 +32,9 @@ export const DhuhrPrayerDetailsPage: React.FC<
 > = ({ match }) => {
   const [prayerLength, setPrayerLength] = useState(0);
   const [prayerType, setPrayerType] = useState("");
+  const [isPlaying,setIsPlaying]=useState(false);
+  const [currentAudio,setCurrentAudio]=useState("");
+  const playerRef = useRef(new Howl({ src: [""] }));
 
   useEffect(() => {
     if (match.params.type === "sunnah") {
@@ -47,6 +52,58 @@ export const DhuhrPrayerDetailsPage: React.FC<
       setPrayerLength(6);
     }
   }, [match.params.type]);
+
+  useIonViewDidLeave(() => {
+    playerRef.current.unload();
+  });
+
+  const stopPlaying = () => {
+    playerRef.current.unload();
+    setCurrentAudio("");
+  }
+
+  const play=(file:string)=>{
+    const onEnd = () => {
+      setCurrentAudio("");
+    };
+    
+   playerRef.current = new Howl({
+        src: `/assets/audio/Lessons/${file}.mp3`,
+        preload: true,
+        html5: true,
+        format: ["mp3"],
+        onend: onEnd
+      });
+      setCurrentAudio(file);
+   
+    setIsPlaying(true);
+    playerRef.current.play();
+  }
+
+  const toglePlayPause = (file: string) => {
+
+    if(isPlaying){
+      if(currentAudio===file){
+        playerRef.current.pause();
+        setIsPlaying(false);
+      }
+      else{
+        playerRef.current.unload();
+        play(file);
+      }
+    }
+    else{
+      if(currentAudio===file){
+        playerRef.current.play();
+        setIsPlaying(true);
+      }
+      else{
+        play(file);
+      }
+      
+    }
+ 
+  };
 
   return (
     <IonPage>
@@ -78,7 +135,7 @@ export const DhuhrPrayerDetailsPage: React.FC<
           </IonGrid>
         </div>
         <div>
-          <IonSlides>
+          <IonSlides onIonSlideDidChange={() => {stopPlaying();}}>
             <IonSlide>
               <IonItem
                 key="1"
@@ -141,14 +198,17 @@ export const DhuhrPrayerDetailsPage: React.FC<
               </IonItem>
             </IonSlide>
 
-            <FirstRakah color="brown" prayerLength={prayerLength} />
+            <FirstRakah color="brown" prayerLength={prayerLength} currentAudio={currentAudio} togglePlayPause={toglePlayPause}/>
 
-            <SecondRakah color="brown" prayerLength={prayerLength} />
+            <SecondRakah color="brown" prayerLength={prayerLength} currentAudio={currentAudio} togglePlayPause={toglePlayPause}/>
 
             <Tashashud
               first={match.params.type !== "sunsunnah" ? true : false}
               color="brown"
               prayerLength={prayerLength}
+              salawat={false}
+              currentAudio={currentAudio} 
+              togglePlayPause={toglePlayPause}
             />
 
             {match.params.type !== "sunsunnah" && (
@@ -158,18 +218,23 @@ export const DhuhrPrayerDetailsPage: React.FC<
                   showSubhaneke={false}
                   color="brown"
                   prayerLength={prayerLength}
+                  currentAudio={currentAudio} togglePlayPause={toglePlayPause}
                 />
 
                 <FourthRakah
                   type={match.params.type}
                   color="brown"
                   prayerLength={prayerLength}
+                  currentAudio={currentAudio} togglePlayPause={toglePlayPause}
                 />
 
                 <Tashashud
                   first={false}
                   color="brown"
                   prayerLength={prayerLength}
+                  salawat={false}
+                  currentAudio={currentAudio}
+                  togglePlayPause={toglePlayPause}
                 />
               </>
             )}

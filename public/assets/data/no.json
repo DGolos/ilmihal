@@ -20,6 +20,18 @@
         "value":"Endre"
     },
     {
+        "name":"label-notification",
+        "value":"Informasjon"
+    },
+    {
+        "name":"label-rate-app",
+        "value":"Hvis du liker app'en, vennligst gå til AppStore/ Google Play og gi rating. Takk'"
+    },
+    {
+        "name":"label-contact-us",
+        "value":"Ris og ros, samt forslag til forbedringer kan du sende til izbun.development@gmail.com. Hvala'"
+    },
+    {
         "name":"label-welcome-hadeeth",
         "value":"\"Allah skal gjøre veien til paradiset lett for alle som søker kunskap.\""
     },
@@ -1348,7 +1360,11 @@
     },
     {
         "name":"label-prayer-ettehijjatu-description",
-        "value":"Vi leser et-tehijatu i sitteposisjon i alle bønn."
+        "value":"Vi leser et-tehijatu i sitteposisjon."
+    },
+    {
+        "name":"label-prayer-ettehijjatu-salawat-description",
+        "value":"I første sitteposisjon leser vi: et-tehijjatu og salawat."
     },
     {
         "name":"label-prayer-salawat",
@@ -1514,7 +1530,7 @@
     },
     {
         "name":"label-book1-lesson27_section1-paragraph4",
-        "value":"Av de øvrige Guds sendebud de mest kjente er: Nuh, Ibrahim,Ismail,Jakub,Jusuf,Musa,Sulejman,Davud i Isa."
+        "value":"Av de øvrige Guds sendebud de mest kjente er: Nuh, Ibrahim,Ismail,Jakub,Jusuf,Musa,Sulejman,Davud i Isa. Etter å ha nevnt navnet på en av Allahs sendebud er vi forpliktet til å si 'alaihis-salam'."
     },
     {
         "name":"label-book1-lesson28-quote",
@@ -2475,7 +2491,7 @@
     },
     {
         "name":"label-book2-lesson11-section1-paragraph1",
-        "value":"Eid bønn utføres etter morgen bønn. Det gjelder både Ramadhan og Kurban eidza. Bønnen er like, forskjellen er kun i nijjah."
+        "value":"Eid bønn utføres 45 minutter etter morgen bønn. Det gjelder både Ramadhan og Kurban eidza. Bønnen er like, forskjellen er kun i nijjah."
     },
     {
         "name":"label-book2-lesson11-section1-header1",
@@ -2733,30 +2749,34 @@
     },
     {
         "name":"label-book2-lesson14_section7-paragraph1",
-        "value":"Intensjonen (nijjet) lyder slik: Nevejtu en usallije lillahi te’ala salate ahiriz- zuhri edaen mustakbilel kibleti, Allahu ekber!"
+        "value":"Ahiri zuhr er en fire-rak'ah-bønn som tilbys etter Jumu'ah for å bevare tvil om riktigheten av Jumu'ah-bønnen."
     },
     {
         "name":"label-book2-lesson14_section7-paragraph2",
-        "value":"Første rekat: Subhaneke, Euza, Bismilla, Fatiha og en sura."
+        "value":"Intensjonen (nijjet) lyder slik: Nevejtu en usallije lillahi te’ala salate ahiri-zuhri edaen mustakbilel kibleti, Allahu ekber!"
     },
     {
         "name":"label-book2-lesson14_section7-paragraph3",
-        "value":"Andre rekat: Bismilla, Fatiha og en sura."
+        "value":"Første rekat: Subhaneke, Euza, Bismilla, Fatiha og en sura."
     },
     {
         "name":"label-book2-lesson14_section7-paragraph4",
-        "value":"Sitteposisjon: Et-Tehijjatu"
+        "value":"Andre rekat: Bismilla, Fatiha og en sura."
     },
     {
         "name":"label-book2-lesson14_section7-paragraph5",
-        "value":"Tredje rekat: Bismilla og Fatiha."
+        "value":"Sitteposisjon: Et-Tehijjatu"
     },
     {
         "name":"label-book2-lesson14_section7-paragraph6",
-        "value":"Fjerde rekat: Bismilla og Fatiha."
+        "value":"Tredje rekat: Bismilla og Fatiha."
     },
     {
         "name":"label-book2-lesson14_section7-paragraph7",
+        "value":"Fjerde rekat: Bismilla og Fatiha."
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph8",
         "value":"Avsluttende sitteposisjon: Et-Tehijjatu, Salavat, dova (påkallelse) og selam."
     },
 
@@ -2783,11 +2803,11 @@
 
     {
         "name":"label-book2-lesson15-quote",
-        "value":"\"Antar de som handler ondt, at de vil komme seg unna Oss?\""
+        "value":"\"Sannelig, ifølge Allah er månedenes antall tolv.\""
     },
     {
         "name":"label-book2-lesson15-quote-reference",
-        "value":"Kur'an, 29:4"
+        "value":"Kur'an, 9:36"
     },
     {
         "name":"label-book2-lesson15_section1-paragraph1",
@@ -2807,11 +2827,11 @@
     },
     {
         "name":"label-book2-lesson17-quote",
-        "value":"\"Og blant Hans tegn er at Han skapte dere av jord, slik at dere mennesker nå er spredt rundt.\""
+        "value":"\"Ved det daggryet, og ved de ti nettene.\""
     },
     {
         "name":"label-book2-lesson17-quote-reference",
-        "value":"Kur'an, 30:20"
+        "value":"Kur'an, 89:1-2:20"
     },
     {
         "name":"label-book2-lesson17_section1-paragraph1",
@@ -3141,7 +3161,7 @@
     },
     {
         "name":"label-quran-revelation",
-        "value":"Åpenbaring av"
+        "value":"Åpenbaring"
     },
     {
         "name":"label-quran-revelation-description",
@@ -3149,7 +3169,7 @@
     },
     {
         "name":"label-quran-recitation",
-        "value":"Resitering av"
+        "value":"Resitering"
     },
     {
         "name":"label-quran-recitation-description",
@@ -3867,7 +3887,7 @@
     },
     {
         "name":"label-book3-lesson9_section2-paragraph2",
-        "value":"Qiyamu-llayl har mellom 2 og 8 rak'ah. Etter hvert sett av 2 rak'ah sier man selam. Til slutt ber man 3 rak'ah witr."
+        "value":"Qiyamu-llayl har mellom 2 og 8 rak'ah. Etter hvert sett av 2 rak'ah sier man selam. Til slutt ber man 3 rak'ah witr hvis vi gjør den etter nattebønn."
     },
     
     {
@@ -3888,7 +3908,7 @@
     },
     {
         "name":"label-book3-lesson10_section1-paragraph1",
-        "value":"Duha bønn er frivillig bønn. Tiden for duha bønn er om morningen, etter at sola har gått opp, til middagen. Man kan be to rak'ah, eller flere hvis man har tid for det. Muhammed s.a.v.s. sa følgende om duha bønn: Man ggir hver morning sadaqah for hvert ledd; hver tasbih (Subahanellah) er sadaqah, hver Elhamdulillahije er sadaqah, hver La ilahe illallah er sadaqah, hver tekbir - Allahu ekber er sadaqah, å befale godt er sadaqah, og stoppe ondt er sadaqah, og alt dette kan erstattes med to rakah av duha bønn."
+        "value":"Duha bønn er frivillig bønn. Tiden for duha bønn er om morningen, etter at sola har gått opp, til middagen. Man kan be to rak'ah eller flere. Muhammed s.a.v.s. sa følgende om duha bønn: Man ggir hver morning sadaqah for hvert ledd; hver tasbih (Subahanellah) er sadaqah, hver Elhamdulillahije er sadaqah, hver La ilahe illallah er sadaqah, hver tekbir - Allahu ekber er sadaqah, å befale godt er sadaqah, og stoppe ondt er sadaqah, og alt dette kan erstattes med to rakah av duha bønn."
     },
     {
         "name":"label-book3-lesson11-title",

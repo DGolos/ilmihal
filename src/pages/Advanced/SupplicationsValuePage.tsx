@@ -5,22 +5,14 @@ import {
   IonCardContent,
   IonCardSubtitle,
   IonCardTitle,
-  IonChip,
-  IonCol,
   IonContent,
-  IonGrid,
   IonHeader,
   IonItem,
-  IonNote,
   IonPage,
-  IonRow,
-  IonSlide,
-  IonSlides,
   IonText,
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
-import { Progress } from "../../components/common/Progress";
 import { translationService } from "../../services/TranslationService";
 
 export const SupplicationValuePage: React.FC = () => {

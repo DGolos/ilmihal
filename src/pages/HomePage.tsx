@@ -21,7 +21,7 @@ useIonViewWillEnter(() => {
               <IonRow className="ion-no-padding">
                 <IonCol size="12">
                   <h1 className="welcome ion-no-padding ion-text-center">
-                    Esselamu alejkum
+                    Es-selamu alejkum
                   </h1>
                 </IonCol>
               </IonRow>
@@ -35,7 +35,7 @@ useIonViewWillEnter(() => {
               <IonRow>
                 <IonCol size="12">
                   <p className="ion-no-padding ion-text-center" style={{fontStyle:"italic"}}>
-                    -Resulallah Muhammed
+                    - Resulallah Muhammed
                   </p>
                 </IonCol>
               </IonRow>

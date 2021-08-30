@@ -11,8 +11,7 @@ import {
   IonList,
   IonPage,
   IonText,
-  IonToolbar,
-  useIonViewWillLeave,
+  IonToolbar
 } from "@ionic/react";
 import React, { useRef, useState } from "react";
 import { translationService } from "../../services/TranslationService";

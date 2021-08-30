@@ -1,4 +1,4 @@
-import { IonAvatar, IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
+import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 import { translationService } from "../../services/TranslationService";
 

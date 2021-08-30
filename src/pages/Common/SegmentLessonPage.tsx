@@ -11,8 +11,9 @@ import {
   IonSegment,
   IonSegmentButton,
   IonToolbar,
+  useIonViewDidLeave,
   useIonViewWillEnter,
-  useIonViewWillLeave,
+  
 } from "@ionic/react";
 import { Howl } from "howler";
 import React, { useCallback, useEffect, useRef, useState } from "react";
@@ -58,19 +59,16 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
         return section.type==="1";
     }));
 
-    return ()=>{
-      playerRef.current.unload();
-    };
+    
   }, [lesson]);
 
   useIonViewWillEnter(() => {
     loadLesson();
   });
 
-  useIonViewWillLeave(() => {
-    if (isPlaying) {
-      playerRef.current.stop();
-    }
+  useIonViewDidLeave(() => {
+    setIsPlaying(false);
+    playerRef.current.unload();
   });
 
   const toglePlayPause = () => {

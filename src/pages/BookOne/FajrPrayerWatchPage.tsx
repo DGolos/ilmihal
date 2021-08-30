@@ -191,6 +191,7 @@ export const FajrPrayerWatchPage: React.FC<
               color="burgundy"
               stepValue={15}
               maxValue={prayerLength}
+              salawat={false}
             />
             <SelamWatch
               rakah="2"

@@ -196,6 +196,7 @@ export const AsrPrayerWatchPage: React.FC<
               color="dark-brown"
               stepValue={15}
               maxValue={prayerLength}
+              salawat={match.params.type === "sunnah" ? true : false}
             />
             <QijamWatch
               rakah="3"
@@ -231,6 +232,7 @@ export const AsrPrayerWatchPage: React.FC<
               color="dark-brown"
               stepValue={28}
               maxValue={prayerLength}
+              salawat={false}
             />
             <SelamWatch
               rakah="4"

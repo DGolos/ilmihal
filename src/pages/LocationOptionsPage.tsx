@@ -3,10 +3,7 @@ import {
   IonBackButton,
   IonButton,
   IonButtons,
-  IonCol,
   IonContent,
-  IonFooter,
-  IonGrid,
   IonHeader,
   IonIcon,
   IonItem,
@@ -15,7 +12,6 @@ import {
   IonPage,
   IonRadio,
   IonRadioGroup,
-  IonRow,
   IonText,
   IonToolbar,
   useIonViewWillEnter,
@@ -280,12 +276,14 @@ const LocationOptionsPage: React.FC = () => {
             <IonBackButton color="light" defaultHref="/tabs/PrayerTimesPage" />
             </IonButtons>
             <IonButtons slot="end">
-            <IonButton fill="solid" onClick={() => {
+            <IonButton className="pressed no-shadow" onClick={() => {
               save();
             }}
               disabled={currentLocation === null || currentCountry === ""}>
-              <IonIcon slot="start" icon={personCircle} />
+              <IonText color="light">
               {translationService.getLabel('label-save')}
+              </IonText>
+              
             </IonButton>
             </IonButtons>
             

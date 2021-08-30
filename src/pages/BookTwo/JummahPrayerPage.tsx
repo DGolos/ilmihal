@@ -362,18 +362,15 @@ export const JummahPrayerPage: React.FC = () => {
                     </IonCol>
                   </IonRow>
 
-                  <IonRow>
-                    <IonCol size="12">
-                      <IonNote>
-                        {translationService.getLabel(
-                          "label-book2-lesson14_section7-paragraph1"
-                        )}
-                      </IonNote>
-                    </IonCol>
-                  </IonRow>
+                 
                   <IonRow>
                     <IonCol size="12">
                       <IonText>
+                      <h2 className="lesson-note">
+                          {translationService.getLabel(
+                            "label-book2-lesson14_section7-paragraph1"
+                          )}
+                        </h2>
                         <h2 className="lesson-note">
                           {translationService.getLabel(
                             "label-book2-lesson14_section7-paragraph2"

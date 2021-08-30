@@ -104,12 +104,12 @@ export const MagribPrayerWatchPage: React.FC<
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote hidden={match.params.type !== "sunnah"}>
+                          <IonNote hidden={match.params.type !== "fardh"}>
                             {translationService.getLabel(
                               "label-maghrib-fardh-nijjah"
                             )}
                           </IonNote>
-                          <IonNote hidden={match.params.type === "sunnah"}>
+                          <IonNote hidden={match.params.type !== "sunnah"}>
                             {translationService.getLabel(
                               "label-maghrib-sunnah-nijjah"
                             )}
@@ -198,6 +198,7 @@ export const MagribPrayerWatchPage: React.FC<
               color="razimic"
               stepValue={15}
               maxValue={prayerLength}
+              salawat={false}
             />
             {match.params.type === "sunnah" && (
               <SelamWatch
@@ -230,6 +231,7 @@ export const MagribPrayerWatchPage: React.FC<
                   color="razimic"
                   stepValue={22}
                   maxValue={prayerLength}
+                  salawat={false}
                 />
                 <SelamWatch
                   rakah="3"

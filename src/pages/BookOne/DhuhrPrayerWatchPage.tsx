@@ -208,6 +208,7 @@ export const DhuhrPrayerWatchPage: React.FC<
               color="brown"
               stepValue={15}
               maxValue={prayerLength}
+              salawat={false}
             />
             {match.params.type === "sunsunnah" && (
               <SelamWatch
@@ -253,6 +254,7 @@ export const DhuhrPrayerWatchPage: React.FC<
                   color="brown"
                   stepValue={28}
                   maxValue={prayerLength}
+                  salawat={false}
                 />
                 <SelamWatch
                   rakah="4"

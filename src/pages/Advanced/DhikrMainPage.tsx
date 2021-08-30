@@ -11,10 +11,9 @@ import {
     IonList,
     IonPage,
     IonText,
-    IonToolbar,
-    useIonViewWillLeave,
+    IonToolbar
   } from "@ionic/react";
-  import React, { useRef, useState } from "react";
+  import React from "react";
   import { translationService } from "../../services/TranslationService";
   
   const DhikrMainPage: React.FC = () => {

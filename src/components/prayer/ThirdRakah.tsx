@@ -1,7 +1,6 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonSlide, IonText, useIonViewWillLeave } from "@ionic/react";
-import { Howl } from "howler";
-import { caretForwardCircleOutline } from "ionicons/icons";
-import React, { useEffect, useRef, useState } from "react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonSlide, IonText } from "@ionic/react";
+import { caretForwardCircleOutline, pauseCircleOutline } from "ionicons/icons";
+import React from "react";
 import { translationService } from "../../services/TranslationService";
 import { Progress } from "./../common/Progress";
 
@@ -10,48 +9,12 @@ interface ThirdRakahPropsProps {
   showSubhaneke?:boolean;
   color?:string;
   prayerLength?: number;
+  currentAudio?:string;
+  togglePlayPause:(audio:string)=>void;
 }
 
-const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color,prayerLength}) =>{
-  const playerRef = useRef(new Howl({ src: [""] }));
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [currentAudio,setCurrnetAudio]=useState("");
-  useIonViewWillLeave(() => {
-    if (isLoaded) {
-      playerRef.current.stop();
-    }
-  });
-  useEffect(() => {
-    return ()=>{
-      playerRef.current.unload();
-    };
-  }, []);
-
-  const toglePlayPause = (file:string) => {
-    
-    playerRef.current.stop();
-    setIsLoaded(false);
-   
-    if (file !== currentAudio) {
-      
-      const onLoad = () => {
-        setIsLoaded(true);
-      };
-
-      playerRef.current = new Howl({
-        src: `/assets/audio/Lessons/${file}.mp3`,
-        preload: true,
-        html5: true,
-        onload: onLoad,
-        format: ["mp3"],
-      });
-      setCurrnetAudio(file);
-    }
-    
-      playerRef.current.play();
-      
-    
-  };
+const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color,prayerLength,currentAudio,togglePlayPause}) =>{
+ 
     return (
       <>
       <IonSlide>
@@ -93,13 +56,13 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
               <IonText className={`audio-link-${color}`}>Subhaneke</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {toglePlayPause("Subhaneke")}}
+                onClick={() => {togglePlayPause("Subhaneke")}}
                 fill="solid"
                 color="light"
               >
                 <IonIcon
                   slot="icon-only"
-                  icon={caretForwardCircleOutline}
+                  icon={currentAudio==="Subhaneke"?pauseCircleOutline:caretForwardCircleOutline}
                   color={color}
                 />
               </IonButton>
@@ -108,13 +71,13 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
               <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-audhu')}</IonText>
               <IonButton
                 class="no-shadow"
-                onClick={() => {toglePlayPause("EuzaBismilla")}}
+                onClick={() => {togglePlayPause("EuzaBismilla")}}
                 fill="solid"
                 color="light"
               >
                 <IonIcon
                   slot="icon-only"
-                  icon={caretForwardCircleOutline}
+                  icon={currentAudio==="EuzaBismilla"?pauseCircleOutline:caretForwardCircleOutline}
                   color={color}
                 />
               </IonButton>
@@ -138,13 +101,13 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
               <IonButton
                 class="no-shadow"
                 style={{marginTop:"0px"}}
-                onClick={() => {toglePlayPause("Bismilla")}}
+                onClick={() => {togglePlayPause("Bismilla")}}
                 fill="solid"
                 color="light"
               >
                 <IonIcon
                   slot="icon-only"
-                  icon={caretForwardCircleOutline}
+                  icon={currentAudio==="Bismilla"?pauseCircleOutline:caretForwardCircleOutline}
                   color={color}
                 />
               </IonButton>
@@ -170,13 +133,13 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
               <IonButton
                 class="no-shadow"
                 style={{marginTop:"0px"}}
-                onClick={() => {toglePlayPause("Fatiha")}}
+                onClick={() => {togglePlayPause("Fatiha")}}
                 fill="solid"
                 color="light"
               >
                 <IonIcon
                   slot="icon-only"
-                  icon={caretForwardCircleOutline}
+                  icon={currentAudio==="Fatiha"?pauseCircleOutline:caretForwardCircleOutline}
                   color={color}
                 />
               </IonButton>
@@ -203,14 +166,14 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
                 <IonButton
                   class="no-shadow"
                   onClick={() => {
-                    toglePlayPause("Nas");
+                    togglePlayPause("Nas");
                   }}
                   fill="solid"
                   color="light"
                 >
                   <IonIcon
                     slot="icon-only"
-                    icon={caretForwardCircleOutline}
+                    icon={currentAudio==="Nas"?pauseCircleOutline:caretForwardCircleOutline}
                     color={color}
                   />
                 </IonButton>
@@ -221,14 +184,14 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
                 <IonButton
                   class="no-shadow"
                   onClick={() => {
-                    toglePlayPause("Felek");
+                    togglePlayPause("Felek");
                   }}
                   fill="solid"
                   color="light"
                 >
                   <IonIcon
                     slot="icon-only"
-                    icon={caretForwardCircleOutline}
+                    icon={currentAudio==="Felek"?pauseCircleOutline:caretForwardCircleOutline}
                     color={color}
                   />
                 </IonButton>
@@ -239,14 +202,14 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
                 <IonButton
                   class="no-shadow"
                   onClick={() => {
-                    toglePlayPause("Ihlas");
+                    togglePlayPause("Ihlas");
                   }}
                   fill="solid"
                   color="light"
                 >
                   <IonIcon
                     slot="icon-only"
-                    icon={caretForwardCircleOutline}
+                    icon={currentAudio==="Ihlas"?pauseCircleOutline:caretForwardCircleOutline}
                     color={color}
                   />
                 </IonButton>
@@ -296,13 +259,13 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
               <IonButton
                 class="no-shadow"
                 style={{marginTop:"0px"}}
-                onClick={() => {}}
+                onClick={() => {togglePlayPause("Ruku");}}
                 fill="solid"
                 color="light"
               >
                 <IonIcon
                   slot="icon-only"
-                  icon={caretForwardCircleOutline}
+                  icon={currentAudio==="Ruku"?pauseCircleOutline:caretForwardCircleOutline}
                   color={color}
                 />
               </IonButton>
@@ -328,13 +291,13 @@ const ThirdRakah:  React.FC<ThirdRakahPropsProps>  = ({ type,showSubhaneke,color
               <IonButton
                 class="no-shadow"
                 style={{marginTop:"0px"}}
-                onClick={() => {}}
+                onClick={() => {togglePlayPause("Sedzda");}}
                 fill="solid"
                 color="light"
               >
                 <IonIcon
                   slot="icon-only"
-                  icon={caretForwardCircleOutline}
+                  icon={currentAudio==="Sedzda"?pauseCircleOutline:caretForwardCircleOutline}
                   color={color}
                 />
               </IonButton>

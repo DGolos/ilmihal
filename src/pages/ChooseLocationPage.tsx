@@ -3,7 +3,6 @@ import {
   IonButton,
   IonCol,
   IonContent,
-  IonFooter,
   IonGrid,
   IonIcon,
   IonItem,
@@ -308,7 +307,7 @@ const ChooseLocationPage: React.FC = () => {
                 disabled={currentLocation === null || currentCountry === ""}
               >
                 <IonLabel color="light" className="ion-text-center">
-                  Pocetna/ Hjemmeside
+                  Početna/ Hjemmeside
                 </IonLabel>
               </IonButton>
             </IonCol>

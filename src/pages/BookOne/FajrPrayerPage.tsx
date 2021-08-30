@@ -17,7 +17,6 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { documentTextOutline, videocamOutline } from "ionicons/icons";
-import moment from "moment";
 import React, { useEffect, useState } from "react";
 import { timeService } from "../../services/TimeService";
 import { translationService } from "../../services/TranslationService";

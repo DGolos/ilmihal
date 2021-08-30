@@ -16,11 +16,11 @@ import {
   IonRange,
   IonRow,
   IonToolbar,
-  useIonViewWillEnter,
+  useIonViewDidLeave
 } from "@ionic/react";
 import React, { useEffect, useRef, useState } from "react";
 import { plainToClass } from "class-transformer";
-import { caretForwardCircleOutline } from "ionicons/icons";
+import { caretForwardCircleOutline, pauseOutline } from "ionicons/icons";
 import { Howl } from "howler";
 import { Surah } from "../../../objects/surah";
 import { Ayah } from "../../../objects/Ayah";
@@ -46,6 +46,8 @@ export const AyahPage: React.FC<
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
+  const contentRef = useRef<HTMLIonContentElement | null>(null);
+
   const loadSurah = () => {
     setSurah(dataService.getSurahById(+match.params.surahId));
     setAyahs(
@@ -64,10 +66,12 @@ export const AyahPage: React.FC<
   useEffect(() => {
     loadSurah();
 
-    return () => {
-      playerRef.current.unload();
-    };
+    
   }, []);
+
+  useIonViewDidLeave(() => {
+    playerRef.current.unload();
+  });
 
   const getArabicAyahNumber = (id: number): string => {
     let ret = "";
@@ -112,8 +116,7 @@ export const AyahPage: React.FC<
 
   const scrollToAyah=(id:number)=>{
     let y=document.getElementById(id.toString())?.offsetTop;
-    let content=document.querySelector("ion-content");
-    content?.scrollToPoint(0,y);
+    contentRef.current && contentRef.current.scrollToPoint(0,y);
   }
 
   const playlist = (id: number) => {
@@ -217,7 +220,7 @@ export const AyahPage: React.FC<
             </h3>
           </IonCol>
         </IonRow>
-        <IonRow className={`border-top-${surah?.color}`}>
+        <IonRow className={`border-top-${surah?.color}`} hidden={ayah.id===currentAyah}>
           <IonCol size="2">
             <h4 className={`ayah-details-${surah?.color}`}>
               {ayah.surahId}:{ayah.id}
@@ -248,6 +251,30 @@ export const AyahPage: React.FC<
             </IonButton>
           </IonCol>
         </IonRow>
+        <IonRow className={`border-top-${surah?.color} align-items-center`} hidden={ayah.id!==currentAyah} >
+          <IonCol size="5">
+
+          </IonCol>
+          <IonCol size="2">
+            <IonButton
+              className="no-shadow"
+              onClick={() => {
+                toglePlayPause()
+              }}
+              fill="solid"
+              color="light"
+            >
+              <IonIcon
+                slot="icon-only"
+                icon={isPlaying?pauseOutline:caretForwardCircleOutline}
+                color={surah?.color}
+              />
+            </IonButton>
+          </IonCol>
+          <IonCol size="5">
+
+          </IonCol>
+        </IonRow>
       </IonGrid>
     </IonItem>
   ));
@@ -260,7 +287,7 @@ export const AyahPage: React.FC<
           </IonButtons>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="bg-image-standard" scrollEvents={true} onIonScroll={()=>{}} onIonScrollStart={()=>{}} onIonScrollEnd={()=>{}} fullscreen>
+      <IonContent ref={contentRef} className="bg-image-standard" scrollEvents={true} onIonScroll={()=>{}} onIonScrollStart={()=>{}} onIonScrollEnd={()=>{}} fullscreen>
         <IonGrid>
           <IonRow>
             <IonCol size="4">

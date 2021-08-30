@@ -7,13 +7,12 @@ import {
     IonCardTitle,
     IonCol,
     IonContent,
-    IonGrid,
     IonHeader,
     IonPage,
     IonRow,
     IonToolbar
   } from "@ionic/react";
-  import React, { useEffect, useState } from "react";
+  import React from "react";
 import SurahListItem from "../../../components/SurahListItem";
 import { translationService } from "../../../services/TranslationService";
   

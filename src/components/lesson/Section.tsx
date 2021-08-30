@@ -1,5 +1,4 @@
-import { IonButton, IonIcon, IonItem, IonText } from "@ionic/react";
-import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
+import { IonItem, IonText } from "@ionic/react";
 import React from "react";
 import { LessonSection } from "../../objects/Lesson";
 import { translationService } from "../../services/TranslationService";

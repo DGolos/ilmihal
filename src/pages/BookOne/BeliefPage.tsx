@@ -106,7 +106,7 @@ const BeliefPage: React.FC = () => {
                     </h2>
                     <h2 className="lesson-note">
                       {translationService.getLabel(
-                        "label-book1-lesson32_section2-paragraph"
+                        "label-book1-lesson32_section2-paragraph7"
                       )}
                     </h2>
                   </IonText>

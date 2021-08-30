@@ -15,7 +15,7 @@ import {
   IonToolbar,
   useIonViewWillEnter
 } from "@ionic/react";
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router";
 import { PrayersProps, timeService } from "../../../services/TimeService";
 import { translationService } from "../../../services/TranslationService";

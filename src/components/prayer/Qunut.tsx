@@ -1,50 +1,18 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonSlide, IonText, useIonViewWillLeave } from "@ionic/react";
-import { Howl } from "howler";
-import { caretForwardCircleOutline } from "ionicons/icons";
-import React, { useRef, useState } from "react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonSlide, IonText } from "@ionic/react";
+import { caretForwardCircleOutline, pauseCircleOutline } from "ionicons/icons";
+import React from "react";
 import { translationService } from "../../services/TranslationService";
 import { Progress } from "./../common/Progress";
 
 interface QunutProps {
   color?:string;
   prayerLength?: number;
+  currentAudio?:string;
+  togglePlayPause:(audio:string)=>void;
 }
 
-const Qunut: React.FC<QunutProps> = ({color,prayerLength}) => {
-  const playerRef = useRef(new Howl({ src: [""] }));
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [currentAudio,setCurrnetAudio]=useState("");
-  useIonViewWillLeave(() => {
-    if (isLoaded) {
-      playerRef.current.stop();
-    }
-  });
-
-  const toglePlayPause = (file:string) => {
-    
-    playerRef.current.stop();
-    setIsLoaded(false);
-   
-    if (file !== currentAudio) {
-      
-      const onLoad = () => {
-        setIsLoaded(true);
-      };
-
-      playerRef.current = new Howl({
-        src: `/assets/audio/Lessons/${file}.mp3`,
-        preload: true,
-        html5: true,
-        onload: onLoad,
-        format: ["mp3"],
-      });
-      setCurrnetAudio(file);
-    }
-    
-      playerRef.current.play();
-      
-    
-  };
+const Qunut: React.FC<QunutProps> = ({color,prayerLength,currentAudio,togglePlayPause}) => {
+  
     return (
       <IonSlide>
         <IonItem
@@ -108,13 +76,13 @@ const Qunut: React.FC<QunutProps> = ({color,prayerLength}) => {
               <IonButton
                 class="no-shadow"
                 style={{marginTop:"0px"}}
-                onClick={() => {toglePlayPause("KunutDova")}}
+                onClick={() => {togglePlayPause("KunutDova")}}
                 fill="solid"
                 color="light"
               >
                 <IonIcon
                   slot="icon-only"
-                  icon={caretForwardCircleOutline}
+                  icon={currentAudio==="KunutDova"?pauseCircleOutline:caretForwardCircleOutline}
                   color={color}
                 />
               </IonButton>

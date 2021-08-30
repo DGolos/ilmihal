@@ -592,7 +592,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <h6 style={{fontSize:"12px"}}>
-                    {translationService.getLabel('label-shahadah-description')}
+                    {translationService.getLabel('label-shahada-description')}
                     </h6>
                   </IonRow>
                 </IonCard>

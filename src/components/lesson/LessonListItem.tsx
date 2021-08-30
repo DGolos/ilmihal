@@ -1,4 +1,4 @@
-import { IonAvatar, IonItem, IonLabel, IonNote } from "@ionic/react";
+import { IonAvatar, IonItem, IonLabel } from "@ionic/react";
 import React from "react";
 
 interface LessonItemProps {

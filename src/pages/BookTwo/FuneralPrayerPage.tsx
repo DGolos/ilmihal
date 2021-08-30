@@ -168,11 +168,7 @@ export const FuneralPrayerPage: React.FC = () => {
                           "label-book2-lesson12-section3-paragraph7"
                         )}
                       </h2>
-                      <h2 className="lesson-note">
-                        {translationService.getLabel(
-                          "label-book2-lesson12-section3-paragraph7"
-                        )}
-                      </h2>
+                      
                     </IonText>
                   </IonCol>
                 </IonRow>

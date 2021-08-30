@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   IonAvatar,
   IonButton,
@@ -13,23 +13,24 @@ import {
   IonPage,
   IonRow,
   IonText,
+  IonAlert
 } from "@ionic/react";
+
 import { useHistory } from "react-router";
-import { arrowRedoOutline, chatbubbleEllipsesOutline, linkSharp, logoFacebook, mailOpen, mailOutline, peopleOutline, thumbsUpOutline } from "ionicons/icons";
+import { chatbubbleEllipsesOutline, linkSharp, logoFacebook, mailOutline, peopleOutline, thumbsUpOutline } from "ionicons/icons";
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { translationService } from "../services/TranslationService";
 
 const OptionsPage: React.FC = () => {
   const history=useHistory();
+  const [showRateAlert,setShowRateAlert]=useState((false));
+  const [showContactAlert,setShowContactAlert]=useState((false));
 
   const rateApp=()=>{
-    /*const appRate=new AppRate();
-    appRate.preferences.storeAppURL = {
-      ios: 'no.izbih.iMekteb',
-      android: 'market://details?id=no.izbih.iMekteb',
-    }
-    appRate.promptForRating(true);*/
-    
+    setShowRateAlert(true);
+  }
+  const contactUs=()=>{
+    setShowContactAlert(true);
   }
   const changeLanguage=()=>{
     history.push("/tabs/LanguageOptionsPage");
@@ -70,7 +71,7 @@ const OptionsPage: React.FC = () => {
               <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-team')}</h4>
                 <p style={{ fontSize: "12px" }}> {translationService.getLabel('label-options-team-description')}</p></IonLabel>
             </IonItem>
-            <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }}>
+            <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }} onClick={() => {contactUs()}}>
             <IonAvatar>
                 <IonIcon icon={mailOutline} color="light"  style={{ fontSize: "36px" }}/>
               </IonAvatar>
@@ -133,6 +134,11 @@ const OptionsPage: React.FC = () => {
           </IonCard>
           
         </div>
+        <IonAlert isOpen={showRateAlert} onDidDismiss={()=>{setShowRateAlert(false)}} header={translationService.getLabel('label-notification')} message={translationService.getLabel('label-rate-app')} buttons={['Ok']}/>
+
+        
+        <IonAlert isOpen={showContactAlert} onDidDismiss={()=>{setShowContactAlert(false)}} header={'label-notification'} message={translationService.getLabel('label-contact-us')} buttons={['Ok']}/>
+
         
       </IonContent>
       <IonFooter className="ion-padding ion-no-border">

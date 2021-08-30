@@ -1,6 +1,5 @@
 import { IonBackButton, IonButtons, IonCol, IonContent, IonFab, IonFabButton, IonFabList, IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react"
 import { documentTextOutline, videocamOutline } from "ionicons/icons";
-import moment from "moment";
 import React, { useEffect, useState } from "react"
 import { timeService } from "../../services/TimeService";
 import { translationService } from "../../services/TranslationService";

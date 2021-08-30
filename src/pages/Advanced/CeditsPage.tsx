@@ -1,5 +1,5 @@
-import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonText, IonToolbar } from "@ionic/react";
-import React, { useRef, useState } from "react";
+import { IonBackButton, IonButtons, IonCard, IonCardHeader, IonContent, IonHeader, IonItem, IonPage, IonText, IonToolbar } from "@ionic/react";
+import React from "react";
 import { translationService } from "../../services/TranslationService";
 
 const CreditsPage: React.FC = () => {
