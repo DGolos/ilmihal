@@ -7,7 +7,6 @@ import {
   IonGrid,
   IonHeader,
   IonItem,
-  IonNote,
   IonPage,
   IonRow,
   IonSlide,
@@ -60,7 +59,7 @@ export const AsrPrayerWatchPage: React.FC<
               </IonCol>
               <IonCol size="5" className="ion-text-right">
                 <IonText>
-                  <h2>
+                  <h2 className="black">
                     4 {translationService.getLabel("label-rakah-cardinal")}
                   </h2>
                 </IonText>
@@ -80,7 +79,7 @@ export const AsrPrayerWatchPage: React.FC<
                   <IonItem
                     key="1"
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -102,16 +101,21 @@ export const AsrPrayerWatchPage: React.FC<
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote hidden={match.params.type !== "sunnah"}>
+                          <IonText hidden={match.params.type !== "sunnah"}>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-asr-sunnah-nijjah"
                             )}
-                          </IonNote>
-                          <IonNote hidden={match.params.type !== "fardh"}>
+                            </h2>
+                            
+                          </IonText>
+                          <IonText hidden={match.params.type !== "fardh"}>
+                          <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-asr-fardh-nijjah"
                             )}
-                          </IonNote>
+                            </h2>
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -126,7 +130,7 @@ export const AsrPrayerWatchPage: React.FC<
                   <IonItem
                     key="1"
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -148,11 +152,13 @@ export const AsrPrayerWatchPage: React.FC<
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                          <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-prayer-first-rakah-beginning-watch"
                             )}
-                          </IonNote>
+                            </h2>
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>

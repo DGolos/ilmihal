@@ -18,12 +18,11 @@ import {
 } from "@ionic/react";
 import { documentTextOutline, videocamOutline } from "ionicons/icons";
 import React, { useEffect, useState } from "react";
-import { useHistory } from "react-router";
 import { timeService } from "../../services/TimeService";
 import { translationService } from "../../services/TranslationService";
 
 const AsrPrayerPage: React.FC = () => {
-  const history = useHistory();
+  
   const [asr, setAsr] = useState("");
   useEffect(() => {
     setAsr(timeService.getAsrTime());
@@ -34,7 +33,7 @@ const AsrPrayerPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/tabs/BookOneMainPage" />
+            <IonBackButton className="white" defaultHref="/tabs/BookOneMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -69,7 +68,7 @@ const AsrPrayerPage: React.FC = () => {
               </h2>
             </IonText>
           </IonItem>
-          <IonItem color="light">
+          <IonItem className="lesson-note">
             <IonLabel style={{ paddingRight: "0px" }}>
               <h3 className="prayer-name-bold">
                 {translationService.getLabel("label-sunnah")}
@@ -79,14 +78,14 @@ const AsrPrayerPage: React.FC = () => {
               </h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
-              <IonFabButton color="light">
+              <IonFabButton className="white">
                 <IonIcon src="/assets/images/prayer.svg" color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton
-                  onClick={() => {
-                    history.push("/tabs/AsrPrayerDetailsPage/sunnah");
-                  }}
+                <IonFabButton className="white"
+                  
+                  routerLink="/tabs/AsrPrayerDetailsPage/sunnah"
+                  
                 >
                   <IonIcon
                     icon={documentTextOutline}
@@ -94,7 +93,7 @@ const AsrPrayerPage: React.FC = () => {
                     color="purple"
                   />
                 </IonFabButton>
-                <IonFabButton routerLink="/tabs/AsrPrayerWatchPage/sunnah">
+                <IonFabButton className="white" routerLink="/tabs/AsrPrayerWatchPage/sunnah">
                   <IonIcon
                     icon={videocamOutline}
                     size="zmdi-hc-2x"
@@ -104,7 +103,7 @@ const AsrPrayerPage: React.FC = () => {
               </IonFabList>
             </IonFab>
           </IonItem>
-          <IonItem color="light">
+          <IonItem className="lesson-note">
             <IonLabel style={{ paddingRight: "0px" }}>
               <h3 className="prayer-name-bold">
                 {translationService.getLabel("label-fardh")}
@@ -114,18 +113,18 @@ const AsrPrayerPage: React.FC = () => {
               </h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
-              <IonFabButton color="light">
+              <IonFabButton className="white">
                 <IonIcon src="/assets/images/prayer.svg" color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/tabs/AsrPrayerDetailsPage/fardh">
+                <IonFabButton className="white" routerLink="/tabs/AsrPrayerDetailsPage/fardh">
                   <IonIcon
                     icon={documentTextOutline}
                     size="zmdi-hc-2x"
                     color="purple"
                   />
                 </IonFabButton>
-                <IonFabButton routerLink="/tabs/AsrPrayerWatchPage/fardh">
+                <IonFabButton className="white" routerLink="/tabs/AsrPrayerWatchPage/fardh">
                   <IonIcon
                     icon={videocamOutline}
                     size="zmdi-hc-2x"

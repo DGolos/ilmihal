@@ -10,7 +10,7 @@ const IslamMainPage: React.FC = () => {
           <IonToolbar>
             <IonButtons slot="start">
               <IonBackButton
-                color="light"
+                className="white"
                 defaultHref="/tabs/BookOneMainPage"
               />
             </IonButtons>
@@ -24,7 +24,7 @@ const IslamMainPage: React.FC = () => {
             </IonCardTitle>
           <IonCardContent>
             
-            <IonCardSubtitle color="light">
+            <IonCardSubtitle className="white">
               <h3 style={{fontStyle:"italic"} }>{translationService.getLabel('label-book1-lesson12-quote')}</h3>
               <p className="quote-reference">{translationService.getLabel('label-hadeeth-reference')}</p>
             </IonCardSubtitle>
@@ -48,7 +48,7 @@ const IslamMainPage: React.FC = () => {
               className="welcome ion-text-center"
             >
               
-              <IonLabel color="light">
+              <IonLabel className="white">
                 <h3 style={{fontSize:"24px"}}>{translationService.getLabel('label-shahadah')} </h3>
               </IonLabel>
             </IonItem>
@@ -60,7 +60,7 @@ const IslamMainPage: React.FC = () => {
               className="welcome ion-text-center"
             >
               
-              <IonLabel color="light">
+              <IonLabel className="white">
                 <h3 style={{fontSize:"24px"}}> {translationService.getLabel('label-prayer')}</h3>
               </IonLabel>
             </IonItem>
@@ -72,7 +72,7 @@ const IslamMainPage: React.FC = () => {
               className="welcome ion-text-center"
             >
               
-              <IonLabel color="light">
+              <IonLabel className="white">
                 <h3 style={{fontSize:"24px"}}> {translationService.getLabel('label-ramadhan')}</h3>
               </IonLabel>
             </IonItem>
@@ -84,7 +84,7 @@ const IslamMainPage: React.FC = () => {
               className="welcome ion-text-center"
             >
               
-              <IonLabel color="light">
+              <IonLabel className="white">
                 <h3 style={{fontSize:"24px"}}> {translationService.getLabel('label-charity')}</h3>
               </IonLabel>
             </IonItem>
@@ -96,7 +96,7 @@ const IslamMainPage: React.FC = () => {
               className="welcome ion-text-center"
             >
               
-              <IonLabel color="light">
+              <IonLabel className="white">
                 <h3 style={{fontSize:"24px"}}> {translationService.getLabel('label-hajj')}</h3>
               </IonLabel>
             </IonItem>

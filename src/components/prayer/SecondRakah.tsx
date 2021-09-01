@@ -6,7 +6,6 @@ import {
   IonIcon,
   IonItem,
   IonLabel,
-  IonNote,
   IonRow,
   IonSlide,
   IonText
@@ -33,17 +32,17 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
         key="1"
         detail={false}
         lines="none"
-        color="light"
+        className="lesson-note"
         style={{ marginLeft: "15px", marginRight: "15px" }}
       >
         <IonGrid className="ion-text-left">
           <IonRow>
             <IonCol size="6">
-              <IonNote>
-                <h2>
+              <IonText>
+                <h2 className="black">
                   {translationService.getLabel("label-second-rakah-header")}
                 </h2>
-              </IonNote>
+              </IonText>
             </IonCol>
             <IonCol className="ion-padding" size="6">
               <Progress
@@ -64,11 +63,14 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>
+              <IonText>
+                <h2 className="lesson-note">
                 {translationService.getLabel(
                   "label-prayer-bismilla-description"
                 )}
-              </IonNote>
+                </h2>
+                
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow>
@@ -77,13 +79,13 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
                 {translationService.getLabel("label-prayer-bismilla-header")}
               </IonText>
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 style={{marginTop:"0px"}}
                 onClick={() => {
                   togglePlayPause("Bismilla");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"
@@ -104,22 +106,25 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>
+              <IonText>
+                <h2 className="lesson-note">
                 {translationService.getLabel("label-prayer-fatiha-description")}
-              </IonNote>
+                </h2>
+                
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonText className={`audio-link-${color}`}>El-Fatiha</IonText>
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 style={{marginTop:"0px"}}
                 onClick={() => {
                   togglePlayPause("Fatiha");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"
@@ -140,9 +145,12 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>
+              <IonText>
+                <h2 className="lesson-note">
                 {translationService.getLabel("label-prayer-surah-description")}
-              </IonNote>
+                </h2>
+                
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow>
@@ -150,12 +158,12 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
                 <IonText className={`audio-link-${color}`}>En-Nas</IonText>
                 <br />
                 <IonButton
-                  class="no-shadow"
+                  className="no-shadow white"
                   onClick={() => {
                     togglePlayPause("Nas");
                   }}
                   fill="solid"
-                  color="light"
+                  
                 >
                   <IonIcon
                     slot="icon-only"
@@ -168,12 +176,12 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
                 <IonText className={`audio-link-${color}`}>El-Felek</IonText>
                 <br />
                 <IonButton
-                  class="no-shadow"
+                  className="no-shadow white"
                   onClick={() => {
                     togglePlayPause("Felek");
                   }}
                   fill="solid"
-                  color="light"
+                  
                 >
                   <IonIcon
                     slot="icon-only"
@@ -186,12 +194,12 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
                 <IonText className={`audio-link-${color}`}>El-Ihlas</IonText>
                 <br />
                 <IonButton
-                  class="no-shadow"
+                  className="no-shadow white"
                   onClick={() => {
                     togglePlayPause("Ihlas");
                   }}
                   fill="solid"
-                  color="light"
+                  
                 >
                   <IonIcon
                     slot="icon-only"
@@ -209,17 +217,17 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
         key="1"
         detail={false}
         lines="none"
-        color="light"
+        className="lesson-note"
         style={{ marginLeft: "15px", marginRight: "15px" }}
       >
         <IonGrid className="ion-text-left">
           <IonRow>
             <IonCol size="6">
-              <IonNote>
-                <h2>
+              <IonText>
+                <h2 className="black">
                   {translationService.getLabel("label-second-rakah-header")}
                 </h2>
-              </IonNote>
+              </IonText>
             </IonCol>
             <IonCol className="ion-padding" size="6">
               <Progress
@@ -240,9 +248,12 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>
+              <IonText>
+                <h2 className="lesson-note">
                 {translationService.getLabel("label-prayer-ruku-description")}
-              </IonNote>
+                </h2>
+                
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow className="ayah">
@@ -251,13 +262,13 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
                 {translationService.getLabel("label-prayer-ruku-header")}
               </IonText>
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 style={{marginTop:"0px"}}
                 onClick={() => {
                   togglePlayPause("Ruku");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"
@@ -278,9 +289,12 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>
+              <IonText>
+                <h2 className="lesson-note">
                 {translationService.getLabel("label-prayer-sujud-description")}
-              </IonNote>
+                </h2>
+                
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow>
@@ -289,13 +303,13 @@ const SecondRakah: React.FC<SecondRakahProps> = ({ color, prayerLength,currentAu
                 {translationService.getLabel("label-prayer-sujud-header")}
               </IonText>
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 style={{marginTop:"0px"}}
                 onClick={() => {
                   togglePlayPause("Sedzda");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"

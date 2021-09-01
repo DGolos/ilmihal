@@ -6,7 +6,6 @@ import {
   IonIcon,
   IonItem,
   IonLabel,
-  IonNote,
   IonRow,
   IonSlide,
   IonText
@@ -41,14 +40,14 @@ const Tashashud: React.FC<TashashudProps> = ({
         key="1"
         detail={false}
         lines="none"
-        color="light"
+        className="lesson-note"
         style={{ marginLeft: "15px", marginRight: "15px" }}
       >
         <IonGrid className="ion-text-left">
           <IonRow>
             <IonCol size="6">
-              <IonNote>
-                <h2>
+              <IonText>
+                <h2 className="black">
                   {first === true
                     ? translationService.getLabel(
                         "label-prayer-first-tashahud-header"
@@ -57,7 +56,7 @@ const Tashashud: React.FC<TashashudProps> = ({
                         "label-prayer-last-tashahud-header"
                       )}
                 </h2>
-              </IonNote>
+              </IonText>
             </IonCol>
             <IonCol className="ion-padding" size="6">
               <Progress
@@ -80,11 +79,14 @@ const Tashashud: React.FC<TashashudProps> = ({
           </IonRow>
           <IonRow hidden={first}>
             <IonCol size="12">
-              <IonNote>
+              <IonText>
+                <h2 className="lesson-note">
                 {translationService.getLabel(
                   "label-prayer-kade-ehire-description"
                 )}
-              </IonNote>
+                </h2>
+                
+              </IonText>
             </IonCol>
           </IonRow>
 
@@ -95,12 +97,12 @@ const Tashashud: React.FC<TashashudProps> = ({
               </IonText>
               <br />
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 onClick={() => {
                   togglePlayPause("Ettehijjatu");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"
@@ -115,12 +117,12 @@ const Tashashud: React.FC<TashashudProps> = ({
               </IonText>
               <br />
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 onClick={() => {
                   togglePlayPause("Salavati");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"
@@ -135,12 +137,12 @@ const Tashashud: React.FC<TashashudProps> = ({
               </IonText>
               <br />
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 onClick={() => {
                   togglePlayPause("Dova");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"
@@ -161,9 +163,12 @@ const Tashashud: React.FC<TashashudProps> = ({
           </IonRow>
           <IonRow hidden={first}>
             <IonCol size="12">
-              <IonNote>
+              <IonText>
+                <h2 className="lesson-note">
                 {translationService.getLabel("label-prayer-selam-description")}
-              </IonNote>
+                </h2>
+                
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow hidden={!first}>
@@ -177,9 +182,12 @@ const Tashashud: React.FC<TashashudProps> = ({
           </IonRow>
           <IonRow hidden={!first}>
             <IonCol size="12">
-              <IonNote>
+              <IonText>
+                <h2 className="lesson-note">
                 {salawat?translationService.getLabel("label-prayer-ettehijjatu-salawat-description"):translationService.getLabel("label-prayer-ettehijjatu-description")}
-              </IonNote>
+                </h2>
+                
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow hidden={!first}>
@@ -188,13 +196,13 @@ const Tashashud: React.FC<TashashudProps> = ({
                 {translationService.getLabel("label-prayer-ettehijjatu")}
               </IonText>
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 style={{ marginTop: "0px" }}
                 onClick={() => {
                   togglePlayPause("Ettehijjatu");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"
@@ -209,12 +217,12 @@ const Tashashud: React.FC<TashashudProps> = ({
               </IonText>
               
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 onClick={() => {
                   togglePlayPause("Salavati");
                 }}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"

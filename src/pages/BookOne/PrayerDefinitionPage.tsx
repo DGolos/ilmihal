@@ -40,7 +40,7 @@ const PrayerDefinitionPage: React.FC = () => {
             </IonItem>
           </div>
           
-            <IonCard color="light" className="prayer" routerLink={`/tabs/FajrPrayerPage`}>
+            <IonCard className="prayer white" routerLink={`/tabs/FajrPrayerPage`}>
               <IonCardContent>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
@@ -49,14 +49,14 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-fajr-prayer')}</IonCardTitle>
-                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
-                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
+                    <IonCardTitle className="black" style={{fontWeight:"bold"}}>{translationService.getLabel('label-fajr-prayer')}</IonCardTitle>
+                    <IonCardSubtitle className="black">2 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle className="black">2 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
             </IonCard>
-            <IonCard color="light" className="prayer" routerLink={`/tabs/DhuhrPrayerPage`}>
+            <IonCard className="prayer white" routerLink={`/tabs/DhuhrPrayerPage`}>
               <IonCardContent>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
@@ -65,15 +65,15 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-dhuhr-prayer')}</IonCardTitle>
-                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
-                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
-                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-sunsunnah')}</IonCardSubtitle>
+                    <IonCardTitle className="black" style={{fontWeight:"bold"}}>{translationService.getLabel('label-dhuhr-prayer')}</IonCardTitle>
+                    <IonCardSubtitle className="black">4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle className="black">4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
+                    <IonCardSubtitle className="black">2 {translationService.getLabel('label-rakah-sunsunnah')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
             </IonCard>
-            <IonCard color="light" className="prayer" routerLink={`/tabs/AsrPrayerPage`}>
+            <IonCard className="prayer white" routerLink={`/tabs/AsrPrayerPage`}>
               <IonCardContent style={{ marginTop: "0px", marginBottom: "6px" }}>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
@@ -82,14 +82,14 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-asr-prayer')}</IonCardTitle>
-                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
-                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
+                    <IonCardTitle className="black" style={{fontWeight:"bold"}}>{translationService.getLabel('label-asr-prayer')}</IonCardTitle>
+                    <IonCardSubtitle className="black">4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle className="black">4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
             </IonCard>
-            <IonCard color="light" className="prayer" routerLink={`/tabs/MaghribPrayerPage`}>
+            <IonCard className="prayer white" routerLink={`/tabs/MaghribPrayerPage`}>
               <IonCardContent>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
@@ -98,14 +98,14 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-maghrib-prayer')}</IonCardTitle>
-                    <IonCardSubtitle>3 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
-                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardTitle className="black" style={{fontWeight:"bold"}}>{translationService.getLabel('label-maghrib-prayer')}</IonCardTitle>
+                    <IonCardSubtitle className="black">3 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
+                    <IonCardSubtitle className="black">2 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>
             </IonCard>
-            <IonCard color="light" className="prayer" routerLink={`/tabs/IshaPrayerPage`}>
+            <IonCard className="prayer white" routerLink={`/tabs/IshaPrayerPage`}>
               <IonCardContent>
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
@@ -114,11 +114,11 @@ const PrayerDefinitionPage: React.FC = () => {
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
-                    <IonCardTitle style={{fontWeight:"bold"}}>{translationService.getLabel('label-isha-prayer')}</IonCardTitle>
-                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
-                    <IonCardSubtitle>4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
-                    <IonCardSubtitle>2 {translationService.getLabel('label-rakah-sunsunnah')}</IonCardSubtitle>
-                    <IonCardSubtitle>3 {translationService.getLabel('label-rakah-witr')}</IonCardSubtitle>
+                    <IonCardTitle className="black" style={{fontWeight:"bold"}}>{translationService.getLabel('label-isha-prayer')}</IonCardTitle>
+                    <IonCardSubtitle className="black">4 {translationService.getLabel('label-rakah-sunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle className="black">4 {translationService.getLabel('label-rakah-fardh')}</IonCardSubtitle>
+                    <IonCardSubtitle className="black">2 {translationService.getLabel('label-rakah-sunsunnah')}</IonCardSubtitle>
+                    <IonCardSubtitle className="black">3 {translationService.getLabel('label-rakah-witr')}</IonCardSubtitle>
                   </IonCol>
                 </IonRow>
               </IonCardContent>

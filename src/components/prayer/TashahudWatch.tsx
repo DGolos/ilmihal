@@ -3,9 +3,9 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonSlide,
+  IonText,
   useIonViewWillEnter,
 } from "@ionic/react";
 import React, { useState } from "react";
@@ -52,16 +52,16 @@ const TashahudWatch: React.FC<TashahudProps> = ({
           <IonItem
             key="1"
             detail={false}
-            color="light"
+            className="lesson-note"
             lines="none"
             style={{ marginLeft: "15px", marginRight: "15px" }}
           >
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="6">
-                  <IonNote>
-                    <h2>{currentRakah}</h2>
-                  </IonNote>
+                  <IonText>
+                    <h2 className="black">{currentRakah}</h2>
+                  </IonText>
                 </IonCol>
               </IonRow>
               <IonRow hidden={!last}>
@@ -81,11 +81,14 @@ const TashahudWatch: React.FC<TashahudProps> = ({
 
               <IonRow hidden={!last}>
                 <IonCol size="12">
-                  <IonNote>
+                  <IonText>
+                    <h2 className="lesson-note">
                     {translationService.getLabel(
                       "label-prayer-end-description"
                     )}
-                  </IonNote>
+                    </h2>
+                    
+                  </IonText>
                 </IonCol>
               </IonRow>
               <IonRow hidden={last}>
@@ -107,9 +110,12 @@ const TashahudWatch: React.FC<TashahudProps> = ({
 
               <IonRow hidden={last}>
                 <IonCol size="12">
-                  <IonNote>
+                  <IonText>
+                    <h2 className="lesson-note">
                     {salawat===true? translationService.getLabel("label-prayer-first-tashahud-sunnah-description"):translationService.getLabel("label-prayer-first-tashahud-description")}
-                  </IonNote>
+                    </h2>
+                    
+                  </IonText>
                 </IonCol>
               </IonRow>
             </IonGrid>

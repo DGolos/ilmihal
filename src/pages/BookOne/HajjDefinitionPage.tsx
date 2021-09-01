@@ -1,4 +1,4 @@
-import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonNote, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
+import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 import { translationService } from "../../services/TranslationService";
 
@@ -42,7 +42,7 @@ const HajjDefinitionPage: React.FC = () => {
           <IonItem
             key="1"
             detail={false}
-            color="light"
+            className="lesson-note"
             lines="none"
             style={{ marginLeft: "15px", marginRight: "15px" }}
           >
@@ -57,9 +57,11 @@ const HajjDefinitionPage: React.FC = () => {
               </IonRow>
               <IonRow className="ayah">
                 <IonCol size="12">
-                  <IonNote>
+                <IonText>
+                <h2 className="lesson-note">
                   {translationService.getLabel('label-book1-lesson33_section2-paragraph1')}
-                  </IonNote>
+                  </h2>
+                  </IonText>
                 </IonCol>
               </IonRow>
               <IonRow className="ayah">
@@ -71,9 +73,11 @@ const HajjDefinitionPage: React.FC = () => {
               </IonRow>
               <IonRow>
                 <IonCol size="12">
-                  <IonNote>
+                  <IonText>
+                  <h2 className="lesson-note">
                   {translationService.getLabel('label-book1-lesson33_section3-paragraph1')}
-                  </IonNote>
+                  </h2>
+                  </IonText>
                 </IonCol>
               </IonRow>
               <IonRow>
@@ -85,9 +89,11 @@ const HajjDefinitionPage: React.FC = () => {
               </IonRow>
               <IonRow>
                 <IonCol size="12">
-                  <IonNote>
+                  <IonText>
+                  <h2 className="lesson-note">
                   {translationService.getLabel('label-book1-lesson33_section4-paragraph1')}
-                  </IonNote>
+                  </h2>
+                  </IonText>
                 </IonCol>
               </IonRow>
             </IonGrid>

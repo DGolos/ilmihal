@@ -20,6 +20,10 @@
         "value":"Endre"
     },
     {
+        "name":"label-search",
+        "value":"Søk"
+    },
+    {
         "name":"label-notification",
         "value":"Informasjon"
     },
@@ -4658,7 +4662,7 @@
 
     {
         "name":"label-options-islamic-community",
-        "value":"Det islqmske felleskap Bosnia og Hercegovina i Norge"
+        "value":"Det islamske felleskap Bosnia og Hercegovina i Norge"
     },
 
     {

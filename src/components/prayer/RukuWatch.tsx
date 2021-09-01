@@ -3,9 +3,9 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonSlide,
+  IonText,
   useIonViewWillEnter,
 } from "@ionic/react";
 import React, { useState } from "react";
@@ -46,16 +46,16 @@ const RukuWatch: React.FC<RukuProps> = ({
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
               <IonGrid className="ion-text-left">
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                      <h2>{currentRakah}</h2>
-                    </IonNote>
+                    <IonText>
+                      <h2 className="black">{currentRakah}</h2>
+                    </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
@@ -75,11 +75,14 @@ const RukuWatch: React.FC<RukuProps> = ({
 
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
+                    <IonText>
+                      <h2 className="lesson-note">
                       {translationService.getLabel(
                         "label-prayer-ruku-watch-description"
                       )}
-                    </IonNote>
+                      </h2>
+                      
+                    </IonText>
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -94,16 +97,16 @@ const RukuWatch: React.FC<RukuProps> = ({
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
               <IonGrid className="ion-text-left">
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                      <h2>{currentRakah}</h2>
-                    </IonNote>
+                    <IonText>
+                      <h2 className="black">{currentRakah}</h2>
+                    </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
@@ -125,11 +128,14 @@ const RukuWatch: React.FC<RukuProps> = ({
 
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
+                    <IonText>
+                      <h2 className="lesson-note">
                       {translationService.getLabel(
                         "label-prayer-ruku-return-description"
                       )}
-                    </IonNote>
+                      </h2>
+                      
+                    </IonText>
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -144,16 +150,16 @@ const RukuWatch: React.FC<RukuProps> = ({
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
               <IonGrid className="ion-text-left">
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                      <h2>{currentRakah}</h2>
-                    </IonNote>
+                    <IonText>
+                      <h2 className="black">{currentRakah}</h2>
+                    </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
@@ -173,11 +179,14 @@ const RukuWatch: React.FC<RukuProps> = ({
 
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
+                    <IonText>
+                      <h2 className="lesson-note">
                       {translationService.getLabel(
                         "label-prayer-sujud-watch-description"
                       )}
-                    </IonNote>
+                      </h2>
+                      
+                    </IonText>
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -192,16 +201,16 @@ const RukuWatch: React.FC<RukuProps> = ({
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
               <IonGrid className="ion-text-left">
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                      <h2>{currentRakah}</h2>
-                    </IonNote>
+                    <IonText>
+                      <h2 className="black">{currentRakah}</h2>
+                    </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
@@ -223,11 +232,14 @@ const RukuWatch: React.FC<RukuProps> = ({
 
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
+                    <IonText>
+                      <h2 className="lesson-note">
                       {translationService.getLabel(
                         "label-prayer-between-sujud-description"
                       )}
-                    </IonNote>
+                      </h2>
+                      
+                    </IonText>
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -242,16 +254,16 @@ const RukuWatch: React.FC<RukuProps> = ({
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
               <IonGrid className="ion-text-left">
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                      <h2>{currentRakah}</h2>
-                    </IonNote>
+                    <IonText>
+                      <h2 className="black">{currentRakah}</h2>
+                    </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
@@ -271,11 +283,14 @@ const RukuWatch: React.FC<RukuProps> = ({
 
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
+                    <IonText>
+                      <h2 className="lesson-note">
                       {translationService.getLabel(
                         "label-prayer-sujud-watch-description"
                       )}
-                    </IonNote>
+                      </h2>
+                      
+                    </IonText>
                   </IonCol>
                 </IonRow>
               </IonGrid>

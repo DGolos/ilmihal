@@ -10,9 +10,9 @@ const BookTwoMainPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="light" defaultHref="/HomePage" />
+              <IonBackButton className="white" defaultHref="/HomePage" />
             </IonButtons>
-            <IonTitle color="light">{translationService.getLabel("label-book2-full-title")}</IonTitle>
+            <IonTitle className="white">{translationService.getLabel("label-book2-full-title")}</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="bg-image-burgundy" fullscreen>
@@ -24,7 +24,7 @@ const BookTwoMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(1)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   1-7
                 </IonLabel>
               </IonButton>
@@ -35,7 +35,7 @@ const BookTwoMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(2)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   8-10
                 </IonLabel>
               </IonButton>
@@ -46,7 +46,7 @@ const BookTwoMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(3)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   11-14
                 </IonLabel>
               </IonButton>
@@ -60,7 +60,7 @@ const BookTwoMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(4)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   15-20
                 </IonLabel>
               </IonButton>
@@ -71,7 +71,7 @@ const BookTwoMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(5)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   21-27
                 </IonLabel>
               </IonButton>
@@ -82,7 +82,7 @@ const BookTwoMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(6)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   28-30
                 </IonLabel>
               </IonButton>

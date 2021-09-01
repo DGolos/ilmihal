@@ -3,11 +3,12 @@ import {
     IonCol,
     IonGrid,
     IonItem,
-    IonNote,
     IonRow,
     IonSlide,
+    IonText,
+    useIonViewWillEnter,
   } from "@ionic/react";
-  import React from "react";
+  import React, { useState } from "react";
 import { translationService } from "../../services/TranslationService";
 import { Progress } from "../common/Progress";
 
@@ -19,6 +20,14 @@ import { Progress } from "../common/Progress";
   }
   
   const SelamWatch: React.FC<SalamWatchProps> = ({ rakah,color,stepValue,maxValue}) => {
+    const [currentRakah,setCurrenRakah]=useState("1");
+    useIonViewWillEnter(() => {
+      if(rakah==="2") setCurrenRakah(translationService.getLabel('label-second-rakah-header'));
+      if(rakah==="3") setCurrenRakah(translationService.getLabel('label-third-rakah-header'));
+      if(rakah==="4") setCurrenRakah(translationService.getLabel('label-fourth-rakah-header'));
+  
+      
+    });
     return (
         <IonSlide>
         <div>
@@ -27,16 +36,16 @@ import { Progress } from "../common/Progress";
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
               <IonGrid className="ion-text-left">
               <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                      <h2>{rakah==="2"?translationService.getLabel('label-second-rakah-header'):translationService.getLabel('label-fourth-rakah-header')}</h2>
-                    </IonNote>
+                    <IonText>
+                      <h2 className="black">{currentRakah}</h2>
+                    </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
@@ -54,9 +63,12 @@ import { Progress } from "../common/Progress";
 
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                    {translationService.getLabel('label-prayer-selam-watch-description')}
-                    </IonNote>
+                    <IonText>
+                      <h2 className="lesson-note">
+                      {translationService.getLabel('label-prayer-selam-watch-description')}
+                      </h2>
+                    
+                    </IonText>
                   </IonCol>
                 </IonRow>
               </IonGrid>

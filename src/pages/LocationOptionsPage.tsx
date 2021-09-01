@@ -20,7 +20,7 @@ import { storageService } from "../services/StorageService";
 import { useHistory } from "react-router";
 import { translationService } from "../services/TranslationService";
 import { timeService } from "../services/TimeService";
-import { checkmarkOutline, personCircle } from "ionicons/icons";
+import { checkmarkOutline} from "ionicons/icons";
 interface Location {
   id: string;
   name: string;
@@ -232,6 +232,7 @@ const LocationOptionsPage: React.FC = () => {
   const bosnianCitiesListItems = bosnianCities.map((city) => (
     <IonItem
       lines="full"
+      className="lesson-note"
       onClick={() => {
         setCurrentLocation(city);
       }}
@@ -252,14 +253,15 @@ const LocationOptionsPage: React.FC = () => {
   const norwegianCitiesListItems = norwegianCities.map((city) => (
     <IonItem
       lines="full"
+      className="lesson-note"
       onClick={() => {
         setCurrentLocation(city);
       }}
     >
       <IonText slot="start">
-        <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>{city.name}</h2>
+        <h2 className="black" style={{ fontSize: "18px", fontWeight: "bold" }}>{city.name}</h2>
       </IonText>
-      <IonIcon slot="end" hidden={city.id !== currentLocation?.id}
+      <IonIcon className="black" slot="end" hidden={city.id !== currentLocation?.id}
 
         icon={checkmarkOutline}
 
@@ -273,7 +275,7 @@ const LocationOptionsPage: React.FC = () => {
       <IonHeader className="ion-no-border standard">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/tabs/PrayerTimesPage" />
+            <IonBackButton className="white" defaultHref="/tabs/PrayerTimesPage" />
             </IonButtons>
             <IonButtons slot="end">
             <IonButton className="pressed no-shadow" onClick={() => {
@@ -306,12 +308,12 @@ const LocationOptionsPage: React.FC = () => {
         </div>
 
         <div className="ion-padding" hidden={currentCountry !== "BA"}>
-          <IonList>
+          <IonList className="white">
             {bosnianCitiesListItems}
           </IonList>
         </div>
         <div className="ion-padding" hidden={currentCountry !== "NO"}>
-          <IonList>
+          <IonList className="white">
             {norwegianCitiesListItems}
           </IonList>
         </div>

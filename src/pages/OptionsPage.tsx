@@ -9,7 +9,6 @@ import {
   IonGrid,
   IonIcon,
   IonItem,
-  IonLabel,
   IonPage,
   IonRow,
   IonText,
@@ -59,38 +58,38 @@ const OptionsPage: React.FC = () => {
           <IonCard className="lesson-header" color="dark-brown">
             <IonItem className="dark-brown ion-text-center white-line" style={{ marginBottom: "0px" }}>
               <IonText color="light" >
-                <h4  style={{ fontSize: "28px", fontWeight: "bold" }}>iMekteb</h4>
-                <p style={{ fontSize: "12px" }}> app by</p>
-                <h4  style={{ fontSize: "20px", fontWeight: 300 }}>{translationService.getLabel('label-options-islamic-community')}</h4>
+                <h4 className="white"  style={{ fontSize: "28px", fontWeight: "bold" }}>iMekteb</h4>
+                <p className="white" style={{ fontSize: "12px" }}> app by</p>
+                <h4  className="white" style={{ fontSize: "20px", fontWeight: 300 }}>{translationService.getLabel('label-options-islamic-community')}</h4>
               </IonText>
             </IonItem>
             <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }} routerLink={`/tabs/CreditsPage`}>
               <IonAvatar>
-                <IonIcon icon={peopleOutline} color="light"  style={{ fontSize: "36px" }}/>
+                <IonIcon icon={peopleOutline} className="white"  style={{ fontSize: "36px" }}/>
               </IonAvatar>
-              <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-team')}</h4>
-                <p style={{ fontSize: "12px" }}> {translationService.getLabel('label-options-team-description')}</p></IonLabel>
+              <IonText className="ion-padding-start"><h4 className="white" style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-team')}</h4>
+                <p className="white" style={{ fontSize: "12px" }}> {translationService.getLabel('label-options-team-description')}</p></IonText>
             </IonItem>
             <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }} onClick={() => {contactUs()}}>
             <IonAvatar>
-                <IonIcon icon={mailOutline} color="light"  style={{ fontSize: "36px" }}/>
+                <IonIcon icon={mailOutline} className="white"  style={{ fontSize: "36px" }}/>
               </IonAvatar>
-            <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>Kontakt</h4>
-                <p style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-contact-description')} </p></IonLabel>
+            <IonText className="ion-padding-start white"><h4 className="white" style={{ fontSize: "20px" , fontWeight: "bold"}}>Kontakt</h4>
+                <p className="white" style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-contact-description')} </p></IonText>
             </IonItem>
             <IonItem className="dark-brown white-line" style={{ marginBottom: "0px" }} onClick={() => {rateApp()}}>
             <IonAvatar>
-                <IonIcon icon={thumbsUpOutline} color="light"  style={{ fontSize: "36px" }}/>
+                <IonIcon icon={thumbsUpOutline} className="white"  style={{ fontSize: "36px" }}/>
               </IonAvatar>
-            <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-rate')}</h4>
-                <p style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-rate-description')} </p></IonLabel>
+            <IonText className="ion-padding-start"><h4 className="white" style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-rate')}</h4>
+                <p className="white" style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-rate-description')} </p></IonText>
             </IonItem>
             <IonItem className="dark-brown" lines="none" style={{ marginBottom: "0px" }} onClick={() => {changeLanguage()}}>
             <IonAvatar>
-                <IonIcon icon={chatbubbleEllipsesOutline} color="light"  style={{ fontSize: "36px" }}/>
+                <IonIcon icon={chatbubbleEllipsesOutline} className="white" style={{ fontSize: "36px" }}/>
               </IonAvatar>
-            <IonLabel color="light" className="ion-padding-start"><h4  style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-change-language')}</h4>
-                <p style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-change-language-description')}</p></IonLabel>
+            <IonText className="ion-padding-start"><h4 className="white" style={{ fontSize: "20px" , fontWeight: "bold"}}>{translationService.getLabel('label-options-change-language')}</h4>
+                <p className="white" style={{ fontSize: "12px" }}>{translationService.getLabel('label-options-change-language-description')}</p></IonText>
             </IonItem>
             
           </IonCard>
@@ -109,11 +108,11 @@ const OptionsPage: React.FC = () => {
                   <IonIcon
                     style={{ fontSize: "20px" }}
                     icon={linkSharp}
-                    color="light"
+                    className="white"
                     slot="start"
                     
                   />
-                  <IonText color="light" >Web</IonText>
+                  <IonText className="white" >Web</IonText>
                   </IonButton>
                   
                 </IonCol>
@@ -122,10 +121,10 @@ const OptionsPage: React.FC = () => {
                   <IonIcon
                     style={{ fontSize: "20px" }}
                     icon={logoFacebook}
-                    color="light"
+                    className="white"
                     slot="start"
                   />
-                  <IonText color="light">Facebook</IonText>
+                  <IonText className="white">Facebook</IonText>
                   </IonButton>
                 </IonCol>
                 

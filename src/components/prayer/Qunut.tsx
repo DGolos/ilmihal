@@ -1,4 +1,4 @@
-import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonNote, IonRow, IonSlide, IonText } from "@ionic/react";
+import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonRow, IonSlide, IonText } from "@ionic/react";
 import { caretForwardCircleOutline, pauseCircleOutline } from "ionicons/icons";
 import React from "react";
 import { translationService } from "../../services/TranslationService";
@@ -19,15 +19,15 @@ const Qunut: React.FC<QunutProps> = ({color,prayerLength,currentAudio,togglePlay
         key="1"
         detail={false}
         lines="none"
-        color="light"
+        className="lesson-note"
         style={{ marginLeft: "15px", marginRight: "15px" }}
       >
         <IonGrid className="ion-text-left">
           <IonRow>
             <IonCol size="6">
-              <IonNote>
-                <h2> {translationService.getLabel('label-third-rakah-header')}</h2>
-              </IonNote>
+              <IonText>
+                <h2 className="black"> {translationService.getLabel('label-third-rakah-header')}</h2>
+              </IonText>
             </IonCol>
             <IonCol className="ion-padding" size="6">
             <Progress currentValue={8} maxValue={prayerLength!} color={color} />
@@ -43,9 +43,12 @@ const Qunut: React.FC<QunutProps> = ({color,prayerLength,currentAudio,togglePlay
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>
-              {translationService.getLabel('label-prayer-qunut-description')}
-              </IonNote>
+              <IonText>
+                <h2 className="lesson-note">
+                {translationService.getLabel('label-prayer-qunut-description')}
+                </h2>
+              
+              </IonText>
             </IonCol>
           </IonRow>
           
@@ -58,27 +61,33 @@ const Qunut: React.FC<QunutProps> = ({color,prayerLength,currentAudio,togglePlay
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>
-              {translationService.getLabel('label-prayer-qunut-detail')}
-              </IonNote>
+              <IonText>
+                <h2 className="lesson-note">
+                {translationService.getLabel('label-prayer-qunut-detail')}
+                </h2>
+              
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonNote>
-              {translationService.getLabel('label-prayer-qunut-note')}
-              </IonNote>
+              <IonText>
+                <h2 className="lesson-note">
+                {translationService.getLabel('label-prayer-qunut-note')}
+                </h2>
+              
+              </IonText>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
               <IonText className="audio-link-purple">Kunut dova</IonText>
               <IonButton
-                class="no-shadow"
+                className="no-shadow white"
                 style={{marginTop:"0px"}}
                 onClick={() => {togglePlayPause("KunutDova")}}
                 fill="solid"
-                color="light"
+                
               >
                 <IonIcon
                   slot="icon-only"

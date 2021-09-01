@@ -16,7 +16,7 @@ const MaghribPrayerPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="light" defaultHref='/BookOneMainPage'/>
+              <IonBackButton className="white" defaultHref='/BookOneMainPage'/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -49,39 +49,39 @@ const MaghribPrayerPage: React.FC = () => {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem color="light">
+            <IonItem className="lesson-note">
             <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-fardh')}</h3>
               <h3 className="prayer-name-normal">3 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
-              <IonFabButton  color="light" >
+              <IonFabButton  className="white" >
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/tabs/MaghribPrayerDetailsPage/fardh">
+                <IonFabButton className="white" routerLink="/tabs/MaghribPrayerDetailsPage/fardh">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/tabs/MaghribPrayerWatchPage/fardh">
+                <IonFabButton className="white" routerLink="/tabs/MaghribPrayerWatchPage/fardh">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
             </IonFab>
             </IonItem>
-            <IonItem color="light">
+            <IonItem className="lesson-note">
             <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-sunnah')}</h3>
               <h3 className="prayer-name-normal">2 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
-              <IonFabButton  color="light" >
+              <IonFabButton  className="white">
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/tabs/MaghribPrayerDetailsPage/sunnah">
+                <IonFabButton className="white" routerLink="/tabs/MaghribPrayerDetailsPage/sunnah">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/tabs/MaghribPrayerWatchPage/sunnah">
+                <IonFabButton className="white" routerLink="/tabs/MaghribPrayerWatchPage/sunnah">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>

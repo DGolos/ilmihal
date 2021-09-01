@@ -49,7 +49,7 @@ import {
             </IonCardContent>
           </IonCard>
           <div className="ion-padding">
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
@@ -63,7 +63,7 @@ import {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
@@ -77,7 +77,7 @@ import {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
@@ -91,7 +91,7 @@ import {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
@@ -105,7 +105,7 @@ import {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
@@ -119,7 +119,7 @@ import {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
@@ -133,7 +133,7 @@ import {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
@@ -147,7 +147,7 @@ import {
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(

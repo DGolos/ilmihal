@@ -58,7 +58,7 @@ export const HadeethPage: React.FC = () => {
         <div className="ion-padding">
           <IonSlides>
             <IonSlide>
-              <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} className="lesson-note" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -92,7 +92,7 @@ export const HadeethPage: React.FC = () => {
               </IonItem>
             </IonSlide>
             <IonSlide>
-              <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} className="lesson-note" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -151,7 +151,7 @@ export const HadeethPage: React.FC = () => {
               </IonItem>
             </IonSlide>
             <IonSlide>
-              <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} className="lesson-note" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -215,7 +215,7 @@ export const HadeethPage: React.FC = () => {
               </IonItem>
             </IonSlide>
             <IonSlide>
-              <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} className="lesson-note" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -278,7 +278,7 @@ export const HadeethPage: React.FC = () => {
               </IonItem>
             </IonSlide>
             <IonSlide>
-              <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} className="lesson-note" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">
@@ -331,7 +331,7 @@ export const HadeethPage: React.FC = () => {
               </IonItem>
             </IonSlide>
             <IonSlide>
-              <IonItem detail={false} color="light" lines="none">
+              <IonItem detail={false} className="lesson-note" lines="none">
                 <IonGrid className="ion-text-left">
                   <IonRow>
                     <IonCol size="6">

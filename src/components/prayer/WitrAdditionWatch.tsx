@@ -3,9 +3,9 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonSlide,
+  IonText,
 } from "@ionic/react";
 import React from "react";
 import { translationService } from "../../services/TranslationService";
@@ -31,20 +31,20 @@ const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
               <IonGrid className="ion-text-left">
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                      <h2>
+                    <IonText>
+                      <h2 className="black">
                         {translationService.getLabel(
                           "label-third-rakah-header"
                         )}
                       </h2>
-                    </IonNote>
+                    </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
@@ -64,11 +64,14 @@ const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({
 
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
+                    <IonText>
+                      <h2 className="lesson-note">
                       {translationService.getLabel(
                         "label-prayer-witr-tekbir-description"
                       )}
-                    </IonNote>
+                      </h2>
+                      
+                    </IonText>
                   </IonCol>
                 </IonRow>
               </IonGrid>
@@ -83,20 +86,20 @@ const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
               <IonGrid className="ion-text-left">
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
-                      <h2>
+                    <IonText>
+                      <h2 className="black">
                         {translationService.getLabel(
                           "label-third-rakah-header"
                         )}
                       </h2>
-                    </IonNote>
+                    </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
@@ -116,11 +119,14 @@ const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({
 
                 <IonRow>
                   <IonCol size="12">
-                    <IonNote>
+                    <IonText>
+                      <h2 className="lesson-note">
                       {translationService.getLabel(
                         "label-prayer-qunut-detail-watch"
                       )}
-                    </IonNote>
+                      </h2>
+                      
+                    </IonText>
                   </IonCol>
                 </IonRow>
               </IonGrid>

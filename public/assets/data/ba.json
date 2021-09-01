@@ -20,16 +20,20 @@
         "value":"Promijeni"
     },
     {
+        "name":"label-search",
+        "value":"Traži"
+    },
+    {
         "name":"label-notification",
         "value":"Obavijest"
     },
     {
         "name":"label-rate-app",
-        "value":"Ako vam se svidja aplikacija, molimo vas da odete na AppStore/ Google Play i ocijenjite applikaciju. Hvala'"
+        "value":"Ako vam se sviđa aplikacija, molimo vas da odete na AppStore/ Google Play i ocijenjite applikaciju. Hvala"
     },
     {
         "name":"label-contact-us",
-        "value":"Sve pohvale, prijedloge i kritike mozete poslati na izbun.development@gmail.com. Hvala'"
+        "value":"Sve pohvale, prijedloge i kritike možete poslati na izbun.development@gmail.com. Hvala"
     },
     {
         "name":"label-welcome-hadeeth",

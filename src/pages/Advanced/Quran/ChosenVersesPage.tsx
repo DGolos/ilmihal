@@ -22,7 +22,7 @@ export const ChosenVersesPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/tabs/MainCategoryPage"/>
+            <IonBackButton className="white" defaultHref="/tabs/MainCategoryPage"/>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -54,8 +54,8 @@ export const ChosenVersesPage: React.FC = () => {
               color="burgundy"
             >
              
-              <IonText className="ion-text-center" color="light">
-              <h4 style={{fontSize:"22px",fontWeight:"bold"}}> {translationService.getLabel('label-ruby-header')}</h4>
+              <IonText className="ion-text-center">
+              <h3 style={{fontSize:"22px",fontWeight:"bold"}}> {translationService.getLabel('label-ruby-header')}</h3>
               <p style={{fontSize:"16px"}}> {translationService.getLabel('label-ruby-description')}</p>
               </IonText>
             </IonItem>
@@ -67,8 +67,8 @@ export const ChosenVersesPage: React.FC = () => {
               className="welcome"
               color="purple"
             >
-             <IonText className="ion-text-center" color="light">
-              <h4 style={{fontSize:"22px",fontWeight:"bold"}}> {translationService.getLabel('label-pearls-header')}</h4>
+             <IonText className="ion-text-center">
+              <h3 style={{fontSize:"22px",fontWeight:"bold"}}> {translationService.getLabel('label-pearls-header')}</h3>
               <p style={{fontSize:"16px"}}> {translationService.getLabel('label-pearls-description')}</p>
               </IonText>
             </IonItem>

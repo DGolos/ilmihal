@@ -1,4 +1,4 @@
-import { IonPage, IonHeader, IonToolbar, IonButtons, IonBackButton, IonContent, IonItem, IonCol, IonGrid, IonRow, IonChip, IonNote } from "@ionic/react";
+import { IonPage, IonHeader, IonToolbar, IonButtons, IonBackButton, IonContent, IonItem, IonCol, IonGrid, IonRow, IonChip, IonText } from "@ionic/react";
 import React from "react";
 import { translationService } from "../../services/TranslationService";
 
@@ -8,7 +8,7 @@ export const EidPrayerPage: React.FC = () => {
           <IonHeader className="ion-no-border">
             <IonToolbar>
               <IonButtons slot="start">
-                <IonBackButton color="light" defaultHref="/BookTwoMainPage" />
+                <IonBackButton className="white" defaultHref="/BookTwoMainPage" />
               </IonButtons>
             </IonToolbar>
           </IonHeader>
@@ -37,16 +37,19 @@ export const EidPrayerPage: React.FC = () => {
           <IonItem
                   key="1"
                   detail={false}
-                  color="light"
+                  className="lesson-note"
                   lines="none"
                   style={{ marginLeft: "15px", marginRight: "15px" }}
                 >
                   <IonGrid className="ion-text-left">
                   <IonRow>
                       <IonCol size="12">
-                        <IonNote>
-                        {translationService.getLabel('label-book2-lesson11-section1-paragraph1')}
-                        </IonNote>
+                        <IonText>
+                          <h2 className="lesson-note">
+                          {translationService.getLabel('label-book2-lesson11-section1-paragraph1')}
+                          </h2>
+                        
+                        </IonText>
                       </IonCol>
                     </IonRow>
                     <IonRow>
@@ -57,9 +60,11 @@ export const EidPrayerPage: React.FC = () => {
                     
                     <IonRow>
                       <IonCol size="12">
-                        <IonNote>
+                        <IonText>
+                        <h2 className="lesson-note">
                         {translationService.getLabel('label-book2-lesson11-section1-paragraph2')}
-                        </IonNote>
+                        </h2>
+                        </IonText>
                       </IonCol>
                     </IonRow>
                     
@@ -71,9 +76,11 @@ export const EidPrayerPage: React.FC = () => {
                     
                     <IonRow>
                       <IonCol size="12">
-                        <IonNote>
+                        <IonText>
+                        <h2 className="lesson-note">
                         {translationService.getLabel('label-book2-lesson11-section1-paragraph3')}
-                        </IonNote>
+                        </h2>
+                        </IonText>
                       </IonCol>
                     </IonRow>
                     <IonRow>
@@ -83,9 +90,11 @@ export const EidPrayerPage: React.FC = () => {
                     </IonRow>
                     <IonRow>
                       <IonCol size="12">
-                        <IonNote>
+                        <IonText>
+                        <h2 className="lesson-note">
                         {translationService.getLabel('label-book2-lesson11-section1-paragraph4')}
-                        </IonNote>
+                        </h2>
+                        </IonText>
                       </IonCol>
                     </IonRow>
                     

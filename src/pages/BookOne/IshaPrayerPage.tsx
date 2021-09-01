@@ -16,7 +16,7 @@ const IshaPrayerPage: React.FC = () => {
         <IonHeader className="ion-no-border">
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton color="light" defaultHref='/BookOneMainPage'/>
+              <IonBackButton className="white" defaultHref='/BookOneMainPage'/>
             </IonButtons>
           </IonToolbar>
         </IonHeader>
@@ -49,77 +49,77 @@ const IshaPrayerPage: React.FC = () => {
               </h2>
             </IonText>
           </IonItem>
-          <IonItem color="light">
+          <IonItem className="lesson-note">
           <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-sunnah')}</h3>
               <h3 className="prayer-name-normal">4 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
-              <IonFabButton  color="light" >
+              <IonFabButton  className="white">
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/tabs/IshaPrayerDetailsPage/sunnah">
+                <IonFabButton className="white" routerLink="/tabs/IshaPrayerDetailsPage/sunnah">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/tabs/IshaPrayerWatchPage/sunnah">
+                <IonFabButton className="white" routerLink="/tabs/IshaPrayerWatchPage/sunnah">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
             </IonFab>
           </IonItem>
-          <IonItem color="light">
+          <IonItem className="lesson-note">
           <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-fardh')}</h3>
               <h3 className="prayer-name-normal">4 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
-              <IonFabButton  color="light" >
+              <IonFabButton  className="white" >
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/tabs/IshaPrayerDetailsPage/fardh">
+                <IonFabButton className="white" routerLink="/tabs/IshaPrayerDetailsPage/fardh">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/tabs/IshaPrayerWatchPage/fardh">
+                <IonFabButton className="white" routerLink="/tabs/IshaPrayerWatchPage/fardh">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
             </IonFab>
           </IonItem>
-          <IonItem color="light">
+          <IonItem className="lesson-note">
           <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-sunsunnah')}</h3>
               <h3 className="prayer-name-normal">2 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
-              <IonFabButton  color="light" >
+              <IonFabButton  className="white" >
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/tabs/IshaPrayerDetailsPage/sunsunnah">
+                <IonFabButton className="white" routerLink="/tabs/IshaPrayerDetailsPage/sunsunnah">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/tabs/IshaPrayerWatchPage/sunsunnah">
+                <IonFabButton className="white" routerLink="/tabs/IshaPrayerWatchPage/sunsunnah">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>
             </IonFab>
           </IonItem>
-          <IonItem color="light">
+          <IonItem className="lesson-note">
           <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-witr')}</h3>
               <h3 className="prayer-name-normal">3 {translationService.getLabel('label-rakah-cardinal')}</h3>
             </IonLabel>
             <IonFab slot="end" vertical="bottom" horizontal="end">
-              <IonFabButton  color="light" >
+              <IonFabButton  className="white">
                 <IonIcon src='/assets/images/prayer.svg' color="purple" />
               </IonFabButton>
               <IonFabList side="start">
-                <IonFabButton routerLink="/tabs/IshaPrayerDetailsPage/witr">
+                <IonFabButton className="white" routerLink="/tabs/IshaPrayerDetailsPage/witr">
                   <IonIcon icon={documentTextOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
-                <IonFabButton routerLink="/tabs/IshaPrayerWatchPage/witr">
+                <IonFabButton className="white" routerLink="/tabs/IshaPrayerWatchPage/witr">
                   <IonIcon icon={videocamOutline} size="zmdi-hc-2x" color="purple"/>
                 </IonFabButton>
               </IonFabList>

@@ -14,8 +14,8 @@ const CreditsPage: React.FC = () => {
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
         <IonCard
-            className="lesson-header ion-padding"
-            color="light"
+            className="lesson-header ion-padding white"
+            
           >
             <IonCardHeader>
               <img src="/assets/images/izbun.png"/>
@@ -26,7 +26,7 @@ const CreditsPage: React.FC = () => {
           
           
           <div className="ion-padding">
-            <IonItem detail={false} color="light" lines="none">
+            <IonItem detail={false} className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 {translationService.getLabel('label-options-team-introduction-paragraph1')}

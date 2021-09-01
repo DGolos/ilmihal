@@ -32,8 +32,7 @@ const NamesCard: React.FC<NamesCardProps> = ({
 }) => {
   return (
     <IonCard
-      color="light"
-      className="lesson-header ion-text-center"
+      className="white lesson-header ion-text-center"
       style={{ marginLeft: "0px", marginRight: "0px", marginTop: "0px" }}
     >
       <IonText>

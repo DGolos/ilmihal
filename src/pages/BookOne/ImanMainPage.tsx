@@ -23,7 +23,7 @@ const ImanMainPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/tabs/BookOneMainPage" />
+            <IonBackButton className="white" defaultHref="/tabs/BookOneMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -35,7 +35,7 @@ const ImanMainPage: React.FC = () => {
             </h1>
           </IonCardTitle>
           <IonCardContent>
-            <IonCardSubtitle color="light">
+            <IonCardSubtitle className="white">
               <h3 style={{ fontStyle: "italic" }}>
                 {translationService.getLabel("label-book1-lesson11-quote")}
               </h3>
@@ -67,7 +67,7 @@ const ImanMainPage: React.FC = () => {
             detail={false}
             className="welcome ion-text-center"
           >
-            <IonLabel color="light">
+            <IonLabel className="white">
               <h4 style={{fontSize:"20px"}}> Amentu billahi</h4>
               <p style={{fontSize:"16px"}}>
                 
@@ -82,13 +82,13 @@ const ImanMainPage: React.FC = () => {
             detail={false}
             className="welcome ion-text-center"
           >
-            <IonLabel color="light">
-              <h4 style={{fontSize:"20px"}}> Ve melaiketihi</h4>
-              <p style={{fontSize:"16px"}}>
+            <IonText>
+              <h4 className="black" style={{fontSize:"20px"}}> Ve melaiketihi</h4>
+              <p className="black" style={{fontSize:"16px"}}>
                
                 {translationService.getLabel("label-book1-lesson11-paragraph4")}
               </p>
-            </IonLabel>
+            </IonText>
           </IonItem>
           <IonItem
             key="3"
@@ -98,13 +98,13 @@ const ImanMainPage: React.FC = () => {
             className="welcome ion-text-center"
           >
             
-            <IonLabel color="light">
-              <h4 style={{fontSize:"20px"}}> Ve kutubihi</h4>
-              <p style={{fontSize:"16px"}}>
+            <IonText>
+              <h4 className="black" style={{fontSize:"20px"}}> Ve kutubihi</h4>
+              <p className="black"  style={{fontSize:"16px"}}>
                
                 {translationService.getLabel("label-book1-lesson11-paragraph5")}
               </p>
-            </IonLabel>
+            </IonText>
           </IonItem>
           <IonItem
             key="4"
@@ -114,12 +114,12 @@ const ImanMainPage: React.FC = () => {
             className="welcome ion-text-center"
           >
             
-            <IonLabel color="light">
-              <h4 style={{fontSize:"20px"}}> Ve rusulihi</h4>
-              <p style={{fontSize:"16px"}}>
+            <IonText>
+              <h4 className="black" style={{fontSize:"20px"}}> Ve rusulihi</h4>
+              <p className="black" style={{fontSize:"16px"}}>
                 {translationService.getLabel("label-book1-lesson11-paragraph6")}{" "}
               </p>
-            </IonLabel>
+            </IonText>
           </IonItem>
           <IonItem
             key="5"
@@ -129,13 +129,13 @@ const ImanMainPage: React.FC = () => {
             className="welcome ion-text-center"
           >
             
-            <IonLabel color="light">
-              <h4 style={{fontSize:"20px"}}> Vel jevmil-ahiri</h4>
-              <p style={{fontSize:"16px"}}>
+            <IonText>
+              <h4 className="black" style={{fontSize:"20px"}}> Vel jevmil-ahiri</h4>
+              <p className="black" style={{fontSize:"16px"}}>
                
                 {translationService.getLabel("label-book1-lesson11-paragraph7")}
               </p>
-            </IonLabel>
+            </IonText>
           </IonItem>
           <IonItem
             key="6"
@@ -145,13 +145,13 @@ const ImanMainPage: React.FC = () => {
             className="welcome ion-text-center"
           >
             
-            <IonLabel color="light">
-              <h4 style={{fontSize:"18px"}}> Ve bil-kaderi hajrihi ve šerrihi minellahi teala</h4>
-              <p style={{fontSize:"14px"}}>
+            <IonText>
+              <h4 className="black" style={{fontSize:"18px"}}> Ve bil-kaderi hajrihi ve šerrihi minellahi teala</h4>
+              <p className="black" style={{fontSize:"14px"}}>
                 
                 {translationService.getLabel("label-book1-lesson11-paragraph8")}
               </p>
-            </IonLabel>
+            </IonText>
           </IonItem>
         </IonList>
       </IonContent>

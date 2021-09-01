@@ -54,32 +54,32 @@ export const CompanionsPage: React.FC = () => {
                 <h3>
                 {translationService.getLabel('label-book3-lesson4-title')}
                 </h3>
-                <h2 className="lesson-note">
+                <p>
                 {translationService.getLabel('label-book3-lesson4-title-description')}
 
-                </h2>
+                </p>
               </IonText>
             </IonItem>
             <IonItem lines="none" color="burgundy" routerLink={`/tabs/ChosenCompanionsPage`} key="2">
               <IonText className="ion-text-center">
-                <h2>
+                <h3>
                 {translationService.getLabel('label-book3-lesson5-title')}
-                </h2>
-                <h2 className="lesson-note">
+                </h3>
+                <p>
                 {translationService.getLabel('label-book3-lesson5-title-description')}
 
-                </h2>
+                </p>
               </IonText>
             </IonItem>
             <IonItem lines="none" color="dark-brown" routerLink={`/tabs/WomensPage`} key="3">
               <IonText className="ion-text-center">
-                <h2>
+                <h3>
                 {translationService.getLabel('label-book3-lesson6-title')}
-                </h2>
-                <h2 className="lesson-note">
+                </h3>
+                <p>
                 {translationService.getLabel('label-book3-lesson6-title-description')}
 
-                </h2>
+                </p>
               </IonText>
             </IonItem>
         </div>

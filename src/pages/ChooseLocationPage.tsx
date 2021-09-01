@@ -224,14 +224,16 @@ const ChooseLocationPage: React.FC = () => {
   const bosnianCitiesListItems = bosnianCities.map((city) => (
     <IonItem
       lines="full"
+      className="lesson-note"
       onClick={() => {
         setCurrentLocation(city);
       }}
+      
     >
       <IonText slot="start">
-        <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>{city.name}</h2>
+        <h2 className="black" style={{ fontSize: "18px", fontWeight: "bold" }}>{city.name}</h2>
       </IonText>
-      <IonIcon slot="end" hidden={city.id!==currentLocation?.id}
+      <IonIcon className="black" slot="end" hidden={city.id!==currentLocation?.id}
                     
                     icon={checkmarkOutline}
                     
@@ -241,14 +243,15 @@ const ChooseLocationPage: React.FC = () => {
   const norwegianCitiesListItems = norwegianCities.map((city) => (
     <IonItem
       lines="full"
+      className="lesson-note"
       onClick={() => {
         setCurrentLocation(city);
       }}
     >
       <IonText slot="start">
-        <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>{city.name}</h2>
+        <h2 className="black" style={{ fontSize: "18px", fontWeight: "bold" }}>{city.name}</h2>
       </IonText>
-      <IonIcon slot="end" hidden={city.id!==currentLocation?.id}
+      <IonIcon className="black" slot="end" hidden={city.id!==currentLocation?.id}
                     
                     icon={checkmarkOutline}
                     
@@ -282,14 +285,14 @@ const ChooseLocationPage: React.FC = () => {
         </div>
         
         <div className="ion-padding" hidden={currentCountry !== "BA"}>
-        <IonList>
+        <IonList className="transparent">
           {bosnianCitiesListItems}
           </IonList>
         </div>
         
        
         <div className="ion-padding" hidden={currentCountry !== "NO"}>
-        <IonList>
+        <IonList className="transparent">
           {norwegianCitiesListItems}
           </IonList>
         </div>

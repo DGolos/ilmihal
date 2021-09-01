@@ -16,6 +16,10 @@ ion-card.prayer {
   box-shadow: none;
 }
 
+ion-card.white {
+  --background: rgba(255, 255, 255);
+}
+
 ion-card.transparent {
   --background: rgba(255, 255, 255, 0.2);
   --border-radius: 14px;
@@ -39,4 +43,18 @@ ion-card.surah{
   margin-top:0px;
   margin-bottom: 0px;
 }
+ion-card-subtitle.white{
+  color:#FFFFFF;
+}
 
+ion-card-subtitle.black{
+  color:black;
+}
+
+ion-card-title.black{
+  color:black;
+}
+
+ion-searchbar.white{
+  color:#FFFFFF;
+}

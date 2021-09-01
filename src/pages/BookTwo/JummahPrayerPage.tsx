@@ -13,7 +13,7 @@ import {
   IonSlide,
   IonSlides,
   IonChip,
-  IonNote,
+
 } from "@ionic/react";
 import React from "react";
 import { Progress } from "../../components/common/Progress";
@@ -25,7 +25,7 @@ export const JummahPrayerPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/BookTwoMainPage" />
+            <IonBackButton className="white" defaultHref="/BookTwoMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -106,7 +106,7 @@ export const JummahPrayerPage: React.FC = () => {
               <IonItem
                 key="1"
                 detail={false}
-                color="light"
+                className="lesson-note"
                 lines="none"
                 style={{ marginLeft: "15px", marginRight: "15px" }}
               >
@@ -126,11 +126,13 @@ export const JummahPrayerPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                      <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-book2-lesson14_section3-paragraph1"
                         )}
-                      </IonNote>
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                   <IonRow>
@@ -178,7 +180,7 @@ export const JummahPrayerPage: React.FC = () => {
               <IonItem
                 key="1"
                 detail={false}
-                color="light"
+                className="lesson-note"
                 lines="none"
                 style={{ marginLeft: "15px", marginRight: "15px" }}
               >
@@ -198,11 +200,13 @@ export const JummahPrayerPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                      <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-book2-lesson14_section4-paragraph1"
                         )}
-                      </IonNote>
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -214,7 +218,7 @@ export const JummahPrayerPage: React.FC = () => {
               <IonItem
                 key="1"
                 detail={false}
-                color="light"
+                className="lesson-note"
                 lines="none"
                 style={{ marginLeft: "15px", marginRight: "15px" }}
               >
@@ -234,11 +238,13 @@ export const JummahPrayerPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                      <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-book2-lesson14_section5-paragraph1"
                         )}
-                      </IonNote>
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                   <IonRow>
@@ -272,7 +278,7 @@ export const JummahPrayerPage: React.FC = () => {
               <IonItem
                 key="1"
                 detail={false}
-                color="light"
+                className="lesson-note"
                 lines="none"
                 style={{ marginLeft: "15px", marginRight: "15px" }}
               >
@@ -292,11 +298,13 @@ export const JummahPrayerPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                      <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-book2-lesson14_section6-paragraph1"
                         )}
-                      </IonNote>
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                   <IonRow>
@@ -344,7 +352,7 @@ export const JummahPrayerPage: React.FC = () => {
               <IonItem
                 key="1"
                 detail={false}
-                color="light"
+                className="lesson-note"
                 lines="none"
                 style={{ marginLeft: "15px", marginRight: "15px" }}
               >
@@ -413,7 +421,7 @@ export const JummahPrayerPage: React.FC = () => {
               <IonItem
                 key="1"
                 detail={false}
-                color="light"
+                className="lesson-note"
                 lines="none"
                 style={{ marginLeft: "15px", marginRight: "15px" }}
               >
@@ -433,11 +441,13 @@ export const JummahPrayerPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                      <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-book2-lesson14_section8-paragraph1"
                         )}
-                      </IonNote>
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                   <IonRow>

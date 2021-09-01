@@ -10,6 +10,7 @@ import {
   IonPage,
   IonSegment,
   IonSegmentButton,
+  IonText,
   IonToolbar,
   useIonViewDidLeave,
   useIonViewWillEnter,
@@ -145,13 +146,13 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
               value={"arabic" as TranslationSection}
               className={lesson?.color}
             >
-              {translationService.getLabel('label-header-arabic')}
+              <IonText className={currentTranslationSection === "arabic"?"white":"black"}>{translationService.getLabel('label-header-arabic')}</IonText>
             </IonSegmentButton>
             <IonSegmentButton
               value={"translation" as TranslationSection}
               className={lesson?.color}
             >
-              {translationService.getLabel('label-header-native-language')}
+              <IonText className={currentTranslationSection === "translation"?"white":"black"}>{translationService.getLabel('label-header-native-language')}</IonText>
             </IonSegmentButton>
           </IonSegment>
         </div>

@@ -135,7 +135,7 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
         <div
           style={{ marginLeft: "15px", marginRight: "15px", marginTop: "-3px" }}
         >
-          <IonItem color="light" lines="none">
+          <IonItem className="lesson-note" lines="none">
             <IonText style={{ fontSize: "14px" }}>
               <IonChip color="burgundy">Info</IonChip>
               <p>

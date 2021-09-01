@@ -64,12 +64,12 @@ const BeliefPage: React.FC = () => {
               </h2>
             </IonText>
           </IonItem>
-          <IonItem key="1" detail={false} lines="none" color="light">
+          <IonItem key="1" detail={false} lines="none" className="lesson-note">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
                   <IonText>
-                    <h4>
+                    <h4 className="black">
                       {translationService.getLabel(
                         "label-book1-lesson32_section2-header"
                       )}
@@ -114,12 +114,12 @@ const BeliefPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </IonItem>
-          <IonItem key="1" detail={false} lines="none" color="light">
+          <IonItem key="1" detail={false} lines="none" className="lesson-note">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
                   <IonText>
-                    <h4>
+                    <h4 className="black"> 
                       {translationService.getLabel(
                         "label-book1-lesson32_section3-header"
                       )}

@@ -11,11 +11,11 @@ import {
   IonGrid,
   IonHeader,
   IonItem,
-  IonNote,
   IonPage,
   IonRow,
   IonSlide,
   IonSlides,
+  IonText,
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
@@ -78,11 +78,14 @@ const WudhuPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-book1-lesson13-paragraph1"
                         )}
-                      </IonNote>
+                        </h2>
+                        
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -97,7 +100,7 @@ const WudhuPage: React.FC = () => {
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -119,11 +122,14 @@ const WudhuPage: React.FC = () => {
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-wash-hands-description"
                             )}
-                          </IonNote>
+                            </h2>
+                            
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -140,7 +146,7 @@ const WudhuPage: React.FC = () => {
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -162,11 +168,14 @@ const WudhuPage: React.FC = () => {
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-wash-mouth-description"
                             )}
-                          </IonNote>
+                            </h2>
+                            
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -182,9 +191,8 @@ const WudhuPage: React.FC = () => {
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
-                    className="full-width"
+                    className="full-width lesson-note"
                     detail={false}
-                    color="light"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -206,11 +214,14 @@ const WudhuPage: React.FC = () => {
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-wash-nose-description"
                             )}
-                          </IonNote>
+                            </h2>
+                            
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -227,7 +238,7 @@ const WudhuPage: React.FC = () => {
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -249,11 +260,14 @@ const WudhuPage: React.FC = () => {
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-wash-face-description"
                             )}
-                          </IonNote>
+                            </h2>
+                            
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -270,7 +284,7 @@ const WudhuPage: React.FC = () => {
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -292,11 +306,14 @@ const WudhuPage: React.FC = () => {
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-wash-albow-description"
                             )}
-                          </IonNote>
+                            </h2>
+                            
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -313,7 +330,7 @@ const WudhuPage: React.FC = () => {
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -335,11 +352,14 @@ const WudhuPage: React.FC = () => {
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-wipe-head-description"
                             )}
-                          </IonNote>
+                            </h2>
+                            
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -356,7 +376,7 @@ const WudhuPage: React.FC = () => {
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -378,11 +398,14 @@ const WudhuPage: React.FC = () => {
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-wipe-neck-description"
                             )}
-                          </IonNote>
+                            </h2>
+                            
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -399,7 +422,7 @@ const WudhuPage: React.FC = () => {
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
                     detail={false}
-                    color="light"
+                    className="lesson-note"
                     lines="none"
                     style={{ marginLeft: "15px", marginRight: "15px" }}
                   >
@@ -421,11 +444,14 @@ const WudhuPage: React.FC = () => {
 
                       <IonRow>
                         <IonCol size="12">
-                          <IonNote>
+                          <IonText>
+                            <h2 className="lesson-note">
                             {translationService.getLabel(
                               "label-wash-feet-description"
                             )}
-                          </IonNote>
+                            </h2>
+                            
+                          </IonText>
                         </IonCol>
                       </IonRow>
                     </IonGrid>
@@ -457,11 +483,14 @@ const WudhuPage: React.FC = () => {
 
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-what-breaks-wudhu-description"
                         )}
-                      </IonNote>
+                        </h2>
+                        
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>

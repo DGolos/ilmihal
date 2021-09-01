@@ -47,22 +47,22 @@ import {
           
           <div className="ion-padding">
             <IonList className="white">
-              <IonItem color="light" lines="full" routerLink='/tabs/RepetancePage'>
+              <IonItem className="lesson-note" lines="full" routerLink='/tabs/RepetancePage'>
                 <IonText slot="start" >
-                  <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson21-title')}</h2>
+                  <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson21-title')}</h2>
                 </IonText>
                 
               </IonItem>
   
-              <IonItem color="light" lines="full" routerLink='/tabs/ForgivnesPage'>
+              <IonItem className="lesson-note" lines="full" routerLink='/tabs/ForgivnesPage'>
                 <IonText slot="start">
-                  <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson22-title')}</h2>
+                  <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson22-title')}</h2>
                 </IonText>
                
               </IonItem>
-              <IonItem color="light" lines="full" routerLink='/tabs/BeautifulNames'>
+              <IonItem className="lesson-note" lines="full" routerLink='/tabs/BeautifulNames'>
                 <IonText slot="start">
-                  <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson23-title')}</h2>
+                  <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-book3-lesson23-title')}</h2>
                 </IonText>
                
               </IonItem>

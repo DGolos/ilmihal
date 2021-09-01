@@ -119,7 +119,7 @@ export const MaghribPrayerDetailsPage: React.FC<
               </IonCol>
               <IonCol size="5" className="ion-text-right">
                 <IonText>
-                  <h2>
+                  <h2 className="black">
                     {match.params.type === "sunnah" ? 2 : 3}{" "}
                     {translationService.getLabel("label-rakah-cardinal")}
                   </h2>
@@ -134,7 +134,7 @@ export const MaghribPrayerDetailsPage: React.FC<
               <IonItem
                 key="1"
                 detail={false}
-                color="light"
+                className="lesson-note"
                 lines="none"
                 style={{ marginLeft: "15px", marginRight: "15px" }}
               >
@@ -156,7 +156,7 @@ export const MaghribPrayerDetailsPage: React.FC<
                   <IonRow>
                     <IonCol size="12">
                       <IonText>
-                        <h2>
+                        <h2 className="black">
                           {translationService.getLabel("label-nijjah-header")}
                         </h2>
                       </IonText>
@@ -164,23 +164,30 @@ export const MaghribPrayerDetailsPage: React.FC<
                   </IonRow>
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                        <h2 className="lesson-note">
                         {translationService.getLabel("label-nijjah-definition")}
-                      </IonNote>
+                        </h2>
+                        
+                      </IonText>
                     </IonCol>
                   </IonRow>
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote hidden={match.params.type !== "sunnah"}>
+                      <IonText hidden={match.params.type !== "sunnah"}>
+                      <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-maghrib-sunnah-nijjah"
                         )}
-                      </IonNote>
-                      <IonNote hidden={match.params.type !== "fardh"}>
+                        </h2>
+                      </IonText>
+                      <IonText hidden={match.params.type !== "fardh"}>
+                      <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-maghrib-fardh-nijjah"
                         )}
-                      </IonNote>
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>

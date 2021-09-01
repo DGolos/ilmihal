@@ -23,9 +23,9 @@ const BookOneMainPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/tabs/HomePage" />
+            <IonBackButton className="white" defaultHref="/tabs/HomePage" />
           </IonButtons>
-          <IonTitle color="light">
+          <IonTitle className="white">
             {translationService.getLabel("label-book1-full-title")}
           </IonTitle>
         </IonToolbar>
@@ -39,7 +39,7 @@ const BookOneMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(1)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   1-6
                 </IonLabel>
               </IonButton>
@@ -50,7 +50,7 @@ const BookOneMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(2)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   7-10
                 </IonLabel>
               </IonButton>
@@ -61,7 +61,7 @@ const BookOneMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(3)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   11-12
                 </IonLabel>
               </IonButton>
@@ -75,7 +75,7 @@ const BookOneMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(4)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   13-18
                 </IonLabel>
               </IonButton>
@@ -86,7 +86,7 @@ const BookOneMainPage: React.FC = () => {
                 expand="block"
                 onClick={() => setCurrent(5)}
               >
-                <IonLabel color="light" className="ion-text-center">
+                <IonLabel className="ion-text-center white">
                   19-24
                 </IonLabel>
               </IonButton>

@@ -24,7 +24,7 @@ export const GuidancePrayerPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/VoluntaryPrayersPage" />
+            <IonBackButton className="white" defaultHref="/VoluntaryPrayersPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>

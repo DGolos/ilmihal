@@ -43,7 +43,7 @@ const LanguageOptionsPage: React.FC = () => {
         <IonHeader className="ion-no-border standard">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/tabs/OptionsPage" />
+            <IonBackButton className="white" defaultHref="/tabs/OptionsPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>

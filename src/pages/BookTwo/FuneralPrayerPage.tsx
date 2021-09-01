@@ -13,7 +13,7 @@ import {
   IonSlide,
   IonSlides,
   IonChip,
-  IonNote,
+
 } from "@ionic/react";
 import React from "react";
 import { Progress } from "../../components/common/Progress";
@@ -25,7 +25,7 @@ export const FuneralPrayerPage: React.FC = () => {
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/BookTwoMainPage" />
+            <IonBackButton className="white" defaultHref="/BookTwoMainPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -73,7 +73,7 @@ export const FuneralPrayerPage: React.FC = () => {
               <IonItem
                 key="1"
                 detail={false}
-                color="light"
+                className="lesson-note"
                 lines="none"
                 style={{ marginLeft: "15px", marginRight: "15px" }}
               >
@@ -94,11 +94,13 @@ export const FuneralPrayerPage: React.FC = () => {
                   </IonRow>
                   <IonRow>
                     <IonCol size="12">
-                      <IonNote>
+                      <IonText>
+                      <h2 className="lesson-note">
                         {translationService.getLabel(
                           "label-book2-lesson12-section2-paragraph1"
                         )}
-                      </IonNote>
+                        </h2>
+                      </IonText>
                     </IonCol>
                   </IonRow>
                 </IonGrid>
@@ -109,7 +111,7 @@ export const FuneralPrayerPage: React.FC = () => {
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
@@ -179,7 +181,7 @@ export const FuneralPrayerPage: React.FC = () => {
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >
@@ -223,7 +225,7 @@ export const FuneralPrayerPage: React.FC = () => {
             <IonItem
               key="1"
               detail={false}
-              color="light"
+              className="lesson-note"
               lines="none"
               style={{ marginLeft: "15px", marginRight: "15px" }}
             >

@@ -53,35 +53,35 @@ const SupplicationMainPage: React.FC = () => {
         <div className="ion-padding">
           <IonList className="white">
             <IonItem
-              color="light"
+              className="lesson-note"
               lines="full"
               routerLink="/tabs/SupplicationValuePage"
             >
               <IonText slot="start">
-                <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>
+                <h2 className="black" style={{ fontSize: "18px", fontWeight: "bold" }}>
                   {translationService.getLabel("label-book3-lesson16-title")}
                 </h2>
               </IonText>
             </IonItem>
 
             <IonItem
-              color="light"
+              className="lesson-note"
               lines="full"
               routerLink="/tabs/MessangersSupplicationsPage"
             >
               <IonText slot="start">
-                <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>
+                <h2 className="black" style={{ fontSize: "18px", fontWeight: "bold" }}>
                   {translationService.getLabel("label-book3-lesson17-title")}
                 </h2>
               </IonText>
             </IonItem>
             <IonItem
-              color="light"
+              className="lesson-note"
               lines="full"
               routerLink="/tabs/DailySupplicationsPage"
             >
               <IonText slot="start">
-                <h2 style={{ fontSize: "18px", fontWeight: "bold" }}>
+                <h2 className="black" style={{ fontSize: "18px", fontWeight: "bold" }}>
                   {translationService.getLabel("label-book3-lesson18-title")}
                 </h2>
               </IonText>

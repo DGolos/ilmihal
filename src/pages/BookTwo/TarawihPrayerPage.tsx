@@ -8,7 +8,7 @@ export const TarawihPrayerPage: React.FC = () => {
           <IonHeader className="ion-no-border">
             <IonToolbar>
               <IonButtons slot="start">
-                <IonBackButton color="light" defaultHref="/BookTwoMainPage" />
+                <IonBackButton className="white" defaultHref="/BookTwoMainPage" />
               </IonButtons>
             </IonToolbar>
           </IonHeader>

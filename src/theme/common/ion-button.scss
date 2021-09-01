@@ -6,6 +6,14 @@ ion-button {
   text-transform: none;
 }
 
+ion-back-button.white{
+  color:#FFFFFF;
+}
+
+ion-button.white{
+  --background: rgba(255,255,255);
+}
+
 ion-button.burgundy {
   --background: rgba(85, 26, 139, 1);
 }
@@ -15,4 +23,16 @@ ion-button.pressed{
 }
 ion-button.menu{
   --border-radius: 14px;
+}
+
+ion-fab-button.white{
+  --background: rgba(255,255,255);
+}
+
+ion-icon.white{
+  --background: rgba(255,255,255);
+}
+
+ion-icon.black{
+  --background: rgba(0,0,0);
 }

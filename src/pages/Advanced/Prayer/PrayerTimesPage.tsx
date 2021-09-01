@@ -41,7 +41,7 @@ const PrayerTimesPage: React.FC = () => {
       <IonHeader className="ion-no-border standard">
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton color="light" defaultHref="/tabs/MainCategoryPage" />
+            <IonBackButton className="white" defaultHref="/tabs/MainCategoryPage" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -66,7 +66,7 @@ const PrayerTimesPage: React.FC = () => {
           <IonGrid>
             <IonRow>
               <IonCol size="8">
-                <IonText color="light" style={{fontSize:"18px",fontWeight:"normal"}}>{prayers?.city}, {prayers?.country==="BA"?"Bosna i Hercegovina":"Norge"}</IonText>
+                <IonText className="white" style={{fontSize:"18px",fontWeight:"normal"}}>{prayers?.city}, {prayers?.country==="BA"?"Bosna i Hercegovina":"Norge"}</IonText>
               </IonCol>
               <IonCol size="4">
                 <IonButton className="pressed no-shadow" onClick={() => {
@@ -79,54 +79,54 @@ const PrayerTimesPage: React.FC = () => {
           </IonGrid>
         </div>
         <div className="ion-padding">
-          <IonList>
-            <IonItem lines="full">
+          <IonList className="white">
+            <IonItem lines="full" className="lesson-note">
               <IonText slot="start" >
-                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-beginning-fasting')}</h2>
+                <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-beginning-fasting')}</h2>
               </IonText>
               <IonText slot="end">
-                <h2 style={{fontSize:"16px"}}>{prayers?.startOfFast}</h2>
+                <h2 className="black" style={{fontSize:"16px"}}>{prayers?.startOfFast}</h2>
               </IonText>
             </IonItem>
 
-            <IonItem lines="full">
+            <IonItem lines="full" className="lesson-note">
               <IonText slot="start">
-                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-fajr-prayer')}</h2>
+                <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-fajr-prayer')}</h2>
               </IonText>
               <IonText slot="end">
-                <h2 style={{fontSize:"16px"}}>{prayers?.fajr}</h2>
+                <h2 className="black" style={{fontSize:"16px"}}>{prayers?.fajr}</h2>
               </IonText>
             </IonItem>
-            <IonItem lines="full">
+            <IonItem lines="full" className="lesson-note">
               <IonText slot="start">
-                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-dhuhr-prayer')}</h2>
+                <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-dhuhr-prayer')}</h2>
               </IonText>
               <IonText slot="end">
-                <h2 style={{fontSize:"16px"}}>{prayers?.dhuhr}</h2>
+                <h2 className="black" style={{fontSize:"16px"}}>{prayers?.dhuhr}</h2>
               </IonText>
             </IonItem>
-            <IonItem lines="full">
+            <IonItem lines="full" className="lesson-note">
               <IonText slot="start">
-                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-asr-prayer')}</h2>
+                <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-asr-prayer')}</h2>
               </IonText>
               <IonText slot="end">
-                <h2 style={{fontSize:"16px"}}>{prayers?.asr}</h2>
+                <h2 className="black" style={{fontSize:"16px"}}>{prayers?.asr}</h2>
               </IonText>
             </IonItem>
-            <IonItem lines="full">
+            <IonItem lines="full" className="lesson-note">
               <IonText slot="start">
-                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-maghrib-prayer')}</h2>
+                <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-maghrib-prayer')}</h2>
               </IonText>
               <IonText slot="end">
-                <h2 style={{fontSize:"16px"}}>{prayers?.maghrib}</h2>
+                <h2 className="black" style={{fontSize:"16px"}}>{prayers?.maghrib}</h2>
               </IonText>
             </IonItem>
-            <IonItem lines="full">
+            <IonItem lines="full" className="lesson-note">
               <IonText slot="start">
-                <h2 style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-isha-prayer')}</h2>
+                <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-isha-prayer')}</h2>
               </IonText>
               <IonText slot="end">
-                <h2 style={{fontSize:"16px"}}>{prayers?.isha}</h2>
+                <h2 className="black" style={{fontSize:"16px"}}>{prayers?.isha}</h2>
               </IonText>
             </IonItem>
           </IonList>

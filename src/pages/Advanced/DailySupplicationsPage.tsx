@@ -56,7 +56,7 @@ export const DailySupplicationsPage: React.FC = () => {
           </IonCardContent>
         </IonCard>
         <div className="ion-padding">
-          <IonItem detail={false} color="light" lines="none">
+          <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
@@ -86,7 +86,7 @@ export const DailySupplicationsPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </IonItem>
-          <IonItem detail={false} color="light" lines="none">
+          <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
@@ -116,7 +116,7 @@ export const DailySupplicationsPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </IonItem>
-          <IonItem detail={false} color="light" lines="none">
+          <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
@@ -146,7 +146,7 @@ export const DailySupplicationsPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </IonItem>
-          <IonItem detail={false} color="light" lines="none">
+          <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
@@ -176,7 +176,7 @@ export const DailySupplicationsPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </IonItem>
-          <IonItem detail={false} color="light" lines="none">
+          <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
@@ -206,7 +206,7 @@ export const DailySupplicationsPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </IonItem>
-          <IonItem detail={false} color="light" lines="none">
+          <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
@@ -236,7 +236,7 @@ export const DailySupplicationsPage: React.FC = () => {
               </IonRow>
             </IonGrid>
           </IonItem>
-          <IonItem detail={false} color="light" lines="none">
+          <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">

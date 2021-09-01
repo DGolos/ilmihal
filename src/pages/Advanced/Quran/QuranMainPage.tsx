@@ -47,7 +47,7 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
       routerLink={`/tabs/Quran${match.params.type}/${surah.id}`}
       lines="none"
       detail={false}
-      color="light"
+      className="lesson-note"
     >
       <IonAvatar className={`surah ${surah.color}`}>
         <IonLabel className="ion-padding-top">
@@ -55,8 +55,8 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
         </IonLabel>
       </IonAvatar>
       <IonLabel className="ion-padding-start">
-        <h4 className="name">{surah.name}</h4>
-        <h6>
+        <h4 className="name black">{surah.name}</h4>
+        <h6 className="black">
           {surah.revelationCity} {surah.numberOfAyah} {translationService.getLabel('label-ayahs')}
         </h6>
       </IonLabel>
@@ -77,14 +77,13 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
       </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
         <IonSearchbar
-          color="light"
-          className="ion-padding"
+          className="ion-padding white"
           placeholder="Traži"
           value={searchText}
           onIonChange={(e) => setSearchText(e.detail.value!)}
         ></IonSearchbar>
 
-        <IonList className="ion-padding">{surahsListItems}</IonList>
+        <IonList className="transparent ion-padding">{surahsListItems}</IonList>
       </IonContent>
     </IonPage>
   );

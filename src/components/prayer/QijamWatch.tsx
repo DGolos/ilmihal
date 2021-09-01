@@ -3,9 +3,9 @@ import {
   IonCol,
   IonGrid,
   IonItem,
-  IonNote,
   IonRow,
   IonSlide,
+  IonText,
   useIonViewWillEnter,
 } from "@ionic/react";
 import React, { useState } from "react";
@@ -54,16 +54,16 @@ const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color,stepValue,ma
           <IonItem
             key="1"
             detail={false}
-            color="light"
+            className="lesson-note"
             lines="none"
             style={{ marginLeft: "15px", marginRight: "15px" }}
           >
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
-                  <IonNote>
-                    <h2>{currentRakah}</h2>
-                  </IonNote>
+                  <IonText>
+                    <h2 className="black">{currentRakah}</h2>
+                  </IonText>
                 </IonCol>
               </IonRow>
               <IonRow>
@@ -81,15 +81,22 @@ const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color,stepValue,ma
 
               <IonRow>
                 <IonCol size="12">
-                  <IonNote hidden={!showFull}>
+                  <IonText hidden={!showFull}>
+                    <h2 className="lesson-note">
                     {translationService.getLabel('label-prayer-qijam-description-first-rakah')}
-                  </IonNote>
-                  <IonNote hidden={!showSunnah}>
+                    </h2>
+                    
+                  </IonText>
+                  <IonText hidden={!showSunnah}>
+                  <h2 className="lesson-note">
                   {translationService.getLabel('label-prayer-qijam-description-second-rakah')}
-                  </IonNote>
-                  <IonNote hidden={!showFardh}>
+                  </h2>
+                  </IonText>
+                  <IonText hidden={!showFardh}>
+                  <h2 className="lesson-note">
                   {translationService.getLabel('label-prayer-qijam-description-third-rakah')}
-                  </IonNote>
+                  </h2>
+                  </IonText>
                 </IonCol>
               </IonRow>
             </IonGrid>

@@ -188,10 +188,9 @@ export const AyahPage: React.FC<
       key={ayah.id}
       id={ayah.id.toString()}
       detail={false}
-      color="light"
       lines="none"
       style={{ marginLeft: "15px", marginRight: "15px" }}
-      className={`${ayah.id === currentAyah ? `border-${surah?.color}` : ""}`}
+      className={`${ayah.id===currentAyah?`border-${surah?.color} lesson-note`:"lesson-note"}`}
     >
       <IonGrid>
         <IonRow hidden={showArabic === false}>
@@ -236,12 +235,12 @@ export const AyahPage: React.FC<
           </IonCol>
           <IonCol size="2">
             <IonButton
-              className="no-shadow"
+              className="no-shadow white"
               onClick={() => {
                 playlist(ayah.id);
               }}
               fill="solid"
-              color="light"
+              
             >
               <IonIcon
                 slot="icon-only"
@@ -257,12 +256,12 @@ export const AyahPage: React.FC<
           </IonCol>
           <IonCol size="2">
             <IonButton
-              className="no-shadow"
+              className="no-shadow white"
               onClick={() => {
                 toglePlayPause()
               }}
               fill="solid"
-              color="light"
+              
             >
               <IonIcon
                 slot="icon-only"
@@ -376,13 +375,13 @@ export const AyahPage: React.FC<
             style={{ marginLeft: "75px", marginRight: "75px" }}
             onIonChange={(e) => setFontSize(e.detail.value as number)}
           >
-            <IonLabel slot="start" className="ion-no-padding" style={{fontSize:"14px"}}>
+            <IonLabel slot="start" className="ion-no-padding black" style={{fontSize:"14px"}}>
             {translationService.getLabel("label-header-font-size")}
             </IonLabel>
           </IonRange>
         </div>
 
-        <IonList>{ayahListItems}</IonList>
+        <IonList className="transparent">{ayahListItems}</IonList>
       </IonContent>
     </IonPage>
   );

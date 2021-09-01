@@ -102,7 +102,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-read-quran-description')}
                     </h6>
                   </IonRow>
@@ -134,7 +134,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-quran-revelation-description')}
                     </h6>
                   </IonRow>
@@ -168,7 +168,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-quran-recitation-description')}
                     </h6>
                   </IonRow>
@@ -200,7 +200,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-quran-chosen-verses-description')}
                     </h6>
                   </IonRow>
@@ -232,7 +232,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                       Prijevodi Časnog Kur'ana na bosanski jezik
                     </h6>
                   </IonRow>
@@ -274,7 +274,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-daily-prayer-description')}
                     </h6>
                   </IonRow>
@@ -303,7 +303,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-other-prayer-description')}
                     </h6>
                   </IonRow>
@@ -340,7 +340,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-wudhu-description')}
                     </h6>
                   </IonRow>
@@ -372,7 +372,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-ghusl-description')}
                     </h6>
                   </IonRow>
@@ -415,7 +415,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-ramadhan-description')}
                     </h6>
                   </IonRow>
@@ -444,7 +444,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-zakah-description')}
                     </h6>
                   </IonRow>
@@ -481,7 +481,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-hajj-description')}
                     </h6>
                   </IonRow>
@@ -525,7 +525,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-dua-description')}
                     </h6>
                   </IonRow>
@@ -554,7 +554,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-tasbih-description')}
                     </h6>
                   </IonRow>
@@ -591,7 +591,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-shahada-description')}
                     </h6>
                   </IonRow>
@@ -636,7 +636,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-sira-description')}
                     </h6>
                   </IonRow>
@@ -665,7 +665,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-hadith-description')}
                     </h6>
                   </IonRow>
@@ -702,7 +702,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     {translationService.getLabel('label-sahaba-description')}
                     </h6>
                   </IonRow>
@@ -745,7 +745,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                       Alimi koji su dali veliki doprinos islamu u Bosni
                     </h6>
                   </IonRow>
@@ -775,7 +775,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     Kratko o našoj domovini Bosni i Hercegovini
                     </h6>
                   </IonRow>
@@ -812,7 +812,7 @@ const MainCategoryPage: React.FC = () => {
                     </IonLabel>
                   </IonRow>
                   <IonRow>
-                    <h6 style={{fontSize:"12px"}}>
+                    <h6 className="black" style={{fontSize:"12px"}}>
                     Kratko o vrijednostima bošnjačke kulture i tradicije
                     </h6>
                   </IonRow>
