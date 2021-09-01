@@ -68,8 +68,8 @@ const ImanMainPage: React.FC = () => {
             className="welcome ion-text-center"
           >
             <IonLabel className="white">
-              <h4 style={{fontSize:"20px"}}> Amentu billahi</h4>
-              <p style={{fontSize:"16px"}}>
+              <h4 className="white" style={{fontSize:"24px"}}> Amentu billahi</h4>
+              <p className="white" style={{fontSize:"16px"}}>
                 
                 {translationService.getLabel("label-book1-lesson11-paragraph3")}
               </p>
@@ -83,8 +83,8 @@ const ImanMainPage: React.FC = () => {
             className="welcome ion-text-center"
           >
             <IonText>
-              <h4 className="black" style={{fontSize:"20px"}}> Ve melaiketihi</h4>
-              <p className="black" style={{fontSize:"16px"}}>
+              <h4 className="white" style={{fontSize:"24px"}}> Ve melaiketihi</h4>
+              <p className="white" style={{fontSize:"16px"}}>
                
                 {translationService.getLabel("label-book1-lesson11-paragraph4")}
               </p>
@@ -99,8 +99,8 @@ const ImanMainPage: React.FC = () => {
           >
             
             <IonText>
-              <h4 className="black" style={{fontSize:"20px"}}> Ve kutubihi</h4>
-              <p className="black"  style={{fontSize:"16px"}}>
+              <h4 className="white" style={{fontSize:"24px"}}> Ve kutubihi</h4>
+              <p className="white"  style={{fontSize:"16px"}}>
                
                 {translationService.getLabel("label-book1-lesson11-paragraph5")}
               </p>
@@ -115,8 +115,8 @@ const ImanMainPage: React.FC = () => {
           >
             
             <IonText>
-              <h4 className="black" style={{fontSize:"20px"}}> Ve rusulihi</h4>
-              <p className="black" style={{fontSize:"16px"}}>
+              <h4 className="white" style={{fontSize:"24px"}}> Ve rusulihi</h4>
+              <p className="white" style={{fontSize:"16px"}}>
                 {translationService.getLabel("label-book1-lesson11-paragraph6")}{" "}
               </p>
             </IonText>
@@ -130,8 +130,8 @@ const ImanMainPage: React.FC = () => {
           >
             
             <IonText>
-              <h4 className="black" style={{fontSize:"20px"}}> Vel jevmil-ahiri</h4>
-              <p className="black" style={{fontSize:"16px"}}>
+              <h4 className="white" style={{fontSize:"24px"}}> Vel jevmil-ahiri</h4>
+              <p className="white" style={{fontSize:"16px"}}>
                
                 {translationService.getLabel("label-book1-lesson11-paragraph7")}
               </p>
@@ -146,8 +146,8 @@ const ImanMainPage: React.FC = () => {
           >
             
             <IonText>
-              <h4 className="black" style={{fontSize:"18px"}}> Ve bil-kaderi hajrihi ve šerrihi minellahi teala</h4>
-              <p className="black" style={{fontSize:"14px"}}>
+              <h4 className="white" style={{fontSize:"18px"}}> Ve bil-kaderi hajrihi ve šerrihi minellahi teala</h4>
+              <p className="white" style={{fontSize:"14px"}}>
                 
                 {translationService.getLabel("label-book1-lesson11-paragraph8")}
               </p>
