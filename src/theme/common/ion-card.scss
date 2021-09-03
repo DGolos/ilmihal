@@ -55,6 +55,11 @@ ion-card-title.black{
   color:black;
 }
 
-ion-searchbar.white{
-  color:#FFFFFF;
+ion-searchbar{
+  .searchbar-input-container{
+    input{
+      color:black;
+    }
+    --background: rgba(255, 255, 255);
+  }
 }

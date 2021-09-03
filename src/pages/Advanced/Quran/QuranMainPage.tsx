@@ -77,8 +77,8 @@ export const QuranMainPage: React.FC<RouteComponentProps<{ type: string }>> = ({
       </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
         <IonSearchbar
-          className="ion-padding white"
-          placeholder="Traži"
+          className="ion-padding"
+          placeholder={translationService.getLabel('label-search')}
           value={searchText}
           onIonChange={(e) => setSearchText(e.detail.value!)}
         ></IonSearchbar>
