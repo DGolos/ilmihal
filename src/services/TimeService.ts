@@ -116,7 +116,7 @@ class TimeService {
         this.isha = timeTable[5];
   
       }else{
-        const response=await axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${this.currentLocation.id}&country=${this.currentLocation.country}&method=2&latitudeAdjustmentMethod=3&school=1`);
+        const response=await axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${this.currentLocation.id}&country=${this.currentLocation.country}&method=3&latitudeAdjustmentMethod=3&school=1`);
         
         const fajrObj = moment(response.data.data.timings.Fajr,"H:m");
         this.fajr = moment.utc((fajrObj.hours() * 3600 + fajrObj.minutes() * 60) * 1000).format("HH:mm");
