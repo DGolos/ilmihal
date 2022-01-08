@@ -118,7 +118,7 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
       <IonContent color="burgundy" fullscreen>
         <IonCard className="surah" color="burgundy">
           <div className="overlay">
-            <img className="mask" src="./assets/images/quran-page.jpg" />
+            <img className="mask" src="./assets/images/quran-page.jpg" alt=""/>
           </div>
 
           <div>
@@ -157,7 +157,7 @@ export const QuranPlayerPage: React.FC<RouteComponentProps<{ id: string }>> = ({
         >
           <IonItem className="reciter">
             <IonAvatar>
-              <img src="./assets/images/Mishary.jpg" />
+              <img src="./assets/images/Mishary.jpg" alt=""/>
             </IonAvatar>
             <IonText className="ion-padding-start">
             <h4>Mishary Al Alfasy</h4>

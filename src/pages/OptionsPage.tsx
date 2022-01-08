@@ -36,17 +36,17 @@ const OptionsPage: React.FC = () => {
   }
 
   const openHomePage=async()=>{
-    const browser = InAppBrowser.create("https://izbih.no");
+    InAppBrowser.create("https://izbih.no");
     
   }
 
   const openTermsOfUse=async()=>{
-    const browser = InAppBrowser.create("https://izbih.no/privacy-policy");
+    InAppBrowser.create("https://izbih.no/privacy-policy");
     
   }
 
   const openFacebook=async()=>{
-    const browser = InAppBrowser.create("https://www.facebook.com/DetIslamskeFellesskapBosniaHerzegovina/");
+    InAppBrowser.create("https://www.facebook.com/DetIslamskeFellesskapBosniaHerzegovina/");
     
   }
 

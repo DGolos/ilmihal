@@ -2,19 +2,10 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import {
   IonApp,
-  IonIcon,
-  IonLabel,
   IonLoading,
-  IonRouterOutlet,
-  IonTabBar,
-  IonTabButton,
-  IonTabs
+  IonRouterOutlet
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { bookOutline, homeOutline, informationOutline, settingsOutline} from 'ionicons/icons';
-import HomePage from './pages/HomePage';
-import MainCategoryPage from './pages/MainCategoryPage';
-import OptionsPage from './pages/OptionsPage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';

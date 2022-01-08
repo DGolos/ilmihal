@@ -96,6 +96,7 @@ const WudhuPage: React.FC = () => {
                 <img
                   style={{ height: 230 }}
                   src="/assets/images/WudhuHands.png"
+                  alt=""
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
@@ -142,6 +143,7 @@ const WudhuPage: React.FC = () => {
                 <img
                   style={{ height: 230 }}
                   src="/assets/images/WudhuMouth.png"
+                  alt=""
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
@@ -188,6 +190,7 @@ const WudhuPage: React.FC = () => {
                 <img
                   style={{ height: 230 }}
                   src="/assets/images/WudhuNose.png"
+                  alt=""
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
@@ -234,6 +237,7 @@ const WudhuPage: React.FC = () => {
                 <img
                   style={{ height: 230 }}
                   src="/assets/images/WudhuFace.png"
+                  alt=""
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
@@ -280,6 +284,7 @@ const WudhuPage: React.FC = () => {
                 <img
                   style={{ height: 230 }}
                   src="/assets/images/WudhuElbow.png"
+                  alt=""
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
@@ -326,6 +331,7 @@ const WudhuPage: React.FC = () => {
                 <img
                   style={{ height: 230 }}
                   src="/assets/images/WudhuHead.png"
+                  alt=""
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
@@ -372,6 +378,7 @@ const WudhuPage: React.FC = () => {
                 <img
                   style={{ height: 230 }}
                   src="/assets/images/WudhuEars.png"
+                  alt=""
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem
@@ -418,6 +425,7 @@ const WudhuPage: React.FC = () => {
                 <img
                   style={{ height: 230 }}
                   src="/assets/images/WudhuFeet.png"
+                  alt=""
                 />
                 <div style={{ marginTop: "15px" }}>
                   <IonItem

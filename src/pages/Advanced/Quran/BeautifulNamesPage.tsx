@@ -85,6 +85,7 @@ export const BeautifulNamesPage: React.FC = () => {
               <img
                 style={{ height: 230 }}
                 src="/assets/images/Allah-razimic.svg"
+                alt=""
               />
             </IonSlide>
             <IonSlide>

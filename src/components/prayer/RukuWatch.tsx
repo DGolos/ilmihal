@@ -41,7 +41,7 @@ const RukuWatch: React.FC<RukuProps> = ({
     <>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Ruku.png" />
+          <img style={{ height: 350 }} src="/assets/images/Ruku.png" alt=""/>
           <div>
             <IonItem
               key="1"
@@ -92,7 +92,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Beginning.png" />
+          <img style={{ height: 350 }} src="/assets/images/Beginning.png" alt=""/>
           <div>
             <IonItem
               key="1"
@@ -145,7 +145,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Sujud.png" />
+          <img style={{ height: 350 }} src="/assets/images/Sujud.png" alt=""/>
           <div>
             <IonItem
               key="1"
@@ -196,7 +196,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Tashashud.png" />
+          <img style={{ height: 350 }} src="/assets/images/Tashashud.png" alt=""/>
           <div>
             <IonItem
               key="1"
@@ -249,7 +249,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Sujud.png" />
+          <img style={{ height: 350 }} src="/assets/images/Sujud.png" alt=""/>
           <div>
             <IonItem
               key="1"

@@ -37,7 +37,7 @@ RouteComponentProps<{ bookId: string; lessonId: string }>
   const [isPlaying, setIsPlaying] = useState(false);
   const playerRef = useRef(new Howl({ src: [""] }));
   const [isLoaded, setIsLoaded] = useState(false);
-  const [lesson, setLesson] = useState<Lesson>(new Lesson);
+  const [lesson, setLesson] = useState<Lesson>(new Lesson());
   const [segmentSections,setSegmentSections]=useState<LessonSection[]>([]);  
   const [standardSections,setStandardSections]=useState<LessonSection[]>([]);
 

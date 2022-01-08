@@ -18,7 +18,7 @@ const CreditsPage: React.FC = () => {
             
           >
             <IonCardHeader>
-              <img src="/assets/images/izbun.png"/>
+              <img src="/assets/images/izbun.png" alt=""/>
             </IonCardHeader>
             
           </IonCard>

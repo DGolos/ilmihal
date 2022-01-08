@@ -7,7 +7,6 @@ import {
   IonGrid,
   IonHeader,
   IonItem,
-  IonNote,
   IonPage,
   IonRow,
   IonSlide,

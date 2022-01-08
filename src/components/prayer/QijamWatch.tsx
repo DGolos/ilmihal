@@ -49,7 +49,7 @@ const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color,stepValue,ma
   return (
     <IonSlide>
       <div>
-        <img style={{ height: 350 }} src="/assets/images/Qijam.png" />
+        <img style={{ height: 350 }} src="/assets/images/Qijam.png" alt=""/>
         <div>
           <IonItem
             key="1"

@@ -40,25 +40,19 @@ export const QuranReaderPage: React.FC<RouteComponentProps<{ id: string }>> = ({
   const [showTranslation, setShowTranslation] = useState(true);
   const [showTransliteration, setShowTransliteration] = useState(true);
   const playerRef=useRef(new Howl({src:[""]}));
-  const [bismillah, setBismillah] = useState(
+  const [bismillah] = useState(
     "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
   );
   const [translator, setTranslator] = useState("");
   const contentRef = useRef<HTMLIonContentElement | null>(null);
 
-  const loadSurah = () => {
-    
+  
+  useEffect(() => {
     setSurah(dataService.getSurahById(+(match.params.id)));
     setAyahs(plainToClass(Ayah, dataService.getAyahForSurah(+match.params.id)));
     setTranslator(translationService.getLabel("label-translator"));
-    
-  };
 
-  useEffect(() => {
-    loadSurah();
-
-    
-  },[]);
+  },[match.params.id]);
   
   useIonViewDidLeave(() => {
     playerRef.current.unload();
@@ -350,7 +344,7 @@ const toglePlayPause=()=>{
         </IonGrid>
         <IonCard color={surah?.color} className="surah">
           <div className="overlay">
-            <img className="mask" src="./assets/images/quran-page.jpg" />
+            <img className="mask" src="./assets/images/quran-page.jpg" alt=""/>
           </div>
 
           <div>

@@ -48,7 +48,9 @@ export const AyahPage: React.FC<
 
   const contentRef = useRef<HTMLIonContentElement | null>(null);
 
-  const loadSurah = () => {
+
+
+  useEffect(() => {
     setSurah(dataService.getSurahById(+match.params.surahId));
     setAyahs(
       plainToClass(
@@ -61,13 +63,9 @@ export const AyahPage: React.FC<
       )
     );
     setTranslator(translationService.getLabel("label-translator"));
-  };
-
-  useEffect(() => {
-    loadSurah();
 
     
-  }, []);
+  }, [match.params.surahId,match.params.firstAyahId,match.params.lastAyahId]);
 
   useIonViewDidLeave(() => {
     playerRef.current.unload();
@@ -346,7 +344,7 @@ export const AyahPage: React.FC<
         </IonGrid>
         <IonCard color={surah?.color} className="surah">
           <div className="overlay">
-            <img className="mask" src="./assets/images/quran-page.jpg" />
+            <img className="mask" src="./assets/images/quran-page.jpg" alt=""/>
           </div>
 
           <div>

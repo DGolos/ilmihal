@@ -15,7 +15,7 @@ const UnderConstructionPage: React.FC = () => {
         </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
       <div className="ion-padding">
-        <img style={{ height: 350 }} src="/assets/images/under-construction.jpg" />
+        <img style={{ height: 350 }} src="/assets/images/under-construction.jpg" alt=""/>
         
       </div>
       </IonContent>

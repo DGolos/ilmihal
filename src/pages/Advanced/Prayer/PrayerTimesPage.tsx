@@ -1,18 +1,14 @@
 import {
-  IonBackButton,
   IonButton,
-  IonButtons,
   IonCard,
   IonCol,
   IonContent,
   IonGrid,
-  IonHeader,
   IonItem,
   IonList,
   IonPage,
   IonRow,
   IonText,
-  IonToolbar,
   useIonViewWillEnter
 } from "@ionic/react";
 import React, { useState } from "react";
@@ -38,13 +34,7 @@ const PrayerTimesPage: React.FC = () => {
 
   return (
     <IonPage>
-      <IonHeader className="ion-no-border standard">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton className="white" defaultHref="/tabs/MainCategoryPage" />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
+      
       <IonContent className={`bg-image-${ prayers?.period}`} fullscreen>
         <IonCard className="prayer ion-padding transparent ion-text-center">
           

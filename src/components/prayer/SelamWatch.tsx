@@ -31,7 +31,7 @@ import { Progress } from "../common/Progress";
     return (
         <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Selam.png" />
+          <img style={{ height: 350 }} src="/assets/images/Selam.png" alt=""/>
           <div>
             <IonItem
               key="1"

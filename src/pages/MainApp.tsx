@@ -7,7 +7,7 @@ import {
   IonTabs,
 } from "@ionic/react";
 
-import { bookOutline, homeOutline, informationOutline } from "ionicons/icons";
+import { alarmOutline, bookOutline, homeOutline, informationOutline } from "ionicons/icons";
 import React from "react";
 import { Redirect, Route } from "react-router";
 import { translationService } from "../services/TranslationService";
@@ -241,6 +241,12 @@ const MainApp: React.FC<MainAppProps> = () => {
             <IonIcon icon={bookOutline} color="burgundy" />
             <IonLabel>
               {translationService.getLabel("label-tab-treasure")}
+            </IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="/tabs/PrayerTimes/" href="/tabs/PrayerTimes/">
+            <IonIcon icon={alarmOutline} color="burgundy" />
+            <IonLabel>
+              Vaktija
             </IonLabel>
           </IonTabButton>
           <IonTabButton tab="/tabs/OptionsPage" href="/tabs/OptionsPage">

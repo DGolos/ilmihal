@@ -39,7 +39,7 @@ export const MagribPrayerWatchPage: React.FC<
       setPrayerType(translationService.getLabel("label-maghrib-fardh"));
       setPrayerLength(23);
     }
-  }, []);
+  }, [match.params.type]);
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
@@ -76,6 +76,7 @@ export const MagribPrayerWatchPage: React.FC<
                 <img
                   style={{ height: 330 }}
                   src="/assets/images/Beginning.png"
+                  alt=""
                 />
                 <div>
                   <IonItem
@@ -127,7 +128,7 @@ export const MagribPrayerWatchPage: React.FC<
             </IonSlide>
             <IonSlide>
               <div>
-                <img style={{ height: 350 }} src="/assets/images/Tekbir.png" />
+                <img style={{ height: 350 }} src="/assets/images/Tekbir.png" alt=""/>
                 <div>
                   <IonItem
                     key="1"

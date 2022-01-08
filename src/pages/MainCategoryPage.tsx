@@ -90,6 +90,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Book.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -122,6 +123,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Revelation.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -156,6 +158,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/ChosenVerses.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -188,6 +191,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/ChosenVerses.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -220,6 +224,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/ChosenVerses.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -253,35 +258,6 @@ const MainCategoryPage: React.FC = () => {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 <IonCard
-                  routerLink={`/tabs/PrayerTimes`}
-                  color="light"
-                  class="category"
-                >
-                  <IonRow className="ion-no-padding">
-                    <img
-                      src="/assets/images/PrayerTimes.png"
-                      height="40px"
-                      width="40px"
-                    />
-
-                    <IonLabel className="ion-padding-start ion-text-centered">
-                      <span>
-                        <h4 className="title">{translationService.getLabel('label-daily-prayer-1')}</h4>
-                      </span>
-                      <span>
-                        <h4 className="title">{translationService.getLabel('label-daily-prayer-2')}</h4>
-                      </span>
-                    </IonLabel>
-                  </IonRow>
-                  <IonRow>
-                    <h6 className="black" style={{fontSize:"12px"}}>
-                    {translationService.getLabel('label-daily-prayer-description')}
-                    </h6>
-                  </IonRow>
-                </IonCard>
-              </IonCol>
-              <IonCol size="6">
-                <IonCard
                   routerLink={`/tabs/VoluntaryPrayersPage`}
                   color="light"
                   class="category"
@@ -291,6 +267,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Prayers.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -309,16 +286,8 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                 </IonCard>
               </IonCol>
-            </IonRow>
-            <IonRow
-              className="ion-no-padding"
-              style={{ marginTop: "0px", marginBottom: "0px" }}
-            >
-              <IonCol
-                size="6"
-                style={{ marginTop: "0px", marginBottom: "0px" }}
-              >
-                <IonCard
+              <IonCol size="6">
+              <IonCard
                   routerLink={`/tabs/WudhuPage`}
                   color="light"
                   class="category"
@@ -328,15 +297,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Wudhu.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-wudhu')}</h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -346,6 +314,11 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                 </IonCard>
               </IonCol>
+            </IonRow>
+            <IonRow
+              className="ion-no-padding"
+              style={{ marginTop: "0px", marginBottom: "0px" }}
+            >
               <IonCol
                 size="6"
                 style={{ marginTop: "0px", marginBottom: "0px" }}
@@ -360,15 +333,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Gusl.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-ghusl')}</h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                     
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -378,6 +350,7 @@ const MainCategoryPage: React.FC = () => {
                   </IonRow>
                 </IonCard>
               </IonCol>
+              
               
             </IonRow>
           </IonGrid>
@@ -403,15 +376,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Fasting.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-ramadhan')}</h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -432,15 +404,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Charity.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-zakah')} </h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                     
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -469,15 +440,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Kaba.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-hajj')}</h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -513,15 +483,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Dua.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-dua')} </h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -542,15 +511,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Tasbih.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-tasbih')} </h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -579,15 +547,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Shahadah.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-shahada')}</h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -624,15 +591,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/History.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-sira')} </h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -653,15 +619,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Hadith.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-book3-lesson1-title')} </h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -690,15 +655,14 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/Ashabi.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
                       <span>
                         <h4 className="title">{translationService.getLabel('label-sahaba')}</h4>
                       </span>
-                      <span>
-                        <h4 className="title"></h4>
-                      </span>
+                      
                     </IonLabel>
                   </IonRow>
                   <IonRow>
@@ -733,6 +697,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/IslamHistory.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -762,6 +727,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/BosnianHistory.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">
@@ -800,6 +766,7 @@ const MainCategoryPage: React.FC = () => {
                       src="/assets/images/BosnianPeople.png"
                       height="40px"
                       width="40px"
+                      alt=""
                     />
 
                     <IonLabel className="ion-padding-start ion-text-centered">

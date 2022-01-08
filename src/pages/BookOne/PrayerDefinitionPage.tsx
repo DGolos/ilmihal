@@ -45,7 +45,7 @@ const PrayerDefinitionPage: React.FC = () => {
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/fajr.png'/>
+                      <img src='assets/images/fajr.png' alt=""/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
@@ -61,7 +61,7 @@ const PrayerDefinitionPage: React.FC = () => {
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/dhuhr.png'/>
+                      <img src='assets/images/dhuhr.png' alt=""/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
@@ -78,7 +78,7 @@ const PrayerDefinitionPage: React.FC = () => {
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/asr.png'/>
+                      <img src='assets/images/asr.png' alt=""/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
@@ -94,7 +94,7 @@ const PrayerDefinitionPage: React.FC = () => {
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/maghrib.png'/>
+                      <img src='assets/images/maghrib.png' alt=""/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
@@ -110,7 +110,7 @@ const PrayerDefinitionPage: React.FC = () => {
                 <IonRow className="ion-align-items-center">
                   <IonCol size="3">
                     <div>
-                      <img src='assets/images/isha.png'/>
+                      <img src='assets/images/isha.png' alt=""/>
                     </div>
                   </IonCol>
                   <IonCol size="9" className="ion-padding">
