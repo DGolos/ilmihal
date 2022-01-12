@@ -175,6 +175,11 @@ const ChooseLocationPage: React.FC = () => {
       },
       {
         id: "Sarpsborg",
+        name: "Sarpsborg",
+        country: "NO",
+      },
+      {
+        id: "Ostfold",
         name: "Østfold",
         country: "NO",
       },
@@ -184,7 +189,7 @@ const ChooseLocationPage: React.FC = () => {
         country: "NO",
       },
       {
-        id: "Tromsø",
+        id: "Tromso",
         name: "Tromsø",
         country: "NO",
       },
@@ -209,8 +214,13 @@ const ChooseLocationPage: React.FC = () => {
         country: "NO",
       },
       {
-        id: "Hamar",
+        id: "Gjøvik",
         name: "Gjøvik",
+        country: "NO",
+      },
+      {
+        id: "Lyngdal",
+        name: "Lyngdal",
         country: "NO",
       },
     ];

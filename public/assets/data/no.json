@@ -20,6 +20,26 @@
         "value":"Endre"
     },
     {
+        "name":"label-monthly_prayer-times",
+        "value":"Månedlig"
+    },
+    {
+        "name":"label-previous",
+        "value":"Forrige"
+    },
+    {
+        "name":"label-next",
+        "value":"Neste"
+    },
+    {
+        "name":"label-man",
+        "value":"Mann"
+    },
+    {
+        "name":"label-woman",
+        "value":"Kvinne"
+    },
+    {
         "name":"label-search",
         "value":"Søk"
     },
@@ -38,6 +58,54 @@
     {
         "name":"label-welcome-hadeeth",
         "value":"\"Allah skal gjøre veien til paradiset lett for alle som søker kunskap.\""
+    },
+    {
+        "name":"label-month-1",
+        "value":"Januar"
+    },
+    {
+        "name":"label-month-2",
+        "value":"Februar"
+    },
+    {
+        "name":"label-month-3",
+        "value":"Mars"
+    },
+    {
+        "name":"label-month-4",
+        "value":"April"
+    },
+    {
+        "name":"label-month-5",
+        "value":"Mai"
+    },
+    {
+        "name":"label-month-6",
+        "value":"Juni"
+    },
+    {
+        "name":"label-month-7",
+        "value":"Juli"
+    },
+    {
+        "name":"label-month-8",
+        "value":"August"
+    },
+    {
+        "name":"label-month-9",
+        "value":"September"
+    },
+    {
+        "name":"label-month-10",
+        "value":"Oktober"
+    },
+    {
+        "name":"label-month-11",
+        "value":"November"
+    },
+    {
+        "name":"label-month-12",
+        "value":"December"
     },
     {
         "name":"label-book1-title",
@@ -1779,6 +1847,10 @@
     {
         "name":"label-fajr-prayer",
         "value":"Morgenbønn"
+    },
+    {
+        "name":"label-sunrise",
+        "value":"Soloppgang"
     },
     {
         "name":"label-dhuhr-prayer",

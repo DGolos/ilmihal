@@ -20,6 +20,7 @@ interface TashahudProps {
   stepValue?: number;
   maxValue?: number;
   salawat?:boolean;
+  isMan:boolean;
 }
 
 const TashahudWatch: React.FC<TashahudProps> = ({
@@ -29,7 +30,8 @@ const TashahudWatch: React.FC<TashahudProps> = ({
   prayerLength,
   stepValue,
   maxValue,
-  salawat
+  salawat,
+  isMan
 }) => {
   const [currentRakah, setCurrenRakah] = useState("1");
 
@@ -47,7 +49,7 @@ const TashahudWatch: React.FC<TashahudProps> = ({
   return (
     <IonSlide>
       <div>
-        <img style={{ height: 350 }} src="/assets/images/Tashashud.png" alt=""/>
+        <img style={{ height: 350 }} src={isMan?"/assets/images/Tashashud.png":"/assets/images/WudhuEars.png"} alt=""/>
         <div>
           <IonItem
             key="1"

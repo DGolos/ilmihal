@@ -1,0 +1,25 @@
+ion-grid.monthly-prayers{
+    
+    border-collapse: collapse;
+    border-style: hidden;
+    margin-left:5px;
+    margin-right:5px;
+
+    ion-row{
+         font-weight: bold;
+         background-color: white;
+    }
+    ion-col{
+        border:1px solid black;
+        border-bottom: 0;
+        border-right:0;
+        text-align: center;
+    }
+    ion-row:last-child{
+        border-bottom:1px solid black;
+    }
+    ion-col:last-child{
+        border-right:1px solid black;
+        
+    }
+}

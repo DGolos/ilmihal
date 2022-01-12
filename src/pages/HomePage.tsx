@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IonAvatar, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonNote, IonPage, IonRow, useIonViewWillEnter, } from '@ionic/react';
+import { IonAvatar, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonNote, IonPage, IonRow, IonText, useIonViewWillEnter, } from '@ionic/react';
 
 import { timeService } from '../services/TimeService';
 import { translationService } from '../services/TranslationService';
@@ -14,7 +14,13 @@ useIonViewWillEnter(() => {
 
   return (
     <IonPage>
-      <IonContent className={period}>
+      <IonHeader className="ion-no-border" style={{padding:"15px"}}>
+          <IonText style={{ color:"white",fontSize:"18px"}}>
+            <p>{timeService.getFormattedDate()}</p>
+            <p>{timeService.getFormattedIslamicDate()}</p>
+          </IonText>
+      </IonHeader>
+      <IonContent className={period} fullscreen>
         <div className="center">
           <IonItem className="welcome" lines="none">
             <IonGrid>

@@ -3,9 +3,27 @@ import moment from "moment";
 import { storageService } from "./StorageService";
 import { translationService } from "./TranslationService";
 
+export interface DailyPrayer {
+  city: string;
+  day: number;
+  month: number;
+  monthText: string;
+  islamicDay: number;
+  islamisMonth: string;
+  isJummah: false;
+  fajr: string;
+  sunrise: string;
+  dhuhr: string;
+  asr: string;
+  maghrib: string;
+  isha: string;
+  holyday: string;
+}
+
 export interface PrayersProps {
   startOfFast: string;
   fajr: string;
+  sunrise:string;
   dhuhr: string;
   asr: string;
   maghrib: string;
@@ -31,71 +49,63 @@ export interface prayerStorage{
   isha: string;
 }
 class TimeService {
-  startOfFast = "";
-  fajr: string = "";
+  
   fajrSeconds = 0;
-  sunrise: string = "";
   sunriseSeconds = 0;
   preDhuhrSeconds: number = 0;
-  dhuhr: string = "";
   dhuhrSeconds = 0;
   preAsrSeconds: number = 0;
-  asr: string = "";
   asrSeconds = 0;
   preMaghribSeconds: number = 0;
-  maghrib: string = "";
   maghribSeconds = 0;
-  isha: string = "";
   preIshaSeconds = 0;
   ishaSeconds = 0;
   lastComputedDate: Date = new Date(1900, 0, 1);
   currentLocation:Location={id:"",name:"",country:""};
+  daylyPrayers:DailyPrayer[]=[];
+  currentDay:DailyPrayer={city:"",day:1,month:1,monthText:"",islamicDay:1,islamisMonth:"",isJummah:false,fajr:"",sunrise:"",dhuhr:"",asr:"",maghrib:"",isha:"",holyday:""};
 
   async calculatePrayertimes() {
     
-    const fajrObj = moment(this.fajr, "H:m");
+    const fajrObj = moment(this.currentDay.fajr, "H:m");
     this.fajrSeconds = fajrObj.hours() * 3600 + fajrObj.minutes() * 60;
-    this.fajr = moment.utc(this.fajrSeconds * 1000).format("HH:mm");
-
-    this.startOfFast = moment.utc(this.fajrSeconds * 1000).format("HH:mm");
-
-    const sunriseObj = moment(this.sunrise, "H:m");
+    
+    const sunriseObj = moment(this.currentDay.sunrise, "H:m");
     this.sunriseSeconds = sunriseObj.hours() * 3600 + sunriseObj.minutes() * 60;
-    this.sunrise = moment.utc(this.sunriseSeconds * 1000).format("HH:mm");
-
-    const dhuhrObj = moment(this.dhuhr, "H:m");
+    
+    const dhuhrObj = moment(this.currentDay.dhuhr, "H:m");
     this.dhuhrSeconds = dhuhrObj.hours() * 3600 + dhuhrObj.minutes() * 60;
     this.preDhuhrSeconds = (this.dhuhrSeconds + this.sunriseSeconds) / 2;
 
-    const asrObj = moment(this.asr, "H:m");
+    const asrObj = moment(this.currentDay.asr, "H:m");
     this.asrSeconds = asrObj.hours() * 3600 + asrObj.minutes() * 60;
     this.preAsrSeconds = (this.asrSeconds + this.dhuhrSeconds) / 2;
 
-    const maghribObj = moment(this.maghrib, "H:m");
+    const maghribObj = moment(this.currentDay.maghrib, "H:m");
     this.maghribSeconds = maghribObj.hours() * 3600 + maghribObj.minutes() * 60;
     this.preMaghribSeconds = (this.maghribSeconds + this.asrSeconds) / 2;
 
-    const ishaObj = moment(this.isha, "H:m");
+    const ishaObj = moment(this.currentDay.isha, "H:m");
     this.ishaSeconds = ishaObj.hours() * 3600 + ishaObj.minutes() * 60;
     this.preIshaSeconds = (this.ishaSeconds + this.maghribSeconds) / 2;
     this.lastComputedDate = new Date();
   }
 
   async getTimesFromStorage(){
-    const prayerObj=await storageService.get("prayerData");
+    /*const prayerObj=await storageService.get("prayerData");
     const prayerStrings:prayerStorage=JSON.parse(prayerObj!);
     this.fajr=prayerStrings?.fajr;
     this.sunrise=prayerStrings?.sunrise;
     this.dhuhr=prayerStrings?.dhuhr;
     this.asr=prayerStrings?.asr;
     this.maghrib=prayerStrings?.maghrib;
-    this.isha=prayerStrings?.isha;
+    this.isha=prayerStrings?.isha;*/
 
     this.calculatePrayertimes();
   }
 
   async updateStorage(){
-    storageService.set("prayerData",{fajr:this.fajr,sunrise:this.sunrise,dhuhr:this.dhuhr,asr:this.asr,maghrib:this.maghrib,isha:this.isha});
+    storageService.set("prayerData",{fajr:this.currentDay.fajr,sunrise:this.currentDay.sunrise,dhuhr:this.currentDay.dhuhr,asr:this.currentDay.asr,maghrib:this.currentDay.maghrib,isha:this.currentDay.isha});
   }
 
   async init() {
@@ -103,41 +113,46 @@ class TimeService {
 
       const locationObj=await storageService.get("locationData");
       this.currentLocation=JSON.parse(locationObj!);
-      var timeTable: string[]=[];
+      
+      const dailyPrayersBody=await fetch("assets/data/times.json").then(response=>response.json());
+      this.daylyPrayers = JSON.parse(JSON.stringify(dailyPrayersBody));
+
+      const currentDate = new Date();
+
+      const day=this.daylyPrayers.find(item=>item.city===this.currentLocation.id && item.day===currentDate.getDate() && item.month===currentDate.getMonth()+1);
+
+      
+      this.currentDay.city=day?.city!;
+      this.currentDay.day=day?.day!;
+      this.currentDay.month=day?.month!;
+      this.currentDay.monthText=day?.monthText!;
+      this.currentDay.islamicDay=day?.islamicDay!;
+      this.currentDay.islamisMonth=day?.islamisMonth!;
+      this.currentDay.isJummah=day?.isJummah!;
+      this.currentDay.fajr=day?.fajr!;
+      this.currentDay.sunrise=day?.sunrise!;
+      this.currentDay.dhuhr=day?.dhuhr!;
+      this.currentDay.asr=day?.asr!;
+      this.currentDay.maghrib=day?.maghrib!;
+      this.currentDay.isha=day?.isha!;
+      this.currentDay.holyday=day?.holyday!;
+
+      
+     
+      
       if(this.currentLocation.country==="BA"){
         
+        var timeTable: string[]=[];
         const response = await axios.get(`https://api.vaktija.ba/vaktija/v1/${this.currentLocation.id}`);
         timeTable= response.data.vakat;
-        this.fajr = timeTable[0];
-        this.sunrise = timeTable[1];
-        this.dhuhr = timeTable[2];
-        this.asr = timeTable[3];
-        this.maghrib = timeTable[4];
-        this.isha = timeTable[5];
+        this.currentDay.fajr = timeTable[0];
+        this.currentDay.sunrise = timeTable[1];
+        this.currentDay.dhuhr = timeTable[2];
+        this.currentDay.asr = timeTable[3];
+        this.currentDay.maghrib = timeTable[4];
+        this.currentDay.isha = timeTable[5];
   
-      }else{
-        const response=await axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${this.currentLocation.id}&country=${this.currentLocation.country}&method=3&latitudeAdjustmentMethod=3&school=1`);
-        
-        const fajrObj = moment(response.data.data.timings.Fajr,"H:m");
-        this.fajr = moment.utc((fajrObj.hours() * 3600 + fajrObj.minutes() * 60) * 1000).format("HH:mm");
-
-        const sunriseObj = moment(response.data.data.timings.Sunrise,"H:m");
-        this.sunrise = moment.utc((sunriseObj.hours() * 3600 + sunriseObj.minutes() * 60) * 1000).format("HH:mm");
-
-        const dhuhrObj = moment(response.data.data.timings.Dhuhr,"H:m");
-        this.dhuhr = moment.utc((dhuhrObj.hours() * 3600 + dhuhrObj.minutes() * 60) * 1000).format("HH:mm");
-
-        const asrObj = moment(response.data.data.timings.Asr,"H:m");
-        this.asr = moment.utc((asrObj.hours() * 3600 + asrObj.minutes() * 60) * 1000).format("HH:mm");
-
-        const maghribObj = moment(response.data.data.timings.Maghrib,"H:m");
-        this.maghrib = moment.utc((maghribObj.hours() * 3600 + maghribObj.minutes() * 60) * 1000).format("HH:mm");
-
-        const ishaObj = moment(response.data.data.timings.Isha,"H:m");
-        this.isha = moment.utc((ishaObj.hours() * 3600 + ishaObj.minutes() * 60) * 1000).format("HH:mm");
-        
-      }
-      
+      }      
       
       this.calculatePrayertimes();
       this.updateStorage();
@@ -267,38 +282,56 @@ class TimeService {
   }
 
   getFajrTime() {
-    return this.fajr;
+    return this.currentDay.fajr;
   }
 
   getDhuhrTime() {
-    return this.dhuhr;
+    return this.currentDay.dhuhr;
   }
 
   getAsrTime() {
-    return this.asr;
+    return this.currentDay.asr;
   }
 
   getMaghribTime() {
-    return this.maghrib;
+    return this.currentDay.maghrib;
   }
 
   getIshaTime() {
-    return this.isha;
+    return this.currentDay.isha;
+  }
+
+  getFormattedDate(){
+    return `${this.currentDay.day} ${this.currentDay.monthText} 2022`;
+  }
+
+  getFormattedIslamicDate(){
+    return `${this.currentDay.islamicDay} ${this.currentDay.islamisMonth}`;
   }
 
   async getPrayertimes() {
     return {
-      startOfFast: this.startOfFast,
-      fajr: this.fajr,
-      dhuhr: this.dhuhr,
-      asr: this.asr,
-      maghrib: this.maghrib,
-      isha: this.isha,
+      startOfFast: this.currentDay.fajr,
+      fajr: this.currentDay.fajr,
+      sunrise:this.currentDay.sunrise,
+      dhuhr: this.currentDay.dhuhr,
+      asr: this.currentDay.asr,
+      maghrib: this.currentDay.maghrib,
+      isha: this.currentDay.isha,
       period: this.getCurrentPeriod(),
       headers: this.getHeaders(),
       city:this.currentLocation.name,
       country:this.currentLocation.country,
     };
+  }
+
+  getPrayerTimesByMonth(month:number):DailyPrayer[]{
+    
+    return this.daylyPrayers.filter((item) => {
+      return item.month===month && item.city===this.currentLocation.id;
+    })
+
+    
   }
 }
 

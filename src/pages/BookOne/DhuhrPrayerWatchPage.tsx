@@ -12,6 +12,7 @@ import {
   IonSlide,
   IonSlides,
   IonText,
+  IonToggle,
   IonToolbar,
 } from "@ionic/react";
 import React, { useEffect, useState } from "react";
@@ -28,6 +29,7 @@ export const DhuhrPrayerWatchPage: React.FC<
 > = ({ match }) => {
   const [prayerType, setPrayerType] = useState("");
   const [prayerLength, setPrayerLength] = useState(0);
+  const [isMan,setIsMan]=useState(true);
 
   useEffect(() => {
     if (match.params.type === "sunnah") {
@@ -45,12 +47,21 @@ export const DhuhrPrayerWatchPage: React.FC<
       setPrayerLength(16);
     }
   }, [match.params.type]);
+
+  const toggleGender=()=>{
+    setIsMan(previous=>!previous);
+  }
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
         <IonToolbar className="prayer">
           <IonButtons slot="start">
             <IonBackButton color="brown" defaultHref="/DhuhrPrayerPage" />
+          </IonButtons>
+          <IonButtons slot="end">
+          <IonText color="brown">{translationService.getLabel("label-man")}</IonText>
+          <IonToggle onIonChange={() => toggleGender()} className="brown"/>
+          <IonText style={{marginRight:"15px"}} color="brown">{translationService.getLabel("label-woman")}</IonText>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -80,7 +91,7 @@ export const DhuhrPrayerWatchPage: React.FC<
               <div>
                 <img
                   style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  src={isMan?"/assets/images/Beginning.png":"/assets/images/WudhuEars.png"}
                   alt=""
                 />
                 <div>
@@ -140,7 +151,7 @@ export const DhuhrPrayerWatchPage: React.FC<
             </IonSlide>
             <IonSlide>
               <div>
-                <img style={{ height: 350 }} src="/assets/images/Tekbir.png" alt=""/>
+                <img style={{ height: 350 }} src={isMan?"/assets/images/Tekbir.png":"/assets/images/WudhuEars.png"} alt=""/>
                 <div>
                   <IonItem
                     key="1"
@@ -189,12 +200,14 @@ export const DhuhrPrayerWatchPage: React.FC<
               color="brown"
               stepValue={3}
               maxValue={prayerLength}
+              isMan
             />
             <RukuWatch
               rakah="1"
               color="brown"
               stepValue={4}
               maxValue={prayerLength}
+              isMan
             />
 
             <QijamWatch
@@ -204,12 +217,14 @@ export const DhuhrPrayerWatchPage: React.FC<
               color="brown"
               stepValue={9}
               maxValue={prayerLength}
+              isMan
             />
             <RukuWatch
               rakah="2"
               color="brown"
               stepValue={10}
               maxValue={prayerLength}
+              isMan
             />
 
             <TashahudWatch
@@ -219,6 +234,7 @@ export const DhuhrPrayerWatchPage: React.FC<
               stepValue={15}
               maxValue={prayerLength}
               salawat={false}
+              isMan
             />
             {match.params.type === "sunsunnah" && (
               <SelamWatch
@@ -226,6 +242,7 @@ export const DhuhrPrayerWatchPage: React.FC<
                 color="brown"
                 stepValue={16}
                 maxValue={prayerLength}
+                isMan
               />
             )}
             {match.params.type !== "sunsunnah" && (
@@ -237,12 +254,14 @@ export const DhuhrPrayerWatchPage: React.FC<
                   color="brown"
                   stepValue={16}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <RukuWatch
                   rakah="3"
                   color="brown"
                   stepValue={17}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <QijamWatch
                   rakah="4"
@@ -251,12 +270,14 @@ export const DhuhrPrayerWatchPage: React.FC<
                   color="brown"
                   stepValue={22}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <RukuWatch
                   rakah="4"
                   color="brown"
                   stepValue={23}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <TashahudWatch
                   rakah="4"
@@ -265,12 +286,14 @@ export const DhuhrPrayerWatchPage: React.FC<
                   stepValue={28}
                   maxValue={prayerLength}
                   salawat={false}
+                  isMan
                 />
                 <SelamWatch
                   rakah="4"
                   color="brown"
                   stepValue={29}
                   maxValue={prayerLength}
+                  isMan
                 />
               </>
             )}

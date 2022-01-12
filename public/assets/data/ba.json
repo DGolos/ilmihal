@@ -20,6 +20,26 @@
         "value":"Promijeni"
     },
     {
+        "name":"label-monthly_prayer-times",
+        "value":"Mjesečna"
+    },
+    {
+        "name":"label-previous",
+        "value":"Prethodni"
+    },
+    {
+        "name":"label-next",
+        "value":"Slijedeći"
+    },
+    {
+        "name":"label-man",
+        "value":"Muškarac"
+    },
+    {
+        "name":"label-woman",
+        "value":"Žena"
+    },
+    {
         "name":"label-search",
         "value":"Traži"
     },
@@ -38,6 +58,54 @@
     {
         "name":"label-welcome-hadeeth",
         "value":"\"Allah će učiniti put do Dženneta lahkim svakome ko traži znanje.\""
+    },
+    {
+        "name":"label-month-1",
+        "value":"Januar"
+    },
+    {
+        "name":"label-month-2",
+        "value":"Februar"
+    },
+    {
+        "name":"label-month-3",
+        "value":"Mart"
+    },
+    {
+        "name":"label-month-4",
+        "value":"April"
+    },
+    {
+        "name":"label-month-5",
+        "value":"Maj"
+    },
+    {
+        "name":"label-month-6",
+        "value":"Juni"
+    },
+    {
+        "name":"label-month-7",
+        "value":"Juli"
+    },
+    {
+        "name":"label-month-8",
+        "value":"August"
+    },
+    {
+        "name":"label-month-9",
+        "value":"Septembar"
+    },
+    {
+        "name":"label-month-10",
+        "value":"Oktobar"
+    },
+    {
+        "name":"label-month-11",
+        "value":"Novembar"
+    },
+    {
+        "name":"label-month-12",
+        "value":"Decembar"
     },
     {
         "name":"label-book1-title",
@@ -1793,6 +1861,10 @@
     {
         "name":"label-fajr-prayer",
         "value":"Sabah"
+    },
+    {
+        "name":"label-sunrise",
+        "value":"Izlazak sunca"
     },
     {
         "name":"label-dhuhr-prayer",

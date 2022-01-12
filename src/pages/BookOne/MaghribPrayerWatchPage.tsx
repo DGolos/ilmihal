@@ -12,6 +12,7 @@ import {
   IonSlide,
   IonSlides,
   IonText,
+  IonToggle,
   IonToolbar,
 } from "@ionic/react";
 import React, { useEffect, useState } from "react";
@@ -28,6 +29,7 @@ export const MagribPrayerWatchPage: React.FC<
 > = ({ match }) => {
   const [prayerLength, setPrayerLength] = useState(0);
   const [prayerType, setPrayerType] = useState("");
+  const [isMan,setIsMan]=useState(true);
 
   useEffect(() => {
     if (match.params.type === "sunnah") {
@@ -40,12 +42,22 @@ export const MagribPrayerWatchPage: React.FC<
       setPrayerLength(23);
     }
   }, [match.params.type]);
+
+  const toggleGender=()=>{
+    setIsMan(previous=>!previous);
+  }
+
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
         <IonToolbar className="prayer">
           <IonButtons slot="start">
             <IonBackButton color="razimic" defaultHref="/MaghribPrayerPage" />
+          </IonButtons>
+          <IonButtons slot="end">
+          <IonText color="razimic">{translationService.getLabel("label-man")}</IonText>
+          <IonToggle onIonChange={() => toggleGender()} className="razimic"/>
+          <IonText style={{marginRight:"15px"}} color="razimic">{translationService.getLabel("label-woman")}</IonText>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -75,7 +87,7 @@ export const MagribPrayerWatchPage: React.FC<
               <div>
                 <img
                   style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  src={isMan?"/assets/images/Beginning.png":"/assets/images/WudhuEars.png"}
                   alt=""
                 />
                 <div>
@@ -128,7 +140,7 @@ export const MagribPrayerWatchPage: React.FC<
             </IonSlide>
             <IonSlide>
               <div>
-                <img style={{ height: 350 }} src="/assets/images/Tekbir.png" alt=""/>
+                <img style={{ height: 350 }} src={isMan?"/assets/images/Tekbir.png":"/assets/images/WudhuEars.png"} alt=""/>
                 <div>
                   <IonItem
                     key="1"
@@ -177,12 +189,14 @@ export const MagribPrayerWatchPage: React.FC<
               color="razimic"
               stepValue={3}
               maxValue={prayerLength}
+              isMan
             />
             <RukuWatch
               rakah="1"
               color="razimic"
               stepValue={4}
               maxValue={prayerLength}
+              isMan
             />
 
             <QijamWatch
@@ -192,12 +206,14 @@ export const MagribPrayerWatchPage: React.FC<
               color="razimic"
               stepValue={9}
               maxValue={prayerLength}
+              isMan
             />
             <RukuWatch
               rakah="2"
               color="razimic"
               stepValue={10}
               maxValue={prayerLength}
+              isMan
             />
 
             <TashahudWatch
@@ -207,6 +223,7 @@ export const MagribPrayerWatchPage: React.FC<
               stepValue={15}
               maxValue={prayerLength}
               salawat={false}
+              isMan
             />
             {match.params.type === "sunnah" && (
               <SelamWatch
@@ -214,6 +231,7 @@ export const MagribPrayerWatchPage: React.FC<
                 color="razimic"
                 stepValue={16}
                 maxValue={prayerLength}
+                isMan
               />
             )}
 
@@ -226,12 +244,14 @@ export const MagribPrayerWatchPage: React.FC<
                   color="razimic"
                   stepValue={16}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <RukuWatch
                   rakah="3"
                   color="razimic"
                   stepValue={17}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <TashahudWatch
                   rakah="3"
@@ -240,12 +260,14 @@ export const MagribPrayerWatchPage: React.FC<
                   stepValue={22}
                   maxValue={prayerLength}
                   salawat={false}
+                  isMan
                 />
                 <SelamWatch
                   rakah="3"
                   color="razimic"
                   stepValue={23}
                   maxValue={prayerLength}
+                  isMan
                 />
               </>
             )}

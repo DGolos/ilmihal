@@ -19,9 +19,10 @@ interface QijamProps {
   color?:string;
   stepValue?:number;
   maxValue?:number;
+  isMan:boolean;
 }
 
-const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color,stepValue,maxValue}) => {
+const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color,stepValue,maxValue,isMan}) => {
   const [currentRakah,setCurrenRakah]=useState("1");
   const [showFull,setShowFull]=useState(false);
   const [showSunnah,setShowSunnah]=useState(false);
@@ -49,7 +50,7 @@ const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color,stepValue,ma
   return (
     <IonSlide>
       <div>
-        <img style={{ height: 350 }} src="/assets/images/Qijam.png" alt=""/>
+        <img style={{ height: 350 }} src={isMan?"/assets/images/Qijam.png":"/assets/images/WudhuEars.png"} alt=""/>
         <div>
           <IonItem
             key="1"

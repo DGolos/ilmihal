@@ -12,6 +12,7 @@ import {
   IonSlide,
   IonSlides,
   IonText,
+  IonToggle,
   IonToolbar,
 } from "@ionic/react";
 import React, { useEffect, useState } from "react";
@@ -28,6 +29,7 @@ export const AsrPrayerWatchPage: React.FC<
 > = ({ match }) => {
   const [prayerType, setPrayerType] = useState("");
   const [prayerLength, setPrayerLength] = useState(0);
+  const [isMan,setIsMan]=useState(true);
   useEffect(() => {
     if (match.params.type === "sunnah") {
       setPrayerType(translationService.getLabel("label-asr-sunnah"));
@@ -39,12 +41,22 @@ export const AsrPrayerWatchPage: React.FC<
       setPrayerLength(29);
     }
   }, [match.params.type]);
+
+  const toggleGender=()=>{
+    setIsMan(previous=>!previous);
+  }
+
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
         <IonToolbar className="prayer">
           <IonButtons slot="start">
             <IonBackButton color="dark-brown" defaultHref="/AsrPrayerPage" />
+          </IonButtons>
+          <IonButtons slot="end">
+          <IonText color="dark-brown">{translationService.getLabel("label-man")}</IonText>
+          <IonToggle onIonChange={() => toggleGender()} className="dark-brown"/>
+          <IonText style={{marginRight:"15px"}} color="dark-brown">{translationService.getLabel("label-woman")}</IonText>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -73,9 +85,10 @@ export const AsrPrayerWatchPage: React.FC<
               <div>
                 <img
                   style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  src={isMan?"/assets/images/Beginning.png":"/assets/images/WudhuEars.png"} 
                   alt=""
                 />
+
                 <div>
                   <IonItem
                     key="1"
@@ -104,17 +117,16 @@ export const AsrPrayerWatchPage: React.FC<
                         <IonCol size="12">
                           <IonText hidden={match.params.type !== "sunnah"}>
                             <h2 className="lesson-note">
-                            {translationService.getLabel(
-                              "label-asr-sunnah-nijjah"
-                            )}
+                              {translationService.getLabel(
+                                "label-asr-sunnah-nijjah"
+                              )}
                             </h2>
-                            
                           </IonText>
                           <IonText hidden={match.params.type !== "fardh"}>
-                          <h2 className="lesson-note">
-                            {translationService.getLabel(
-                              "label-asr-fardh-nijjah"
-                            )}
+                            <h2 className="lesson-note">
+                              {translationService.getLabel(
+                                "label-asr-fardh-nijjah"
+                              )}
                             </h2>
                           </IonText>
                         </IonCol>
@@ -126,7 +138,11 @@ export const AsrPrayerWatchPage: React.FC<
             </IonSlide>
             <IonSlide>
               <div>
-                <img style={{ height: 350 }} src="/assets/images/Tekbir.png" alt=""/>
+                <img
+                  style={{ height: 350 }}
+                  src={isMan?"/assets/images/Tekbir.png":"/assets/images/WudhuEars.png"}
+                  alt=""
+                />
                 <div>
                   <IonItem
                     key="1"
@@ -154,10 +170,10 @@ export const AsrPrayerWatchPage: React.FC<
                       <IonRow>
                         <IonCol size="12">
                           <IonText>
-                          <h2 className="lesson-note">
-                            {translationService.getLabel(
-                              "label-prayer-first-rakah-beginning-watch"
-                            )}
+                            <h2 className="lesson-note">
+                              {translationService.getLabel(
+                                "label-prayer-first-rakah-beginning-watch"
+                              )}
                             </h2>
                           </IonText>
                         </IonCol>
@@ -174,12 +190,14 @@ export const AsrPrayerWatchPage: React.FC<
               color="dark-brown"
               stepValue={3}
               maxValue={prayerLength}
+              isMan={isMan}
             />
             <RukuWatch
               rakah="1"
               color="dark-brown"
               stepValue={4}
               maxValue={prayerLength}
+              isMan={isMan}
             />
 
             <QijamWatch
@@ -189,12 +207,14 @@ export const AsrPrayerWatchPage: React.FC<
               color="dark-brown"
               stepValue={9}
               maxValue={prayerLength}
+              isMan={isMan}
             />
             <RukuWatch
               rakah="2"
               color="dark-brown"
               stepValue={10}
               maxValue={prayerLength}
+              isMan={isMan}
             />
 
             <TashahudWatch
@@ -204,6 +224,7 @@ export const AsrPrayerWatchPage: React.FC<
               stepValue={15}
               maxValue={prayerLength}
               salawat={match.params.type === "sunnah" ? true : false}
+              isMan={isMan}
             />
             <QijamWatch
               rakah="3"
@@ -212,12 +233,14 @@ export const AsrPrayerWatchPage: React.FC<
               color="dark-brown"
               stepValue={16}
               maxValue={prayerLength}
+              isMan={isMan}
             />
             <RukuWatch
               rakah="3"
               color="dark-brown"
               stepValue={17}
               maxValue={prayerLength}
+              isMan={isMan}
             />
             <QijamWatch
               rakah="4"
@@ -226,12 +249,14 @@ export const AsrPrayerWatchPage: React.FC<
               color="dark-brown"
               stepValue={22}
               maxValue={prayerLength}
+              isMan={isMan}
             />
             <RukuWatch
               rakah="4"
               color="dark-brown"
               stepValue={23}
               maxValue={prayerLength}
+              isMan={isMan}
             />
             <TashahudWatch
               rakah="4"
@@ -240,12 +265,14 @@ export const AsrPrayerWatchPage: React.FC<
               stepValue={28}
               maxValue={prayerLength}
               salawat={false}
+              isMan={isMan}
             />
             <SelamWatch
               rakah="4"
               color="dark-brown"
               stepValue={29}
               maxValue={prayerLength}
+              isMan={isMan}
             />
           </IonSlides>
         </div>

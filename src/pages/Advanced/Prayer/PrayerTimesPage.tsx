@@ -24,6 +24,9 @@ const PrayerTimesPage: React.FC = () => {
   const changeLocation=()=>{
     history.push("/tabs/LocationOptionsPage");
   }
+  const showMonthly=()=>{
+    history.push("/tabs/MonthlyPrayerTimes");
+  }
 
   useIonViewWillEnter(() => {
     timeService.getPrayertimes().then((data)=>{
@@ -55,14 +58,21 @@ const PrayerTimesPage: React.FC = () => {
         <div >
           <IonGrid>
             <IonRow>
-              <IonCol size="8">
+              <IonCol size="5">
                 <IonText className="white" style={{fontSize:"18px",fontWeight:"normal"}}>{prayers?.city}, {prayers?.country==="BA"?"Bosna i Hercegovina":"Norge"}</IonText>
               </IonCol>
-              <IonCol size="4">
+              <IonCol size="3">
                 <IonButton className="pressed no-shadow" onClick={() => {
                   changeLocation();
                 }}>
                   {translationService.getLabel('label-change-location')}
+                  </IonButton>
+              </IonCol>
+              <IonCol size="4">
+                <IonButton className="pressed no-shadow" onClick={() => {
+                  showMonthly();
+                }}>
+                  {translationService.getLabel('label-monthly_prayer-times')}
                   </IonButton>
               </IonCol>
             </IonRow>
@@ -87,6 +97,16 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="black" style={{fontSize:"16px"}}>{prayers?.fajr}</h2>
               </IonText>
             </IonItem>
+
+            <IonItem lines="full" className="lesson-note">
+              <IonText slot="start">
+                <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-sunrise')}</h2>
+              </IonText>
+              <IonText slot="end">
+                <h2 className="black" style={{fontSize:"16px"}}>{prayers?.sunrise}</h2>
+              </IonText>
+            </IonItem>
+
             <IonItem lines="full" className="lesson-note">
               <IonText slot="start">
                 <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-dhuhr-prayer')}</h2>

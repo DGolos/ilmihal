@@ -24,6 +24,7 @@ import { BosnianScholarsPage } from "./Advanced/Homeland/BosnianScholarsPage";
 import { BosniaPage } from "./Advanced/Homeland/BosniaPage";
 import { MessangersSupplicationsPage } from "./Advanced/MessangersSupplicationsPage";
 import { GuidancePrayerPage } from "./Advanced/Prayer/GuidancePrayerPage";
+import MonthlyPrayerTimesPage from "./Advanced/Prayer/MonthlyPrayerTimesPage";
 import { MorningPrayerPage } from "./Advanced/Prayer/MorningPrayerPage";
 import { NightPrayerPage } from "./Advanced/Prayer/NightPrayerPage";
 import PrayerTimesPage from "./Advanced/Prayer/PrayerTimesPage";
@@ -101,6 +102,7 @@ const MainApp: React.FC<MainAppProps> = () => {
           <Route path="/tabs/QuranReader/:id" component={QuranReaderPage} />
           <Route path="/tabs/QuranPlayer/:id" component={QuranPlayerPage} />
           <Route path="/tabs/PrayerTimes/" component={PrayerTimesPage} />
+          <Route path="/tabs/MonthlyPrayerTimes/" component={MonthlyPrayerTimesPage} />
           <Route
             path="/tabs/VoluntaryPrayersPage/"
             component={VoluntaryPrayersPage}

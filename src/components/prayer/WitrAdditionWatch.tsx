@@ -15,18 +15,20 @@ interface WitrAdditionWatchProps {
   color?: string;
   stepValue?: number;
   maxValue?: number;
+  isMan:boolean
 }
 
 const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({
   color,
   stepValue,
   maxValue,
+  isMan
 }) => {
   return (
     <>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Tekbir.png" alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Tekbir.png":"/assets/images/WudhuEars.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -81,7 +83,7 @@ const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Qijam.png" alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Qijam.png":"/assets/images/WudhuEars.png"} alt=""/>
           <div>
             <IonItem
               key="1"

@@ -17,9 +17,10 @@ import { Progress } from "../common/Progress";
     color?:string;
     stepValue?: number;
     maxValue?: number;
+    isMan:boolean;
   }
   
-  const SelamWatch: React.FC<SalamWatchProps> = ({ rakah,color,stepValue,maxValue}) => {
+  const SelamWatch: React.FC<SalamWatchProps> = ({ rakah,color,stepValue,maxValue,isMan}) => {
     const [currentRakah,setCurrenRakah]=useState("1");
     useIonViewWillEnter(() => {
       if(rakah==="2") setCurrenRakah(translationService.getLabel('label-second-rakah-header'));
@@ -31,7 +32,7 @@ import { Progress } from "../common/Progress";
     return (
         <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Selam.png" alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Selam.png":"/assets/images/WudhuEars.png"} alt=""/>
           <div>
             <IonItem
               key="1"

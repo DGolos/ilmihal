@@ -17,6 +17,7 @@ interface RukuProps {
   color?: string;
   stepValue?: number;
   maxValue?: number;
+  isMan:boolean;
 }
 
 const RukuWatch: React.FC<RukuProps> = ({
@@ -24,6 +25,7 @@ const RukuWatch: React.FC<RukuProps> = ({
   color,
   stepValue,
   maxValue,
+  isMan
 }) => {
   const [currentRakah, setCurrenRakah] = useState("");
 
@@ -41,7 +43,7 @@ const RukuWatch: React.FC<RukuProps> = ({
     <>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Ruku.png" alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Ruku.png":"/assets/images/WudhuEars.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -92,7 +94,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Beginning.png" alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Beginning.png":"/assets/images/WudhuEars.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -145,7 +147,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Sujud.png" alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Sujud.png":"/assets/images/WudhuEars.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -196,7 +198,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Tashashud.png" alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Tashashud.png":"/assets/images/WudhuEars.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -249,7 +251,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src="/assets/images/Sujud.png" alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Sujud.png":"/assets/images/WudhuEars.png"} alt=""/>
           <div>
             <IonItem
               key="1"

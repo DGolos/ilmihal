@@ -12,6 +12,7 @@ import {
   IonSlide,
   IonSlides,
   IonText,
+  IonToggle,
   IonToolbar,
 } from "@ionic/react";
 import React, { useEffect, useState } from "react";
@@ -30,6 +31,7 @@ export const IshaPrayerWatchPage: React.FC<
   const [prayerType, setPrayerType] = useState("");
   const [numberOfRakah, setNumberOfRakah] = useState(0);
   const [prayerLength, setPrayerLength] = useState(0);
+  const [isMan,setIsMan]=useState(true);
 
   useEffect(() => {
     if (match.params.type === "sunnah") {
@@ -56,12 +58,22 @@ export const IshaPrayerWatchPage: React.FC<
       setPrayerLength(25);
     }
   }, [match.params.type]);
+
+  const toggleGender=()=>{
+    setIsMan(previous=>!previous);
+  }
+
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
         <IonToolbar className="prayer">
           <IonButtons slot="start">
             <IonBackButton color="purple" defaultHref="/IshaPrayerPage" />
+          </IonButtons>
+          <IonButtons slot="end">
+          <IonText color="purple">{translationService.getLabel("label-man")}</IonText>
+          <IonToggle onIonChange={() => toggleGender()} className="purple"/>
+          <IonText style={{marginRight:"15px"}} color="purple">{translationService.getLabel("label-woman")}</IonText>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -96,7 +108,7 @@ export const IshaPrayerWatchPage: React.FC<
               <div>
                 <img
                   style={{ height: 330 }}
-                  src="/assets/images/Beginning.png"
+                  src={isMan?"/assets/images/Beginning.png":"/assets/images/WudhuEars.png"} 
                   alt=""
                 />
                 <div>
@@ -161,7 +173,7 @@ export const IshaPrayerWatchPage: React.FC<
             </IonSlide>
             <IonSlide>
               <div>
-                <img style={{ height: 350 }} src="/assets/images/Tekbir.png" alt=""/>
+                <img style={{ height: 350 }} src={isMan?"/assets/images/Tekbir.png":"/assets/images/WudhuEars.png"} alt=""/>
                 <div>
                   <IonItem
                     key="1"
@@ -210,12 +222,14 @@ export const IshaPrayerWatchPage: React.FC<
               color="purple"
               stepValue={3}
               maxValue={prayerLength}
+              isMan
             />
             <RukuWatch
               rakah="1"
               color="purple"
               stepValue={4}
               maxValue={prayerLength}
+              isMan
             />
 
             <QijamWatch
@@ -225,12 +239,14 @@ export const IshaPrayerWatchPage: React.FC<
               color="purple"
               stepValue={9}
               maxValue={prayerLength}
+              isMan
             />
             <RukuWatch
               rakah="2"
               color="purple"
               stepValue={10}
               maxValue={prayerLength}
+              isMan
             />
 
             <TashahudWatch
@@ -240,6 +256,7 @@ export const IshaPrayerWatchPage: React.FC<
               stepValue={15}
               maxValue={prayerLength}
               salawat={match.params.type === "sunnah" || match.params.type === "witr" ? true : false}
+              isMan
             />
             {match.params.type === "sunsunnah" && (
               <SelamWatch
@@ -247,6 +264,7 @@ export const IshaPrayerWatchPage: React.FC<
                 color="purple"
                 stepValue={16}
                 maxValue={prayerLength}
+                isMan
               />
             )}
             {match.params.type === "witr" && (
@@ -258,17 +276,20 @@ export const IshaPrayerWatchPage: React.FC<
                   color="purple"
                   stepValue={16}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <WitrAdditionWatch
                   color="purple"
                   stepValue={17}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <RukuWatch
                   rakah="3"
                   color="purple"
                   stepValue={19}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <TashahudWatch
                   rakah="3"
@@ -277,12 +298,14 @@ export const IshaPrayerWatchPage: React.FC<
                   stepValue={24}
                   maxValue={prayerLength}
                   salawat={false}
+                  isMan
                 />
                 <SelamWatch
                   rakah="3"
                   color="purple"
                   stepValue={25}
                   maxValue={prayerLength}
+                  isMan
                 />
               </>
             )}
@@ -297,12 +320,14 @@ export const IshaPrayerWatchPage: React.FC<
                   color="purple"
                   stepValue={16}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <RukuWatch
                   rakah="3"
                   color="purple"
                   stepValue={17}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <QijamWatch
                   rakah="4"
@@ -311,12 +336,14 @@ export const IshaPrayerWatchPage: React.FC<
                   color="purple"
                   stepValue={22}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <RukuWatch
                   rakah="4"
                   color="purple"
                   stepValue={23}
                   maxValue={prayerLength}
+                  isMan
                 />
                 <TashahudWatch
                   rakah="4"
@@ -325,12 +352,14 @@ export const IshaPrayerWatchPage: React.FC<
                   stepValue={28}
                   maxValue={prayerLength}
                   salawat={false}
+                  isMan
                 />
                 <SelamWatch
                   rakah="4"
                   color="purple"
                   stepValue={29}
                   maxValue={prayerLength}
+                  isMan
                 />
               </>
             )}
