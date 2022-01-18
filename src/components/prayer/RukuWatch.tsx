@@ -43,7 +43,7 @@ const RukuWatch: React.FC<RukuProps> = ({
     <>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src={isMan?"/assets/images/Ruku.png":"/assets/images/WudhuEars.png"} alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Ruku.png":"/assets/images/RukuWoman.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -94,7 +94,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src={isMan?"/assets/images/Beginning.png":"/assets/images/WudhuEars.png"} alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Beginning.png":"/assets/images/BeginningWoman.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -147,7 +147,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src={isMan?"/assets/images/Sujud.png":"/assets/images/WudhuEars.png"} alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Sujud.png":"/assets/images/SujudWoman.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -198,7 +198,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src={isMan?"/assets/images/Tashashud.png":"/assets/images/WudhuEars.png"} alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Tashashud.png":"/assets/images/TashashudWoman.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -251,7 +251,7 @@ const RukuWatch: React.FC<RukuProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src={isMan?"/assets/images/Sujud.png":"/assets/images/WudhuEars.png"} alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Sujud.png":"/assets/images/SujudWoman.png"} alt=""/>
           <div>
             <IonItem
               key="1"

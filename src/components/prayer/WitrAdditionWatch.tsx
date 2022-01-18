@@ -28,7 +28,7 @@ const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({
     <>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src={isMan?"/assets/images/Tekbir.png":"/assets/images/WudhuEars.png"} alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Tekbir.png":"/assets/images/TekbirWoman.png"} alt=""/>
           <div>
             <IonItem
               key="1"
@@ -83,7 +83,7 @@ const WitrAdditionWatch: React.FC<WitrAdditionWatchProps> = ({
       </IonSlide>
       <IonSlide>
         <div>
-          <img style={{ height: 350 }} src={isMan?"/assets/images/Qijam.png":"/assets/images/WudhuEars.png"} alt=""/>
+          <img style={{ height: 350 }} src={isMan?"/assets/images/Qijam.png":"/assets/images/QijamWoman.png"} alt=""/>
           <div>
             <IonItem
               key="1"

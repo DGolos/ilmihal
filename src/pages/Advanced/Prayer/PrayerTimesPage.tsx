@@ -80,7 +80,7 @@ const PrayerTimesPage: React.FC = () => {
         </div>
         <div className="ion-padding">
           <IonList className="white">
-            <IonItem lines="full" className="lesson-note">
+            <IonItem lines="full" className="lesson-note" key="1">
               <IonText slot="start" >
                 <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-beginning-fasting')}</h2>
               </IonText>
@@ -89,7 +89,7 @@ const PrayerTimesPage: React.FC = () => {
               </IonText>
             </IonItem>
 
-            <IonItem lines="full" className="lesson-note">
+            <IonItem lines="full" className="lesson-note" key="2">
               <IonText slot="start">
                 <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-fajr-prayer')}</h2>
               </IonText>
@@ -98,7 +98,7 @@ const PrayerTimesPage: React.FC = () => {
               </IonText>
             </IonItem>
 
-            <IonItem lines="full" className="lesson-note">
+            <IonItem lines="full" className="lesson-note" key="3">
               <IonText slot="start">
                 <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-sunrise')}</h2>
               </IonText>
@@ -107,7 +107,7 @@ const PrayerTimesPage: React.FC = () => {
               </IonText>
             </IonItem>
 
-            <IonItem lines="full" className="lesson-note">
+            <IonItem lines="full" className="lesson-note" key="4">
               <IonText slot="start">
                 <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-dhuhr-prayer')}</h2>
               </IonText>
@@ -115,7 +115,7 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="black" style={{fontSize:"16px"}}>{prayers?.dhuhr}</h2>
               </IonText>
             </IonItem>
-            <IonItem lines="full" className="lesson-note">
+            <IonItem lines="full" className="lesson-note" key="5">
               <IonText slot="start">
                 <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-asr-prayer')}</h2>
               </IonText>
@@ -123,7 +123,7 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="black" style={{fontSize:"16px"}}>{prayers?.asr}</h2>
               </IonText>
             </IonItem>
-            <IonItem lines="full" className="lesson-note">
+            <IonItem lines="full" className="lesson-note" key="6">
               <IonText slot="start">
                 <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-maghrib-prayer')}</h2>
               </IonText>
@@ -131,7 +131,7 @@ const PrayerTimesPage: React.FC = () => {
                 <h2 className="black" style={{fontSize:"16px"}}>{prayers?.maghrib}</h2>
               </IonText>
             </IonItem>
-            <IonItem lines="full" className="lesson-note">
+            <IonItem lines="full" className="lesson-note" key="7">
               <IonText slot="start">
                 <h2 className="black" style={{fontSize:"18px",fontWeight:"bold"}}>{translationService.getLabel('label-isha-prayer')}</h2>
               </IonText>

@@ -309,6 +309,8 @@ class TimeService {
     return `${this.currentDay.islamicDay} ${this.currentDay.islamisMonth}`;
   }
 
+  
+
   async getPrayertimes() {
     return {
       startOfFast: this.currentDay.fajr,

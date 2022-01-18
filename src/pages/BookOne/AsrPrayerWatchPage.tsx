@@ -85,7 +85,7 @@ export const AsrPrayerWatchPage: React.FC<
               <div>
                 <img
                   style={{ height: 330 }}
-                  src={isMan?"/assets/images/Beginning.png":"/assets/images/WudhuEars.png"} 
+                  src={isMan?"/assets/images/Beginning.png":"/assets/images/BeginningWoman.png"} 
                   alt=""
                 />
 
@@ -140,7 +140,7 @@ export const AsrPrayerWatchPage: React.FC<
               <div>
                 <img
                   style={{ height: 350 }}
-                  src={isMan?"/assets/images/Tekbir.png":"/assets/images/WudhuEars.png"}
+                  src={isMan?"/assets/images/Tekbir.png":"/assets/images/TekbirWoman.png"}
                   alt=""
                 />
                 <div>

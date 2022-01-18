@@ -49,7 +49,7 @@ const TashahudWatch: React.FC<TashahudProps> = ({
   return (
     <IonSlide>
       <div>
-        <img style={{ height: 350 }} src={isMan?"/assets/images/Tashashud.png":"/assets/images/WudhuEars.png"} alt=""/>
+        <img style={{ height: 350 }} src={isMan?"/assets/images/Tashashud.png":"/assets/images/TashashudWoman.png"} alt=""/>
         <div>
           <IonItem
             key="1"

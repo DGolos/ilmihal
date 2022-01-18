@@ -87,7 +87,7 @@ export const MagribPrayerWatchPage: React.FC<
               <div>
                 <img
                   style={{ height: 330 }}
-                  src={isMan?"/assets/images/Beginning.png":"/assets/images/WudhuEars.png"}
+                  src={isMan?"/assets/images/Beginning.png":"/assets/images/BeginningWoman.png"}
                   alt=""
                 />
                 <div>
@@ -140,7 +140,7 @@ export const MagribPrayerWatchPage: React.FC<
             </IonSlide>
             <IonSlide>
               <div>
-                <img style={{ height: 350 }} src={isMan?"/assets/images/Tekbir.png":"/assets/images/WudhuEars.png"} alt=""/>
+                <img style={{ height: 350 }} src={isMan?"/assets/images/Tekbir.png":"/assets/images/TekbirWoman.png"} alt=""/>
                 <div>
                   <IonItem
                     key="1"
@@ -189,14 +189,14 @@ export const MagribPrayerWatchPage: React.FC<
               color="razimic"
               stepValue={3}
               maxValue={prayerLength}
-              isMan
+              isMan={isMan}
             />
             <RukuWatch
               rakah="1"
               color="razimic"
               stepValue={4}
               maxValue={prayerLength}
-              isMan
+              isMan={isMan}
             />
 
             <QijamWatch
@@ -206,14 +206,14 @@ export const MagribPrayerWatchPage: React.FC<
               color="razimic"
               stepValue={9}
               maxValue={prayerLength}
-              isMan
+              isMan={isMan}
             />
             <RukuWatch
               rakah="2"
               color="razimic"
               stepValue={10}
               maxValue={prayerLength}
-              isMan
+              isMan={isMan}
             />
 
             <TashahudWatch
@@ -223,7 +223,7 @@ export const MagribPrayerWatchPage: React.FC<
               stepValue={15}
               maxValue={prayerLength}
               salawat={false}
-              isMan
+              isMan={isMan}
             />
             {match.params.type === "sunnah" && (
               <SelamWatch
@@ -231,7 +231,7 @@ export const MagribPrayerWatchPage: React.FC<
                 color="razimic"
                 stepValue={16}
                 maxValue={prayerLength}
-                isMan
+                isMan={isMan}
               />
             )}
 
@@ -244,14 +244,14 @@ export const MagribPrayerWatchPage: React.FC<
                   color="razimic"
                   stepValue={16}
                   maxValue={prayerLength}
-                  isMan
+                  isMan={isMan}
                 />
                 <RukuWatch
                   rakah="3"
                   color="razimic"
                   stepValue={17}
                   maxValue={prayerLength}
-                  isMan
+                  isMan={isMan}
                 />
                 <TashahudWatch
                   rakah="3"
@@ -260,14 +260,14 @@ export const MagribPrayerWatchPage: React.FC<
                   stepValue={22}
                   maxValue={prayerLength}
                   salawat={false}
-                  isMan
+                  isMan={isMan}
                 />
                 <SelamWatch
                   rakah="3"
                   color="razimic"
                   stepValue={23}
                   maxValue={prayerLength}
-                  isMan
+                  isMan={isMan}
                 />
               </>
             )}
