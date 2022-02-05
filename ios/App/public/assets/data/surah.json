@@ -1,0 +1,412 @@
+[
+    {
+        "id":1,
+        "name":"El Fatiha",
+        "arabic":"الفاتحة",
+        "numberOfAyah":7,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+    },
+    {
+        "id":2,
+        "name":"El Bekare",
+        "arabic":"البقرة",
+        "numberOfAyah":286,
+        "revelationCity":"Medina",
+        "color":"razimic",
+        "visible":false
+    },
+    {
+        "id":3,
+        "name":"Ali 'Imran",
+        "arabic":"آل عمران",
+        "numberOfAyah":200,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":false
+        
+    },
+    {
+        "id":4,
+        "name":"En-Nisa",
+        "arabic":"النساء",
+        "numberOfAyah":200,
+        "revelationCity":"Medina",
+        "color":"purple",
+        "visible":false
+    },
+    {
+        "id":6,
+        "name":"El-'Anam",
+        "arabic":"الأنعام",
+        "numberOfAyah":165,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":false
+    },
+    {
+        "id":10,
+        "name":"Junus",
+        "arabic":"هود",
+        "numberOfAyah":123,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":false
+    },
+    {
+        "id":11,
+        "name":"Hud",
+        "arabic":"يوسف",
+        "numberOfAyah":111,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":false
+    },
+    {
+        "id":13,
+        "name":"Er-R'ad",
+        "arabic":"الرعد",
+        "numberOfAyah":43,
+        "revelationCity":"Medina",
+        "color":"purple",
+        "visible":false
+    },
+    {
+        "id":16,
+        "name":"En-Nahl",
+        "arabic":"النحل",
+        "numberOfAyah":128,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":false
+    },
+    {
+        "id":17,
+        "name":"El-Isra'",
+        "arabic":"الإسراء",
+        "numberOfAyah":111,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":false
+    },
+    {
+        "id":23,
+        "name":"El-Mu'minun",
+        "arabic":"المؤمنون",
+        "numberOfAyah":118,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":false
+    },
+    {
+        "id":24,
+        "name":"En-Nur",
+        "arabic":"النور",
+        "numberOfAyah":64,
+        "revelationCity":"Medina",
+        "color":"purple",
+        "visible":false
+    },
+    {
+        "id":18,
+        "name":"El Kehf",
+        "arabic":"الكهف",
+        "numberOfAyah":110,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+    },
+    {
+        "id":31,
+        "name":"Lukman",
+        "arabic":"لقمان",
+        "numberOfAyah":34,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+    },
+    {
+        "id":32,
+        "name":"Es Sedžda",
+        "arabic":"السجدة",
+        "numberOfAyah":30,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+    },
+    {
+        "id":33,
+        "name":"El-Ahzab",
+        "arabic":"الفاتحة",
+        "numberOfAyah":73,
+        "revelationCity":"Medina",
+        "color":"razimic",
+        "visible":false
+    },
+    {
+        "id":36,
+        "name":"Jasin",
+        "arabic":"يس",
+        "numberOfAyah":83,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+    },
+    {
+        "id":49,
+        "name":"El-Hugurat",
+        "arabic":"الفاتحة",
+        "numberOfAyah":18,
+        "revelationCity":"Medina",
+        "color":"burgundy",
+        "visible":false
+    },
+    {
+        "id":57,
+        "name":"El-Hadid",
+        "arabic":"الحديد",
+        "numberOfAyah":29,
+        "revelationCity":"Mekka",
+        "color":"purple",
+        "visible":false
+    },
+    {
+        "id":59,
+        "name":"El-Hašr",
+        "arabic":"الحشر",
+        "numberOfAyah":24,
+        "revelationCity":"Medina",
+        "color":"dark-brown",
+        "visible":false
+    },
+    {
+        "id":67,
+        "name":"El Mulk",
+        "arabic":"الملك",
+        "numberOfAyah":30,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+    },
+    {
+        "id":93,
+        "name":"Ed Duha",
+        "arabic":"الضحى",
+        "numberOfAyah":11,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+    },
+    {
+        "id":94,
+        "name":"Eš Šarh",
+        "arabic":"الشرح",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+    },
+    {
+        "id":95,
+        "name":"Et Tin",
+        "arabic":"التين",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+        
+    },
+    {
+        "id":96,
+        "name":"El Alak",
+        "arabic":"العلق",
+        "numberOfAyah":19,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+        
+    },
+    {
+        "id":97,
+        "name":"El Kadr",
+        "arabic":"القدر",
+        "numberOfAyah":5,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+        
+    },
+    {
+        "id":98,
+        "name":"El Bajjinah",
+        "arabic":"البينة",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+        
+    },
+    {
+        "id":99,
+        "name":"El Zilzal",
+        "arabic":"الزلزلة",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+        
+    },
+    {
+        "id":100,
+        "name":"El Adijat",
+        "arabic":"العاديات",
+        "numberOfAyah":11,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+        
+    },
+    {
+        "id":101,
+        "name":"El Qari'ah",
+        "arabic":"القارعة",
+        "numberOfAyah":11,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+        
+    },
+    {
+        "id":102,
+        "name":"Et Tekasur",
+        "arabic":"التكاثر",
+        "numberOfAyah":8,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+        
+    },
+    {
+        "id":103,
+        "name":"El Asr",
+        "arabic":"العصر",
+        "numberOfAyah":3,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+        
+    },
+    {
+        "id":104,
+        "name":"El Humeze",
+        "arabic":"الهمزة",
+        "numberOfAyah":9,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+        
+    },
+    {
+        "id":105,
+        "name":"El Fil",
+        "arabic":"الفيل",
+        "numberOfAyah":5,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+        
+    },
+    {
+        "id":106,
+        "name":"Kurejši",
+        "arabic":"قريش",
+        "numberOfAyah":4,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+        
+    },
+    {
+        "id":107,
+        "name":"El Maun",
+        "arabic":"الماعون",
+        "numberOfAyah":7,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+        
+    },
+    {
+        "id":108,
+        "name":"El Kevser",
+        "arabic":"الكوثر",
+        "numberOfAyah":3,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+        
+    },
+    {
+        "id":109,
+        "name":"El Kafirun",
+        "arabic":"الكافرون",
+        "numberOfAyah":6,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+        
+    },
+    {
+        "id":110,
+        "name":"En Nasr",
+        "arabic":"النصر",
+        "numberOfAyah":3,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+        
+    },
+    {
+        "id":111,
+        "name":"El Masad",
+        "arabic":"المسد",
+        "numberOfAyah":5,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+        
+    },
+    {
+        "id":112,
+        "name":"El Ihlas",
+        "arabic":"الإخلاص",
+        "numberOfAyah":4,
+        "revelationCity":"Mekka",
+        "color":"burgundy",
+        "visible":true
+        
+    },
+    {
+        "id":113,
+        "name":"El Felek",
+        "arabic":"الفلق",
+        "numberOfAyah":5,
+        "revelationCity":"Mekka",
+        "color":"razimic",
+        "visible":true
+        
+    },
+    {
+        "id":114,
+        "name":"En Nas",
+        "arabic":"الناس",
+        "numberOfAyah":6,
+        "revelationCity":"Mekka",
+        "color":"dark-brown",
+        "visible":true
+        
+    }
+
+   
+]
