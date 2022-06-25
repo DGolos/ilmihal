@@ -1,5 +1,6 @@
 import axios from "axios";
 import moment from "moment";
+import {Location} from "../hooks/useLocation";
 import { storageService } from "./StorageService";
 import { translationService } from "./TranslationService";
 
@@ -34,12 +35,6 @@ export interface PrayersProps {
   country:string;
 }
 
-interface Location{
-  id:string;
-  name:string;
-  country:string;
-}
-
 export interface prayerStorage{
   fajr: string;
   sunrise: string;
@@ -49,6 +44,7 @@ export interface prayerStorage{
   isha: string;
 }
 class TimeService {
+  
   
   fajrSeconds = 0;
   sunriseSeconds = 0;
