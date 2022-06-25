@@ -18,7 +18,7 @@ import {
 import { Howl } from "howler";
 import React, { useEffect, useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
-import { Progress } from "../../components/common/Progress";
+import { Progress } from "../../components/Progress";
 import FirstRakah from "../../components/prayer/FirstRakah";
 import SecondRakah from "../../components/prayer/SecondRakah";
 import Tashashud from "../../components/prayer/Tashahud";

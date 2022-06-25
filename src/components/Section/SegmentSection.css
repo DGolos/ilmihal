@@ -1,0 +1,11 @@
+.segmentedSectionItem{
+    --border-radius: 14px;
+    --background: #FFFFFF;
+}
+
+.segmentedSectionText{
+    font-weight: normal;
+    font-size: 14px;
+    color:#000000;
+    text-align: center;
+}

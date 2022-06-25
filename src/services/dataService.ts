@@ -1,11 +1,11 @@
 import { Surah } from '../objects/surah';
 import { Ayah } from '../objects/Ayah';
-import { Lesson } from '../objects/Lesson';
+
 
 class DataService{
     suras:Surah[]=[];
     ayahs:Ayah[]=[];
-    lessons:Lesson[]=[];
+    
     currentLocale:string="ba";
 
     private async loadQuran(){
@@ -17,15 +17,10 @@ class DataService{
         
     }
 
-    private async loadLessons(){
-        const lessonsBody=await fetch("assets/data/lessons.json").then(response=>response.json());
-        this.lessons = JSON.parse(JSON.stringify(lessonsBody));
-        
-    }
-    
+      
     public async load(){
         this.loadQuran();
-        this.loadLessons();
+        
     }
 
     
@@ -60,16 +55,7 @@ class DataService{
         return ayah;
     }
 
-    getLesson(bookId:string,lessonId:string):Lesson{
-        
-        const lesson =this.lessons.find(lesson=>lesson.bookId===bookId && lesson.id===lessonId);
-
-        if (lesson === undefined) {
-            throw new TypeError('The value was promised to always be there!');
-        }
-        
-       return lesson;
-    }
+    
 }
 
 export const dataService = new DataService();

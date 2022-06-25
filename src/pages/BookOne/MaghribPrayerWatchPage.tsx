@@ -17,7 +17,7 @@ import {
 } from "@ionic/react";
 import React, { useEffect, useState } from "react";
 import { RouteComponentProps } from "react-router";
-import { Progress } from "../../components/common/Progress";
+import { Progress } from "../../components/Progress";
 import QijamWatch from "../../components/prayer/QijamWatch";
 import RukuWatch from "../../components/prayer/RukuWatch";
 import SelamWatch from "../../components/prayer/SelamWatch";

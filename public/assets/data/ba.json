@@ -3235,18 +3235,11 @@
         "name":"label-book2-lesson30_section2-paragraph6",
         "value":"lekum dinukum ve lije din"
     },
-    {
-        "name":"label-quran-nominative",
-        "value":"Kur'an"
-    },
-    {
-        "name":"label-quran-genitive",
-        "value":"Kur'ana"
-    },
+    
 
     {
         "name":"label-read-quran",
-        "value":"Čitaj"
+        "value":"Čitaj Kur'an"
     },
     {
         "name":"label-read-quran-description",
@@ -3254,7 +3247,7 @@
     },
     {
         "name":"label-quran-revelation",
-        "value":"Objava"
+        "value":"Objava Kur'ana"
     },
     {
         "name":"label-quran-revelation-description",

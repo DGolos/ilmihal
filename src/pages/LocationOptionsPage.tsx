@@ -142,11 +142,6 @@ const LocationOptionsPage: React.FC = () => {
         "country": "NO"
       },
       {
-        "id": "Bryne",
-        "name": "Bryne",
-        "country": "NO"
-      },
-      {
         "id": "Kristiansand",
         "name": "Kristiansand",
         "country": "NO"
@@ -183,11 +178,11 @@ const LocationOptionsPage: React.FC = () => {
       },
       {
         "id": "Lillehammer",
-        "name": "Lillehammer",
+        "name": "Lillehammer/Gjøvik",
         "country": "NO"
       },
       {
-        "id": "Tromsø",
+        "id": "Tromso",
         "name": "Tromsø",
         "country": "NO"
       },
@@ -209,11 +204,6 @@ const LocationOptionsPage: React.FC = () => {
       {
         "id": "Kongsvinger",
         "name": "Kongsvinger",
-        "country": "NO"
-      },
-      {
-        "id": "Hamar",
-        "name": "Gjøvik",
         "country": "NO"
       }
     ]

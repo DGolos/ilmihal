@@ -7,9 +7,10 @@ import {
   IonTabs,
 } from "@ionic/react";
 
-import { alarmOutline, bookOutline, homeOutline, informationOutline } from "ionicons/icons";
+import { alarmOutline, bookOutline, homeOutline, informationOutline, receiptOutline } from "ionicons/icons";
 import React from "react";
 import { Redirect, Route } from "react-router";
+import useTranslation from "../hooks/useTranslation";
 import { translationService } from "../services/TranslationService";
 import { CaliphsPage } from "./Advanced/CaliphsPage";
 import CreditsPage from "./Advanced/CeditsPage";
@@ -36,9 +37,6 @@ import { PearlsAyahPage } from "./Advanced/Quran/PearlsAyahPage";
 import { QuranMainPage } from "./Advanced/Quran/QuranMainPage";
 import { QuranPlayerPage } from "./Advanced/Quran/QuranPlayerPage";
 import { QuranReaderPage } from "./Advanced/Quran/QuranReaderPage";
-import { QuranRecitationPage } from "./Advanced/Quran/QuranRecitationPage";
-import { QuranRevelationPage } from "./Advanced/Quran/QuranRevelationPage";
-import { QuranTranslationPage } from "./Advanced/Quran/QuranTranslations";
 import { RubiesAyahPage } from "./Advanced/Quran/RubiesAyahPage";
 import RepetancePage from "./Advanced/RepetencePage";
 import { SirahPage } from "./Advanced/SirahPage";
@@ -48,8 +46,8 @@ import { WomensPage } from "./Advanced/WomensPage";
 import AsrPrayerPage from "./BookOne/AsrPrayerPage";
 import AsrPrayerDetailsPage from "./BookOne/AsrPrayerPageDetails";
 import AsrPrayerWatchPage from "./BookOne/AsrPrayerWatchPage";
-import BeliefPage from "./BookOne/BeliefPage";
-import BookOneMainPage from "./BookOne/BookOneMainPage";
+import BeliefPage from "./BeliefPage";
+import BookOneMainPage from "./BookOneMainPage";
 import DhikrPage from "./BookOne/DhikrPage";
 import DhuhrPrayerPage from "./BookOne/DhuhrPrayerPage";
 import DhuhrPrayerDetailsPage from "./BookOne/DhuhrPrayerPageDetails";
@@ -57,36 +55,39 @@ import DhuhrPrayerWatchPage from "./BookOne/DhuhrPrayerWatchPage";
 import FajrPrayerDetailsPage from "./BookOne/FajrPrayerDetailsPage";
 import FajrPrayerPage from "./BookOne/FajrPrayerPage";
 import FajrPrayerWatchPage from "./BookOne/FajrPrayerWatchPage";
-import HajjDefinitionPage from "./BookOne/HajjDefinitionPage";
-import ImanMainPage from "./BookOne/ImanMainPage";
+import HajjDefinitionPage from "./HajjDefinitionPage";
+import ImanMainPage from "./ImanMainPage";
 import IshaPrayerPage from "./BookOne/IshaPrayerPage";
 import IshaPrayerDetailsPage from "./BookOne/IshaPrayerPageDetails";
 import IshaPrayerWatchPage from "./BookOne/IshaPrayerWatchPage";
-import IslamMainPage from "./BookOne/IslamMainPage";
+import IslamMainPage from "./IslamPage";
 import MaghribPrayerPage from "./BookOne/MaghribPrayerPage";
 import MaghribPrayerDetailsPage from "./BookOne/MaghribPrayerPageDetails";
 import MaghribPrayerWatchPage from "./BookOne/MaghribPrayerWatchPage";
 import PrayerDefinitionPage from "./BookOne/PrayerDefinitionPage";
 import TasbihPage from "./BookOne/TasbihPage";
-import WudhuPage from "./BookOne/WudhuPage";
-import BookTwoMainPage from "./BookTwo/BookTwoMainPage";
+import WudhuPage from "./WudhuPage";
+import BookTwoMainPage from "./BookTwoMainPage";
 import { EidPrayerPage } from "./BookTwo/EidPrayerPage";
 import { FuneralPrayerPage } from "./BookTwo/FuneralPrayerPage";
 import { JummahPrayerPage } from "./BookTwo/JummahPrayerPage";
 import { TarawihPrayerPage } from "./BookTwo/TarawihPrayerPage";
-import SegmentLessonPage from "./Common/SegmentLessonPage";
-import { StandardLessonPage } from "./Common/StandardLessonPage";
+import SegmentLessonPage from "./SegmentLessonPage";
+import { StandardLessonPage } from "./StandardLessonPage";
 import HomePage from "./HomePage";
 import LanguageOptionsPage from "./LanguageOptionsPage";
 import LocationOptionsPage from "./LocationOptionsPage";
+import MainBookPage from "./MainBookPage";
 import MainCategoryPage from "./MainCategoryPage";
 import OptionsPage from "./OptionsPage";
 import UnderConstructionPage from "./UnderConstructionPage";
+import { SliderLessonPage } from "./SliderLessonPage";
 
 //3D7JW5AHQN.no.izbih.iMekteb
 interface MainAppProps{}
 
 const MainApp: React.FC<MainAppProps> = () => {
+  const {translate}=useTranslation();
   return (
     
       <IonTabs>
@@ -94,6 +95,7 @@ const MainApp: React.FC<MainAppProps> = () => {
           <Redirect exact path="/tabs" to="/tabs/HomePage" />
           <Route path="/tabs/HomePage" render={() => <HomePage />}/>
           <Route path="/tabs/MainCategoryPage" render={() => <MainCategoryPage />} exact={true}/>
+          <Route path="/tabs/MainBookPage" render={() => <MainBookPage />} exact={true}/>
           <Route path="/tabs/OptionsPage" render={() => <OptionsPage /> } exact={true} />
           <Route path="/tabs/CreditsPage" component={CreditsPage} />
           <Route path="/tabs/LanguageOptionsPage" component={LanguageOptionsPage} />
@@ -114,12 +116,6 @@ const MainApp: React.FC<MainAppProps> = () => {
           <Route path="/tabs/ChosenVerses/" component={ChosenVersesPage} />
           <Route path="/tabs/RubiesAyahPage/" component={RubiesAyahPage} />
           <Route path="/tabs/PearlsAyahPage/" component={PearlsAyahPage} />
-          <Route
-            path="/tabs/QuranTranslationPage/"
-            component={QuranTranslationPage}
-          />
-          <Route path="/tabs/QuranRecitationPage/" component={QuranRecitationPage} />
-          <Route path="/tabs/QuranRevelationPage/" component={QuranRevelationPage} />
           <Route
             path="/tabs/AyahPage/:surahId/:firstAyahId/:lastAyahId"
             component={AyahPage}
@@ -159,6 +155,10 @@ const MainApp: React.FC<MainAppProps> = () => {
           <Route
             path="/tabs/StandardLessonPage/:bookId/:lessonId"
             component={StandardLessonPage}
+          />
+          <Route
+            path="/tabs/SliderLessonPage/:bookId/:lessonId"
+            component={SliderLessonPage}
           />
           <Route
             path="/tabs/SegmentLessonPage/:bookId/:lessonId"
@@ -237,18 +237,24 @@ const MainApp: React.FC<MainAppProps> = () => {
         >
           <IonTabButton tab="/tabs/HomePage" href="/tabs/HomePage">
             <IonIcon icon={homeOutline} color="burgundy" />
-            <IonLabel>{translationService.getLabel("label-tab-home")}</IonLabel>
+            <IonLabel>{translate("label-tab-home")}</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="/tabs/MainCategoryPage" href="/tabs/MainCategoryPage">
+          <IonTabButton tab="/tabs/MainBookPage" href="/tabs/MainBookPage">
             <IonIcon icon={bookOutline} color="burgundy" />
             <IonLabel>
-              {translationService.getLabel("label-tab-treasure")}
+              {translate("label-tab-school")}
+            </IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="/tabs/MainCategoryPage" href="/tabs/MainCategoryPage">
+            <IonIcon icon={receiptOutline} color="burgundy" />
+            <IonLabel>
+              {translate("label-tab-advanced-school")}
             </IonLabel>
           </IonTabButton>
           <IonTabButton tab="/tabs/PrayerTimes/" href="/tabs/PrayerTimes/">
             <IonIcon icon={alarmOutline} color="burgundy" />
             <IonLabel>
-              Vaktija
+            {translate("label-tab-praying-times")}
             </IonLabel>
           </IonTabButton>
           <IonTabButton tab="/tabs/OptionsPage" href="/tabs/OptionsPage">

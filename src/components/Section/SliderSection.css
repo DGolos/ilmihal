@@ -1,0 +1,12 @@
+.sliderSectionText{
+    font-weight: normal;
+    font-size: 14px;
+    color:#000000;
+    
+}
+
+.sliderSectionItem{
+    --border-radius: 14px;
+    --background: #FFFFFF;
+    text-align: left;
+}

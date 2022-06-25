@@ -1,0 +1,19 @@
+.dailyAyahCard{
+    --background: #FFFFFF;
+    color: #000;
+    border-radius: 14px;
+    box-shadow: none;
+    text-align: center;
+  }
+
+   .dailyAyahCardHeader{
+    text-align: left;
+    font-weight:bold;
+    font-size:18px;
+    
+  }
+
+  .arabicText{
+    font-family: "Uthmanic";
+    font-size:28px;
+  }

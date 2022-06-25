@@ -213,71 +213,68 @@ class TimeService {
     const timeStamp =
       currentTime.getHours() * 3600 + currentTime.getMinutes() * 60;
 
-    let headers: string[] = [];
+    let headers: any[] = [];
 
     if (timeStamp < this.fajrSeconds) {
-      headers.push("label-next-prayer");
       headers.push("label-fajr-prayer");
-      headers.push(this.formatTime(this.fajrSeconds - timeStamp));
+      headers.push((this.fajrSeconds - timeStamp).toString());
     } else if (
       timeStamp >= this.fajrSeconds &&
       timeStamp < this.sunriseSeconds
     ) {
-      headers.push("label-current-prayer");
       headers.push("label-fajr-prayer");
+      headers.push(0);
     } else if (
       timeStamp >= this.sunriseSeconds &&
       timeStamp < this.preDhuhrSeconds
     ) {
       headers.push("label-no-prayer");
+      headers.push(0);
     } else if (
       timeStamp >= this.preDhuhrSeconds &&
       timeStamp < this.dhuhrSeconds
     ) {
-      headers.push("label-next-prayer");
       headers.push("label-dhuhr-prayer");
-      headers.push(this.formatTime(this.dhuhrSeconds - timeStamp));
+      headers.push((this.dhuhrSeconds - timeStamp).toString());
+      
     } else if (
       timeStamp >= this.dhuhrSeconds &&
       timeStamp < this.preAsrSeconds
     ) {
-      headers.push("label-current-prayer");
       headers.push("label-dhuhr-prayer");
+      headers.push(0);
     } else if (timeStamp >= this.preAsrSeconds && timeStamp < this.asrSeconds) {
-      headers.push("label-next-prayer");
       headers.push("label-asr-prayer");
-      headers.push(this.formatTime(this.asrSeconds - timeStamp));
+      headers.push((this.asrSeconds - timeStamp).toString());
     } else if (
       timeStamp >= this.asrSeconds &&
       timeStamp < this.preMaghribSeconds
     ) {
-      headers.push("label-current-prayer");
       headers.push("label-asr-prayer");
+      headers.push(0);
     } else if (
       timeStamp >= this.preMaghribSeconds &&
       timeStamp < this.maghribSeconds
     ) {
-      headers.push("label-next-prayer");
       headers.push("label-maghrib-prayer");
-      headers.push(this.formatTime(this.maghribSeconds - timeStamp));
+      headers.push((this.maghribSeconds - timeStamp).toString());
     } else if (
       timeStamp >= this.maghribSeconds &&
       timeStamp < this.preIshaSeconds
     ) {
-      headers.push("label-current-prayer");
       headers.push("label-maghrib-prayer");
+      headers.push(0);
     } else if (
       timeStamp >= this.preIshaSeconds &&
       timeStamp < this.ishaSeconds
     ) {
-      headers.push("label-next-prayer");
       headers.push("label-isha-prayer");
-      headers.push(this.formatTime(this.ishaSeconds - timeStamp));
+      headers.push((this.ishaSeconds - timeStamp).toString());
     } else if (timeStamp >= this.ishaSeconds) {
-      headers.push("label-current-prayer");
       headers.push("label-isha-prayer");
+      headers.push(0);
     }
-
+    
     return headers;
   }
 
@@ -309,7 +306,68 @@ class TimeService {
     return `${this.currentDay.islamicDay} ${this.currentDay.islamisMonth}`;
   }
 
-  
+  getRemainingtime(){
+    const currentTime = new Date();
+    const timeStamp =
+      currentTime.getHours() * 3600 + currentTime.getMinutes() * 60+currentTime.getSeconds();
+
+    if (timeStamp < this.fajrSeconds) {
+      
+      return this.fajrSeconds - timeStamp;
+    } else if (
+      timeStamp >= this.fajrSeconds &&
+      timeStamp < this.sunriseSeconds
+    ) {
+      return 0;
+    } else if (
+      timeStamp >= this.sunriseSeconds &&
+      timeStamp < this.preDhuhrSeconds
+    ) {
+      return 0;
+    } else if (
+      timeStamp >= this.preDhuhrSeconds &&
+      timeStamp < this.dhuhrSeconds
+    ) {
+      
+      return this.dhuhrSeconds - timeStamp;
+      
+    } else if (
+      timeStamp >= this.dhuhrSeconds &&
+      timeStamp < this.preAsrSeconds
+    ) {
+      return 0;
+    } else if (timeStamp >= this.preAsrSeconds && timeStamp < this.asrSeconds) {
+      
+      return this.asrSeconds - timeStamp;
+    } else if (
+      timeStamp >= this.asrSeconds &&
+      timeStamp < this.preMaghribSeconds
+    ) {
+      return 0;
+    } else if (
+      timeStamp >= this.preMaghribSeconds &&
+      timeStamp < this.maghribSeconds
+    ) {
+      console.log(this.maghribSeconds - timeStamp);
+      return this.maghribSeconds - timeStamp;
+      
+    } else if (
+      timeStamp >= this.maghribSeconds &&
+      timeStamp < this.preIshaSeconds
+    ) {
+      return 0;
+    } else if (
+      timeStamp >= this.preIshaSeconds &&
+      timeStamp < this.ishaSeconds
+    ) {
+      return this.ishaSeconds - timeStamp;
+      
+    } else if (timeStamp >= this.ishaSeconds) {
+      return 0;
+    }
+    
+    return 0;
+  }
 
   async getPrayertimes() {
     return {

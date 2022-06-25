@@ -42,14 +42,14 @@ const MaghribPrayerPage: React.FC = () => {
             </IonItem>
           </div>
           <div className="ion-padding">
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
               <IonText>
                 <h2 className="lesson-note">
                 {translationService.getLabel('label-book1-lesson22_section1-paragraph1')}
                 </h2>
               </IonText>
             </IonItem>
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
             <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-fardh')}</h3>
               <h3 className="prayer-name-normal">3 {translationService.getLabel('label-rakah-cardinal')}</h3>
@@ -68,7 +68,7 @@ const MaghribPrayerPage: React.FC = () => {
               </IonFabList>
             </IonFab>
             </IonItem>
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
             <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-sunnah')}</h3>
               <h3 className="prayer-name-normal">2 {translationService.getLabel('label-rakah-cardinal')}</h3>

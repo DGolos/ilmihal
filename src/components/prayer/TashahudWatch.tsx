@@ -10,7 +10,7 @@ import {
 } from "@ionic/react";
 import React, { useState } from "react";
 import { translationService } from "../../services/TranslationService";
-import { Progress } from "./../common/Progress";
+import { Progress } from "../Progress";
 
 interface TashahudProps {
   rakah?: string;

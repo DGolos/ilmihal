@@ -1,0 +1,26 @@
+.dailyRemainderCard{
+    --background: rgba(255,255,255,.2);
+    color: #FFFFFF;
+    border-radius: 14px;
+    box-shadow: none;
+    text-align: center;
+  }
+
+  .dailyRemainderCardTitle{
+      color:#FFF;
+      font-weight:bold;
+      font-size:24px;
+  }
+
+  .dailyRemainderCardSubject{
+    color:#FFF;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.dailyRemainderCardSubjectReference{
+    color:#FFF;
+    font-size:16px;
+    font-style:italic;
+    
+}

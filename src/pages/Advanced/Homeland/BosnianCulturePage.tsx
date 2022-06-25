@@ -19,7 +19,7 @@ import {
   IonText,
 } from "@ionic/react";
 import React from "react";
-import { Progress } from "../../../components/common/Progress";
+import { Progress } from "../../../components/Progress";
 import { translationService } from "../../../services/TranslationService";
 
 export const BosnianCulturePage: React.FC = () => {

@@ -2,7 +2,7 @@ import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonRow
 import { caretForwardCircleOutline, pauseCircleOutline } from "ionicons/icons";
 import React from "react";
 import { translationService } from "../../services/TranslationService";
-import { Progress } from "./../common/Progress";
+import { Progress } from "../Progress";
 
 interface QunutProps {
   color?:string;

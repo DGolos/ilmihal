@@ -1,0 +1,14 @@
+.dailyHadithCard{
+    --background: #FFFFFF;
+    color: #000;
+    border-radius: 14px;
+    box-shadow: none;
+    text-align: center;
+  }
+
+  .dailyHadithCardHeader{
+    text-align: left;
+    font-weight:bold;
+    font-size:18px;
+   
+  }

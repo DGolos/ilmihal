@@ -22,7 +22,7 @@ const DhuhrPrayerPage: React.FC = () => {
         </IonHeader>
         <IonContent className="bg-image-dhuhr" fullscreen>
           <div style={{ marginTop: 30, marginLeft: 15, marginRight: 15 }}>
-            <IonItem className="welcome">
+            <IonItem className="welcome" lines="none">
               <IonGrid>
                 <IonRow className="ion-no-padding">
                   <IonCol size="12">
@@ -49,7 +49,7 @@ const DhuhrPrayerPage: React.FC = () => {
               </h2>
             </IonText>
           </IonItem>
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
             <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-sunnah')}</h3>
               <h3 className="prayer-name-normal">4 {translationService.getLabel('label-rakah-cardinal')}</h3>
@@ -68,7 +68,7 @@ const DhuhrPrayerPage: React.FC = () => {
               </IonFabList>
             </IonFab>
             </IonItem>
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
             <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-fardh')}</h3>
               <h3 className="prayer-name-normal">4 {translationService.getLabel('label-rakah-cardinal')}</h3>
@@ -87,7 +87,7 @@ const DhuhrPrayerPage: React.FC = () => {
               </IonFabList>
             </IonFab>
             </IonItem>
-            <IonItem className="lesson-note">
+            <IonItem className="lesson-note" lines="none">
             <IonLabel style={{paddingRight:"0px"}}>
               <h3 className="prayer-name-bold">{translationService.getLabel('label-sunsunnah')}</h3>
               <h3 className="prayer-name-normal">2 {translationService.getLabel('label-rakah-cardinal')}</h3>

@@ -1,0 +1,7 @@
+.bookCard {
+    box-shadow: none;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0px;
+    padding: 5px;
+  }

@@ -1,0 +1,24 @@
+.lessonHeader {
+    box-shadow: none;
+    border-radius: 14px;
+    text-align: center;
+  }
+
+  .leasonHeaderTitle{
+    font-weight: bold;
+    font-size:24px;
+    color:#FFF;
+  }
+
+  .quote-reference{
+    font-weight: normal;
+    font-size:14px;
+    color:white;
+  }
+
+  .quote{
+    font-weight: normal;
+    font-size:18px;
+    color:white;
+    font-style: italic;
+  }

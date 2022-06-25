@@ -16,7 +16,7 @@ import {
 
 } from "@ionic/react";
 import React from "react";
-import { Progress } from "../../components/common/Progress";
+import { Progress } from "../../components/Progress";
 import { translationService } from "../../services/TranslationService";
 
 export const JummahPrayerPage: React.FC = () => {
@@ -31,7 +31,7 @@ export const JummahPrayerPage: React.FC = () => {
       </IonHeader>
       <IonContent className="bg-image-dhuhr" fullscreen>
         <div style={{ marginTop: 15, marginLeft: 15, marginRight: 15 }}>
-          <IonItem className="welcome">
+          <IonItem className="welcome" lines="none">
             <IonGrid>
               <IonRow className="ion-no-padding">
                 <IonCol size="12">

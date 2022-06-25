@@ -1,0 +1,26 @@
+.menuButtonActive{
+    --background:var(--ion-color-silver);
+    --color:var(--ion-color-dark-brown);
+    --box-shadow:none;
+}
+
+.menuButtonDarkBrown{
+    --background:var(--ion-color-dark-brown);
+    --color:var(--ion-color-light);
+    --box-shadow:none;
+    
+}
+
+.menuButtonPurple{
+    --background:var(--ion-color-purple);
+    --color:var(--ion-color-light);
+    --box-shadow:none;
+    
+}
+
+.menuButtonBurgundy{
+    --background:var(--ion-color-burgundy);
+    --color:var(--ion-color-light);
+    --box-shadow:none;
+    
+}

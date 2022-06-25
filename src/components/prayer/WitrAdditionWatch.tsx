@@ -9,7 +9,7 @@ import {
 } from "@ionic/react";
 import React from "react";
 import { translationService } from "../../services/TranslationService";
-import { Progress } from "../common/Progress";
+import { Progress } from "../Progress";
 
 interface WitrAdditionWatchProps {
   color?: string;

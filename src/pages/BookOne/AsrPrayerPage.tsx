@@ -59,7 +59,7 @@ const AsrPrayerPage: React.FC = () => {
           </IonItem>
         </div>
         <div className="ion-padding">
-          <IonItem className="lesson-note">
+          <IonItem className="lesson-note" lines="none">
             <IonText>
               <h2 className="lesson-note">
                 {translationService.getLabel(
@@ -68,7 +68,7 @@ const AsrPrayerPage: React.FC = () => {
               </h2>
             </IonText>
           </IonItem>
-          <IonItem className="lesson-note">
+          <IonItem className="lesson-note" lines="none">
             <IonLabel style={{ paddingRight: "0px" }}>
               <h3 className="prayer-name-bold">
                 {translationService.getLabel("label-sunnah")}
@@ -103,7 +103,7 @@ const AsrPrayerPage: React.FC = () => {
               </IonFabList>
             </IonFab>
           </IonItem>
-          <IonItem className="lesson-note">
+          <IonItem className="lesson-note" lines="none">
             <IonLabel style={{ paddingRight: "0px" }}>
               <h3 className="prayer-name-bold">
                 {translationService.getLabel("label-fardh")}
