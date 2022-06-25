@@ -32,9 +32,11 @@ import { dataService } from './services/dataService';
 import ChooseLanguagePage from './pages/ChooseLanguagePage';
 import ChooseLocationPage from './pages/ChooseLocationPage';
 import MainApp from './pages/MainApp';
+import useLanguage from './hooks/useLanguage';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);
+  const {language}=useLanguage();
   
   const initialization = useCallback(async () => {
     await translationService.load();
@@ -59,7 +61,7 @@ const App: React.FC = () => {
           <Route path="/ChooseLanguagePage" component={ChooseLanguagePage} />
           <Route path="/ChooseLocationPage" component={ChooseLocationPage} />
           <Route path="/tabs" component={MainApp} />
-          <Route path="/" render={() => <Redirect to={translationService.isLoaded()?"/tabs":"/ChooseLanguagePage"} />} exact={true}/>
+          <Route path="/" render={() => <Redirect to={language!==""?"/tabs":"/ChooseLanguagePage"} />} exact={true}/>
                     
         
           
