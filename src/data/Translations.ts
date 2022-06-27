@@ -987,6 +987,108 @@ export interface LanguageEntry{
       de:""
     },
     {
+      name:"label-book3-lesson1-title",
+      ba:"Slušaj Kur'an",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson1-title-description",
+      ba:"Čitaj odabrane sure iz Časnog Kur'ana.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson2-title",
+      ba:"Čitaj Kur'an",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson2-title-description",
+      ba:"Čitaj odabrane sure iz Časnog Kur'ana.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson3-title",
+      ba:"Objava Kur'ana",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson3-title-description",
+      ba:"Objava Kur'ana Muhammedu a.s.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4-title",
+      ba:"Učenje Kur'ana",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4-title-description",
+      ba:"Etiketa učenja Časnog Kur'ana.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson5-title",
+      ba:"Odabrani ajeti",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson5-title-description",
+      ba:"Čitaj odabrane ajete iz Časnog Kur'ana.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6-title",
+      ba:"Prijevodi Kur'ana",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6-title-description",
+      ba:"Prijevodi Časnog Kur'ana na bosanski jezik.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+
+
+
+
+
+
+    {
       name:"label-button-quran",
       ba:"Kur'an",
       no:"Koran",
@@ -1034,86 +1136,7 @@ export interface LanguageEntry{
       it:"",
       de:""
     },
-    {
-      name:"label-read-quran",
-      ba:"Čitaj Kur'an",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-read-quran-description",
-      ba:"Čitaj odabrane sure iz Časnog Kur'ana.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-quran-revelation",
-      ba:"Objava Kur'ana",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-quran-revelation-description",
-      ba:"Objava Kur'ana Muhammedu a.s.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-quran-recitation",
-      ba:"Učenje Kur'ana",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-quran-recitation-description",
-      ba:"Etiketa učenja Časnog Kur'ana.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-quran-choosen-verses",
-      ba:"Odabrani ajeti",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-quran-choosen-verses-description",
-      ba:"Čitaj odabrane ajete iz Časnog Kur'ana.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-quran-translations",
-      ba:"Prijevodi Kur'ana",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-quran-translations-description",
-      ba:"Prijevodi Časnog Kur'ana na bosanski jezik.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
+    
     {
       name:"label-prayer-voluntary-prayers",
       ba:"Ostali namazi",
@@ -4789,7 +4812,7 @@ export interface LanguageEntry{
       de:""
     },
     {
-      name:"label-book3-lesson1-quote",
+      name:"label-book3-lesson3-quote",
       ba:"\"Na nebesima i na Zemlji, zaista, postoje dokazi za one koji vjeruju.\"",
       no:"Bønn",
       en:"Prayer",
@@ -4797,208 +4820,8 @@ export interface LanguageEntry{
       de:""
     },
     {
-      name:"label-book3-lesson1-quote-reference",
-      ba:"Kur'an, 45:3",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section1-header",
-      ba:"Uvod",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section1-paragraph1",
-      ba:"Oni koji ne vjeruju govore: \"Trebalo je da mu Kur’an bude objavljen čitav, i to odjednom\" A tako se objavljuje da bismo njime srce tvoje učvrstili, i Mi ga sve ajet po ajet objavljujemo. Oni ti neće nijedan prigovor postaviti a da ti Mi nećemo odgovor i najljepše objašnjenje navesti (prijevod značenja El-Furkan, 32 i 33).",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section1-paragraph2",
-      ba:"Kur’an je nadnaravan, nenadmašan, nedostižan, jednom riječju – on je mudžiza jer je Allahovo, dž.š., svojstvo, i zato ljudi nisu u stanju \"donijeti nešto slično njemu\". Kur’an je posljednja Allahova, dž.š., Objava, Njegov govor i Njegova Riječ (kelamulah). Prema učenju ehl-i sunneta, Kur’an je \"nestvoreni Allahov, dž.š., govor\". Taj Vječni govor, dakle, silazi, spušta se (tenzil) u vrijeme i prostor. Vrijeme i prostor su odrednice koje se vežu za čovjeka, one ništa ne znače u odnosu na vječni Allahov, dž.š., govor.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section2-header",
-      ba:"Objava",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section2-paragraph1",
-      ba:"Kur’an je objavljen (munezzel) \"s plemenitih Visina\" na čistom arapskom jeziku. On nije vlasništvo meleka Džibrila, a.s., niti Muhammeda, a.s., i nije samo njima objavljen, već svim ljudima i džinima. Kur’an je poput Sunca, svima sija! Dakle, Kur’an je objavljen čovjeku i čovjek je baštinik Objave. Kakvo priznanje čovjeku od njegova Gospodara! Zašto baš čovjeku? Zato što on ima slobodu da vjeruje ili ne vjeruje. Prvi primatelj Objave (vahja) je Muhammed, a.s. On je Kur’an primao ne onda kada je on htio, već kada je Uzvišeni Allah, dž.š., to htio.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section3-header",
-      ba:"Melek Džibril, a.s.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section3-paragraph1",
-      ba:"Melek Džibril, a.s., je poznat kao dostavljač Allahovih, dž.š., Objava. Između ostalih Objava on je dostavio Tevrat, Zebur, Indžil i Kur'an. O meleku Džibrilu, a.s., kaže Stvoritelj, svjetova:”I Kur'an je sigurno Objava Gospodara svjetova, donosi ga povjerljivi Džibril na srce tvoje, da opominješ.’’ (El-Bekara, 285) Objavu je dostavljao postepeno, pune 23 godine, odnosno 13 godina u Mekki i 10 godina u Medini. Džibril, a.s., bi dolazio Allahovom, dž.š., Poslaniku, a.s, u njegovom prirodnom stanju, i ovo je bilo teško Poslaniku, a.s. U drugoj situaciji Džibril, a.s. bi prelazio iz stanja meleka u lik čovjeka, što bi Poslaniku, a.s., bilo lakše. U Buharijevom sahihu se od Aiše, radijallahu anha, prenosi da je Haris ibn Hašim, r.a., pitao Poslanika, a.s., govoreći mu: \"Allahov Poslaniče, kako ti dolazi objava?\" Poslanik, a.s., mu je odgovorio: “Nekada mi Objava dolazi slično zvonjavi zvona i to mi je najteže. Kad se to završi ja sam već zapamtio ono što mi je objavljeno. A nekada mi melek dolazi u liku čovjeka, i govori mi, a ja upamtim ono što mi on kaže.” (Buhari: 18/1, br. 2.)",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section4-header",
-      ba:"Organizacija",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section4-paragraph1",
-      ba:"Kur'an je sastavljen od 114 poglavlja koja se zovu \"sure\" podijeljenih u 6236 ajeta raspoređenih u 30 jednakih djelova ili džuzeva.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section5-header",
-      ba:"Tumačenje Kur'ana",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section5-paragraph1",
-      ba:"Pravilno tumačenje i razumijevanje Kur'ana se naziva tefsir. Islamski učenjaci su veoma rano došli do zaključka da je za pravilno tumačenje Kur’ana i validnu interpretaciju kur’anske misli potrebno veliko predznanje iz različitih naučenih disciplina. Ukoliko neko pristupi tumačenju Kur’ana (tefsiru) prije nego li dobro savlada te discipline, njegov tefsir će biti neispravan. Osoba koja posjeduje predznanje iz tih različitih (naučnih) vjerskih oblasti i može tumačiti Kur'an zove se mufessir.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section6-header",
-      ba:"Mushaf",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson1_section6-paragraph1",
-      ba:"Rana muslimanska zajednica na čelu sa halifama Ebu Bekrom i Osmanom, r.a., poduzela je niz idžtihadskih koraka u vezi sa: a) nastankom mushafa, b) njegovim prepisivanjem i umnožavanjem i c) reformom kur’anskog pisma. U vrijeme Poslanika, a.s., Kur’an je zapisivan na različitim materijalima: kamenim plohama, palminom granju, kostima i slično, ali nije bio sakupljen u jednu zbirku (mushaf). Svi ti predmeti bili su pohranjivani kod Zejda ibn Sabita, glavnog Poslanikovog, a.s., pisara Objave. Usporedo s time, i još u većoj mjeri, teklo je učenje Kur’ana napamet. Sa halifom Ebu Bekrom, r.a., nastaje prvi mushaf. Naime, kada je na Jemami (12/634. godine) poginula skupina ashaba u borbi protiv Musejlime el-Kezzaba, Omer b. el-Hattab, r.a., ukazao je Ebu Bekru, r.a., da sakupi Kur’an zbog straha da on ne nestane sa smrću njegovih učača. Ebu Bekr, r.a., je izdao fetvu Zejdu b. Sabitu, r.a., i Kur’an je zapisan, odnosno sakupljen u jednu zbirku (mushaf). Taj mushaf ostao je kod Ebu Bekra, r.a., zatim kod Omera, r.a., a onda kod Omerove, r.a., kćerke Hafse, r.a. Tokom toga perioda raširile se su kopije Kur’ana širom tadašnjeg carstva. Među njima je bilo određenih razlika pa je Huzejfe (25. godine po Hidžri) na to ukazao Osmanu, r.a., koji je formirao komisiju na čelu sa Zejdom b. Sabitom, r.a., da po drugi put zapišu Kur’an. Mushaf koji je bio kod Hafse uzeli su kao osnovni tekst (imamu l-mushaf) prilikom ovog posljednjeg zapisivanja/sakupljanja Kur’ana. Osman, r.a., lično je nadzirao ovaj posao i u njemu sudjelovao. Osman, r.a., im je rekao: „Ako se u nečemu ne složite, zapišite prema jeziku plemena Kurejš.“ Kada je mushaf završen, Osman, r.a., načinio je njegove kopije i poslao u glavne centre carstva, a za sve mimo njega naredio je da se podere ili spali (prenose se obje ove mogućnosti).",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2-quote",
-      ba:"\"Eto, od takvih ćemo Mi dobra djela koja su radili primiti.\"",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2-quote-reference",
-      ba:"Kur'an, 46:16",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2_section1-header",
-      ba:"Uvod",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2_section1-paragraph1",
-      ba:"O, sljedbenici Kur'ana, ne skrivajte Kur'an ispod svojih jastuka, već ga ispravno učite noću i danju, i širite ga i razmišljajte o onome što on sadrži - da biste bili spašeni! (Hadis)",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2_section1-paragraph2",
-      ba:"Prema Kur'anu se trebamo odnositi s posebnom pažnjom. Abdest je uslov za njegovo čitanje i držanje u rukama. Zabranjeno ga je uzimati u ruke i čitati bez abdesta. Osobe koje nisu čiste (džunup, žene u stanju hajza i nifasa) također Kur'an ne mogu uzimati u ruke i čitati. Preporučeno je što više čitati i učiti Kur'an. Uzvišeni hvaleći one koji to čine kaže:...koji uče ajete Allahove po cijelu noć (Ali 'Imran, 113). U dva sahiha u hadisu od Ibn Omera, r.a., kaže se: \"Nema zavidnosti osim u dva slučaja: čoveku kome je Allah dao Kur'an i on postupa po njemu i danju i noću\". Tirmizi prenosi slijedeći hadis od Ibn Mes'uda, r.a.: \"Ko prouči harf iz Allahove Knjige, ima za to dobro djelo, a dobro djelo se nagrađuje deseterostruko\". Učenje Kur'ana počinjemo sa učenjem Euze i Bismille.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2_section2-header",
-      ba:"Tedžvid",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2_section2-paragraph1",
-      ba:"Tedžvid je nauka, koja nas upućuje u pravilno učenje Kur'ana. Pored nauke tedžvid je i vještina obzirom da iziskuje maksimalnu vježbu.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2_section2-paragraph2",
-      ba:"Vrijednost ove islamske nauke je ogromna, a njena važnost se najbolje ogleda u tome, što bez pravilnog učenja Kur'ana u pitanje dolazi vrijednost namaza.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2_section3-header",
-      ba:"Hifz",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson2_section3-paragraph1",
-      ba:"edna od posebnosti Kur’ana časnog je da je to knjiga koja se može naučiti napamet. Taj proces se na arapskom jeziku naziva hifzu-l-Kur’an, a osoba koja je u cijelosti naučila Kur’an napamet naziva se hafizu-l-Kur’an, što bi se moglo prevesti kao čuvar Kur’ana. Proces memorisanja Kur’ana kod nas se naziva hifz ili hafizluk, a osoba koja je naučila cijeli Kur’an napamet dobiva časnu titulu hafiza.",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
-      name:"label-book3-lesson3-quote",
-      ba:"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\"",
-      no:"Bønn",
-      en:"Prayer",
-      it:"",
-      de:""
-    },
-    {
       name:"label-book3-lesson3-quote-reference",
-      ba:"Kur'an, 12:2",
+      ba:"Kur'an, 45:3",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5014,7 +4837,15 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section1-paragraph1",
-      ba:"Kur′an se u Bosni u Hercegovini prevodi već pet stoljeća, ali sve do kraja 19. stoljeća nije izašlo ni jedno izdanje cjelovitog prijevoda Kur′ana. Od pojave prvih prijevoda Kur′ana do danas, Bošnjaci i dalje rade na njegovom prevođenju. Mali je broj naroda koji se može pohvaliti ovolikim brojem prijevoda Kur′ana.",
+      ba:"Oni koji ne vjeruju govore: \"Trebalo je da mu Kur’an bude objavljen čitav, i to odjednom\" A tako se objavljuje da bismo njime srce tvoje učvrstili, i Mi ga sve ajet po ajet objavljujemo. Oni ti neće nijedan prigovor postaviti a da ti Mi nećemo odgovor i najljepše objašnjenje navesti (prijevod značenja El-Furkan, 32 i 33).",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson3_section1-paragraph2",
+      ba:"Kur’an je nadnaravan, nenadmašan, nedostižan, jednom riječju – on je mudžiza jer je Allahovo, dž.š., svojstvo, i zato ljudi nisu u stanju \"donijeti nešto slično njemu\". Kur’an je posljednja Allahova, dž.š., Objava, Njegov govor i Njegova Riječ (kelamulah). Prema učenju ehl-i sunneta, Kur’an je \"nestvoreni Allahov, dž.š., govor\". Taj Vječni govor, dakle, silazi, spušta se (tenzil) u vrijeme i prostor. Vrijeme i prostor su odrednice koje se vežu za čovjeka, one ništa ne znače u odnosu na vječni Allahov, dž.š., govor.",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5022,7 +4853,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section2-header",
-      ba:"Mićo Ljubibratić",
+      ba:"Objava",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5030,7 +4861,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section2-paragraph1",
-      ba:"Prvi prijevod Kur′ana na ovom području je bio prijevod nemuslimana, Miće Ljubibratića u Beogradu na srpsko-hrvatski jezik. Tek 1937. izlazi prijevod Kur′ana muslimana, hadži Ali Riza Karabega, u Mostaru. Mićo Ljubibratić preveo je Kur′an sa francuskog ili ruskog jezika. Važno je napomenuti da je ovaj prijevod bio na srpsko-hrvatski jezik, a ne na bosanski. On se pojavio 1985. pod nazivom Koran, a štampan je u Beogradu. Mićo Ljubibratić bio je ustanički vođa, koji je bio zagovornik bratske saradnje između Srba i Bošnjaka. Poduhvat prevođenja Kur′ana bio je motiviran političkim razlozima da bi se kod Bošnjaka izazvali određeni nacionalno-politički efekti. Ljubibratićev prijevod objavljen je nakon njegove smrti, i to po trošku zadužbine Ilije Miloslavljevića –Kolarca.",
+      ba:"Kur’an je objavljen (munezzel) \"s plemenitih Visina\" na čistom arapskom jeziku. On nije vlasništvo meleka Džibrila, a.s., niti Muhammeda, a.s., i nije samo njima objavljen, već svim ljudima i džinima. Kur’an je poput Sunca, svima sija! Dakle, Kur’an je objavljen čovjeku i čovjek je baštinik Objave. Kakvo priznanje čovjeku od njegova Gospodara! Zašto baš čovjeku? Zato što on ima slobodu da vjeruje ili ne vjeruje. Prvi primatelj Objave (vahja) je Muhammed, a.s. On je Kur’an primao ne onda kada je on htio, već kada je Uzvišeni Allah, dž.š., to htio.",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5038,7 +4869,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section3-header",
-      ba:"Ali Riza Karabeg",
+      ba:"Melek Džibril, a.s.",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5046,7 +4877,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section3-paragraph1",
-      ba:"Drugi prijevod Kur′ana jeste prijevod hadži Ali Riza Karabega. Ovaj prijevod objavljen je 1937. godine pod naslovom: Kur′an prijevod hadži Ali Riza Karabega. Karabeg je uz prijevod napisao predgovor u kojem je govorio o poteškoćama prevođenja  Kur′ana. Hadži Ali Riza Karabeg bio je istaknuti hercegovački alim. Njegov otac bio je mostarski muftija Mustafa Sidki Karabeg, koji je bio pogubljen pred ulazak austro-ugarskih trupa jer je odbio izdati fetvu o borbi protiv spomenutih trupa. Njegov sin Ali Riza, poslije završene medrese, nastavio je školovanje u Carigradu. Po povratku predavao je vjeronauku u mostarskoj gimnaziji i sarađivao sa časopisima Hikmeti El-Hidaje. Sačinio je prijevod po uzoru na Ljubibratićev, ali tako što je Ljubibratićev prijevod Kur′ana pročistio izbacivši iz njega skoro sve termine kršćanske teologije i davši im izvorne oblike koji su u jeziku muslimanskih čitalaca u Bosni i Hercegovini.",
+      ba:"Melek Džibril, a.s., je poznat kao dostavljač Allahovih, dž.š., Objava. Između ostalih Objava on je dostavio Tevrat, Zebur, Indžil i Kur'an. O meleku Džibrilu, a.s., kaže Stvoritelj, svjetova:”I Kur'an je sigurno Objava Gospodara svjetova, donosi ga povjerljivi Džibril na srce tvoje, da opominješ.’’ (El-Bekara, 285) Objavu je dostavljao postepeno, pune 23 godine, odnosno 13 godina u Mekki i 10 godina u Medini. Džibril, a.s., bi dolazio Allahovom, dž.š., Poslaniku, a.s, u njegovom prirodnom stanju, i ovo je bilo teško Poslaniku, a.s. U drugoj situaciji Džibril, a.s. bi prelazio iz stanja meleka u lik čovjeka, što bi Poslaniku, a.s., bilo lakše. U Buharijevom sahihu se od Aiše, radijallahu anha, prenosi da je Haris ibn Hašim, r.a., pitao Poslanika, a.s., govoreći mu: \"Allahov Poslaniče, kako ti dolazi objava?\" Poslanik, a.s., mu je odgovorio: “Nekada mi Objava dolazi slično zvonjavi zvona i to mi je najteže. Kad se to završi ja sam već zapamtio ono što mi je objavljeno. A nekada mi melek dolazi u liku čovjeka, i govori mi, a ja upamtim ono što mi on kaže.” (Buhari: 18/1, br. 2.)",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5054,7 +4885,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section4-header",
-      ba:"Pandža-Čaušević",
+      ba:"Organizacija",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5062,7 +4893,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section4-paragraph1",
-      ba:"Pandža-Čaušević prijevod Kur′ana objavljen je 1937., pod naslovom Kur′an časni -prijevod i tumač. Drugo izdanje objavljeno je u Zagrebu 1969., pod istim naslovom. Ovo zagrebačko izdanje služi kao osnov svim ostalim izdanjima. U vremenu kada je izašao novi prijevod Kur′ana od Čauševića i Pandže došlo je do polemike koja se vodila između pogresivnih i konzervativnih snaga. Čaušević je u to vrijeme bio nosilac pogresivne misli. Napadi su dolazili od strane časopise „El-Hidaje“, koji je okupljao tadašnju konzervativnu ulemu. Napadi na ovaj prijevod nisu bila radi grešaka u prijevodu, već da se još jednom izvrši napad na ličnost Džemaluddina Čauševića. Pandža i Čaušević su tvrdili da su svoj prijevod izradili prema turskom prijevodu Kur′ana od Omera Rizaa. Organizacija Ilmije utvrdila je da je Pandža-Čauševićev Kur′an Časni doslovni prijevod Rizaova prijevoda, ali da je Omer Rizaa kopirao engleski prijevod Muhammeda Alija koji je bio pripradnik ahmedijske sekte. Čaušević-Pandža prijevod iz 1937. godine, pročišćen je tako da u narednim izdanjima izostaju mnoga značenja i tumačenja unutar kur′anskog teksta koje je Glavni odbor „El-Hidaje“ argumentirano pobijao.",
+      ba:"Kur'an je sastavljen od 114 poglavlja koja se zovu \"sure\" podijeljenih u 6236 ajeta raspoređenih u 30 jednakih djelova ili džuzeva.",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5070,7 +4901,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section5-header",
-      ba:"Besim Korkut",
+      ba:"Tumačenje Kur'ana",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5078,7 +4909,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section5-paragraph1",
-      ba:"Besim Korkut je poznati arabist i prevodilac. Njegov prijevod Kur′ana objavljen je 1977. Godine, u Sarajevu i predstavlja prvi naš cjeloviti prijevod Kur′ana s arapskog na bosanski jezik. To je prva njegova prednost u poređenju s drugim prijevodima. Druga prednost je u tome što je Korkut diplomirani arabist Univerziteta Al-Azhar u Kairu i prevodio je Kur′an zarad, isključivo, vjerske svrhe. Korkut je prije izdanja svoga prijevoda kritizirao drugo izdanje prijevoda Kur′ana od Čauševića i Pandže, a čiju su redakturu izvršili Omer Mušić i Alija Nametak. On je konstatovao da su neka mjesta ispravljena, druga su ostala neispravljena, a neka su čak i gore prevedena. Zbog toga se odlučio da sam prevede Kur′an na bosanski jezik.",
+      ba:"Pravilno tumačenje i razumijevanje Kur'ana se naziva tefsir. Islamski učenjaci su veoma rano došli do zaključka da je za pravilno tumačenje Kur’ana i validnu interpretaciju kur’anske misli potrebno veliko predznanje iz različitih naučenih disciplina. Ukoliko neko pristupi tumačenju Kur’ana (tefsiru) prije nego li dobro savlada te discipline, njegov tefsir će biti neispravan. Osoba koja posjeduje predznanje iz tih različitih (naučnih) vjerskih oblasti i može tumačiti Kur'an zove se mufessir.",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5086,7 +4917,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section6-header",
-      ba:"Enes Karić",
+      ba:"Mushaf",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -5094,6 +4925,198 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson3_section6-paragraph1",
+      ba:"Rana muslimanska zajednica na čelu sa halifama Ebu Bekrom i Osmanom, r.a., poduzela je niz idžtihadskih koraka u vezi sa: a) nastankom mushafa, b) njegovim prepisivanjem i umnožavanjem i c) reformom kur’anskog pisma. U vrijeme Poslanika, a.s., Kur’an je zapisivan na različitim materijalima: kamenim plohama, palminom granju, kostima i slično, ali nije bio sakupljen u jednu zbirku (mushaf). Svi ti predmeti bili su pohranjivani kod Zejda ibn Sabita, glavnog Poslanikovog, a.s., pisara Objave. Usporedo s time, i još u većoj mjeri, teklo je učenje Kur’ana napamet. Sa halifom Ebu Bekrom, r.a., nastaje prvi mushaf. Naime, kada je na Jemami (12/634. godine) poginula skupina ashaba u borbi protiv Musejlime el-Kezzaba, Omer b. el-Hattab, r.a., ukazao je Ebu Bekru, r.a., da sakupi Kur’an zbog straha da on ne nestane sa smrću njegovih učača. Ebu Bekr, r.a., je izdao fetvu Zejdu b. Sabitu, r.a., i Kur’an je zapisan, odnosno sakupljen u jednu zbirku (mushaf). Taj mushaf ostao je kod Ebu Bekra, r.a., zatim kod Omera, r.a., a onda kod Omerove, r.a., kćerke Hafse, r.a. Tokom toga perioda raširile se su kopije Kur’ana širom tadašnjeg carstva. Među njima je bilo određenih razlika pa je Huzejfe (25. godine po Hidžri) na to ukazao Osmanu, r.a., koji je formirao komisiju na čelu sa Zejdom b. Sabitom, r.a., da po drugi put zapišu Kur’an. Mushaf koji je bio kod Hafse uzeli su kao osnovni tekst (imamu l-mushaf) prilikom ovog posljednjeg zapisivanja/sakupljanja Kur’ana. Osman, r.a., lično je nadzirao ovaj posao i u njemu sudjelovao. Osman, r.a., im je rekao: „Ako se u nečemu ne složite, zapišite prema jeziku plemena Kurejš.“ Kada je mushaf završen, Osman, r.a., načinio je njegove kopije i poslao u glavne centre carstva, a za sve mimo njega naredio je da se podere ili spali (prenose se obje ove mogućnosti).",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4-quote",
+      ba:"\"Eto, od takvih ćemo Mi dobra djela koja su radili primiti.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4-quote-reference",
+      ba:"Kur'an, 46:16",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4_section1-paragraph1",
+      ba:"O, sljedbenici Kur'ana, ne skrivajte Kur'an ispod svojih jastuka, već ga ispravno učite noću i danju, i širite ga i razmišljajte o onome što on sadrži - da biste bili spašeni! (Hadis)",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4_section1-paragraph2",
+      ba:"Prema Kur'anu se trebamo odnositi s posebnom pažnjom. Abdest je uslov za njegovo čitanje i držanje u rukama. Zabranjeno ga je uzimati u ruke i čitati bez abdesta. Osobe koje nisu čiste (džunup, žene u stanju hajza i nifasa) također Kur'an ne mogu uzimati u ruke i čitati. Preporučeno je što više čitati i učiti Kur'an. Uzvišeni hvaleći one koji to čine kaže:...koji uče ajete Allahove po cijelu noć (Ali 'Imran, 113). U dva sahiha u hadisu od Ibn Omera, r.a., kaže se: \"Nema zavidnosti osim u dva slučaja: čoveku kome je Allah dao Kur'an i on postupa po njemu i danju i noću\". Tirmizi prenosi slijedeći hadis od Ibn Mes'uda, r.a.: \"Ko prouči harf iz Allahove Knjige, ima za to dobro djelo, a dobro djelo se nagrađuje deseterostruko\". Učenje Kur'ana počinjemo sa učenjem Euze i Bismille.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4_section2-header",
+      ba:"Tedžvid",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4_section2-paragraph1",
+      ba:"Tedžvid je nauka, koja nas upućuje u pravilno učenje Kur'ana. Pored nauke tedžvid je i vještina obzirom da iziskuje maksimalnu vježbu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4_section2-paragraph2",
+      ba:"Vrijednost ove islamske nauke je ogromna, a njena važnost se najbolje ogleda u tome, što bez pravilnog učenja Kur'ana u pitanje dolazi vrijednost namaza.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4_section3-header",
+      ba:"Hifz",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson4_section3-paragraph1",
+      ba:"edna od posebnosti Kur’ana časnog je da je to knjiga koja se može naučiti napamet. Taj proces se na arapskom jeziku naziva hifzu-l-Kur’an, a osoba koja je u cijelosti naučila Kur’an napamet naziva se hafizu-l-Kur’an, što bi se moglo prevesti kao čuvar Kur’ana. Proces memorisanja Kur’ana kod nas se naziva hifz ili hafizluk, a osoba koja je naučila cijeli Kur’an napamet dobiva časnu titulu hafiza.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6-quote",
+      ba:"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6-quote-reference",
+      ba:"Kur'an, 12:2",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section1-paragraph1",
+      ba:"Kur′an se u Bosni u Hercegovini prevodi već pet stoljeća, ali sve do kraja 19. stoljeća nije izašlo ni jedno izdanje cjelovitog prijevoda Kur′ana. Od pojave prvih prijevoda Kur′ana do danas, Bošnjaci i dalje rade na njegovom prevođenju. Mali je broj naroda koji se može pohvaliti ovolikim brojem prijevoda Kur′ana.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section2-header",
+      ba:"Mićo Ljubibratić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section2-paragraph1",
+      ba:"Prvi prijevod Kur′ana na ovom području je bio prijevod nemuslimana, Miće Ljubibratića u Beogradu na srpsko-hrvatski jezik. Tek 1937. izlazi prijevod Kur′ana muslimana, hadži Ali Riza Karabega, u Mostaru. Mićo Ljubibratić preveo je Kur′an sa francuskog ili ruskog jezika. Važno je napomenuti da je ovaj prijevod bio na srpsko-hrvatski jezik, a ne na bosanski. On se pojavio 1985. pod nazivom Koran, a štampan je u Beogradu. Mićo Ljubibratić bio je ustanički vođa, koji je bio zagovornik bratske saradnje između Srba i Bošnjaka. Poduhvat prevođenja Kur′ana bio je motiviran političkim razlozima da bi se kod Bošnjaka izazvali određeni nacionalno-politički efekti. Ljubibratićev prijevod objavljen je nakon njegove smrti, i to po trošku zadužbine Ilije Miloslavljevića –Kolarca.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section3-header",
+      ba:"Ali Riza Karabeg",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section3-paragraph1",
+      ba:"Drugi prijevod Kur′ana jeste prijevod hadži Ali Riza Karabega. Ovaj prijevod objavljen je 1937. godine pod naslovom: Kur′an prijevod hadži Ali Riza Karabega. Karabeg je uz prijevod napisao predgovor u kojem je govorio o poteškoćama prevođenja  Kur′ana. Hadži Ali Riza Karabeg bio je istaknuti hercegovački alim. Njegov otac bio je mostarski muftija Mustafa Sidki Karabeg, koji je bio pogubljen pred ulazak austro-ugarskih trupa jer je odbio izdati fetvu o borbi protiv spomenutih trupa. Njegov sin Ali Riza, poslije završene medrese, nastavio je školovanje u Carigradu. Po povratku predavao je vjeronauku u mostarskoj gimnaziji i sarađivao sa časopisima Hikmeti El-Hidaje. Sačinio je prijevod po uzoru na Ljubibratićev, ali tako što je Ljubibratićev prijevod Kur′ana pročistio izbacivši iz njega skoro sve termine kršćanske teologije i davši im izvorne oblike koji su u jeziku muslimanskih čitalaca u Bosni i Hercegovini.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section4-header",
+      ba:"Pandža-Čaušević",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section4-paragraph1",
+      ba:"Pandža-Čaušević prijevod Kur′ana objavljen je 1937., pod naslovom Kur′an časni -prijevod i tumač. Drugo izdanje objavljeno je u Zagrebu 1969., pod istim naslovom. Ovo zagrebačko izdanje služi kao osnov svim ostalim izdanjima. U vremenu kada je izašao novi prijevod Kur′ana od Čauševića i Pandže došlo je do polemike koja se vodila između pogresivnih i konzervativnih snaga. Čaušević je u to vrijeme bio nosilac pogresivne misli. Napadi su dolazili od strane časopise „El-Hidaje“, koji je okupljao tadašnju konzervativnu ulemu. Napadi na ovaj prijevod nisu bila radi grešaka u prijevodu, već da se još jednom izvrši napad na ličnost Džemaluddina Čauševića. Pandža i Čaušević su tvrdili da su svoj prijevod izradili prema turskom prijevodu Kur′ana od Omera Rizaa. Organizacija Ilmije utvrdila je da je Pandža-Čauševićev Kur′an Časni doslovni prijevod Rizaova prijevoda, ali da je Omer Rizaa kopirao engleski prijevod Muhammeda Alija koji je bio pripradnik ahmedijske sekte. Čaušević-Pandža prijevod iz 1937. godine, pročišćen je tako da u narednim izdanjima izostaju mnoga značenja i tumačenja unutar kur′anskog teksta koje je Glavni odbor „El-Hidaje“ argumentirano pobijao.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section5-header",
+      ba:"Besim Korkut",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section5-paragraph1",
+      ba:"Besim Korkut je poznati arabist i prevodilac. Njegov prijevod Kur′ana objavljen je 1977. Godine, u Sarajevu i predstavlja prvi naš cjeloviti prijevod Kur′ana s arapskog na bosanski jezik. To je prva njegova prednost u poređenju s drugim prijevodima. Druga prednost je u tome što je Korkut diplomirani arabist Univerziteta Al-Azhar u Kairu i prevodio je Kur′an zarad, isključivo, vjerske svrhe. Korkut je prije izdanja svoga prijevoda kritizirao drugo izdanje prijevoda Kur′ana od Čauševića i Pandže, a čiju su redakturu izvršili Omer Mušić i Alija Nametak. On je konstatovao da su neka mjesta ispravljena, druga su ostala neispravljena, a neka su čak i gore prevedena. Zbog toga se odlučio da sam prevede Kur′an na bosanski jezik.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section6-header",
+      ba:"Enes Karić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson6_section6-paragraph1",
       ba:"Enes Karić (1958., Višnjevo kod Travnika) sačinio je prijevod Kur′ana te uz njega ponudio prvi cjeloviti komentar Kur′ana. Prvo izdanje njegovog prijevoda izašlo je 1995. godine, u Sarajevu. Sa ovim, Karićevim Prijevodom  i Tefsirom, započinje druga faza prevođenja Kur′ana i kur′anologije na bosanskome jeziku. Za razliku od Čaušević-Pandža prijevoda, koji su iz neznanja posegli za prijevodima koji se kosi s islamskim pravovjerjem, te za razliku od Korkuta koji je slijedio mu′teziliju (racionalistu) Zamhašerija, Karić ne slijedi nijedan pristup islamu, ali nijedan pristup i ne izbjegava, i svome prijevodu daje toliko širok zamah, toliko slobode i mogućnosti.",
       no:"Bønn",
       en:"Prayer",
@@ -5101,7 +5124,7 @@ export interface LanguageEntry{
       de:""
     },
     {
-      name:"label-book3-lesson3_section7-header",
+      name:"label-book3-lesson6_section7-header",
       ba:"Muhammed Asad",
       no:"Bønn",
       en:"Prayer",
@@ -5109,7 +5132,7 @@ export interface LanguageEntry{
       de:""
     },
     {
-      name:"label-book3-lesson3_section7-paragraph1",
+      name:"label-book3-lesson6_section7-paragraph1",
       ba:"Prijevod Kur′ana od Muhammeda Asada sa engleskog preveo je Hilmo Ćerimović. Njegov prijevod objavljen je pod nazivom \"Poruka Kur′ana\", u izdanju El-Kalema 2004. godine. Originalni naziv djela je \"The Message of the Qur′an\". Muhammed Asad je porijeklom jevrej koji je rođen 1900. godine, u današnjem ukrajinskom gradu Lavovu. Kasnije će se vratiti islamu i uzeti ime Muhmmed Assad. Putovao je po arapskom svijetu, te je proveo znatno vrijeme u Mekki i Medini, studirao je arapski, Kur′an, hadis ili Poslanikovu, a.s., tradiciju i povijest islama. Muhammed Asad je 1955., odlučio da radi na svom vlastitom prijevodu Kur′ana, za koji Ismail Ibrahim Nawwab tvrdi da je bio njegov životni san.",
       no:"Bønn",
       en:"Prayer",

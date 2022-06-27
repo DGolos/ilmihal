@@ -83,19 +83,19 @@ const MainCategoryPage: React.FC = () => {
               <IonCol
                 size="6">
                   <MenuItem 
-                    title={translate("label-read-quran")} 
-                    description={translate("label-read-quran-description")} 
-                    icon="/assets/images/book.png" 
+                    title={translate("label-book3-lesson1-title")} 
+                    description={translate("label-book3-lesson1-title-description")} 
+                    icon="/assets/images/sound.png" 
                     link="/tabs/Quran/Reader"
                     color="Burgundy"/>
                 
               </IonCol>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-quran-revelation")} 
-                    description={translate("label-quran-revelation-description")} 
-                    icon="/assets/images/Revelation.png" 
-                    link="/tabs/SliderLessonPage/3/1"
+                    title={translate("label-book3-lesson2-title")} 
+                    description={translate("label-book3-lesson2-title-description")} 
+                    icon="/assets/images/book.png" 
+                    link="/tabs/SliderLessonPage/3/3"
                     color="Burgundy"/>
                 
               </IonCol>
@@ -103,18 +103,18 @@ const MainCategoryPage: React.FC = () => {
             <IonRow>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-quran-recitation")} 
-                    description={translate("label-quran-recitation-description")} 
-                    icon="/assets/images/ChosenVerses.png" 
-                    link="/tabs/SliderLessonPage/3/2"
+                    title={translate("label-book3-lesson3-title")} 
+                    description={translate("label-book4-lesson3-title")} 
+                    icon="/assets/images/Revelation.png" 
+                    link="/tabs/SliderLessonPage/3/3"
                     color="Burgundy"/>
               </IonCol>
               <IonCol size="6">
                  <MenuItem 
-                    title={translate("label-quran-choosen-verses")} 
-                    description={translate("label-quran-choosen-verses-description")} 
+                    title={translate("label-book3-lesson4-title")} 
+                    description={translate("label-book3-lesson4-title-description")} 
                     icon="/assets/images/ChosenVerses.png" 
-                    link="/tabs/ChosenVerses"
+                    link="/tabs/SliderLessonPage/3/4"
                     color="Burgundy"/>
                 
               </IonCol>
@@ -122,10 +122,19 @@ const MainCategoryPage: React.FC = () => {
             <IonRow hidden={translationService.isNorwegian() === true}>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-quran-translations")} 
-                    description={translate("label-quran-translations-description")} 
+                    title={translate("label-book3-lesson5-title")} 
+                    description={translate("label-book3-lesson5-title-description")} 
                     icon="/assets/images/ChosenVerses.png" 
-                    link="/tabs/SliderLessonPage/3/3"
+                    link="/tabs/ChosenVerses"
+                    color="Burgundy"/>
+                
+              </IonCol>
+              <IonCol size="6">
+              <MenuItem 
+                    title={translate("label-book3-lesson6-title")} 
+                    description={translate("label-book3-lesson6-title-description")} 
+                    icon="/assets/images/ChosenVerses.png" 
+                    link="/tabs/SliderLessonPage/3/6"
                     color="Burgundy"/>
                 
               </IonCol>
