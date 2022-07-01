@@ -43,27 +43,12 @@ import { SirahPage } from "./Advanced/SirahPage";
 import SupplicationMainPage from "./Advanced/SupplicationMainPage";
 import { SupplicationValuePage } from "./Advanced/SupplicationsValuePage";
 import { WomensPage } from "./Advanced/WomensPage";
-import AsrPrayerPage from "./BookOne/AsrPrayerPage";
-import AsrPrayerDetailsPage from "./BookOne/AsrPrayerPageDetails";
-import AsrPrayerWatchPage from "./BookOne/AsrPrayerWatchPage";
 import BeliefPage from "./BeliefPage";
 import BookOneMainPage from "./BookOneMainPage";
 import DhikrPage from "./BookOne/DhikrPage";
-import DhuhrPrayerPage from "./BookOne/DhuhrPrayerPage";
-import DhuhrPrayerDetailsPage from "./BookOne/DhuhrPrayerPageDetails";
-import DhuhrPrayerWatchPage from "./BookOne/DhuhrPrayerWatchPage";
-import FajrPrayerDetailsPage from "./BookOne/FajrPrayerDetailsPage";
-import FajrPrayerPage from "./BookOne/FajrPrayerPage";
-import FajrPrayerWatchPage from "./BookOne/FajrPrayerWatchPage";
 import HajjDefinitionPage from "./HajjDefinitionPage";
 import ImanMainPage from "./ImanMainPage";
-import IshaPrayerPage from "./BookOne/IshaPrayerPage";
-import IshaPrayerDetailsPage from "./BookOne/IshaPrayerPageDetails";
-import IshaPrayerWatchPage from "./BookOne/IshaPrayerWatchPage";
 import IslamMainPage from "./IslamPage";
-import MaghribPrayerPage from "./BookOne/MaghribPrayerPage";
-import MaghribPrayerDetailsPage from "./BookOne/MaghribPrayerPageDetails";
-import MaghribPrayerWatchPage from "./BookOne/MaghribPrayerWatchPage";
 import PrayerDefinitionPage from "./BookOne/PrayerDefinitionPage";
 import TasbihPage from "./BookOne/TasbihPage";
 import WudhuPage from "./WudhuPage";
@@ -82,6 +67,9 @@ import MainCategoryPage from "./MainCategoryPage";
 import OptionsPage from "./OptionsPage";
 import UnderConstructionPage from "./UnderConstructionPage";
 import { SliderLessonPage } from "./SliderLessonPage";
+import { DailyPrayerDefinitionPage } from "./Prayer/DailyPrayerDefinitionPage";
+import { DailyPrayerDetailsPage } from "./Prayer/DailyPrayerDetailsPage";
+import { DailyPrayerWatchPage } from "./Prayer/DailyPrayerWatchPage";
 
 //3D7JW5AHQN.no.izbih.iMekteb
 interface MainAppProps{}
@@ -173,51 +161,11 @@ const MainApp: React.FC<MainAppProps> = () => {
           />
           <Route path="/tabs/HajjDefinitionPage" component={HajjDefinitionPage} />
           <Route path="/tabs/WudhuPage" component={WudhuPage} />
-          <Route path="/tabs/FajrPrayerPage" component={FajrPrayerPage} />
-          <Route
-            path="/tabs/FajrPrayerDetailsPage/:type"
-            component={FajrPrayerDetailsPage}
-          />
-          <Route
-            path="/tabs/FajrPrayerWatchPage/:type"
-            component={FajrPrayerWatchPage}
-          />
-          <Route
-            path="/tabs/DhuhrPrayerDetailsPage/:type"
-            component={DhuhrPrayerDetailsPage}
-          />
-          <Route
-            path="/tabs/DhuhrPrayerWatchPage/:type"
-            component={DhuhrPrayerWatchPage}
-          />
-          <Route path="/tabs/DhuhrPrayerPage" component={DhuhrPrayerPage} />
-          <Route path="/tabs/AsrPrayerPage" component={AsrPrayerPage} />
-          <Route
-            path="/tabs/AsrPrayerDetailsPage/:type"
-            component={AsrPrayerDetailsPage}
-          />
-          <Route
-            path="/tabs/AsrPrayerWatchPage/:type"
-            component={AsrPrayerWatchPage}
-          />
-          <Route
-            path="/tabs/MaghribPrayerDetailsPage/:type"
-            component={MaghribPrayerDetailsPage}
-          />
-          <Route
-            path="/tabs/MaghribPrayerWatchPage/:type"
-            component={MaghribPrayerWatchPage}
-          />
-          <Route path="/tabs/MaghribPrayerPage" component={MaghribPrayerPage} />
-          <Route
-            path="/tabs/IshaPrayerDetailsPage/:type"
-            component={IshaPrayerDetailsPage}
-          />
-          <Route
-            path="/tabs/IshaPrayerWatchPage/:type"
-            component={IshaPrayerWatchPage}
-          />
-          <Route path="/tabs/IshaPrayerPage" component={IshaPrayerPage} />
+
+
+          <Route path="/tabs/DailyPrayerDefinitionPage/:prayerId" component={DailyPrayerDefinitionPage} />
+          <Route path="/tabs/DailyPrayerDetailsPage/:prayerId/:prayerTypeId" component={DailyPrayerDetailsPage} />
+          <Route path="/tabs/DailyPrayerWatchPage/:prayerId/:prayerTypeId" component={DailyPrayerWatchPage} />
           <Route path="/tabs/DhikrPage" component={DhikrPage} />
           <Route path="/tabs/TasbihPage" component={TasbihPage} />
           <Route path="/tabs/BookTwoMainPage" component={BookTwoMainPage} />

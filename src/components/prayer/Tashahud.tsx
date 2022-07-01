@@ -13,8 +13,8 @@ import {
 
 import { caretForwardCircleOutline, pauseCircleOutline } from "ionicons/icons";
 import React from "react";
-import { translationService } from "../../services/TranslationService";
 import { Progress } from "../Progress";
+import useTranslation from "../../hooks/useTranslation";
 
 interface TashashudProps {
   first?: boolean;
@@ -33,7 +33,7 @@ const Tashashud: React.FC<TashashudProps> = ({
   currentAudio,
   togglePlayPause
 }) => {
-  
+  const { translate } = useTranslation();
   return (
     <IonSlide>
       <IonItem
@@ -41,7 +41,7 @@ const Tashashud: React.FC<TashashudProps> = ({
         detail={false}
         lines="none"
         className="lesson-note"
-        style={{ marginLeft: "15px", marginRight: "15px" }}
+        style={{ marginLeft: "10px", marginRight: "10px" }}
       >
         <IonGrid className="ion-text-left">
           <IonRow>
@@ -49,10 +49,10 @@ const Tashashud: React.FC<TashashudProps> = ({
               <IonText>
                 <h2 className="black">
                   {first === true
-                    ? translationService.getLabel(
+                    ? translate(
                         "label-prayer-first-tashahud-header"
                       )
-                    : translationService.getLabel(
+                    : translate(
                         "label-prayer-last-tashahud-header"
                       )}
                 </h2>
@@ -70,7 +70,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             <IonCol size="12">
               <IonChip color={color} style={{ marginLeft: "0px" }}>
                 <IonLabel>
-                  {translationService.getLabel(
+                  {translate(
                     "label-prayer-kade-ehire-header"
                   )}
                 </IonLabel>
@@ -81,7 +81,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             <IonCol size="12">
               <IonText>
                 <h2 className="lesson-note">
-                {translationService.getLabel(
+                {translate(
                   "label-prayer-kade-ehire-description"
                 )}
                 </h2>
@@ -93,7 +93,7 @@ const Tashashud: React.FC<TashashudProps> = ({
           <IonRow hidden={first}>
             <IonCol size="4">
               <IonText className={`audio-link-${color}`}>
-                {translationService.getLabel("label-prayer-ettehijjatu")}
+                {translate("label-prayer-ettehijjatu")}
               </IonText>
               <br />
               <IonButton
@@ -113,7 +113,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             </IonCol>
             <IonCol size="4">
               <IonText className={`audio-link-${color}`}>
-                {translationService.getLabel("label-prayer-salawat")}
+                {translate("label-prayer-salawat")}
               </IonText>
               <br />
               <IonButton
@@ -133,7 +133,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             </IonCol>
             <IonCol size="4">
               <IonText className={`audio-link-${color}`}>
-                {translationService.getLabel("label-prayer-dua-header")}
+                {translate("label-prayer-dua-header")}
               </IonText>
               <br />
               <IonButton
@@ -156,7 +156,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             <IonCol size="12">
               <IonChip color={color} style={{ marginLeft: "0px" }}>
                 <IonLabel>
-                  {translationService.getLabel("label-prayer-selam-header")}
+                  {translate("label-prayer-selam-header")}
                 </IonLabel>
               </IonChip>
             </IonCol>
@@ -165,7 +165,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             <IonCol size="12">
               <IonText>
                 <h2 className="lesson-note">
-                {translationService.getLabel("label-prayer-selam-description")}
+                {translate("label-prayer-selam-description")}
                 </h2>
                 
               </IonText>
@@ -175,7 +175,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             <IonCol size="12">
               <IonChip color={color} style={{ marginLeft: "0px" }}>
                 <IonLabel>
-                  {translationService.getLabel("label-prayer-ettehijjatu")}
+                  {translate("label-prayer-ettehijjatu")}
                 </IonLabel>
               </IonChip>
             </IonCol>
@@ -184,7 +184,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             <IonCol size="12">
               <IonText>
                 <h2 className="lesson-note">
-                {salawat?translationService.getLabel("label-prayer-ettehijjatu-salawat-description"):translationService.getLabel("label-prayer-ettehijjatu-description")}
+                {salawat?translate("label-prayer-ettehijjatu-salawat-description"):translate("label-prayer-ettehijjatu-description")}
                 </h2>
                 
               </IonText>
@@ -193,7 +193,7 @@ const Tashashud: React.FC<TashashudProps> = ({
           <IonRow hidden={!first}>
             <IonCol size="6">
               <IonText className={`audio-link-${color}`}>
-                {translationService.getLabel("label-prayer-ettehijjatu")}
+                {translate("label-prayer-ettehijjatu")}
               </IonText>
               <IonButton
                 className="no-shadow white"
@@ -213,7 +213,7 @@ const Tashashud: React.FC<TashashudProps> = ({
             </IonCol>
             <IonCol size="6" hidden={!salawat}>
               <IonText className={`audio-link-${color}`}>
-                {translationService.getLabel("label-prayer-salawat")}
+                {translate("label-prayer-salawat")}
               </IonText>
               
               <IonButton

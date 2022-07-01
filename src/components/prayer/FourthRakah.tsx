@@ -1,7 +1,7 @@
 import { IonButton, IonChip, IonCol, IonGrid, IonIcon, IonItem, IonLabel,  IonRow, IonSlide, IonText } from "@ionic/react";
 import { caretForwardCircleOutline, pauseCircleOutline } from "ionicons/icons";
 import React from "react";
-import { translationService } from "../../services/TranslationService";
+import useTranslation from "../../hooks/useTranslation";
 import { Progress } from "../Progress";
 
 interface FourthRakahProps {
@@ -13,7 +13,7 @@ interface FourthRakahProps {
 }
 
 const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,currentAudio,togglePlayPause}) =>{
-  
+  const { translate } = useTranslation();
     return (
       <>
       <IonSlide>
@@ -22,13 +22,13 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
         detail={false}
         lines="none"
         className="lesson-note"
-        style={{ marginLeft: "15px", marginRight: "15px" }}
+        style={{ marginLeft: "10px", marginRight: "10px" }}
       >
         <IonGrid className="ion-text-left">
           <IonRow>
             <IonCol size="6">
               <IonText>
-                <h2 className="black">{translationService.getLabel('label-fourth-rakah-header')}</h2>
+                <h2 className="black">{translate('label-fourth-rakah-header')}</h2>
               </IonText>
             </IonCol>
             <IonCol className="ion-padding" size="6">
@@ -38,18 +38,18 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
           <IonRow>
             <IonCol size="12">
               <IonChip color={color} style={{marginLeft:"0px"}}>
-                <IonLabel>{translationService.getLabel('label-prayer-bismilla-header')}</IonLabel>
+                <IonLabel>{translate('label-prayer-bismilla-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonText><h2 className="lesson-note">{translationService.getLabel('label-prayer-bismilla-description')}</h2></IonText>
+              <IonText><h2 className="lesson-note">{translate('label-prayer-bismilla-description')}</h2></IonText>
             </IonCol>
           </IonRow>
           <IonRow >
             <IonCol size="12">
-              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-bismilla-header')}</IonText>
+              <IonText className={`audio-link-${color}`}>{translate('label-prayer-bismilla-header')}</IonText>
               <IonButton
                 className="no-shadow white"
                 style={{marginTop:"0px"}}
@@ -68,7 +68,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
           <IonRow>
             <IonCol size="12">
               <IonChip color={color} style={{marginLeft:"0px"}}>
-                <IonLabel>{translationService.getLabel('label-prayer-fatiha-header')}</IonLabel>
+                <IonLabel>{translate('label-prayer-fatiha-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
@@ -76,7 +76,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
             <IonCol size="12">
               <IonText>
                 <h2 className="lesson-note">
-                {translationService.getLabel('label-prayer-fatiha-description')}
+                {translate('label-prayer-fatiha-description')}
                 </h2>
               
               </IonText>
@@ -103,7 +103,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
           <IonRow hidden={type==="fardh"}>
             <IonCol size="12">
               <IonChip color={color} style={{marginLeft:"0px"}}>
-                <IonLabel>{translationService.getLabel('label-prayer-surah-header')}</IonLabel>
+                <IonLabel>{translate('label-prayer-surah-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
@@ -111,7 +111,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
             <IonCol size="12">
               <IonText>
                 <h2 className="lesson-note">
-                {translationService.getLabel('label-prayer-surah-description')}
+                {translate('label-prayer-surah-description')}
                 </h2>
               
               </IonText>
@@ -188,7 +188,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
           <IonRow>
             <IonCol size="6">
               <IonText>
-                <h2 className="black">{translationService.getLabel('label-fourth-rakah-header')}</h2>
+                <h2 className="black">{translate('label-fourth-rakah-header')}</h2>
               </IonText>
             </IonCol>
             <IonCol className="ion-padding" size="6">
@@ -198,7 +198,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
           <IonRow>
             <IonCol size="12">
               <IonChip color={color} style={{marginLeft:"0px"}}>
-                <IonLabel>{translationService.getLabel('label-prayer-ruku-header')}</IonLabel>
+                <IonLabel>{translate('label-prayer-ruku-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
@@ -206,7 +206,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
             <IonCol size="12">
               <IonText>
                 <h2 className="lesson-note">
-                {translationService.getLabel('label-prayer-ruku-description')}
+                {translate('label-prayer-ruku-description')}
                 </h2>
               
               </IonText>
@@ -214,7 +214,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
           </IonRow>
           <IonRow >
             <IonCol size="12">
-              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-ruku-header')}</IonText>
+              <IonText className={`audio-link-${color}`}>{translate('label-prayer-ruku-header')}</IonText>
               <IonButton
                 className="no-shadow white"
                 style={{marginTop:"0px"}}
@@ -233,7 +233,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
           <IonRow>
             <IonCol size="12">
               <IonChip color={color} style={{marginLeft:"0px"}}>
-                <IonLabel>{translationService.getLabel('label-prayer-sujud-header')}</IonLabel>
+                <IonLabel>{translate('label-prayer-sujud-header')}</IonLabel>
               </IonChip>
             </IonCol>
           </IonRow>
@@ -241,7 +241,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
             <IonCol size="12">
               <IonText>
                 <h2 className="lesson-note">
-                {translationService.getLabel('label-prayer-sujud-description')}
+                {translate('label-prayer-sujud-description')}
                 </h2>
               
               </IonText>
@@ -249,7 +249,7 @@ const FourthRakah:  React.FC<FourthRakahProps>  = ({ type,color,prayerLength,cur
           </IonRow>
           <IonRow>
             <IonCol size="12">
-              <IonText className={`audio-link-${color}`}>{translationService.getLabel('label-prayer-sujud-header')}</IonText>
+              <IonText className={`audio-link-${color}`}>{translate('label-prayer-sujud-header')}</IonText>
               <IonButton
                 className="no-shadow white"
                 style={{marginTop:"0px"}}

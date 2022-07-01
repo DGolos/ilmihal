@@ -419,9 +419,9 @@ export interface LanguageEntry{
     },
     {
       name:"label-book1-lesson19-description",
-      ba:"Pripadnost islamu iskazujemo šehadetom",
-      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
-      en:"Euzubilla and bismilla",
+      ba:"Vrijeme sabahskog namaza počinje od zore i traje do izlaska sunca.",
+      no:"Vrijeme sabahskog namaza počinje od zore i traje do izlaska sunca.",
+      en:"Euzubilla and bismilla aa",
       it:"",
       de:""
     },
@@ -435,7 +435,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book1-lesson20-description",
-      ba:"Pripadnost islamu iskazujemo šehadetom",
+      ba:"Vrijeme podnevskog namaza počinje kada sunce malo odmakne sa sredine neba i traje do ikindije.",
       no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
       en:"Euzubilla and bismilla",
       it:"",
@@ -451,7 +451,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book1-lesson21-description",
-      ba:"ikindija namaz se klanja u ikindiji",
+      ba:"Vrijeme ikindijskog namaza počinje kada sunce nagne zapadu i traje do akšama.",
       no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
       en:"Euzubilla and bismilla",
       it:"",
@@ -467,7 +467,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book1-lesson22-description",
-      ba:"Pripadnost islamu iskazujemo šehadetom",
+      ba:"Vrijeme akšamskog namaza počinje od zalaska sunca i traje do jacije.",
       no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
       en:"Euzubilla and bismilla",
       it:"",
@@ -483,12 +483,575 @@ export interface LanguageEntry{
     },
     {
       name:"label-book1-lesson23-description",
-      ba:"Pripadnost islamu iskazujemo šehadetom",
+      ba:"Vrijeme jacijskog namaza počinje kada potpuno nestane sunčevog sjaja na zapadu i traje do pred zoru.",
       no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
       en:"Euzubilla and bismilla",
       it:"",
       de:""
     },
+    {
+      name:"label-prayer-fajr-sunnah",
+      ba:"Sabahski sunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-fajr-fardh",
+      ba:"Sabahski farz",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-dhuhr-sunnah",
+      ba:"Podnevski sunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-dhuhr-fardh",
+      ba:"Podnevski farz",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-dhuhr-sunsunnah",
+      ba:"Podnevski sunsunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-asr-sunnah",
+      ba:"Ikindijski sunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-asr-fardh",
+      ba:"Ikindijski farz",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-maghrib-sunnah",
+      ba:"Akšamski sunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-maghrib-fardh",
+      ba:"Akšamski farz",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-isha-sunnah",
+      ba:"Jacijski sunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-isha-fardh",
+      ba:"Jacijski farz",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-isha-sunsunnah",
+      ba:"Jacijski sunsunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-witr-sunsunnah",
+      ba:"Vitr",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-rakah",
+      ba:"rekata",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-sunnah",
+      ba:"Sunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-fardh",
+      ba:"Farz",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-sunsunnah",
+      ba:"Sunsunnet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-witr",
+      ba:"Vitr",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-before-prayer",
+      ba:"Prije namaza",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-nijjah-definition",
+      ba:"Nijjet je svjesna odluka u srcu zašto nešto činimo. Prilikom izgovaranja nijjeta svoje misli usmjeravamo Uzvišenom Allahu.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-nijjah-header",
+      ba:"Nijjet",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-fajr-fardh-nijjah",
+      ba:"Sabahski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-fedžri edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-fajr-sunnah-nijjah",
+      ba:"Sabahski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-fedžri edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-dhuhr-sunnah-nijjah",
+      ba:"Podnevski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetiz-zuhri edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-dhuhr-fardh-nijjah",
+      ba:"Podnevski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardiz-zuhri edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-dhuhr-sunsunnah-nijjah",
+      ba:"Podnevski sunsunnet-namaz se zanijeti se ovako: Nevejtu en usallije lillahi teala salate sunsunnetiz-zuhri edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-asr-sunnah-nijjah",
+      ba:"Ikindijski sunnet se zanijjeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-‘asri edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-asr-fardh-nijjah",
+      ba:"Ikindijski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-‘asri edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-maghrib-sunnah-nijjah",
+      ba:"Akšamski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-magribi edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-maghrib-fardh-nijjah",
+      ba:"Akšamski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-magribi edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-isha-sunnah-nijjah",
+      ba:"Jacijski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-isha-fardh-nijjah",
+      ba:"Jacijski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-‘išai edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-isha-sunsunnah-nijjah",
+      ba:"Jacijski sunsunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunsunnetil-‘išai edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-witr-nijjah",
+      ba:"Vitr-namaz je posebni namaz, koji se klanja poslije jacijskog sunsunneta. Vitr-namaz ima tri rekata. Nijjet se učini ovako: Nevejtu en usallije lillahi teala salatel-vitri edaen mustakbilel-kibleti - Allahu ekber.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-first-rakah-header",
+      ba:"Prvi rekat",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-second-rakah-header",
+      ba:"Drugi rekat",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-third-rakah-header",
+      ba:"Treći rekat",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-fourth-rakah-header",
+      ba:"Četvrti rekat",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-tekbir",
+      ba:"Tekbir",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-first-rakah-beginning",
+      ba:"\"Podignemo ruke do ušiju i izgovorimo: \"Allahu ekber\". To je znak da je namaz počeo. Nakon tekbira proučimo: subhaneke, euzu i bismillu.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-subhaneke",
+      ba:"Subhaneke",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-audhu",
+      ba:"Euza i bismilla",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-fatiha-header",
+      ba:"Fatiha",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-fatiha-description",
+      ba:"Suru El-Fatiha je obavezno učiti na svakom rekatu.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-surah-header",
+      ba:"Sura",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-surah-description",
+      ba:"Nakon sure El-Fatiha proučimo jednu kraću suru ili najmanje 3 ajeta iz duže sure.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-ruku-header",
+      ba:"Ruk'u",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-ruku-description",
+      ba:"Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo: Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-sujud-header",
+      ba:"Sedžda",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-sujud-description",
+      ba:"Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane rabbijel-e ́ala.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-second-rakah-header",
+      ba:"Drugi rekat",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-bismilla-header",
+      ba:"Bismilla",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-bismilla-description",
+      ba:"Bismillahir-rahmanir-rahim.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-first-tashahud-header",
+      ba:"Prvo sjedenje",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-last-tashahud-header",
+      ba:"Završetak namaza",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-kade-ehire-header",
+      ba:"Kade-i ehire",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-kade-ehire-description",
+      ba:"Kade-i ehire je posljednje sjedenje na kraju namaza. Na zadnjem sjedenju svih namaza učimo et-tehijjatu, salavate i dove.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-ettehijjatu",
+      ba:"Et-tehijjatu",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-salawat",
+      ba:"Salavati",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-dua-header",
+      ba:"Dove",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-dua-description",
+      ba:"Proučimo: subhaneke, euzu i bismillu.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-selam-header",
+      ba:"Selam",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-selam-description",
+      ba:"Namaz završavamo predajom selama prvo na desnu stranu pa na lijevu. Selem se predaje izgovarajući es-selamu alejkum ve rahmetullah.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-ettehijjatu-salawat-description",
+      ba:"Na prvom sjedenju ovog namaza učimo: et-tehijjatu i salavate.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-third-rakah-header",
+      ba:"Treći rekat",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-fourth-rakah-header",
+      ba:"Četvrti rekat",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-qunut-description",
+      ba:"Podignemo ruke do ušiju i izgovorimo: \"Allahu ekber\".",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-qunut-header",
+      ba:"Kunut dova",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-qunut-detail",
+      ba:"Nakon tekbira se sastave ruke(svežu), a zatim se uči Kunut-dova.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-qunut-note",
+      ba:"Allahumme inna neste-inuke ve nestag-firuke, ve nesteh-dike ve nu'minu bike, ve netubu ilejke ve netevekkelu 'alejke, ve nusni 'alejkel-hajre kullehu. Neškuruke va la nekfuruke. Ve nahle'u ve netruku men jefdžuruke. Allahumme ijjake na'budu ve leke nusalli ve nesdžudu, ve ilejke nes'ā ve nahfidu. Nerdžu rahmeteke ve nahša 'azabeke. Inne 'azabeke bil-kuffari mulhik.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+
+
+
     {
       name:"label-book1-lesson24-title",
       ba:"Zikr",

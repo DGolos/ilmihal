@@ -276,7 +276,7 @@ const BookOneMainPage: React.FC = () => {
                     label="19"
                     title={translate("label-book1-lesson19-title")} 
                     description={translate("label-book1-lesson19-description")} 
-                    link="/tabs/FajrPrayerPage"
+                    link="/tabs/DailyPrayerDefinitionPage/1"
                     color="Purple"/>
               </IonCol>
               <IonCol size="6">
@@ -284,7 +284,7 @@ const BookOneMainPage: React.FC = () => {
                     label="20"
                     title={translate("label-book1-lesson20-title")} 
                     description={translate("label-book1-lesson20-description")} 
-                    link="/tabs/DhuhrPrayerPage"
+                    link="/tabs/DailyPrayerDefinitionPage/2"
                     color="Purple"/>
               </IonCol>
             </IonRow>
@@ -294,7 +294,7 @@ const BookOneMainPage: React.FC = () => {
                     label="21"
                     title={translate("label-book1-lesson21-title")} 
                     description={translate("label-book1-lesson21-description")} 
-                    link="/tabs/AsrPrayerPage"
+                    link="/tabs/DailyPrayerDefinitionPage/3"
                     color="Purple"/>
               </IonCol>
               <IonCol size="6">
@@ -302,7 +302,7 @@ const BookOneMainPage: React.FC = () => {
                     label="22"
                     title={translate("label-book1-lesson22-title")} 
                     description={translate("label-book1-lesson22-description")} 
-                    link="/tabs/MaghribPrayerPage"
+                    link="/tabs/DailyPrayerDefinitionPage/4"
                     color="Purple"/>
               </IonCol>
             </IonRow>
@@ -312,7 +312,7 @@ const BookOneMainPage: React.FC = () => {
                     label="23"
                     title={translate("label-book1-lesson23-title")} 
                     description={translate("label-book1-lesson23-description")} 
-                    link="/tabs/IshaPrayerPage"
+                    link="/tabs/DailyPrayerDefinitionPage/5"
                     color="Purple"/>
               </IonCol>
               <IonCol size="6">
