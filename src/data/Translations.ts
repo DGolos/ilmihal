@@ -874,6 +874,30 @@ export interface LanguageEntry{
       de:""
     },
     {
+      name:"label-prayer-ruku-watch-description",
+      ba:"Nakon stajanja prelazimu u ruk'u gdje učimo tri puta: Subhane rabbijel-azim.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-ruku-return--header",
+      ba:"Povratak sa ruk'ua",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-ruku-return-watch-description",
+      ba:"Na povratku sa ruk'ua učimo: Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
       name:"label-prayer-sujud-header",
       ba:"Sedžda",
       no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
@@ -884,6 +908,30 @@ export interface LanguageEntry{
     {
       name:"label-prayer-sujud-description",
       ba:"Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane rabbijel-e ́ala.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-sujud-watch-description",
+      ba:"Na sedždi (spuštanje lica na tlo) učimo tri puta: Subhane rabbijel-e ́ala.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-between-sujud-header",
+      ba:"Između dvije sedžde",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-between-sujud-watch-description",
+      ba:"Između dvije sedžde malo zastanemo i zatim idemo na drugu sedždu.",
       no:"label-prayer-ruku-description",
       en:"Euzubilla and bismilla",
       it:"",
@@ -916,6 +964,22 @@ export interface LanguageEntry{
     {
       name:"label-prayer-first-tashahud-header",
       ba:"Prvo sjedenje",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-first-tashahud-sunnah-description",
+      ba:"Na prvom sjedenju ovog namaza učimo: et-tehijjatu i salavate.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-first-tashahud-description",
+      ba:"Na prvom sjedenju ovog namaza učimo: et-tehijjatu i salavate.",
       no:"label-prayer-ruku-description",
       en:"Euzubilla and bismilla",
       it:"",
@@ -1042,6 +1106,14 @@ export interface LanguageEntry{
       de:""
     },
     {
+      name:"label-prayer-qunut-watch",
+      ba:"Nakon tekbira učimo: Kunut dovu.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
       name:"label-prayer-qunut-note",
       ba:"Allahumme inna neste-inuke ve nestag-firuke, ve nesteh-dike ve nu'minu bike, ve netubu ilejke ve netevekkelu 'alejke, ve nusni 'alejkel-hajre kullehu. Neškuruke va la nekfuruke. Ve nahle'u ve netruku men jefdžuruke. Allahumme ijjake na'budu ve leke nusalli ve nesdžudu, ve ilejke nes'ā ve nahfidu. Nerdžu rahmeteke ve nahša 'azabeke. Inne 'azabeke bil-kuffari mulhik.",
       no:"label-prayer-ruku-description",
@@ -1049,7 +1121,103 @@ export interface LanguageEntry{
       it:"",
       de:""
     },
-
+    {
+      name:"label-woman",
+      ba:"Žena",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+      
+    },
+    {
+      name:"label-man",
+      ba:"Muškarac",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-first-rakah-beginning-watch",
+      ba:"Podignemo ruke do ušiju i izgovorimo: \"Allahu ekber\". To je znak da je namaz počeo.",
+      no:"Vi bekjenner vår tilhørighet til islam med trosbekjennelsen",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-qijam-header",
+      ba:"Stajanje",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-first-rakah-description",
+      ba:"Na stajanju učimo: subhaneke, euzu i bismillu, fatihu i jednu suru.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-second-rakah-description",
+      ba:"Na stajanju učimo: fatihu i jednu suru.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-end-header",
+      ba:"Zadnje sjedenje",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-end-watch-description",
+      ba:"Na zadnjem sjedenju učimo: et-tehijjatu, salavate i dovu.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-first-tashahud-header",
+      ba:"Prvo sjedenje",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-selam-header",
+      ba:"Selam",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-selam-watch-description",
+      ba:"Na kraju namaza predajemo selam izgovarajući: Es-selamu alejkum ve rahmetullah. Selam prvo predajemo na desnu pa na lijevu stranu.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-prayer-qijam-description-third-rakah",
+      ba:"Na stajanju učimo: fatihu.",
+      no:"label-prayer-ruku-description",
+      en:"Euzubilla and bismilla",
+      it:"",
+      de:""
+    },
 
 
     {
