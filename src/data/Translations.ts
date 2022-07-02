@@ -3560,7 +3560,30 @@ export interface LanguageEntry{
       it:"",
       de:""
     },
-
+    {
+      name:"label-book1-lesson24-quote",
+      ba:"\"O vjernici, često Allaha spominjite i hvalite.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson24-quote-reference",
+      ba:"Kur'an 33:41",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson24_section1-paragraph1",
+      ba:"Zikr je veličanje i slavljenje Allaha, dž.š., nakon što predamo selam i time završimo namaz.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
 
     {
       name:"label-book1-lesson25-title",
@@ -4213,6 +4236,775 @@ export interface LanguageEntry{
     {
       name:"label-book1-lesson34_section4-paragraph1",
       ba:"Tavaf-i zijaret što je počasni obilazak oko Ka'be u danima Kurban-bajrama.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35-title",
+      ba:"Selam",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35-quote",
+      ba:"\"Milostivi, koji upravlja svemirom svim.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35-quote-reference",
+      ba:"Kur'an, 20:5",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35_section1-paragraph1",
+      ba:"Allahumme entes-selamu",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35_section1-paragraph2",
+      ba:"ve minkes-selam",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35_section1-paragraph3",
+      ba:"Tebarekte ja zel-dželali vel-ikram",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35_section2-paragraph1",
+      ba:"Allahu moj, Ti si spas",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35_section2-paragraph2",
+      ba:"i od Tebe je spas",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson35_section2-paragraph3",
+      ba:"Blagoslovljen si, o Vlasniče Veličanstva i Časti",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36-title",
+      ba:"Salavati",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36-quote",
+      ba:"\"Sjećajte se vi Mene, i Ja ću se vas sjetiti\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36-quote-reference",
+      ba:"Kur'an, 2:152",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36_section1-paragraph1",
+      ba:"Ala resulillahi salavat",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36_section1-paragraph2",
+      ba:"Allahumme salli ala Muhammedin",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36_section1-paragraph3",
+      ba:"ve ala ali Muhammed",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36_section2-paragraph1",
+      ba:"Salavat na Allahovog Poslanika",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36_section2-paragraph2",
+      ba:"Allahu, blagoslovi Muhammeda",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson36_section2-paragraph3",
+      ba:"i porodicu Muhammedovu",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37-title",
+      ba:"Zahvala Allahu",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37-quote",
+      ba:"\"Molite se ponizno i u sebi Gospodaru svome.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37-quote-reference",
+      ba:"Kur'an, 7:55",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37_section1-paragraph1",
+      ba:"Subhanallahi vel-hamdu lillahi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37_section1-paragraph2",
+      ba:"ve la ilahe illellahu vallahu ekber",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37_section1-paragraph3",
+      ba:"Ve la havle ve la kuvvete",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37_section1-paragraph4",
+      ba:"illa billahil-alijjil-azim",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37_section2-paragraph1",
+      ba:"Slavljen je Allah i hvala Allahu",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37_section2-paragraph2",
+      ba:"Nema drugog boga osim Allaha, Allah je najveći",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37_section2-paragraph3",
+      ba:"Nema snage niti moći",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson37_section2-paragraph4",
+      ba:"osim u Svevišnjeg Allaha",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+
+    {
+      name:"label-book1-lesson38-title",
+      ba:"Ajetul-Kursija",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38-quote",
+      ba:"\"Ja sam, uistinu, Allah, drugog boga, osim Mene, nema.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38-quote-reference",
+      ba:"Kur'an, 10:14",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph1",
+      ba:"Euzu billahi mineš-šejtanir-radžim",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph2",
+      ba:"Bismillahir-rahmanir-rahim",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph3",
+      ba:"Allahu la illahe illa Hu, El-hajjul-kajjum",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph4",
+      ba:"La tehuzuhu sinetun ve la nevm",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph5",
+      ba:"Lehu ma fis-semavati ve ma fil-erd",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph6",
+      ba:"Men zellezi ješfe’u indehu illa bi-iznih",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph7",
+      ba:"Jalemu ma bejne ejdihim ve ma halfehum",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph8",
+      ba:"ve la jahitune bi šej-in min ilmihi illa bima šae",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph9",
+      ba:"Vesia kurijjuhus-semavati vel-erda, ve la jeuduhu hifzuhuma",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section1-paragraph10",
+      ba:"ve huvel- alijjul-azim",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph1",
+      ba:"Tražim Allahovu zaštitu od prokletog šejtana",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph2",
+      ba:"U ime Allaha, Milostivog, Samilosnog",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph3",
+      ba:"Allah je, nema bogs osim njega, Živi i Vječni!",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph4",
+      ba:"Ne obuzima ga ni drijemež ni san!",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph5",
+      ba:"Njegovo je sve ono što je na nebesima i ono što je na zemlji",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph6",
+      ba:"Ko se može pred Njim zauzimati za nekoga bez dopuštenja Negovog",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph7",
+      ba:"On zna šta je bilo prije njih i šta će biti poslije njih",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph8",
+      ba:"A od onoga što On zna, drugi znaju samo onoliko koliko On želi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph9",
+      ba:"Moć Njegova obuhvata nebesa i zemlju i Njemu ne dojadi održavanje njihovo",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson38_section2-paragraph10",
+      ba:"On je Svevišnji, Veličanstveni.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson39-title",
+      ba:"Tesbih",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson39-quote",
+      ba:"\"A radosnom viješću obraduj ponizne\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson39-quote-reference",
+      ba:"Kur'an, 22:34",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson39_section1-paragraph1",
+      ba:"Ja Rabbi zel-dželali subhanallah a zatim Subhanallah 33 puta.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson39_section1-paragraph2",
+      ba:"Subhanellahi ve bihamdihi elhamdu lillah a zatim Elhamdu lillah 33 puta.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson39_section1-paragraph3",
+      ba:"Rabbil-allmine teala šanuhu Allahu ekber a zatim Allahu ekber 33 puta.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40-title",
+      ba:"Veličanje Allaha",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40-quote",
+      ba:"\"Teško onima čija su srca neosjetljiva kada se Allah spomene.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40-quote-reference",
+      ba:"Kur'an, 39:22",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section1-paragraph1",
+      ba:"Kebiren, Azimen",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section1-paragraph2",
+      ba:"La ilahe illellahu vahdehu la šerike leh",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section1-paragraph3",
+      ba:"Lehul-mulku ve lehul-hamdu",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section1-paragraph4",
+      ba:"ve Huve ́ala kulli šej-in kadir",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section1-paragraph5",
+      ba:"Ve ma erselnake illa rahmeten lil-alemin",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section2-paragraph1",
+      ba:"Veliki, Moćni",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section2-paragraph2",
+      ba:"Samo je jadan Bog Allah. On je jedan i nema druga",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section2-paragraph3",
+      ba:"Njemu pripada sva vlast i moć. Samo je On dostojan da se hvali i veliča",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section2-paragraph4",
+      ba:"On je svemoćan",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson40_section2-paragraph5",
+      ba:"Mi smo te, Muhammede, poslali kao milost ljudskom rodu",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41-title",
+      ba:"Dova",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41-quote",
+      ba:"\"O, vjernici često Allaha spominjite i hvalite..\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41-quote-reference",
+      ba:"Kur'an, 33:41",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph1",
+      ba:"El-hamdu lillahi rabbil-‘alemin",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph2",
+      ba:"Ves-salatu ves-selamu ‘ala sejjidina Muhammedin ve ‘ala alihi ve sahbihi edžmein",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph3",
+      ba:"Allahumme rabbena tekabbel minna salatena",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph4",
+      ba:"Inneke entes- semiul-‘alim",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph5",
+      ba:"Ve tub ‘alejna ja mevlana",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph6",
+      ba:"Inneke entet-tevvabur- rahim",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph7",
+      ba:"Allahumme rabbena atina fid-dunja haseneten ve fil-ahireti haseneten vekina ‘azaben-nar",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph8",
+      ba:"Rabbena-gfir li ve li validejje ve lil-mu’minine jevme jekumul-hisab",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph9",
+      ba:"Subhane rabbike rabbil-‘izzeti ‘amma jesifun",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph10",
+      ba:"Ve selamun ‘alel-murselin",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section1-paragraph11",
+      ba:"Vel-hamdu lillahi rabbil-’alemīn. El-Fatiha",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph1",
+      ba:"Hvala Allahu, Gospodaru svih svjetova",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph2",
+      ba:"Salavat i selam donosima na našeg plemenitog Muhammeda njegovu rodbinu i sve ashabe",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph3",
+      ba:"O Allahu, Gospodaru naš, molimo te da primiš naš namaz",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph4",
+      ba:"Uistinu, Ti sve čuješ i sve znaš",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph5",
+      ba:"I opsrosti nam, O Zaštitniče naš",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph6",
+      ba:"zaista Ti primaš pokajanje, Milostivi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph7",
+      ba:"O Allahu, Gospodaru naš, podari nam dobro na ovom i na onom svijetu i sačuvaj naspatnje u Vatri",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph8",
+      ba:"Gospodaru naš, oprosti meni, mojim roditeljima i svim vjernicima na Dan polaganja računa",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph9",
+      ba:"Veličanstven je Gospodar tvoj Dostojanstveni, i daleko od onoga kako Ga predstavljaju oni",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph10",
+      ba:"i mir poslanicima",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book1-lesson41_section2-paragraph11",
+      ba:"i hvaljen neka je Allah, Gospodar svjetova",
       no:"Bønn",
       en:"Prayer",
       it:"",

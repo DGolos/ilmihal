@@ -20,7 +20,9 @@ import { Howl } from "howler";
 import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
-import { translationService } from "../../services/TranslationService";
+import { LessonHeader } from "../../components/LessonHeader";
+import useTranslation from "../../hooks/useTranslation";
+
 
 const TasbihPage: React.FC<
   RouteComponentProps<{ bookId: string; lessonId: string }>
@@ -28,7 +30,7 @@ const TasbihPage: React.FC<
   const [isPlaying, setIsPlaying] = useState(false);
   const playerRef = useRef(new Howl({ src: [""] }));
   const [currentAudio,setCurrentAudio]=useState("");
-
+  const{translate}=useTranslation();
   useIonViewDidLeave(() => {
     playerRef.current.unload();
   });
@@ -69,28 +71,7 @@ const TasbihPage: React.FC<
         </IonToolbar>
       </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
-        <IonCard
-          className="lesson-header ion-padding ion-text-center"
-          color="purple"
-        >
-          <IonCardTitle>
-            <h1 className="lesson">
-              {translationService.getLabel("label-book1-lesson39-title")}
-            </h1>
-          </IonCardTitle>
-          <IonCardContent>
-            <IonCardSubtitle>
-              <h3 style={{ fontStyle: "italic" }}>
-                {translationService.getLabel("label-book1-lesson39-quote")}
-              </h3>
-              <p className="quote-reference">
-                {translationService.getLabel(
-                  "label-book1-lesson39-quote-reference"
-                )}
-              </p>
-            </IonCardSubtitle>
-          </IonCardContent>
-        </IonCard>
+      <LessonHeader title={translate("label-book1-lesson39-title")} quoteText={translate("label-book1-lesson39-quote")} quoteReference={translate("label-book1-lesson39-quote-reference")} color="burgundy" />
         <div className="ion-padding">
           <IonItem className="lesson-note" lines="none">
             <IonButton
@@ -111,7 +92,7 @@ const TasbihPage: React.FC<
             </IonButton>
             <IonText className="ion-text-center">
               <h2 className="lesson-note">
-                {translationService.getLabel(
+                {translate(
                   "label-book1-lesson39_section1-paragraph1"
                 )}
               </h2>
@@ -136,7 +117,7 @@ const TasbihPage: React.FC<
             </IonButton>
             <IonText className="ion-text-center">
               <h2 className="lesson-note">
-                {translationService.getLabel(
+                {translate(
                   "label-book1-lesson39_section1-paragraph2"
                 )}
               </h2>
@@ -161,7 +142,7 @@ const TasbihPage: React.FC<
             </IonButton>
             <IonText className="ion-text-center">
               <h2 className="lesson-note">
-                {translationService.getLabel(
+                {translate(
                   "label-book1-lesson39_section1-paragraph3"
                 )}
               </h2>
