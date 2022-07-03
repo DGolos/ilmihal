@@ -15,9 +15,9 @@ import {
   IonText,
   useIonViewWillEnter,
 } from "@ionic/react";
-import { storageService } from "../services/StorageService";
+import { storageService } from "../../services/StorageService";
 import { useHistory } from "react-router";
-import { timeService } from "../services/TimeService";
+import { timeService } from "../../services/TimeService";
 import { checkmarkOutline } from "ionicons/icons";
 interface Location {
   id: string;
@@ -25,7 +25,7 @@ interface Location {
   country: string;
 }
 
-const ChooseLocationPage: React.FC = () => {
+export const ChooseLocationPage: React.FC = () => {
   const [currentCountry, setCurrentCountry] = useState<string>("");
   const [currentLocation, setCurrentLocation] = useState<Location>();
   const history = useHistory();
@@ -334,4 +334,4 @@ const ChooseLocationPage: React.FC = () => {
   );
 };
 
-export default ChooseLocationPage;
+

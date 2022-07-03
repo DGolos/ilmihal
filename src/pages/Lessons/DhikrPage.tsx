@@ -1,16 +1,11 @@
 import {
   IonBackButton,
   IonButtons,
-  IonCard,
-  IonCardContent,
-  IonCardSubtitle,
-  IonCardTitle,
   IonCol,
   IonContent,
   IonGrid,
   IonHeader,
   IonItem,
-  IonList,
   IonPage,
   IonRow,
   IonText,
@@ -20,9 +15,8 @@ import React from "react";
 import { MenuItem } from "../../components";
 import { LessonHeader } from "../../components/LessonHeader";
 import useTranslation from "../../hooks/useTranslation";
-import { translationService } from "../../services/TranslationService";
 
-const DhikrPage: React.FC = () => {
+export const DhikrPage: React.FC = () => {
 
   const{translate}=useTranslation();
 
@@ -128,4 +122,3 @@ const DhikrPage: React.FC = () => {
   );
 };
 
-export default DhikrPage;

@@ -1,19 +1,16 @@
 import React, { useState } from "react";
 import {
-  IonButton,
-  IonCard,
   IonCol,
   IonContent,
   IonGrid,
-  IonLabel,
   IonPage,
   IonRow,
 } from "@ionic/react";
-import { translationService } from "../services/TranslationService";
-import {MenuButton,MenuItem} from "../components";
-import useTranslation from "../hooks/useTranslation";
+import { translationService } from "../../services/TranslationService";
+import {MenuButton,MenuItem} from "../../components";
+import useTranslation from "../../hooks/useTranslation";
 
-const MainCategoryPage: React.FC = () => {
+export const MainCategoryPage: React.FC = () => {
   const [activeButton, setActiveButton] = useState(1);
   const {translate}=useTranslation();
 
@@ -324,4 +321,4 @@ const MainCategoryPage: React.FC = () => {
   );
 };
 
-export default MainCategoryPage;
+

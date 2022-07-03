@@ -12,10 +12,10 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
-import { LessonHeader } from "../components/LessonHeader";
-import useTranslation from "../hooks/useTranslation";
+import { LessonHeader } from "../../components/LessonHeader";
+import useTranslation from "../../hooks/useTranslation";
 
-const BeliefPage: React.FC = () => {
+export const BeliefPage: React.FC = () => {
   const{translate}=useTranslation();
   return (
     <IonPage>
@@ -159,4 +159,3 @@ const BeliefPage: React.FC = () => {
   );
 };
 
-export default BeliefPage;

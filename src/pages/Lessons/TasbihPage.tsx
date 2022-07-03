@@ -2,10 +2,6 @@ import {
   IonBackButton,
   IonButton,
   IonButtons,
-  IonCard,
-  IonCardContent,
-  IonCardSubtitle,
-  IonCardTitle,
   IonContent,
   IonHeader,
   IonIcon,
@@ -24,7 +20,7 @@ import { LessonHeader } from "../../components/LessonHeader";
 import useTranslation from "../../hooks/useTranslation";
 
 
-const TasbihPage: React.FC<
+export const TasbihPage: React.FC<
   RouteComponentProps<{ bookId: string; lessonId: string }>
 > = ({ match }) => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -154,4 +150,4 @@ const TasbihPage: React.FC<
   );
 };
 
-export default TasbihPage;
+

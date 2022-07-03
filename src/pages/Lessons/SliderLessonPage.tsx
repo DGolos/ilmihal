@@ -10,11 +10,11 @@ import {
   } from "@ionic/react";
   import React from "react";
   import { RouteComponentProps } from "react-router";
-  import { LessonHeader } from "../components/LessonHeader";
+  import { LessonHeader } from "../../components/LessonHeader";
   
-import { SliderSection } from "../components";
-  import useLesson from "../hooks/useLesson";
-  import useTranslation from "../hooks/useTranslation";
+import { SliderSection } from "../../components";
+  import useLesson from "../../hooks/useLesson";
+  import useTranslation from "../../hooks/useTranslation";
 
   
   

@@ -5,12 +5,12 @@ import {
   useIonViewWillEnter,
 } from "@ionic/react";
 
-import { timeService } from "../services/TimeService";
-import { HomeHeader } from "../components/HomeHeader";
-import {DailyRemainder,DailyHadith,DailyAyah} from "../components";
+import { timeService } from "../../services/TimeService";
+import { HomeHeader } from "../../components/HomeHeader";
+import {DailyRemainder,DailyHadith,DailyAyah} from "../../components";
 
 
-const HomePage: React.FC = () => {
+export const HomePage: React.FC = () => {
   const [period, setPeriod] = useState("");
 
   useIonViewWillEnter(() => {
@@ -35,4 +35,3 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;

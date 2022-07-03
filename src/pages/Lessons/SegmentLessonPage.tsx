@@ -14,16 +14,16 @@ import {
 import { Howl } from "howler";
 import React, { useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
-import { StandardSection } from "../components/Section/StandardSection";
-import { SegmentSection } from "../components";
-import { LessonHeader } from "../components/LessonHeader";
-import useLesson from "../hooks/useLesson";
-import useTranslation from "../hooks/useTranslation";
+import { StandardSection } from "../../components/Section/StandardSection";
+import { SegmentSection } from "../../components";
+import { LessonHeader } from "../../components/LessonHeader";
+import useLesson from "../../hooks/useLesson";
+import useTranslation from "../../hooks/useTranslation";
 import './SegmentLessonPage.css';
 
 type TranslationSection = "arabic" | "translation";
 
-const SegmentLessonPage: React.FC<
+export const SegmentLessonPage: React.FC<
   RouteComponentProps<{ bookId: string; lessonId: string }>
 > = ({ match }) => {
   const [currentTranslationSection, setCurrentTranslationSection] =
@@ -157,4 +157,4 @@ const SegmentLessonPage: React.FC<
   );
 };
 
-export default SegmentLessonPage;
+

@@ -1,52 +1,32 @@
 import React, { useState } from "react";
 import {
-    IonBackButton,
   IonButton,
-    IonButtons,
   IonCol,
   IonContent,
   IonFooter,
   IonGrid,
-  IonHeader,
   IonImg,
   IonItem,
   IonLabel,
   IonPage,
   IonRow,
-  IonText,  
-  IonToolbar,  
-  useIonViewWillEnter
+  IonText  
 } from "@ionic/react";
-import { storageService } from "../services/StorageService";
+import { storageService } from "../../services/StorageService";
 import { useHistory } from "react-router";
-import { translationService } from "../services/TranslationService";
+import { translationService } from "../../services/TranslationService";
 
 
-const LanguageOptionsPage: React.FC = () => {
+export const ChooseLanguagePage: React.FC = () => {
   const [language, setLanguage] = useState<string>("");
   const history=useHistory();
   const save = () => {
     storageService.set("languageData",language);
     translationService.load();
-    history.push("/tabs/OptionsPage");
+    history.push("/ChooseLocationPage");
   }
-
-  useIonViewWillEnter(() => {
-    storageService.get("languageData").then((result)=>{
-        setLanguage(result!);
-    });
-    
-  });
-
   return (
     <IonPage>
-        <IonHeader className="ion-no-border standard">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton className="white" defaultHref="/tabs/OptionsPage" />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
       <IonContent className="bg-image-purple" fullscreen>
         <div className="center">
           <IonItem className={`${language==="ba"?"activated":"welcome"}`} onClick={() => {
@@ -100,10 +80,10 @@ const LanguageOptionsPage: React.FC = () => {
                 onClick={() => {
                   save();
                 }}
-                
+                disabled={language===""}
               >
                 <IonLabel color="light" className="ion-text-center">
-                  {translationService.getLabel('label-save')}
+                  Slijedeća/ Neste
                 </IonLabel>
               </IonButton>
               </IonCol>
@@ -115,4 +95,4 @@ const LanguageOptionsPage: React.FC = () => {
   );
 };
 
-export default LanguageOptionsPage;
+

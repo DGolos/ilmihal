@@ -18,9 +18,9 @@ import {
 import { useHistory } from "react-router";
 import { chatbubbleEllipsesOutline, linkSharp, logoFacebook, mailOutline, peopleOutline, thumbsUpOutline } from "ionicons/icons";
 import { InAppBrowser } from '@ionic-native/in-app-browser';
-import { translationService } from "../services/TranslationService";
+import { translationService } from "../../services/TranslationService";
 
-const OptionsPage: React.FC = () => {
+export const OptionsPage: React.FC = () => {
   const history=useHistory();
   const [showRateAlert,setShowRateAlert]=useState((false));
   const [showContactAlert,setShowContactAlert]=useState((false));
@@ -147,4 +147,4 @@ const OptionsPage: React.FC = () => {
   );
 };
 
-export default OptionsPage;
+

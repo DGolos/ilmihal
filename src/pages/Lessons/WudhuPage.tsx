@@ -15,12 +15,12 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
-import { Progress } from "../components/Progress";
-import { LessonHeader } from "../components/LessonHeader";
-import useTranslation from "../hooks/useTranslation";
+import { Progress } from "../../components/Progress";
+import { LessonHeader } from "../../components/LessonHeader";
+import useTranslation from "../../hooks/useTranslation";
 import './WudhuPage.css'
 
-const WudhuPage: React.FC = () => {
+export const WudhuPage: React.FC = () => {
   const{translate}=useTranslation();
   return (
     <IonPage>
@@ -488,4 +488,4 @@ const WudhuPage: React.FC = () => {
   );
 };
 
-export default WudhuPage;
+

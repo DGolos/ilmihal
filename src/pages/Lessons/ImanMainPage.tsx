@@ -12,12 +12,12 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
-import { LessonHeader } from "../components/LessonHeader";
-import {MenuItem} from "../components";
-import useTranslation from "../hooks/useTranslation";
+import { LessonHeader } from "../../components/LessonHeader";
+import {MenuItem} from "../../components";
+import useTranslation from "../../hooks/useTranslation";
 import './ImanPage.css';
 
-const ImanMainPage: React.FC = () => {
+export const ImanMainPage: React.FC = () => {
   const{translate}=useTranslation();
   return (
     <IonPage>
@@ -106,5 +106,3 @@ const ImanMainPage: React.FC = () => {
     </IonPage>
   );
 };
-
-export default ImanMainPage;

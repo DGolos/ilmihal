@@ -2,7 +2,7 @@ import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, Io
 import React from "react";
 import { translationService } from "../../services/TranslationService";
 
-const PrayerDefinitionPage: React.FC = () => {
+export const PrayerDefinitionPage: React.FC = () => {
 
     return (
       <IonPage>
@@ -129,4 +129,3 @@ const PrayerDefinitionPage: React.FC = () => {
     );
 }
 
-export default PrayerDefinitionPage;

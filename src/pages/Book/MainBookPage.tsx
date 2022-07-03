@@ -2,7 +2,7 @@ import { IonPage, IonContent, IonCard, IonCardHeader, IonCardTitle, IonCardConte
 import React from "react";
 import './MainBookPage.css';
 
-const MainBookPage: React.FC = () => {
+export const MainBookPage: React.FC = () => {
   
 
   return (
@@ -38,4 +38,4 @@ const MainBookPage: React.FC = () => {
   );
 };
 
-export default MainBookPage;
+

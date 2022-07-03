@@ -29,9 +29,9 @@ import './theme/global.scss';
 import { translationService } from './services/TranslationService';
 import { timeService } from './services/TimeService';
 import { dataService } from './services/dataService';
-import ChooseLanguagePage from './pages/ChooseLanguagePage';
-import ChooseLocationPage from './pages/ChooseLocationPage';
-import MainApp from './pages/MainApp';
+import ChooseLanguagePage from './pages/Options/ChooseLanguagePage';
+import ChooseLocationPage from './pages/Options/ChooseLocationPage';
+import MainApp from './MainApp';
 import useLanguage from './hooks/useLanguage';
 
 const App: React.FC = () => {

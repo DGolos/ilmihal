@@ -1,11 +1,11 @@
-import { IonBackButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonLabel, IonList, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
+import { IonBackButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
-import { LessonHeader } from "../components/LessonHeader";
-import {MenuItem} from "../components";
-import useTranslation from "../hooks/useTranslation";
+import { LessonHeader } from "../../components/LessonHeader";
+import {MenuItem} from "../../components";
+import useTranslation from "../../hooks/useTranslation";
 import './IslamPage.css'
 
-const IslamMainPage: React.FC = () => {
+export const IslamMainPage: React.FC = () => {
   const{translate}=useTranslation();
     return (
       <IonPage>
@@ -92,4 +92,3 @@ const IslamMainPage: React.FC = () => {
     );
 }
 
-export default IslamMainPage;

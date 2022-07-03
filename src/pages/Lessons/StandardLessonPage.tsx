@@ -9,10 +9,10 @@ import {
 } from "@ionic/react";
 import React from "react";
 import { RouteComponentProps } from "react-router";
-import { LessonHeader } from "../components/LessonHeader";
-import { StandardSection } from "../components/Section/StandardSection";
-import useLesson from "../hooks/useLesson";
-import useTranslation from "../hooks/useTranslation";
+import { LessonHeader } from "../../components/LessonHeader";
+import { StandardSection } from "../../components/Section/StandardSection";
+import useLesson from "../../hooks/useLesson";
+import useTranslation from "../../hooks/useTranslation";
 
 
 

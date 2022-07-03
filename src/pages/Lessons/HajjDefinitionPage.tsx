@@ -1,9 +1,9 @@
-import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
+import { IonBackButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
-import { LessonHeader } from "../components/LessonHeader";
-import useTranslation from "../hooks/useTranslation";
+import { LessonHeader } from "../../components/LessonHeader";
+import useTranslation from "../../hooks/useTranslation";
 
-const HajjDefinitionPage: React.FC = () => {
+export const HajjDefinitionPage: React.FC = () => {
     const{translate}=useTranslation();
     return (
       <IonPage>
@@ -89,4 +89,3 @@ const HajjDefinitionPage: React.FC = () => {
     );
 }
 
-export default HajjDefinitionPage;

@@ -1,10 +1,10 @@
 import { IonBackButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react"
 import React, { useState } from "react"
-import {MenuButton,MenuItem} from "../components";
-import useTranslation from "../hooks/useTranslation";
+import {MenuButton,MenuItem} from "../../components";
+import useTranslation from "../../hooks/useTranslation";
 
 
-const BookTwoMainPage: React.FC = () => {
+export const BookTwoMainPage: React.FC = () => {
   const {translate}=useTranslation();
   const [activeButton, setActiveButton] = useState(1);
 
@@ -391,4 +391,3 @@ const BookTwoMainPage: React.FC = () => {
     );
 }
 
-export default BookTwoMainPage;
