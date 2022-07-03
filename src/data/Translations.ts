@@ -6814,4 +6814,452 @@ export interface LanguageEntry{
       it:"",
       de:""
     },
+    {
+      name:"label-book3-lesson12-title",
+      ba:"Dove",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson12-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson12-quote",
+      ba:"\"Zato hvali ime Gospodara svoga Veličanstvenog!\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson12-quote-reference",
+      ba:"Kur'an, 56:96",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson13-title",
+      ba:"Vrijednosti dove",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson13-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson13-quote",
+      ba:"\"Bolje padajte licem na tle pred Allahom i klanjajte se!\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson13-quote-reference",
+      ba:"Kur'an, 53:62",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson13_section1-paragraph1",
+      ba:"Dova, obraćanje Uzvišenom Allahu je vrlo važna stvar u životu čovjeka. Dova se čini izravno i samo Allahu, dž.š. Dova preporođuje dušu vjernika i upravlja ga pravim putem. Dovu činimo za sebe, za svoju porodicu, rodbinu, prijatelje, braću u vjeri, za žive i umrle. Dovu činimo i Allahu, dž.š., se obraćamo i u dobru i u nevolji. Allah dž.š. u Kur'anu kaže: «A kada te robovi Moji za Mene upitaju, Ja sam, sigurno, blizu: odazivam se dovi molitelja kad Me zamoli. Zato neka oni pozivu Mome udovolje i neka vjeruju u Mene, da bi bili na pravom putu.» (El-Bekare, 186)",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14-title",
+      ba:"Poslanikove, a.s., dove",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14-quote",
+      ba:"\"A Mi smo Kur’an učinili dostupnim za pouku.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14-quote-reference",
+      ba:"Kur'an, 54:17",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section1-paragraph1",
+      ba:"Allahumme inni e'uzu bike min šerri ma amiltu ve šerri ma lem e'amel.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section1-paragraph2",
+      ba:"Allahu, utječem ti se od zla onoga što sam uradio i zla onoga što nisam uradio.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section2-paragraph1",
+      ba:"Allahumme leke eslemtu, ve bike amentu, ve 'alejke tevekkeltu, ve ilejke enebtu, ve bike hasamtu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section2-paragraph2",
+      ba:"Allahu, Tebi sam se predao, u Tebe sam povjerovao, na Tebe se oslonio, Tebi se kajem i u ime Tvoje se borim.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section3-paragraph1",
+      ba:"Allahumme inni e'uzu bi 'izzetike la ilahe illa Ente en tudilleni, Ente-l-hajjullezi la jemutu ve-l-džinnu ve-l-insu jemutun.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section3-paragraph2",
+      ba:"Allahu utječem se sa Tvojom veličinom, nema boga osim Tebe, nemoj me odvesti u zabludu. Ti si živi, koji ne umire, a džini i ljudi umiru.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section4-paragraph1",
+      ba:"Semi'a sami'u bi hamdillahi ve husni belaihi alejna. Rabbena sahibna ve efdil 'alejna 'aizen billahi mine-n-nari.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section4-paragraph2",
+      ba:"Neka čuje onaj ko čuje neka svjedoči onaj koji svjedoči našu zahvalu Allahu i Njegovo lijepo iskušenje prema nama. Naš Gospodaru budi s nama, pa prospi Svoje blagodati na nas i zaštiti nas od vatre.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section5-paragraph1",
+      ba:"Allahummagfir li hatieti, ve džehli, ve israfi fi emri vema Ente e'alemu bihi minni.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section5-paragraph2",
+      ba:"Allahu oprosti mi grijehe, neznanje, propuste u djelima koje Ti poznaješ bolje od mene.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section6-paragraph1",
+      ba:"Allahummagfir li džiddi ve hezli, ve hatai ve amdi ve kullu zalike indi.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section6-paragraph2",
+      ba:"Allahu, oprosti mi propuste koje sam uradio u zbilji i šali, nenamjerno i namjerno, jer se su to moje osobine.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section7-paragraph1",
+      ba:"Allahummagfir li ma kaddemtu vema ehhartu vema esrertu vema 'alentu vema Ente 'alemu bihi minni. Ente-l-mukaddimu ve Ente-l-mu'ehhiru ve Ente 'ala kulli šej'in kadir.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section7-paragraph2",
+      ba:"Allahu, oprosti ono što sam uradio i što ću uraditi, što sam tajno i javno učinio. Ti to bolje poznaješ od mene. Ti si onaj koji uzdiže i ponižava i Svemoćan Ti si.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section8-paragraph1",
+      ba:"Allahumme inni euzu bike minel-hemmi wel-huzni.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson14_section8-paragraph2",
+      ba:"Allahu moj, utječem ti se od potištenosti/skrhanosti i tuge.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15-title",
+      ba:"Dnevne dove",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15-quote",
+      ba:"\"Pa, koju blagodat Gospodara svoga poričete?!\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15-quote-reference",
+      ba:"Kur'an, 55:23",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section1-header",
+      ba:"Buđenje",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section1-paragraph1",
+      ba:"El-hamdu lillahillezi ahjana ba'de ma ematena ve ilejhi-nnušur.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section1-paragraph2",
+      ba:"Hvala Allahu, koji nas oživi nakon što nas (snom) umrtvi, i Njemu se, konačno, sve vraća.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section2-header",
+      ba:"Ulazak u nužnik",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section2-paragraph1",
+      ba:"Bismillahi Allahumme inni euzu bike minel- hubsi vel-habaisi.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section2-paragraph2",
+      ba:"U ime Allaha, Allahu moj, tražim zaštitu kod Tebe od svega štetnog i lošeg.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section3-header",
+      ba:"Izlazak iz nužnika",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section3-paragraph1",
+      ba:"Gufraneke",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section3-paragraph2",
+      ba:"Za oprost Te molim!",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section4-header",
+      ba:"Oblačenje",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section4-paragraph1",
+      ba:"Allahumme inni es'eluke min hajrihi ve bajri ma buve lehu ve euzu bike min šerrihi ve šerri ma buve lehu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section4-paragraph2",
+      ba:"Gospodaru naš, molim Te za dobro u njoj i dobro zbog čega je ova odjeća napravljena. Utječem Ti se od zla u njoj i zla kojeg u sebi sadrži.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section5-header",
+      ba:"Ulazak u kuću",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section5-paragraph1",
+      ba:"Bismillahi veledžna ve bismillabi baredžna ve ala Rabbina tevekkelna.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section5-paragraph2",
+      ba:"Sa Allahovim imenom ulazimo i sa Allahovim imenom izlazimo. Na Gospodara našeg se oslanjamo.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section6-header",
+      ba:"Za svaku priliku",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section6-paragraph1",
+      ba:"Bismillahillezi la jedurru mea'smihi šej'un fil- erdi ve la fissemai, ve Huve-ssemiul-alim, neće mu ništa nauditi.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section6-paragraph2",
+      ba:"Počinjem s imenom Allaha uz čije ime ne može nauditi ni na Zemlji ni na Nebu, a On sve čuje i sve zna.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section7-header",
+      ba:"Za povećanje imana",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section7-paragraph1",
+      ba:"Reditu billahi Rabben ve bil-islami dinen vebi Muhammedin nebijjen.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section7-paragraph2",
+      ba:"Zadovoljan sam da mi je Allah Gospodar, Islam vjera i Muhammed Poslanik.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section8-header",
+      ba:"Pred spavanje",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson15_section8-paragraph1",
+      ba:"Pred spavanje preporučuje se uzimanje abdesta i oblačenje čiste pidžame. Nakon toga proučiti sure Ihlas, Felek i Nas kao i Ajetul Kursiju.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    }
  ]

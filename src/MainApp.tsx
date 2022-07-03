@@ -16,7 +16,6 @@ import { CaliphsPage } from "./pages/Advanced/CaliphsPage";
 import CreditsPage from "./pages/Advanced/CeditsPage";
 import { ChosenCompanionsPage } from "./pages/Advanced/ChosenCompanionsPage";
 import { CompanionsPage } from "./pages/Advanced/CompanionsPage";
-import { DailySupplicationsPage } from "./pages/Advanced/DailySupplicationsPage";
 import DhikrMainPage from "./pages/Advanced/DhikrMainPage";
 import ForgivnesPage from "./pages/Advanced/ForgivnesOage";
 import { HadeethPage } from "./pages/Advanced/HadeethPage";
@@ -37,10 +36,9 @@ import { RubiesAyahPage } from "./pages/Advanced/Quran/RubiesAyahPage";
 import RepetancePage from "./pages/Advanced/RepetencePage";
 import { SirahPage } from "./pages/Advanced/SirahPage";
 import SupplicationMainPage from "./pages/Advanced/SupplicationMainPage";
-import { SupplicationValuePage } from "./pages/Advanced/SupplicationsValuePage";
 import { WomensPage } from "./pages/Advanced/WomensPage";
 
-import { BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DailyPrayerDhikrPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
+import { BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DailyPrayerDhikrPage,DailySupplicationsPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
 
 //3D7JW5AHQN.no.izbih.iMekteb
 interface MainAppProps{}
@@ -83,18 +81,12 @@ const MainApp: React.FC<MainAppProps> = () => {
             path="/tabs/SupplicationMainPage/"
             component={SupplicationMainPage}
           />
-          <Route
-            path="/tabs/SupplicationValuePage/"
-            component={SupplicationValuePage}
-          />
-          <Route
-            path="/tabs/MessangersSupplicationsPage/"
-            component={MessangersSupplicationsPage}
-          />
+          
           <Route
             path="/tabs/DailySupplicationsPage/"
             component={DailySupplicationsPage}
           />
+          
           <Route path="/tabs/DhikrMainPage/" component={DhikrMainPage} />
           <Route path="/tabs/RepetancePage/" component={RepetancePage} />
           <Route path="/tabs/ForgivnesPage/" component={ForgivnesPage} />

@@ -1677,5 +1677,98 @@ export const lessons:Lesson[]=[
           ]
         }
       ]
+    },
+    {
+      id: "13",
+      bookId: "3",
+      title: "label-book3-lesson13-title",
+      color: "purple",
+      audio: "",
+      quoteText: "label-book3-lesson13-quote",
+      quoteReference: "label-book3-lesson13-quote-reference",
+      sections: [
+         {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson13_section1-paragraph1"
+          ]
+        }
+      ]
+    },
+    {
+      id: "14",
+      bookId: "3",
+      title: "label-book3-lesson14-title",
+      color: "razimic",
+      audio: "",
+      quoteText: "label-book3-lesson14-quote",
+      quoteReference: "label-book3-lesson14-quote-reference",
+      sections: [
+         {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson14_section1-paragraph1",
+            "label-book3-lesson14_section1-paragraph2"
+          ]
+        },
+        {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson14_section2-paragraph1",
+            "label-book3-lesson14_section2-paragraph2"
+          ]
+        },
+        {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson14_section3-paragraph1",
+            "label-book3-lesson14_section3-paragraph2"
+          ]
+        },
+        {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson14_section4-paragraph1",
+            "label-book3-lesson14_section4-paragraph2"
+          ]
+        },
+        {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson14_section5-paragraph1",
+            "label-book3-lesson14_section5-paragraph2"
+          ]
+        },
+        {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson14_section6-paragraph1",
+            "label-book3-lesson14_section6-paragraph2"
+          ]
+        },
+        {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson14_section7-paragraph1",
+            "label-book3-lesson14_section7-paragraph2"
+          ]
+        },
+        {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson14_section8-paragraph1",
+            "label-book3-lesson14_section8-paragraph2"
+          ]
+        }
+      ]
     }
   ];

@@ -1,10 +1,6 @@
 import {
   IonBackButton,
   IonButtons,
-  IonCard,
-  IonCardContent,
-  IonCardSubtitle,
-  IonCardTitle,
   IonChip,
   IonCol,
   IonContent,
@@ -17,9 +13,12 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
-import { translationService } from "../../services/TranslationService";
+import { LessonHeader } from "../../components/LessonHeader";
+import useTranslation from "../../hooks/useTranslation";
+
 
 export const DailySupplicationsPage: React.FC = () => {
+  const{translate}=useTranslation();
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
@@ -32,37 +31,17 @@ export const DailySupplicationsPage: React.FC = () => {
           </IonButtons>
         </IonToolbar>
       </IonHeader>
+      
       <IonContent className="bg-image-standard" fullscreen>
-        <IonCard
-          className="lesson-header ion-padding ion-text-center"
-          color="burgundy"
-        >
-          <IonCardTitle>
-            <h1 className="lesson">
-              {translationService.getLabel("label-book3-lesson18-title")}
-            </h1>
-          </IonCardTitle>
-          <IonCardContent>
-            <IonCardSubtitle>
-              <h3 style={{ fontStyle: "italic" }}>
-                {translationService.getLabel("label-book3-lesson18-quote")}
-              </h3>
-              <p className="quote-reference">
-                {translationService.getLabel(
-                  "label-book3-lesson18-quote-reference"
-                )}
-              </p>
-            </IonCardSubtitle>
-          </IonCardContent>
-        </IonCard>
+      <LessonHeader title={translate("label-book3-lesson15-title")} quoteText={translate("label-book3-lesson15-quote")} quoteReference={translate("label-book3-lesson15-quote-reference")} color="burgundy" />
         <div className="ion-padding">
           <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">
               <IonRow>
                 <IonCol size="12">
                   <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                    {translationService.getLabel(
-                      "label-book3-lesson18_section1-header"
+                    {translate(
+                      "label-book3-lesson15_section1-header"
                     )}
                   </IonChip>
                 </IonCol>
@@ -72,13 +51,13 @@ export const DailySupplicationsPage: React.FC = () => {
                 <IonCol size="12">
                   <IonText>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section1-paragraph1"
+                      {translate(
+                        "label-book3-lesson15_section1-paragraph1"
                       )}
                     </h2>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section1-paragraph2"
+                      {translate(
+                        "label-book3-lesson15_section1-paragraph2"
                       )}
                     </h2>
                   </IonText>
@@ -91,8 +70,8 @@ export const DailySupplicationsPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12">
                   <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                    {translationService.getLabel(
-                      "label-book3-lesson18_section2-header"
+                    {translate(
+                      "label-book3-lesson15_section2-header"
                     )}
                   </IonChip>
                 </IonCol>
@@ -102,13 +81,13 @@ export const DailySupplicationsPage: React.FC = () => {
                 <IonCol size="12">
                   <IonText>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section2-paragraph1"
+                      {translate(
+                        "label-book3-lesson15_section2-paragraph1"
                       )}
                     </h2>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section2-paragraph2"
+                      {translate(
+                        "label-book3-lesson15_section2-paragraph2"
                       )}
                     </h2>
                   </IonText>
@@ -121,8 +100,8 @@ export const DailySupplicationsPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12">
                   <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                    {translationService.getLabel(
-                      "label-book3-lesson18_section3-header"
+                    {translate(
+                      "label-book3-lesson15_section3-header"
                     )}
                   </IonChip>
                 </IonCol>
@@ -132,13 +111,13 @@ export const DailySupplicationsPage: React.FC = () => {
                 <IonCol size="12">
                   <IonText>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section3-paragraph1"
+                      {translate(
+                        "label-book3-lesson15_section3-paragraph1"
                       )}
                     </h2>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section3-paragraph2"
+                      {translate(
+                        "label-book3-lesson15_section3-paragraph2"
                       )}
                     </h2>
                   </IonText>
@@ -151,8 +130,8 @@ export const DailySupplicationsPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12">
                   <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                    {translationService.getLabel(
-                      "label-book3-lesson18_section4-header"
+                    {translate(
+                      "label-book3-lesson15_section4-header"
                     )}
                   </IonChip>
                 </IonCol>
@@ -162,13 +141,13 @@ export const DailySupplicationsPage: React.FC = () => {
                 <IonCol size="12">
                   <IonText>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section4-paragraph1"
+                      {translate(
+                        "label-book3-lesson15_section4-paragraph1"
                       )}
                     </h2>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section4-paragraph2"
+                      {translate(
+                        "label-book3-lesson15_section4-paragraph2"
                       )}
                     </h2>
                   </IonText>
@@ -181,8 +160,8 @@ export const DailySupplicationsPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12">
                   <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                    {translationService.getLabel(
-                      "label-book3-lesson18_section5-header"
+                    {translate(
+                      "label-book3-lesson15_section5-header"
                     )}
                   </IonChip>
                 </IonCol>
@@ -192,13 +171,13 @@ export const DailySupplicationsPage: React.FC = () => {
                 <IonCol size="12">
                   <IonText>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section5-paragraph1"
+                      {translate(
+                        "label-book3-lesson15_section5-paragraph1"
                       )}
                     </h2>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section5-paragraph2"
+                      {translate(
+                        "label-book3-lesson15_section5-paragraph2"
                       )}
                     </h2>
                   </IonText>
@@ -211,8 +190,8 @@ export const DailySupplicationsPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12">
                   <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                    {translationService.getLabel(
-                      "label-book3-lesson18_section6-header"
+                    {translate(
+                      "label-book3-lesson15_section6-header"
                     )}
                   </IonChip>
                 </IonCol>
@@ -222,13 +201,13 @@ export const DailySupplicationsPage: React.FC = () => {
                 <IonCol size="12">
                   <IonText>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section6-paragraph1"
+                      {translate(
+                        "label-book3-lesson15_section6-paragraph1"
                       )}
                     </h2>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section6-paragraph2"
+                      {translate(
+                        "label-book3-lesson15_section6-paragraph2"
                       )}
                     </h2>
                   </IonText>
@@ -241,8 +220,8 @@ export const DailySupplicationsPage: React.FC = () => {
               <IonRow>
                 <IonCol size="12">
                   <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
-                    {translationService.getLabel(
-                      "label-book3-lesson18_section7-header"
+                    {translate(
+                      "label-book3-lesson15_section7-header"
                     )}
                   </IonChip>
                 </IonCol>
@@ -252,15 +231,41 @@ export const DailySupplicationsPage: React.FC = () => {
                 <IonCol size="12">
                   <IonText>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section7-paragraph1"
+                      {translate(
+                        "label-book3-lesson15_section7-paragraph1"
                       )}
                     </h2>
                     <h2 className="lesson-note">
-                      {translationService.getLabel(
-                        "label-book3-lesson18_section7-paragraph2"
+                      {translate(
+                        "label-book3-lesson15_section7-paragraph2"
                       )}
                     </h2>
+                  </IonText>
+                </IonCol>
+              </IonRow>
+            </IonGrid>
+          </IonItem>
+          <IonItem detail={false} className="lesson-note" lines="none">
+            <IonGrid className="ion-text-left">
+              <IonRow>
+                <IonCol size="12">
+                  <IonChip color="burgundy" style={{ marginLeft: "0px" }}>
+                    {translate(
+                      "label-book3-lesson15_section8-header"
+                    )}
+                  </IonChip>
+                </IonCol>
+              </IonRow>
+
+              <IonRow>
+                <IonCol size="12">
+                  <IonText>
+                    <h2 className="lesson-note">
+                      {translate(
+                        "label-book3-lesson15_section8-paragraph1"
+                      )}
+                    </h2>
+                    
                   </IonText>
                 </IonCol>
               </IonRow>
