@@ -1770,5 +1770,43 @@ export const lessons:Lesson[]=[
           ]
         }
       ]
+    },
+    {
+      id: "17",
+      bookId: "3",
+      title: "label-book3-lesson17-title",
+      color: "razimic",
+      audio: "",
+      quoteText: "label-book3-lesson17-quote",
+      quoteReference: "label-book3-lesson17-quote-reference",
+      sections: [
+         {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson17_section1-paragraph1",
+            "label-book3-lesson17_section1-paragraph2"
+          ]
+        }
+      ]
+    },
+    {
+      id: "18",
+      bookId: "3",
+      title: "label-book3-lesson18-title",
+      color: "burgundy",
+      audio: "",
+      quoteText: "label-book3-lesson18-quote",
+      quoteReference: "label-book3-lesson18-quote-reference",
+      sections: [
+         {
+          type:"0",
+          
+          paragraphs: [
+            "label-book3-lesson18_section1-paragraph1",
+            "label-book3-lesson18_section1-paragraph2"
+          ]
+        }
+      ]
     }
   ];

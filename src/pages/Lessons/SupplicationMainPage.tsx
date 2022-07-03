@@ -15,7 +15,7 @@ import { LessonHeader } from "../../components/LessonHeader";
 import useTranslation from "../../hooks/useTranslation";
 
 
-const SupplicationMainPage: React.FC = () => {
+export const SupplicationMainPage: React.FC = () => {
   const{translate}=useTranslation();
   return (
     <IonPage>
@@ -67,4 +67,3 @@ const SupplicationMainPage: React.FC = () => {
   );
 };
 
-export default SupplicationMainPage;

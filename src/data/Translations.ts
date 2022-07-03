@@ -7261,5 +7261,166 @@ export interface LanguageEntry{
       en:"Prayer",
       it:"",
       de:""
-    }
+    },
+    {
+      name:"label-book3-lesson16-title",
+      ba:"Zikr",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson16-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson16-quote",
+      ba:"\"A onaj kome je data mudrost, doista, mu je dato veliko dobro!\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson16-quote-reference",
+      ba:"Kur'an, 2:269",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson17-title",
+      ba:"Teuba",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson17-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson17-quote",
+      ba:"\"Sašaptavanje je posao šejtanski.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson17-quote-reference",
+      ba:"Kur'an, 58:10",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson17_section1-paragraph1",
+      ba:"Muhammed, a.s., kaže: \"Tako mi Allaha ja dnevno po sedamdeset puta i više zatražim oprost od Allaha i pokajem se riječima: Estagfirullah ve tubuilejh.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson17_section1-paragraph2",
+      ba:"Svakom vjerniku koji počini grijeh, pa potom uzme lijepo abdest, klanja dva rekata namaza i zatim zamoli Ailaha za oprost, Allah oprosti počinjeni grijeh.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson18-title",
+      ba:"Sejjidu-l-istigfar",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson18-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson18-quote",
+      ba:"\"O, kako je Allahu mrsko kada govorite riječi koje djela ne prate!\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson18-quote-reference",
+      ba:"Kur'an, 61:3",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson18_section1-paragraph1",
+      ba:"Allaumme ente Rabbi la ilahe illa ente halekteni ve ene abduke ve ene ala ahdike ve va'dike mesteta'tu, euzu bike min šerri ma sana'tu, ebu'u leke bi ni'metike alejje, ve ebu'u bi zenbi, fagfirli, fe innehu la jagfrru-zzunube illa ente.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson18_section1-paragraph2",
+      ba:"Allahu, Ti si moj Gospodar, nema boga osim Tebe, stvorio Si me i ja sam rob Tvoj, Tebi sam obavezu i obećanje dao u granicama mogućnosti svojih. Tebi se utječem od zla djela koja počinih. Priznajem Tvoje blagodati prema meni, kao što priznajem i svoje grijehe, s toga oprosti mi, jer grijehe ne oprašta niko osim Ti.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19-title",
+      ba:"Allahova lijepa imena",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19-quote",
+      ba:"\"On ima najljepša imena.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19-quote-reference",
+      ba:"Kur'an, 59:24",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    
  ]
