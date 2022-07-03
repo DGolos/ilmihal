@@ -17,7 +17,9 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import React from "react";
-import { translationService } from "../../../services/TranslationService";
+import { LessonHeader } from "../../components/LessonHeader";
+import useTranslation from "../../hooks/useTranslation";
+
 
 interface NamesCardProps {
   arabic: string;
@@ -46,6 +48,7 @@ const NamesCard: React.FC<NamesCardProps> = ({
   );
 };
 export const BeautifulNamesPage: React.FC = () => {
+  const{translate}=useTranslation();
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
@@ -56,29 +59,7 @@ export const BeautifulNamesPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
-        <IonCard
-          className="lesson-header ion-padding ion-text-center"
-          color="razimic"
-        >
-          <IonCardTitle>
-            <h1 className="lesson">
-              {translationService.getLabel("label-book3-lesson23-title")}
-            </h1>
-          </IonCardTitle>
-          <IonCardContent>
-            <IonCardSubtitle>
-              <h3 style={{ fontStyle: "italic" }}>
-                {translationService.getLabel("label-book3-lesson23-quote")}
-              </h3>
-              <p className="quote-reference">
-                {translationService.getLabel(
-                  "label-book3-lesson23-quote-reference"
-                )}
-              </p>
-            </IonCardSubtitle>
-          </IonCardContent>
-        </IonCard>
-
+      <LessonHeader title={translate("label-book3-lesson19-title")} quoteText={translate("label-book3-lesson19-quote")} quoteReference={translate("label-book3-lesson19-quote-reference")} color="razimic" />
         <div>
           <IonSlides className="ion-padding">
             <IonSlide>

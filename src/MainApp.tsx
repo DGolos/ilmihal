@@ -16,7 +16,6 @@ import { CaliphsPage } from "./pages/Advanced/CaliphsPage";
 import CreditsPage from "./pages/Advanced/CeditsPage";
 import { ChosenCompanionsPage } from "./pages/Advanced/ChosenCompanionsPage";
 import { CompanionsPage } from "./pages/Advanced/CompanionsPage";
-import ForgivnesPage from "./pages/Advanced/ForgivnesOage";
 import { HadeethPage } from "./pages/Advanced/HadeethPage";
 import { BosnianCulturePage } from "./pages/Advanced/Homeland/BosnianCulturePage";
 import { BosnianScholarsPage } from "./pages/Advanced/Homeland/BosnianScholarsPage";
@@ -24,18 +23,16 @@ import { BosniaPage } from "./pages/Advanced/Homeland/BosniaPage";
 import MonthlyPrayerTimesPage from "./pages/Advanced/Prayer/MonthlyPrayerTimesPage";
 
 import { AyahPage } from "./pages/Advanced/Quran/AyahPage";
-import { BeautifulNamesPage } from "./pages/Advanced/Quran/BeautifulNamesPage";
 import { ChosenVersesPage } from "./pages/Advanced/Quran/ChosenVersesPage";
 import { PearlsAyahPage } from "./pages/Advanced/Quran/PearlsAyahPage";
 import { QuranMainPage } from "./pages/Advanced/Quran/QuranMainPage";
 import { QuranPlayerPage } from "./pages/Advanced/Quran/QuranPlayerPage";
 import { QuranReaderPage } from "./pages/Advanced/Quran/QuranReaderPage";
 import { RubiesAyahPage } from "./pages/Advanced/Quran/RubiesAyahPage";
-import RepetancePage from "./pages/Advanced/RepetencePage";
 import { SirahPage } from "./pages/Advanced/SirahPage";
 import { WomensPage } from "./pages/Advanced/WomensPage";
 
-import { BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DailyPrayerDhikrPage,DailySupplicationsPage,DhikrMainPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage,SupplicationMainPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
+import { BeautifulNamesPage,BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DailyPrayerDhikrPage,DailySupplicationsPage,DhikrMainPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage,SupplicationMainPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
 
 //3D7JW5AHQN.no.izbih.iMekteb
 interface MainAppProps{}
@@ -85,8 +82,6 @@ const MainApp: React.FC<MainAppProps> = () => {
           />
           
           <Route path="/tabs/DhikrMainPage/" component={DhikrMainPage} />
-          <Route path="/tabs/RepetancePage/" component={RepetancePage} />
-          <Route path="/tabs/ForgivnesPage/" component={ForgivnesPage} />
           <Route path="/tabs/HadeethPage/" component={HadeethPage} />
           <Route path="/tabs/SirahPage/" component={SirahPage} />
           <Route path="/tabs/CompanionsPage/" component={CompanionsPage} />
