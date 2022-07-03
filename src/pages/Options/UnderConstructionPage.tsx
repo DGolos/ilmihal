@@ -2,7 +2,7 @@ import React from 'react';
 import { IonBackButton, IonButtons, IonContent, IonHeader, IonPage, IonToolbar } from '@ionic/react';
 
 
-const UnderConstructionPage: React.FC = () => {
+export const UnderConstructionPage: React.FC = () => {
   return (
     <IonPage>
       <IonHeader className="ion-no-border standard">
@@ -23,4 +23,4 @@ const UnderConstructionPage: React.FC = () => {
   );
 };
 
-export default UnderConstructionPage;
+

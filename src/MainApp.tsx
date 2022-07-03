@@ -44,17 +44,7 @@ import SupplicationMainPage from "./pages/Advanced/SupplicationMainPage";
 import { SupplicationValuePage } from "./pages/Advanced/SupplicationsValuePage";
 import { WomensPage } from "./pages/Advanced/WomensPage";
 
-import { EidPrayerPage } from "./pages/Prayer/EidPrayerPage";
-import { FuneralPrayerPage } from "./pages/Prayer/FuneralPrayerPage";
-import { JummahPrayerPage } from "./pages/Prayer/JummahPrayerPage";
-import { TarawihPrayerPage } from "./pages/Prayer/TarawihPrayerPage";
-import { StandardLessonPage } from "./pages/Lessons/StandardLessonPage";
-import UnderConstructionPage from "./pages/Options/UnderConstructionPage";
-import { SliderLessonPage } from "./pages/Lessons/SliderLessonPage";
-import { DailyPrayerDefinitionPage } from "./pages/Prayer/DailyPrayerDefinitionPage";
-import { DailyPrayerDetailsPage } from "./pages/Prayer/DailyPrayerDetailsPage";
-import { DailyPrayerWatchPage } from "./pages/Prayer/DailyPrayerWatchPage";
-import { BeliefPage, BookOneMainPage, BookTwoMainPage, DhikrPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, OptionsPage, PrayerDefinitionPage, SegmentLessonPage, TasbihPage, WudhuPage } from "./pages";
+import { BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DhikrPage,EidPrayerPage,FuneralPrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, OptionsPage, PrayerDefinitionPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, WudhuPage } from "./pages";
 
 //3D7JW5AHQN.no.izbih.iMekteb
 interface MainAppProps{}
