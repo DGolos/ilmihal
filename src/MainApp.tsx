@@ -40,7 +40,7 @@ import SupplicationMainPage from "./pages/Advanced/SupplicationMainPage";
 import { SupplicationValuePage } from "./pages/Advanced/SupplicationsValuePage";
 import { WomensPage } from "./pages/Advanced/WomensPage";
 
-import { BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DhikrPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
+import { BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DailyPrayerDhikrPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
 
 //3D7JW5AHQN.no.izbih.iMekteb
 interface MainAppProps{}
@@ -137,7 +137,7 @@ const MainApp: React.FC<MainAppProps> = () => {
           <Route path="/tabs/DailyPrayerDefinitionPage/:prayerId" component={DailyPrayerDefinitionPage} />
           <Route path="/tabs/DailyPrayerDetailsPage/:prayerId/:prayerTypeId" component={DailyPrayerDetailsPage} />
           <Route path="/tabs/DailyPrayerWatchPage/:prayerId/:prayerTypeId" component={DailyPrayerWatchPage} />
-          <Route path="/tabs/DhikrPage" component={DhikrPage} />
+          <Route path="/tabs/DailyPrayerDhikrPage" component={DailyPrayerDhikrPage} />
           <Route path="/tabs/TasbihPage" component={TasbihPage} />
           <Route path="/tabs/BookTwoMainPage" component={BookTwoMainPage} />
           <Route path="/tabs/EidPrayerPage" component={EidPrayerPage} />

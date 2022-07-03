@@ -16,7 +16,7 @@ import { MenuItem } from "../../components";
 import { LessonHeader } from "../../components/LessonHeader";
 import useTranslation from "../../hooks/useTranslation";
 
-export const DhikrPage: React.FC = () => {
+export const DailyPrayerDhikrPage: React.FC = () => {
 
   const{translate}=useTranslation();
 

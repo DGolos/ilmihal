@@ -320,7 +320,7 @@ export const BookOneMainPage: React.FC = () => {
                     label="24"
                     title={translate("label-book1-lesson24-title")} 
                     description={translate("label-book1-lesson24-description")} 
-                    link="/tabs/DhikrPage"
+                    link="/tabs/DailyPrayerDhikrPage"
                     color="Purple"/>
               </IonCol>
             </IonRow>

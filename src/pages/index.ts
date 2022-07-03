@@ -4,7 +4,7 @@ export * from "./Book/MainBookPage";
 export * from "./Book/MainCategoryPage";
 export * from "./Home/HomePage";
 export * from "./Lessons/BeliefPage";
-export * from "./Lessons/DhikrPage";
+export * from "./Prayer/DailyPrayerDhikrPage";
 export * from "./Lessons/HajjDefinitionPage";
 export * from "./Lessons/ImanMainPage";
 export * from "./Lessons/IslamPage";
