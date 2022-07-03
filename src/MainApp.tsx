@@ -24,12 +24,8 @@ import { BosnianCulturePage } from "./pages/Advanced/Homeland/BosnianCulturePage
 import { BosnianScholarsPage } from "./pages/Advanced/Homeland/BosnianScholarsPage";
 import { BosniaPage } from "./pages/Advanced/Homeland/BosniaPage";
 import { MessangersSupplicationsPage } from "./pages/Advanced/MessangersSupplicationsPage";
-import { GuidancePrayerPage } from "./pages/Advanced/Prayer/GuidancePrayerPage";
 import MonthlyPrayerTimesPage from "./pages/Advanced/Prayer/MonthlyPrayerTimesPage";
-import { MorningPrayerPage } from "./pages/Advanced/Prayer/MorningPrayerPage";
-import { NightPrayerPage } from "./pages/Advanced/Prayer/NightPrayerPage";
-import PrayerTimesPage from "./pages/Advanced/Prayer/PrayerTimesPage";
-import { VoluntaryPrayersPage } from "./pages/Advanced/Prayer/VoluntaryPrayersPage";
+
 import { AyahPage } from "./pages/Advanced/Quran/AyahPage";
 import { BeautifulNamesPage } from "./pages/Advanced/Quran/BeautifulNamesPage";
 import { ChosenVersesPage } from "./pages/Advanced/Quran/ChosenVersesPage";
@@ -44,7 +40,7 @@ import SupplicationMainPage from "./pages/Advanced/SupplicationMainPage";
 import { SupplicationValuePage } from "./pages/Advanced/SupplicationsValuePage";
 import { WomensPage } from "./pages/Advanced/WomensPage";
 
-import { BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DhikrPage,EidPrayerPage,FuneralPrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, OptionsPage, PrayerDefinitionPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, WudhuPage } from "./pages";
+import { BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DhikrPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
 
 //3D7JW5AHQN.no.izbih.iMekteb
 interface MainAppProps{}

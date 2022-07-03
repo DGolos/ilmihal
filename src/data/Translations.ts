@@ -6317,6 +6317,22 @@ export interface LanguageEntry{
       it:"",
       de:""
     },
+    {
+      name:"label-header-communal-prayer",
+      ba:"Džemat",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-header-individual-prayer",
+      ba:"Pojedinačno",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
     
     {
       name:"daily-ayah1-translation",
@@ -6661,5 +6677,141 @@ export interface LanguageEntry{
       en:"Prayer",
       it:"",
       de:""
-    }
+    },
+    {
+      name:"label-book3-lesson9-title",
+      ba:"Noćni namaz",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson9-description",
+      ba:"Dobrovoljni noćni namaz koji se klanje prije ne nastupi vrijeme sabah namaza",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson9-quote",
+      ba:"\"A one koji su na Pravome putu On će i dalje voditi.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson9-quote-reference",
+      ba:"Kur'an, 47:17",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson9_section1-paragraph1",
+      ba:"Za dobrovoljni noćni namaz kijamu-llejl Muhammed, a.s., je rekao: \"O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson9_section2-paragraph1",
+      ba:"Kijamu-llejl ima od 2 do 8 rekata. Nakon svaka 2 rekata predaje se selam. Na kraju se klanjaju 3 rekata vitr namaza ako noćni namaz klanjamo nakon jacije.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson10-title",
+      ba:"Duha namaz",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson10-description",
+      ba:"Dobrovoljni jutarnji namaz koji se klanja kada sunce odskoči",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson10-quote",
+      ba:"\"On uliva smirenost u srca vjernika.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson10-quote-reference",
+      ba:"Kur'an, 48:4",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson10_section1-paragraph1",
+      ba:"Od dobrovoljnih ibadeta ujutro je i klanjanje Duha namaza. Vrijeme ovog namaza je ujutro, kada sunce odskoči, pa do pred podne. Klanja se dva ili više rekata. Za Duha namaz Muhammed, a.s., je rekao: \"Svako jutro na svaki zglob daje se sadaka, svaki tesbih, izgovoreno subahanellah je sadaka, svako izgovoreno elhamdulillahi je sadaka, svako izgovoreno la ilahe illallah je sadaka, svaki izgovoreni tekbir - Allahu ekber je sadaka, naređivanje dobra je sadaka, odvraćanje od zla je sadaka, a sve to zamjenjuju dva rekata Duha namaza.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson11-title",
+      ba:"Istihare namaz",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson11-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson11-quote",
+      ba:"\"Allah, sigurno, zna tajne nebesa i Zemlje.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson11-quote-reference",
+      ba:"Kur'an, 49:18",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson11_section1-paragraph1",
+      ba:"Poslanik, a.s., nas j e podučavao istihari namazu za svaku priliku, kao što nas je podučavao nekoj suri iz Kur'ana. Govorio je: \"Kada neko od vas hoće uraditi neki posao, neka mimo farza klanja dva rekata, a zatim neka prouči ovu dovu:",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson11_section1-paragraph2",
+      ba:"Allahu moj, ja tražim dobro s Tvojim znanjem, i tražim od Tebe s Tvojom moći, i iskreno molim Te da mi daš od Tvoje velike blagodati. Ti zaista sve možeš a ja ne mogu! Ti sve znaš, a ja ne znam, i Ti si poznavalac tajni! Allahu moj, ako je ovo djelo korisno za mene, moju vjeru, moj život i Ahiret, Ti mi ga odredi i olakšaj, a zatim mi daj berićet (blagoslov) u njemu. A ako je ovo moje djelo loše za mene, moju vjeru, moj život i Ahiret, Ti ga od mene otkloni i udalji ga od mene i odredi mi dobro i hajr, ma gdje se ono nalazilo, zatim mi daj da s njim budem zadovoljan.\" Potom spomene svoju želju i potrebu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
  ]

@@ -27,3 +27,8 @@ export * from "./Prayer/EidPrayerPage";
 export * from "./Prayer/FuneralPrayerPage";
 export * from "./Prayer/JummahPrayerPage";
 export * from "./Prayer/TarawihPrayerPage";
+export * from "./Prayer/VoluntaryPrayersPage";
+export * from "./Prayer/GuidancePrayerPage";
+export * from "./Prayer/MorningPrayerPage";
+export * from "./Prayer/NightPrayerPage";
+export * from "./Prayer/PrayerTimesPage";

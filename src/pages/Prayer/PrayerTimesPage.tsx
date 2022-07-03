@@ -17,12 +17,12 @@ import {
 
 import React, { useState } from "react";
 import { useHistory } from "react-router";
-import PrayerCountdown from "../../../components/prayer/PrayerCountdown";
-import { PrayersProps, timeService } from "../../../services/TimeService";
-import { translationService } from "../../../services/TranslationService";
+import PrayerCountdown from "../../components/prayer/PrayerCountdown";
+import { PrayersProps, timeService } from "../../services/TimeService";
+import { translationService } from "../../services/TranslationService";
 
 
-const PrayerTimesPage: React.FC = () => {
+export const PrayerTimesPage: React.FC = () => {
   const [prayers, setPrayers] = useState<PrayersProps>();
   const history = useHistory();
 
@@ -214,4 +214,4 @@ const PrayerTimesPage: React.FC = () => {
   );
 };
 
-export default PrayerTimesPage;
+

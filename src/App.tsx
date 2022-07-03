@@ -29,10 +29,10 @@ import './theme/global.scss';
 import { translationService } from './services/TranslationService';
 import { timeService } from './services/TimeService';
 import { dataService } from './services/dataService';
-import ChooseLanguagePage from './pages/Options/ChooseLanguagePage';
-import ChooseLocationPage from './pages/Options/ChooseLocationPage';
+
 import MainApp from './MainApp';
 import useLanguage from './hooks/useLanguage';
+import { ChooseLanguagePage, ChooseLocationPage } from './pages';
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);

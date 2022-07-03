@@ -13,12 +13,12 @@ import {
   
 } from "@ionic/react";
 import React from "react";
-import { translationService } from "../../../services/TranslationService";
+import useTranslation from "../../hooks/useTranslation";
 
-type TranslationSection = "arabic" | "translation";
+
 
 export const GuidancePrayerPage: React.FC = () => {
-  
+  const {translate}=useTranslation();
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
@@ -35,7 +35,7 @@ export const GuidancePrayerPage: React.FC = () => {
               <IonRow className="ion-no-padding">
                 <IonCol size="12">
                   <h6 className="welcome ion-no-padding ion-text-center">
-                    {translationService.getLabel("label-book3-lesson11-title")}
+                    {translate("label-book3-lesson11-title")}
                   </h6>
                 </IonCol>
               </IonRow>
@@ -45,10 +45,10 @@ export const GuidancePrayerPage: React.FC = () => {
                     style={{ fontStyle: "italic", fontSize: "12" }}
                     className="prayer ion-no-padding ion-text-center"
                   >
-                    {translationService.getLabel("label-book3-lesson11-quote")}
+                    {translate("label-book3-lesson11-quote")}
                   </h3>
                   <p className="quote-reference ion-text-center">
-                    {translationService.getLabel(
+                    {translate(
                       "label-book3-lesson11-quote-reference"
                     )}
                   </p>
@@ -61,12 +61,12 @@ export const GuidancePrayerPage: React.FC = () => {
           <IonItem className="lesson-note" lines="none">
             <IonText>
               <h2 className="lesson-note">
-                {translationService.getLabel(
+                {translate(
                   "label-book3-lesson11_section1-paragraph1"
                 )}
               </h2>
               <h2 className="lesson-note">
-                {translationService.getLabel(
+                {translate(
                   "label-book3-lesson11_section1-paragraph2"
                 )}
               </h2>
