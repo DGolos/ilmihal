@@ -59,7 +59,7 @@ export const BeautifulNamesPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
-      <LessonHeader title={translate("label-book3-lesson19-title")} quoteText={translate("label-book3-lesson19-quote")} quoteReference={translate("label-book3-lesson19-quote-reference")} color="razimic" />
+      <LessonHeader title={translate("label-book3-lesson20-title")} quoteText={translate("label-book3-lesson20-quote")} quoteReference={translate("label-book3-lesson20-quote-reference")} color="razimic" />
         <div>
           <IonSlides className="ion-padding">
             <IonSlide>

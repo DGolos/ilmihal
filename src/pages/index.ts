@@ -23,6 +23,7 @@ export * from "./Options/ChooseLocationPage";
 export * from "./Options/LanguageOptionsPage";
 export * from "./Options/LocationOptionsPage";
 export * from "./Options/OptionsPage";
+export * from "./Options/CreditsPage";
 export * from "./Options/UnderConstructionPage";
 export * from "./Prayer/DailyPrayerDefinitionPage";
 export * from "./Prayer/DailyPrayerDetailsPage";

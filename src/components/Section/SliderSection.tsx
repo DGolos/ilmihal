@@ -20,7 +20,7 @@ export interface SegmentSectionProps {
     ));
   
     return (
-        <IonSlide>
+        
         <IonItem detail={false} className="sliderSectionItem" lines="none">
           <IonGrid>
             <IonRow>
@@ -43,6 +43,6 @@ export interface SegmentSectionProps {
             </IonRow>
           </IonGrid>
         </IonItem>
-      </IonSlide>
+      
     );
   };

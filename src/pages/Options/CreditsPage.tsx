@@ -2,7 +2,7 @@ import { IonBackButton, IonButtons, IonCard, IonCardHeader, IonContent, IonHeade
 import React from "react";
 import { translationService } from "../../services/TranslationService";
 
-const CreditsPage: React.FC = () => {
+export const CreditsPage: React.FC = () => {
     return(
         <IonPage>
             <IonHeader className="ion-no-border">
@@ -49,4 +49,3 @@ const CreditsPage: React.FC = () => {
     )
 }
 
-export default CreditsPage;

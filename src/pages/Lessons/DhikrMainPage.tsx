@@ -36,7 +36,7 @@ import useTranslation from "../../hooks/useTranslation";
             <IonCol size="6">
             <MenuItem 
                     title={translate("label-book3-lesson17-title")} 
-                    description={translate("label-book3-lesson18--description")} 
+                    description={translate("label-book3-lesson17--description")} 
                     icon="/assets/images/Dua.png" 
                     link="/tabs/StandardLessonPage/3/17"
                     color="Burgundy"/>
@@ -53,8 +53,8 @@ import useTranslation from "../../hooks/useTranslation";
           <IonRow>
             <IonCol size="6">
             <MenuItem 
-                    title={translate("label-book3-lesson19-title")} 
-                    description={translate("label-book3-lesson18--description")} 
+                    title={translate("label-book3-lesson20-title")} 
+                    description={translate("label-book3-lesson20--description")} 
                     icon="/assets/images/Dua.png" 
                     link="/tabs/BeautifulNames"
                     color="Burgundy"/>

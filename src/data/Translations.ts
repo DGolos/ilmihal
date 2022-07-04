@@ -7391,8 +7391,40 @@ export interface LanguageEntry{
       de:""
     },
     {
-      name:"label-book3-lesson19-title",
+      name:"label-book3-lesson20-title",
       ba:"Allahova lijepa imena",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson20-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson20-quote",
+      ba:"\"On ima najljepša imena.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson20-quote-reference",
+      ba:"Kur'an, 59:24",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19-title",
+      ba:"Sira",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -7408,7 +7440,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson19-quote",
-      ba:"\"On ima najljepša imena.\"",
+      ba:"\"Tako Mi neba punog zvjezdanih puteva.\"",
       no:"Bønn",
       en:"Prayer",
       it:"",
@@ -7416,11 +7448,602 @@ export interface LanguageEntry{
     },
     {
       name:"label-book3-lesson19-quote-reference",
-      ba:"Kur'an, 59:24",
+      ba:"Kur'an, 51:7",
       no:"Bønn",
       en:"Prayer",
       it:"",
       de:""
     },
-    
+    {
+      name:"label-book3-lesson19_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section1-paragraph1",
+      ba:"Životopis posljednjeg Allahovog, dž.š., Poslanika Muhammeda, a.s., zovemo posebnim imenom „Sira“. Sira predstavlja historijske doživljaje i događaje Poslanika, a.s., od njegovog rođenja do njegove smrti. Prvi koji je pisao Poslanikov, a.s., životopis bio je 'Urve b. el-Zubejr b. el-'Avam (umro 92. godine po Hidžri), zatim Ebban b. 'Usman (umro 105. god.), Vehb b. Munebbeh (urmo 110. god.), itd. Nažalost, sve njihove knjige su izgubljene i samo se neki njihovi fragmenti mogu naći razasuti tu i tamo po pojedinim historijskim djelima kao što je, primjerice, Taberijeva historija. Jedino je sačuvan dio knjige Vehba b. Munebbeha i on se nalazi u Heidelbergu, u Njemačkoj! Od svih dosadašnjih knjiga najznačajnije i najpouzdanije knjige o životu Poslanika, a.s., su \"Životopis Muhammeda, a.s.,\" od ibn Ishaka i \"Životopis\" od ibn Hišama.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section2-header",
+      ba:"Rođenje",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section2-paragraph1",
+      ba:"Kada je Abdullah, Muhammedov, a.s., otac, stasao u dob od 25 godina oženio je Aminu, kćerku Vehbovu, koji je bio unuk Kusajjovog brata Zuhre. Muhammed, a.s., je rođen 12. aprila 571. godine u Mekki, u plemenu Kurejš. Godina rođenje Muhammeda, a.s., je poznata i kao Godina slona, jer se tada zbio poznati događaj kada je abesinski namjesnik današnjeg Jemena, Ebreha pokušao sa vojskom koju je predvodio slon srušiti Kabu u Mekki o čemu govori i jedna kur'anska sura El-Fil (Slon).",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section3-header",
+      ba:"Rani život",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section3-paragraph1",
+      ba:"Kako mu je otac umro prije njegovog rođenja, Muhammed, a.s., je ostao samo s majkom i djedom. Među predislamskim uglednim Arapima vladao je običaj da se muška djeca šalju u pustinju, izvan grada, kako bi dio djetinjstva provodili u nekom od beduinskih plemena. Među takvim plemenima koja su uživala veliki ugled među Arapima bilo je i pelem Benu Sa'ad ibn Bekr. To pleme je naseljavalo područje koje se nalazi jugoistočno od Mekke. Poslanikova, a.s., majka Amina je upravo željela sina povjeriti nekoj od žena iz toga plemena. Historičar Ibn Hišam u svom djelu \"Poslanikov životopis\" navodi da je Muhammedova, a.s., dojilja bila Halima iz plemena Benu Sa'd. Kod Halime u pustinji je ostao do perioda kada je napunio dvije godine, naučio arapski jezik i prestao sa dojenjem. Kada je doveden u Mekku, u kojoj se u to doba često javljale epidemije i bolesti Halima je iskoristila tu situaciju i nagovorila Njegovu majku da Muhammeda, a.s., zadrži još dvije godine što se i desilo. Kada mu je bilo šest godina, umrla mu je i majka, a kako mu je otac umro prije njegovog rođenja, Muhammed, a.s., je sa šest godina ostao siroče. Dvije godine poslije umire mu i djed nakon čega ga prihvaća amidža Ebu Talib koji se brine o njemu. U tradicionalnim predajama prenosi se da je kao dječak bio poznat po mudrosti i moralnosti. Tako se prenosi da su se zidovi Kabe radi poplave srušili i da su mekkanska plemena odlučila da je renoviraju. Međutim, nastao je spor oko počasnog čina vraćanja Crnog kamena u zidove Kabe. S obzirom da su Muhammeda, a.s., znali u gradu kao najmoralnijeg i najnepristrasnijeg, pozvali su njega da presudi oko tog spora. On je presudio na sljedeći način: rekao im je da Crni kamen stave na jedno platno i da glavešine svih plemena uzmu za krajeve platna i tako ga polože u zid Kabe. Kad je imao 25 godina, oženio je Hatidžu bint Huvejlid, r.a., i uspješno se bavio trgovinom.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section4-header",
+      ba:"Objava",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section4-paragraph1",
+      ba:"U tradicionalnim predajama (Buharija, Muslim i ostali) prenosi se da je Muhammed, a.s, u 40-im godinama sve više bio razočaran izopačavanjem vjerskih običaja i udaljavanja njegovih sugrađana od monoteizma i prakticiranjem primitivnog oblika politeizma. I uobičavao je osamljivanje na lokalnom brdu u pećini Hira. U jednom takvom osamljivanju, godine 610. u mjesecu ramazanu, Muhammeda, a.s, je prema islamskoj predaji, posjetio melek Džibril, a.s., koji mu je tada prenio prve Božije riječi, Ikre! (Uči!). To su bile prve kur'anske riječi i tim događajem zvanično je počela objava Kur'ana. Muhammed, a.s., je brzo počeo širiti islam u Mekki s novim pogledom na ekonomske, vjerske i socijalne odnose. Međutim, trgovci i tadašnji vladari Mekke bojali su se da bi nova vjera, sa sve više novih pristalica i s novim pristupom hodočašću u Mekku (koji je tada bio jedini izvor gradskih prihoda) mogla štetiti njihovim ličnim koristima. Upravo na mjestu drevnog hrama Kabe bili su izloženi mnogobrojni paganski idoli koje su jednom godišnje posjećivali obožavaoci iz svih krajeva tadašnje Arabije, što je ostavljalo velike prihode tadašnjim vlastima u Mekki. Tako je Muhammedovo, a.s., pozivanje u islam odmah u startu steklo velike neprijatelje. Zbog niza opstruiranja, pritisaka i napada koje je doživljavala tadašnja malobrojna islamska zajednica, bili su prisiljeni da 615. godine izbjegnu prvo u tadašnju Abesiniju, a zatim, 622 godine, u Medinu. Navodi se da je bilo i nekoliko pokušaja atentata u Mekki na samog Muhammeda, a.s, što se završilo neuspješno. U mekkanskom periodu Muhammeda, a.s, je neprestano štitio amidža Ebu Talib, koji je, također, bio jedan od mekanskih uglednik.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section5-header",
+      ba:"Godina tuge",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section5-paragraph1",
+      ba:"Godine 619. umire EbuTalib i Muhammed, a.s, gubi jaku podršku. Nakon toga umire njegova supruga Hatidža, r.a., koja je od samog početka također bila velika podrška Poslaniku, a.s,. Zbog tuge i neprestanog pritiska sugrađana, koji su sve više neprijateljski nastupali prema njemu, sam Muhammed, a.s, nazvao je tu godinu godinom tuge.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section6-header",
+      ba:"Isra i Miradž",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section6-paragraph1",
+      ba:"U vrijeme kada je Poslanik, a.s., proživljavao teške trenutke zbog gubitka važnih oslonaca u svom životu, Hatidže, r.a., i Ebu Taliba, a istovremeno je zajedno sa muslimanskom zajednicom u Mekki bio na udaru mušrika i kada se njihova misija pa i životi bili ugroženi dešava se događaj koji je veoma značajan u historiji islama i jedan od najznačajnijih u životu Poslanika, a.s., Isra i Miradž, svojevrsna mudžiza, je putovanje iz dva dijela koje je Muhammed, a.s., prema većini autora imao u noći sa 26/27. redžeba godinu prije Hidžre, 620. ili 621. godine. Prvi dio putovanja je bilo posredstvom Buraka (bijela džennetska životinja, manja od mazge a veća od magarca) a sastojalo se od odlaska iz Mekke do hrama dalekog tj. Mesdžidul Aksa. Na tom mjestu Muhammed, a.s., je predvodio namaz svim prijašnjim poslanicima. Nakon Isre, u drugom dijelu putovanja poznatom kao Miradž, Muhammed, a.s., je prošao kroz sedam nebesa pri čemu se na svakom od njih susreo i razgovarao sa nekim od najodabranijih poslanika kao što su: Ibrahim, Musa i Isa. Zatim je stupio i na Arš. Višestruki je značaj tog putovanja za muslimane a jedna od njih je i naredba obavljanja namaza (pet dnevnih namaza) koji predstavlja najznačajni od pet stubova islama. Iako je Muhammed, a.s., u društvu važio kao iskren i pouzdan, nakon ovog putovanja većina stanovnika Mekke mu nije povjerovala. Tada je, njegov najvjerniji prijatelj Ebu Bekr, r.a., i prvi od pravednih halifa rekao: \"Čudite se da je Muhammed u jednoj noći otputovao do Mesdžidul Aksa i nazad? Pa ja sam mu povjerovao i više od toga a to je da prima Objavu sa nebesa.\" Ovaj za islam važan događaj je ukratko opisan i u kur'anskoj suri El-Isra (noćno putovanje) gdje se kaže: \"Uzvišen neka je Onaj Koji je u jednom času noći preveo Svoga roba iz Mesdžid-Harama u Mesdžid Aksa, čiju smo okolicu blagoslovili kako bismo mu neka znamenja Naša pokazali. - On, uistinu, sve čuje i sve vidi.“",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section7-header",
+      ba:"Hidžra",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section7-paragraph1",
+      ba:"Pod prijetnjom smrću i nekoliko pokušaja atentata i sve većim pritiscima na njegove sljedbenik (koji su već prije napustili Mekku i otišli u Abesiniju), Muhammed, a.s., 622. godine, posljednji nakon što je ispratio sve ostale muslimane, sa svojim najboljim prijateljem Ebu Bekrom napušta Mekku i odlazi u Medinu. Dolazak u Medinu postaje historijski događaj i prekretnica za muslimane iz više razloga. Taj događaj koji se desio septembra 622. godine po gregorijanskom kalendaru će se poslije uzeti za početak islamskog kalendara, prema kojem muslimani računaju vrijeme. Osim toga, prednost dolaska u Medinu je i taj što su prvi muslimani u mirnijem okruženju tadašnje Medine, koja im je ponudila gostoprimstvo, mogli slobodno upotpunjavati i širiti islam. S druge strane, i Medina je dobila dolaskom Poslanika. Pomirio je dotad dva zavađena arapska plemena koja su imala dugu historiju međusobnog ratovanja. Napisan je i prvi Medinski ustav tj. povelja, koji uređuje međusobne odnose Arapa i Jevreja, kojih je u gradu bilo u značajnom broju. Grad Medina, nakon Hidžre postaje središte islama te se i sam naziv grada mijenja iz tadašnjeg Jesriba u Medinetun Nebi (arap. Poslanikov grad) ili kraće Medina.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section8-header",
+      ba:"Bedr",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section8-paragraph1",
+      ba:"Mir ipak nije dugo trajao. Nakon što su muslimani napustili Mekku, njihovi neprijatelji devastirali su njihove domove i pripremali napad na Medinu, prvenstveno zbog straha od ugrožavanja karavana i glavnih puteva prema Mekki od medinskih muslimana. Tako je 624. godine oko 900 dobro opremljenih mekkanskih vojnika na čelu s mekkanskim vladarima, među kojima je bio i Ebu Džehl, krenulo u pravcu Medine. Muslimanska vojska, koja je brojala oko 300 vojnika, na čelu s Poslanikom, a.s., susreće ih kod bunara u okolini Medine (Bedr) i poražava. Ubijena su 44 mekkanska vojnika, među kojima i Ebu Džehl, te zarobljeno njih 70 koji su poslije u razmjeni pušteni. Ubijeno je i 14 muslimanskih vojnika. Ta je bitka odjeknula širom Arapskog poluostrva, što je doprinijelo da se i šire čuje za vjeru islam u srcu Arabije.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section9-header",
+      ba:"Uhud",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section9-paragraph1",
+      ba:"Ebu Sufjan, mekanski vladar, skupio je oko 3.000 vojnika za osvetnički napad na Medinu. Bitka se odigrala 22. januara 625. godine u dolini brda Uhud, gdje je boravila mekkanska vojska koja je krenula na Medinu. U toku bitke, koja je u jednom momentu išla u korist muslimana, tadašnji mekkanski, a poslije veliki muslimanski vojskovođa Halid ibn Velid čini iznenadni manevar s konjicom oko brda Uhud i iznenađuje muslimansku vojsku i poražava ih. U toj bici ranjen je i sam Muhammed, a.s., i tom prilikom izgubio je zub (očnjak). Poginulo je 75 muslimana, uključujući velikog borca Hamzu, r.a.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section10-header",
+      ba:"Hendek",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section10-paragraph1",
+      ba:"Uz pomoć utjecajnog jevrejskog plemena Benu Nadir, kurejšijski vojni zapovjednik Ebu Sufjan okuplja neka arapska plemena u jednu zajedničku vojsku, koja je brojala 10.000 ljudi i još jednom se sprema da napadne Medinu, odnosno 627. godine. Muhammed, a.s., je okupio oko 3.000 muslimana, koji su se, po prijedlogu ashaba Selmana el Farisija (Perzijanca), odbranili tako što su iskopali rovove oko grada (stari perzijski način odbrane) (ar. hendek – jarak, rov, kanal), po čemu je bitka i dobila ime Bitka na Hendeku. Opsada pod kojom se našla Medina trajala je dvije sedmice. U tom periodu još jedno jevrejsko pleme koje je bilo stacionirano sjeverno od Medine, Benu Kurejze, s kojim su muslimani imali Medinski ugovor, sklopili su pakt s mnogobošcima iz Mekke protiv medinskih muslimana. Nekoliko su puta manje jedinice pokušale probiti linije odbrane medinskih muslimana, ali bezuspješno. Nakon dvije sedmice opsade, mekanska vojska ipak se iznenada povlači. Nakon toga muslimanska zajednica Medine zbog izdaje napada pleme Benu Kurejze, nakon čega ih i pobijeđuje.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section11-header",
+      ba:"Hudejbija",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section11-paragraph1",
+      ba:"Nakon Bitke na Hendeku, medinski muslimani i mekkanski mnogobošci potpisuju primirje na 10 godina, 12.02.628., godine sa sljedećim tačkama:",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section11-paragraph2",
+      ba:"- Dozvoljeno je muslimanima Medine da učine hodočašće u Mekku, ali ne više od četri dana u godini, ali ove godine to ne mogu učiniti, tek naredne.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section11-paragraph3",
+      ba:"- Prekidanje svih ratnih djelovanja i garantiranje sigurnosti na objema zaraćenim stranama.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section11-paragraph4",
+      ba:"- Svako vanjsko neprijateljstvo s jednom od potpisnica primirja obavezuje drugo na djelovanje, a svako prijateljstvo nekog arapskog plemena s jednom od članica ugovora o primirju obavezuje sve na prijateljstvo s njima.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section11-paragraph5",
+      ba:"- Zabrana primanja izbjeglica iz Mekke u Medinu, a oni koji pribjegnu iz Medine u Mekku nisu dužni da se vrate u Medinu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section11-paragraph6",
+      ba:"Za vrijeme primirja Muhammed, a.s., se posvećuje širenju islama u granicama Arabijskog poluostrva i izvan njega. Tako šalje pisma tadašnjim svjetskim vladarima kojima ih poziva u islam.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section12-header",
+      ba:"Oslobodjenje Mekke",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section12-paragraph1",
+      ba:"Primirje na Hudejbiji trajalo je svega dvije godine. Pleme Benu Huza imalo je dobre odnose s Muhammedom, a.s., a pleme Benu Bekr s idolopoklonicima iz Mekke. Prenosi se da je u jednom noćnom napadu pleme Benu Bekr napalo pleme Benu Huza, a da su im pri tome logistiku dali Mekkanci, a po nekim izvorima, u napadu je učestvovalo nekoliko mekanaca. Nakon tog incidenta Muhammed, a.s., daje tri uvjeta mekancima, tražeći od njih da usvoje jedan:",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section12-paragraph2",
+      ba:"- Da plate \"krvarinu\" plemenu Huza.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section12-paragraph3",
+      ba:"- Da se odreknu prijateljstva s plemenom Benu Bekr (jer ih od odmazde štiti treći član Hudejbijskog primirja).",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section12-paragraph4",
+      ba:"- Da ponište Hudejbijsko primirje.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section12-paragraph5",
+      ba:"Mekkanci su prihvatili treći uvjet, tj. prestalo je važiti Hudejbijsko primirje. Ubrzo nakon toga uvidjeli su kakvu su grešku počinili jer nisu dobro procijenili na kojem su nivou već tada bili muslimani. Pridobili su veliki broj arapskih plemena, a osnažili su se vojno i ekonomski. Ebu Sufjan lično dolazi da obnovi Hudejbijsko primirje, međutim, Muhammed, a.s., odbija tu ponudu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section12-paragraph6",
+      ba:"On zatim oprema vojsku za osvojenje Mekke i u nju okuplja preko 10.000 ljudi. Osvaja Mekku bez većih konflikta i bez žrtava. Nakon ulaska u Mekku, amnestira sve okupljene stanovnike Mekke i \"oprašta\" im riječima: \"Reći ću vam ono što je Jusuf rekao svojoj braći: \"Ja vas danas neću koriti, idite, slobodni ste\" Nakon toga je porušio kipove koji su se nalazili u dvorištu Kabe.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section13-header",
+      ba:"Preseljenje na Ahiret",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19_section13-paragraph1",
+      ba:"Na kraju desete godine nakon preseljenja u Medinu, Muhammed, a.s., je prvi put u potpunosti obavio hadždž. Na njemu je održao poznati govor na kome je prisustvovalo preko 100 hiljada ljudi. Muhammed, a.s., je tada, između ostalog, govorio o pravu pojedinca, nacionalnoj i rasnoj jednakosti, pravima žena i djece, položaju djece bez roditelja i još nekim smjernicama. U tefsirima se navodi da je u tom momentu oprosnog hadždža objavljen ajet: \"Danas sam vam vašu vjeru usavršio i blagodat svoju prema vama upotpunio i zadovoljan sam da vam islam bude vjera.\" (El-Ma'ide, 3). Nekoliko mjeseci nakon oprosnog hadždža Muhammed, a.s., se razbolio. Imao je jake glavobolje i osjećao slabost. Umro je u ponedjeljak, 8. juna 632. godine u podnevskom vremenu u gradu Medini, u kući i naručju supruge Aiše.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21-title",
+      ba:"Hadis",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21-quote",
+      ba:"\"A tebe smo samo kao milost svjetovima poslali.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson19-quote-reference",
+      ba:"Kur'an, 21:107",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section1-paragraph1",
+      ba:"Hadis je sve ono što je  Muhammed, a.s., rekao, uradio ili vidio da neko nešto čini, pa svojom šutnjom to odobrio i dotičnog ne opomenuo. U hadis spadaju i one vijesti koje govore o Poslanikovim, a.s., svojstvima tj. o tome kakav je Poslanik, a.s., bio po svojim vanjskim i duševnim osobinama.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section2-header",
+      ba:"Zapisivanje",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section2-paragraph1",
+      ba:"Rad na pisanju i sabiranju hadisa prošao je kroz pet faza (razdoblja):",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section2-paragraph2",
+      ba:"1. Pisanje hadisa u vrijeme Poslanika, a.s.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section2-paragraph3",
+      ba:"2. Pisanje hadisa nakon smrti Poslanika, a.s., u vrijeme ashaba i tabe’ina.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section2-paragraph4",
+      ba:"3. Početak pisanja i sabiranja hadisa u zasebnim knjigama.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section2-paragraph5",
+      ba:"4. Odvajanje hadisa od govora ashaba i tabe’ina u zasebnim knjigama.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section2-paragraph6",
+      ba:"5. Odvajanje sahih hadisa od daif hadisa u zasebnim knjigama.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section3-header",
+      ba:"Zbirke",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section3-paragraph1",
+      ba:"Šest najpoznatijih hadiskih zbirki u koje nema nikakve sumnje u pogledu ispravnost hadisa u bilo kojem obliku nazivaju se jedinstvenim imenom Kutubu sitte. One su poredane sljedećim redom:",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section3-paragraph2",
+      ba:"Sahih Buhari",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section3-paragraph3",
+      ba:"Sahih Muslim",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section3-paragraph4",
+      ba:"Sunen Nesaija",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section3-paragraph5",
+      ba:"Sunen Ebu Davud",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section3-paragraph6",
+      ba:"Tirmizijin Sunen",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section3-paragraph7",
+      ba:"Sunen ibn Madže",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section4-header",
+      ba:"Nauka o hadisima",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section4-paragraph1",
+      ba:"Muhaddis je osoba koja se aktivno bavi hadiskom naukom, te je sposobna razlikovati vjerodostojne hadise od onih koji to nisu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section4-paragraph2",
+      ba:"Hadiski stručnjak koji dobro poznaje hadisku nauku i odlikuje se pamćenjem velikog broja hadisa i njihovih prenosilaca. Prema većini hadiskih učenjaka smatra da treba poznavat 100.000 hadisa za ovu titulu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section4-paragraph3",
+      ba:"Hudždže je hadiski stručnjak koji odlično poznaje hadisku nauku i zna oko 300,000 hadisa sa njihovim senedima. Hakim je titula za alima koji poznaje približno sve hadise sa njihovim senedima.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section5-header",
+      ba:"Podjela hadisa",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section5-paragraph1",
+      ba:"Obzirom na ishodište hadise dijelimo na:",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section5-paragraph2",
+      ba:"1. El-hadisu-l-kudsi – je hadisi čiji sened (lanac prenosilaca) dolaze od Allaha, dž.š., a nisu Kur'anski ajeti ali ti su hadisi iskazani Poslanikovim, a.s., riječima.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section5-paragraph3",
+      ba:"2. El-hadisu-l-merfu – je hadis čiji sened doseže do Allahova Poslanika, a.s.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section5-paragraph4",
+      ba:"3. El-hadisu-l-mevkuf – je hadis čiji sened doseže do nekoga od ashaba, r.a.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section5-paragrap51",
+      ba:"4. El-hadisu-l-maktu - je hadis čiji sened doseže do nekoga od tabiina, r. a., ili do nekoga iz kasnijih generacija.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section6-header",
+      ba:"Vjerodostojnost",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section6-paragraph1",
+      ba:"Mutavatir je hadis koji u svakoj generaciji prenosi veliki broj prenosilaca za koje je nemoguće posumnjati da su se uslovno rečeno dogovorili na laž.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section6-paragraph2",
+      ba:"Mešhur je hadis koji u svakoj generaciji prenosi 3 ili više prenosilaca, ali ne dostiže stepen mutevatira.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section6-paragraph3",
+      ba:"Aziz se definiše kao hadis koji u svakoj generaciji prenose najmanje dvojica prenosilaca. Garib hadis je hadis koji u svakoj generaciji prenosi samo jedan ravija.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section6-paragraph4",
+      ba:"Sahih je hadis sa spojenim senedom koji prenose pouzdani i sigurni prenosioci, ne posjeduje nikakav skriveni nedostatak i ne protivi se jačem hadisu od sebe.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section6-paragraph5",
+      ba:"Hasen je hadis sa spojenim senedom koji prenose pouzdani prenosioci, ali manje sigurni od prenosilaca sahih hadisa. Razlika je to što sigurnost i memorija kod ravija nije na stepenu sahiha.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson21_section6-paragraph6",
+      ba:"Da'if hadis je hadis koji ne ispunjava jedan ili više uvjeta sahih hadisa, smatra se slabim hadisom. Daif hadis se bez dileme ne može služiti kao argument u akaidskim i šerijatsko-pravnim pitanjima.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
  ]

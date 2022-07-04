@@ -251,19 +251,19 @@ export const MainCategoryPage: React.FC = () => {
             <IonRow>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-messanger-sirah")} 
-                    description={translate("label-messanger-sirah-description")} 
+                    title={translate("label-book3-lesson19-title")} 
+                    description={translate("label-book3-lesson19-description")} 
                     icon="/assets/images/History.png" 
-                    link="/tabs/SirahPage"
+                    link="/tabs/SliderLessonPage/3/19"
                     color="Burgundy"/>
                 
               </IonCol>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-messanger-hadith")} 
-                    description={translate("label-messanger-hadith-description")} 
+                    title={translate("label-book3-lesson21-title")} 
+                    description={translate("label-book3-lesson21-description")} 
                     icon="/assets/images/Hadith.png" 
-                    link="/tabs/HadeethPage"
+                    link="/tabs/SliderLessonPage/3/21"
                     color="Burgundy"/>
                 
               </IonCol>

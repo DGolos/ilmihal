@@ -13,10 +13,8 @@ import { Redirect, Route } from "react-router";
 import useTranslation from "./hooks/useTranslation";
 import { translationService } from "./services/TranslationService";
 import { CaliphsPage } from "./pages/Advanced/CaliphsPage";
-import CreditsPage from "./pages/Advanced/CeditsPage";
 import { ChosenCompanionsPage } from "./pages/Advanced/ChosenCompanionsPage";
 import { CompanionsPage } from "./pages/Advanced/CompanionsPage";
-import { HadeethPage } from "./pages/Advanced/HadeethPage";
 import { BosnianCulturePage } from "./pages/Advanced/Homeland/BosnianCulturePage";
 import { BosnianScholarsPage } from "./pages/Advanced/Homeland/BosnianScholarsPage";
 import { BosniaPage } from "./pages/Advanced/Homeland/BosniaPage";
@@ -29,10 +27,10 @@ import { QuranMainPage } from "./pages/Advanced/Quran/QuranMainPage";
 import { QuranPlayerPage } from "./pages/Advanced/Quran/QuranPlayerPage";
 import { QuranReaderPage } from "./pages/Advanced/Quran/QuranReaderPage";
 import { RubiesAyahPage } from "./pages/Advanced/Quran/RubiesAyahPage";
-import { SirahPage } from "./pages/Advanced/SirahPage";
 import { WomensPage } from "./pages/Advanced/WomensPage";
 
-import { BeautifulNamesPage,BeliefPage, BookOneMainPage, BookTwoMainPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DailyPrayerDhikrPage,DailySupplicationsPage,DhikrMainPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage,SupplicationMainPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
+
+import { BeautifulNamesPage,BeliefPage, BookOneMainPage, BookTwoMainPage,CreditsPage,DailyPrayerDefinitionPage, DailyPrayerDetailsPage,DailyPrayerWatchPage,DailyPrayerDhikrPage,DailySupplicationsPage,DhikrMainPage,EidPrayerPage,FuneralPrayerPage,GuidancePrayerPage, HajjDefinitionPage, HomePage, ImanMainPage, IslamMainPage, JummahPrayerPage,LanguageOptionsPage, LocationOptionsPage, MainBookPage, MainCategoryPage, MorningPrayerPage,NightPrayerPage,OptionsPage, PrayerDefinitionPage,PrayerTimesPage, SegmentLessonPage,SliderLessonPage,StandardLessonPage,SupplicationMainPage, TarawihPrayerPage,TasbihPage,UnderConstructionPage, VoluntaryPrayersPage,WudhuPage } from "./pages";
 
 //3D7JW5AHQN.no.izbih.iMekteb
 interface MainAppProps{}
@@ -82,8 +80,6 @@ const MainApp: React.FC<MainAppProps> = () => {
           />
           
           <Route path="/tabs/DhikrMainPage/" component={DhikrMainPage} />
-          <Route path="/tabs/HadeethPage/" component={HadeethPage} />
-          <Route path="/tabs/SirahPage/" component={SirahPage} />
           <Route path="/tabs/CompanionsPage/" component={CompanionsPage} />
           <Route path="/tabs/CaliphsPage" component={CaliphsPage} />
           <Route

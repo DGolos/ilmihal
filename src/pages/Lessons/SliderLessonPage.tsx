@@ -5,7 +5,8 @@ import {
     IonBackButton,
     IonContent,
     IonPage,
-    IonSlides
+    IonSlides,
+    IonSlide
     
   } from "@ionic/react";
   import React from "react";
@@ -28,7 +29,10 @@ import { SliderSection } from "../../components";
     const sliderSectionItems = lesson?.sections.filter((section) => {
         return section.type === "2";
       }).map((section, index) => (
-        <SliderSection key={index} section={section} color={lesson?.color} min={index+1} max={lesson.sections.length}/>
+        <IonSlide key={index}>
+          <SliderSection key={index} section={section} color={lesson?.color} min={index+1} max={lesson.sections.length}/>
+        </IonSlide>
+        
       ));
   
     return (
