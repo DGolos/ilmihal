@@ -52,7 +52,7 @@ export const BookOneMainPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent className="bg-image-standard" fullscreen>
-      <div style={{ margin: "10px" }}>
+      <div >
           <IonGrid>
             <IonRow>
               <IonCol size="4">

@@ -41,7 +41,7 @@ export const MainCategoryPage: React.FC = () => {
   return (
     <IonPage>
       <IonContent className="bg-image-standard">
-        <div style={{ margin: "10px" }}>
+        <div >
           <IonGrid>
             <IonRow>
               <IonCol size="4">
@@ -271,8 +271,8 @@ export const MainCategoryPage: React.FC = () => {
             <IonRow>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-messanger-companions")} 
-                    description={translate("label-messanger-companions-description")} 
+                    title={translate("label-book3-lesson22-title")} 
+                    description={translate("label-book3-lesson22-description")} 
                     icon="/assets/images/Ashabi.png" 
                     link="/tabs/CompanionsPage"
                     color="Burgundy"/>

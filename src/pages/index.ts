@@ -18,6 +18,7 @@ export * from "./Lessons/TasbihPage";
 export * from "./Lessons/WudhuPage";
 export * from "./Lessons/SupplicationMainPage";
 export * from "./Lessons/DailySupplicationsPage";
+export * from "./Lessons/CompanionsPage";
 export * from "./Options/ChooseLanguagePage";
 export * from "./Options/ChooseLocationPage";
 export * from "./Options/LanguageOptionsPage";

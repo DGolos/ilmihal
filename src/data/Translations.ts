@@ -7767,7 +7767,7 @@ export interface LanguageEntry{
       de:""
     },
     {
-      name:"label-book3-lesson19-quote-reference",
+      name:"label-book3-lesson21-quote-reference",
       ba:"Kur'an, 21:107",
       no:"Bønn",
       en:"Prayer",
@@ -8046,4 +8046,459 @@ export interface LanguageEntry{
       it:"",
       de:""
     },
+    {
+      name:"label-book3-lesson22-title",
+      ba:"Ashabi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson22-description",
+      ba:"Namaz gdje molimo Allaha dž.š. za uputu kada nešto želimo uraditi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson22-quote",
+      ba:"\"On je Bog i na nebu i na Zemlji, On je Mudri i Sveznajući!\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson22-quote-reference",
+      ba:"Kur'an, 43:84",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23-title",
+      ba:"Pravedne halife",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23-description",
+      ba:"Životna priča četvorice pravednih halifa koji su dali veliki doprinos islamu",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23-quote",
+      ba:"\"Objavljujemo je kao Kur’an na arapskom jeziku da biste razumjeli.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23-quote-reference",
+      ba:"Kur'an, 12:2",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section1-paragraph1",
+      ba:"Halife su bili svjetovne i duhovne vođe. Oni su bili nasljednici Poslanika Muhammeda, a.s., u svemu osim u domenu primanja Objave. Institucija hilafeta postojala je od Poslanikove, a.s., smrti 632. godine pa sve dok ga Kemal-paša Ataturk nije dokinuo 1924. godine, svrgnuvši tako posljednjeg turskog sultana Abdul Medžida koji je ujedno obnašao i funkciju halife.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section2-header",
+      ba:"Ebu Bekr Es-Siddik",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section2-paragraph1",
+      ba:"Odmah nakon Poslanikove, a.s., smrti za halifu je izabran Ebu Bekr, r.a., koga je sam Poslanik, a.s., nazvao Es-Siddik – Iskreni. Bio je među prvima koji je primio islam i otac Poslanikove supruge Aiše, r.a. Poslanik, a.s., ga je odabrao da mu bude saputnikom prilikom hidžre – preseljenja iz Mekke u Medinu. Sa Poslanikom, a.s., je učestvovao u svim bitkama. Čitav svoju, nemalu, imovinu je potrošio za potrebe zajednice. Poslanik, a.s., ga je imenovao svojim zamjenikom u predvođenju muslimana prilikom zajedničkog obavljanja namaza kada bi bio spriječen da to lično Poslanik, a.s., čini. Uživao je veliki ugled u zajednici. Vladao je kratko ali je za zajednicu učinio mnogo. Kad je Poslanik, a.s., umro mnoga plemena koja su samo formalno bila prihvatila islam i priznala Poslanikovu, a.s., vlast su se pokušala odcijepiti a pojavilo se i mnogo lažnih poslanika koji su taj metež pokušali iskoristiti. Ebu Bekr je u prvoj godini svoje vladavine uspio skršiti sve te pobune i zavesti red u islamskoj državi. U drugoj godini njegove vladavine od Perzije je osvojena čitava dolina rijeke Eufrat u Iraku a od Bizantije dobar dio Sirije. Historičari su zapisali njegovu naredbu vojnicima, koja je poslije postala kodeks koga su se muslimanski vojnici držali, a koja je glasila:«Ne kršite zadanu riječ, niti pretjerujte u vjeri. Ne mrcvarite ubijene i ne ubijajte djecu, žene i starce. Ne sijecite drveće i ne palite usjeve. Ne koljite ovace, goveda i deva osim koliko vam bude potrebno za hranu. Proći ćete pokraj nekih, koji su se osamili u svojim samostanima, pa ih pustite na miru i onome čemu su se odali».",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section3-header",
+      ba:"Omer ibn el-Hattab",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section3-paragraph1",
+      ba:"Dok je još bio u bolesti, predosjećajući skoru smrt, Ebu Bekr, r.a., je konsultirao mnoge ugledne i utjecajne prvake zajednice u svezi svoga nasljednika i dobio njihovu suglasnost da to bude Omer Ibnu-l-Hattab, r.a., koga je u svojoj oporuci preporučio za to mjesto. Odmah nakon smrti Ebu Bekra, r.a., Omer, r.a., i bi izabran na tu dužnost. Za vrijeme Omerove, r.a., desetogodišnje vladavine skoro u potpunosti je osvojeno slavno Perzijsko carstvo, čitav Irak, Sirija, Palestina i Egipat. U historijskim djelima je ostalo zapisano da su stanovnici Jerusalema u toku opsade izrazili želju da se predaju halifi lično. Halifa je uslišao tu njihovu želju, otišao u Jeruzalem i lično primio ključeve grada. Jerusalem tako bi zauzet bez kapi krvi a halifa dade garancije stanovnicima Jerusalema da će uživati građansku sigurnost i vjerske slobode. Ostale su zapamćene njegove riječi kojima im se obratio: «O jeruzalemljani! Imate ista prava ali i iste dužnosti kao i mi». Za vrijeme njegove vladavine je uveden hidžretski kalendar. Naime, odlučeno je da se za početak ere uzme hidžra (preseljenje Poslanika, a.s., i prvih muslimana iz Mekke u Medinu) a da se vrijeme računa po mjesečevu kalendaru u kome je godina za deset dana kraća od sunčeve godine. Također, uspostavio je zajedničko klanjanje teravih namaza u džematu tokom Ramazana.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section4-header",
+      ba:"Osman ibn Affan",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section4-paragraph1",
+      ba:"Bio je jedan od najuglednijih mekkanskih prvaka i zet Muhammedov, a.s., Uz to je bio i jedan od Poslanikovih pisara Kur'ana i izuzetno darežljiv, tako da je sav svoj veliki imetak potrošio za potrebe zajednice. Halifa Omer, r.a., nije oporučio jednu osobu za halifu, nego je u svojoj oporuci naveo šest najugledinijih prvaka zajednice, među kojima je bio i Osman, r.a., i oporučio da oni između sebe izaberu njegova nasljednika. Kad je halifa Omer bio ubijen njegova oporuka je realizirana i ova šestorica su odlučila da nasljednik bude Osman ibn Affan, r.a. Za vrijeme njegove dvanaestogodišnje vladavine država se proširila na skoro čitavu sjevernu Afriku i sjeverno od Iraka sve do Armenije. Kako je izgrađena i snažna mornarica tako su osvojeni mnogi otoci istočnog Sredozemlja zajedno sa Kiprom. Pošto su i mnogi (ne)arapi prigrlili islam uočene su mnoge nepravilnosti u recitiranju Kur'ana. Da ne bi došlo do iskrivljivanja Kur'ana izvršena je još jedna stroga recenzija Kur'ana, koji je za Ebu Bekra, r.a., bio sakupljen u jednu zbirku, a onda je za vrijeme halife Osmana, r.a., Kur'an umnožen i razaslat u sve krajeve države.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section5-header",
+      ba:"Alija ibn Ebi Talib",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson23_section5-paragraph1",
+      ba:"Pošto je i halifa Osman, r.a., bio ubijen, za halifu je bio izabran Alija ibn ebi Talib, r.a., koji je odrastao u Poslanikovu, a.s., domu i bio je oženjen njegovom kćerkom Fatimom, r.a. Bio je jedan od pisara Kur'ana i slovio je kao jedan od najboljih poznavalaca islamskog prava. Osim toga bio je veliki junak, učesnik skoro svih vojnih pohoda te pobjednik u svim, mnogobrojnim, dvobojima kojima su u ono doba otpočinjale bitke. Islam je prihvatio još kao dječak. Nakon Osmanovog, r.a., ubistva, Alija, r.a., nije želio preuzeti hilafet. Nakon nagovaranja odlučio je popustiti, ali pod uslovom da mu svi u džamiji daju prisegu na vjernost. Prvi je dao prisegu Talha ibn Ubejdullah, a nakon njega i ostali prisutni. Na taj način Alija postade 4. halifa i ujedno i posljednji \"pravedni halifa\". Odmah po preuzimanju hilafeta, novi halifa je naišao na probleme. Poslije izbora Alije, r.a., za halifu, taj izbor nije priznao namjesnik Sirije, Muavija. Vođeno je nekoliko žestokih bitaka u kojima je Alijina, r.a., vojska odnijela pobjede. Muavija ni dalje nije priznavao Aliju za halifu nego se i on proglasio halifom. Četrdesetih godina po Hidžri sastala su se tri čovjeka iz reda Haridžija (jedna fanatična vjerska sekta, nastala tokom tih borbi) i, smatrajući da su muslimani zalutali, te da se trebaju ubiti namjesnici: Alija, Muavija i Amr ibn el-'As. Dogovor je pao da se sva tri ubistva odigraju 17. ramazana. Pokušaj ubistva Muavije je propao, iako ga je ubica ranio zatrovanom sabljom po debelom mesu. Nakon dugotrajnog liječenja Muavija je ozdravio. Amr ibn el-'As se razbolio, te nije izašao na sabah namaz, nego je poslao Haridžea ibn Huzejfea, kojega je Amrov ubica ubio. Abdurrahman ibn Muldžem je sačekao Aliju ispred njegove kuće kada je ovaj krenuo klanjati sabah namaz u džamiji i udario ga sabljom po čelu. Halifa nije odmah podlegao ranama, nego je uspio poživjeti dovoljno dugo da naredi da se ne kažnjava niko osim njegovog ubice i to bez mučenja. Naredio je sljedbenicima da nipošto ne traže osvetu. Umro je neprestano ponavljajući šehadet.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+
+    {
+      name:"label-book3-lesson24-title",
+      ba:"Poznati ashabi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24-description",
+      ba:"Ukratko o ashabima Muhammeda ,a.s., kojima je obećan džennet",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24-quote",
+      ba:"\"A oni koji su se Allaha bojali, oni će na sigurnu mjestu biti.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24-quote-reference",
+      ba:"Kur'an, 44:51",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph1",
+      ba:"Svaki ashab bio je institucija za sebe. Svaki ashab bio je Ummet. Svi ashabi Poslanika, a.s., su posebni i prepoznatljivi po nečemu, ali se desetorica izdvajaju. Desetorica kojima je nagoviješten Džennet, koji se zovu \"Ašere-i mubeššere\", a to su:",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph2",
+      ba:"Ebu Bekr Es-Siddik, r.a., Poslanikov, a.s., saputnik Hidžre, njegov ashab u pećini Sevr, prvi halifa Hulefair-rašidina, ashab za kojeg je Muhammed, a.s., rekao: \"Kada bi se izvagao iman Ebu Bekra sa imanom svih stvorenja, prevagnuo bi iman Ebu Bekra.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph3",
+      ba:"Omer ibn el-Hattab, r.a., koji je prihvatio islam nakon Hamze ibn Abdu-l-Muttaliba, r.a., do tri dana. Prije njegovoga prelaska na islam Muhammed, a.s., je učio dovu: \"Allahu moj, pomozi islam sa jednim od dvojice koji je Tebi draži: Omerom ibn El-Hattabom ili Amrom ibn Hišamom (Ebu Džehlom)\" Allah, dž.š., je islam pomogao sa Omerom ibn el-Hattabom, velikanom islama, koji je nakon smrti Ebu Bekra es-Siddika izabran za halifu, a u njegovo vrijeme hilafeta je došlo do velikog proširenja islamske države.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph4",
+      ba:"Osman ibn Affan, r.a., blagi, darežljivi i stidljivi ashab \"zbog čijeg stida se stide meleki\". Osman je bio treći halifa Hulefair-rašidina.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph5",
+      ba:"Alija ibn Ebi Talib, r.a., četvrti halifa Hulefair-rašidina, neustrašivi ashab, muž h. Fatime i otac Hasana i Husejna, Poslanikovih unuka, ashab koji je kao dijete primio islam.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph6",
+      ba:"Seid ibn Zejd, r.a., koji je u vrijeme dok je bio namjesnik Damaska pisao pismo Ebu Ubejdi da umjesto njega za namjesnika postavi nekoga drugog, kako bi se on priključio mudžahidima, jer mu je borba na Allahovome putu bila draža od namjesnikovanja.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph7",
+      ba:"Sa'd ibn Ebi Vekkas, r.a., veliki i neustrašivi vojskovođa, oslobodilac perzijskih riznica i junak Kadisijje.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph8",
+      ba:"Abdurrahman ibn Avf, r.a., koji je bio prepoznatljiv po svojoj odvažnosti i darežljivosti do te mjere da ne bi htio leći dok ne bi podijelio sve što je imao, a Allah, dž.š., bi mu imetak stalno uvećavao. I često je plakao od straha pred Allahom zbog imetka koji je postizao i potom ga dijelio!",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph9",
+      ba:"Talha ibn Ubejdullah, r.a., koji je prednjačio u džihadu i dobročinstvu, za kojeg je Poslanik, a.s., nakon Uhuda rekao da je on \"šehid koji hoda po Zemlji.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph10",
+      ba:"Ebu Ubejde Amir ibn El-Džerrah, r.a., rječiti i povjerljivi ashab, koji je imao nadimak Emin ummeta.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph11",
+      ba:"Zubejr ibn El-Avvam, r.a., odvažni ashab koji je na Uhudu po naređenju Poslanika, a.s., ubio jednog od najhrabrijih mušrika, a u bici na Hunejnu mušrici su ispred njega bježali.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson24_section1-paragraph12",
+      ba:"Spomenuta desetorica ashaba, imenom i prezimenom, su desetorica koji su poznati kao Ašere mubeššere – desetorica koje je još za života Poslanik obavjestio da su stanovnici Dženneta. Ovdje svakako trebamo spomenuti unuke Hasana, r.a., i Husejna, r.a.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25-title",
+      ba:"Žene u islamu",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25-description",
+      ba:"Uloga žene u islamu i odlike koje krase muslimanske žene",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25-quote",
+      ba:"\"A roditeljima dobročinstvo činite.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25-quote-reference",
+      ba:"Kur'an, 4:36",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section1-paragraph1",
+      ba:"Islam nam govori da su istinski uspješni ljudi oni ljudi sa integritetom, koji su ispunili svrhu svog stvaranja, dorasli životnim izazovima koji su stavljeni pred njih, težeći da postignu zadovoljstvo svog Stvoritelja i vječni uspjeh za naredni život. Poslanik Muhammed, a.s., u jednom hadisu kaže:\"Najbolje žene od džennetskih žena su Hatidža bint Huvejlid, Fatima bint Muhammed, Merjem bint Imran i Asija bint Muzahim (žena faraona).\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section2-header",
+      ba:"Prihvatanje istine",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section2-paragraph1",
+      ba:"Četiri najbolje žene odmah su se i bez ikakvog oklijevanja pokorile istini, i naredbama Uzvišenog Allaha,dž.š. Obratite pažnju na to kako je Merjem prihvatila težak zadatak koji joj je Allah, dž.š., postavio. Prošla je kroz trudnoću i porođaj sama, bez podrške muškarca, a zatim predstavila svoje dijete ljudima koji bi je neizbiježno optužili da je bila nečasna. Hatidža, r.a., je prihvatila islam bez oklijevanja, i postala prva muslimanka. Kad se Poslanik, a.s., vratio sa brda Nur, gdje je primio prvu objavu od meleka Džibrila, a.s., ona je smjesta prihvatila njegovu poruku i vjerovala u njega, iako je i on sam bio potresen ovim događajem.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },{
+      name:"label-book3-lesson25_section3-header",
+      ba:"Veza sa Allahom dž.š.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section3-paragraph1",
+      ba:"Njihovo znanje o Allahu, dž.š., i Njegovim svojstvima ih je približilo Njemu. Kad se vratio iz pećine Hira u strahu da mu se nije nešto loše desilo, Hatidža je znala da ga Allah, dž.š., neće napustiti. Rekla je: „Allah te ne bi nikada ponizio, jer si dobar prema rodbini, govoriš istinu, udjeljuješ siromašnima, pomažeš slabima, lijepo primaš gosta, odazivaš se na poziv onih koji su u nevolji“. Znala je da je Allah, dž.š,. pravedan i da ne ponižava pravovjerne. Asija je znala, dok ju je faraon mučio kako bi je okrenuo od njene vjere, da Allah, dž.š., čuje njen plač i njene dove. Tražila je od Allaha, dž.š., kuću u Džennetu. Tokom teških muka koje je prolazila, Allah, dž.š., joj je pokazao kuću u Džennetu, na što se ona nasmiješila. Merjem je bila u tako bliskoj vezi sa svojim Gospodarem da ju je On opskrbljivao sa ljetnim voćem zimi, i zimskim voćem ljeti. Kad je poslanik Zekerijja, a.s., ovo vidio, pitao ju je odakle joj hrana, a ona je odgovorila: \"To je od Allaha!“ Allah, doista, opskrbljuje koga hoće, bez ikakva računa!\" (Ali-Imran, 37)",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section4-header",
+      ba:"Pokoravanje Allahu dž.š.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section4-paragraph1",
+      ba:"Allah dž.š. istinske vjernice opisuje kao pokorne, a Merjem je posebno opisao kao pokornu. Allah dž.š. kaže: \"O Merjema, budi pokorna svome Gospodaru, ničice padaj (pred Njim), i saginji se (sedždu i ruku čini) s onima koji se saginju (pred Njim)!\" Ovo se odnosi na dugo stajanje u namazu, a bilo je karakteristično za Merjem i Fatimu. Ovo također znači biti u pobožnoj poslušnosti i pokornosti Allahu dž.š.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section5-header",
+      ba:"Podržavanje vjernika",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section5-paragraph1",
+      ba:"Asija je spasila Musa a.s. kao bebu od faraona, odgojila ga i vjerovala u njega. Merjem je bila centralna ličnost za objavu Isaa a.s., i predstavila ga je ljudima kao znak od Allaha dž.š. Fatima je branila svog oca od idolopoklonika u Mekki, koji su bacali krv i iznutricu mrtve kamile na leđa njenog oca, dok je on klanjao. Ona je uklonila prljavštinu, i suprotstavila se ljudima koji su napali njenog oca, nakon čega ju je Ebu Džehl ošamario. Hatidža je uvijek bila uz Poslanika s.a.v.s., i trošila svoj imetak da bi pomogla širenje njegove poruke. Izdržala je težak period izbjeglištva, u kojem su muslimani i oni koji su ih podržavali, bili primorani stanovati u jednoj dolini, udaljenoj od stanovnika Mekke, gdje su bili bez hrane, i bez mogućnosti da trguju. Hatidža je pretrpjela ove teškoće, i stala je uz Poslanika a.s.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section6-header",
+      ba:"Hrabrost",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section6-paragraph1",
+      ba:"Fatima je često učestvovala u bitkama koje su muslimani vodili: Previjala je rane ranjenicima, i suprotstavila se Ebu Džehlu kada je napao Poslanika, a.s. Merjem je imala hrabrost da predstavi Isa, a.s., svom narodu, nakon teškog iskušenja. Znala je da će je optužiti da je bila nečasna, a ona se ipak hrabro pokorila Allahovoj, dž.š., naredbi. Hatidža je hrabro slijedila Poslanika a.s. u njegovoj misiji, iako je pretrpila razne teškoće zbog toga. Asija se hrabro suprotstavila faraonu koji je bio najveći tiranin tog vremena i odbila da bude nevjernica.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section7-header",
+      ba:"Istikama i sabur",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section7-paragraph1",
+      ba:"\"Istikama\" znači čvrsto stajati na putu istine, a \"sabur\" predstavlja ustrajavanje u strpljenju. Drugim riječima, one su uporno ustrajavale na istini, bez obzira šta se desilo. Asija je ostala čvrsta u Musaovoj vjeri iako je prošla kroz torture i patnje. Merjem je također ostala strpljiva kada se suočila sa optužbama ljudi i iskušenjima. Hatidža i Fatima su izdržale trogodišnji period izbjeglištva koje im je bilo nametnuto i strpljivo su podnijele progone od strane stanovnika Mekke, čvrste u vjeri.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },{
+      name:"label-book3-lesson25_section8-header",
+      ba:"Tevekkul",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section8-paragraph1",
+      ba:"Kada je bila progonjena zbog toga što je obožavala Allaha dž.š., ona se u velikoj mjeri oslonila na Allaha, dž.š.,, te je tako ostala čvrsta u vjeri i nije popustila pod jakim pritiskom. Fatima se suočila sa siromaštvom i fizičkim teškoćama nakon što se udala za Aliju r.a., do te mjere da su joj ruke postale grube i lice joj promijenilo boju zbog teških poslova koje je morala raditi. Uprkos tome svemu, nije joj bilo dozvoljeno da primi zekat niti da priušti sebi slugu. Umjesto sluge, Poslanik a.s. je naučio nju i Aliju, r.a., da kažu 33 puta subhanallah, 33 puta elhamdulillah i 34 puta allahuekber. Podsjetio ih je da im jedino Allah, dž.š., može olakšati i da se trebaju u potpunosti na Njega osloniti. Sve četiri žene su bile sposobne prevazići iskušenja sa kojim su se suočile, jer su se uzdale u to da će Allah, dž.š., olakšati njihovu borbu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section9-header",
+      ba:"Dunjalučki život",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson25_section9-paragraph1",
+      ba:"Poslanik, a.s., je jednom rekao Fatimi da ukloni zlatne narukvice koje je nosila, jer je htio da je nauči da se ne veže za dunjalučke stvari. Ona ih je odmah skinula i dala u dobrotvorne svrhe. Hatidža je svojim bogatstvom pomagala širenje Allahove, dž.š., riječi tokom„mekkanskog perioda“. Ona, kao jedna od najpoznatijih i najcjenjenijih žena plemena Kurejš, odrekla se svog društvenog položaja da bi bila uz Poslanika s.a.v.s. Asija je mogla imati luksuzan život jer je bila udata za najbogatijeg i najmoćnijeg čovjeka na svijetu. Ona se, ipak, odrekla dunjalučkih užitaka koje je mogla imati ako bi se pokorila faraonovim željama. Odabrala je ono što je u Allaha, dž.š.,, umjesto dunjaluka.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    }
  ]

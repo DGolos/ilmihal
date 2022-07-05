@@ -46,8 +46,8 @@ import { SliderSection } from "../../components";
         </IonHeader>
         <IonContent className="bg-image-standard" fullscreen>
         <LessonHeader title={translate(lesson?.title!)} quoteText={translate(lesson?.quoteText!)} quoteReference={translate(lesson?.quoteReference!)} color={lesson?.color} />
-          <div className="ion-padding">
-            <IonSlides>
+          <div>
+            <IonSlides options={{pagination:true}}>
               
             {sliderSectionItems}
               
