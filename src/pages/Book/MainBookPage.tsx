@@ -1,37 +1,40 @@
-import { IonPage, IonContent, IonCard, IonCardHeader, IonCardTitle, IonCardContent } from "@ionic/react";
+import { IonPage, IonContent, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonGrid, IonCol, IonRow } from "@ionic/react";
 import React from "react";
-import './MainBookPage.css';
+import { MenuItem } from "../../components";
+import { LessonHeader } from "../../components/LessonHeader";
+import useTranslation from "../../hooks/useTranslation";
+
 
 export const MainBookPage: React.FC = () => {
-  
+  const{translate}=useTranslation();
 
   return (
     <IonPage>
       <IonContent className="bg-image-standard">
-       
-      <IonCard className='bookCard' routerLink={`/tabs/BookOneMainPage`}>
-        <IonCardHeader>
+      <LessonHeader title={translate("label-book-main")} quoteText={translate("label-book3-lesson15-quote")} quoteReference={translate("label-book3-lesson15-quote-reference")} color="razimic" />
+      <IonGrid>
+            <IonRow>
+              <IonCol size="6">
+              <MenuItem 
+                    label="1"
+                    title={translate("label-book-part-one")} 
+                    description={translate("label-dhikr-dua-description")} 
+                    link="/tabs/BookOneMainPage"
+                    color="Razimic"/>
+                
+              </IonCol>
+              <IonCol size="6">
+              <MenuItem 
+                    label="2"
+                    title={translate("label-book-part-two")} 
+                    description={translate("label-dhikr-tasbih-description")} 
+                    link="/tabs/BookTwoMainPage"
+                    color="Razimic"/>
+                
+              </IonCol>
+            </IonRow>
             
-            <IonCardTitle>Card Title</IonCardTitle>
-          </IonCardHeader>
-          <IonCardContent>
-            Keep close to Nature's heart... and break clear away, once in awhile,
-            and climb a mountain or spend a week in the woods. Wash your spirit clean.
-      </IonCardContent>
-        </IonCard>
-
-        <IonCard className='bookCard' routerLink={`/tabs/BookTwoMainPage`}>
-        <IonCardHeader>
-            
-            <IonCardTitle>Card Title</IonCardTitle>
-          </IonCardHeader>
-          <IonCardContent>
-            Keep close to Nature's heart... and break clear away, once in awhile,
-            and climb a mountain or spend a week in the woods. Wash your spirit clean.
-      </IonCardContent>
-        </IonCard>
-
-        
+          </IonGrid>
         
       </IonContent>
     </IonPage>

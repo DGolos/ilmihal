@@ -73,8 +73,8 @@ export interface LanguageEntry{
       de:""
     },
     {
-      name:"label-book-two-one",
-      ba:"Prvi dio",
+      name:"label-book-part-two",
+      ba:"Drugi dio",
       no:"Del 1",
       en:"First part",
       it:"",
@@ -82,7 +82,7 @@ export interface LanguageEntry{
     },
     {
       name:"label-book-part-two-description",
-      ba:"Prvi dio",
+      ba:"Drugi dio",
       no:"Del 1",
       en:"First part",
       it:"",
