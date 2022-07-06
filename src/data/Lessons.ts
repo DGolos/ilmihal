@@ -2110,14 +2110,14 @@ export const lessons:Lesson[]=[
         },
         {
           type:"2",
-          header:"label-book3-lesson23_section3-header",
+          header:"label-book3-lesson25_section3-header",
           paragraphs: [
             "label-book3-lesson25_section3-paragraph1"           
           ]
         },
         {
           type:"2",
-          header:"label-book3-lesson23_section4-header",
+          header:"label-book3-lesson25_section4-header",
           paragraphs: [
             "label-book3-lesson25_section4-paragraph1"           
           ]
@@ -2155,6 +2155,210 @@ export const lessons:Lesson[]=[
           header:"label-book3-lesson25_section9-header",
           paragraphs: [
             "label-book3-lesson25_section9-paragraph1"           
+          ]
+        }
+        
+      ]
+    },
+    {
+      id: "26",
+      bookId: "3",
+      title: "label-book3-lesson26-title",
+      color: "purple",
+      audio: "",
+      quoteText: "label-book3-lesson26-quote",
+      quoteReference: "label-book3-lesson26-quote-reference",
+      sections: [
+         {
+          type:"2",
+          header:"label-book3-lesson26_section1-header",
+          paragraphs: [
+            "label-book3-lesson26_section1-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section2-header",
+          paragraphs: [
+            "label-book3-lesson26_section2-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section3-header",
+          paragraphs: [
+            "label-book3-lesson26_section3-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section4-header",
+          paragraphs: [
+            "label-book3-lesson26_section4-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section5-header",
+          paragraphs: [
+            "label-book3-lesson26_section5-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section6-header",
+          paragraphs: [
+            "label-book3-lesson26_section6-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section7-header",
+          paragraphs: [
+            "label-book3-lesson26_section7-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section8-header",
+          paragraphs: [
+            "label-book3-lesson26_section8-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section9-header",
+          paragraphs: [
+            "label-book3-lesson26_section9-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section10-header",
+          paragraphs: [
+            "label-book3-lesson26_section10-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section11-header",
+          paragraphs: [
+            "label-book3-lesson26_section11-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section12-header",
+          paragraphs: [
+            "label-book3-lesson26_section12-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section13-header",
+          paragraphs: [
+            "label-book3-lesson26_section13-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section14-header",
+          paragraphs: [
+            "label-book3-lesson26_section14-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson26_section15-header",
+          paragraphs: [
+            "label-book3-lesson26_section15-paragraph1"           
+          ]
+        }
+        
+      ]
+    },
+    {
+      id: "27",
+      bookId: "3",
+      title: "label-book3-lesson27-title",
+      color: "purple",
+      audio: "",
+      quoteText: "label-book3-lesson27-quote",
+      quoteReference: "label-book3-lesson27-quote-reference",
+      sections: [
+         {
+          type:"2",
+          header:"label-book3-lesson27_section1-header",
+          paragraphs: [
+            "label-book3-lesson27_section1-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson27_section2-header",
+          paragraphs: [
+            "label-book3-lesson27_section2-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson27_section3-header",
+          paragraphs: [
+            "label-book3-lesson27_section3-paragraph1"           
+          ]
+        }
+        
+      ]
+    },
+    {
+      id: "28",
+      bookId: "3",
+      title: "label-book3-lesson28-title",
+      color: "razimic",
+      audio: "",
+      quoteText: "label-book3-lesson28-quote",
+      quoteReference: "label-book3-lesson28-quote-reference",
+      sections: [
+         {
+          type:"2",
+          header:"label-book3-lesson28_section1-header",
+          paragraphs: [
+            "label-book3-lesson28_section1-paragraph1",
+            "label-book3-lesson28_section1-paragraph2"                  
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson28_section2-header",
+          paragraphs: [
+            "label-book3-lesson28_section2-paragraph1"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson28_section3-header",
+          paragraphs: [
+            "label-book3-lesson28_section3-paragraph1",
+            "label-book3-lesson28_section3-paragraph2"           
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson28_section4-header",
+          paragraphs: [
+            "label-book3-lesson28_section4-paragraph1",
+            "label-book3-lesson28_section4-paragraph2",
+            "label-book3-lesson28_section4-paragraph3",
+            "label-book3-lesson28_section4-paragraph4",
+            "label-book3-lesson28_section4-paragraph5"          
+          ]
+        },
+        {
+          type:"2",
+          header:"label-book3-lesson28_section5-header",
+          paragraphs: [
+            "label-book3-lesson28_section5-paragraph1",
+            "label-book3-lesson28_section5-paragraph2"           
           ]
         }
         

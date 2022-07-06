@@ -286,19 +286,19 @@ export const MainCategoryPage: React.FC = () => {
             <IonRow>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-homeland-scholars")} 
+                    title={translate("label-book3-lesson26-title")} 
                     description={translate("label-homeland-scholars-description")} 
                     icon="/assets/images/IslamHistory.png" 
-                    link="/tabs/BosnianScholarsPage"
+                    link="/tabs/SliderLessonPage/3/26"
                     color="Burgundy"/>
                 
               </IonCol>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-homeland-country")} 
+                    title={translate("label-book3-lesson27-title")} 
                     description={translate("label-homeland-country-description")} 
                     icon="/assets/images/BosnianHistory.png" 
-                    link="/tabs/BosniaPage"
+                    link="/tabs/SliderLessonPage/3/27"
                     color="Burgundy"/>
                 
               </IonCol>
@@ -306,10 +306,10 @@ export const MainCategoryPage: React.FC = () => {
             <IonRow>
               <IonCol size="6">
               <MenuItem 
-                    title={translate("label-homeland-culture")} 
+                    title={translate("label-book3-lesson28-title")} 
                     description={translate("label-homeland-culture-description")} 
                     icon="/assets/images/BosnianPeople.png" 
-                    link="/tabs/BosnianCulturePage"
+                    link="/tabs/SliderLessonPage/3/28"
                     color="Burgundy"/>
                 
               </IonCol>

@@ -8500,5 +8500,525 @@ export interface LanguageEntry{
       en:"Prayer",
       it:"",
       de:""
+    },
+    {
+      name:"label-book3-lesson26-title",
+      ba:"Bošnjački alimi",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26-description",
+      ba:"Uloga žene u islamu i odlike koje krase muslimanske žene",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26-quote",
+      ba:"\"A onaj kome je data mudrost, doista, mu je dato veliko dobro!\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26-quote-reference",
+      ba:"Kur'an, 2:269",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section1-paragraph1",
+      ba:"Učenjaci su oni koji poznaju propise islama, razumijevaju vjeru Islam, dobro su upućeni u nju, postupaju po znanju koje su stekli, jasno i na ispravan način. To su oni kojima je Uzvišeni Allah podario mudrost – hikmet.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section2-header",
+      ba:"Salih Safvet ef. Bašić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section2-paragraph1",
+      ba:"Salih Safvet ef. Bašić, naib i vršilac dužnosti reisu-l-uleme, rođen je u Duvnu 1886. godine. Pripadao je uglednoj trgovačkoj porodici Bašić iz Duvna. U rodnom mjestu je završio mekteb, a nakon toga medresu i Filozofski fakultet u Istanbulu. Po završetku školovanja radio je jedno vrijeme kao profesor u srednjim školama u Turskoj, ali se 1910. godine ipak vraća u rodni kraj. Živio je u Duvnu i bavio se trgovinom. Od 1915. godine bio je biran u hodžinsku izbornu kuriju. Bio je član obje islamske prosvjetne ankete koje su vodili reis Šarac (1910/1911) i reis Čaušević (1921). Na čelu Islamske zajednice ostao je do izbora novog reisa Ibrahim ef. Fejića i donošenja novog Ustava, sada, doduše, krojenog pod budnom pratnjom novih, komunističkih vlasti. Nakon toga, 1947. godine, povlači se u rodno Duvno gdje je i umro godinu dana kasnije.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section3-header",
+      ba:"Džemaluddin ef. Čaušević",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section3-paragraph1",
+      ba:"Hadži Mehmed Džemaluddin ef. Čaušević, reisu-l-ulema, rođen je u Arapuši kod Bosanske Krupe 28. 12. 1870 (1871) godine. Početne nauke Džemaluddin je učio pred ocem Ali ef., a kasnije odlazi u Bihać u medresu. Poslije toga, 1887. kao sedamnaestogodišnjak odlazi u Istanbul gdje studira islamske nauke punih 17 godina. Džemaluddin ef. Čaušević je obavljao časnu dužnost reisu-l-uleme do aprila 1930. godine kada je, opet iz principijelnih razloga, zatražio odlazak u penziju. Posljednjih osam godina živi povučeno, Umro je 28. marta 1938. godine, u Državnoj bolnici, i ukopan kraj Begove džamije u Sarajevu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section4-header",
+      ba:"Abdurrahman ef. Čokić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section4-paragraph1",
+      ba:"Abdurrahman Adil ef. Čokić, muderris, rođen je u Brčkom 1888. godine Abdurrahman Adil pohađa osnovnu školu i Behram-begovu medresu, a onda se upisuje u Šerijatsku sudačku školu u Sarajevu 1908. godine. Ne znamo iz kojih razloga napušta ovu školu i nastavlja nauke u Istanbulu. Tu je 1914. godine svršio teološki fakultet nakon čega ide na specijalizaciju određenih islamskih disciplina i polaže strogi ispit ru’usi-humajun, a onda pohađa Mutehassisin, studij Kur’ana i hadisa. Čokić je objavio vrijedne radove o islamskim velikanima: Dželaluddinu Rumiju, Šejhu Abdul- Azizu Džavišu, Imamu Al-Gazzaliju, Šekibu Arslanu, Al-Kindiju, Ibn Sinau, Sejjidu Muhammedu Senusiju, Muhjuddinu ‘Arebiju. Radovi o Al-Gazzaliju i Ibn ‘Arebiju štampani su i zasebno. Abdurrahman Adil ef. Čokić preselio je na Ahiret u Tuzli 10. oktobra 1954. godine i ukopan u haremu Ilinčica.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section5-header",
+      ba:"Abdulah ef. Bušatilić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section5-paragraph1",
+      ba:"Hafiz Abdulah Ajni ef Bušatilić - Rođen je u Vlasenici 1871. godine. U rodnom mjestu završio je mekteb, a poslije završava Gazi Husrev-begovu Kuršumliju medresu. Radio je kao sudijski pripravnik u Mostaru i Brčkom. Nakon položenog sudijskog ispita bio je šerijatski sudac u Sanskom Mostu, Foči i Sarajevu, a za vrhovnog šerijatskog suca pri Vrhovnom šerijatskom sudu u Sarajevu, imenovan je 1929. godine, na kojem je radio sve do penzioniranja, 1936. godine. Umro je u Sarajevu, 2. novembra 1946. godine.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section6-header",
+      ba:"Mehmed ef. Handžić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section6-paragraph1",
+      ba:"Hadži Mehmed ef. Handžić, jedan od najvećih alima iz naše prošlosti, rođen je u Sarajevu 16. decembra 1906. godine. Prije Šerijatske gimnazije koju je završio 1926. godine, završio je mekteb i ruždiju. Nakon Šerijatske škole odlazi u Kairo i upisuje se na Džami’ul-Azhar, najstariji i najcjenjeniji univerzitet u islamskom svijetu. Iza njega je ostalo preko 300 radova: knjiga, rasprava, tekstova, osvrta, prijevoda. Mehmed ef. Handžić nije samo pisao i predavao, on je bio angažirani intelektualac – musliman u pravom smislu te riječi. Godine 1933. biran je za člana Upravnog odbora Merhameta, a kada je tri godine kasnije osnovana organizacija ilmijje El-Hidaje biran je u njen Radni odbor, a još tri godine kasnije na skupštini El-Hidaje izabran je za njenog predsjednika. Na inicijativu samog Mehmed ef. sročena je i potpisana od brojnih alima i muslimana-intelektualaca čuvena Sarajevska rezolucija 1941. godine kojom se osuđuju zlodjela fašista i ostalih falangi koje čine zločine nad Srbima, Židovima i drugima. Mehmed ef. Handžić te godine, 29. jula umire u Koševskoj bolnici nakon rutinske operacije slijepog crijeva. Tada je imao samo 38 godina.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section7-header",
+      ba:"Mustafa ef. Busuladžić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section7-paragraph1",
+      ba:"Mustafa ef. Busuladžić rođen je u Trebinju 1. aprila 1914. godine, u Gorici na istočnoj periferiji grada. Nakon završenog mekteba i osnovne škole Busuladžić započinje nauke u Elči Ibrahim- pašinoj (Fejziji) medresi u Travniku, a nakon tri godine prebacuje se u Gazi Husrev-begovu medresu u Sarajevu koju završava 1936. godine. Odmah je produžio studije na tek osnovanoj Višoj islamskoj šerijatsko-teološkoj školi na kojoj je diplomirao 1940. godine. U jesen iste godine odlazi na postdiplomske studije orijentalistike u Italiju. Pored orijentalnih jezika dobro je poznavao njemački, francuski i italijanski jezik. Njegovi su vazovi i predavanja bili čuveni. Prvenstveno zbog svog pisanja, ali i držanja tokom Drugog svjetskog rata, odmah po okončanju rata uhapšen je od strane komunsta, osuđen na smrt i strijeljan 29. juna 1945. godine, u 32. godini života. Ni do danas nije poznato na kom lokalitetu je strijeljan niti gdje mu se kosti nalaze. Mustafa ef. Busuladžić spada u naše najbolje i najproduktivnije tekstopisce četrdesetih godina 20. stoljeća.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section8-header",
+      ba:"Kasim ef. Dobrača",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section8-paragraph1",
+      ba:"Kasim ef. Dobrača rođen je u Vragolovima kod Rogatice 15. aprila 1910. godine. Nakon završenog mekteba i osnovne škole završio je četiri razreda Gazi Husrev-begove medrese, a zatim pohađao i 1928. godine završio Šerijatsku sudačku školu u Sarajevu. Zatim odlazi na studije islamskih nauka na Al-Azhar u Kairo i završava ih 1935. godine. Nakon Drugog svjetskog rata komunisti ga proganjaju i osuđuju na dugogodišnju robiju koju je većinom i odležao. Od polovine 1956. godine Dobrača biva raspoređen u Gazi Husrev-begovu biblioteku gdje preuzima težak i zahtjevan posao obrade orijentalnih rukopisa. Tu ostaje do odlaska u penziju krajem ljeta 1979. godine. Penziju je uživao samo tri mjeseca jer je već 3. novembra iste godine preselio na Ahiret.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section9-header",
+      ba:"Kasim ef. Hadžić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section9-paragraph1",
+      ba:"Hadži Kasim ef. Hadžić rođen je u Zaostru kod Priboja 19. decembra 1917. godine. Nakon mekteba i osnovne škole Kasim ef. je završio Veliku medresu Kralja Aleksandra u Skoplju 1937. godine. Iste godine upisuje Višu islamsku šeriatsko-teološku školu u Sarajevu na kojoj diplomira 1941. godine. Za šerijatskog sudiju u Zagrebu imenovan je 1945. godine. Na tom poslu ostao je tek dva mjeseca a po završetku rata i ukidanju šerijatskih sudova Kasim ef. je zatvoren, ali je nakon dva mjeseca ispitivanja od strane Suda časti pušten kući. Ne nalazeći posla započeo je studij na Pravnom fakultetu u Zagrebu. Ponovo je uhapšen 23. augusta 1946. godine i sproveden u Sarajevo. Aprila 1947. godine je osuđen je na dvanaest godina zatvora. Kao glavne inkriminacije protiv njega u sudskom postupku bile su optužbe što je zagovarao pripajanje Sandžaka Bosni, što je bio gradonačelnik Priboja i što je bio glavni i odgovorni urednik proustaškog “Osvita”. Kasim ef. Hadžić preselio je na Ahiret, nakon kraće i teške bolesti, 21. novembra 1990. godine.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section10-header",
+      ba:"Muhammed ef. Pandža",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section10-paragraph1",
+      ba:"Hafiz Muhammed ef. Pandža, rođen je u Sarajevu 20. februara 1897. godine. Nakon mekteba i ruždije završava medresu, a onda i Šerijatsku sudačku školu 1920. godine. Nedugo zatim postavljen je za muderrisa Misrijine (Atmejdan) medrese u Sarajevu. Prema Nametku, Pandža je učio i u Istanbulu. Godine 1924. hafiz Muhammed ef. primljen je u službu Ministarstva finansija u Sarajevu i na tom poslu je ostao oko četiri godine. Početkom jeseni 1943. godine hafiz Pandža u okolini Sarajeva organizira muslimansku miliciju i predvodi je u odbrani od nasrtaja četnika iz Srbije i Bosne i Hercegovine. Ono po čemu će hafiz Muhammed ef. Pandža ostati trajno upamćen jeste njegov Prijevod Kur’ana, iako je iz štampe izašao u koautorstvu sa reisom Džemaluddinom Čauševićem pod nazivom Kur’an Časni – Prijevod i tumač. Hafiz Muhammed ef. Pandža preselio je na Ahiret oko podneva 18. novembra 1962. godine.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section11-header",
+      ba:"Fejzullah ef. Hadžibajrić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section11-paragraph1",
+      ba:"Šejh hadži Fejzullah ef. Hadžibajrić rođen je u Sarajevu 12. januara 1912. godine. Fejzullah ef. je, nakon mekteba i osnovne škole, pohađao Gazi Husrev-begovu medresu koju je i završio 1933. godine. 1935. godine upisuje VIŠT, ali studij napušta iz porodičnih razloga. Godine 1955. diplomira na odsjeku za orijentalne znanosti pri Filozofskom fakultetu u Sarajevu. Fejzullah ef. Hadžibajrić je bio šejh kaderijskog reda. Preveo je dva sveska prijevoda i tumača Mesnevije objavljena su još za njegova života. Priredio Mali tesavvufsko-tarikatski rječnik. Treba pomenuti i njegov Ilmihal za polaznike vjeronauke koji je, od njegovog prvog pojavljivanja 1963. godine do danas, doživio više od deset izdanja. Šejh Fejzullah ef. Hadžibajrić preselio je na Ahiret 21. aprila 1990. godine u Sarajevu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section12-header",
+      ba:"Husejn ef. Đozo",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section12-paragraph1",
+      ba:"Hadži Husejn ef. Đozo, alim, teolog, fakultetski profesor, pisac, rođen je 5. maja 1912. godine u Barama (Ilovača) kod Goražda. Nakon završenog mekteba, od 1923. godine pohađa medresu Mehmed-paše Kukavice u Foči. U Merhemića medresu u Sarajevu prelazi 1925. godine, a istovremeno uči i u sarajevskoj Atmejdan medresi. Nakon toga upisao se 1928. godine u Šerijatsku sudačku školu koju je završio 1933. godine. Diplomirao je na Šerijatsko-pravnom fakultetu na Al-Azharu u Kairu 1939. godine. U Udruženju ilmijje od 1964. godine stoji na čelu udruženja, a 1970. godine pokreće islamski list Preporod. U nekoliko navrata bio je urednik Takvima, godišnjaka Udruženja ilmijje, i jedan od najvažnijih njegovih saradnika. Hadži Husejn ef. Đozo je preselio na Ahiret 30. maja 1982. godine, a ukopan je u mezarju Bare u Sarajevu. Husejn ef. Đozo spada u red najproduktivnijih naših pisaca iz oblasti islama i islamske kulture.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section13-header",
+      ba:"Hasan ef. Škapur",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section13-paragraph1",
+      ba:"Hasan ef. Škapur rođen je u Tešnju 9. septembra 1913. godine. Nakon završenog mekteba i osnovne škole 1927. godine u Tešnju, pohađa GHB medresu u Sarajevu koju završava 1935. godine. Odmah po okončanju medrese stupio je u sužbu Islamske zajednice. Rješenjem ministra prosvjete od 16. oktobra 1940. godine Hasan ef. je postavljen za suplenta Državne realne gimnazije u Bihaću za predmete historija, srpsko-hrvatski i ruski jezik. Uz rad u gimnaziji on ujedno iste godine predaje arapski jezik i povijest islama u Okružnoj medresi u Bihaću. Tu ostaje dvije godine, a 1942. godine prelazi u Banju Luku gdje predaje u tamošnjoj gimnaziji i Okružnoj medresi. Osim toga, on je stalni vaiz u Ferhadiji džamiji i član Vakufskog povjerenstva. U Prijedor prelazi 1947. godine i tu ostaje do smrti. Najznačajniji rad Hasan ef. Škapura jeste onaj na prevođenju kapitalnog Buharijevog Sahiha. Škapur je svoj prijevod Sahiha opremio iscrpnim komentarom i objašnjenjima. Na Ahiret je preselio 25. maja 1975. godine u Prijedoru gdje je i ukopan.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section14-header",
+      ba:"Ibrahim ef. Trebinjac",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section14-paragraph1",
+      ba:"Hadži hafiz Ibrahim ef. Trebinjac, profesor Fakulteta islamskih nauka, rođen je u Sarajevu 17. oktobra 1912. godine. Nakon mekteba i osnovne škole pohađao je i 1933. godine završio GHB medresu. Tokom školovanja u medresi uporedo je izuučio hifz. Krajem novembra 1934. Godine otišao na studij islamskih nauka na Al-Azhar u Kairu. Ubrzo se morao vratiti kući iz porodičnih razloga. Tu se u jesen iduće godine upisuje na tek osnovanu VIŠT školu među prvim studentima. Diplomirao je u prvoj generaciji 1939. godine. Bio je proganjan i zatvaran od strane komunista. Zbog toga je jedno vrijeme radio van Islamske zajednice. Od 1948. do jeseni 1965. godine radio je u privredi, a od 1965. godine do odlaska u penziju 1977. godine kao muderris Gazi Husrev-begove medrese. Predavao je arapski jezik, kiraet, hadis i tefsir. U dva navrata 1972. i 1975/76. godina obavljao je dužnost v. d. direktora. Od osnivanja Islamskog teološkog fakulteta 1975. godine do smrti 1982. godine hafiz Trebinjac predaje kiraet i hadis. Imamsku i hatibsku dužnost, uz manje prekide, obavljao je nepunih 50 godina. Hadži hafiz Ibrahim ef. Trebinjac preselio je na Ahiret 16. oktobra 1982. godine, a ukopan je u mezarju Bare u Sarajevu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section15-header",
+      ba:"Mahmud ef. Traljić",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson26_section15-paragraph1",
+      ba:"Hafiz Mahmud ef. Traljić rođen je u Sarajevu 28. aprila 1918. godine. Traljići su se doselili iz Dalmacije u drugoj polovini 17. stoljeća. Poslije mekteba i osnovne škole hafiz Mahmud je pohađao i 1940. godine završio Gazi Husrev-begovu medresu u Sarajevu. Uporedo je učio hifz pred hafizom Mustafa ef. Mujezinovićem i okončao ga 1935. godine. Zatim je pohađao VIŠT školu na kojoj je diplomirao 1944. godine. Poznavao je arapski i turski jezik, a služio se perzijskim i njemačkim. Iako je bio potpisnik El-Hidajine Sarajevske rezolucije iz 1941. godine, kojom se osuđuju zločini nad nemuslimanima, uhapšen je 1947. godine i osuđen na 10 godina robije u montiranom procesu “Mladim muslimanima”. Odležao je 9 godina i 8 mjeseci i na slobodu izašao 1957. godine. Kao muhaffiz izveo je 14 novih hafiza, a do smrti je bio član i predsjednik Komisije za promoviranje novih hafiza. Kao predsjednik te komisije prethodno je preslušao oko 80 hafiza! Hafiz Mahmud ef. Traljić spada među naše najznačajnije tekstopisce koji su pisali o kulturnoj baštini Bošnjaka i našim zaslužnim pojedincima. Na Ahiret je preselio, nakon dvije godine pobolijevanja, u subotu 28. decembra 2002. godine.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27-title",
+      ba:"Domovina",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27-description",
+      ba:"Uloga žene u islamu i odlike koje krase muslimanske žene",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27-quote",
+      ba:"\"Mi s neba spuštamo vodu kao blagoslov.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27-quote-reference",
+      ba:"Kur'an, 50:9",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27_section1-header",
+      ba:"Uvod",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27_section1-paragraph1",
+      ba:"Država je jedan prostor u kojem su sabrani na jedno mjesto svi ljudi koji pripadaju toj i toj državi. Naša država zove se Bosna i Hercegovina. Neko državu zove domovinom, neko ne. Domovinom državu zovu oni koji vole prostor u kojem žive sa svojom porodicom, komšijama, prijateljima, drugarima i još drugim poznatim i nepoznatim državljanima. Razlika između države i domovine je to što državu moramo slušati jer ona određuje zakone, a domovinu volimo jer nam je draga i drago nam je da živimo baš tu, u toj državi, pa je od milja zoveš domovinom. Ima mnogo djece iz Bosne i Hercegovine kojima je ova država domovina, ali još ne mogu da žive u njoj, pa žive u drugim, tuđim državama. Bosna i Hercegovina sanja da joj se vrate oni koji je vole i da se samo za njih pretvori u domovinu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27_section2-header",
+      ba:"Dužnosti",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27_section2-paragraph1",
+      ba:"Na prvom mjestu je ljubav prema domovini. Ona je urođena ljudska osobina. Svaki čovjek je emotivno vezan za svoju domovinu, a posebno za mjesto svoga rođenja. Naša obaveza je da domovinu, da kao narod i pojedinci, sačuvamo i da se brinemo o njoj. Bez obzira, gdje otišli i živjeli, naša želja i ljubav prema domovini neće nikada prestati. Da poštujemo pravdu i ponašamo se prema njenim zakonima. Da razvijajmo i čuvamo svijest o Božijim blagodatima koje nam je podario u našoj domovini kao što su: čista voda, šume, polja, rijeke i planine. Zadaća svakog pojedinca je podržavati sve što je dobro i koristi ljudima, a zlu se suprotstavljati bez obzira na posljedice. Mi bolje nemamo i u njoj se najbolje osjećamo. Taj osjećaj u potpunosti shvatimo kada ne živimo u njoj. Zato volimo svoju Bosnu i Hercegovinu svim srcem i dušom.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27_section3-header",
+      ba:"Bosna i Hercegovina",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson27_section3-paragraph1",
+      ba:"Bosna i Hercegovina je zemlja u obliku srca koja leži u srcu jugoistočne Evrope. Ovdje se istočne i zapadne civilizacije oduvijek susreću, ponekad i sukobljavaju, gradeći dugu i fascinantnu historiju. Bosna i Hercegovina je dugačko ime za zemlju, koja je relativno mala. Sjeverni i centralni dio zemlje zove se Bosna, a južni dio se u prošlosti zvao Hum, da bi u 19. stoljeću bio nazvan Hercegovina. Bosna i Hercegovina je u geografskom i kulturološkom pogledu zapanjujuće lijepa zemlja s nepreglednim nizom prirodnih pejzaža, kultura i tradicija. U Bosni i Hercegovini se govori bosanskim, srpskim i hrvatskim jezikom. U svojoj impozantnoj historiji Bosna i Hercegovina je bila Kraljevina. Njen glavni grad se zove Sarajevo. BiH je zemlja koja danas nudi bogatstvo resursa i prirodnih ljepota, atraktivne lokacije. Najveće bogatstvo Bosne i Hercegovine su bogate šume, te kristalno čiste planinske rijeke. Posljednjih godina je na rijekama Uni, Vrbasu, Drini i Neretvi nastala ekspanzija raftinga. Spomenute i druge bh. rijeke imaju osim turističkog i velik hidro-energetski potencijal. U BiH postoje i velika nalazišta kamene soli, gipsa, željeza, boksita, itd. Razvijeni su planinski, vjerski, ljetni, seoski i zdravstveni turizam. Termalni izvori smješteni su u Tešnju, Ilidži, Kiseljaku, Laktašima, Višegradu i drugim mjestima. U Bosni i Hercegovini se desilo 11 genocida nad Bošnjacima a posljednji se desio u periodu 1992-1995 prilikom agresije na Bosnu i Hercegovinu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28-title",
+      ba:"Kultura Bošnjaka",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28-description",
+      ba:"Uloga žene u islamu i odlike koje krase muslimanske žene",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28-quote",
+      ba:"\"A ti strpljivo čekaj presudu Gospodara svoga.\"",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28-quote-reference",
+      ba:"Kur'an, 52:48",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section1-header",
+      ba:"Kultura",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section1-paragraph1",
+      ba:"Kultura je cjelokupno društveno naslijeđe neke grupe ljudi, to jest naučeni obrasci mišljenja, osjećanja i djelovanja neke grupe, zajednice ili društva, kao i izrazi tih obrazaca u materijalnim objektima.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section1-paragraph2",
+      ba:"Bošnjačka kultura svoj korijen ponajviše ima u islamu kao riznici dobra i svevremenog, zatim u bogatoj prošlosti, historiji i raznovrsnim kulturama koje su se na ovim prostorima vijekovima smjenjivali. Bošnjaci su modele ponašanja prepisivali i oponašali i od drugih naroda, nikad ne odustajući i ne odmičući se pretjerano od sebe i svojih uzusa. Zanimljivo je da su Bošnjaci unatoč raznim agresijama i pritiscima koje su ih kroz vrijeme lomili, ipak uspijeli zadržati nešto autentično i svoje, samo sebi svojstveno i prepoznatljivo u cijelom svijetu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section2-header",
+      ba:"Tradicija",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section2-paragraph1",
+      ba:"Tradicija je prije svega usmena predaja znanja, vještina, načina ponašanja i običaja unutar jedne kulture ili skupine ljudi. Tradicija je kulturno nasljeđe koje se prenosi s generacije na generaciju. Tu spadaju i naučeno znanje, i umjetnički zanati kao i rituali, moralna pravila i hranidbeni običaji.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section3-header",
+      ba:"Jezik",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section3-paragraph1",
+      ba:"Bosanski jezik je južnoslavenski jezik zasnovan na štokavskom narječju. \"Bosanski jezik je ono što nas određuje, što svjedoči o nama, što govori o našem historijskom kontinuitetu na ovim prostorima (Bosni i Hercegovini) i što govori o tome da smo mi vezani za ovaj prostor i da mimo ovoga prostora, bez obzira na sve nevolje koje su nas raspršile po svijetu nemamo šta tražiti u savremenom svijetu bez svoje bosansko-hercegovačke matice, što potvrđuje svaka iole ozbiljnija nauka, ne samo filologija nego i svaka druga to zna i tvrdi, ali je problem u tome što naše glave najbolje ne shvataju tu toliko puta provjerenu lekciju.\" (dr. Jahić Dževad)",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section3-paragraph2",
+      ba:"Bosanski pjesnik Muhamed Hevai Uskufi je sastavljač tursko-bosanskog rječnika. To je prvi rječnik nekog od južnoslavenskih jezika, kojeg on tada naziva bosanskim (bosnevi). U Uvodu za svoj rječnik autor je napisao: \"Mnogo je lijepih rječnika napisano, sve kao dragi kamen pribranih i omiljenih, ali nema napisana na bosanskom jeziku.\" Rječnik je objavio 1631. godine.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section4-header",
+      ba:"Običaji",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section4-paragraph1",
+      ba:"Bujrum je riječ koja znači toliko mnogo u kulturi ponašanja u Bosni. Ta riječ je vrlo važna kada su u pitanju međuljudski odnosi, ovom se riječi poziva u goste, poziva na druženje, daje dozvola za korištenje nečega, za posluživanje. To je riječ kojom vas domaćin dočekuje na vratima i izražava dobrodošlicu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section4-paragraph2",
+      ba:"Unatoč brzini i srkletu koji je model ponašanja i života većine ljudi u današnjem vremenu, Bošnjaci se sve škrtije i rjeđe odmiču od ovog tradicionalnog naslijeđa. Ćeif je način i percepcije svijeta i života, to je vrlo smjela sposobnost čovjeka da u svakom trenutku uživa i nađe vremena za odmor i odušak. Da ćeifi i uživa makar nakratko, makar u šoljici kafe i par dimova cigarete. Ćeif je užitak, ritual iz života svakog pojedinca koji je dio njegovog životnog hedonizma. Merak je onda svojevrstan pandan ćeifu, njegova nadogradnja, potpuna predanost u užitku, u ćeifu.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section4-paragraph3",
+      ba:"Jemin je vrsta datog obećanja, povjerenja ili zakletve. Dati jemin znači čvrsto obećati, zakleti se i nipošto ne iznevjeriti dato obećanje.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section4-paragraph4",
+      ba:"Teferič je u novo doba reikarnirao u party, tulum, žurku, zabavu i razne druge vrste kolektivnih i personalnih vidova zabave. Međutim, tradicionalni teferič podrazumijevao je okupljanje s povodom i razlogom, obično se zbog nekog praznika uvijek isto doba u godini organizovao. Značio je odlazak u prirodu, posebnu, svečaniju trpezu, muziku, pjesmu i kolo. Sve je vrlo često bilo praćeno nekom vrstom sporta i nadmetanja u igrama.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section4-paragraph5",
+      ba:"Svečana prilika kada se pozivaju gosti na ručak ili večeru obično se zove zijafet. Pozivu, tj. zijafetu uvijek je potreban odgovarajući povod pa je to najčešće neka vesela i svečana prigoda, bilo da se radi o svadbi, proslavi zaruka, rođenju dijeteta, iftar, bajramski ručak i slično.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section5-header",
+      ba:"Književnost",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section5-paragraph1",
+      ba:"Bošnjačka književnost predstavlja književnost Bošnjaka pisanu uglavnom na bosanskom jeziku. Najstariji sačuvani pisani oblik dokumenta na bosanskom jeziku potiče s kraja 10. ili početka 11. stoljeća je Humačka ploča iz Humca. Poslije prve faze koja se završava poveljom Kulina bana Dubrovčanima 1189. godine razvijaju se novi oblici pismenog izražavanja, kao povelje, testamenti, darovnice, pisma, zapisi na marginama knjiga i tekstovi uklesani na nadgrobnim biljezima - epitafi.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-book3-lesson28_section5-paragraph2",
+      ba:"Najistaknutiji bosanskohercegovački književnici su: Enver Čolaković – Legenda o Ali paši, Mehmedalija Mak Dizdar – Modra rijeka (poema), Irfan Horozović - Berlinski nepoznati prolaznik, Meša Selimović – Tvrđava, Nedžad Ibrišimović – Vječnik, Alija Isaković – Hasanaginica (drama), Safvet-beg Bašagić – Mevlud, Mula Mustafa Bašeskija – Ljetopis, Nura Bazdulj-Hubijar – Begovica, Hasan Kaimija – Divan, Nasiha Kapidžić-Hadžić - Maskenbal u šumi, Abdurezak Hivzi Bjelevac- Pod drugim suncem, Dževad Karahasan - Istočni diwan, Edhem Mulabdić – Zeleno Busnje, Besim Korkut - Prijevod Kur'ana na bosanski jezik.",
+      no:"Bønn",
+      en:"Prayer",
+      it:"",
+      de:""
     }
  ]
