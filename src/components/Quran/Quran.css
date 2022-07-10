@@ -1,0 +1,129 @@
+.chapterHeader{
+    box-shadow: none;
+    border-radius: 20px;
+    margin-left:0px;
+    margin-right:0px;
+    position:relative;
+    
+  }
+
+  .chapterHeaderArabicTitle{
+    font-family:"SurahNames";
+    font-size:48px;
+    
+}
+
+.chapterHeaderTitle{
+    font-weight: 500;
+    font-size: 36px;
+    color:#FFFFFF;
+    
+  }
+
+  .chapterDescriptionTitle{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:14px;
+    font-weight:600;
+  }
+
+  .chapterDescriptionText{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:14px;
+    font-weight:500;
+  }
+
+  .cardHolder{
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+    box-shadow: none;
+}
+
+
+  .overlay{
+    width:100%;
+    height:150;
+    position:absolute;
+    z-index: 99;
+    bottom:0px;
+    opacity: 0.5;
+    --background: rgba(0,0,0,0.5)!important;
+    color:#FFF;
+    
+  }
+
+  .mask{
+    mask-image: linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0));
+    
+  }
+
+
+.quranChapterListItem{
+    --background: #FFFFFF;
+    --border-radius: 14px;
+}
+
+.chapterLabel{
+    font-weight: 500;
+    font-size: 24px;
+    color:#FFFFFF;
+}
+
+.chapterTitle{
+    color:#000000;
+    font-weight: 600;
+    font-size:24px;
+}
+
+.chapterNumberOfVerses{
+    color:#000000;
+    font-weight: 500;
+    font-size:16px;
+}
+
+.chapterArabic{
+    font-weight: 500;
+    font-size:36px;
+    color:black;
+  }
+
+  .chapterAvatar{
+    --border-radius: 30%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 14px 0;
+    
+  }
+
+  .partTitle{
+    font-weight: 600;
+    font-size:20px;
+    color:black;
+  }
+
+.burgundy{
+    background-color: var(--ion-color-burgundy);
+  }
+  
+  .brown{
+    background-color: var(--ion-color-brown);
+  }
+  
+ .purple{
+    background-color: var(--ion-color-purple);
+  }
+
+  .dark-brown{
+    background-color: var(--ion-color-dark-brown);
+  }
+
+  .razimic{
+    background-color: var(--ion-color-razimic);
+  }

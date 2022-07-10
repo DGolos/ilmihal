@@ -38,3 +38,7 @@ export * from "./Prayer/GuidancePrayerPage";
 export * from "./Prayer/MorningPrayerPage";
 export * from "./Prayer/NightPrayerPage";
 export * from "./Prayer/PrayerTimesPage";
+export * from "./Prayer/MonthlyPrayerTimesPage";
+export * from "./Quran/QuranPlayerListPage";
+export * from "./Quran/QuranReaderListPage";
+export * from "./Quran/QuranPlayerPage";

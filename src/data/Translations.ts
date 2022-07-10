@@ -9020,5 +9020,126 @@ export interface LanguageEntry{
       en:"Prayer",
       it:"",
       de:""
+    },
+    {
+      name:"label-quran-search",
+      ba:"Traži",
+      no:"Søk",
+      en:"Search",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter",
+      ba:"Sura",
+      no:"Surah",
+      en:"Surah",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-part",
+      ba:"Džuz",
+      no:"Juz",
+      en:"Juz",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-number-of-verses",
+      ba:"ajeta",
+      no:"Juz",
+      en:"Juz",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-header-font-size",
+      ba:"Veličina teksta",
+      no:"Juz",
+      en:"Juz",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-translator",
+      ba:"Prevod:Besim Korkut",
+      no:"Oversettelse:Einar Berg",
+      en:"Dr. Mustafa Khattab",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-title",
+      ba:"El Fatiha",
+      no:"Al Fatihah",
+      en:"Al Fatihah",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-description",
+      ba:"Ova sura je nazvana Al-Fatiha zbog svoje teme. Fatiha je ono što otvara temu ili knjigu ili bilo koju drugu stvar. Drugim riječima, Al-Fatiha je neka vrsta predgovora.",
+      no:"Denne suraen heter Al-Fatihah på grunn av emnet. Fatihah er det som åpner et emne eller en bok eller en annen ting. Med andre ord, Al-Fatihah er et slags forord.",
+      en:"This Surah is named Al-Fatihah because of its subject matter. Fatihah is that which opens a subject or a book or any other thing. In other words, Al-Fatihah is a sort of preface.",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-note",
+      ba:"Sura El-Fatiha je jedna od najranijih Objava Časnom Poslaniku savs. Zapravo, iz autentičnih predaja saznajemo da je to bila prva potpuna sura koja je objavljena Muhammedu a.s. Prije toga, otkriveno je samo nekoliko raznih stihova koji čine dijelove Alaq, Muzzammil, Muddaththir, itd.",
+      no:"Surah Al-Fatihah er en av de aller tidligste åpenbaringene til den hellige profet. Faktisk lærer vi fra autentiske tradisjoner at det var den første komplette Surah som ble åpenbart for Muhammed (Allahs fred være med ham). Før dette ble bare noen få diverse vers avslørt som utgjør deler av Alaq, Muzzammil, Muddaththir, etc.",
+      en:"Surah Al-Fatihah is one of the very earliest Revelations to the Holy Prophet. As a matter of fact, we learn from authentic traditions that it was the first complete Surah that was revealed to Muhammad (Allah's peace be upon him). Before this, only a few miscellaneous verses were revealed which form parts of Alaq, Muzzammil, Muddaththir, etc.",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-verse1",
+      ba:"Tebe, Allaha, Gospodara svjetova, hvalimo",
+      no:"All lovprisning er for Allah alene, Forsørgeren av alle verdener,",
+      en:"All praise is for Allah—Lord of all worlds,",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-verse2",
+      ba:"Milostivog, Samilosnog",
+      no:"All lovprisning er for Allah alene, Forsørgeren av alle verdener,",
+      en:"the Most Compassionate, Most Merciful,",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-verse3",
+      ba:"Vladara Dana sudnjeg",
+      no:"Herren over dommens dag",
+      en:"Master of the Day of Judgment.",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-verse4",
+      ba:"Tebi se klanjamo i od tebe pomoć tražimo",
+      no:"Deg alene tilber vi, og av Deg alene søker vi hjelp",
+      en:"You ˹alone˺ we worship and You ˹alone˺ we ask for help.",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-verse5",
+      ba:"Uputi nas na Pravi put",
+      no:"Vis oss den rette veien",
+      en:"Guide us along the Straight Path,",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter1-verse6",
+      ba:"na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdžbu izazvali, niti onih koji su zalutali",
+      no:"veien til dem som Du har skjenket Din gunst, ikke til dem som er blitt rammet av vreden, og ei heller de villfarnes",
+      en:"the Path of those You have blessed—not those You are displeased with, or those who are astray.",
+      it:"",
+      de:""
     }
+
  ]

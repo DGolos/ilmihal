@@ -19,10 +19,10 @@ import React, { useEffect, useState } from "react";
 import {
   DailyPrayer,
   timeService,
-} from "../../../services/TimeService";
-import { translationService } from "../../../services/TranslationService";
+} from "../../services/TimeService";
+import { translationService } from "../../services/TranslationService";
 
-const PrayerTimesPage: React.FC = () => {
+export const MonthlyPrayerTimesPage: React.FC = () => {
   const [currentMonth, setCurrentMonth] = useState(1);
   const [prayerTimes, setPrayerTimes] = useState<DailyPrayer[]>([]);
 
@@ -126,4 +126,4 @@ const PrayerTimesPage: React.FC = () => {
   );
 };
 
-export default PrayerTimesPage;
+

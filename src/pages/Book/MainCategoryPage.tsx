@@ -83,7 +83,7 @@ export const MainCategoryPage: React.FC = () => {
                     title={translate("label-book3-lesson1-title")} 
                     description={translate("label-book3-lesson1-title-description")} 
                     icon="/assets/images/sound.png" 
-                    link="/tabs/Quran/Reader"
+                    link="/tabs/QuranPlayerListPage"
                     color="Burgundy"/>
                 
               </IonCol>
@@ -92,7 +92,7 @@ export const MainCategoryPage: React.FC = () => {
                     title={translate("label-book3-lesson2-title")} 
                     description={translate("label-book3-lesson2-title-description")} 
                     icon="/assets/images/book.png" 
-                    link="/tabs/SliderLessonPage/3/3"
+                    link="/tabs/QuranReaderListPage"
                     color="Burgundy"/>
                 
               </IonCol>

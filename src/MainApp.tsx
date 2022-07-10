@@ -18,14 +18,11 @@ import React from "react";
 import { Redirect, Route } from "react-router";
 import useTranslation from "./hooks/useTranslation";
 import { translationService } from "./services/TranslationService";
-import MonthlyPrayerTimesPage from "./pages/Advanced/Prayer/MonthlyPrayerTimesPage";
+
 
 import { AyahPage } from "./pages/Advanced/Quran/AyahPage";
 import { ChosenVersesPage } from "./pages/Advanced/Quran/ChosenVersesPage";
 import { PearlsAyahPage } from "./pages/Advanced/Quran/PearlsAyahPage";
-import { QuranMainPage } from "./pages/Advanced/Quran/QuranMainPage";
-import { QuranPlayerPage } from "./pages/Advanced/Quran/QuranPlayerPage";
-import { QuranReaderPage } from "./pages/Advanced/Quran/QuranReaderPage";
 import { RubiesAyahPage } from "./pages/Advanced/Quran/RubiesAyahPage";
 
 import {
@@ -53,11 +50,15 @@ import {
   LocationOptionsPage,
   MainBookPage,
   MainCategoryPage,
+  MonthlyPrayerTimesPage,
   MorningPrayerPage,
   NightPrayerPage,
   OptionsPage,
   PrayerDefinitionPage,
   PrayerTimesPage,
+  QuranReaderListPage,
+  QuranPlayerListPage,
+  QuranPlayerPage,
   SegmentLessonPage,
   SliderLessonPage,
   StandardLessonPage,
@@ -103,8 +104,8 @@ const MainApp: React.FC<MainAppProps> = () => {
           path="/tabs/LocationOptionsPage"
           component={LocationOptionsPage}
         />
-        <Route path="/tabs/Quran/:type" component={QuranMainPage} />
-        <Route path="/tabs/QuranReader/:id" component={QuranReaderPage} />
+        <Route path="/tabs/QuranReaderListPage" component={QuranReaderListPage} />
+        <Route path="/tabs/QuranPlayerListPage" component={QuranPlayerListPage} />
         <Route path="/tabs/QuranPlayer/:id" component={QuranPlayerPage} />
         <Route path="/tabs/PrayerTimes/" component={PrayerTimesPage} />
         <Route
