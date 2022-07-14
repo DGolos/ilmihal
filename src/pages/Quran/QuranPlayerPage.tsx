@@ -184,7 +184,7 @@ const toglePlayPause=()=>{
       detail={false}
       lines="none"
       style={{ marginLeft: "10px", marginRight: "10px" }}
-      className={`${verse.id===currentVerse?`border-${chapter?.color} lesson-note`:"lesson-note"}`}
+      className={`${verse.id===currentVerse?`border-burgundy lesson-note`:"lesson-note"}`}
     >
       <IonGrid>
         <IonRow hidden={showArabic === false}>
@@ -213,16 +213,16 @@ const toglePlayPause=()=>{
             </h3>
           </IonCol>
         </IonRow>
-        <IonRow className={`border-top-${chapter?.color}`} hidden={verse.id===currentVerse}>
+        <IonRow className={`border-top-burgundy`} hidden={verse.id===currentVerse}>
           <IonCol size="2">
-            <h4 className={`ayah-details-${chapter?.color}`}>
+            <h4 className={`ayah-details-burgundy`}>
               {verse.chapterId}:{verse.id}
             </h4>
           </IonCol>
           <IonCol size="8" className="text-centered">
             <h4
-              className={`ayah-details-${chapter?.color} ion-text-center`}
-              color={chapter?.color}
+              className={`ayah-details-burgundy ion-text-center`}
+              color="burgundy"
               hidden={showTranslation === false}
             >
               {translate('label-quran-translator')}
@@ -240,12 +240,12 @@ const toglePlayPause=()=>{
               <IonIcon
                 slot="icon-only"
                 icon={caretForwardCircleOutline}
-                color={chapter?.color}
+                color="burgundy"
               />
             </IonButton>
           </IonCol>
         </IonRow>
-        <IonRow className={`border-top-${chapter?.color} align-items-center`} hidden={verse.id!==currentVerse} >
+        <IonRow className={`border-top-burgundy align-items-center`} hidden={verse.id!==currentVerse} >
           <IonCol size="5">
 
           </IonCol>
@@ -261,7 +261,7 @@ const toglePlayPause=()=>{
               <IonIcon
                 slot="icon-only"
                 icon={isPlaying?pauseOutline:caretForwardCircleOutline}
-                color={chapter?.color}
+                color="burgundy"
               />
             </IonButton>
           </IonCol>
@@ -280,7 +280,7 @@ const toglePlayPause=()=>{
         <IonToolbar>
           <IonButtons slot="start">
             <IonBackButton
-              color={chapter?.color}
+              color="burgundy"
               defaultHref="/tabs/Quran/Reader"
             />
           </IonButtons>
@@ -338,7 +338,7 @@ const toglePlayPause=()=>{
           <IonRange
             min={14}
             max={24}
-            color={chapter?.color}
+            color="burgundy"
             step={2}
             value={fontSize}
             style={{ marginLeft: "75px", marginRight: "75px" }}

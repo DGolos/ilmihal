@@ -20,6 +20,7 @@ import { LessonHeader } from "../../components/LessonHeader";
 import useLesson from "../../hooks/useLesson";
 import useTranslation from "../../hooks/useTranslation";
 import './SegmentLessonPage.css';
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 
 type TranslationSection = "arabic" | "translation";
 
@@ -82,13 +83,7 @@ export const SegmentLessonPage: React.FC<
 
   return (
     <IonPage>
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton color={lesson?.color} />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
+      <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
         <LessonHeader title={translate(lesson?.title!)} quoteText={translate(lesson?.quoteText!)} quoteReference={translate(lesson?.quoteReference!)} color={lesson?.color} />
         

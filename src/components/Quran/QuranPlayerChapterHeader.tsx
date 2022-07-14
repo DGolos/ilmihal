@@ -17,7 +17,7 @@ export const QuranPlayerChapterHeader: React.FC<QuranPlayerChapterHeaderProps>=(
     }
     return(
         <div className='cardHolder'>
-        <IonCard color={chapter?.color} className="chapterHeader">
+        <IonCard color="burgundy" className="chapterHeader">
           <div className="overlay">
             <img className="mask" src="./assets/images/quran-page.jpg" alt=""/>
           </div>

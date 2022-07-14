@@ -1,0 +1,9 @@
+.standardHeader{
+    --background-color: transparent;
+    --ion-color-base: transparent !important;
+}
+
+.standardToolbar{
+    --background-color: transparent;
+   --ion-color-base: transparent !important;
+}

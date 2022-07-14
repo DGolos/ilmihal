@@ -14,6 +14,7 @@ import {
 } from "@ionic/react";
 import React from "react";
 import { LessonHeader } from "../../components/LessonHeader";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import useTranslation from "../../hooks/useTranslation";
 
 
@@ -21,16 +22,7 @@ export const DailySupplicationsPage: React.FC = () => {
   const{translate}=useTranslation();
   return (
     <IonPage>
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton
-              color="burgundy"
-              defaultHref="/tabs/SupplicationMainPage"
-            />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
+      <StandardHeader />
       
       <IonContent className="bg-image-standard" fullscreen>
       <LessonHeader title={translate("label-book3-lesson15-title")} quoteText={translate("label-book3-lesson15-quote")} quoteReference={translate("label-book3-lesson15-quote-reference")} color="burgundy" />

@@ -15,6 +15,7 @@ import {
   import React from "react";
 import { MenuItem } from "../../components";
 import { LessonHeader } from "../../components/LessonHeader";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import useTranslation from "../../hooks/useTranslation";
   
   
@@ -22,13 +23,7 @@ import useTranslation from "../../hooks/useTranslation";
     const{translate}=useTranslation();
     return (
       <IonPage>
-        <IonHeader className="ion-no-border">
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton color="razimic" defaultHref="/tabs/MainCategoryPage" />
-            </IonButtons>
-          </IonToolbar>
-        </IonHeader>
+        <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
         <LessonHeader title={translate("label-book3-lesson16-title")} quoteText={translate("label-book3-lesson16-quote")} quoteReference={translate("label-book3-lesson16-quote-reference")} color="razimic" />
         <IonGrid>

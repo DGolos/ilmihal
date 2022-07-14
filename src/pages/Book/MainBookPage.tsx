@@ -18,7 +18,7 @@ export const MainBookPage: React.FC = () => {
               <MenuItem 
                     label="1"
                     title={translate("label-book-part-one")} 
-                    description={translate("label-dhikr-dua-description")} 
+                    description={translate("label-book-part-one-description")} 
                     link="/tabs/BookOneMainPage"
                     color="Razimic"/>
                 
@@ -27,7 +27,7 @@ export const MainBookPage: React.FC = () => {
               <MenuItem 
                     label="2"
                     title={translate("label-book-part-two")} 
-                    description={translate("label-dhikr-tasbih-description")} 
+                    description={translate("label-book-part-two-description")} 
                     link="/tabs/BookTwoMainPage"
                     color="Razimic"/>
                 

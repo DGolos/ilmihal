@@ -7,7 +7,6 @@ export interface QuranChapter{
     description:string;
     note:string;
     page: number;
-    color: string;
     player:boolean;
 };
 
@@ -21,115 +20,110 @@ export const quranChapters:QuranChapter[]=[
         description: "label-quran-chapter1-description",
         note: "label-quran-chapter1-note",
         page: 1,
-        color: "burgundy",
         player: true
     },
     {
         id: 2,
         place: "Medina",
         numberOfAyah: 286,
-        title: "Al-Baqara",
+        title: "label-quran-chapter2-title",
         arabicTitle: "البقرة",
-        description: "",
-        note: "",
+        description: "label-quran-chapter2-description",
+        note: "label-quran-chapter2-note",
         page: 2,
-        color: "purple",
         player: false
     },
     {
         id: 3,
         place: "Medina",
         numberOfAyah: 200,
-        title: "Aal-Imran",
+        title: "label-quran-chapter3-title",
         arabicTitle: "آل عمران",
-        description: "",
-        note: "",
-        page: 45,
-        color: "brown",
+        description: "label-quran-chapter3-description",
+        note: "label-quran-chapter3-note",
+        page: 50,
         player: false
     },
     {
         id: 4,
         place: "Medina",
         numberOfAyah: 176,
-        title: "An-Nisaa'",
+        title: "label-quran-chapter4-title",
         arabicTitle: "النساء",
-        description: "",
-        note: "",
-        page: 69,
-        color: "razimic",
+        description: "label-quran-chapter4-description",
+        note: "label-quran-chapter4-note",
+        page: 77,
         player: false
     },
     {
         id: 5,
         place: "Medina",
         numberOfAyah: 120,
-        title: "Al-Ma'ida",
+        title: "label-quran-chapter5-title",
         arabicTitle: "المائدة",
-        description: "",
-        note: "",
-        page: 95,
-        color: "dark-brown",
+        description: "label-quran-chapter5-description",
+        note: "label-quran-chapter5-note",
+        page: 106,
         player: false
     },
     {
         id: 6,
         place: "Mecca",
         numberOfAyah: 165,
-        title: "Al-An'am",
+        title: "label-quran-chapter6-title",
         arabicTitle: "الأنعام",
-        description: "",
-        note: "",
-        page: 115,
-        color: "burgundy",
+        description: "label-quran-chapter6-description",
+        note: "label-quran-chapter6-note",
+        page: 128,
+        
         player: false
     },
     {
         id: 7,
         place: "Mecca",
         numberOfAyah: 206,
-        title: "Al-A'raf",
+        title: "label-quran-chapter7-title",
         arabicTitle: "الأعراف",
-        description: "",
-        note: "",
-        page: 136,
-        color: "burgundy",
+        description: "label-quran-chapter7-description",
+        note: "label-quran-chapter7-note",
+        page: 151,
+        
         player: false
     },
     {
         id: 8,
         place: "Medina",
         numberOfAyah: 75,
-        title: "Al-Anfal",
+        title: "label-quran-chapter8-title",
         arabicTitle: "الأنفال",
-        description: "",
-        note: "",
-        page: 160,
-        color: "burgundy",
+        description: "label-quran-chapter8-description",
+        note: "label-quran-chapter8-note",
+        page: 177,
+        
         player: false
     },
     {
         id: 9,
         place: "Medina",
         numberOfAyah: 129,
-        title: "Al-Tawba",
+        title: "label-quran-chapter9-title",
         arabicTitle: "التوبة",
-        description: "",
-        note: "",
-        page: 169,
-        color: "burgundy",
+        description: "label-quran-chapter9-description",
+        note: "label-quran-chapter9-note",
+        page: 187,
+        
         player: false
     },
     {
         id: 10,
         place: "Mecca",
         numberOfAyah: 109,
-        title: "Yunus",
+        title: "label-quran-chapter10-title",
         arabicTitle: "يونس",
-        description: "",
-        note: "",
-        page: 187,
-        color: "burgundy",
+        description: "label-quran-chapter10-description",
+        note: "label-quran-chapter10-note",
+        page: 208,
+        
         player: false
     },
     {
@@ -140,8 +134,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "هود",
         description: "",
         note: "",
-        page: 199,
-        color: "burgundy",
+        page: 221,
+        
         player: false
     },
     {
@@ -152,8 +146,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "يوسف",
         description: "",
         note: "",
-        page: 212,
-        color: "burgundy",
+        page: 235,
+        
         player: false
     },
     {
@@ -164,8 +158,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الرعد",
         description: "",
         note: "",
-        page: 225,
-        color: "burgundy",
+        page: 249,
+        
         player: false
     },
     {
@@ -176,8 +170,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "إبراهيم",
         description: "",
         note: "",
-        page: 231,
-        color: "burgundy",
+        page: 255,
+        
         player: false
     },
     {
@@ -188,8 +182,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الحجر",
         description: "",
         note: "",
-        page: 237,
-        color: "burgundy",
+        page: 262,
+        
         player: false
     },
     {
@@ -200,8 +194,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "النحل",
         description: "",
         note: "",
-        page: 242,
-        color: "burgundy",
+        page: 267,
+        
         player: false
     },
     {
@@ -212,8 +206,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الإسراء",
         description: "",
         note: "",
-        page: 255,
-        color: "burgundy",
+        page: 282,
+        
         player: false
     },
     {
@@ -224,8 +218,7 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الكهف",
         description: "",
         note: "",
-        page: 266,
-        color: "purple",
+        page: 293,
         player: true
     },
     {
@@ -236,8 +229,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "مريم",
         description: "",
         note: "",
-        page: 277,
-        color: "burgundy",
+        page: 305,
+        
         player: false
     },
     {
@@ -248,8 +241,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "طه",
         description: "",
         note: "",
-        page: 284,
-        color: "burgundy",
+        page: 312,
+        
         player: false
     },
     {
@@ -260,8 +253,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الأنبياء",
         description: "",
         note: "",
-        page: 294,
-        color: "burgundy",
+        page: 322,
+        
         player: false
     },
     {
@@ -272,8 +265,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الحج",
         description: "",
         note: "",
-        page: 302,
-        color: "burgundy",
+        page: 332,
+        
         player: false
     },
     {
@@ -284,8 +277,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المؤمنون",
         description: "",
         note: "",
-        page: 311,
-        color: "burgundy",
+        page: 342,
+        
         player: false
     },
     {
@@ -296,8 +289,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "النور",
         description: "",
         note: "",
-        page: 319,
-        color: "burgundy",
+        page: 350,
+        
         player: false
     },
     {
@@ -308,8 +301,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الفرقان",
         description: "",
         note: "",
-        page: 329,
-        color: "burgundy",
+        page: 359,
+        
         player: false
     },
     {
@@ -320,8 +313,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الشعراء",
         description: "",
         note: "",
-        page: 335,
-        color: "burgundy",
+        page: 367,
+        
         player: false
     },
     {
@@ -332,8 +325,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "النمل",
         description: "",
         note: "",
-        page: 345,
-        color: "burgundy",
+        page: 377,
+        
         player: false
     },
     {
@@ -344,8 +337,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "القصص",
         description: "",
         note: "",
-        page: 354,
-        color: "burgundy",
+        page: 385,
+        
         player: false
     },
     {
@@ -356,8 +349,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "العنكبوت",
         description: "",
         note: "",
-        page: 364,
-        color: "burgundy",
+        page: 396,
+        
         player: false
     },
     {
@@ -368,8 +361,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الروم",
         description: "",
         note: "",
-        page: 371,
-        color: "burgundy",
+        page: 404,
+        
         player: false
     },
     {
@@ -380,8 +373,7 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "لقمان",
         description: "",
         note: "",
-        page: 377,
-        color: "brown",
+        page: 411,
         player: true
     },
     {
@@ -392,8 +384,7 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "السجدة",
         description: "",
         note: "",
-        page: 381,
-        color: "razimic",
+        page: 415,
         player: true
     },
     {
@@ -404,8 +395,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الأحزاب",
         description: "",
         note: "",
-        page: 383,
-        color: "burgundy",
+        page: 418,
+        
         player: false
     },
     {
@@ -416,8 +407,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "سبأ",
         description: "",
         note: "",
-        page: 393,
-        color: "burgundy",
+        page: 428,
+        
         player: false
     },
     {
@@ -428,8 +419,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "فاطر",
         description: "",
         note: "",
-        page: 399,
-        color: "burgundy",
+        page: 434,
+        
         player: false
     },
     {
@@ -440,8 +431,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "يس",
         description: "",
         note: "",
-        page: 404,
-        color: "burgundy",
+        page: 440,
+        
         player: false
     },
     {
@@ -452,8 +443,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الصافات",
         description: "",
         note: "",
-        page: 410,
-        color: "burgundy",
+        page: 446,
+        
         player: false
     },
     {
@@ -464,8 +455,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "ص",
         description: "",
         note: "",
-        page: 417,
-        color: "burgundy",
+        page: 453,
+        
         player: false
     },
     {
@@ -476,8 +467,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الزمر",
         description: "",
         note: "",
-        page: 422,
-        color: "burgundy",
+        page: 458,
+        
         player: false
     },
     {
@@ -488,8 +479,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "غافر",
         description: "",
         note: "",
-        page: 431,
-        color: "burgundy",
+        page: 467,
+        
         player: false
     },
     {
@@ -500,8 +491,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "فصلت",
         description: "",
         note: "",
-        page: 439,
-        color: "burgundy",
+        page: 477,
+        
         player: false
     },
     {
@@ -512,8 +503,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الشورى",
         description: "",
         note: "",
-        page: 445,
-        color: "burgundy",
+        page: 483,
+        
         player: false
     },
     {
@@ -524,8 +515,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الزخرف",
         description: "",
         note: "",
-        page: 451,
-        color: "burgundy",
+        page: 489,
+        
         player: false
     },
     {
@@ -536,8 +527,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الدخان",
         description: "",
         note: "",
-        page: 457,
-        color: "burgundy",
+        page: 496,
+        
         player: false
     },
     {
@@ -548,8 +539,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الجاثية",
         description: "",
         note: "",
-        page: 460,
-        color: "burgundy",
+        page: 499,
+        
         player: false
     },
     {
@@ -560,8 +551,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الأحقاف",
         description: "",
         note: "",
-        page: 464,
-        color: "burgundy",
+        page: 502,
+        
         player: false
     },
     {
@@ -572,8 +563,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "محمد",
         description: "",
         note: "",
-        page: 468,
-        color: "burgundy",
+        page: 507,
+        
         player: false
     },
     {
@@ -584,8 +575,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الفتح",
         description: "",
         note: "",
-        page: 472,
-        color: "burgundy",
+        page: 511,
+        
         player: false
     },
     {
@@ -596,8 +587,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الحجرات",
         description: "",
         note: "",
-        page: 477,
-        color: "burgundy",
+        page: 515,
+        
         player: false
     },
     {
@@ -608,8 +599,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "ق",
         description: "",
         note: "",
-        page: 479,
-        color: "burgundy",
+        page: 518,
+        
         player: false
     },
     {
@@ -620,8 +611,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الذاريات",
         description: "",
         note: "",
-        page: 482,
-        color: "burgundy",
+        page: 520,
+        
         player: false
     },
     {
@@ -632,8 +623,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الطور",
         description: "",
         note: "",
-        page: 485,
-        color: "burgundy",
+        page: 523,
+        
         player: false
     },
     {
@@ -644,8 +635,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "النجم",
         description: "",
         note: "",
-        page: 487,
-        color: "burgundy",
+        page: 526,
+        
         player: false
     },
     {
@@ -656,8 +647,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "القمر",
         description: "",
         note: "",
-        page: 490,
-        color: "burgundy",
+        page: 528,
+        
         player: false
     },
     {
@@ -668,8 +659,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الرحمن",
         description: "",
         note: "",
-        page: 493,
-        color: "burgundy",
+        page: 531,
+        
         player: false
     },
     {
@@ -680,8 +671,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الواقعة",
         description: "",
         note: "",
-        page: 496,
-        color: "burgundy",
+        page: 534,
+        
         player: false
     },
     {
@@ -692,8 +683,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الحديد",
         description: "",
         note: "",
-        page: 499,
-        color: "burgundy",
+        page: 537,
+        
         player: false
     },
     {
@@ -704,8 +695,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المجادلة",
         description: "",
         note: "",
-        page: 504,
-        color: "burgundy",
+        page: 542,
+        
         player: false
     },
     {
@@ -716,8 +707,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الحشر",
         description: "",
         note: "",
-        page: 507,
-        color: "burgundy",
+        page: 545,
+        
         player: false
     },
     {
@@ -728,8 +719,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الممتحنة",
         description: "",
         note: "",
-        page: 510,
-        color: "burgundy",
+        page: 549,
+        
         player: false
     },
     {
@@ -740,8 +731,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الصف",
         description: "",
         note: "",
-        page: 513,
-        color: "burgundy",
+        page: 551,
+        
         player: false
     },
     {
@@ -752,8 +743,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الجمعة",
         description: "",
         note: "",
-        page: 515,
-        color: "burgundy",
+        page: 553,
+        
         player: false
     },
     {
@@ -764,8 +755,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المنافقون",
         description: "",
         note: "",
-        page: 516,
-        color: "burgundy",
+        page: 554,
+        
         player: false
     },
     {
@@ -776,8 +767,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "التغابن",
         description: "",
         note: "",
-        page: 518,
-        color: "burgundy",
+        page: 556,
+        
         player: false
     },
     {
@@ -788,8 +779,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الطلاق",
         description: "",
         note: "",
-        page: 520,
-        color: "burgundy",
+        page: 558,
+        
         player: false
     },
     {
@@ -800,8 +791,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "التحريم",
         description: "",
         note: "",
-        page: 522,
-        color: "burgundy",
+        page: 560,
+        
         player: false
     },
     {
@@ -812,8 +803,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الملك",
         description: "",
         note: "",
-        page: 524,
-        color: "burgundy",
+        page: 562,
+        
         player: true
     },
     {
@@ -824,8 +815,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "القلم",
         description: "",
         note: "",
-        page: 526,
-        color: "burgundy",
+        page: 564,
+        
         player: false
     },
     {
@@ -836,8 +827,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الحاقة",
         description: "",
         note: "",
-        page: 529,
-        color: "burgundy",
+        page: 566,
+        
         player: false
     },
     {
@@ -848,8 +839,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المعارج",
         description: "",
         note: "",
-        page: 531,
-        color: "burgundy",
+        page: 568,
+        
         player: false
     },
     {
@@ -860,8 +851,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "نوح",
         description: "",
         note: "",
-        page: 533,
-        color: "burgundy",
+        page: 570,
+        
         player: false
     },
     {
@@ -872,8 +863,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الجن",
         description: "",
         note: "",
-        page: 534,
-        color: "burgundy",
+        page: 572,
+        
         player: false
     },
     {
@@ -884,8 +875,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المزمل",
         description: "",
         note: "",
-        page: 537,
-        color: "burgundy",
+        page: 574,
+        
         player: false
     },
     {
@@ -896,8 +887,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المدثر",
         description: "",
         note: "",
-        page: 538,
-        color: "burgundy",
+        page: 575,
+        
         player: false
     },
     {
@@ -908,8 +899,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "القيامة",
         description: "",
         note: "",
-        page: 540,
-        color: "burgundy",
+        page: 577,
+        
         player: false
     },
     {
@@ -920,8 +911,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الإنسان",
         description: "",
         note: "",
-        page: 542,
-        color: "burgundy",
+        page: 578,
+        
         player: false
     },
     {
@@ -932,8 +923,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المرسلات",
         description: "",
         note: "",
-        page: 544,
-        color: "burgundy",
+        page: 580,
+        
         player: false
     },
     {
@@ -944,8 +935,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "النبأ",
         description: "",
         note: "",
-        page: 545,
-        color: "burgundy",
+        page: 582,
+        
         player: false
     },
     {
@@ -956,8 +947,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "النازعات",
         description: "",
         note: "",
-        page: 547,
-        color: "burgundy",
+        page: 583,
+        
         player: false
     },
     {
@@ -968,8 +959,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "عبس",
         description: "",
         note: "",
-        page: 548,
-        color: "burgundy",
+        page: 585,
+        
         player: false
     },
     {
@@ -980,8 +971,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "التكوير",
         description: "",
         note: "",
-        page: 550,
-        color: "burgundy",
+        page: 586,
+        
         player: false
     },
     {
@@ -992,8 +983,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الإنفطار",
         description: "",
         note: "",
-        page: 551,
-        color: "burgundy",
+        page: 587,
+        
         player: false
     },
     {
@@ -1004,8 +995,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المطففين",
         description: "",
         note: "",
-        page: 552,
-        color: "burgundy",
+        page: 587,
+        
         player: false
     },
     {
@@ -1016,8 +1007,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الإنشقاق",
         description: "",
         note: "",
-        page: 553,
-        color: "burgundy",
+        page: 589,
+        
         player: false
     },
     {
@@ -1028,8 +1019,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "البروج",
         description: "",
         note: "",
-        page: 554,
-        color: "burgundy",
+        page: 590,
+        
         player: false
     },
     {
@@ -1040,8 +1031,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الطارق",
         description: "",
         note: "",
-        page: 555,
-        color: "burgundy",
+        page: 591,
+        
         player: false
     },
     {
@@ -1052,8 +1043,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الأعلى",
         description: "",
         note: "",
-        page: 556,
-        color: "burgundy",
+        page: 591,
+        
         player: false
     },
     {
@@ -1064,8 +1055,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الغاشية",
         description: "",
         note: "",
-        page: 556,
-        color: "burgundy",
+        page: 592,
+        
         player: false
     },
     {
@@ -1076,8 +1067,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الفجر",
         description: "",
         note: "",
-        page: 557,
-        color: "burgundy",
+        page: 593,
+        
         player: false
     },
     {
@@ -1088,8 +1079,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "البلد",
         description: "",
         note: "",
-        page: 559,
-        color: "burgundy",
+        page: 594,
+        
         player: false
     },
     {
@@ -1100,8 +1091,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الشمس",
         description: "",
         note: "",
-        page: 559,
-        color: "burgundy",
+        page: 595,
+        
         player: false
     },
     {
@@ -1112,8 +1103,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الليل",
         description: "",
         note: "",
-        page: 560,
-        color: "burgundy",
+        page: 595,
+        
         player: false
     },
     {
@@ -1124,8 +1115,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الضحى",
         description: "",
         note: "",
-        page: 561,
-        color: "burgundy",
+        page: 596,
+        
         player: true
     },
     {
@@ -1136,8 +1127,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الشرح",
         description: "",
         note: "",
-        page: 561,
-        color: "burgundy",
+        page: 596,
+        
         player: true
     },
     {
@@ -1148,8 +1139,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "التين",
         description: "",
         note: "",
-        page: 562,
-        color: "burgundy",
+        page: 597,
+        
         player: true
     },
     {
@@ -1160,8 +1151,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "العلق",
         description: "",
         note: "",
-        page: 562,
-        color: "burgundy",
+        page: 597,
+        
         player: true
     },
     {
@@ -1172,8 +1163,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "القدر",
         description: "",
         note: "",
-        page: 563,
-        color: "burgundy",
+        page: 598,
+        
         player: true
     },
     {
@@ -1184,8 +1175,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "البينة",
         description: "",
         note: "",
-        page: 563,
-        color: "burgundy",
+        page: 598,
+        
         player: true
     },
     {
@@ -1196,8 +1187,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الزلزلة",
         description: "",
         note: "",
-        page: 564,
-        color: "burgundy",
+        page: 599,
+        
         player: false
     },
     {
@@ -1208,8 +1199,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "العاديات",
         description: "",
         note: "",
-        page: 564,
-        color: "burgundy",
+        page: 599,
+        
         player: true
     },
     {
@@ -1220,8 +1211,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "القارعة",
         description: "",
         note: "",
-        page: 565,
-        color: "burgundy",
+        page: 600,
+        
         player: true
     },
     {
@@ -1232,8 +1223,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "التكاثر",
         description: "",
         note: "",
-        page: 565,
-        color: "burgundy",
+        page: 600,
+        
         player: true
     },
     {
@@ -1244,8 +1235,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "العصر",
         description: "",
         note: "",
-        page: 566,
-        color: "burgundy",
+        page: 601,
+        
         player: true
     },
     {
@@ -1256,8 +1247,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الهمزة",
         description: "",
         note: "",
-        page: 566,
-        color: "burgundy",
+        page: 601,
+        
         player: true
     },
     {
@@ -1268,8 +1259,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الفيل",
         description: "",
         note: "",
-        page: 566,
-        color: "burgundy",
+        page: 601,
+        
         player: true
     },
     {
@@ -1280,8 +1271,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "قريش",
         description: "",
         note: "",
-        page: 567,
-        color: "burgundy",
+        page: 602,
+        
         player: true
     },
     {
@@ -1292,8 +1283,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الماعون",
         description: "",
         note: "",
-        page: 567,
-        color: "burgundy",
+        page: 602,
+        
         player: true
     },
     {
@@ -1304,8 +1295,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الكوثر",
         description: "",
         note: "",
-        page: 567,
-        color: "burgundy",
+        page: 602,
+        
         player: true
     },
     {
@@ -1316,8 +1307,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الكافرون",
         description: "",
         note: "",
-        page: 568,
-        color: "burgundy",
+        page: 603,
+        
         player: true
     },
     {
@@ -1328,8 +1319,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "النصر",
         description: "",
         note: "",
-        page: 568,
-        color: "burgundy",
+        page: 603,
+        
         player: true
     },
     {
@@ -1340,8 +1331,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "المسد",
         description: "",
         note: "",
-        page: 568,
-        color: "burgundy",
+        page: 603,
+        
         player: true
     },
     {
@@ -1352,8 +1343,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الإخلاص",
         description: "",
         note: "",
-        page: 569,
-        color: "burgundy",
+        page: 604,
+        
         player: true
     },
     {
@@ -1364,8 +1355,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الفلق",
         description: "",
         note: "",
-        page: 569,
-        color: "burgundy",
+        page: 604,
+        
         player: true
     },
     {
@@ -1376,8 +1367,8 @@ export const quranChapters:QuranChapter[]=[
         arabicTitle: "الناس",
         description: "",
         note: "",
-        page: 569,
-        color: "burgundy",
+        page: 604,
+        
         player: true
     }
 ];

@@ -11,6 +11,7 @@ import React from "react";
 import { RouteComponentProps } from "react-router";
 import { LessonHeader } from "../../components/LessonHeader";
 import { StandardSection } from "../../components/Section/StandardSection";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import useLesson from "../../hooks/useLesson";
 import useTranslation from "../../hooks/useTranslation";
 
@@ -28,13 +29,7 @@ export const StandardLessonPage: React.FC<
 
   return (
     <IonPage>
-      <IonHeader className="ion-no-border standard">
-        <IonToolbar className="prayer">
-          <IonButtons slot="start">
-            <IonBackButton color={lesson?.color} />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
+      <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
       <LessonHeader title={translate(lesson?.title!)} quoteText={translate(lesson?.quoteText!)} quoteReference={translate(lesson?.quoteReference!)} color={lesson?.color} />
         <div style={{marginLeft:"10px",marginRight:"10px",marginTop:"30px"}}>{sectionListItems}</div>

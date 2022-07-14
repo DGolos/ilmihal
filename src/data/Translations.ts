@@ -66,33 +66,33 @@ export interface LanguageEntry{
     },
     {
       name:"label-book-part-one-description",
-      ba:"Prvi dio",
-      no:"Del 1",
-      en:"First part",
+      ba:"U prvom dijelu se uče imanski i islamski šarti, kako se klanjaju farz i sunet namazi,ezan i ikamet kao i neophodne kur'anske sure i dove za obavljanje namaza.",
+      no:"I den første delen blir Iman og islamske Sharths undervist, hvordan man utfører fard- og sunnah-bønner, adhan og ikamat, samt de nødvendige koran-suraene og bønnene for å utføre bønnen.",
+      en:"In the first part, Iman and Islamic Sharths are taught, how to perform fard and sunnah prayers, adhan and ikamat, as well as the necessary Qur'anic surahs and supplications for performing the prayer.",
       it:"",
       de:""
     },
     {
       name:"label-book-part-two",
       ba:"Drugi dio",
-      no:"Del 1",
-      en:"First part",
+      no:"Del 2",
+      en:"Second part",
       it:"",
       de:""
     },
     {
       name:"label-book-part-two-description",
-      ba:"Drugi dio",
-      no:"Del 1",
-      en:"First part",
+      ba:"U drugom dijelu se o dijelovima namaza, kako se klanjaju Bajram, Teravija, Džuma i Dženaza namazi",
+      no:"I den andre delen, delene av bønnen, hvordan be Eid, Tarawih, Juma og Janaza bønnene",
+      en:"In the second part, the parts of the prayer, how to pray the Eid, Tarawih, Juma and Janaza prayers",
       it:"",
       de:""
     },
     {
       name:"label-book-one-title",
       ba:"Ilmihal prvi dio",
-      no:"Del 1",
-      en:"First part",
+      no:"Ilmihal del 1",
+      en:"Ilmihal first part",
       it:"",
       de:""
     },
@@ -107,19 +107,12 @@ export interface LanguageEntry{
     {
       name:"label-book-two-title",
       ba:"Ilmihal drugi dio",
-      no:"Del 1",
-      en:"First part",
+      no:"Ilmihal del 2",
+      en:"Ilmihal second part",
       it:"",
       de:""
     },
-    {
-      name:"label-book-two-description",
-      ba:"Prvi dio",
-      no:"Del 1",
-      en:"First part",
-      it:"",
-      de:""
-    },
+    
     {
       name:"label-book1-lesson1-title",
       ba:"Euzubilla i bismilla",
@@ -132,7 +125,7 @@ export interface LanguageEntry{
       name:"label-book1-lesson1-description",
       ba:"U svim poslovima Bismillom spominjemo Allaha, dž.š.",
       no:"Vi begynner enhver god handling med Bismillah",
-      en:"Euzubilla and bismilla",
+      en:"In all our affairs, we mention Allah with Bismillah.",
       it:"",
       de:""
     },
@@ -140,7 +133,7 @@ export interface LanguageEntry{
       name:"label-book1-lesson2-title",
       ba:"Kelime-i Šehadet",
       no:"Trosbekjennelsen",
-      en:"Sharadah",
+      en:"Shahadah",
       it:"",
       de:""
     },
@@ -9140,6 +9133,30 @@ export interface LanguageEntry{
       en:"the Path of those You have blessed—not those You are displeased with, or those who are astray.",
       it:"",
       de:""
-    }
+    },
+    {
+      name:"label-quran-chapter2-title",
+      ba:"El Bekare",
+      no:"Al Baqarah",
+      en:"Al Baqarah",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter2-description",
+      ba:"El Bekare (Krava) je tako nazvan po priči o Kravi koja se pojavljuje u ovoj suri (67-73).",
+      no:"Al-Baqarah har blitt kalt slik fra historien om kua som forekommer i denne Surah (67-73). Selv om det er en Madani Surah, følger den naturlig en Makki Surah Al-Fatihah, som endte med bønnen: \"Vis oss den rette veien.\" Det begynner med svaret på den bønnen, \"Dette er boken (som) ... er veiledning ...\"",
+      en:"Al-Baqarah (The Cow) has been so named from the story of the Cow occurring in this Surah (67-73). Though it is a Madani Surah, it follows naturally a Makki Surah Al- Fatihah, which ended with the prayer: \"Show us the straight way.\" It begins with the answer to that prayer, \"This is the Book (that)...is guidance...\"",
+      it:"",
+      de:""
+    },
+    {
+      name:"label-quran-chapter2-note",
+      ba:"Ova sura je poziv na Božansko vodstvo i sve priče, incidenti, itd., vrte se oko ove središnje teme. Kako je ova sura posebno upućena Jevrejima, mnogi historijski događaji su citirani iz njihovih vlastitih predaja kako bi ih opomenuli i posavjetovali da njihovo dobro leži u prihvatanju Upute objavljene Časnom Poslaniku savs. Oni bi, dakle, trebali biti prvi koji će to prihvatiti jer je to u osnovi bilo isto što je objavljeno Poslaniku Musau, sallallahu alejhi ve sellem.",
+      no:"Denne suraen er en invitasjon til den guddommelige veiledningen og alle historiene, hendelsene osv. dreier seg om dette sentrale temaet. Siden denne suraen har vært spesielt rettet til jødene, har mange historiske hendelser blitt sitert fra deres egne tradisjoner for å formane og gi dem råd om at deres eget gode ligger i å akseptere veiledningen åpenbart til den hellige profet. De burde derfor være de første til å akseptere det fordi det i bunn og grunn var det samme som ble åpenbart for profeten Moses (Allahs fred være med ham).",
+      en:"This Surah is an invitation to the Divine Guidance and all the stories, incidents, etc., revolve around this central theme. As this Surah has particularly been addressed to the Jews, many historical events have been cited from their own traditions to admonish and advise them that their own good lies in accepting the Guidance revealed to the Holy Prophet. They should, therefore, be the first to accept it because it was basically the same that was revealed to Prophet Moses (Allah's peace be upon him).",
+      it:"",
+      de:""
+    },
 
  ]

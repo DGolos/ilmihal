@@ -19,18 +19,13 @@ import { Progress } from "../../components/Progress";
 import { LessonHeader } from "../../components/LessonHeader";
 import useTranslation from "../../hooks/useTranslation";
 import './WudhuPage.css'
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 
 export const WudhuPage: React.FC = () => {
   const{translate}=useTranslation();
   return (
     <IonPage>
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton color="burgundy" defaultHref="/BookOneMainPage" />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
+     <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
       <LessonHeader title={translate("label-book1-lesson13-title")} quoteText={translate("label-book1-lesson13-quote")} quoteReference={translate("label-hadeeth-reference")} color="burgundy" />
         <div style={{marginLeft:"10px",marginRight:"10px",marginTop:"30px"}}>

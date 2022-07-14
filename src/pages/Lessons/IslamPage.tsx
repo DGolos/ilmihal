@@ -4,21 +4,13 @@ import { LessonHeader } from "../../components/LessonHeader";
 import {MenuItem} from "../../components";
 import useTranslation from "../../hooks/useTranslation";
 import './IslamPage.css'
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 
 export const IslamMainPage: React.FC = () => {
   const{translate}=useTranslation();
     return (
       <IonPage>
-        <IonHeader className="ion-no-border">
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton
-                color="burgundy"
-                defaultHref="/tabs/BookOneMainPage"
-              />
-            </IonButtons>
-          </IonToolbar>
-        </IonHeader>
+        <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
         <LessonHeader title={translate("label-book1-lesson12-title")} quoteText={translate("label-book1-lesson12-quote")} quoteReference={translate("label-hadeeth-reference")} color="burgundy" />
         

@@ -1,19 +1,14 @@
 import { IonBackButton, IonButtons, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonItem, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
 import { LessonHeader } from "../../components/LessonHeader";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import useTranslation from "../../hooks/useTranslation";
 
 export const HajjDefinitionPage: React.FC = () => {
     const{translate}=useTranslation();
     return (
       <IonPage>
-        <IonHeader className="ion-no-border">
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton color="purple" defaultHref="/IslamMainPage" />
-            </IonButtons>
-          </IonToolbar>
-        </IonHeader>
+        <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
         <LessonHeader title={translate("label-book1-lesson34-title")} quoteText={translate("label-book1-lesson34-quote")} quoteReference={translate("label-book1-lesson34-quote-reference")} color="purple" />
         <div className="ion-padding">

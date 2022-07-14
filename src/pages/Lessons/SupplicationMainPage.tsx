@@ -12,6 +12,7 @@ import {
 import React from "react";
 import { MenuItem } from "../../components";
 import { LessonHeader } from "../../components/LessonHeader";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import useTranslation from "../../hooks/useTranslation";
 
 
@@ -19,13 +20,7 @@ export const SupplicationMainPage: React.FC = () => {
   const{translate}=useTranslation();
   return (
     <IonPage>
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton color="dark-brown" defaultHref="/tabs/MainCategoryPage" />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
+      <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
       <LessonHeader title={translate("label-book3-lesson12-title")} quoteText={translate("label-book3-lesson12-quote")} quoteReference={translate("label-book3-lesson12-quote-reference")} color="dark-brown" />
         <IonGrid>

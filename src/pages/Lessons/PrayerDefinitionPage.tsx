@@ -1,18 +1,13 @@
 import { IonBackButton, IonButtons, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonHeader, IonItem, IonPage, IonRow, IonText, IonToolbar } from "@ionic/react";
 import React from "react";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import { translationService } from "../../services/TranslationService";
 
 export const PrayerDefinitionPage: React.FC = () => {
 
     return (
       <IonPage>
-        <IonHeader className="ion-no-border">
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton color="dark-brown" defaultHref="/IslamMainPage" />
-            </IonButtons>
-          </IonToolbar>
-        </IonHeader>
+        <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
         <IonCard
           className="lesson-header ion-padding ion-text-center"

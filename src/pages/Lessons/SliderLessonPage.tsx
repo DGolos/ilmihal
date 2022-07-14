@@ -16,6 +16,7 @@ import {
 import { SliderSection } from "../../components";
   import useLesson from "../../hooks/useLesson";
   import useTranslation from "../../hooks/useTranslation";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 
   
   
@@ -37,13 +38,7 @@ import { SliderSection } from "../../components";
   
     return (
         <IonPage>
-        <IonHeader className="ion-no-border">
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton color={lesson?.color} defaultHref="/MainCategoryPage" />
-            </IonButtons>
-          </IonToolbar>
-        </IonHeader>
+        <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
         <LessonHeader title={translate(lesson?.title!)} quoteText={translate(lesson?.quoteText!)} quoteReference={translate(lesson?.quoteReference!)} color={lesson?.color} />
           <div>

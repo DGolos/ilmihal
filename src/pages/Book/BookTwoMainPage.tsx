@@ -1,6 +1,7 @@
 import { IonBackButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react"
 import React, { useState } from "react"
 import {MenuButton,MenuItem} from "../../components";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import useTranslation from "../../hooks/useTranslation";
 
 
@@ -33,16 +34,7 @@ export const BookTwoMainPage: React.FC = () => {
   };
     return (
       <IonPage>
-        <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton color="burgundy" defaultHref="/tabs/MainBookPage" />
-          </IonButtons>
-          <IonTitle color="burgundy" style={{fontWeight:"bold"}}>
-            {translate("label-book-two-title")}
-          </IonTitle>
-        </IonToolbar>
-      </IonHeader>
+        <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
         <div >
           <IonGrid>

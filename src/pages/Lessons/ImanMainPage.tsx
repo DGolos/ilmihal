@@ -16,18 +16,13 @@ import { LessonHeader } from "../../components/LessonHeader";
 import {MenuItem} from "../../components";
 import useTranslation from "../../hooks/useTranslation";
 import './ImanPage.css';
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 
 export const ImanMainPage: React.FC = () => {
   const{translate}=useTranslation();
   return (
     <IonPage>
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton color="burgundy" defaultHref="/tabs/BookOneMainPage" />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
+      <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
       <LessonHeader title={translate("label-book1-lesson11-title")} quoteText={translate("label-book1-lesson11-quote")} quoteReference={translate("label-book1-lesson11-quote-reference")} color="burgundy" />
         <div style={{marginLeft:"10px",marginRight:"10px",marginTop:"30px"}}>

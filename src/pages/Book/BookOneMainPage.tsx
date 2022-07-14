@@ -12,6 +12,7 @@ import {
 } from "@ionic/react";
 import React, { useState } from "react";
 import {MenuButton,MenuItem} from "../..//components";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import useTranslation from "../../hooks/useTranslation";
 
 
@@ -41,16 +42,7 @@ export const BookOneMainPage: React.FC = () => {
 
   return (
     <IonPage>
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton color="purple" defaultHref="/tabs/MainBookPage" />
-          </IonButtons>
-          <IonTitle color="purple" style={{fontWeight:"bold"}}>
-            {translate("label-book-one-title")}
-          </IonTitle>
-        </IonToolbar>
-      </IonHeader>
+      <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
       <div >
           <IonGrid>

@@ -17,6 +17,7 @@ import { pauseCircleOutline, volumeHighOutline } from "ionicons/icons";
 import React, { useRef, useState } from "react";
 import { RouteComponentProps } from "react-router";
 import { LessonHeader } from "../../components/LessonHeader";
+import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
 import useTranslation from "../../hooks/useTranslation";
 
 
@@ -59,13 +60,7 @@ export const TasbihPage: React.FC<
 
   return (
     <IonPage>
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton color="purple" />
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
+      <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
       <LessonHeader title={translate("label-book1-lesson39-title")} quoteText={translate("label-book1-lesson39-quote")} quoteReference={translate("label-book1-lesson39-quote-reference")} color="burgundy" />
         <div className="ion-padding">
