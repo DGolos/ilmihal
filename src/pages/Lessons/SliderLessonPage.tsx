@@ -40,7 +40,7 @@ import { StandardHeader } from "../../components/StandardHeader/StandardHeader";
         <IonPage>
         <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
-        <LessonHeader title={translate(lesson?.title!)} quoteText={translate(lesson?.quoteText!)} quoteReference={translate(lesson?.quoteReference!)} color={lesson?.color} />
+        <LessonHeader title={translate(lesson?.title!)} quoteText={translate(lesson?.quoteText!)} quoteReference={translate(lesson?.quoteReference!)}/>
           <div>
             <IonSlides options={{pagination:true}}>
               

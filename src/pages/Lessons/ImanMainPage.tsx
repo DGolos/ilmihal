@@ -24,7 +24,7 @@ export const ImanMainPage: React.FC = () => {
     <IonPage>
       <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
-      <LessonHeader title={translate("label-book1-lesson11-title")} quoteText={translate("label-book1-lesson11-quote")} quoteReference={translate("label-book1-lesson11-quote-reference")} color="burgundy" />
+      <LessonHeader title={translate("label-book1-lesson11-title")} quoteText={translate("label-book1-lesson11-quote")} quoteReference={translate("label-book1-lesson11-quote-reference")}/>
         <div style={{marginLeft:"10px",marginRight:"10px",marginTop:"30px"}}>
           <IonItem className="lesson-note" lines="none">
             <IonText>

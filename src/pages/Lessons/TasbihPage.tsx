@@ -62,7 +62,7 @@ export const TasbihPage: React.FC<
     <IonPage>
       <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
-      <LessonHeader title={translate("label-book1-lesson39-title")} quoteText={translate("label-book1-lesson39-quote")} quoteReference={translate("label-book1-lesson39-quote-reference")} color="burgundy" />
+      <LessonHeader title={translate("label-book1-lesson39-title")} quoteText={translate("label-book1-lesson39-quote")} quoteReference={translate("label-book1-lesson39-quote-reference")}/>
         <div className="ion-padding">
           <IonItem className="lesson-note" lines="none">
             <IonButton

@@ -22,7 +22,7 @@ export const CompanionsPage: React.FC = () => {
      
      <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
-        <LessonHeader title={translate("label-book3-lesson22-title")} quoteText={translate("label-book3-lesson22-quote")} quoteReference={translate("label-book3-lesson22-quote-reference")} color="razimic" />
+        <LessonHeader title={translate("label-book3-lesson22-title")} quoteText={translate("label-book3-lesson22-quote")} quoteReference={translate("label-book3-lesson22-quote-reference")}/>
         <IonGrid>
           <IonRow>
             <IonCol size="6">

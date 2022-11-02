@@ -85,7 +85,7 @@ export const SegmentLessonPage: React.FC<
     <IonPage>
       <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
-        <LessonHeader title={translate(lesson?.title!)} quoteText={translate(lesson?.quoteText!)} quoteReference={translate(lesson?.quoteReference!)} color={lesson?.color} />
+        <LessonHeader title={translate(lesson?.title!)} quoteText={translate(lesson?.quoteText!)} quoteReference={translate(lesson?.quoteReference!)}/>
         
         <div style={{marginLeft:"10px",marginRight:"10px",marginTop:"30px"}}>{standardSectionItems}</div>
         <div style={{marginLeft:"10px",marginRight:"10px",marginTop:"30px"}}>

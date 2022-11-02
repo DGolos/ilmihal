@@ -12,7 +12,7 @@ export const IslamMainPage: React.FC = () => {
       <IonPage>
         <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
-        <LessonHeader title={translate("label-book1-lesson12-title")} quoteText={translate("label-book1-lesson12-quote")} quoteReference={translate("label-hadeeth-reference")} color="burgundy" />
+        <LessonHeader title={translate("label-book1-lesson12-title")} quoteText={translate("label-book1-lesson12-quote")} quoteReference={translate("label-hadeeth-reference")}/>
         
         
           <div style={{marginLeft:"10px",marginRight:"10px",marginTop:"30px"}}>

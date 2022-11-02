@@ -22,7 +22,7 @@ export const BeliefPage: React.FC = () => {
     <IonPage>
       <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
-      <LessonHeader title={translate("label-book1-lesson25-title")} quoteText={translate("label-book1-lesson25-quote")} quoteReference={translate("label-book1-lesson25-quote-reference")} color="burgundy" />
+      <LessonHeader title={translate("label-book1-lesson25-title")} quoteText={translate("label-book1-lesson25-quote")} quoteReference={translate("label-book1-lesson25-quote-reference")} />
         <div className="ion-padding">
           <IonItem className="lesson-note" lines="none">
             <IonText>

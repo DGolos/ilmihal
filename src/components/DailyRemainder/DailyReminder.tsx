@@ -13,31 +13,7 @@ export const DailyRemainder = () => {
             
             <IonCardTitle className='dailyRemainderCardTitle'>Es-selamu alejkum</IonCardTitle>
           </IonCardHeader>
-          <IonCardContent>
-              <div>
-              <IonText className='dailyRemainderCardSubject'>
-              {translate(dailyRemainder?.subject)}
-              </IonText>
-              </div>
-              <br/>
-              <div>
-              <IonText className='dailyRemainderCardSubjectReference'>
-              {translate(dailyRemainder?.text)}
-              </IonText>
-              </div>
-              <div style={{marginTop:"5px"}}>
-              <IonText className='dailyRemainderCardSubjectReference'>
-              {translate(dailyRemainder?.source)}
-              </IonText>
-              </div>
-              <div>
-              <IonText className='dailyRemainderCardSubjectReference'>
-              {translate(dailyRemainder?.reference)}
-              </IonText>
-              </div>
-              
-            
-      </IonCardContent>
+          
         </IonCard>
   )
 }

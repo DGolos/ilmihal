@@ -25,7 +25,7 @@ import useTranslation from "../../hooks/useTranslation";
       <IonPage>
         <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
-        <LessonHeader title={translate("label-book3-lesson16-title")} quoteText={translate("label-book3-lesson16-quote")} quoteReference={translate("label-book3-lesson16-quote-reference")} color="razimic" />
+        <LessonHeader title={translate("label-book3-lesson16-title")} quoteText={translate("label-book3-lesson16-quote")} quoteReference={translate("label-book3-lesson16-quote-reference")}/>
         <IonGrid>
           <IonRow>
             <IonCol size="6">

@@ -91,7 +91,7 @@ export const MainCategoryPage: React.FC = () => {
               <MenuItem 
                     title={translate("label-book3-lesson2-title")} 
                     description={translate("label-book3-lesson2-title-description")} 
-                    icon="/assets/images/book.png" 
+                    icon="/assets/images/Book.png" 
                     link="/tabs/QuranReaderListPage"
                     color="Burgundy"/>
                 

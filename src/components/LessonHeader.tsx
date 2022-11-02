@@ -1,15 +1,17 @@
 import { IonCard, IonCardTitle, IonCardContent, IonCardSubtitle, IonText, IonCardHeader } from '@ionic/react';
 import React from 'react';
+import usePrayerTimes from '../hooks/usePrayerTimes';
 import './LessonHeader.css'
 
 interface LessonHeaderProps{
     title?:string;
     quoteText?:string;
     quoteReference?:string;
-    color?:string;
+    
 }
 
-export const LessonHeader: React.FC<LessonHeaderProps> = ({title,quoteText,quoteReference,color}) => {
+export const LessonHeader: React.FC<LessonHeaderProps> = ({title,quoteText,quoteReference}) => {
+  const{color}=usePrayerTimes(new Date().getDay());
     return (
         <IonCard
           className="lessonHeader ion-padding"

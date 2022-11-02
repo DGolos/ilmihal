@@ -11,7 +11,7 @@ export const MainBookPage: React.FC = () => {
   return (
     <IonPage>
       <IonContent className="bg-image-standard">
-      <LessonHeader title={translate("label-book-main")} quoteText={translate("label-book3-lesson15-quote")} quoteReference={translate("label-book3-lesson15-quote-reference")} color="razimic" />
+      <LessonHeader title={translate("label-book-main")} quoteText={translate("label-book3-lesson15-quote")} quoteReference={translate("label-book3-lesson15-quote-reference")}/>
       <IonGrid>
             <IonRow>
               <IonCol size="6">

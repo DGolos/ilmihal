@@ -8,23 +8,21 @@ import {
 import { timeService } from "../../services/TimeService";
 import { HomeHeader } from "../../components/HomeHeader";
 import {DailyRemainder,DailyHadith,DailyAyah} from "../../components";
+import usePrayerTimes from "../../hooks/usePrayerTimes";
 
 
 export const HomePage: React.FC = () => {
-  const [period, setPeriod] = useState("");
+  const {currentPeriod}=usePrayerTimes(new Date().getDay());
 
-  useIonViewWillEnter(() => {
-    setPeriod("bg-image-" + timeService.getCurrentPeriod());
-  });
 
   return (
     <IonPage>
       <HomeHeader/>
-      <IonContent className={period} fullscreen>
+      <IonContent className={`bg-image-${currentPeriod}`} fullscreen>
         <div style={{marginTop:"75px"}}>
           <DailyRemainder/>
         </div>
-        <div>
+        <div style={{marginTop:"100px"}}>
           <DailyAyah/>
         </div>
         <div>

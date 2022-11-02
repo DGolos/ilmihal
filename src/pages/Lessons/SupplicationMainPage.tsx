@@ -22,7 +22,7 @@ export const SupplicationMainPage: React.FC = () => {
     <IonPage>
       <StandardHeader />
       <IonContent className="bg-image-standard" fullscreen>
-      <LessonHeader title={translate("label-book3-lesson12-title")} quoteText={translate("label-book3-lesson12-quote")} quoteReference={translate("label-book3-lesson12-quote-reference")} color="dark-brown" />
+      <LessonHeader title={translate("label-book3-lesson12-title")} quoteText={translate("label-book3-lesson12-quote")} quoteReference={translate("label-book3-lesson12-quote-reference")}/>
         <IonGrid>
           <IonRow>
             <IonCol size="6">

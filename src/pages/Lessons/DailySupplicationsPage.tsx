@@ -25,7 +25,7 @@ export const DailySupplicationsPage: React.FC = () => {
       <StandardHeader />
       
       <IonContent className="bg-image-standard" fullscreen>
-      <LessonHeader title={translate("label-book3-lesson15-title")} quoteText={translate("label-book3-lesson15-quote")} quoteReference={translate("label-book3-lesson15-quote-reference")} color="burgundy" />
+      <LessonHeader title={translate("label-book3-lesson15-title")} quoteText={translate("label-book3-lesson15-quote")} quoteReference={translate("label-book3-lesson15-quote-reference")}/>
         <div className="ion-padding">
           <IonItem detail={false} className="lesson-note" lines="none">
             <IonGrid className="ion-text-left">

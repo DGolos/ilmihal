@@ -10,7 +10,7 @@ export const HajjDefinitionPage: React.FC = () => {
       <IonPage>
         <StandardHeader />
         <IonContent className="bg-image-standard" fullscreen>
-        <LessonHeader title={translate("label-book1-lesson34-title")} quoteText={translate("label-book1-lesson34-quote")} quoteReference={translate("label-book1-lesson34-quote-reference")} color="purple" />
+        <LessonHeader title={translate("label-book1-lesson34-title")} quoteText={translate("label-book1-lesson34-quote")} quoteReference={translate("label-book1-lesson34-quote-reference")}/>
         <div className="ion-padding">
             <IonItem className="lesson-note" lines="none">
               <IonText>
