@@ -371,7 +371,7 @@ class TimeService {
   }
 
   async getPrayertimes() {
-    if(this.currentDayOfWeek!=new Date().getDay()){
+    if(this.currentDayOfWeek!==new Date().getDay()){
       this.init();
     }
     return {
