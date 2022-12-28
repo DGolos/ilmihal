@@ -59,7 +59,7 @@ const PrayerTimesPage: React.FC = () => {
         <IonCard className="prayer ion-padding transparent ion-text-center">
           <h1 style={{ fontSize: "24px", fontWeight: "normal" }}>{translationService.getLabel(`label-month-${currentMonth}`)}</h1>
 
-          <p style={{ fontSize: "18px", fontWeight: "normal" }}>2022</p>
+          <p style={{ fontSize: "18px", fontWeight: "normal" }}>2023</p>
           
         </IonCard>
         <div>

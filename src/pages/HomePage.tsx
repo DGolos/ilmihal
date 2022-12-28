@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   IonAvatar,
   IonCol,
@@ -10,20 +10,17 @@ import {
   IonNote,
   IonPage,
   IonRow,
-  IonText,
-  useIonViewWillEnter,
+  IonText
 } from "@ionic/react";
 
 import { timeService } from "../services/TimeService";
 import { translationService } from "../services/TranslationService";
+import useBackground from "../hooks/useBackground";
 
 const HomePage: React.FC = () => {
-  const [period, setPeriod] = useState("");
+  const currentPeriod=useBackground();
 
-  useIonViewWillEnter(() => {
-    setPeriod("bg-image-" + timeService.getCurrentPeriod());
-  });
-
+ 
   return (
     <IonPage>
       <IonHeader className="ion-no-border" style={{ padding: "15px" }}>
@@ -32,7 +29,7 @@ const HomePage: React.FC = () => {
           <p>{timeService.getFormattedIslamicDate()}</p>
         </IonText>
       </IonHeader>
-      <IonContent className={period} fullscreen>
+      <IonContent className={`bg-image-${currentPeriod}`} fullscreen>
         <div className="center">
           
          

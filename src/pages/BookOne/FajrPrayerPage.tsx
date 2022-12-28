@@ -58,7 +58,7 @@ const FajrPrayerPage: React.FC = () => {
           </IonItem>
         </div>
         <div className="ion-padding">
-          <IonItem className="lesson-note">
+          <IonItem className="lesson-note" lines="none">
             <IonText>
               <h2 className="lesson-note">
               {translationService.getLabel('label-book1-lesson19_section1-paragraph1')}

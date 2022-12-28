@@ -60,11 +60,11 @@ class TimeService {
   maghribSeconds = 0;
   preIshaSeconds = 0;
   ishaSeconds = 0;
-  lastComputedDate: Date = new Date(1900, 0, 1);
+  currentDayOfWeek= -1;
   currentLocation:Location={id:"",name:"",country:""};
   daylyPrayers:DailyPrayer[]=[];
   currentDay:DailyPrayer={city:"",day:1,month:1,monthText:"",islamicDay:1,islamisMonth:"",isJummah:false,fajr:"",sunrise:"",dhuhr:"",asr:"",maghrib:"",isha:"",holyday:""};
-
+  currentPrayerTime="";
   async calculatePrayertimes() {
     
     const fajrObj = moment(this.currentDay.fajr, "H:m");
@@ -88,7 +88,7 @@ class TimeService {
     const ishaObj = moment(this.currentDay.isha, "H:m");
     this.ishaSeconds = ishaObj.hours() * 3600 + ishaObj.minutes() * 60;
     this.preIshaSeconds = (this.ishaSeconds + this.maghribSeconds) / 2;
-    this.lastComputedDate = new Date();
+    this.currentDayOfWeek = new Date().getDay();
   }
 
   async getTimesFromStorage(){
@@ -118,6 +118,7 @@ class TimeService {
       this.daylyPrayers = JSON.parse(JSON.stringify(dailyPrayersBody));
 
       const currentDate = new Date();
+      this.currentDayOfWeek = new Date().getDay();
 
       const day=this.daylyPrayers.find(item=>item.city===this.currentLocation.id && item.day===currentDate.getDate() && item.month===currentDate.getMonth()+1);
 
@@ -213,71 +214,68 @@ class TimeService {
     const timeStamp =
       currentTime.getHours() * 3600 + currentTime.getMinutes() * 60;
 
-    let headers: string[] = [];
+    let headers: any[] = [];
 
     if (timeStamp < this.fajrSeconds) {
-      headers.push("label-next-prayer");
       headers.push("label-fajr-prayer");
-      headers.push(this.formatTime(this.fajrSeconds - timeStamp));
+      headers.push((this.fajrSeconds - timeStamp).toString());
     } else if (
       timeStamp >= this.fajrSeconds &&
       timeStamp < this.sunriseSeconds
     ) {
-      headers.push("label-current-prayer");
       headers.push("label-fajr-prayer");
+      this.currentPrayerTime=this.currentDay.fajr;
     } else if (
       timeStamp >= this.sunriseSeconds &&
       timeStamp < this.preDhuhrSeconds
     ) {
       headers.push("label-no-prayer");
+      headers.push(0);
     } else if (
       timeStamp >= this.preDhuhrSeconds &&
       timeStamp < this.dhuhrSeconds
     ) {
-      headers.push("label-next-prayer");
       headers.push("label-dhuhr-prayer");
-      headers.push(this.formatTime(this.dhuhrSeconds - timeStamp));
+      headers.push((this.dhuhrSeconds - timeStamp).toString());
+      
     } else if (
       timeStamp >= this.dhuhrSeconds &&
       timeStamp < this.preAsrSeconds
     ) {
-      headers.push("label-current-prayer");
       headers.push("label-dhuhr-prayer");
+      this.currentPrayerTime=this.currentDay.dhuhr;
     } else if (timeStamp >= this.preAsrSeconds && timeStamp < this.asrSeconds) {
-      headers.push("label-next-prayer");
       headers.push("label-asr-prayer");
-      headers.push(this.formatTime(this.asrSeconds - timeStamp));
+      headers.push((this.asrSeconds - timeStamp).toString());
     } else if (
       timeStamp >= this.asrSeconds &&
       timeStamp < this.preMaghribSeconds
     ) {
-      headers.push("label-current-prayer");
       headers.push("label-asr-prayer");
+      this.currentPrayerTime=this.currentDay.asr;
     } else if (
       timeStamp >= this.preMaghribSeconds &&
       timeStamp < this.maghribSeconds
     ) {
-      headers.push("label-next-prayer");
       headers.push("label-maghrib-prayer");
-      headers.push(this.formatTime(this.maghribSeconds - timeStamp));
+      headers.push((this.maghribSeconds - timeStamp).toString());
     } else if (
       timeStamp >= this.maghribSeconds &&
       timeStamp < this.preIshaSeconds
     ) {
-      headers.push("label-current-prayer");
       headers.push("label-maghrib-prayer");
+      this.currentPrayerTime=this.currentDay.maghrib;
     } else if (
       timeStamp >= this.preIshaSeconds &&
       timeStamp < this.ishaSeconds
     ) {
-      headers.push("label-next-prayer");
       headers.push("label-isha-prayer");
-      headers.push(this.formatTime(this.ishaSeconds - timeStamp));
+      headers.push((this.ishaSeconds - timeStamp).toString());
     } else if (timeStamp >= this.ishaSeconds) {
-      headers.push("label-current-prayer");
       headers.push("label-isha-prayer");
+      this.currentPrayerTime=this.currentDay.isha;
     }
-
+    
     return headers;
   }
 
@@ -309,9 +307,73 @@ class TimeService {
     return `${this.currentDay.islamicDay} ${this.currentDay.islamisMonth}`;
   }
 
-  
+  getRemainingtime(){
+    const currentTime = new Date();
+    const timeStamp =
+      currentTime.getHours() * 3600 + currentTime.getMinutes() * 60+currentTime.getSeconds();
+
+    if (timeStamp < this.fajrSeconds) {
+      
+      return this.fajrSeconds - timeStamp;
+    } else if (
+      timeStamp >= this.fajrSeconds &&
+      timeStamp < this.sunriseSeconds
+    ) {
+      return 0;
+    } else if (
+      timeStamp >= this.sunriseSeconds &&
+      timeStamp < this.preDhuhrSeconds
+    ) {
+      return 0;
+    } else if (
+      timeStamp >= this.preDhuhrSeconds &&
+      timeStamp < this.dhuhrSeconds
+    ) {
+      
+      return this.dhuhrSeconds - timeStamp;
+      
+    } else if (
+      timeStamp >= this.dhuhrSeconds &&
+      timeStamp < this.preAsrSeconds
+    ) {
+      return 0;
+    } else if (timeStamp >= this.preAsrSeconds && timeStamp < this.asrSeconds) {
+      
+      return this.asrSeconds - timeStamp;
+    } else if (
+      timeStamp >= this.asrSeconds &&
+      timeStamp < this.preMaghribSeconds
+    ) {
+      return 0;
+    } else if (
+      timeStamp >= this.preMaghribSeconds &&
+      timeStamp < this.maghribSeconds
+    ) {
+      console.log(this.maghribSeconds - timeStamp);
+      return this.maghribSeconds - timeStamp;
+      
+    } else if (
+      timeStamp >= this.maghribSeconds &&
+      timeStamp < this.preIshaSeconds
+    ) {
+      return 0;
+    } else if (
+      timeStamp >= this.preIshaSeconds &&
+      timeStamp < this.ishaSeconds
+    ) {
+      return this.ishaSeconds - timeStamp;
+      
+    } else if (timeStamp >= this.ishaSeconds) {
+      return 0;
+    }
+    
+    return 0;
+  }
 
   async getPrayertimes() {
+    if(this.currentDayOfWeek!=new Date().getDay()){
+      this.init();
+    }
     return {
       startOfFast: this.currentDay.fajr,
       fajr: this.currentDay.fajr,
@@ -325,6 +387,10 @@ class TimeService {
       city:this.currentLocation.name,
       country:this.currentLocation.country,
     };
+  }
+
+  getCurrentPrayertime(){
+    return this.currentPrayerTime;
   }
 
   getPrayerTimesByMonth(month:number):DailyPrayer[]{

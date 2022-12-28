@@ -14,7 +14,7 @@ export const EidPrayerPage: React.FC = () => {
           </IonHeader>
           <IonContent className="bg-image-fajr" fullscreen>
           <div style={{ marginTop: 15, marginLeft: 15, marginRight: 15 }}>
-            <IonItem className="welcome">
+            <IonItem className="welcome" lines="none">
               <IonGrid>
                 <IonRow className="ion-no-padding">
                   <IonCol size="12">

@@ -117,38 +117,8 @@ const LocationOptionsPage: React.FC = () => {
 
     const noCities: Location[] = [
       {
-        "id": "Trondheim",
-        "name": "Trondheim",
-        "country": "NO"
-      },
-      {
         "id": "Alesund",
         "name": "Ålesund",
-        "country": "NO"
-      },
-      {
-        "id": "Bergen",
-        "name": "Bergen",
-        "country": "NO"
-      },
-      {
-        "id": "Haugesund",
-        "name": "Haugesund",
-        "country": "NO"
-      },
-      {
-        "id": "Stavanger",
-        "name": "Stavanger",
-        "country": "NO"
-      },
-      {
-        "id": "Bryne",
-        "name": "Bryne",
-        "country": "NO"
-      },
-      {
-        "id": "Kristiansand",
-        "name": "Kristiansand",
         "country": "NO"
       },
       {
@@ -157,38 +127,8 @@ const LocationOptionsPage: React.FC = () => {
         "country": "NO"
       },
       {
-        "id": "Skien",
-        "name": "Skien",
-        "country": "NO"
-      },
-      {
-        "id": "Sandefjord",
-        "name": "Sandefjord/Horten",
-        "country": "NO"
-      },
-      {
-        "id": "Drammen",
-        "name": "Drammen",
-        "country": "NO"
-      },
-      {
-        "id": "Oslo",
-        "name": "Oslo",
-        "country": "NO"
-      },
-      {
-        "id": "Sarpsborg",
-        "name": "Østfold",
-        "country": "NO"
-      },
-      {
-        "id": "Lillehammer",
-        "name": "Lillehammer",
-        "country": "NO"
-      },
-      {
-        "id": "Tromsø",
-        "name": "Tromsø",
+        "id": "Bergen",
+        "name": "Bergen",
         "country": "NO"
       },
       {
@@ -197,8 +137,23 @@ const LocationOptionsPage: React.FC = () => {
         "country": "NO"
       },
       {
+        "id": "Drammen",
+        "name": "Drammen",
+        "country": "NO"
+      },
+      {
+        "id": "Gjøvik",
+        "name": "Gjøvik",
+        "country": "NO"
+      },
+      {
         "id": "Harstad",
         "name": "Harstad",
+        "country": "NO"
+      },
+      {
+        "id": "Haugesund",
+        "name": "Haugesund",
         "country": "NO"
       },
       {
@@ -212,10 +167,60 @@ const LocationOptionsPage: React.FC = () => {
         "country": "NO"
       },
       {
-        "id": "Hamar",
-        "name": "Gjøvik",
+        "id": "Kristiansand",
+        "name": "Kristiansand",
         "country": "NO"
-      }
+      },
+      {
+        "id": "Lyngdal",
+        "name": "Lyngdal",
+        "country": "NO"
+      },
+      {
+        "id": "Oslo",
+        "name": "Oslo",
+        "country": "NO"
+      },
+      {
+        "id": "Ostfold",
+        "name": "Østfold",
+        "country": "NO"
+      },
+      {
+        "id": "Sandefjord-Horten",
+        "name": "Sandefjord/Horten",
+        "country": "NO"
+      },
+      {
+        "id": "Sarpsborg",
+        "name": "Østfold",
+        "country": "NO"
+      },
+        
+      {
+        "id": "Skien",
+        "name": "Skien",
+        "country": "NO"
+      },
+      
+      {
+        "id": "Stavanger",
+        "name": "Stavanger",
+        "country": "NO"
+      },
+  
+      {
+        "id": "Tromsø",
+        "name": "Tromsø",
+        "country": "NO"
+      },
+   
+      {
+        "id": "Trondheim",
+        "name": "Trondheim",
+        "country": "NO"
+      },
+      
     ]
 
     setBosnianCities(baCities);

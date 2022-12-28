@@ -114,116 +114,111 @@ const ChooseLocationPage: React.FC = () => {
 
     const noCities: Location[] = [
       {
-        id: "Trondheim",
-        name: "Trondheim",
-        country: "NO",
+        "id": "Alesund",
+        "name": "Ålesund",
+        "country": "NO"
       },
       {
-        id: "Alesund",
-        name: "Ålesund",
-        country: "NO",
+        "id": "Arendal",
+        "name": "Arendal",
+        "country": "NO"
       },
       {
-        id: "Bergen",
-        name: "Bergen",
-        country: "NO",
+        "id": "Bergen",
+        "name": "Bergen",
+        "country": "NO"
       },
       {
-        id: "Haugesund",
-        name: "Haugesund",
-        country: "NO",
+        "id": "Bodo",
+        "name": "Bodø",
+        "country": "NO"
       },
       {
-        id: "Stavanger",
-        name: "Stavanger",
-        country: "NO",
+        "id": "Drammen",
+        "name": "Drammen",
+        "country": "NO"
       },
       {
-        id: "Bryne",
-        name: "Bryne",
-        country: "NO",
+        "id": "Gjøvik",
+        "name": "Gjøvik",
+        "country": "NO"
       },
       {
-        id: "Kristiansand",
-        name: "Kristiansand",
-        country: "NO",
+        "id": "Harstad",
+        "name": "Harstad",
+        "country": "NO"
       },
       {
-        id: "Arendal",
-        name: "Arendal",
-        country: "NO",
+        "id": "Haugesund",
+        "name": "Haugesund",
+        "country": "NO"
       },
       {
-        id: "Skien",
-        name: "Skien",
-        country: "NO",
+        "id": "Kirkenes",
+        "name": "Kirkenes",
+        "country": "NO"
       },
       {
-        id: "Sandefjord",
-        name: "Sandefjord/Horten",
-        country: "NO",
+        "id": "Kongsvinger",
+        "name": "Kongsvinger",
+        "country": "NO"
       },
       {
-        id: "Drammen",
-        name: "Drammen",
-        country: "NO",
+        "id": "Kristiansand",
+        "name": "Kristiansand",
+        "country": "NO"
       },
       {
-        id: "Oslo",
-        name: "Oslo",
-        country: "NO",
+        "id": "Lyngdal",
+        "name": "Lyngdal",
+        "country": "NO"
       },
       {
-        id: "Sarpsborg",
-        name: "Sarpsborg",
-        country: "NO",
+        "id": "Oslo",
+        "name": "Oslo",
+        "country": "NO"
       },
       {
-        id: "Ostfold",
-        name: "Østfold",
-        country: "NO",
+        "id": "Ostfold",
+        "name": "Østfold",
+        "country": "NO"
       },
       {
-        id: "Lillehammer",
-        name: "Lillehammer",
-        country: "NO",
+        "id": "Sandefjord-Horten",
+        "name": "Sandefjord/Horten",
+        "country": "NO"
       },
       {
-        id: "Tromso",
-        name: "Tromsø",
-        country: "NO",
+        "id": "Sarpsborg",
+        "name": "Østfold",
+        "country": "NO"
       },
+        
       {
-        id: "Bodo",
-        name: "Bodø",
-        country: "NO",
+        "id": "Skien",
+        "name": "Skien",
+        "country": "NO"
       },
+      
       {
-        id: "Harstad",
-        name: "Harstad",
-        country: "NO",
+        "id": "Stavanger",
+        "name": "Stavanger",
+        "country": "NO"
       },
+  
       {
-        id: "Kirkenes",
-        name: "Kirkenes",
-        country: "NO",
+        "id": "Tromsø",
+        "name": "Tromsø",
+        "country": "NO"
       },
+   
       {
-        id: "Kongsvinger",
-        name: "Kongsvinger",
-        country: "NO",
+        "id": "Trondheim",
+        "name": "Trondheim",
+        "country": "NO"
       },
-      {
-        id: "Gjøvik",
-        name: "Gjøvik",
-        country: "NO",
-      },
-      {
-        id: "Lyngdal",
-        name: "Lyngdal",
-        country: "NO",
-      },
-    ];
+      
+    ]
 
     setBosnianCities(baCities);
     setNorwegianCities(noCities);
