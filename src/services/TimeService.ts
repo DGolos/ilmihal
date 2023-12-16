@@ -7,6 +7,7 @@ export interface DailyPrayer {
   city: string;
   day: number;
   month: number;
+  year:number;
   monthText: string;
   islamicDay: number;
   islamisMonth: string;
@@ -18,6 +19,16 @@ export interface DailyPrayer {
   maghrib: string;
   isha: string;
   holyday: string;
+}
+
+export interface DailyPrayerShort{
+  day: number;
+  fajr:string;
+  dhuhr:string,
+  asr:string,
+  maghrib:string,
+  isha:string;
+  
 }
 
 export interface PrayersProps {
@@ -48,6 +59,29 @@ export interface prayerStorage{
   maghrib: string;
   isha: string;
 }
+
+const cityMap: Map<string, string> = new Map([
+  ['Alesund', "117"],
+  ['Areandal', "119"],
+  ['Bergen', "123"],
+  ['Bodo', "124"],
+  ['Drammen', "128"],
+  ['Gjøvik', "134"],
+  ['Harstad', "142"],
+  ['Haugesund', "143"],
+  ['Kirkenes', "151"],
+  ['Kongsvinger', "153"],
+  ['Kristiansand', "328"],
+  ['Lyngdal', "167"],
+  ['Oslo', "181"],
+  ['Sandefjord-Horten', "190"],
+  ['Sarpsborg', "193"],
+  ['Skien', "196"],
+  ['Stavanger', "200"],
+  ['Tromsø', "208"],
+  ['Trondheim', "209"],
+]);
+
 class TimeService {
   
   fajrSeconds = 0;
@@ -62,8 +96,7 @@ class TimeService {
   ishaSeconds = 0;
   currentDayOfWeek= -1;
   currentLocation:Location={id:"",name:"",country:""};
-  daylyPrayers:DailyPrayer[]=[];
-  currentDay:DailyPrayer={city:"",day:1,month:1,monthText:"",islamicDay:1,islamisMonth:"",isJummah:false,fajr:"",sunrise:"",dhuhr:"",asr:"",maghrib:"",isha:"",holyday:""};
+  currentDay:DailyPrayer={city:"",day:1,month:1,year:2024,monthText:"",islamicDay:1,islamisMonth:"",isJummah:false,fajr:"",sunrise:"",dhuhr:"",asr:"",maghrib:"",isha:"",holyday:""};
   currentPrayerTime="";
   async calculatePrayertimes() {
     
@@ -113,35 +146,38 @@ class TimeService {
 
       const locationObj=await storageService.get("locationData");
       this.currentLocation=JSON.parse(locationObj!);
-      
-      const dailyPrayersBody=await fetch("assets/data/times.json").then(response=>response.json());
-      this.daylyPrayers = JSON.parse(JSON.stringify(dailyPrayersBody));
 
       const currentDate = new Date();
-      this.currentDayOfWeek = new Date().getDay();
 
-      const day=this.daylyPrayers.find(item=>item.city===this.currentLocation.id && item.day===currentDate.getDate() && item.month===currentDate.getMonth()+1);
+      this.currentDay.day=currentDate.getDay();
+      this.currentDay.month=currentDate.getMonth()+1;
+      this.currentDay.year=currentDate.getFullYear();
+      this.currentDay.monthText=translationService.getLabel(`label-month-${this.currentDay.month}`);
+    
+      if(this.currentLocation.country==="NO")
+      {
+          if(isNaN(+this.currentLocation.id)){
+            this.currentLocation.id=cityMap.get(this.currentLocation.id)!;
+            storageService.set("locationData",this.currentLocation);
+          }
 
-      
-      this.currentDay.city=day?.city!;
-      this.currentDay.day=day?.day!;
-      this.currentDay.month=day?.month!;
-      this.currentDay.monthText=day?.monthText!;
-      this.currentDay.islamicDay=day?.islamicDay!;
-      this.currentDay.islamisMonth=day?.islamisMonth!;
-      this.currentDay.isJummah=day?.isJummah!;
-      this.currentDay.fajr=day?.fajr!;
-      this.currentDay.sunrise=day?.sunrise!;
-      this.currentDay.dhuhr=day?.dhuhr!;
-      this.currentDay.asr=day?.asr!;
-      this.currentDay.maghrib=day?.maghrib!;
-      this.currentDay.isha=day?.isha!;
-      this.currentDay.holyday=day?.holyday!;
+          const response = await axios.get(`https://api.bonnetid.no/prayertimes/${this.currentLocation.id}/${currentDate.getFullYear()}/${currentDate.getMonth()+1}/${currentDate.getDay()}`,
+            {
+              headers: {
+                  'Api-Token': '213c2f4d-792e-4ccc-85aa-b3eef7aa1c20'
+              }
+          });
+          
+          this.currentDay.fajr=response.data.fajr;
+          this.currentDay.sunrise=response.data.shuruq_sunrise;
+          this.currentDay.dhuhr=response.data.duhr;
+          this.currentDay.asr=response.data.asr;
+          this.currentDay.maghrib=response.data.maghrib;
+          this.currentDay.isha=response.data.isha;
+      }
 
-      
-     
-      
-      if(this.currentLocation.country==="BA"){
+
+      else if(this.currentLocation.country==="BA"){
         
         var timeTable: string[]=[];
         const response = await axios.get(`https://api.vaktija.ba/vaktija/v1/${this.currentLocation.id}`);
@@ -154,7 +190,7 @@ class TimeService {
         this.currentDay.isha = timeTable[5];
   
       }      
-      
+      this.currentDay.city=this.currentLocation.name;
       this.calculatePrayertimes();
       this.updateStorage();
     }
@@ -300,7 +336,7 @@ class TimeService {
   }
 
   getFormattedDate(){
-    return `${this.currentDay.day} ${this.currentDay.monthText} 2022`;
+    return `${this.currentDay.day} ${this.currentDay.monthText} ${this.currentDay.year}`;
   }
 
   getFormattedIslamicDate(){
@@ -393,12 +429,31 @@ class TimeService {
     return this.currentPrayerTime;
   }
 
-  getPrayerTimesByMonth(month:number):DailyPrayer[]{
+  async getPrayerTimesByMonth(month:number):Promise<DailyPrayerShort[]>{
+    const currentDate = new Date();
+    let dailyPrayers:DailyPrayerShort[]=[];
+    const response = await axios.get(`https://api.bonnetid.no/prayertimes/${this.currentLocation.id}/${currentDate.getFullYear()}/${month}`,
+            {
+              headers: {
+                  'Api-Token': '213c2f4d-792e-4ccc-85aa-b3eef7aa1c20'
+              }
+          });
     
-    return this.daylyPrayers.filter((item) => {
-      return item.month===month && item.city===this.currentLocation.id;
-    })
-
+        for (let day of response.data) {
+          
+          dailyPrayers.push(
+            {
+              day:1,
+              fajr:day.fajr,
+              dhuhr:day.duhr,
+              asr:day.asr,
+              maghrib:day.maghrib,
+              isha:day.isha
+            }
+          );
+      }
+    
+      return dailyPrayers;
     
   }
 }

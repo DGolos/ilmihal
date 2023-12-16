@@ -55,7 +55,7 @@ const PrayerTimesPage: React.FC = () => {
                 changeLocation();
               }}
             >
-              <IonText color="light">
+              <IonText style={{color:"white"}}>
                 {translationService.getLabel("label-change-location")}
               </IonText>
             </IonButton>
@@ -66,7 +66,7 @@ const PrayerTimesPage: React.FC = () => {
               }}
               hidden={prayers?.country === "BA" }
             >
-              <IonText color="light">
+              <IonText style={{color:"white"}}>
                 {translationService.getLabel("label-monthly_prayer-times")}
               </IonText>
             </IonButton>

@@ -11,24 +11,29 @@ import {
   IonPage,
   IonRow,
   
+  IonText,
+  
   IonToolbar,
   
 } from "@ionic/react";
 import React, { useEffect, useState } from "react";
+import useBackground from "../../../hooks/useBackground";
 
 import {
-  DailyPrayer,
+  DailyPrayerShort,
   timeService,
 } from "../../../services/TimeService";
 import { translationService } from "../../../services/TranslationService";
 
 const PrayerTimesPage: React.FC = () => {
   const [currentMonth, setCurrentMonth] = useState(1);
-  const [prayerTimes, setPrayerTimes] = useState<DailyPrayer[]>([]);
+  const [prayerTimes, setPrayerTimes] = useState<DailyPrayerShort[]>([]);
+  const currentPeriod=useBackground();
+  const currentYear=new Date().getFullYear();
 
   useEffect(() => {
     const getPrayerTimes = async () =>{
-      const result = timeService.getPrayerTimesByMonth(currentMonth);
+      const result = await timeService.getPrayerTimesByMonth(currentMonth);
       setPrayerTimes([...result]);
       
     }
@@ -53,13 +58,12 @@ const PrayerTimesPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent
-        className={`bg-image-${timeService.getCurrentPeriod()}`}
-        fullscreen
+        className={`bg-image-${currentPeriod}`} fullscreen
       >
         <IonCard className="prayer ion-padding transparent ion-text-center">
-          <h1 style={{ fontSize: "24px", fontWeight: "normal" }}>{translationService.getLabel(`label-month-${currentMonth}`)}</h1>
+          <h1 style={{ fontSize: "24px", fontWeight: "bold" }}>{translationService.getLabel(`label-month-${currentMonth}`)}</h1>
 
-          <p style={{ fontSize: "18px", fontWeight: "normal" }}>2023</p>
+          <p style={{ fontSize: "18px", fontWeight: "normal" }}>${currentYear}</p>
           
         </IonCard>
         <div>
@@ -99,22 +103,22 @@ const PrayerTimesPage: React.FC = () => {
         <div >
           <IonGrid className="monthly-prayers">
             <IonRow>
-              <IonCol>Datum</IonCol>
-              <IonCol>Sabah</IonCol>
-              <IonCol>Podne</IonCol>
-              <IonCol>Ikindija</IonCol>
-              <IonCol>Aksam</IonCol>
-              <IonCol>Jacija</IonCol>
+              <IonCol><IonText style={{color:"black"}}>Datum</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>Sabah</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>Podne</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>Ikindija</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>Aksam</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>Jacija</IonText></IonCol>
             </IonRow>
             { prayerTimes.length>0 && prayerTimes.map((day,index)=>(
               <IonRow>
 
-              <IonCol>{prayerTimes[index].day}</IonCol>
-              <IonCol>{prayerTimes[index].fajr}</IonCol>
-              <IonCol>{prayerTimes[index].dhuhr}</IonCol>
-              <IonCol>{prayerTimes[index].asr}</IonCol>
-              <IonCol>{prayerTimes[index].maghrib}</IonCol>
-              <IonCol>{prayerTimes[index].isha}</IonCol>
+              <IonCol><IonText style={{color:"black"}}>{index+1}</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].fajr}</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].dhuhr}</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].asr}</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].maghrib}</IonText></IonCol>
+              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].isha}</IonText></IonCol>
               </IonRow>
             ))
 

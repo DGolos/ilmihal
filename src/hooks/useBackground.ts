@@ -13,8 +13,7 @@ const useBackground=():string=>{
         
         const interval = setInterval(() => {
             setCurrentPeriod(timeService.getCurrentPeriod());
-            console.log(currentPeriod);
-          }, 60000);
+            }, 60000);
           return () => clearInterval(interval);
     },[]);
 

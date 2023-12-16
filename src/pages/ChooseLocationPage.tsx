@@ -114,106 +114,101 @@ const ChooseLocationPage: React.FC = () => {
 
     const noCities: Location[] = [
       {
-        "id": "Alesund",
+        "id": "117",
         "name": "Ålesund",
         "country": "NO"
       },
       {
-        "id": "Arendal",
+        "id": "119",
         "name": "Arendal",
         "country": "NO"
       },
       {
-        "id": "Bergen",
-        "name": "Bergen",
+        "id": "123",
+        "name": "Bergen/Førde",
         "country": "NO"
       },
       {
-        "id": "Bodo",
+        "id": "124",
         "name": "Bodø",
         "country": "NO"
       },
       {
-        "id": "Drammen",
+        "id": "128",
         "name": "Drammen",
         "country": "NO"
       },
       {
-        "id": "Gjøvik",
-        "name": "Gjøvik",
+        "id": "134",
+        "name": "Gjøvik/Lillehammer",
         "country": "NO"
       },
       {
-        "id": "Harstad",
+        "id": "142",
         "name": "Harstad",
         "country": "NO"
       },
       {
-        "id": "Haugesund",
+        "id": "143",
         "name": "Haugesund",
         "country": "NO"
       },
       {
-        "id": "Kirkenes",
+        "id": "151",
         "name": "Kirkenes",
         "country": "NO"
       },
       {
-        "id": "Kongsvinger",
+        "id": "153",
         "name": "Kongsvinger",
         "country": "NO"
       },
       {
-        "id": "Kristiansand",
+        "id": "308",
         "name": "Kristiansand",
         "country": "NO"
       },
       {
-        "id": "Lyngdal",
+        "id": "167",
         "name": "Lyngdal",
         "country": "NO"
       },
       {
-        "id": "Oslo",
+        "id": "181",
         "name": "Oslo",
         "country": "NO"
       },
       {
-        "id": "Ostfold",
-        "name": "Østfold",
-        "country": "NO"
-      },
-      {
-        "id": "Sandefjord-Horten",
+        "id": "190",
         "name": "Sandefjord/Horten",
         "country": "NO"
       },
       {
-        "id": "Sarpsborg",
+        "id": "193",
         "name": "Østfold",
         "country": "NO"
       },
         
       {
-        "id": "Skien",
+        "id": "196",
         "name": "Skien",
         "country": "NO"
       },
       
       {
-        "id": "Stavanger",
+        "id": "200",
         "name": "Stavanger",
         "country": "NO"
       },
   
       {
-        "id": "Tromsø",
+        "id": "208",
         "name": "Tromsø",
         "country": "NO"
       },
    
       {
-        "id": "Trondheim",
+        "id": "209",
         "name": "Trondheim",
         "country": "NO"
       },
