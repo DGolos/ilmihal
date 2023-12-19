@@ -149,7 +149,7 @@ class TimeService {
 
       const currentDate = new Date();
 
-      this.currentDay.day=currentDate.getDay();
+      this.currentDay.day=currentDate.getDate();
       this.currentDay.month=currentDate.getMonth()+1;
       this.currentDay.year=currentDate.getFullYear();
       this.currentDay.monthText=translationService.getLabel(`label-month-${this.currentDay.month}`);
@@ -340,7 +340,8 @@ class TimeService {
   }
 
   getFormattedIslamicDate(){
-    return `${this.currentDay.islamicDay} ${this.currentDay.islamisMonth}`;
+    //return `${this.currentDay.islamicDay} ${this.currentDay.islamisMonth}`;
+    return "6 Džumade-l-uhra 1445";
   }
 
   getRemainingtime(){
