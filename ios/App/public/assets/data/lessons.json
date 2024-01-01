@@ -354,8 +354,8 @@
           "label-book1-lesson14_section2-paragraph9",
           "label-book1-lesson14_section2-paragraph10",
           "label-book1-lesson14_section2-paragraph11",
-          "label-book1-lesson14_section2-paragraph1",
-          "label-book1-lesson14_section2-paragraph12"
+          "label-book1-lesson14_section2-paragraph7",
+          "label-book1-lesson14_section2-paragraph13"
         ]
       }
     ]
@@ -405,8 +405,9 @@
           "label-book1-lesson14_section2-paragraph9",
           "label-book1-lesson14_section2-paragraph10",
           "label-book1-lesson14_section2-paragraph11",
-          "label-book1-lesson14_section2-paragraph1",
-          "label-book1-lesson14_section2-paragraph12"
+          "label-book1-lesson14_section2-paragraph12",
+          "label-book1-lesson14_section2-paragraph7",
+          "label-book1-lesson14_section2-paragraph13"
         ]
       }
     ]
@@ -500,7 +501,7 @@
     "bookId": "1",
     "title": "label-book1-lesson18-title",
     "color": "purple",
-    "audio": "dove",
+    "audio": "dova",
     "quoteText": "label-book1-lesson18-quote",
     "quoteReference": "label-book1-lesson18-quote-reference",
     "sections": [
@@ -1293,7 +1294,6 @@
             "label-book2-lesson22_section1-paragraph3",
             "label-book2-lesson22_section1-paragraph4",
             "label-book2-lesson22_section1-paragraph5",
-            "label-book2-lesson22_section1-paragraph6",
             "label-book2-lesson22_section1-paragraph6"
         ]
       }      
@@ -1419,7 +1419,7 @@
           "label-surah111-ayah2",
           "label-surah111-ayah3",
           "label-surah111-ayah4",
-          "label-surhah111-ayah5"
+          "label-surah111-ayah5"
         ]
       }
     ]
@@ -1456,7 +1456,7 @@
     "bookId": "2",
     "title": "label-book2-lesson30-title",
     "color": "razimic",
-    "audio": "Nasr",
+    "audio": "Kafirun",
     "quoteText": "label-book2-lesson30-quote",
     "quoteReference": "label-book2-lesson30-quote-reference",
     "sections": [

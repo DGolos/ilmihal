@@ -32,7 +32,7 @@ import { dataService } from './services/dataService';
 import ChooseLanguagePage from './pages/ChooseLanguagePage';
 import ChooseLocationPage from './pages/ChooseLocationPage';
 import MainApp from './pages/MainApp';
-import { storageService } from './services/StorageService';
+
 
 const App: React.FC = () => {
   const [initialized, setInitialized] = useState(false);

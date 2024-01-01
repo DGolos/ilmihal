@@ -20,8 +20,92 @@
         "value":"Promijeni"
     },
     {
+        "name":"label-monthly_prayer-times",
+        "value":"Mjesečna"
+    },
+    {
+        "name":"label-previous",
+        "value":"Prethodni"
+    },
+    {
+        "name":"label-next",
+        "value":"Slijedeći"
+    },
+    {
+        "name":"label-man",
+        "value":"Muškarac"
+    },
+    {
+        "name":"label-woman",
+        "value":"Žena"
+    },
+    {
+        "name":"label-search",
+        "value":"Traži"
+    },
+    {
+        "name":"label-notification",
+        "value":"Obavijest"
+    },
+    {
+        "name":"label-rate-app",
+        "value":"Ako vam se sviđa aplikacija, molimo vas da odete na AppStore/ Google Play i ocijenjite applikaciju. Hvala"
+    },
+    {
+        "name":"label-contact-us",
+        "value":"Sve pohvale, prijedloge i kritike možete poslati na izbun.development@gmail.com. Hvala"
+    },
+    {
         "name":"label-welcome-hadeeth",
-        "value":"\"Allah će učiniti put do Dženneta lahkim svakome ko traži znanje\""
+        "value":"\"Allah će učiniti put do Dženneta lahkim svakome ko traži znanje.\""
+    },
+    {
+        "name":"label-month-1",
+        "value":"Januar"
+    },
+    {
+        "name":"label-month-2",
+        "value":"Februar"
+    },
+    {
+        "name":"label-month-3",
+        "value":"Mart"
+    },
+    {
+        "name":"label-month-4",
+        "value":"April"
+    },
+    {
+        "name":"label-month-5",
+        "value":"Maj"
+    },
+    {
+        "name":"label-month-6",
+        "value":"Juni"
+    },
+    {
+        "name":"label-month-7",
+        "value":"Juli"
+    },
+    {
+        "name":"label-month-8",
+        "value":"August"
+    },
+    {
+        "name":"label-month-9",
+        "value":"Septembar"
+    },
+    {
+        "name":"label-month-10",
+        "value":"Oktobar"
+    },
+    {
+        "name":"label-month-11",
+        "value":"Novembar"
+    },
+    {
+        "name":"label-month-12",
+        "value":"Decembar"
     },
     {
         "name":"label-book1-title",
@@ -45,7 +129,7 @@
     },
     {
         "name":"label-book1-lesson2-title",
-        "value":"Kelimei-Šehadet"
+        "value":"Kelime-i Šehadet"
     },
     {
         "name":"label-book1-lesson3-title",
@@ -269,8 +353,13 @@
     },
 
     {
+        "name":"label-ayahs",
+        "value":"ajeta"
+    },
+
+    {
         "name":"label-book1-lesson1_section1-paragraph1",
-        "value":"U svim poslovima Bismillom spominjemo Boga i molimo Ga da nam dadne snagu i razum da započeti posao sretno završimo, jer naš život, snaga i razum zavise od Njega, Allaha dželle šānuhu."
+        "value":"U svim poslovima Bismillom spominjemo Allaha, dž.š., i molimo Ga da nam dadne snagu i razum da započeti posao sretno završimo, jer naš život, snaga i razum zavise od Njega, Allaha dželle šanuhu."
     },
     {
         "name":"label-book1-lesson1_section2-paragraph1",
@@ -299,6 +388,10 @@
     {
         "name":"label-header-transcription",
         "value":"Transkripcija"
+    },
+    {
+        "name":"label-header-font-size",
+        "value":"Veličina teksta"
     },
     {
         "name":"label-header-quran",
@@ -338,7 +431,7 @@
     },
     {
         "name":"label-book1-lesson2_section1-paragraph1",
-        "value":"Svoju pripadnost islamu iskazujemo kelimei-šehadetom."
+        "value":"Svoju pripadnost islamu iskazujemo kelime-i šehadetom."
     },
     {
         "name":"label-book1-lesson2_section2-paragraph1",
@@ -366,11 +459,11 @@
     },
     {
         "name":"label-book1-lesson3_section1-paragraph1",
-        "value":"Naša vjera se zove ISLAM.Mi smo po vjeri MUSLIMANI I MUSLIMANKE."
+        "value":"Naša vjera se zove islam. Mi smo po vjeri muslimani i muslimanke."
     },
     {
         "name":"label-book1-lesson3_section1-paragraph2",
-        "value":"Islam je vjera koju je objavio Allah dželle šanuhu preko Svoga posljednjeg poslanika Muhammeda cijelom čovječanstvu."
+        "value":"Islam je vjera koju je objavio Allah dželle šanuhu preko Svoga posljednjeg poslanika Muhammeda, a.s., cijelom čovječanstvu."
     },
     {
         "name":"label-book1-lesson3_section1-paragraph3",
@@ -386,15 +479,15 @@
     },
     {
         "name":"label-book1-lesson6_section1-paragraph1",
-        "value":"Selam je islamski pozdrav.Selam je pozdrav obavezan za sve muslimane i muslimanke na cijelom svijetu pri njihovim međusobnim susretima."
+        "value":"Selam je islamski pozdrav. Selam je pozdrav obavezan za sve muslimane i muslimanke na cijelom svijetu pri njihovim međusobnim susretima."
     },
     {
         "name":"label-book1-lesson6_section1-paragraph2",
-        "value":"Islamski pozdrav glasi: Es-selamu alejkum, što znači: Mir i spas Božiji želim vama."
+        "value":"Islamski pozdrav glasi: Es-selamu alejkum, što znači: Želim vam Allahov mir i spas."
     },
     {
         "name":"label-book1-lesson6_section1-paragraph3",
-        "value":"Odgovara se slijedećim riječima: Ve alejkumus-selam, što znači: I ja vama mir i spas Božiji želim."
+        "value":"Odgovara se slijedećim riječima: Ve alejkumus-selam, što znači: I ja vama želim Allahov mir i spas."
     },
     {
         "name":"label-amin",
@@ -406,7 +499,7 @@
     },
     {
         "name":"label-book1-lesson4_section1-paragraph1",
-        "value":"Allah, dž.š., nam da je uspjeh i pomoć u svim našim poslovima.Učeći Rabbi jessir molimo Allaha, dž.š., da nam učini lahkim i korisnim svaki posao koji želimo da radimo."
+        "value":"Allah, dž.š., nam daje uspjeh i pomoć u svim našim poslovima. Učeći Rabbi jessir molimo Allaha, dž.š., da nam učini lahkim i korisnim svaki posao koji želimo da radimo."
     },
     {
         "name":"label-book1-lesson4_section2-paragraph1",
@@ -418,11 +511,11 @@
     },
     {
         "name":"label-book1-lesson4_section2-paragraph3",
-        "value":"Bože olakšaj, a ne otežaj"
+        "value":"Allahu olakšaj, a ne otežaj"
     },
     {
         "name":"label-book1-lesson4_section2-paragraph4",
-        "value":"Bože daj da se završi s dobrim"
+        "value":"Allahu daj da se završi s dobrim"
     },
     {
         "name":"label-book1-lesson5-quote",
@@ -430,7 +523,7 @@
     },
     {
         "name":"label-book1-lesson5_section1-paragraph1",
-        "value":"Allah, dž.š., nam da je uspjeh i pomoć u svim nisnim svaki posao koji želimo da radimo.Allaha, dž.š., veličamo i slavimo spominjući Njegova lijepa imene i hvaleći Njegove Uzvišene osobine."
+        "value":"Allah, dž.š., nam daje uspjeh i pomoć u svim našim poslovima koje želimo da radimo. Allaha, dž.š., veličamo i slavimo spominjući Njegova lijepa imene i hvaleći Njegove Uzvišene osobine."
     },
     {
         "name":"label-book1-lesson5_section2-paragraph1",
@@ -454,7 +547,7 @@
     },
     {
         "name":"label-book1-lesson5_section2-paragraph6",
-        "value":"Samo tebi pripada veličanje, moj Bože"
+        "value":"Samo tebi pripada veličanje, moj Allahu"
     },
     {
         "name":"label-book1-lesson5_section2-paragraph7",
@@ -569,7 +662,7 @@
     
     {
         "name":"label-book1-lesson10-quote",
-        "value":"\"Suha El-Ihlas je trećina Kur'ana.\""
+        "value":"\"Sura El-Ihlas je trećina Kur'ana.\""
     },
     {
         "name":"label-book1-lesson10_section1-paragraph1",
@@ -585,7 +678,7 @@
     },
     {
         "name":"label-book1-lesson10_section2-paragraph3",
-        "value":"Lem jelid,ve lem juled"
+        "value":"Lem jelid, ve lem juled"
     },
     {
         "name":"label-book1-lesson10_section2-paragraph4",
@@ -594,7 +687,7 @@
     
     {
         "name":"label-book1-lesson11-quote",
-        "value":"\"Niko nije kao On.On sve čuje i vidi\""
+        "value":"\"Niko nije kao On. On sve čuje i vidi.\""
     },
     {
         "name":"label-book1-lesson11-quote-reference",
@@ -610,27 +703,27 @@
     },
     {
         "name":"label-book1-lesson11-paragraph3",
-        "value":"Ja vjerujem u Boga"
+        "value":"Ja vjerujem u Allaha, dž.š."
     },
     {
         "name":"label-book1-lesson11-paragraph4",
-        "value":"Ja vjerujem u Božije meleke"
+        "value":"Ja vjerujem u Allahove, dž.š., meleke"
     },
     {
         "name":"label-book1-lesson11-paragraph5",
-        "value":"Ja vjerujem u Božije Kitabe (Objave)"
+        "value":"Ja vjerujem u Allahove, dž.š., Kitabe"
     },
     {
         "name":"label-book1-lesson11-paragraph6",
-        "value":"Ja vjerujem u Božije poslanike (pejgambere)"
+        "value":"Ja vjerujem u Allahove, dž.š., poslanike"
     },
     {
         "name":"label-book1-lesson11-paragraph7",
-        "value":"Ja vjerujem u Posljednji (Sudnji) dan"
+        "value":"Ja vjerujem u Sudnji dan"
     },
     {
         "name":"label-book1-lesson11-paragraph8",
-        "value":"Vjerujem da sve što se događa, biva s Božijom voljom i određenjem"
+        "value":"Vjerujem u Allahovo, dž.š., određenje"
     },
     {
         "name":"label-book1-lesson12-quote",
@@ -686,7 +779,7 @@
     },
     {
         "name":"label-wash-mouth-description",
-        "value":"Desnom rukom ispiramo usta tako da voda dodje do grla(tri puta)."
+        "value":"Desnom rukom ispiramo usta tako da voda dođe do grla (tri puta)."
     },
     
     {
@@ -695,7 +788,7 @@
     },
     {
         "name":"label-wash-nose-description",
-        "value":"Lijevom rukom dobro isperemo nos(tri puta)."
+        "value":"Lijevom rukom dobro isperemo nos (tri puta)."
     },
     {
         "name":"label-wash-face",
@@ -719,7 +812,7 @@
     },
     {
         "name":"label-wipe-head-description",
-        "value":"Potaremo mokrom rukom prednji dio glave (mesh) jedan puta."
+        "value":"Jednom potaremo mokrom rukom prednji dio glave (mesh)."
     },
     {
         "name":"label-wipe-neck",
@@ -727,7 +820,7 @@
     },
     {
         "name":"label-wipe-neck-description",
-        "value":"Potaremo mokrim rukama uši i vrat (jedan puta). Kažiprst stavimo u uho, palac iza uha, a sa ostala tri prsta vanjskom stranom potiremo vrat."
+        "value":"Jednom potaremo mokrim rukama uši i vrat. Kažiprst stavimo u uho, palac iza uha, a sa ostala tri prsta vanjskom stranom potiremo vrat."
     },
     {
         "name":"label-wash-feet",
@@ -743,7 +836,7 @@
     },
     {
         "name":"label-what-breaks-wudhu-description",
-        "value":"S jednim abdestom, ako u međuvremenu nismo učinili ništa što kvari abdest, možemo klanjati više namaza.Abdest će biti pokvaren: ako obavimo malu ili veliku nuždu, ako nam poteče krv ili procuri gnoj ili žuta voda, ako zaspimo, ako povratimo ili ako pustimo vjetar."
+        "value":"Sa jednim abdestom, ako u međuvremenu nismo učinili ništa što kvari abdest, možemo klanjati više namaza. Abdest će biti pokvaren: ako obavimo malu ili veliku nuždu, ako nam poteče krv ili procuri gnoj ili žuta voda, ako zaspimo, ako povratimo ili ako pustimo vjetar."
     },
     {
         "name":"label-book1-lesson14-quote",
@@ -755,7 +848,7 @@
     },
     {
         "name":"label-book1-lesson14_section1-paragraph2",
-        "value":"Čovjek koji (uči) ezan zove se mujezin. Ezan uče samo muškarci. Ezan se uči na munari,a može i na nekom drugom mjestu. On se uči usporeno i glasno."
+        "value":"Čovjek koji uči ezan zove se mujezin. Ezan uče samo muškarci. Ezan se uči na munari, a može i na nekom drugom mjestu. On se uči usporeno i glasno."
     },
     {
         "name":"label-book1-lesson14_section1-paragraph3",
@@ -763,7 +856,7 @@
     },
     {
         "name":"label-book1-lesson14_section1-paragraph4",
-        "value":"Essalatu hajrun minen-nevm(2 puta)"
+        "value":"Essalatu hajrun minen-nevm (2 puta)"
     },
     {
         "name":"label-book1-lesson14_section2-paragraph1",
@@ -791,7 +884,7 @@
     },
     {
         "name":"label-book1-lesson14_section2-paragraph7",
-        "value":"Allah je najveći,Allah je najveći"
+        "value":"Allah je najveći, Allah je najveći"
     },
     {
         "name":"label-book1-lesson14_section2-paragraph8",
@@ -803,19 +896,23 @@
     },
     {
         "name":"label-book1-lesson14_section2-paragraph10",
-        "value":"Dodjite na namaz!Dodjite na namaz!"
+        "value":"Dođite na namaz! Dođite na namaz!"
     },
     {
         "name":"label-book1-lesson14_section2-paragraph11",
-        "value":"Dodjite na spas!Dodjite na spas!"
+        "value":"Dođite na spas! Dođite na spas!"
     },
     {
         "name":"label-book1-lesson14_section2-paragraph12",
+        "value":"Namaz počinje! Namaz počinje!"
+    },
+    {
+        "name":"label-book1-lesson14_section2-paragraph13",
         "value":"Nema boga osim Allaha"
     },
     {
         "name":"label-book1-lesson15-quote",
-        "value":"\"Hvaljen je Allah, stvoritelj nebesa i Zemlje\""
+        "value":"\"Hvaljen je Allah, stvoritelj nebesa i Zemlje.\""
     },
     {
         "name":"label-book1-lesson15-quote-reference",
@@ -843,7 +940,7 @@
     },
     {
         "name":"label-book1-lesson16_section1-paragraph1",
-        "value":"Et-tehijatu učimo na sjedenju poslije svakog drugog rekata i na završetku namaza."
+        "value":"Et-tehijjatu učimo na sjedenju poslije svakog drugog rekata i na završetku namaza."
     },
     {
         "name":"label-book1-lesson16_section2-paragraph1",
@@ -887,7 +984,7 @@
     },
     {
         "name":"label-book1-lesson17-quote",
-        "value":"\"Allah i meleki Njegovi blagosilju Vjerovjesnika\""
+        "value":"\"Allah i meleki Njegovi blagosilju Vjerovjesnika.\""
     },
     {
         "name":"label-book1-lesson17-quote-reference",
@@ -895,7 +992,7 @@
     },
     {
         "name":"label-book1-lesson17_section1-paragraph1",
-        "value":"Salavati su pohvala Poslaniku Muhammedu, a.s., od Uzvišenog Allaha.Salavate učimo na sjedenju nakon et-ehijjatu."
+        "value":"Salavati su pohvala Poslaniku Muhammedu, a.s., od Uzvišenog Allaha. Salavate učimo na sjedenju nakon et-ehijjatu."
     },
     {
         "name":"label-book1-lesson17_section2-paragraph1",
@@ -927,7 +1024,7 @@
     },
     {
         "name":"label-book1-lesson17_section3-paragraph3",
-        "value":"Zaista si ti hvaljen i slavljen"
+        "value":"Zaista si Ti hvaljen i slavljen"
     },
     {
         "name":"label-book1-lesson17_section3-paragraph4",
@@ -941,7 +1038,7 @@
 
     {
         "name":"label-book1-lesson18-quote",
-        "value":"\"Reci: Zovite:Allah, ili zovite: Milostivi\""
+        "value":"\"Reci: Zovite: Allah, ili zovite: Milostivi.\""
     },
     {
         "name":"label-book1-lesson18-quote-reference",
@@ -953,7 +1050,7 @@
     },
     {
         "name":"label-book1-lesson18_section2-paragraph1",
-        "value":"Rabena atina fid-dunja haseneten"
+        "value":"Allahumme rabena atina fid-dunja haseneten"
     },
     {
         "name":"label-book1-lesson18_section2-paragraph2",
@@ -1014,7 +1111,7 @@
     },
     {
         "name":"label-book1-lesson20_section1-paragraph1",
-        "value":"Vrijeme podnevskog namaza počinje kad sunce malo odmakne sa sredine neba i traje do ikindije."
+        "value":"Vrijeme podnevskog namaza počinje kada sunce malo odmakne sa sredine neba i traje do ikindije."
     },
     {
         "name":"label-book1-lesson21-title",
@@ -1038,7 +1135,7 @@
     },
     {
         "name":"label-book1-lesson23_section1-paragraph1",
-        "value":"Vrijeme jacijskog namaza počinje kad potpuno nestane sunčanog sjaja na zapadu i traje do pred zoru."
+        "value":"Vrijeme jacijskog namaza počinje kada potpuno nestane sunčevog sjaja na zapadu i traje do pred zoru."
     },
 
     {
@@ -1076,7 +1173,7 @@
 
     {
         "name":"label-nijjah-definition",
-        "value":"Nijet je svjesna odluka u srcu zašto nešto činimo.Prilikom izgovaranja nijeta svoje misli usmjeravamo Uzvišenom Allahu."
+        "value":"Nijjet je svjesna odluka u srcu zašto nešto činimo. Prilikom izgovaranja nijjeta svoje misli usmjeravamo Uzvišenom Allahu."
     },
     {
         "name":"label-fajr-fardh",
@@ -1084,7 +1181,7 @@
     },
     {
         "name":"label-fajr-fardh-nijjah",
-        "value":"Sabahski farz se zanijeti ovako:Nevejtu en usallije lillahi teala salate fardil-fedžri edaen mustakbilel-kibleti - Allahu ekber."
+        "value":"Sabahski farz se zanijeti ovako: Nevejtu en usallije lillahi teala salate fardil-fedžri edaen mustakbilel-kibleti - Allahu ekber."
     },
     {
         "name":"label-fajr-sunnah",
@@ -1092,7 +1189,7 @@
     },
     {
         "name":"label-fajr-sunnah-nijjah",
-        "value":"Sabahski sunnet se zanijeti ovako:Nevejtu en usallije lillahi teala salate sunnetil-fedžri edaen mustakbilel-kibleti - Allahu ekber."
+        "value":"Sabahski sunnet se zanijeti ovako: Nevejtu en usallije lillahi teala salate sunnetil-fedžri edaen mustakbilel-kibleti - Allahu ekber."
     },
     {
         "name":"label-dhuhr-fardh",
@@ -1192,7 +1289,7 @@
     },
     {
         "name":"label-witr-nijjah",
-        "value":"Vitr-namaz je posebni namaz, koji se klanja poslije jacijskog sunneta. Vitr-namaz ima tri rekata. Nijjet se učini ovako: Nevejtu en usallije lillahi teala salatel-vitri edaen mustakbilel-kibleti - Allahu ekber."
+        "value":"Vitr-namaz je posebni namaz, koji se klanja poslije jacijskog sunsunneta. Vitr-namaz ima tri rekata. Nijjet se učini ovako: Nevejtu en usallije lillahi teala salatel-vitri edaen mustakbilel-kibleti - Allahu ekber."
     },
     {
         "name":"label-first-rakah-header",
@@ -1220,11 +1317,11 @@
     },
     {
         "name":"label-prayer-first-rakah-beginning",
-        "value":"Podignemo ruke do ušiju i izgovorimo \"Allahu ekber\". To je znak da je namaz počeo. Nakon tekbira proučimo subhaneke,euzu i bismillu."
+        "value":"Podignemo ruke do ušiju i izgovorimo: \"Allahu ekber\". To je znak da je namaz počeo. Nakon tekbira proučimo: subhaneke, euzu i bismillu."
     },
     {
         "name":"label-prayer-first-rakah-beginning-watch",
-        "value":"Podignemo ruke do ušiju i izgovorimo \"Allahu ekber\". To je znak da je namaz počeo."
+        "value":"Podignemo ruke do ušiju i izgovorimo: \"Allahu ekber\". To je znak da je namaz počeo."
     },
     {
         "name":"label-prayer-subhaneke",
@@ -1265,7 +1362,7 @@
     },
     {
         "name":"label-prayer-dua-description",
-        "value":"Proučimo subhaneke,euzu i bismillu."
+        "value":"Proučimo: subhaneke, euzu i bismillu."
     },
     {
         "name":"label-prayer-ruku-header",
@@ -1277,11 +1374,11 @@
     },
     {
         "name":"label-prayer-ruku-description",
-        "value":"Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo:Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd."
+        "value":"Na ruku'u (pregibanju) učimo tri puta: Subhane rabbijel-azim. Dižući se s ruku'a izgovaramo: Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd."
     },
     {
         "name":"label-prayer-ruku-return-description",
-        "value":"Povratak sa ruk'ua učimo Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd."
+        "value":"Na povratku sa ruk'ua učimo: Semiallahu limen hamideh, zatim malo zastanemo i reknemo: Rabbena lekel-hamd."
     },
     {
         "name":"label-prayer-ruku-watch-description",
@@ -1293,7 +1390,7 @@
     },
     {
         "name":"label-prayer-between-sujud-header",
-        "value":"Izmedju dvije sedžde"
+        "value":"Između dvije sedžde"
     },
     {
         "name":"label-prayer-sujud-description",
@@ -1301,12 +1398,12 @@
     },
     {
         "name":"label-prayer-between-sujud-description",
-        "value":"Izmedju dvije sedžde malo zastanemo i zatim idemo na drugu sedždu."
+        "value":"Između dvije sedžde malo zastanemo i zatim idemo na drugu sedždu."
     },
 
     {
         "name":"label-prayer-sujud-watch-description",
-        "value":"Sedždu činimo stavljajući prvo koljena na tlo a zatim lice.Na sedždi učimo tri puta: Subhane rabbijel-e ́ala."
+        "value":"Sedždu činimo stavljajući prvo koljena na tlo a zatim lice. Na sedždi učimo tri puta: Subhane rabbijel-e ́ala."
     },
 
     {
@@ -1315,7 +1412,11 @@
     },
     {
         "name":"label-prayer-first-tashahud-description",
-        "value":"Na prvom sjedenju svih namaza učimo et-tehijatu."
+        "value":"Na prvom sjedenju ovog namaza učimo: et-tehijatu."
+    },
+    {
+        "name":"label-prayer-first-tashahud-sunnah-description",
+        "value":"Na prvom sjedenju ovog namaza učimo: et-tehijjatu i salavate."
     },
     {
         "name":"label-prayer-last-tashahud-header",
@@ -1327,23 +1428,27 @@
     },
     {
         "name":"label-prayer-end-description",
-        "value":"Na zadnjem sjedenju učimo et-tehijatu,salavate i dovu."
+        "value":"Na zadnjem sjedenju učimo: et-tehijjatu, salavate i dovu."
     },
     {
         "name":"label-prayer-kade-ehire-header",
-        "value":"Kadei-ehire"
+        "value":"Kade-i ehire"
     },
     {
         "name":"label-prayer-kade-ehire-description",
-        "value":"Kadei-ehire je posljednje sjedenje na kraju namaza.Na zadnjem sjedenju svih namaza učimo et-tehijatu,salavate i dove."
+        "value":"Kade-i ehire je posljednje sjedenje na kraju namaza. Na zadnjem sjedenju svih namaza učimo et-tehijjatu, salavate i dove."
     },
     {
         "name":"label-prayer-ettehijjatu",
-        "value":"Et-tehijatu"
+        "value":"Et-tehijjatu"
     },
     {
         "name":"label-prayer-ettehijjatu-description",
-        "value":"Na prvom sjedenju svih namaza učimo et-tehijatu."
+        "value":"Na prvom sjedenju ovog namaza učimo: et-tehijjatu."
+    },
+    {
+        "name":"label-prayer-ettehijjatu-salawat-description",
+        "value":"Na prvom sjedenju ovog namaza učimo: et-tehijjatu i salavate."
     },
     {
         "name":"label-prayer-salawat",
@@ -1355,11 +1460,11 @@
     },
     {
         "name":"label-prayer-selam-description",
-        "value":"Namaz završavamo predajom selema prvo na desnu stranu pa na lijevu. Selem se predaje izgovarajući es-selamu alejkum ve rahmetullah."
+        "value":"Namaz završavamo predajom selama prvo na desnu stranu pa na lijevu. Selem se predaje izgovarajući es-selamu alejkum ve rahmetullah."
     },
     {
         "name":"label-prayer-selam-watch-description",
-        "value":"Na kraju namaza predajemo selam izgovarajući Es-selamu alejkum ve rahmetullah. Selam prvo predajemo na desnu pa na lijevu stranu."
+        "value":"Na kraju namaza predajemo selam izgovarajući: Es-selamu alejkum ve rahmetullah. Selam prvo predajemo na desnu pa na lijevu stranu."
     },
     {
         "name":"label-prayer-qunut-header",
@@ -1367,7 +1472,7 @@
     },
     {
         "name":"label-prayer-qunut-description",
-        "value":"Podignemo ruke do ušiju i izgovorimo \"Allahu ekber\"."
+        "value":"Podignemo ruke do ušiju i izgovorimo: \"Allahu ekber\"."
     },
     {
         "name":"label-prayer-qunut-detail",
@@ -1375,7 +1480,7 @@
     },
     {
         "name":"label-prayer-qunut-detail-watch",
-        "value":"Nakon tekbira učimo Kunut dovu."
+        "value":"Nakon tekbira učimo: Kunut dovu."
     },
     {
         "name":"label-prayer-qunut-note",
@@ -1387,25 +1492,25 @@
     },
     {
         "name":"label-prayer-qijam-description-first-rakah",
-        "value":"Na stajanju učimo subhaneke,euzu i Bismillu,Fatihu i jednu suru."
+        "value":"Na stajanju učimo: subhaneke, euzu i bismillu, fatihu i jednu suru."
     },
     {
         "name":"label-prayer-qijam-description-second-rakah",
-        "value":"Na stajanju učimo Fatihu i jednu suru."
+        "value":"Na stajanju učimo: fatihu i jednu suru."
     },
     {
         "name":"label-prayer-qijam-description-third-rakah",
-        "value":"Na stajanju učimo Fatihu."
+        "value":"Na stajanju učimo: fatihu."
     },
 
     {
         "name":"label-prayer-witr-tekbir-description",
-        "value":" Podignemo ruke do ušiju i izgovorimo \"Allahu ekber\"."
+        "value":" Podignemo ruke do ušiju i izgovorimo: \"Allahu ekber\"."
     },
 
     {
         "name":"label-book1-lesson24-quote",
-        "value":"“O vjernici, često Allaha spominjite i hvalite”"
+        "value":"“O vjernici, često Allaha spominjite i hvalite.”"
     },
     {
         "name":"label-book1-lesson24-quote-reference",
@@ -1413,7 +1518,7 @@
     },
     {
         "name":"label-book1-lesson24_section1-paragraph1",
-        "value":"Zikr je veličanje i slavljenje Allaha dž. š. nakon što predamo selam i time završimo namaz."
+        "value":"Zikr je veličanje i slavljenje Allaha, dž.š., nakon što predamo selam i time završimo namaz."
     },
 
 
@@ -1423,7 +1528,7 @@
     },
     {
         "name":"label-book1-lesson25-quote",
-        "value":"“On ga je na obzorju jasnom vidio”"
+        "value":"“On ga je na obzorju jasnom vidio.”"
     },
     {
         "name":"label-book1-lesson25-quote-reference",
@@ -1431,31 +1536,31 @@
     },
     {
         "name":"label-book1-lesson25_section1-paragraph1",
-        "value":"Meleki su nevidljiva duhovna bića, stvorena od svijetlosti, koja nikada ne griješe, nego uvijek sa zadovoljstvom i poslušno vrše dužnosti koje im Allah dž.š. određuje.Meleka ima mnogo a najpoznatiji su:"
+        "value":"Meleki su nevidljiva duhovna bića, stvorena od svijetlosti, koja nikada ne griješe, nego uvijek sa zadovoljstvom i poslušno vrše dužnosti koje im Allah, dž.š., određuje. Meleka ima mnogo a najpoznatiji su:"
     },
     {
         "name":"label-book1-lesson25_section1-paragraph2",
-        "value":"Džebrail- ima ulogu da prenosi od Boga Objavu poslanicima."
+        "value":"Džebrail - ima ulogu da prenosi od Allaha, dž.š., Objavu poslanicima."
     },
     {
         "name":"label-book1-lesson25_section1-paragraph3",
-        "value":"Azrail- rastavlja duše od tijela u času smrti, sa drugim za to određenim melekima."
+        "value":"Azrail - rastavlja duše od tijela u času smrti, sa drugim za to određenim melekima."
     },
     {
         "name":"label-book1-lesson25_section1-paragraph4",
-        "value":"Mikail-sa drugim melekima vrši odredene dužnosti u prirodnim pojavama i promjenama kao što su strujanje vjetrova, kretanje oblaka, padanje kiše, listanje,rast i sazrijevanje bilja, itd."
+        "value":"Mikail - sa drugim melekima vrši određene dužnosti u prirodnim pojavama i promjenama kao što su strujanje vjetrova, kretanje oblaka, padanje kiše, listanje, rast i sazrijevanje bilja, itd."
     },
     {
         "name":"label-book1-lesson25_section1-paragraph5",
-        "value":"Israfil- ima zadaću da najavi prestanak života na zemlji (Posljednji dan) i ponovno oživljenje (Sudnji dan)."
+        "value":"Israfil - ima zadaću da najavi prestanak života na zemlji (Posljednji dan) i ponovno oživljenje (Sudnji dan)."
     },
     {
         "name":"label-book1-lesson25_section1-paragraph6",
-        "value":"Kiramen katibin- prate čovjeka, donose mu dobre misli i pišu njegova djela."
+        "value":"Kiramen katibin - prate čovjeka, donose mu dobre misli i pišu njegova djela."
     },
     {
         "name":"label-book1-lesson26_section1-paragraph1",
-        "value":"Božije knjige (kitabi) su Božije objave koje su ljudima prenosili Božiji poslanici. U Božijim kitabima sadržane su upute, savjeti i propisi o životu ljudi i obavljanju vjerskih dužnosti koje je Allah dž. š. naredio ili zabranio ljudima.Svim Božijim poslanicima (pejgamberima) objavu je dostavljao melek Džibirl.Najpoznatija su nam četiri velika kitaba:"
+        "value":"Allahove, dž.š., knjige (kitabi) su objave koje su ljudima prenosili poslanici. U njima su sadržane upute, savjeti i propisi o životu ljudi i obavljanju vjerskih dužnosti koje je Allah, dž.š., naredio ili zabranio ljudima. Svim Allahovim, dž. š., poslanicima objavu je dostavljao melek Džibirl, a.s. Najpoznatija su nam četiri velika kitaba:"
     },
     {
         "name":"label-book1-lesson26_section1-paragraph2",
@@ -1475,7 +1580,7 @@
     },
     {
         "name":"label-book1-lesson26-quote",
-        "value":"“Mi ti, doista, objavljujemo Knjigu”"
+        "value":"“Mi ti, doista, objavljujemo Knjigu.”"
     },
     {
         "name":"label-book1-lesson26-quote-reference",
@@ -1483,7 +1588,7 @@
     },
     {
         "name":"label-book1-lesson26-title",
-        "value":"Božiji kitabi"
+        "value":"Allahovi, dž.š., kitabi"
     },
     {
         "name":"label-book1-lesson27-quote",
@@ -1495,23 +1600,23 @@
     },
     {
         "name":"label-book1-lesson27-title",
-        "value":"Božiji poslanici"
+        "value":"Allahovi, dž.š., poslanici"
     },
     {
         "name":"label-book1-lesson27_section1-paragraph1",
-        "value":"Božiji poslanici su odabrani ljudi (pejgamberi) kojima je Bog dž. š. slao svoje objave da ih prenesu i objasne ljudima."
+        "value":"Allahovi, dž.š., poslanici su odabrani ljudi kojima je On slao svoje objave da ih prenesu i objasne ljudima."
     },
     {
         "name":"label-book1-lesson27_section1-paragraph2",
-        "value":"Bilo je mnogo Božijih poslanika, u hadisu su se spominje da ih je bilo oko 124 hiljade a u Kur'anu ih je spomenuto 25."
+        "value":"Bilo je mnogo poslanika, u hadisu su se spominje da ih je bilo oko 124 hiljade, a u Kur'anu ih je spomenuto 25."
     },
     {
         "name":"label-book1-lesson27_section1-paragraph3",
-        "value":"Prvi Božiji poslanik je Adem, a.s., koji je ujedno i prvi čovjek na zemlji. Posljednji Božiji poslanik je Muhammed, a.s.. Poslije Muhammeda, a.s., neće doći nijedan poslanik niti ijedna objava poslije Kur'ana."
+        "value":"Prvi poslanik je Adem, a.s., koji je ujedno i prvi čovjek na zemlji. Posljednji poslanik je Muhammed, a.s.. Poslije Muhammeda, a.s., neće doći nijedan poslanik niti ijedna objava poslije Kur'ana."
     },
     {
         "name":"label-book1-lesson27_section1-paragraph4",
-        "value":"Od ostalih Božijih poslanika najpoznatiji su: Nuh, Ibrahim,Ismail,Jakub,Jusuf,Musa,Sulejman,Davud i Isa."
+        "value":"Od ostalih Allahovih, dž.š., poslanika najpoznatiji su: Nuh, Ibrahim, Ismail, Jakub, Jusuf, Musa, Sulejman, Davud i Isa. Nakon što spomenemo ime nekog od Allahovih, dž.š., poslanika dužni smo reći alejhi selam."
     },
     {
         "name":"label-book1-lesson28-quote",
@@ -1527,19 +1632,19 @@
     },
     {
         "name":"label-book1-lesson28_section1-paragraph1",
-        "value":"Posljednji dan je dan kada će ovaj svijet i sve živo na njemu nestati. Sudnji je dan kada će Svemogući Bog stvoriti drugi vječni život i sve mrtvo oživjeti i pozvati ljude da im sudi za njihova djela."
+        "value":"Posljednji dan je dan kada će ovaj svijet i sve živo na njemu nestati. Sudnji je dan kada će Allah, dž.š., stvoriti drugi vječni život i sve mrtvo oživjeti i pozvati ljude da im sudi za njihova djela."
     },
     {
         "name":"label-book1-lesson28_section1-paragraph2",
-        "value":"Svakom čovjeku na Sudnjem danu bit će predočena njegova dobra i loša djela za koja će biti nagrađen ili kažnjen. Za dobra djela nagrada na Sudnjem danu je Džennet (raj), a za loša djela kazna je Džehennem (pakao)."
+        "value":"Svakom čovjeku na Sudnjem danu bit će predočena njegova dobra i loša djela za koja će biti nagrađen ili kažnjen. Za dobra djela nagrada na Sudnjem danu je Džennet, a za loša djela kazna je Džehennem."
     },
     {
         "name":"label-book1-lesson28_section1-paragraph3",
-        "value":"Niko, osim Allah, dž.š., ne zna kada će biti Sudnji dan."
+        "value":"Niko, osim Allaha, dž.š., ne zna kada će biti Sudnji dan."
     },
     {
         "name":"label-book1-lesson29-quote",
-        "value":"“Ono što je Allah odredio - dogodiće se”"
+        "value":"“Ono što je Allah odredio - dogodiće se.”"
     },
     {
         "name":"label-book1-lesson29-quote-reference",
@@ -1547,15 +1652,15 @@
     },
     {
         "name":"label-book1-lesson29-title",
-        "value":"Božija odredba"
+        "value":"Allahova, dž.š., određenje"
     },
     {
         "name":"label-book1-lesson29_section1-paragraph1",
-        "value":"Vjerovanje u Božiju odredbu znači svjesno zalaganje za ostvarenje zadataka života u granicama propisa Allahove vjere - ono što Allah hoće, to biva, događa se, a što neće, to se ne može dogoditi niti biti."
+        "value":"Ve bil-kaderi hajrihi ve šerrihi min Allahi te'ala - Vjerovanje u Allahovo, dž.š., određenje znači svjesno zalaganje za ostvarenje zadataka života u granicama propisa Njegove vjere - ono što Allah, dž.š., hoće, to biva, događa se, a što neće, to se ne može dogoditi niti biti."
     },
     {
         "name":"label-book1-lesson29_section1-paragraph2",
-        "value":"Bog, dž.š., zna sve šta će se dogoditi, ali iako je sve određeno, On je dao čovjeku slobodnu volju, a to je naša sposobnost da se sami odlučimo za neko djelo. Ako se odlučimo za dobro djelo, bit ćemo nagrađeni, a ako se odlučimo za zlo, bit ćemo kažnjeni."
+        "value":"Allah, dž.š., zna sve šta će se dogoditi, ali iako je sve određeno, On je dao čovjeku slobodnu volju, a to je naša sposobnost da se sami odlučimo za neko djelo. Ako se odlučimo za dobro djelo, bit ćemo nagrađeni, a ako se odlučimo za zlo, bit ćemo kažnjeni."
     },
     {
         "name":"label-book1-lesson30-title",
@@ -1571,15 +1676,15 @@
     },
     {
         "name":"label-book1-lesson30_section1-paragraph1",
-        "value":"Ramazanski post znači uz ramazan se ustegnuti od jela, pića, pušenja i spolnog uživanja od prije zore do zalaska sunca, u svrhu odanosti Allahu dž.š."
+        "value":"Ramazanski post znači ustegnuti se od jela, pića, pušenja i spolnog uživanja od prije zore do zalaska sunca, u svrhu odanosti Allahu, dž.š."
     },
     {
         "name":"label-book1-lesson30_section2-paragraph1",
-        "value":"Nijjet za početak posta glasi: NEVEJTU EN ESUME LILLAHI TE'ALA MIN ŠEHRI RAMADANE, što u prijevodu znači: Odlučih, Allaha radi, postiti ramazanski post."
+        "value":"Nijjet za početak posta glasi: NEVEJTU EN ESUMME LILLAHI TE'ALA MIN ŠEHRI RAMADANE, što u prijevodu znači: Odlučih, Allaha radi, postiti ramazanski post."
     },
     {
         "name":"label-book1-lesson30_section3-paragraph1",
-        "value":"Dova za iftar (prekid posta) glasi: ALLAHUMME INNI LEKE SUMTU VE BIHE (BIKE) AMNETU (AMENTU) VE ALEJKE TEVEKELTU VE BI RIZKIKE EFTARTU, što u prijevodu znači: Allahu moj, u ime Tvoje sam postio/la, Tebe vjerujem, na Tebe se oslanjam i Tvojom se hranom iftarim."
+        "value":"Dova za iftar (prekid posta) glasi: ALLAHUMME INNI LEKE SUMTU VE BIKE AMENTU VE ALEJKE TEVEKKELTU VE BI RIZKIKE EFTARTU, što u prijevodu znači: Allahu moj, u ime Tvoje sam postio/la, u Tebe vjerujem, na Tebe se oslanjam i Tvojom se hranom iftarim."
     },
     {
         "name":"label-book1-lesson31-title",
@@ -1595,11 +1700,11 @@
     },
     {
         "name":"label-book1-lesson31_section1-paragraph1",
-        "value":"Zekat je obavezno davanje jednog dijela iz viška imovine siromašnim muslimanima i muslimankama ili u druge korisne svrhe islamske zajednice (Bejtul-mal) u cilju postizanja Allahova zadovoljstva.Zekat je dužan davati svaki musliman i muslimanka, koji su punoljetani, umno zdravi, slobodani i koji posjeduju nisab."
+        "value":"Zekat je obavezno davanje jednog dijela iz viška imovine siromašnim muslimanima i muslimankama ili u druge korisne svrhe islamske zajednice (Bejtul-mal) u cilju postizanja Allahova zadovoljstva. Zekat je dužan davati svaki musliman i muslimanka, koji su punoljetani, umno zdravi, slobodani i koji posjeduju nisab."
     },
     {
         "name":"label-book1-lesson31_section2-paragraph1",
-        "value":"Nisab je određena vrijednost ili količina imovine koju posjedujemo tokom godine dana da bi podlegla obavezi zekata.Zekat se daje na novac, dragocjenosti (nakit, zlato, srebro), trgovačku robu, živo blago (stoku) i ostale vrijednosti. Imovina koja spada u zekat dijeli se u toku godine do vrijednosti od 2,5% od te imovine."
+        "value":"Nisab je određena vrijednost ili količina imovine koju posjedujemo tokom godine dana da bi podlegla obavezi zekata. Zekat se daje na novac, dragocjenosti (nakit, zlato, srebro), trgovačku robu, živo blago (stoku) i ostale vrijednosti. Od ukupnog nisaba daje se iznos od 2,5%."
     },
 
     {
@@ -1608,7 +1713,7 @@
     },
     {
         "name":"label-book1-lesson32-quote",
-        "value":"\"Allah je izvor svjetlosti nebesa i Zemlje\""
+        "value":"\"Allah je izvor svjetlosti nebesa i Zemlje.\""
     },
     {
         "name":"label-book1-lesson32-quote-reference",
@@ -1616,7 +1721,7 @@
     },
     {
         "name":"label-book1-lesson32_section1-paragraph1",
-        "value":"Allahova svojstva su prevelika da bi ih čovjek mogao razumom obuhvatiti i u potpunosti shvatiti, čovjek zna samo onoliko koliko mu je Bog,dž.š., dao da zna o Njemu, ljudsko znanje je ograničeno."
+        "value":"Allahova svojstva su prevelika da bi ih čovjek mogao razumom obuhvatiti i u potpunosti shvatiti, čovjek zna samo onoliko koliko mu je Allah, dž.š., dao da zna o Njemu, ljudsko znanje je ograničeno."
     },
     {
         "name":"label-book1-lesson32_section1-paragraph2",
@@ -1628,31 +1733,31 @@
     },
     {
         "name":"label-book1-lesson32_section2-paragraph1",
-        "value":"Es-sifatuz-zatijje su osobna, lična svojstva Allaha, dž.š."
+        "value":"Es-sifatuz-zatijje su osobna, lična svojstva Allaha, dž.š.:"
     },
     {
         "name":"label-book1-lesson32_section2-paragraph2",
-        "value":"Vudžud- Allah ima i postoji."
+        "value":"Vudžud - Allah ima i postoji."
     },
     {
         "name":"label-book1-lesson32_section2-paragraph3",
-        "value":"Kidem- Allah nije postao."
+        "value":"Kidem - Allah nije postao."
     },
     {
         "name":"label-book1-lesson32_section2-paragraph4",
-        "value":"Beka- Allah neće nestati."
+        "value":"Beka - Allah neće nestati."
     },
     {
         "name":"label-book1-lesson32_section2-paragraph5",
-        "value":"Vahdanijet- Allah je jedan i jedini"
+        "value":"Vahdanijet - Allah je jedan i jedini."
     },
     {
         "name":"label-book1-lesson32_section2-paragraph6",
-        "value":"Muhalefetun lil havadisi- Allah nikome i ničemu nije sličan."
+        "value":"Muhalefetun lil havadisi - Allah nikome i ničemu nije sličan."
     },
     {
         "name":"label-book1-lesson32_section2-paragraph7",
-        "value":"Kijamun bi nefsihi- Allah sam pio sebi opstoji."
+        "value":"Kijamun bi nefsihi - Allah sam o sebi opstoji."
     },
 
     {
@@ -1661,7 +1766,7 @@
     },
     {
         "name":"label-book1-lesson32_section3-paragraph1",
-        "value":"Es-sifatus-subutijje su svojstva Božijeg savršenstva."
+        "value":"Es-sifatus-subutijje su svojstva Allahovog savršenstva:"
     },
     {
         "name":"label-book1-lesson32_section3-paragraph2",
@@ -1669,31 +1774,31 @@
     },
     {
         "name":"label-book1-lesson32_section3-paragraph3",
-        "value":"'Ilm'- Allah zna."
+        "value":"'Ilm' - Allah zna."
     },
     {
         "name":"label-book1-lesson32_section3-paragraph4",
-        "value":"Esme'a- Allah čuje."
+        "value":"Sem'a - Allah čuje."
     },
     {
         "name":"label-book1-lesson32_section3-paragraph5",
-        "value":"Besar- Allah vidi."
+        "value":"Besar - Allah vidi."
     },
     {
         "name":"label-book1-lesson32_section3-paragraph6",
-        "value":"Kelam- Allah govori."
+        "value":"Kelam - Allah govori."
     },
     {
         "name":"label-book1-lesson32_section3-paragraph7",
-        "value":"Iradet- Allah čini sve svojom voljom."
+        "value":"Iradet - Allah čini sve svojom voljom."
     },
     {
         "name":"label-book1-lesson32_section3-paragraph8",
-        "value":"Kudret- Allah je svemoćan."
+        "value":"Kudret - Allah je svemoćan."
     },
     {
         "name":"label-book1-lesson32_section3-paragraph9",
-        "value":"Tekvim- Allah sve stvara održava i rastvara."
+        "value":"Tekvin- Allah sve stvara održava i rastvara."
     },
 
     {
@@ -1702,11 +1807,11 @@
     },
     {
         "name":"label-book1-lesson33-quote",
-        "value":"\"Obavljajte hadž, jer on  čisti grijehe\""
+        "value":"\"Obavljajte hadždž, jer on  čisti grijehe.\""
     },
     {
         "name":"label-book1-lesson33_section1-paragraph1",
-        "value":"Hadždž je posjeta Ka'be (Bejtullaha-Božije kuće) u gradu Mekki jednom u životu.Allah dž.š. u Kur'anu poziva sve muslimane i muslimanke da posjete Ka'bu i izvrše propisane obrede hadža ako zato (za to) imaju mogućnosti.Hadž ima tri osnovna farza koja mora svaki hadžija izvršiti."
+        "value":"Hadždž je posjeta Ka'be (Bejtullaha-Božije kuće) u gradu Mekki jednom u životu. Allah, dž.š., u Kur'anu poziva sve muslimane i muslimanke da posjete Ka'bu i izvrše propisane obrede hadždža ako za to imaju mogućnosti. Hadždž ima tri osnovna farza koja mora svaki hadžija izvršiti."
     },
     {
         "name":"label-book1-lesson33-section2-header",
@@ -1722,7 +1827,7 @@
     },
     {
         "name":"label-book1-lesson33_section3-paragraph1",
-        "value":"Boraviti na Arefatu deveti dan zul-hidžeta."
+        "value":"Boraviti na Arefatu deveti dan zul-hidždžeta."
     },
     {
         "name":"label-book1-lesson33-section4-header",
@@ -1730,7 +1835,7 @@
     },
     {
         "name":"label-book1-lesson33_section4-paragraph1",
-        "value":"Tavafi zijaret što je počasni obilazak oko Ka'be u danima Kurban-bajrama."
+        "value":"Tavaf-i zijaret što je počasni obilazak oko Ka'be u danima Kurban-bajrama."
     },
 
     {
@@ -1739,7 +1844,7 @@
     },
     {
         "name":"label-book1-lesson34-quote",
-        "value":"\"I molitvu obavljajte i zekat dajite\""
+        "value":"\"I molitvu obavljajte i zekat dajite.\""
     },
     {
         "name":"label-book1-lesson34-quote-reference",
@@ -1747,7 +1852,7 @@
     },
     {
         "name":"label-book1-lesson34_section1-paragraph1",
-        "value":"Namaz je muslimanska obaveza koja se izvršava svaki dan klanjanjem i učenjem na propisani način. Svaki dan treba klanjati pet namaza u vrijeme odredjeno za namaz."
+        "value":"Namaz je muslimanska obaveza koja se izvršava svaki dan klanjanjem i učenjem na propisani način. Svaki dan treba klanjati pet namaza u vrijeme određeno za namaz."
     },
     {
         "name":"label-beginning-fasting",
@@ -1756,6 +1861,10 @@
     {
         "name":"label-fajr-prayer",
         "value":"Sabah"
+    },
+    {
+        "name":"label-sunrise",
+        "value":"Izlazak sunca"
     },
     {
         "name":"label-dhuhr-prayer",
@@ -1828,7 +1937,7 @@
     },
     {
         "name":"label-book1-lesson35-quote",
-        "value":"\"Milostivi, koji upravlja svemirom svim\""
+        "value":"\"Milostivi, koji upravlja svemirom svim.\""
     },
     {
         "name":"label-book1-lesson35-quote-reference",
@@ -1902,7 +2011,7 @@
     },
     {
         "name":"label-book1-lesson37-quote",
-        "value":"\"Molite se ponizno i u sebi Gospodaru svome\""
+        "value":"\"Molite se ponizno i u sebi Gospodaru svome.\""
     },
     {
         "name":"label-book1-lesson37-quote-reference",
@@ -1946,7 +2055,7 @@
     },
     {
         "name":"label-book1-lesson38-quote",
-        "value":"\"Ja sam, uistinu, Allah, drugog boga, osim Mene, nema\""
+        "value":"\"Ja sam, uistinu, Allah, drugog boga, osim Mene, nema.\""
     },
     {
         "name":"label-book1-lesson38-quote-reference",
@@ -2030,7 +2139,7 @@
     },
     {
         "name":"label-book1-lesson38_section2-paragraph10",
-        "value":"On je Svevišnji, Veličanstveni"
+        "value":"On je Svevišnji, Veličanstveni."
     },
     {
         "name":"label-book1-lesson39-title",
@@ -2114,7 +2223,7 @@
     },
     {
         "name":"label-book1-lesson41-quote",
-        "value":"\"O, vjernici često Allaha spominjite i hvalite\""
+        "value":"\"O, vjernici često Allaha spominjite i hvalite.\""
     },
     {
         "name":"label-book1-lesson41-quote-reference",
@@ -2212,7 +2321,7 @@
 
     {
         "name":"label-book2-lesson1-quote",
-        "value":"\"Allahu se pokorava sve što je na nebesima i na Zemlji\""
+        "value":"\"Allahu se pokorava sve što je na nebesima i na Zemlji.\""
     },
     {
         "name":"label-book2-lesson1-quote-reference",
@@ -2260,7 +2369,7 @@
     },
     {
         "name":"label-book2-lesson2_section1-paragraph2",
-        "value":"1. Početni tekbir (iftitāh-i tekbir)."
+        "value":"1. Početni tekbir (iftitaah-i tekbir)."
     },
     {
         "name":"label-book2-lesson2_section1-paragraph3",
@@ -2280,11 +2389,11 @@
     },
     {
         "name":"label-book2-lesson2_section1-paragraph7",
-        "value":"6. Sjedenje na svršetku namaza (ka'de-i ehireh)."
+        "value":"6. Sjedenje na svršetku namaza (kade-i ehireh)."
     },
     {
         "name":"label-book2-lesson3-quote",
-        "value":"\"Kad bi more bilo mastilo da se ispišu riječi Gospodara moga, more bi presahlo, ali ne i riječi Gospodara moga\""
+        "value":"\"Kad bi more bilo mastilo da se ispišu riječi Gospodara moga, more bi presahlo, ali ne i riječi Gospodara moga.\""
     },
     {
         "name":"label-book2-lesson3-quote-reference",
@@ -2312,7 +2421,7 @@
     },
     {
         "name":"label-book2-lesson4_section1-paragraph2",
-        "value":"Naklanjavanje se vrši isto kao i redovno klanjanje a u nijjetu se kaže koji se namaz naklanjava, npr: sabahski, podnevski, ikindijski, akšamski ili jacijski farz, i.ovako se zanijjeti: »Ja odlučih da naklanjam, u ime Allaha, sabahski farz-namaz koji mi je prošao."
+        "value":"Naklanjavanje se vrši isto kao i redovno klanjanje a u nijjetu se kaže koji se namaz naklanjava, npr: sabahski, podnevski, ikindijski, akšamski ili jacijski farz, i ovako se zanijeti: »Ja odlučih da naklanjam, u ime Allaha, sabahski farz-namaz koji mi je prošao."
     },
     {
         "name":"label-book2-lesson5-quote",
@@ -2324,15 +2433,15 @@
     },
     {
         "name":"label-book2-lesson5_section1-paragraph1",
-        "value":"Farz-namaz klanjamo pojedinačno, svako sam za sebe ili zajednički (džematile), a sunnet namaze klanjamo samo svako za se. Zajedničko klanjanje za imamom zove se džemat (skup, zajednica). Klanjanje u džematu preporučeno je Kur'anom i Hadisom a ima i veću nagradu od Boga dž. š. Svaki džemat ima imama, koji ga predvodi i mujezina."
+        "value":"Farz-namaz klanjamo pojedinačno, svako sam za sebe ili zajednički (džematile), a sunnet namaze klanjamo svako za sebe. Zajedničko klanjanje za imamom zove se džemat (skup, zajednica). Klanjanje u džematu preporučeno je Kur'anom i Hadisom a ima i veću nagradu od Allaha, dž.š. Svaki džemat ima imama, koji ga predvodi, i mujezina."
     },
     {
         "name":"label-book2-lesson5_section1-paragraph2",
-        "value":"Kada osoba zakasni u džemat ona će stati u saff, zanijjetiti će i nastaviti klanjati za imamom. Na osnovu ostatka namaza znaće šta je od namaza propustila."
+        "value":"Kada osoba zakasni u džemat ona će stati u saff, zanijetiti će i nastaviti klanjati za imamom. Na osnovu ostatka namaza znaće šta je od namaza propustila."
     },
     {
         "name":"label-book2-lesson5_section1-paragraph3",
-        "value":"Na zadnjem sjedenju osoba koja je zakasnila u džemat će učiti samo Ettehijjatu bez Salavata i Dove. Čekaće da imam preda selam na desnu stranu i počne izgovarati i predavati selam na lijevu stranu. Ta osoba neće predavati selam nego će ustati i klanjati one rekate koje je propustila."
+        "value":"Na zadnjem sjedenju osoba koja je zakasnila u džemat će učiti samo ettehijjatu bez salavata i dove. Čekaće da imam preda selam na desnu stranu i počne izgovarati i predavati selam na lijevu stranu. Ta osoba neće predavati selam nego će ustati i klanjati one rekate koje je propustila."
     },
     {
         "name":"label-book2-lesson6-quote",
@@ -2348,11 +2457,11 @@
     },
     {
         "name":"label-book2-lesson6_section1-paragraph2",
-        "value":"Musafir ima pravo i obavezu da farz-namaze od četiri rekata, tj. podnevski, ikindijski i jacijski farz, skrati na dva rekata. Sabahski i akšamski farz kao i vitr-namaz ne mogu se skraćivati. Sunnete i sunsunnete musafir će posve izostaviti osim ako naročito za to bude imao dovoljno vremena. Ako ih odlući klanjali, neće ih skraćivati."
+        "value":"Musafir ima pravo i obavezu da farz-namaze od četiri rekata, tj. podnevski, ikindijski i jacijski farz, skrati na dva rekata. Sabahski i akšamski farz kao i vitr-namaz ne mogu se skraćivati. Sunnete i sunsunnete musafir će posve izostaviti osim ako naročito za to bude imao dovoljno vremena. Ako ih odluči klanjali, neće ih skraćivati."
     },
     {
         "name":"label-book2-lesson7-quote",
-        "value":"\"Neka je uzvišen Onaj koji robu Svome objavljuje Kur’an\""
+        "value":"\"Neka je uzvišen Onaj koji robu Svome objavljuje Kur’an.\""
     },
     {
         "name":"label-book2-lesson7-quote-reference",
@@ -2360,11 +2469,11 @@
     },
     {
         "name":"label-book2-lesson7_section1-paragraph1",
-        "value":"Bolesnik ako ne može namaz obavljati stojeći ili sjedeći, klanjat će išaretom (gestom) ležeći na leđima, a njegove noge treba da budu okrenute prema Kibli, ili ako bude na strani ležao onda će mu lice biti okrenuto prema Kibli. Ovo okretanje je poželjno ali nije uvjet za ispravnost namaza ako prostor u kući/stanu/bolnici to ne dozvoljava. Propuštene namaze iz predoperativnog perioda, odnosno nakon buđenja iz opšte anestezije, ili kad prođe stanje bolesti treba naklanjati, ako broj propuštenih namaza nije veći od pet. Ukoliko se pak u stanju nesvijesti/kome propusti šest i više namaza, prema propisu u našem mezhebu, nema obaveze naklanjavati ih."
+        "value":"Bolesnik ako ne može namaz obavljati stojeći ili sjedeći, klanjat će išaretom (gestom) ležeći na leđima, a njegove noge treba da budu okrenute prema Kibli, ili ako bude na strani ležao onda će mu lice biti okrenuto prema Kibli. Ovo okretanje je poželjno ali nije uvjet za ispravnost namaza ako prostor u kući/stanu/bolnici to ne dozvoljava. Propuštene namaze iz predoperativnog perioda, odnosno nakon buđenja iz opšte anestezije, ili kad prođe stanje bolesti treba naklanjati, ako broj propuštenih namaza nije veći od pet. Ukoliko se ipak u stanju nesvijesti/kome propusti šest i više namaza, prema propisu u našem mezhebu (hanefijskom), nema obaveze naklanjavati ih."
     },
     {
         "name":"label-book2-lesson8-quote",
-        "value":"\"A Gospodar tvoj je, doista, Silan i Milostiv\""
+        "value":"\"A Gospodar tvoj je, doista, Silan i Milostiv.\""
     },
     {
         "name":"label-book2-lesson8-quote-reference",
@@ -2380,7 +2489,7 @@
     },
     {
         "name":"label-book2-lesson8_section1-paragraph3",
-        "value":"1. Usta i grlo vodom dobro isplakati."
+        "value":"1. Usta i grlo vodom dobro izaprati."
     },
     {
         "name":"label-book2-lesson8_section1-paragraph4",
@@ -2400,7 +2509,7 @@
     },
     {
         "name":"label-book2-lesson10_section1-paragraph1",
-        "value":"Mesh znači potrati mokrom rukom jedan dio tijela radi čišćenja tog dijela ili pak potrati mokrom rukom jedan dio odjeće, ako se - u izuzetnim slučajevima - ne može oprati taj dio tijela."
+        "value":"Mesh znači potrati mokrom rukom jedan dio tijela radi čišćenja tog dijela ili pak potrati mokrom rukom jedan dio odjeće, ako se u izuzetnim slučajevima ne može oprati taj dio tijela."
     },
     {
         "name":"label-book2-lesson10_section1-paragraph2",
@@ -2424,7 +2533,7 @@
     },
     {
         "name":"label-book2-lesson9_section1-paragraph1",
-        "value":"U izvjesnm slučajevima može se, umjesto abdesta ili gusula, uzeti tejemmum, tj. može se obaviti simbolično čišćenje čistom zemljom (prahom) ili predmetima napravljenim od zemlje.Sve što kvari abdest, pokvariće i tejemmum."
+        "value":"U izvjesnm slučajevima može se, umjesto abdesta ili gusula, uzeti tejemmum, tj. može se obaviti simbolično čišćenje čistom zemljom (prahom) ili predmetima napravljenim od zemlje. Sve što kvari abdest, pokvariće i tejemmum."
     },
     {
         "name":"label-book2-lesson9_section2-paragraph1",
@@ -2440,7 +2549,7 @@
     },
     {
         "name":"label-book2-lesson9_section2-paragraph4",
-        "value":"2. Kade se, u slučaju potrebe, nije moguće okupati."
+        "value":"3. Kade se, u slučaju potrebe, nije moguće okupati."
     },
     {
         "name":"label-book2-lesson9_section3-paragraph1",
@@ -2448,7 +2557,7 @@
     },
     {
         "name":"label-book2-lesson9_section3-paragraph2",
-        "value":"1. Izgovoriti nijjet. Nijjet tejemmuma za namaz glasi: Ja odlučih uzeti tejemmum radi namaza i radi toga da se očistim, kako bih se mogao približiti Uzvišenom Allahu.."
+        "value":"1. Izgovoriti nijjet. Nijjet tejemuma za namaz glasi: Ja odlučih uzeti tejemum radi namaza i radi toga da se očistim, kako bih se mogao približiti Uzvišenom Allahu."
     },
     {
         "name":"label-book2-lesson9_section3-paragraph3",
@@ -2460,7 +2569,7 @@
     },
     {
         "name":"label-book2-lesson11-title-description",
-        "value":"Namaz koji se lkanja za ramazanski i kurban bajram"
+        "value":"Namaz koji se klanja za ramazanski i kurban bajram"
     },
     {
         "name":"label-book2-lesson11-quote",
@@ -2472,7 +2581,7 @@
     },
     {
         "name":"label-book2-lesson11-section1-paragraph1",
-        "value":"Bajram namaz se klanja nakon sabaha za Ramazanski i Kurban bajram. Namazi se klanjaju istovjetno a razlika je jedino u nijjetu."
+        "value":"Bajram namaz se klanja 45 minuta nakon sabaha za Ramazanski i Kurban bajram. Namazi se klanjaju istovjetno a razlika je jedino u nijjetu."
     },
     {
         "name":"label-book2-lesson11-section1-header1",
@@ -2496,7 +2605,7 @@
     },
     {
         "name":"label-book2-lesson11-section1-paragraph4",
-        "value":"Prouči se Subhaneke i nakon toga se donesu tri tekbira izgovarajući: Allahu ekber. Nakon tekbira imam uči Fatihu i suru (odlomak iz Kur’ana) i obave se ostali dijelovi namaza sve do drugog rekata. Na drugom rekatu imam uči Fatihu i suru te donese opet tri tekbira izgovarajući: Allahu ekber. Sa četvrtim tekbirom imam se pregiba – ide na ruk’u, a džematlije ga prate. Nakon selama imam održi hutbu."
+        "value":"Prouči se: Subhaneke i nakon toga se donesu tri tekbira izgovarajući: Allahu ekber. Nakon tekbira imam uči Fatihu i suru (odlomak iz Kur’ana) i obave se ostali dijelovi namaza sve do drugog rekata. Na drugom rekatu imam uči Fatihu i suru te donese opet tri tekbira izgovarajući: Allahu ekber. Sa četvrtim tekbirom imam se pregiba – ide na ruk’u, a džematlije ga prate. Nakon selama imam održi hutbu."
     },
     {
         "name":"label-book2-lesson12-title-description",
@@ -2532,7 +2641,7 @@
     },
     {
         "name":"label-book2-lesson12-section3-paragraph4",
-        "value":"Poslije početnog tekbira uči se subhaneke, iza riječi “ve te’ala džedduke”, dodamo “ve dželle senauke, ve la illahe gajruke”."
+        "value":"Poslije početnog tekbira uči se: subhaneke, iza riječi “ve te’ala džedduke”, dodamo “ve dželle senauke, ve la illahe gajruke”."
     },
     {
         "name":"label-book2-lesson12-section3-paragraph5",
@@ -2540,7 +2649,7 @@
     },
     {
         "name":"label-book2-lesson12-section3-paragraph6",
-        "value":"Poslije “Salavata” donose se treći tekbir i onda se prouči “Dova”."
+        "value":"Poslije “Salavata” donosi se treći tekbir i onda se prouči “Dova”."
     },
     {
         "name":"label-book2-lesson12-section3-paragraph7",
@@ -2548,7 +2657,7 @@
     },
     {
         "name":"label-book2-lesson12-section3-paragraph8",
-        "value":"Nakon izgovorenog četvrtkog tekbira, predajemo selam na desnu stranu i spuštamo desnu ruku, zatim predajemo selam na lijevu stranu i spuštamo lijevu ruku, nakon toga proučimo Fatihu i sa tim bi završili čin klanjanja Dženaze – namaza."
+        "value":"Nakon izgovorenog četvrtog tekbira, predajemo selam na desnu stranu i spuštamo desnu ruku, zatim predajemo selam na lijevu stranu i spuštamo lijevu ruku, nakon toga proučimo Fatihu i sa tim bi završili čin klanjanja Dženaze – namaza."
     },
     {
         "name":"label-book2-lesson12-section4-header",
@@ -2568,16 +2677,16 @@
     },
     {
         "name":"label-book2-lesson12-section5-paragraph1",
-        "value":"Negdje se to izražava učenjem ajeta: \"Svi smo mi Allahovi i svi se Njemu vraćamo\". U Sarajevu se ta'zija čini riječima: \"Bašum sagosum\", a odvraća riječima: \"Dostum sagosum\". Može se to izraziti i našim riječima: Neka se Allah smiluje i oprosti Vašom umrlom, a Vama podari sabur."
+        "value":"Negdje se to izražava učenjem ajeta: \"Svi smo mi Allahovi i svi se Njemu vraćamo\". U Sarajevu se ta'zija čini riječima: \"Bašum sagosum\", a odvraća riječima: \"Dostum sagosum\". Može se to izraziti i našim riječima: Neka se Allah, dž.š., smiluje i oprosti Vašom umrlom, a Vama podari sabur."
     },
     {
         "name":"label-book2-lesson13-title-description",
-        "value":"Namaz koji se klanja svake večeri u toku Ramazana"
+        "value":"Namaz koji se klanja svake večeri u toku Ramazana."
     },
 
     {
         "name":"label-book2-lesson13-quote",
-        "value":"\"Allah ne voli nikakve razmetljivce hvalisavce.\""
+        "value":"\"Allah ne voli nikakve razmetljivce, hvalisavce.\""
     },
     {
         "name":"label-book2-lesson13-quote-reference",
@@ -2593,16 +2702,16 @@
     },
     {
         "name":"label-book2-lesson13-section2-paragraph2",
-        "value":"Prijevod: &quot;Ja odlučih klanjati u ime Uzvišenog Allaha teravih namaz od 20 rekata na vrijeme okrenuvši se prema Kibli (klanjajući za ovim imamom) Allah je Najveći. Kada se završi teravih namaz klanja se Vitr namaz (u džematu)."
+        "value":"Prijevod: Ja odlučih klanjati u ime Uzvišenog Allaha teravih namaz od 20 rekata na vrijeme okrenuvši se prema Kibli (klanjajući za ovim imamom) Allah je Najveći. Kada se završi teravih namaz klanja se Vitr namaz (u džematu)."
     },
     {
         "name":"label-book2-lesson14-title-description",
-        "value":"Obavezni namaz u džematu koji se klanje svakog petka"
+        "value":"Obavezni namaz u džematu koji se klanje svakog petka."
     },
     
     {
         "name":"label-book2-lesson14-quote",
-        "value":"\"O vjernici, kada se u petak na molitvu pozove, kupoprodaju ostavite i podjite molitvu obaviti\""
+        "value":"\"O vjernici, kada se u petak na molitvu pozove, kupoprodaju ostavite i pođite molitvu obaviti.\""
     },
     {
         "name":"label-book2-lesson14-quote-reference",
@@ -2614,23 +2723,23 @@
     },
     {
         "name":"label-book2-lesson14_section2-paragraph1",
-        "value":"- Četiri rekata sunneta (sunnetil-džumuati)"
+        "value":"- Četiri rekata sunneta"
     },
     {
         "name":"label-book2-lesson14_section2-paragraph2",
-        "value":"- Dva rekata farza (fardil-džumuati)"
+        "value":"- Dva rekata farza"
     },
     {
         "name":"label-book2-lesson14_section2-paragraph3",
-        "value":"- Četiri rekata sun-sunneta (sun-sunnetil džumuati)"
+        "value":"- Četiri rekata sunsunneta"
     },
     {
         "name":"label-book2-lesson14_section2-paragraph4",
-        "value":" - Četiri rekata ahiriz-zuhri (ahiriz-zuhri)"
+        "value":" - Četiri rekata ahiriz-zuhri"
     },
     {
         "name":"label-book2-lesson14_section2-paragraph5",
-        "value":"- Dva rekata sunnetil-vakti (sunnetil-vakti)"
+        "value":"- Dva rekata sunnetil-vakti"
     },
     {
         "name":"label-book2-lesson14-section3-header",
@@ -2638,31 +2747,31 @@
     },
     {
         "name":"label-book2-lesson14_section3-paragraph1",
-        "value":"-Nakon proučenog ezana klanja se prvi džumanski sunnet koji je isti kao i podnevski sunnet i sastoji se od četiri rekata koji se zanijeti ovako: Nevejtu en usallije lillahi te’ala salate sunnetil- džumu’ati edaen mustakbilel kibleti, Allahu ekber!"
+        "value":"- Nakon proučenog ezana klanja se prvi džumanski sunnet koji je isti kao i podnevski sunnet i sastoji se od četiri rekata koji se zanijeti ovako: Nevejtu en usallije lillahi te’ala salate sunnetil- džumu’ati edaen mustakbilel kibleti, Allahu ekber!"
     },
     {
         "name":"label-book2-lesson14_section3-paragraph2",
-        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+        "value":"Prvi rekat: subhaneke – euza – bismilla – fatiha – sura."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph3",
-        "value":"Drugi rekat: bismilla – fatiha – sura"
+        "value":"Drugi rekat: bismilla – fatiha – sura."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph4",
-        "value":"Sjedenje:Sjedenje: et-tehijjatu"
+        "value":"Sjedenje: et-tehijjatu."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph5",
-        "value":"Treći rekat: bismilla – fatiha – sura"
+        "value":"Treći rekat: bismilla – fatiha – sura."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph6",
-        "value":"Četvrti rekat: bismilla – fatiha – sura"
+        "value":"Četvrti rekat: bismilla – fatiha – sura."
     },
     {
         "name":"label-book2-lesson14_section3-paragraph7",
-        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam"
+        "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam."
     },
     {
         "name":"label-book2-lesson14-section4-header",
@@ -2678,11 +2787,11 @@
     },
     {
         "name":"label-book2-lesson14_section5-paragraph1",
-        "value":"Po završetku hutbe muezzin prouči ikamet i pristupa se klanjanju džumanskog farza koji se može klanjati samo za imamom (u džematu). Ima dva rekata a uči se sljedeće: Nijet: Nevejtu en usallije lillahi te’ala salate fardil- džumu’ati edaen mustakbilel kibleti iktedejtubihazel imami, Allahu ekber!"
+        "value":"Po završetku hutbe mujezin prouči ikamet i pristupa se klanjanju džumanskog farza koji se može klanjati samo za imamom (u džematu). Ima dva rekata a uči se sljedeće: Nijjet: Nevejtu en usallije lillahi te’ala salate fardil- džumu’ati edaen mustakbilel kibleti iktedejtubihazel imami, Allahu ekber!"
     },
     {
         "name":"label-book2-lesson14_section5-paragraph2",
-        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+        "value":"Prvi rekat: subhaneke – euza – bismilla – fatiha – sura"
     },
     {
         "name":"label-book2-lesson14_section5-paragraph3",
@@ -2694,15 +2803,15 @@
     },
     {
         "name":"label-book2-lesson14-section6-header",
-        "value":"Sun-sunnet"
+        "value":"Sunsunnet"
     },
     {
         "name":"label-book2-lesson14_section6-paragraph1",
-        "value":"Poslije farza klanjamo, svako za se, četiri rakata džumanskih sun-sunneta koji se zanijete ovako: Nevejtu en usallije lillahi te’ala salate sun-sunnetil- džumu’ati edaen mustakbilel kibleti,Allahu ekber!"
+        "value":"Poslije farza klanjamo, svako za sebe, četiri rakata džumanskih sunsunneta koji se zanijete ovako: Nevejtu en usallije lillahi te’ala salate sunsunnetil- džumu’ati edaen mustakbilel kibleti, Allahu ekber!"
     },
     {
         "name":"label-book2-lesson14_section6-paragraph2",
-        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+        "value":"Prvi rekat: subhaneke – euza – bismilla – fatiha – sura"
     },
     {
         "name":"label-book2-lesson14_section6-paragraph3",
@@ -2710,7 +2819,7 @@
     },
     {
         "name":"label-book2-lesson14_section6-paragraph4",
-        "value":"Sjedenje: Sjedenje: et-tehijjatu"
+        "value":"Sjedenje: et-tehijjatu"
     },
     {
         "name":"label-book2-lesson14_section6-paragraph5",
@@ -2732,44 +2841,48 @@
     },
     {
         "name":"label-book2-lesson14_section7-paragraph1",
-        "value":"Zanijeti se: Nevejtu en usallije lillahi te’ala salate ahiriz- zuhri edaen mustakbilel kibleti,Allahu ekber!"
+        "value":"Ahiri zuhr je četverorekatni namaz koji se klanja nakon džume da se sačuva sumnje u pogledu ispravnosti džuma namaza."
     },
     {
         "name":"label-book2-lesson14_section7-paragraph2",
-        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+        "value":"Zanijeti se: Nevejtu en usallije lillahi te’ala salate ahiri zuhri edaen mustakbilel kibleti, Allahu ekber!"
     },
     {
         "name":"label-book2-lesson14_section7-paragraph3",
-        "value":"Drugi rekat: bismilla – fatiha – sura"
+        "value":"Prvi rekat: subhaneke – euza – bismilla – fatiha – sura"
     },
     {
         "name":"label-book2-lesson14_section7-paragraph4",
-        "value":"Sjedenje: Sjedenje: et-tehijjatu"
+        "value":"Drugi rekat: bismilla – fatiha – sura"
     },
     {
         "name":"label-book2-lesson14_section7-paragraph5",
-        "value":"Treći rekat: bismilla – fatiha"
+        "value":"Sjedenje: et-tehijjatu"
     },
     {
         "name":"label-book2-lesson14_section7-paragraph6",
-        "value":"Četvrti rekat: bismilla – fatiha"
+        "value":"Treći rekat: bismilla – fatiha"
     },
     {
         "name":"label-book2-lesson14_section7-paragraph7",
+        "value":"Četvrti rekat: bismilla – fatiha"
+    },
+    {
+        "name":"label-book2-lesson14_section7-paragraph8",
         "value":"Zadnje sjedenje: et-tehijjatu, salavati, dova i selam."
     },
 
     {
         "name":"label-book2-lesson14-section8-header",
-        "value":"Sunnetil- vakt"
+        "value":"Sunnetil vakt"
     },
     {
         "name":"label-book2-lesson14_section8-paragraph1",
-        "value":"Nijet: Nevejtu en usallije lillahi te’ala salate sunnetil- vakti edaen mustakbilel kibleti, Allahu ekber!"
+        "value":"Nijjet: Nevejtu en usallije lillahi te’ala salate sunnetil- vakti edaen mustakbilel kibleti, Allahu ekber!"
     },
     {
         "name":"label-book2-lesson14_section8-paragraph2",
-        "value":"Prvi rekat: Subhaneke – euza – bismilla – fatiha – sura"
+        "value":"Prvi rekat: subhaneke – euza – bismilla – fatiha – sura"
     },
     {
         "name":"label-book2-lesson14_section8-paragraph3",
@@ -2782,19 +2895,19 @@
 
     {
         "name":"label-book2-lesson15-quote",
-        "value":"\"Zar misle oni koji zla djela rade da će Nama umaći?\""
+        "value":"\"Broj mjeseci u Allaha je dvanaest\""
     },
     {
         "name":"label-book2-lesson15-quote-reference",
-        "value":"Kur'an, 29:4"
+        "value":"Kur'an, 9:36"
     },
     {
         "name":"label-book2-lesson15_section1-paragraph1",
-        "value":"Muslimanska hidžretska godina određuje se prema kretanju Mjeseca oko Zemlje, a ima 354 ili 355 dana. Muslimanske hidžretske godine računaju se od seobe Muhammeda, a. s., i prvih muslimana iz Meke u Medinu. Kao prvi dan Nove muslimanske godine uzima se 1. muharrem svake godine."
+        "value":"Muslimanska hidžretska godina određuje se prema kretanju Mjeseca oko Zemlje, a ima 354 ili 355 dana. Muslimanske hidžretske godine računaju se od seobe Muhammeda, a.s., i prvih muslimana iz Mekke u Medinu. Kao prvi dan Nove muslimanske godine uzima se 1. muharrem svake godine."
     },
     {
         "name":"label-book2-lesson16-quote",
-        "value":"\"I naredjuje mi se da budem prvi musliman.\""
+        "value":"\"I naređuje mi se da budem prvi musliman.\""
     },
     {
         "name":"label-book2-lesson16-quote-reference",
@@ -2802,15 +2915,15 @@
     },
     {
         "name":"label-book2-lesson16_section1-paragraph1",
-        "value":"Mevlud je svečanost kojom muslimani obilježavaju 12. rebiul- evel kao rođendan Muhammeda a. s. Tom prilikom u džamijama se prouči mevlud i prigodna predavanja o životu i radu Božijeg Poslanika i uglednih ashaba, kao i u raznim drugim prilikama."
+        "value":"Mevlud je svečanost kojom muslimani obilježavaju 12. rebiul- evvel kao rođendan Muhammeda, a.s. Tom prilikom u džamijama se prouči mevlud i održe prigodna predavanja o životu i radu Allahovog Poslanika i uglednih ashaba, kao i u raznim drugim prilikama."
     },
     {
         "name":"label-book2-lesson17-quote",
-        "value":"\"Jedan od dokaza njegovih je to što vas od zemlje stvara, i odjednom vas, ljudi, svuda ima razasutih\""
+        "value":"\"Tako mi zore, i deset noći.\""
     },
     {
         "name":"label-book2-lesson17-quote-reference",
-        "value":"Kur'an, 30:20"
+        "value":"Kur'an, 89:1-2"
     },
     {
         "name":"label-book2-lesson17_section1-paragraph1",
@@ -2818,23 +2931,23 @@
     },
     {
         "name":"label-book2-lesson17_section2-paragraph1",
-        "value":"Lejlei-regaib pada prvog uoči petka u mjesecu redžebu. Te noći osjetila je hazreti Amina, da je ponijela Muhammeda a. s."
+        "value":"Lejle-i regaib nastupa uoči prvog petka u mjesecu redžebu. Te noći osjetila je hazreti Amina, da je ponijela Muhammeda, a.s."
     },
     {
         "name":"label-book2-lesson17_section2-paragraph2",
-        "value":"Lejlei-miradž pada 27. noć mjeseca redžeba. U toj noći Muhammed a. s. doživio je najviše duhovno uzdignuće i dobio od Allaha dž. š. zaduženje za pet dnevnih namaza."
+        "value":"Lejle-i miradž nastupa 27. noći mjeseca redžeba. U toj noći Muhammed a.s. doživio je najviše duhovno uzdignuće i dobio od Allaha, dž.š., zaduženje za pet dnevnih namaza."
     },
     {
         "name":"label-book2-lesson17_section2-paragraph3",
-        "value":"Lajlei-berat pada 15. noć ša'bana kada Allah dž. š. određuje ljudske sudbine za narednu godinu. Ona nas podsjeća na skori dolazak najdražeg nam gosta, ramazana, da bismo se duhovno i fizički pripremili za post i ostale ibadete."
+        "value":"Lajle-i berat nastupa 15. noći ša'bana kada Allah, dž.š., određuje ljudske sudbine za narednu godinu. Ona nas podsjeća na skori dolazak najdražeg nam gosta, ramazana, da bismo se duhovno i fizički pripremili za post i ostale ibadete."
     },
     {
         "name":"label-book2-lesson17_section2-paragraph4",
-        "value":"Lejlei-kader pada 27. noć ramazana. To je najodabranija noć u godini. Za nju veli Allah dž. š. da je bolja od hiljadu mjeseci jer je u toj noći počeo Allah dž. š. objavljivati Kur'an Muhammedu a. s."
+        "value":"Lejle-i kader nastupa 27. noći ramazana. To je najodabranija noć u godini. Za nju veli Allah, dž.š., da je bolja od hiljadu mjeseci jer je u toj noći počeo Allah, dž.š., objavljivati Kur'an Muhammedu, a.s."
     },
     {
         "name":"label-book2-lesson18-quote",
-        "value":"\"I obraduj vjernike da će Allah na njih veliku milost prosuti\""
+        "value":"\"I obraduj vjernike da će Allah na njih veliku milost prosuti.\""
     },
     {
         "name":"label-book2-lesson18-quote-reference",
@@ -2842,15 +2955,15 @@
     },
     {
         "name":"label-book2-lesson18_section1-paragraph1",
-        "value":"Kur'an je posljednja Božija knjiga u kojoj je Uzvišeni Allah objavio vjeru islam Muhammedu-alejhisselam s ciljem da je prenese i objasni ljudima kako bi primjenom tog zakona postigli sreću na ovom i budućem svijetu."
+        "value":"Kur'an je posljednja Allahova knjiga u kojoj je Uzvišeni Allah objavio vjeru islam Muhammedu, a.s., s ciljem da je prenese i objasni ljudima kako bi primjenom tog zakona postigli sreću na ovom i budućem svijetu."
     },
     {
         "name":"label-book2-lesson18_section1-paragraph2",
-        "value":"Kur'an sadrži upute kako i na koji način treba vjerovati, koje islamske dužnosti treba vršiti te kako i na kkoji način se ljudi trebaju vladati. Kur'an je objavljen na arapskom jeziku."
+        "value":"Kur'an sadrži upute kako i na koji način treba vjerovati, koje islamske dužnosti treba vršiti te kako i na koji način se ljudi trebaju vladati. Kur'an je objavljen na arapskom jeziku."
     },
     {
         "name":"label-book2-lesson19-quote",
-        "value":"\"To je onaj koji zna i nevidljivi i vidljivi svijet, Silni i Milostivi\""
+        "value":"\"To je onaj koji zna i nevidljivi i vidljivi svijet, Silni i Milostivi.\""
     },
     {
         "name":"label-book2-lesson19-quote-reference",
@@ -2858,15 +2971,15 @@
     },
     {
         "name":"label-book2-lesson19_section1-paragraph1",
-        "value":"Posljednji Božiji poslanik je Muhammed a. s. Poslije Muhammeda a. s. neće doći nijedan poslanik niti ijedna objava poslije Kur'ana.Kada spomenemo ime Poslanika obavezno moramo dodati alejhiselam ili proučiti salavat."
+        "value":"Posljednji Allahov poslanik je Muhammed, a.s. Poslije Muhammeda, a.s., neće doći nijedan poslanik niti ijedna objava poslije Kur'ana. Kada spomenemo ime Poslanika obavezno moramo dodati alejhiselam ili proučiti salavat."
     },
     {
         "name":"label-book2-lesson19_section2-paragraph1",
-        "value":"Njegov otac Abdullah umro je dok je on bio u majčinoj utrobi. Njegova majka se zvala Amina bint Vehb. I ona i Abdullah su poticali iz uglednih i cijenjenih porodica. Kada je napunio šest godina majka Amina je preselila na Ahiret. Tako je Muhammed ostao siroče, bez oca i bez majke. Nakon toga, još dvije godine o Muhammedu je brigu vodio njegov djed, koji ga je volio. Kada je Muhammedu bilo osam godina, umro mu je i djed Abdulmutalib, a o njemu je preuzeo brigu amidža Ebu Talib. U 25. godini života oženio se Hatidžom bint Huvejlid, koja je bila poznata u Mekki po čestitosti, ljepoti i bogatstvu. Hatidža je bila poznata po nadimku Tahira, što znači čista, a Muhammed, ’alejhi-sselam, po nadimku Emin (pouzdani). U četrdesetoj godini počeo je primati Objavu. Početak Objave bio je u mjesecu ramazanu, u pećini Hira, na brdu Nur. Prve riječi koje su objavljene Muhammedu, ’alejhi-sselam, bile su riječi: «Ikre bismi rabbike…» («Čitaj u ime Tvoga Gospodara, Čitaj plemenit je Tvoj Gospodar…»). Nakon Hidžre iz Mekke u Medinu i nekoliko važnih događaja koji su se desili u tom periodu u 63. godini života Muhammed, ’alejhi-sselam, preselio je na Ahiret u gradu Medini, a nakon što je za 23. godine potpuno izvršio misiju s kojom ga je Allah, dželle šanuhu, zadužio. On je poslan kao milost svim svjetovima."
+        "value":"Njegov otac Abdullah umro je dok je on bio u majčinoj utrobi. Njegova majka se zvala Amina bint Vehb. I ona i Abdullah su poticali iz uglednih i cijenjenih porodica. Kada je napunio šest godina majka Amina je preselila na Ahiret. Tako je Muhammed, a.s. ostao siroče, bez oca i bez majke. Nakon toga, još dvije godine o Muhammedu, a.s. je brigu vodio njegov djed, koji ga je volio. Kada je Muhammedu, a.s. bilo osam godina, umro mu je i djed Abdulmutalib, a o njemu je preuzeo brigu amidža Ebu Talib. U 25. godini života oženio se Hatidžom bint Huvejlid, koja je bila poznata u Mekki po čestitosti, ljepoti i bogatstvu. Hatidža je bila poznata po nadimku Tahira, što znači čista, a Muhammed, a.s. po nadimku El-Emin (pouzdani). U četrdesetoj godini počeo je primati Objavu. Početak Objave bio je u mjesecu ramazanu, u pećini Hira, na brdu Nur. Prve riječi koje su objavljene Muhammedu, a.s., bile su riječi: «Ikre bismi rabbike…» («Čitaj u ime Tvoga Gospodara, Čitaj plemenit je Tvoj Gospodar…»). Nakon Hidžre iz Mekke u Medinu i nekoliko važnih događaja koji su se desili u tom periodu u 63. godini života Muhammed, a.s., preselio je na Ahiret u gradu Medini, a nakon što je za 23. godine potpuno izvršio misiju s kojom ga je Allah, dž.š, zadužio. On je poslan kao milost svim svjetovima."
     },
     {
         "name":"label-book2-lesson20-quote",
-        "value":"\"I grada ovog, sigurnog\""
+        "value":"\"I grada ovog, sigurnog.\""
     },
     {
         "name":"label-book2-lesson20-quote-reference",
@@ -2874,11 +2987,11 @@
     },
     {
         "name":"label-book2-lesson20_section1-paragraph1",
-        "value":"U gradu Meki, u Arabiji, nalazi se mubarek mjesto Ka'ba i tamo se okrećemo kad klanjamo (Kibla). Meka se nalazi na jugoistoku od naše zemlje. Ako ne znamo gdje je smjer Meke, a nemamo nikoga upitati, onda se treba okrenuti onamo kuda mislimo da je Kibla."
+        "value":"U gradu Mekki, u Arabiji, nalazi se mubarek mjesto Ka'ba i tamo se okrećemo kad klanjamo (Kibla). Mekka se nalazi na jugoistoku od naše zemlje. Ako ne znamo gdje je smjer Kible, a nemamo nikoga upitati, onda se treba okrenuti onamo kuda mislimo da je Kibla."
     },
     {
         "name":"label-book2-lesson21-quote",
-        "value":"\"Neka je hvaljen Allah, čije je sve ono na nebesima i sve ono na Zemlji! \""
+        "value":"\"Neka je hvaljen Allah, čije je sve ono na nebesima i sve ono na Zemlji!\""
     },
     {
         "name":"label-book2-lesson21-quote-reference",
@@ -2894,7 +3007,7 @@
     },
     {
         "name":"label-book2-lesson21_section1-paragraph3",
-        "value":"Imati uvijek na umu da je dobro što god je naredio Svemogući Allah dž. š., a zlo što god je On zabranio."
+        "value":"Imati uvijek na umu da je dobro što god je naredio Svemogući Allah, dž.š., a zlo što god je On zabranio."
     },
     {
         "name":"label-book2-lesson22-quote",
@@ -2906,7 +3019,7 @@
     },
     {
         "name":"label-book2-lesson22_section1-paragraph1",
-        "value":"Porodica je osnovna ljudska zajednica, koja nastaje na islamskom braku i ljubavi. Djeca prema roditeljima imaju ove dužnosti:"
+        "value":"Porodica je osnovna ljudska zajednica, koja nastaje u islamskom braku i ljubavi. Djeca prema roditeljima imaju ove dužnosti:"
     },
     {
         "name":"label-book2-lesson22_section1-paragraph2",
@@ -2926,7 +3039,7 @@
     },
     {
         "name":"label-book2-lesson22_section1-paragraph6",
-        "value":"Ako su roditelji bolesni i iznemogli, moraju ih djeca njegovati, a ako su siromašni a djeca imaju imetka ili mogu zarađivati, onda moraju izdršavati svoje roditelje."
+        "value":"Ako su roditelji bolesni i iznemogli, moraju ih djeca njegovati, a ako su siromašni a djeca imaju imetka ili mogu zarađivati, onda moraju izdržavati svoje roditelje."
     },
     {
         "name":"label-book2-lesson22_section1-paragraph7",
@@ -2934,7 +3047,7 @@
     },
     {
         "name":"label-book2-lesson23-quote",
-        "value":"\"Milost koju Allah podari ljudima niko ne može uskratiti\""
+        "value":"\"Milost koju Allah podari ljudima niko ne može uskratiti.\""
     },
     {
         "name":"label-book2-lesson23-quote-reference",
@@ -2962,7 +3075,7 @@
     },
     {
         "name":"label-book2-lesson24-quote",
-        "value":"\"Dokaz im je mrtva zemlja: Mi joj život dajemo i iz nje niče žito koje oni jedu\""
+        "value":"\"Dokaz im je mrtva zemlja: Mi joj život dajemo i iz nje niče žito koje oni jedu.\""
     },
     {
         "name":"label-book2-lesson24-quote-reference",
@@ -2970,11 +3083,11 @@
     },
     {
         "name":"label-book2-lesson24_section1-paragraph1",
-        "value":"Život i zdravlje darovao nam je Svemogući Allah i mi trebamo da ih čuvamo. U tu svrhu potrebni su: čistoća, hrana, odijevanje i umjerenost u svemu. Naročito treba paziti na osobnu čistoću. Bog nam je dao raznovrsnu hranu koju jedemo. Zabranjeno je jesti: svinjsko meso i masti i svinjske prerađevine, meso krepane životinje, meso životinje koja nije propisno zaklana i krv. Zabranjeno je piti sva alkoholna pića, radi otklanjanja brojnih štetnih posljedica od upotrebe navedenih jela i pića. Hrana, odijevanje i sve ostalo treba da budu od pošteno zarađenih sredstava. Muslimani i muslimanke treba da budu propisno odjeveni i da ne pretjeruju u luksuzu. Da bismo postigli lijep odgoj trebamo biti uljudni, stidljivi, promišljeni i strpljivi. Ne smijemo biti umišljeni, oholi, srditi i grubi."
+        "value":"Život i zdravlje darovao nam je Svemogući Allah, dž.š., i mi trebamo da ih čuvamo. U tu svrhu potrebni su: čistoća, hrana, odijevanje i umjerenost u svemu. Naročito treba paziti na osobnu čistoću. Allah, dž.š., nam je dao raznovrsnu hranu koju jedemo. Zabranjeno je jesti: svinjsko meso i masti i svinjske prerađevine, meso krepane životinje, meso životinje koja nije propisno zaklana i krv. Zabranjeno je piti sva alkoholna pića, radi otklanjanja brojnih štetnih posljedica od upotrebe navedenih jela i pića. Hrana, odijevanje i sve ostalo treba da budu od pošteno zarađenih sredstava. Muslimani i muslimanke treba da budu propisno odjeveni i da ne pretjeruju u luksuzu. Da bismo postigli lijep odgoj trebamo biti uljudni, stidljivi, promišljeni i strpljivi. Ne smijemo biti umišljeni, oholi, srditi i grubi."
     },
     {
         "name":"label-book2-lesson25-quote",
-        "value":"\"Veličanstven je Gospodar tvoj, Dostojanstveni\""
+        "value":"\"Veličanstven je Gospodar tvoj, Dostojanstveni.\""
     },
     {
         "name":"label-book2-lesson25-quote-reference",
@@ -2982,11 +3095,11 @@
     },
     {
         "name":"label-book2-lesson25_section1-paragraph1",
-        "value":"Srednji put u Islamu je put koji uspostavlja ispravnu i ravednu mjeru, bez pretjerivanja i nanošenja štete u kompletnom čovjekovom životu. Srednji put podrazumijeva pravednost, ispravnost, humanost, sigurnost, jedinstvo u vjerovanju, u ibadetima i obredima, u etici i moralu, vjerozakonu kao i svakodnevnim ljudskim poslovima."
+        "value":"Srednji put u Islamu je put koji uspostavlja ispravnu i pravednu mjeru, bez pretjerivanja i nanošenja štete u kompletnom čovjekovom životu. Srednji put podrazumijeva pravednost, ispravnost, humanost, sigurnost, jedinstvo u vjerovanju, u ibadetima i obredima, u etici i moralu, vjerozakonu kao i svakodnevnim ljudskim poslovima."
     },
     {
         "name":"label-book2-lesson26-quote",
-        "value":"\"I slijedite ono najljepše, ono što vam Gospodar vaš objavljuje\""
+        "value":"\"I slijedite ono najljepše, ono što vam Gospodar vaš objavljuje.\""
     },
     {
         "name":"label-book2-lesson26-quote-reference",
@@ -2994,7 +3107,7 @@
     },
     {
         "name":"label-book2-lesson26_section1-paragraph1",
-        "value":"Istina znači sigurnost i unutrašnju ravnotežu u cjelokupnom čovjekovom životu. Iskrenost u riječima prenosi čovjeka u iskrenost u djelima i ispravnost u postupcima. Izricanje laži udaljava od čovjeka imeleke i uništava mu dobra djela."
+        "value":"Istina znači sigurnost i unutrašnju ravnotežu u cjelokupnom čovjekovom životu. Iskrenost u riječima prenosi čovjeka u iskrenost u djelima i ispravnost u postupcima. Izricanje laži udaljava meleke od čovjeka i uništava mu dobra djela."
     },
     {
         "name":"label-book2-lesson26_section1-paragraph2",
@@ -3006,7 +3119,7 @@
     },
     {
         "name":"label-book2-lesson27-quote",
-        "value":"\"Šejtan je, uistinu, vaš neprijatelj\""
+        "value":"\"Šejtan je, uistinu, vaš neprijatelj.\""
     },
     {
         "name":"label-book2-lesson27-quote-reference",
@@ -3022,15 +3135,15 @@
     },
     {
         "name":"label-book2-lesson27_section1-paragraph3",
-        "value":"Grijesi se razlikuju po svojoj štetnosti i zauzimaju različita mjesta na skali grijeha. Dijele se u dvije skupine velike i male grijehe. Ako čovjek učini kakav grijeh, hotimično ili nehotice, treba da se odmah pokaje (tevbu učini)."
+        "value":"Grijesi se razlikuju po svojoj štetnosti i zauzimaju različita mjesta na skali grijeha. Dijele se u dvije skupine, velike i male grijehe. Ako čovjek učini kakav grijeh, hotimično ili nehotice, treba da se odmah pokaje (tevbu učini)."
     },
     {
         "name":"label-book2-lesson27_section1-paragraph4",
-        "value":"Tevba se obično čini usmeno ovako: »Milostivi Bože, ja se iskreno kajem što sam učinio grijeh i molim Tvoj oprost. Estagfirullah, estagfirullah, estagfirullah ve etubu ilejh. Kad se ovo izgovori, prouči se Amentu billahi i Kelime-i šehadet. Uz iskreno kajanje treba učiniti i neko dobro djelo."
+        "value":"Tevba se obično čini usmeno ovako: »Milostivi Bože, ja se iskreno kajem što sam učinio grijeh i molim za Tvoj oprost. Estagfirullah, estagfirullah, estagfirullah ve etubu ilejh. Kad se ovo izgovori, prouči se Amentu billahi i Kelime-i šehadet. Uz iskreno kajanje treba učiniti i neko dobro djelo."
     },
     {
         "name":"label-book2-lesson28-quote",
-        "value":"\"O Allahovim ajetima raspravljaju samo oni koji ne vjeruju\""
+        "value":"\"O Allahovim ajetima raspravljaju samo oni koji ne vjeruju.\""
     },
     {
         "name":"label-book2-lesson28-quote-reference",
@@ -3063,7 +3176,7 @@
     
     {
         "name":"label-book2-lesson29-quote",
-        "value":"\"A on je, zaista, knjiga zaštićena\""
+        "value":"\"A on je, zaista, knjiga zaštićena.\""
     },
     {
         "name":"label-book2-lesson29-quote-reference",
@@ -3123,12 +3236,175 @@
         "value":"lekum dinukum ve lije din"
     },
     {
+        "name":"label-quran-nominative",
+        "value":"Kur'an"
+    },
+    {
+        "name":"label-quran-genitive",
+        "value":"Kur'ana"
+    },
+
+    {
+        "name":"label-read-quran",
+        "value":"Čitaj"
+    },
+    {
+        "name":"label-read-quran-description",
+        "value":"Čitaj odabrane sure iz Časnog Kur'ana."
+    },
+    {
+        "name":"label-quran-revelation",
+        "value":"Objava"
+    },
+    {
+        "name":"label-quran-revelation-description",
+        "value":"Objava Kur'ana Muhammedu a.s."
+    },
+    {
+        "name":"label-quran-recitation",
+        "value":"Učenje"
+    },
+    {
+        "name":"label-quran-recitation-description",
+        "value":"Etiketa učenja Časnog Kur'ana"
+    },
+
+    {
+        "name":"label-quran-chosen-verses-1",
+        "value":"Odabrani"
+    },
+    {
+        "name":"label-quran-chosen-verses-2",
+        "value":"ajeti"
+    },
+    {
+        "name":"label-quran-chosen-verses-description",
+        "value":"Čitaj odabrane ajete iz Časnog Kur'ana"
+    },
+    {
+        "name":"label-daily-prayer-1",
+        "value":"Vaktija"
+    },
+    {
+        "name":"label-daily-prayer-2",
+        "value":"namazi"
+    },
+    {
+        "name":"label-daily-prayer-description",
+        "value":"Dnevna vaktija za odabranu lokaciju"
+    },
+    {
+        "name":"label-other-prayer-1",
+        "value":"Ostali"
+    },
+    {
+        "name":"label-other-prayer-2",
+        "value":"namazi"
+    },
+    {
+        "name":"label-other-prayer-description",
+        "value":"Ostali namazi pored dnevnih vakata"
+    },
+    {
+        "name":"label-wudhu",
+        "value":"Abdest"
+    },
+    {
+        "name":"label-wudhu-description",
+        "value":"Kako se pravilno uzima abdest"
+    },
+    {
+        "name":"label-ghusl",
+        "value":"Gusl"
+    },
+    {
+        "name":"label-ghusl-description",
+        "value":"Kako se pravilno uzima gusl"
+    },
+    {
+        "name":"label-wudhu-description",
+        "value":"Kako se pravilno uzima gusl"
+    },
+    {
+        "name":"label-ramadhan",
+        "value":"Ramazan"
+    },
+    {
+        "name":"label-ramadhan-description",
+        "value":"Osnove o ramazansom postu"
+    },
+    {
+        "name":"label-zakah",
+        "value":"Zekat"
+    },
+    {
+        "name":"label-zakah-description",
+        "value":"Osnove davanju zekata i sadake"
+    },
+    {
+        "name":"label-hajj",
+        "value":"Hadždž"
+    },
+    {
+        "name":"label-hajj-description",
+        "value":"Osnove obavljanju hadždža i umre"
+    },
+    {
+        "name":"label-dua",
+        "value":"Dove"
+    },
+    {
+        "name":"label-dua-description",
+        "value":"Odabrane dove koje upućujemo Allahu dž.š."
+    },
+    {
+        "name":"label-tasbih",
+        "value":"Tespih"
+    },
+    {
+        "name":"label-tasbih-description",
+        "value":"Odabrani zikrovi koje činimo Allahu, dž.š."
+    },
+    {
+        "name":"label-shahada",
+        "value":"Šehadet"
+    },
+    {
+        "name":"label-shahada-description",
+        "value":"Označavanje pripadnosti islamu"
+    },
+    {
+        "name":"label-sira",
+        "value":"Sira"
+    },
+    {
+        "name":"label-sira-description",
+        "value":"Život posljednjeg Allahovog, dž.š., Poslanika, a.s."
+    },
+    {
+        "name":"label-hadith",
+        "value":"Hadith"
+    },
+    {
+        "name":"label-hadith-description",
+        "value":"Govor posljednjeg Allahovog, dž.š., Poslanika, a.s."
+    },
+    {
+        "name":"label-sahaba",
+        "value":"Ashabi"
+    },
+    {
+        "name":"label-sahaba-description",
+        "value":"Ukratko o najpoznatijim ashabima."
+    },
+
+    {
         "name":"label-book3-lesson1-title",
         "value":"Hadis"
     },
     {
         "name":"label-book3-lesson1-quote",
-        "value":"\"A tebe smo samo kao milost svjetovima poslali\""
+        "value":"\"A tebe smo samo kao milost svjetovima poslali.\""
     },
     {
         "name":"label-book3-lesson1-quote-reference",
@@ -3140,7 +3416,7 @@
     },
     {
         "name":"label-book3-lesson1_section1-paragraph1",
-        "value":"Hadis je sve ono što je  Muhammed , a.s., rekao, uradio ili vidio da neko nešto čini, pa svojom šutnjom to odobrio i dotičnog ne opomenuo. U hadis spadaju i one vijesti koje govore o Poslanikovim svojstvima tj. o tome kakav je Poslanik bio po svojim vanjskim i duševnim osobinama."
+        "value":"Hadis je sve ono što je  Muhammed, a.s., rekao, uradio ili vidio da neko nešto čini, pa svojom šutnjom to odobrio i dotičnog ne opomenuo. U hadis spadaju i one vijesti koje govore o Poslanikovim, a.s., svojstvima tj. o tome kakav je Poslanik, a.s., bio po svojim vanjskim i duševnim osobinama."
     },
     {
         "name":"label-book3-lesson1_section2-header",
@@ -3181,27 +3457,27 @@
     },
     {
         "name":"label-book3-lesson1_section3-paragraph2",
-        "value":"Sahih Buhari الجامع الصحيح"
+        "value":"Sahih Buhari"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph3",
-        "value":"Sahih Muslim صحيح مسلم"
+        "value":"Sahih Muslim"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph4",
-        "value":"Sunen Nesaija السنن الصغرى"
+        "value":"Sunen Nesaija"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph5",
-        "value":"Sunen Ebu Davud سُنن أبو داوود‎"
+        "value":"Sunen Ebu Davud"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph6",
-        "value":"Tirmizijin Sunen جامع الترمذي‎"
+        "value":"Tirmizijin Sunen"
     },
     {
         "name":"label-book3-lesson1_section3-paragraph6",
-        "value":"Sunen ibn Madže سُنن ابن ماجه‎"
+        "value":"Sunen ibn Madže"
     },
     {
         "name":"label-book3-lesson1_section4-header",
@@ -3217,7 +3493,7 @@
     },
     {
         "name":"label-book3-lesson1_section4-paragraph3",
-        "value":"Hudždže je hadiski strucnjak koji odlično poznaje hadisku nauku i zna oko 300,000 hadisa sa nj. Senedima. Hakim je titula za alima koji poznaje približno sve hadise sa njihovim senedima."
+        "value":"Hudždže je hadiski stručnjak koji odlično poznaje hadisku nauku i zna oko 300,000 hadisa sa njihovim senedima. Hakim je titula za alima koji poznaje približno sve hadise sa njihovim senedima."
     },
     {
         "name":"label-book3-lesson1_section5-header",
@@ -3225,7 +3501,7 @@
     }, 
     {
         "name":"label-book3-lesson1_section5-paragraph1",
-        "value":"Obzirom na ishodište hadise nijelimo na:"
+        "value":"Obzirom na ishodište hadise dijelimo na:"
     },
     {
         "name":"label-book3-lesson1_section5-paragraph2",
@@ -3253,7 +3529,7 @@
     },
     {
         "name":"label-book3-lesson1_section6-paragraph2",
-        "value":"Meshur je hadis koji u svakoj generaciji prenosi 3 ili više prenosilaca, ali ne dostiže stepen mutevatira."
+        "value":"Mešhur je hadis koji u svakoj generaciji prenosi 3 ili više prenosilaca, ali ne dostiže stepen mutevatira."
     },
     {
         "name":"label-book3-lesson1_section6-paragraph3",
@@ -3339,7 +3615,7 @@
     },
     {
         "name":"label-book3-lesson2_section7-paragraph1",
-        "value":"Prijevod Kur′ana od Muhammeda Asada sa engleskog preveo je Hilmo Ćerimović. Njegov prijevod objavljen je pod nazivom Poruka Kur′ana, u izdanju El-Kalema 2004. godine. Originalni naziv djela je The Message of the Qur′an. Muhammed Asad je porijeklom jevrej koji je rođen 1900. Godine, u današnjem ukrajinskom gradu Lavovu. Kasnije će se vratiti islamu i uzeti ime Muahmmed Assad. Putovao je po arapskom svijetu, te je proveo znatno vrijeme u Mekki i Medini, studirao je arapski, Kur′an, hadis ili Poslanikovu tradiciju i povijest islama. Muhammed Asad je 1955., odlučio da radi na svom vlastitom prijevodu Kur′ana, za koji Ismail Ibrahim Nawwab tvrdi da je bio njegov životni san."
+        "value":"Prijevod Kur′ana od Muhammeda Asada sa engleskog preveo je Hilmo Ćerimović. Njegov prijevod objavljen je pod nazivom \"Poruka Kur′ana\", u izdanju El-Kalema 2004. godine. Originalni naziv djela je \"The Message of the Qur′an\". Muhammed Asad je porijeklom jevrej koji je rođen 1900. godine, u današnjem ukrajinskom gradu Lavovu. Kasnije će se vratiti islamu i uzeti ime Muhmmed Assad. Putovao je po arapskom svijetu, te je proveo znatno vrijeme u Mekki i Medini, studirao je arapski, Kur′an, hadis ili Poslanikovu, a.s., tradiciju i povijest islama. Muhammed Asad je 1955., odlučio da radi na svom vlastitom prijevodu Kur′ana, za koji Ismail Ibrahim Nawwab tvrdi da je bio njegov životni san."
     },
     {
         "name":"label-book3-lesson3-title",
@@ -3375,7 +3651,7 @@
     },
     {
         "name":"label-book3-lesson4_section1-paragraph1",
-        "value":"Halife su bili svjetovne i duhovne vođe. Oni su bili nasljednici Božjeg Poslanika Muhammeda, a.s., u svemu osim u domenu primanja Božje objave. Institucija hilafeta postojala je od Poslanikove, a.s., smrti 632. godine pa sve dok ga Kemal-paša Ataturk nije dokinuo 1924. godine, svrgnuvši tako posljednjeg turskog sultana Abdul Medžida koji je ujedno obnašao i funkciju halife."
+        "value":"Halife su bili svjetovne i duhovne vođe. Oni su bili nasljednici Poslanika Muhammeda, a.s., u svemu osim u domenu primanja Objave. Institucija hilafeta postojala je od Poslanikove, a.s., smrti 632. godine pa sve dok ga Kemal-paša Ataturk nije dokinuo 1924. godine, svrgnuvši tako posljednjeg turskog sultana Abdul Medžida koji je ujedno obnašao i funkciju halife."
     },
     {
         "name":"label-book3-lesson4-header2",
@@ -3383,7 +3659,7 @@
     },
     {
         "name":"label-book3-lesson4_section2-paragraph1",
-        "value":"Odmah nakon Poslanikove,a.s., smrti za halifu je izabran Ebu Bekr koga je sam Poslanik, a.s., nazvao Es-Siddik – Iskreni. Bio je među prvima koji je primio islam i otac Poslanikove supruge Aiše. Poslanik, a.s., ga je odabrao da mu bude saputnikom prilikom hidžre – preseljenja iz Mekke u Medinu. Sa Poslanikom, a.s., je učestvovao u svim bitkama. Čitav svoju, nemalu, imovinu je potrošio za potrebe zajednice. Poslanik, a.s., ga je imenovao svojim zamjenikom u predvođenju muslimana prilikom zajedničkog obavljanja namaza kada bi bio spriječen da to lično Poslanik, a.s., čini. Uživao je veliki ugled u zajednici. Vladao je kratko ali je za zajednicu učinio mnogo. Kad je Poslanik, a.s., umro mnoga plemena koja su samo formalno bila prihvatila islam i priznala Poslanikovu, a.s., vlast su se pokušala odcijepiti a pojavilo se i mnogo lažnih poslanika koji su taj metež pokušali iskoristiti. Ebu Bekr je u prvoj godini svoje vladavine uspio skršiti sve te pobune i zavesti red u islamskoj državi. U drugoj godini njegove vladavine od Perzije je osvojena čitava dolina rijeke Eufrat u Iraku a od Bizantije dobar dio Sirije. Historičari su zapisali njegovu naredbu vojnicima, koja je poslije postala kodeks koga su se muslimanski vojnici držali, a koja je glasila:«Ne kršite zadanu riječ, niti pretjerujte u vjeri. Ne mrcvarite ubijene i ne ubijajte djecu, žene i starce. Ne sijecite drveće i ne palite usjeve. Ne koljite ovace, goveda i deva osim koliko vam bude potrebno za hranu. Proći ćete pokraj nekih, koji su se osamili u svojim samostanima, pa ih pustite na miru i onome čemu su se odali»."
+        "value":"Odmah nakon Poslanikove, a.s., smrti za halifu je izabran Ebu Bekr, r.a., koga je sam Poslanik, a.s., nazvao Es-Siddik – Iskreni. Bio je među prvima koji je primio islam i otac Poslanikove supruge Aiše, r.a. Poslanik, a.s., ga je odabrao da mu bude saputnikom prilikom hidžre – preseljenja iz Mekke u Medinu. Sa Poslanikom, a.s., je učestvovao u svim bitkama. Čitav svoju, nemalu, imovinu je potrošio za potrebe zajednice. Poslanik, a.s., ga je imenovao svojim zamjenikom u predvođenju muslimana prilikom zajedničkog obavljanja namaza kada bi bio spriječen da to lično Poslanik, a.s., čini. Uživao je veliki ugled u zajednici. Vladao je kratko ali je za zajednicu učinio mnogo. Kad je Poslanik, a.s., umro mnoga plemena koja su samo formalno bila prihvatila islam i priznala Poslanikovu, a.s., vlast su se pokušala odcijepiti a pojavilo se i mnogo lažnih poslanika koji su taj metež pokušali iskoristiti. Ebu Bekr je u prvoj godini svoje vladavine uspio skršiti sve te pobune i zavesti red u islamskoj državi. U drugoj godini njegove vladavine od Perzije je osvojena čitava dolina rijeke Eufrat u Iraku a od Bizantije dobar dio Sirije. Historičari su zapisali njegovu naredbu vojnicima, koja je poslije postala kodeks koga su se muslimanski vojnici držali, a koja je glasila:«Ne kršite zadanu riječ, niti pretjerujte u vjeri. Ne mrcvarite ubijene i ne ubijajte djecu, žene i starce. Ne sijecite drveće i ne palite usjeve. Ne koljite ovace, goveda i deva osim koliko vam bude potrebno za hranu. Proći ćete pokraj nekih, koji su se osamili u svojim samostanima, pa ih pustite na miru i onome čemu su se odali»."
     },
     {
         "name":"label-book3-lesson4-header3",
@@ -3391,7 +3667,7 @@
     },
     {
         "name":"label-book3-lesson4_section3-paragraph1",
-        "value":"Dok je još bio u bolesti, predosjećajući skoru smrt, Ebu Bekr je konsultirao mnoge ugledne i utjecajne prvake zajednice u svezi svoga nasljednika i dobio njihovu suglasnost da to bude Omer Ibnu-l-Hattab koga je u svojoj oporuci preporučio za to mjesto. Odmah nakon smrti Ebu Bekra, Omer i bi izabran na tu dužnost. Za vrijeme Omerove desetogodišnje vladavine skoro u potpunosti je osvojeno slavno Perzijsko carstvo, čitav Irak, Sirija, Palestina i Egipat. U historijskim djelima je ostalo zapisano da su stanovnici Jerusalema u toku opsade izrazili želju da se predaju halifi lično. Halifa je uslišao tu njihovu želju, otišao u Jeruzalem i lično primio ključeve grada. Jerusalem tako bi zauzet bez kapi krvi a halifa dade garancije stanovnicima Jerusalema da će uživati građansku sigurnost i vjerske slobode. Ostale su zapamćene njegove riječi kojima im se obratio: «O jeruzalemljani! Imate ista prava ali i iste dužnosti kao i mi». Za vrijeme njegove vladavine je uveden hidžretski kalendar. Naime, odlučeno je da se za početak ere uzme hidžra (preseljenje Poslanika, a.s., i prvih muslimana iz Meke u Medinu) a da se vrijeme računa po mjesečevu kalendaru u kome je godina za deset dana kraća od sunčeve godine. Također, uspostavio je zajedničko klanjanje teravih namaza u džematu tokom Ramazana."
+        "value":"Dok je još bio u bolesti, predosjećajući skoru smrt, Ebu Bekr, r.a., je konsultirao mnoge ugledne i utjecajne prvake zajednice u svezi svoga nasljednika i dobio njihovu suglasnost da to bude Omer Ibnu-l-Hattab, r.a., koga je u svojoj oporuci preporučio za to mjesto. Odmah nakon smrti Ebu Bekra, r.a., Omer, r.a., i bi izabran na tu dužnost. Za vrijeme Omerove, r.a., desetogodišnje vladavine skoro u potpunosti je osvojeno slavno Perzijsko carstvo, čitav Irak, Sirija, Palestina i Egipat. U historijskim djelima je ostalo zapisano da su stanovnici Jerusalema u toku opsade izrazili želju da se predaju halifi lično. Halifa je uslišao tu njihovu želju, otišao u Jeruzalem i lično primio ključeve grada. Jerusalem tako bi zauzet bez kapi krvi a halifa dade garancije stanovnicima Jerusalema da će uživati građansku sigurnost i vjerske slobode. Ostale su zapamćene njegove riječi kojima im se obratio: «O jeruzalemljani! Imate ista prava ali i iste dužnosti kao i mi». Za vrijeme njegove vladavine je uveden hidžretski kalendar. Naime, odlučeno je da se za početak ere uzme hidžra (preseljenje Poslanika, a.s., i prvih muslimana iz Mekke u Medinu) a da se vrijeme računa po mjesečevu kalendaru u kome je godina za deset dana kraća od sunčeve godine. Također, uspostavio je zajedničko klanjanje teravih namaza u džematu tokom Ramazana."
     },
     {
         "name":"label-book3-lesson4-header4",
@@ -3399,7 +3675,7 @@
     },
     {
         "name":"label-book3-lesson4_section4-paragraph1",
-        "value":"Bio je jedan od najuglednijih mekanskih prvaka i zet Muhammedov. Uz to je bio i jedan od Poslanikovih pisara Kur'ana i izuzetno darežljiv, tako da je sav svoj veliki imetak potrošio za potrebe zajednice. Halifa Omer nije oporučio jednu osobu za halifu, nego je u svojoj oporuci naveo šest najugledinijih prvaka zajednice, među kojima je bio i Osman i oporučio da oni između sebe izaberu njegova nasljednika. Kad je halifa Omer bio ubijen njegova oporuka je realizirana i ova šestorica su odlučila da nasljednik bude Osman ibn Affan. Za vrijeme njegove dvanaestogodišnje vladavine država se proširila na skoro čitavu sjevernu Afriku i sjeverno od Iraka sve do Armenije. Kako je izgrađena i snažna mornarica tako su osvojeni mnogi otoci istočnog Sredozemlja zajedno sa Kiprom. Pošto su i mnogi (ne)arapi prigrlili islam uočene su mnoge nepravilnosti u recitiranju Kur'ana. Da ne bi došlo do iskrivljivanja Kur'ana izvršena je još jedna stroga recenzija Kur'ana, koji je za Ebu Bekra bio sakupljen u jednu zbirku, a onda je za vrijeme halife Osmana Kur'an umnožen i razaslat u sve krajeve države."
+        "value":"Bio je jedan od najuglednijih mekkanskih prvaka i zet Muhammedov, a.s., Uz to je bio i jedan od Poslanikovih pisara Kur'ana i izuzetno darežljiv, tako da je sav svoj veliki imetak potrošio za potrebe zajednice. Halifa Omer, r.a., nije oporučio jednu osobu za halifu, nego je u svojoj oporuci naveo šest najugledinijih prvaka zajednice, među kojima je bio i Osman, r.a., i oporučio da oni između sebe izaberu njegova nasljednika. Kad je halifa Omer bio ubijen njegova oporuka je realizirana i ova šestorica su odlučila da nasljednik bude Osman ibn Affan, r.a. Za vrijeme njegove dvanaestogodišnje vladavine država se proširila na skoro čitavu sjevernu Afriku i sjeverno od Iraka sve do Armenije. Kako je izgrađena i snažna mornarica tako su osvojeni mnogi otoci istočnog Sredozemlja zajedno sa Kiprom. Pošto su i mnogi (ne)arapi prigrlili islam uočene su mnoge nepravilnosti u recitiranju Kur'ana. Da ne bi došlo do iskrivljivanja Kur'ana izvršena je još jedna stroga recenzija Kur'ana, koji je za Ebu Bekra, r.a., bio sakupljen u jednu zbirku, a onda je za vrijeme halife Osmana, r.a., Kur'an umnožen i razaslat u sve krajeve države."
     },
     {
         "name":"label-book3-lesson4-header5",
@@ -3407,7 +3683,7 @@
     },
     {
         "name":"label-book3-lesson4_section5-paragraph1",
-        "value":"Pošto je i halifa Osman bio ubijen, za halifu je bio izabran Alija ibn ebi Talib. Alija je odrasta u Poslanikovu, a.s., domu i bio je oženjen njegovom kćerkom Fatimom. Bio je jedan od pisara Kur'ana i slovio je kao jedan od najboljih poznavalaca islamskog prava. Osim toga bio je veliki junak, učesnik skoro svih vojnih pohoda te pobjednik u svim, mnogobrojnim, dvobojima kojima su u ono doba otpočinjale bitke. Islam je prihvatio još kao dječak. Nakon Osmanovog ubistva, Alija nije želio preuzeti hilafet. Nakon nagovaranja odlučio je popustiti, ali pod uslovom da mu svi u džamiji daju prisegu na vjernost. Prvi je dao prisegu Talha ibn Ubejdullah, a nakon njega i ostali prisutni. Na taj način Alija postade 4. halifa i ujedno i posljednji &quot;pravedni halifa&quot;. Odmah po preuzimanju hilafeta, novi halifa je naišao na probleme. Poslije izbora Alije za halifu, taj izbor nije priznao namjesnik Sirije, Muavija. Vođeno je nekoliko žestokih bitaka u kojima je Alijina vojska odnijela pobjede. Muavija ni dalje nije priznavao Aliju za halifu nego se i on proglasio halifom. Četrdesetih godina po Hidžri sastala su se tri čovjeka iz reda Haridžija (jedna fanatična vjerska sekta, nastala tokom tih borbi) i, smatrajući da su muslimani zalutali, te da se trebaju ubiti namjesnici: Alija, Muavija i Amr ibn el-'As. Dogovor je pao da se sva tri ubistva odigraju 17. ramazana. Pokušaj ubistva Muavije je propao, iako ga je ubica ranio zatrovanom sabljom po debelom mesu. Nakon dugotrajnog liječenja Muavija je ozdravio. Amr ibn el-'As se razbolio, te nije izašao na sabah namaz, nego je poslao Haridžea ibn Huzejfea, kojega je Amrov ubica ubio. Abdurrahman ibn Muldžem je sačekao Aliju ispred njegove kuće kada je ovaj krenuo klanjati sabah namaz u džamiji i udario ga sabljom po čelu. Halifa nije odmah podlegao ranama, nego je uspio poživjeti dovoljno dugo da naredi da se ne kažnjava niko osim njegovog ubice i to bez mučenja. Naredio je sljedbenicima da nipošto ne traže osvetu. Umro je neprestano ponavljajući šehadet."
+        "value":"Pošto je i halifa Osman, r.a., bio ubijen, za halifu je bio izabran Alija ibn ebi Talib, r.a., koji je odrastao u Poslanikovu, a.s., domu i bio je oženjen njegovom kćerkom Fatimom, r.a. Bio je jedan od pisara Kur'ana i slovio je kao jedan od najboljih poznavalaca islamskog prava. Osim toga bio je veliki junak, učesnik skoro svih vojnih pohoda te pobjednik u svim, mnogobrojnim, dvobojima kojima su u ono doba otpočinjale bitke. Islam je prihvatio još kao dječak. Nakon Osmanovog, r.a., ubistva, Alija, r.a., nije želio preuzeti hilafet. Nakon nagovaranja odlučio je popustiti, ali pod uslovom da mu svi u džamiji daju prisegu na vjernost. Prvi je dao prisegu Talha ibn Ubejdullah, a nakon njega i ostali prisutni. Na taj način Alija postade 4. halifa i ujedno i posljednji \"pravedni halifa\". Odmah po preuzimanju hilafeta, novi halifa je naišao na probleme. Poslije izbora Alije, r.a., za halifu, taj izbor nije priznao namjesnik Sirije, Muavija. Vođeno je nekoliko žestokih bitaka u kojima je Alijina, r.a., vojska odnijela pobjede. Muavija ni dalje nije priznavao Aliju za halifu nego se i on proglasio halifom. Četrdesetih godina po Hidžri sastala su se tri čovjeka iz reda Haridžija (jedna fanatična vjerska sekta, nastala tokom tih borbi) i, smatrajući da su muslimani zalutali, te da se trebaju ubiti namjesnici: Alija, Muavija i Amr ibn el-'As. Dogovor je pao da se sva tri ubistva odigraju 17. ramazana. Pokušaj ubistva Muavije je propao, iako ga je ubica ranio zatrovanom sabljom po debelom mesu. Nakon dugotrajnog liječenja Muavija je ozdravio. Amr ibn el-'As se razbolio, te nije izašao na sabah namaz, nego je poslao Haridžea ibn Huzejfea, kojega je Amrov ubica ubio. Abdurrahman ibn Muldžem je sačekao Aliju ispred njegove kuće kada je ovaj krenuo klanjati sabah namaz u džamiji i udario ga sabljom po čelu. Halifa nije odmah podlegao ranama, nego je uspio poživjeti dovoljno dugo da naredi da se ne kažnjava niko osim njegovog ubice i to bez mučenja. Naredio je sljedbenicima da nipošto ne traže osvetu. Umro je neprestano ponavljajući šehadet."
     },
 
     {
@@ -3416,11 +3692,11 @@
     },
     {
         "name":"label-book3-lesson5-title-description",
-        "value":"Ukratko o ashabima Muhammeda a.s. kojima je obećan džennet"
+        "value":"Ukratko o ashabima Muhammeda ,a.s., kojima je obećan džennet"
     },
     {
         "name":"label-book3-lesson5-quote",
-        "value":"\"A oni koji su se Allaha bojali, oni će na sigurnu mjestu biti\""
+        "value":"\"A oni koji su se Allaha bojali, oni će na sigurnu mjestu biti.\""
     },
     {
         "name":"label-book3-lesson5-quote-reference",
@@ -3428,7 +3704,7 @@
     },
     {
         "name":"label-book3-lesson5_section1-paragraph1",
-        "value":"Svaki ashab bio je institucija za sebe. Svaki ashab bio je Ummet. Svi ashabi Božijeg Poslanika su posebni i prepoznatljivi po nečemu, ali se desetorica izdvajaju. Desetorica kojima je nagoviješten Džennet, koji se zovu \"Ašere-i mubeššere\", a to su:"
+        "value":"Svaki ashab bio je institucija za sebe. Svaki ashab bio je Ummet. Svi ashabi Poslanika, a.s., su posebni i prepoznatljivi po nečemu, ali se desetorica izdvajaju. Desetorica kojima je nagoviješten Džennet, koji se zovu \"Ašere-i mubeššere\", a to su:"
     },
     {
         "name":"label-book3-lesson5_section1-paragraph2",
@@ -3436,7 +3712,7 @@
     },
     {
         "name":"label-book3-lesson5_section1-paragraph3",
-        "value":"Omer ibn el-Hattab, r.a., koji je prihvatio islam nakon Hamze ibn Abdu-l-Muttaliba, r.a., do tri dana. Prije njegovoga prelaska na islam Muhammed, a.s., je učio dovu: \"Allahu moj, pomozi islam sa jednim od dvojice koji je Tebi draži: Omerom ibn El-Hattabom ili Amrom ibn Hišamom (Ebu Džehlom)\" Allah dž.š. je islam pomogao sa Omerom ibn el-Hattabom, velikanom islama, koji je nakon smrti Ebu Bekra es-Siddika izabran za halifu, a u njegovo vrijeme hilafeta je došlo do velikog proširenja islamske države."
+        "value":"Omer ibn el-Hattab, r.a., koji je prihvatio islam nakon Hamze ibn Abdu-l-Muttaliba, r.a., do tri dana. Prije njegovoga prelaska na islam Muhammed, a.s., je učio dovu: \"Allahu moj, pomozi islam sa jednim od dvojice koji je Tebi draži: Omerom ibn El-Hattabom ili Amrom ibn Hišamom (Ebu Džehlom)\" Allah, dž.š., je islam pomogao sa Omerom ibn el-Hattabom, velikanom islama, koji je nakon smrti Ebu Bekra es-Siddika izabran za halifu, a u njegovo vrijeme hilafeta je došlo do velikog proširenja islamske države."
     },
     {
         "name":"label-book3-lesson5_section1-paragraph4",
@@ -3456,7 +3732,7 @@
     },
     {
         "name":"label-book3-lesson5_section1-paragraph8",
-        "value":"Abdurrahman ibn Avf, r.a., koji je bio prepoznatljiv po svojoj odvažnosti i darežljivosti do te mjere da ne bi htio leći dok ne bi podijelio sve što je imao, a Allah bi mu imetak stalno uvećavao. I često je plakao od straha pred Allahom zbog imetka koji je postizao i potom ga dijelio!"
+        "value":"Abdurrahman ibn Avf, r.a., koji je bio prepoznatljiv po svojoj odvažnosti i darežljivosti do te mjere da ne bi htio leći dok ne bi podijelio sve što je imao, a Allah, dž.š., bi mu imetak stalno uvećavao. I često je plakao od straha pred Allahom zbog imetka koji je postizao i potom ga dijelio!"
     },
     {
         "name":"label-book3-lesson5_section1-paragraph9",
@@ -3474,9 +3750,6 @@
         "name":"label-book3-lesson5_section1-paragraph12",
         "value":"Spomenuta desetorica ashaba, imenom i prezimenom, su desetorica koji su poznati kao Ašere mubeššere – desetorica koje je još za života Poslanik obavjestio da su stanovnici Dženneta. Ovdje svakako trebamo spomenuti unuke Hasana, r.a., i Husejna, r.a."
     },
-    
-
-
     {
         "name":"label-book3-lesson6-title",
         "value":"Žene u islamu"
@@ -3487,7 +3760,7 @@
     },
     {
         "name":"label-book3-lesson6-quote",
-        "value":"\"A roditeljima dobročinstvo činite\""
+        "value":"\"A roditeljima dobročinstvo činite.\""
     },
     {
         "name":"label-book3-lesson6-quote-reference",
@@ -3499,7 +3772,7 @@
     },
     {
         "name":"label-book3-lesson6_section1-paragraph1",
-        "value":"Islam nam govori da su istinski uspješni ljudi oni ljudi sa integritetom, koji su ispunili svrhu svog stvaranja, dorasli životnim izazovima koji su stavljeni pred njih, težeći da postignu zadovoljstvo svog Stvoritelja i vječni uspjeh za naredni život. Poslanik Muhammed a.s. u jednom hadisu kaže:\"Najbolje žene od džennetskih žena su Hatidža bint Huvejlid, Fatima bint Muhammed, Merjem bint Imran i Asija bint Muzahim (žena faraona).\""
+        "value":"Islam nam govori da su istinski uspješni ljudi oni ljudi sa integritetom, koji su ispunili svrhu svog stvaranja, dorasli životnim izazovima koji su stavljeni pred njih, težeći da postignu zadovoljstvo svog Stvoritelja i vječni uspjeh za naredni život. Poslanik Muhammed, a.s., u jednom hadisu kaže:\"Najbolje žene od džennetskih žena su Hatidža bint Huvejlid, Fatima bint Muhammed, Merjem bint Imran i Asija bint Muzahim (žena faraona).\""
     },
     {
         "name":"label-book3-lesson6-header2",
@@ -3507,7 +3780,7 @@
     },
     {
         "name":"label-book3-lesson6_section2-paragraph1",
-        "value":"Četiri najbolje žene odmah su se i bez ikakvog oklijevanja pokorile istini, i naredbama Uzvišenog Allaha. Obratite pažnju na to kako je Merjem prihvatila težak zadatak koji joj je Allah dž.š. postavio. Prošla je kroz trudnoću i porođaj sama, bez podrške muškarca, a zatim predstavila svoje dijete ljudima koji bi je neizbiježno optužili da je bila nečasna. Hatidža r.a. je prihvatila islam bez oklijevanja, i postala prva muslimanka. Kad se Poslanik s.a.v.s. vratio sa brda Nur, gdje je primio prvu objavu od meleka Džibrila, ona je smjesta prihvatila njegovu poruku i vjerovala u njega, iako je i on sam bio potresen ovim događajem."
+        "value":"Četiri najbolje žene odmah su se i bez ikakvog oklijevanja pokorile istini, i naredbama Uzvišenog Allaha,dž.š. Obratite pažnju na to kako je Merjem prihvatila težak zadatak koji joj je Allah, dž.š., postavio. Prošla je kroz trudnoću i porođaj sama, bez podrške muškarca, a zatim predstavila svoje dijete ljudima koji bi je neizbiježno optužili da je bila nečasna. Hatidža, r.a., je prihvatila islam bez oklijevanja, i postala prva muslimanka. Kad se Poslanik, a.s., vratio sa brda Nur, gdje je primio prvu objavu od meleka Džibrila, a.s., ona je smjesta prihvatila njegovu poruku i vjerovala u njega, iako je i on sam bio potresen ovim događajem."
     },
     {
         "name":"label-book3-lesson6-header3",
@@ -3515,7 +3788,7 @@
     },
     {
         "name":"label-book3-lesson6_section3-paragraph1",
-        "value":"Njihovo znanje o Allahu dž.š. i Njegovim svojstvima ih je približilo Njemu. Kad se a.s. vratio iz pećine Hira u strahu da mu se nije nešto loše desilo, Hatidža je znala da ga Allah dž.š. neće napustiti. Rekla je: „Allah te ne bi nikada ponizio, jer si dobar prema rodbini, govoriš istinu, udjeljuješ siromašnima, pomažeš slabima, lijepo primaš gosta, odazivaš se na poziv onih koji su u nevolji.“Znala je da je Allah dž.š. pravedan i da ne ponižava pravovjerne. Asija je znala, dok ju je faraon mučio kako bi je okrenuo od njene vjere, da Allah dž.š. čuje njen plač i njene dove. Tražila je od Allaha dž.š. kuću u Džennetu. Tokom teških muka koje je prolazila, Allah dž.š. joj je pokazao kuću u Džennetu, na što se ona nasmiješila. Merjem je bila u tako bliskoj vezi sa svojim Gospodarem da ju je On opskrbljivao sa ljetnim voćem zimi, i zimskim voćem ljeti. Kad je poslanik Zekerijja a.s. ovo vidio, pitao ju je odakle joj hrana, a ona je odgovorila: \"To je od Allaha!“ Allah, doista, opskrbljuje koga hoće, bez ikakva računa!\" (Ali-Imran, 37)"
+        "value":"Njihovo znanje o Allahu, dž.š., i Njegovim svojstvima ih je približilo Njemu. Kad se vratio iz pećine Hira u strahu da mu se nije nešto loše desilo, Hatidža je znala da ga Allah, dž.š., neće napustiti. Rekla je: „Allah te ne bi nikada ponizio, jer si dobar prema rodbini, govoriš istinu, udjeljuješ siromašnima, pomažeš slabima, lijepo primaš gosta, odazivaš se na poziv onih koji su u nevolji“. Znala je da je Allah, dž.š,. pravedan i da ne ponižava pravovjerne. Asija je znala, dok ju je faraon mučio kako bi je okrenuo od njene vjere, da Allah, dž.š., čuje njen plač i njene dove. Tražila je od Allaha, dž.š., kuću u Džennetu. Tokom teških muka koje je prolazila, Allah, dž.š., joj je pokazao kuću u Džennetu, na što se ona nasmiješila. Merjem je bila u tako bliskoj vezi sa svojim Gospodarem da ju je On opskrbljivao sa ljetnim voćem zimi, i zimskim voćem ljeti. Kad je poslanik Zekerijja, a.s., ovo vidio, pitao ju je odakle joj hrana, a ona je odgovorila: \"To je od Allaha!“ Allah, doista, opskrbljuje koga hoće, bez ikakva računa!\" (Ali-Imran, 37)"
     },
     {
         "name":"label-book3-lesson6-header4",
@@ -3539,7 +3812,7 @@
     },
     {
         "name":"label-book3-lesson6_section6-paragraph1",
-        "value":"Fatima je često učestvovala u bitkama koje su muslimani vodili: Previjala je rane ranjenicima, i suprotstavila se Ebu Džehlu kada je napao Poslanika s.a.v.s. Merjem je imala hrabrost da predstavi Isa a.s. svom narodu, nakon teškog iskušenja. Znala je da će je optužiti da je bila nečasna, a ona se ipak hrabro pokorila Allahovoj naredbi. Hatidža je hrabro slijedila Poslanika a.s. u njegovoj misiji, iako je pretrpila razne teškoće zbog toga. Asija se hrabro suprotstavila faraonu koji je bio najveći tiranin tog vremena i odbila da bude nevjernica."
+        "value":"Fatima je često učestvovala u bitkama koje su muslimani vodili: Previjala je rane ranjenicima, i suprotstavila se Ebu Džehlu kada je napao Poslanika, a.s. Merjem je imala hrabrost da predstavi Isa, a.s., svom narodu, nakon teškog iskušenja. Znala je da će je optužiti da je bila nečasna, a ona se ipak hrabro pokorila Allahovoj, dž.š., naredbi. Hatidža je hrabro slijedila Poslanika a.s. u njegovoj misiji, iako je pretrpila razne teškoće zbog toga. Asija se hrabro suprotstavila faraonu koji je bio najveći tiranin tog vremena i odbila da bude nevjernica."
     },
     {
         "name":"label-book3-lesson6-header7",
@@ -3555,7 +3828,7 @@
     },
     {
         "name":"label-book3-lesson6_section8-paragraph1",
-        "value":"Kada je bila progonjena zbog toga što je obožavala Allaha dž.š., ona se u velikoj mjeri oslonila na Allaha, te je tako ostala čvrsta u vjeri i nije popustila pod jakim pritiskom. Fatima se suočila sa siromaštvom i fizičkim teškoćama nakon što se udala za Aliju r.a., do te mjere da su joj ruke postale grube i lice joj promijenilo boju zbog teških poslova koje je morala raditi. Uprkos tome svemu, nije joj bilo dozvoljeno da primi zekat niti da priušti sebi slugu. Umjesto sluge, Poslanik a.s. je naučio nju i Aliju r.a. da kažu 33 puta subhanallah, 33 puta elhamdulillah i 34 puta allahuekber. Podsjetio ih je da im jedino Allah dž.š. može olakšati i da se trebaju u potpunosti na Njega osloniti. Sve četiri žene su bile sposobne prevazići iskušenja sa kojim su se suočile, jer su se uzdale u to da će Allah dž.š. olakšati njihovu borbu."
+        "value":"Kada je bila progonjena zbog toga što je obožavala Allaha dž.š., ona se u velikoj mjeri oslonila na Allaha, dž.š.,, te je tako ostala čvrsta u vjeri i nije popustila pod jakim pritiskom. Fatima se suočila sa siromaštvom i fizičkim teškoćama nakon što se udala za Aliju r.a., do te mjere da su joj ruke postale grube i lice joj promijenilo boju zbog teških poslova koje je morala raditi. Uprkos tome svemu, nije joj bilo dozvoljeno da primi zekat niti da priušti sebi slugu. Umjesto sluge, Poslanik a.s. je naučio nju i Aliju, r.a., da kažu 33 puta subhanallah, 33 puta elhamdulillah i 34 puta allahuekber. Podsjetio ih je da im jedino Allah, dž.š., može olakšati i da se trebaju u potpunosti na Njega osloniti. Sve četiri žene su bile sposobne prevazići iskušenja sa kojim su se suočile, jer su se uzdale u to da će Allah, dž.š., olakšati njihovu borbu."
     },
     {
         "name":"label-book3-lesson6-header9",
@@ -3563,12 +3836,12 @@
     },
     {
         "name":"label-book3-lesson6_section9-paragraph1",
-        "value":"Poslanik s.a.v.s. je jednom rekao Fatimi da ukloni zlatne narukvice koje je nosila, jer je htio da je nauči da se ne veže za dunjalučke stvari. Ona ih je odmah skinula i dala u dobrotvorne svrhe. Hatidža je svojim bogatstvom pomagala širenje Allahove riječi tokom„mekkanskog perioda“. Ona, kao jedna od najpoznatijih i najcjenjenijih žena plemena Kurejš, odrekla se je svog društvenog položaja da bi bila uz Poslanika s.a.v.s. Asija je mogla imati luksuzan život jer je bila udata za najbogatijeg i najmoćnijeg čovjeka na svijetu. Ona se, ipak, odrekla dunjalučkih užitaka koje je mogla imati ako bi se pokorila faraonovim željama. Odabrala je ono što je u Allaha, umjesto dunjaluka."
+        "value":"Poslanik, a.s., je jednom rekao Fatimi da ukloni zlatne narukvice koje je nosila, jer je htio da je nauči da se ne veže za dunjalučke stvari. Ona ih je odmah skinula i dala u dobrotvorne svrhe. Hatidža je svojim bogatstvom pomagala širenje Allahove, dž.š., riječi tokom„mekkanskog perioda“. Ona, kao jedna od najpoznatijih i najcjenjenijih žena plemena Kurejš, odrekla se svog društvenog položaja da bi bila uz Poslanika s.a.v.s. Asija je mogla imati luksuzan život jer je bila udata za najbogatijeg i najmoćnijeg čovjeka na svijetu. Ona se, ipak, odrekla dunjalučkih užitaka koje je mogla imati ako bi se pokorila faraonovim željama. Odabrala je ono što je u Allaha, dž.š.,, umjesto dunjaluka."
     },
 
     {
         "name":"label-book3-lesson7-quote",
-        "value":"\"Na nebesima i na Zemlji, zaista, postoje dokazi za one koji vjeruju\""
+        "value":"\"Na nebesima i na Zemlji, zaista, postoje dokazi za one koji vjeruju.\""
     },
     {
         "name":"label-book3-lesson7-quote-reference",
@@ -3588,7 +3861,7 @@
     },
     {
         "name":"label-book3-lesson7_section1-paragraph2",
-        "value":"Kur’an je nadnaravan, nenadmašan, nedostižan, jednom riječju – on je mudžiza jer je Božije svojstvo, i zato ljudi nisu u stanju \"donijeti nešto slično njemu\".  Posljednja Božija Objava. Kur’an je Allahov govor, Božija Riječ (kelamulah). Prema učenju ehl-i sunneta, Kur’an je \"nestvoreni Božiji govor\". Taj Vječni govor, dakle, silazi, spušta se (tenzil) u vrijeme i prostor. Vrijeme i prostor su odrednice koje se vežu za čovjeka, one ništa ne znače u odnosu na vječni Božiji govor."
+        "value":"Kur’an je nadnaravan, nenadmašan, nedostižan, jednom riječju – on je mudžiza jer je Allahovo, dž.š., svojstvo, i zato ljudi nisu u stanju \"donijeti nešto slično njemu\". Kur’an je posljednja Allahova, dž.š., Objava, Njegov govor i Njegova Riječ (kelamulah). Prema učenju ehl-i sunneta, Kur’an je \"nestvoreni Allahov, dž.š., govor\". Taj Vječni govor, dakle, silazi, spušta se (tenzil) u vrijeme i prostor. Vrijeme i prostor su odrednice koje se vežu za čovjeka, one ništa ne znače u odnosu na vječni Allahov, dž.š., govor."
     },
     {
         "name":"label-book3-lesson7_section2-header",
@@ -3596,15 +3869,15 @@
     },
     {
         "name":"label-book3-lesson7_section2-paragraph1",
-        "value":"Kur’an je objavljen (munezzel) \"s plemenitih Visina\" na čistom arapskom jeziku. On nije vlasništvo meleka Džibrila niti Muhammeda, s.a.v.s., i nije samo njima objavljen, već svim ljudima i džinima. Kur’an je poput Sunca, svima sija! Dakle, Kur’an je objavljen čovjeku i čovjek je baštinik Objave. Kakvo priznanje čovjeku od njegova Gospodara! Zašto baš čovjeku? Zato što on ima slobodu da vjeruje ili ne vjeruje. Prvi primatelj Objave (vahja) je Muhammed, s.a.v.s. On je Kur’an primao ne onda kada je on htio, već kada je Uzvišeni Allah to htio."
+        "value":"Kur’an je objavljen (munezzel) \"s plemenitih Visina\" na čistom arapskom jeziku. On nije vlasništvo meleka Džibrila, a.s., niti Muhammeda, a.s., i nije samo njima objavljen, već svim ljudima i džinima. Kur’an je poput Sunca, svima sija! Dakle, Kur’an je objavljen čovjeku i čovjek je baštinik Objave. Kakvo priznanje čovjeku od njegova Gospodara! Zašto baš čovjeku? Zato što on ima slobodu da vjeruje ili ne vjeruje. Prvi primatelj Objave (vahja) je Muhammed, a.s. On je Kur’an primao ne onda kada je on htio, već kada je Uzvišeni Allah, dž.š., to htio."
     },
     {
         "name":"label-book3-lesson7_section3-header",
-        "value":"Melek Džibril"
+        "value":"Melek Džibril, a.s."
     },
     {
         "name":"label-book3-lesson7_section3-paragraph1",
-        "value":"Melek Džibril, a.s., je poznat kao dostavljač Allahovih, dž.š., Objava. Između ostalih Allahovih, dž.š., Objava on je dostavio Tevrat, Zebur, Indžil i Kur'an. O meleku Džibrilu, kaže Stvoritelj, svjetova:”I Kur'an je sigurno Objava Gospodara svjetova, donosi ga povjerljivi Džibril na srce tvoje, da opominješ.’’ (El-Bekara, 285) Objavu je dostavljao postepeno, pune 23 godine, odnosno 13 godina u Mekki i 10 godina u Medini. Džibril bi dolazio Allahovom Poslaniku, alejhi selam, u njegovom prirodnom stanju, i ovo je bilo teško Allahovom Poslaniku, alejhi selam. U drugoj situaciji Džibril bi prelazio iz stanja meleka u lik čovjeka, što bi Poslaniku, alejhi selam, bilo lakše. U Buharijevom sahihu se od Aiše, radijallahu anha, prenosi da je Haris ibn Hašim, radijallahu anha, pitao Allahovog Poslanika, sallallahu alejhi ve sellem. govoreći mu: \"Allahov Poslaniče, kako ti dolazi objava?\" Poslanik, sallallahu alejhi ve sellem, mu je odgovorio: “Nekada mi Objava dolazi slično zvonjavi zvona i to mi je najteže. Kad se to završi ja sam već zapamtio ono što mi je objavljeno. A nekada mi melek dolazi u liku čovjeka, i govori mi, a ja upamtim ono što mi on kaže.” (Buhari: 18/1, br. 2.)"
+        "value":"Melek Džibril, a.s., je poznat kao dostavljač Allahovih, dž.š., Objava. Između ostalih Objava on je dostavio Tevrat, Zebur, Indžil i Kur'an. O meleku Džibrilu, a.s., kaže Stvoritelj, svjetova:”I Kur'an je sigurno Objava Gospodara svjetova, donosi ga povjerljivi Džibril na srce tvoje, da opominješ.’’ (El-Bekara, 285) Objavu je dostavljao postepeno, pune 23 godine, odnosno 13 godina u Mekki i 10 godina u Medini. Džibril, a.s., bi dolazio Allahovom, dž.š., Poslaniku, a.s, u njegovom prirodnom stanju, i ovo je bilo teško Poslaniku, a.s. U drugoj situaciji Džibril, a.s. bi prelazio iz stanja meleka u lik čovjeka, što bi Poslaniku, a.s., bilo lakše. U Buharijevom sahihu se od Aiše, radijallahu anha, prenosi da je Haris ibn Hašim, r.a., pitao Poslanika, a.s., govoreći mu: \"Allahov Poslaniče, kako ti dolazi objava?\" Poslanik, a.s., mu je odgovorio: “Nekada mi Objava dolazi slično zvonjavi zvona i to mi je najteže. Kad se to završi ja sam već zapamtio ono što mi je objavljeno. A nekada mi melek dolazi u liku čovjeka, i govori mi, a ja upamtim ono što mi on kaže.” (Buhari: 18/1, br. 2.)"
     },
     {
         "name":"label-book3-lesson7_section4-header",
@@ -3628,11 +3901,11 @@
     },
     {
         "name":"label-book3-lesson7_section6-paragraph1",
-        "value":"Rana muslimanska zajednica na čelu sa halifama Ebu Bekrom i Osmanom, r.a., poduzela je niz idžtihadskih poteza u vezi sa: a) nastankom mushafa, b) njegovim prepisivanjem i umnožavanjem i c) reformom kur’anskog pisma. U vrijeme Allahovog Poslanika, s.a.v.s., Kur’an je zapisivan na različitim materijalima: kamenim plohama, palminom granju, kostima i slično, ali nije bio sakupljen u jednu zbirku (mushaf). Svi ti predmeti bili su pohranjivani kod Zejda ibn Sabita, glavnog Poslanikovog, s.a.v.s., pisara Objave. Usporedo s time, i još u većoj mjeri, teklo je učenje Kur’ana napamet. Sa halifom Ebu Bekrom nastaje prvi mushaf. Naime, kada je na Jemami (12/634. godine) poginula skupina ashaba u borbi protiv Musejlime el-Kezzaba, Omer b. el-Hattab ukazao je Ebu Bekru, r.a., da sakupi Kur’an zbog straha da on ne nestane sa smrću njegovih učača poznavalaca. Ebu Bekr je izdao fetvu Zejdu b. Sabitu, i Kur’an je zapisan, odnosno sakupljen u jednu zbirku (mushaf). Taj mushaf ostao je kod Ebu Bekra, zatim kod Omera, a onda kod Omerove kćerke Hafse. Tokom toga perioda raširile se su kopije Kur’ana širom tadašnjeg carstva. Među njima je bilo određenih razlika pa je Huzejfe b. el-Jemani (25. godine po Hidžri) na to ukazao Osmanu b. el-‚Affanu, r.a. Onda je Osman formirao komisiju na čelu sa Zejdom b. Sabitom da po drugi put zapišu Kur’an. Mushaf koji je bio kod Hafse uzeli su kao osnovni tekst (imamu l-mushaf) prilikom ovog posljednjeg zapisivanja/sakupljanja Kur’ana. Osman, r.a., lično je nadzirao ovaj posao i u njemu sudjelovao. Osman, r.a., im je rekao: „Ako se u nečemu ne složite, zapišite prema jeziku plemena Kurejš.“ Kada je mushaf završen, Osman, r.a., načinio je njegove kopije i poslao u glavne centre carstva, a za sve mimo njega naredio je da se podere ili spali (prenose se obje ove mogućnosti)."
+        "value":"Rana muslimanska zajednica na čelu sa halifama Ebu Bekrom i Osmanom, r.a., poduzela je niz idžtihadskih koraka u vezi sa: a) nastankom mushafa, b) njegovim prepisivanjem i umnožavanjem i c) reformom kur’anskog pisma. U vrijeme Poslanika, a.s., Kur’an je zapisivan na različitim materijalima: kamenim plohama, palminom granju, kostima i slično, ali nije bio sakupljen u jednu zbirku (mushaf). Svi ti predmeti bili su pohranjivani kod Zejda ibn Sabita, glavnog Poslanikovog, a.s., pisara Objave. Usporedo s time, i još u većoj mjeri, teklo je učenje Kur’ana napamet. Sa halifom Ebu Bekrom, r.a., nastaje prvi mushaf. Naime, kada je na Jemami (12/634. godine) poginula skupina ashaba u borbi protiv Musejlime el-Kezzaba, Omer b. el-Hattab, r.a., ukazao je Ebu Bekru, r.a., da sakupi Kur’an zbog straha da on ne nestane sa smrću njegovih učača. Ebu Bekr, r.a., je izdao fetvu Zejdu b. Sabitu, r.a., i Kur’an je zapisan, odnosno sakupljen u jednu zbirku (mushaf). Taj mushaf ostao je kod Ebu Bekra, r.a., zatim kod Omera, r.a., a onda kod Omerove, r.a., kćerke Hafse, r.a. Tokom toga perioda raširile se su kopije Kur’ana širom tadašnjeg carstva. Među njima je bilo određenih razlika pa je Huzejfe (25. godine po Hidžri) na to ukazao Osmanu, r.a., koji je formirao komisiju na čelu sa Zejdom b. Sabitom, r.a., da po drugi put zapišu Kur’an. Mushaf koji je bio kod Hafse uzeli su kao osnovni tekst (imamu l-mushaf) prilikom ovog posljednjeg zapisivanja/sakupljanja Kur’ana. Osman, r.a., lično je nadzirao ovaj posao i u njemu sudjelovao. Osman, r.a., im je rekao: „Ako se u nečemu ne složite, zapišite prema jeziku plemena Kurejš.“ Kada je mushaf završen, Osman, r.a., načinio je njegove kopije i poslao u glavne centre carstva, a za sve mimo njega naredio je da se podere ili spali (prenose se obje ove mogućnosti)."
     },
     {
         "name":"label-book3-lesson8-quote",
-        "value":"\"Eto, od takvih ćemo Mi dobra djela koja su radili primiti\""
+        "value":"\"Eto, od takvih ćemo Mi dobra djela koja su radili primiti.\""
     },
     {
         "name":"label-book3-lesson8-quote-reference",
@@ -3648,11 +3921,11 @@
     },
     {
         "name":"label-book3-lesson8_section1-paragraph1",
-        "value":"O, sljedbenici Kur'ana, ne skrivajte Kur'an ispod svojih jastuka, već ga ispravno učite noću i danju, i širite ga i razmišljajte o onome što on sadrži - da biste bili spašeni! (hadis)"
+        "value":"O, sljedbenici Kur'ana, ne skrivajte Kur'an ispod svojih jastuka, već ga ispravno učite noću i danju, i širite ga i razmišljajte o onome što on sadrži - da biste bili spašeni! (Hadis)"
     },
     {
         "name":"label-book3-lesson8_section1-paragraph2",
-        "value":"Prema Kur'anu se trebamo odnositi s posebnom pažnjom. Abdest je uslov za njegovo čitanje i držanje u rukama. (Zabranjeno ga je uzimati u ruke i čitati bez abdesta.) Osobe koje nisu čiste (džunup, žene u stanju hajza i nifasa) također Kur'an ne mogu uzimati u ruke i čitati. Preporučeno je što više čitati i učiti Kur'an. Uzvišeni hvaleći one koji to čine kaže:...koji uče ajete Allahove po cijelu noć (Ali 'Imran, 113). U Dva sahiha u hadisu od Ibn Omera kaže se: \"Nema zavidnosti osim u dva slučaja: čoveku kome je Allah dao Kur'an i on postupa po njemu i danju i noću...\" Tirmizi prenosi slijedeći hadis od Ibn Mes'uda: Ko prouči harf iz Allahove Knjige, ima za to dobro djelo, a dobro djelo se nagrađuje deseterostruko\". Učenje Kur'ana počinjemo sa učenjem Euze i Bismille"
+        "value":"Prema Kur'anu se trebamo odnositi s posebnom pažnjom. Abdest je uslov za njegovo čitanje i držanje u rukama. Zabranjeno ga je uzimati u ruke i čitati bez abdesta. Osobe koje nisu čiste (džunup, žene u stanju hajza i nifasa) također Kur'an ne mogu uzimati u ruke i čitati. Preporučeno je što više čitati i učiti Kur'an. Uzvišeni hvaleći one koji to čine kaže:...koji uče ajete Allahove po cijelu noć (Ali 'Imran, 113). U dva sahiha u hadisu od Ibn Omera, r.a., kaže se: \"Nema zavidnosti osim u dva slučaja: čoveku kome je Allah dao Kur'an i on postupa po njemu i danju i noću\". Tirmizi prenosi slijedeći hadis od Ibn Mes'uda, r.a.: \"Ko prouči harf iz Allahove Knjige, ima za to dobro djelo, a dobro djelo se nagrađuje deseterostruko\". Učenje Kur'ana počinjemo sa učenjem Euze i Bismille"
     },
     {
         "name":"label-book3-lesson8_section2-header",
@@ -3664,7 +3937,7 @@
     },
     {
         "name":"label-book3-lesson8_section2-paragraph2",
-        "value":"Vrijednost ove islamske nauke je ogromna, a njena važnost se najbolje ogleda u tome, što bez pravilnog učenja Kur'ana u pitanje dolazi vridnost namaza. Svaka islamska zajednica je obavezna da ima dovoljan broj poznavalaca ove nauke."
+        "value":"Vrijednost ove islamske nauke je ogromna, a njena važnost se najbolje ogleda u tome, što bez pravilnog učenja Kur'ana u pitanje dolazi vrijednost namaza."
     }, 
     {
         "name":"label-book3-lesson8_section3-header",
@@ -3677,7 +3950,7 @@
     
     {
         "name":"label-translator",
-        "value":"Prevod:Besim Korkut"
+        "value":"Prevod: Besim Korkut"
     },
     {
         "name":"label-header-communal-prayer",
@@ -3698,7 +3971,7 @@
     },
     {
         "name":"label-book3-lesson9-quote",
-        "value":"\"A one koji su na Pravome putu On će i dalje voditi \""
+        "value":"\"A one koji su na Pravome putu On će i dalje voditi.\""
     },
     {
         "name":"label-book3-lesson9-quote-reference",
@@ -3706,11 +3979,11 @@
     },
     {
         "name":"label-book3-lesson9_section1-paragraph1",
-        "value":"Za dobrovoljni noćni namaz kijamu-llej l Muhammed s.a.v.s. je rekao: O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru."
+        "value":"Za dobrovoljni noćni namaz kijamu-llejl Muhammed, a.s., je rekao: \"O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru.\""
     },
     {
-        "name":"label-book3-lesson9_section2-paragraph1",
-        "value":"Za dobrovoljni noćni namaz kijamu-llej l Muhammed s.a.v.s. je rekao: O ljudi, nazivajte selam, dijelite hranu i klanjajte noću dok drugi svijet spava, ući će te u Džennet u miru."
+        "name":"label-book3-lesson9_section2-paragraph2",
+        "value":"Kijamu-llejl ima od 2 do 8 rekata. Nakon svaka 2 rekata predaje se selam. Na kraju se klanjaju 3 rekata vitr namaza ako noćni namaz klanjamo nakon jacije."
     },
     
     {
@@ -3723,7 +3996,7 @@
     },
     {
         "name":"label-book3-lesson10-quote",
-        "value":"\"On uliva smirenost u srca vjernika\""
+        "value":"\"On uliva smirenost u srca vjernika.\""
     },
     {
         "name":"label-book3-lesson10-quote-reference",
@@ -3731,7 +4004,7 @@
     },
     {
         "name":"label-book3-lesson10_section1-paragraph1",
-        "value":"Od dobrovoljnih ibadeta ujutro je i klanjanje duha namaza. Vrijeme ovog namaza je ujutro, kada sunce odskoči, pa do pred podne. Klanja se od dva rekata, ili više ko može stići. Za duha namaz Muhammed s.a.v.s. je rekao: Svako jutro na svaki zglob daje se sadaka; svaki tesbih (izgovoreno Subahanellah) je sadaka, svako izgovoreno Elhamdulillahije sadaka, svako izgovoreno La ilahe illallah je sadaka, svaki izgovoreni tekbir - Allahu ekber je sadaka, naređivanjedobra je sadaka, odvraćanje od zla je sadaka, a sve to zamjenjuju dva rekata duha namaza."
+        "value":"Od dobrovoljnih ibadeta ujutro je i klanjanje Duha namaza. Vrijeme ovog namaza je ujutro, kada sunce odskoči, pa do pred podne. Klanja se dva ili više rekata. Za Duha namaz Muhammed, a.s., je rekao: \"Svako jutro na svaki zglob daje se sadaka, svaki tesbih, izgovoreno subahanellah je sadaka, svako izgovoreno elhamdulillahi je sadaka, svako izgovoreno la ilahe illallah je sadaka, svaki izgovoreni tekbir - Allahu ekber je sadaka, naređivanje dobra je sadaka, odvraćanje od zla je sadaka, a sve to zamjenjuju dva rekata Duha namaza."
     },
     {
         "name":"label-book3-lesson11-title",
@@ -3743,7 +4016,7 @@
     },
     {
         "name":"label-book3-lesson11-quote",
-        "value":"\"Allah, sigurno, zna tajne nebesa i Zemlje\""
+        "value":"\"Allah, sigurno, zna tajne nebesa i Zemlje.\""
     },
     {
         "name":"label-book3-lesson11-quote-reference",
@@ -3751,11 +4024,11 @@
     },
     {
         "name":"label-book3-lesson11_section1-paragraph1",
-        "value":"Allahov Poslanik s.a.v.s. nas j e podučavao istihari namazu za svaku priliku, kao što nas je podučavao nekoj suri iz Kur'ana. Govorioje: Kada neko od vas hoće uraditi (neki posao), neka mimo farza klanja dva rekata, a zatim neka prouči ovu dovu:"
+        "value":"Poslanik, a.s., nas j e podučavao istihari namazu za svaku priliku, kao što nas je podučavao nekoj suri iz Kur'ana. Govorio je: \"Kada neko od vas hoće uraditi neki posao, neka mimo farza klanja dva rekata, a zatim neka prouči ovu dovu:"
     },
     {
         "name":"label-book3-lesson11_section1-paragraph2",
-        "value":"Allahu moj, ja tražim dobro s Tvojim znanjem, i tražim od Tebe s Tvojom moći, i iskreno molim Te da mi daš od Tvoje velike blagodati. Ti zaista sve možešajanemogu!Tisveznaš,ajaneznam, i Ti si poznavalac tajni! Allahu moj, ako je ovo djelo korisno za mene, moju vjeru, moj život i svršetak (Ahiret) (ili je rekao: u mojoj bliskoj i dalekoj budućnosti), Ti mi ga odredi (propziši) i olakšaj, a zatim mi daj berićet (blagoslov) u njemu. A ako je ovo moje djelo loše za mene, moju vjeru, moj život i svršetak (Ahiret) (ili je rekao: u mojoj bliskoj i dalekoj budućnosti), Ti ga od mene otkloni i udalji ga od mene i odredi (propiši) mi dobro i hajr, ma gdje se ono nalazilo, zatim mi daj da s njim budem zadovoljan. Potom spomene svoju želju i potrebu."
+        "value":"Allahu moj, ja tražim dobro s Tvojim znanjem, i tražim od Tebe s Tvojom moći, i iskreno molim Te da mi daš od Tvoje velike blagodati. Ti zaista sve možeš a ja ne mogu! Ti sve znaš, a ja ne znam, i Ti si poznavalac tajni! Allahu moj, ako je ovo djelo korisno za mene, moju vjeru, moj život i Ahiret, Ti mi ga odredi i olakšaj, a zatim mi daj berićet (blagoslov) u njemu. A ako je ovo moje djelo loše za mene, moju vjeru, moj život i Ahiret, Ti ga od mene otkloni i udalji ga od mene i odredi mi dobro i hajr, ma gdje se ono nalazilo, zatim mi daj da s njim budem zadovoljan.\" Potom spomene svoju želju i potrebu."
     },
 
     {
@@ -3896,7 +4169,7 @@
     },
     {
         "name":"label-book3-lesson13-quote",
-        "value":"\"Mi s neba spuštamo vodu kao blagoslov\""
+        "value":"\"Mi s neba spuštamo vodu kao blagoslov.\""
     },
     {
         "name":"label-book3-lesson13-quote-reference",
@@ -3933,7 +4206,7 @@
     },
     {
         "name":"label-book3-lesson14-quote",
-        "value":"\"Tako Mi neba punog zvjezdanih puteva\""
+        "value":"\"Tako Mi neba punog zvjezdanih puteva.\""
     },
     {
         "name":"label-book3-lesson14-quote-reference",
@@ -3945,15 +4218,15 @@
     },
     {
         "name":"label-book3-lesson14_section1-paragraph1",
-        "value":"Životopis posljednjeg Allahovog Poslanika Muhammeda, a.s., zovemo posebnim imenom „Sira“. Sira predstavlja historijske doživljaje i događaje Allahovog Poslanika od njegovog rođenja do njegove smrti. Prvi koji je pisao Poslanikov životopis bio je 'Urve b. el-Zubejr b. el-'Avam (umro 92. godine po Hidžri), zatim Ebban b. 'Usman (umro 105. god.), Vehb b. Munebbeh (urmo 110. god.), itd. Nažalost, sve njihove knjige su izgubljene i samo se neki njihovi fragmenti mogu naći razasuti tu i tamo po pojedinim historijskim djelima kao što je, primjerice, Taberijeva historija. Jedino je sačuvan dio knjige Vehba b. Munebbeha i on se nalazi u Heidelbergu, u Njemačkoj! Od svih dosadašnjih knjiga najznačajnije i najpouzdanije knjige o životu Poslanikov su \"Životopis Muhammeda, a.s.,\" od b. Ishaka i \"Životopis\" od Ibn Hišama."
+        "value":"Životopis posljednjeg Allahovog, dž.š., Poslanika Muhammeda, a.s., zovemo posebnim imenom „Sira“. Sira predstavlja historijske doživljaje i događaje Poslanika, a.s., od njegovog rođenja do njegove smrti. Prvi koji je pisao Poslanikov, a.s., životopis bio je 'Urve b. el-Zubejr b. el-'Avam (umro 92. godine po Hidžri), zatim Ebban b. 'Usman (umro 105. god.), Vehb b. Munebbeh (urmo 110. god.), itd. Nažalost, sve njihove knjige su izgubljene i samo se neki njihovi fragmenti mogu naći razasuti tu i tamo po pojedinim historijskim djelima kao što je, primjerice, Taberijeva historija. Jedino je sačuvan dio knjige Vehba b. Munebbeha i on se nalazi u Heidelbergu, u Njemačkoj! Od svih dosadašnjih knjiga najznačajnije i najpouzdanije knjige o životu Poslanika, a.s., su \"Životopis Muhammeda, a.s.,\" od ibn Ishaka i \"Životopis\" od ibn Hišama."
     },
     {
         "name":"label-book3-lesson14_section2-header",
-        "value":"Rodjenje"
+        "value":"Rođenje"
     },
     {
         "name":"label-book3-lesson14_section2-paragraph1",
-        "value":"Kada je Abdullah, Muhammedov, a.s., otac, stasao u dob od 25 godina oženio je Aminu, kćerku Vehbovu, koji je bio unuk Kusajjovog brata Zuhre. Muhammed, a.s., je rođen 12. aprila 571. godine u Mekki, u plemenu Kurejš. Godina rođenje Muhammeda je poznata i kao Godina slona jer se tada zbio poznati događaj kada je abesinski namjesnik današnjeg Jemena, Ebreha pokušao sa vojskom koju je predvodio slon srušiti Kabu u Meki o čemu govori i jedna kur'anska sura El-Fil (Slon)."
+        "value":"Kada je Abdullah, Muhammedov, a.s., otac, stasao u dob od 25 godina oženio je Aminu, kćerku Vehbovu, koji je bio unuk Kusajjovog brata Zuhre. Muhammed, a.s., je rođen 12. aprila 571. godine u Mekki, u plemenu Kurejš. Godina rođenje Muhammeda, a.s., je poznata i kao Godina slona, jer se tada zbio poznati događaj kada je abesinski namjesnik današnjeg Jemena, Ebreha pokušao sa vojskom koju je predvodio slon srušiti Kabu u Mekki o čemu govori i jedna kur'anska sura El-Fil (Slon)."
     },
     {
         "name":"label-book3-lesson14_section3-header",
@@ -3961,7 +4234,7 @@
     },
     {
         "name":"label-book3-lesson14_section3-paragraph1",
-        "value":"Kako mu je otac umro prije njegovog rođenja, Muhammed je ostao samo s majkom i djedom. Među predislamskim uglednim Arapima vladao je običaj da se muška djeca šalju u pustinju, izvan grada, kako bi dio djetinjstva provodili u nekom od beduinskih plemena. Među takvim plemenima koja su uživala veliki ugled među Arapima bilo je i pelem Benu Sa'ad ibn Bekr. To pleme je naseljavalo područje koje se nalazi jugoistočno od Meke. Poslanikova majka Amina je upravo željela Muhammeda povjeriti nekoj od žena iz toga plemena. Historičar Ibn Hašim u svom djelu Poslanikov životopis navodi da je Muhammedova dojilja bila Halima iz plemena Benu Sa'd. Kod Halime u pustinji je ostao do perioda kada je napunio dvije godine, naučio arapski jezik i prestao sa dojenjem. Kada je doveden u Meku, u kojoj se u to doba često javljale epidemije i bolesti Halima je iskoristila tu situaciju i nagovorila Njegovu majku da Muhameda, a.s., zadrži još dvije godine što se i desilo. Kada mu je bilo šest godina, umrla mu je i majka, a kako mu je otac umro prije i prije njegovog rođenja, Muhamed, a.s., je sa šest godina ostao siroče. Dvije godine poslije umire mu i djed nakon čega ga prihvaća amidža Ebu Talib koji se brine o njemu. U tradicionalnim predajama prenosi se da je kao dječak bio poznat po mudrosti i moralnosti. Tako se prenosi da su se zidovi Kabe radi poplave srušili i da su mekanska plemena odlučila da je renoviraju. Međutim, nastao je spor oko počasnog čina vraćanj Crnog kamena u zidove Kabe. S obzirom da su Muhammeda, a.s., znali u gradu kao najmoralnijeg i najnepristrasnijeg, pozvali su njega da presudi oko tog spora. On je presudio na sljedeći način: rekao im je da Crni kamen stave na jedno platno i da glavešine svih plemena uzmu za krajeve platna i tako ga polože u zid Kabe. Kad je imao 25 godina, oženio je Hatidžu bint Huvejlid i uspješno se bavio trgovinom."
+        "value":"Kako mu je otac umro prije njegovog rođenja, Muhammed, a.s., je ostao samo s majkom i djedom. Među predislamskim uglednim Arapima vladao je običaj da se muška djeca šalju u pustinju, izvan grada, kako bi dio djetinjstva provodili u nekom od beduinskih plemena. Među takvim plemenima koja su uživala veliki ugled među Arapima bilo je i pelem Benu Sa'ad ibn Bekr. To pleme je naseljavalo područje koje se nalazi jugoistočno od Mekke. Poslanikova, a.s., majka Amina je upravo željela sina povjeriti nekoj od žena iz toga plemena. Historičar Ibn Hišam u svom djelu \"Poslanikov životopis\" navodi da je Muhammedova, a.s., dojilja bila Halima iz plemena Benu Sa'd. Kod Halime u pustinji je ostao do perioda kada je napunio dvije godine, naučio arapski jezik i prestao sa dojenjem. Kada je doveden u Mekku, u kojoj se u to doba često javljale epidemije i bolesti Halima je iskoristila tu situaciju i nagovorila Njegovu majku da Muhammeda, a.s., zadrži još dvije godine što se i desilo. Kada mu je bilo šest godina, umrla mu je i majka, a kako mu je otac umro prije njegovog rođenja, Muhammed, a.s., je sa šest godina ostao siroče. Dvije godine poslije umire mu i djed nakon čega ga prihvaća amidža Ebu Talib koji se brine o njemu. U tradicionalnim predajama prenosi se da je kao dječak bio poznat po mudrosti i moralnosti. Tako se prenosi da su se zidovi Kabe radi poplave srušili i da su mekkanska plemena odlučila da je renoviraju. Međutim, nastao je spor oko počasnog čina vraćanja Crnog kamena u zidove Kabe. S obzirom da su Muhammeda, a.s., znali u gradu kao najmoralnijeg i najnepristrasnijeg, pozvali su njega da presudi oko tog spora. On je presudio na sljedeći način: rekao im je da Crni kamen stave na jedno platno i da glavešine svih plemena uzmu za krajeve platna i tako ga polože u zid Kabe. Kad je imao 25 godina, oženio je Hatidžu bint Huvejlid, r.a., i uspješno se bavio trgovinom."
     },
     {
         "name":"label-book3-lesson14_section4-header",
@@ -3969,7 +4242,7 @@
     },
     {
         "name":"label-book3-lesson14_section4-paragraph1",
-        "value":"U tradicionalnim predajama (Buharija, Muslim i ostali) prenosi se da je Muhammed, a.s, u 40-im godinama sve više bio razočaran izopačavanjem vjerskih običaja i udaljavanja njegovih sugrađana od monoteizma i prakticiranjem primitivnog oblika politeizma. I uobičavao je osamljivanje na lokalnom brdu u pećini Hira. U jednom takvom osamljivanju, godine 610. u mjesecu ramazanu, Muhammeda, a.s, je prema islamskoj predaji, posjetio melek (anđeo) Džibril (Gabrijel) koji mu je tada prenio prve Božije riječi, imperativ Ikre! (Uči!). To su bile prve Kur'anske riječi i tim događajem zvanično je počela objava Kur'ana. Muhammed, a.s, je brzo počeo širiti islamsku vjeru u Mekki s novim pogledom na ekonomske, vjerske i socijalne odnose. Međutim, trgovci i tadašnji vladari Mekke bojali su se da bi nova vjera, sa sve više novih pristalica i s novim pristupom hodočašću u Mekku (koji je tada bio jedini izvor gradskih prihoda) mogla štetiti njihovim ličnim koristima. Upravo na mjestu drevnog hrama Kabe bili su izloženi mnogobrojni paganski idoli koje su jednom godišnje posjećivali obožavaoci iz svih krajeva tadašnje Arabije, što je ostavljalo velike prihode tadašnjim vlastima u Mekki. Tako je Muhammedovo, a.s, pozivanje u islam odmah u startu steklo velike neprijatelje. Zbog niza opstruiranja, pritisaka i napada koje je doživljavala tadašnja malobrojna islamska zajednica, bili su prisiljeni da napokon 622. godine izbjegnu prvo u tadašnju Abesiniju, a zatim u Medinu. Navodi se da je bilo i nekoliko pokušaja atentata u Mekki na samog Muhammeda, a.s, što se završilo neuspješno. U mekanskom periodu Muhammeda, a.s, je neprestano štitio amidža Ebu-Talib, koji je, također, bio jedan od mekanskih uglednik."
+        "value":"U tradicionalnim predajama (Buharija, Muslim i ostali) prenosi se da je Muhammed, a.s, u 40-im godinama sve više bio razočaran izopačavanjem vjerskih običaja i udaljavanja njegovih sugrađana od monoteizma i prakticiranjem primitivnog oblika politeizma. I uobičavao je osamljivanje na lokalnom brdu u pećini Hira. U jednom takvom osamljivanju, godine 610. u mjesecu ramazanu, Muhammeda, a.s, je prema islamskoj predaji, posjetio melek Džibril, a.s., koji mu je tada prenio prve Božije riječi, Ikre! (Uči!). To su bile prve kur'anske riječi i tim događajem zvanično je počela objava Kur'ana. Muhammed, a.s., je brzo počeo širiti islam u Mekki s novim pogledom na ekonomske, vjerske i socijalne odnose. Međutim, trgovci i tadašnji vladari Mekke bojali su se da bi nova vjera, sa sve više novih pristalica i s novim pristupom hodočašću u Mekku (koji je tada bio jedini izvor gradskih prihoda) mogla štetiti njihovim ličnim koristima. Upravo na mjestu drevnog hrama Kabe bili su izloženi mnogobrojni paganski idoli koje su jednom godišnje posjećivali obožavaoci iz svih krajeva tadašnje Arabije, što je ostavljalo velike prihode tadašnjim vlastima u Mekki. Tako je Muhammedovo, a.s., pozivanje u islam odmah u startu steklo velike neprijatelje. Zbog niza opstruiranja, pritisaka i napada koje je doživljavala tadašnja malobrojna islamska zajednica, bili su prisiljeni da 615. godine izbjegnu prvo u tadašnju Abesiniju, a zatim, 622 godine, u Medinu. Navodi se da je bilo i nekoliko pokušaja atentata u Mekki na samog Muhammeda, a.s, što se završilo neuspješno. U mekkanskom periodu Muhammeda, a.s, je neprestano štitio amidža Ebu Talib, koji je, također, bio jedan od mekanskih uglednik."
     },
     {
         "name":"label-book3-lesson14_section5-header",
@@ -3977,7 +4250,7 @@
     },
     {
         "name":"label-book3-lesson14_section5-paragraph1",
-        "value":"Godine 619. umire EbuTalib i Muhammed, a.s, gubi jaku podršku. Nakon toga umire njegova supruga Hatidža, koja je od samog početka također bila velika podrška Poslaniku, a.s,. Zbog tuge i neprestanog pritiska sugrađana, koji su sve više neprijateljski nastupali prema njemu, sam Muhammed, a.s, nazvao je tu godinu godinom tuge."
+        "value":"Godine 619. umire EbuTalib i Muhammed, a.s, gubi jaku podršku. Nakon toga umire njegova supruga Hatidža, r.a., koja je od samog početka također bila velika podrška Poslaniku, a.s,. Zbog tuge i neprestanog pritiska sugrađana, koji su sve više neprijateljski nastupali prema njemu, sam Muhammed, a.s, nazvao je tu godinu godinom tuge."
     },
     {
         "name":"label-book3-lesson14_section6-header",
@@ -3985,7 +4258,7 @@
     },
     {
         "name":"label-book3-lesson14_section6-paragraph1",
-        "value":"U vrijeme kada je Poslanik, a.s, proživljavao teške trenutke zbog gubitka važnih oslonaca u svom životu, Hatidže i Ebu Taliba, a istovremeno je zajedno sa muslimanskom zajednicom u Mekki bio na udaru mušrika i kada se njihova misija pa i životi bili ugroženi dešava se događaj koji je veoma značajan u historiji islama i jedan od najznačajnijih u životu Poslanika, a.s,. Isra i Miradž, svojevrsna mudžiza, je putovanje iz dva dijela koje je Muhammed, a.s,, prema većini autora imao u noći sa 26/27. redžeba godinu prije Hidžre, 620. ili 621. godine. Prvi dio putovanja je bilo posredstvom Buraka (bijela džennetska životinja, manja od mazge a veća od magarca) a sastojalo se od odlaska iz Mekke do hrama dalekog tj. Mesdžidul-Aksa. Na tom mjestu Muhammed, a.s, je predvodio namaz svim prijašnjim Poslanicima. Nakon Isre, u drugom dijelu putovanja poznatom kao Miradž, Muhammed, a.s, je prošao kroz sedam nebesa pri čemu se na svakom od njih susreo i razgovarao sa nekim od najodabranijih poslanika kao što su: Ibrahim, Musa i Isa. Zatim je stupio i na Arš. Višestruki je značaj tog putovanja za muslimane a jedna od njih je i naredba obavljanja namaza (pet dnevnih namaza) koji predstavlja najznačajni od pet stubova islama. Iako je Muhammed, a.s, u društvu važio kao iskren i pouzdan, nakon ovog putovanja većina stanovnika Mekke mu nije povjerovala. Tada je, njegov najvjerniji prijatelj Ebu Bekr i prvi od pravednih halifa rekao: \"Čudite se da je Muhammed s.a.v.s u jednoj noći otputovao do Mesdžidul-Aksa i nazad? Pa ja sam mu povjerovao i više od toga a to je da prima Objavu sa nebesa.\" Ovaj za islam važan događaj je ukratko opisan i u Kur'anskoj suri El-Isra (noćno putovanje) gdje se kaže: \"U ime Allaha, Svemilosnog, Milostivog! Uzvišen neka je Onaj Koji je u jednom času noći preveo Svoga roba iz Mesdžid-Harama u Mesdžid-Aksa, čiju smo okolicu blagoslovili kako bismo mu neka znamenja Naša pokazali. - On, uistinu, sve čuje i sve vidi.“"
+        "value":"U vrijeme kada je Poslanik, a.s., proživljavao teške trenutke zbog gubitka važnih oslonaca u svom životu, Hatidže, r.a., i Ebu Taliba, a istovremeno je zajedno sa muslimanskom zajednicom u Mekki bio na udaru mušrika i kada se njihova misija pa i životi bili ugroženi dešava se događaj koji je veoma značajan u historiji islama i jedan od najznačajnijih u životu Poslanika, a.s., Isra i Miradž, svojevrsna mudžiza, je putovanje iz dva dijela koje je Muhammed, a.s., prema većini autora imao u noći sa 26/27. redžeba godinu prije Hidžre, 620. ili 621. godine. Prvi dio putovanja je bilo posredstvom Buraka (bijela džennetska životinja, manja od mazge a veća od magarca) a sastojalo se od odlaska iz Mekke do hrama dalekog tj. Mesdžidul Aksa. Na tom mjestu Muhammed, a.s., je predvodio namaz svim prijašnjim poslanicima. Nakon Isre, u drugom dijelu putovanja poznatom kao Miradž, Muhammed, a.s., je prošao kroz sedam nebesa pri čemu se na svakom od njih susreo i razgovarao sa nekim od najodabranijih poslanika kao što su: Ibrahim, Musa i Isa. Zatim je stupio i na Arš. Višestruki je značaj tog putovanja za muslimane a jedna od njih je i naredba obavljanja namaza (pet dnevnih namaza) koji predstavlja najznačajni od pet stubova islama. Iako je Muhammed, a.s., u društvu važio kao iskren i pouzdan, nakon ovog putovanja većina stanovnika Mekke mu nije povjerovala. Tada je, njegov najvjerniji prijatelj Ebu Bekr, r.a., i prvi od pravednih halifa rekao: \"Čudite se da je Muhammed u jednoj noći otputovao do Mesdžidul Aksa i nazad? Pa ja sam mu povjerovao i više od toga a to je da prima Objavu sa nebesa.\" Ovaj za islam važan događaj je ukratko opisan i u kur'anskoj suri El-Isra (noćno putovanje) gdje se kaže: \"Uzvišen neka je Onaj Koji je u jednom času noći preveo Svoga roba iz Mesdžid-Harama u Mesdžid Aksa, čiju smo okolicu blagoslovili kako bismo mu neka znamenja Naša pokazali. - On, uistinu, sve čuje i sve vidi.“"
     },
     {
         "name":"label-book3-lesson14_section7-header",
@@ -3993,7 +4266,7 @@
     },
     {
         "name":"label-book3-lesson14_section7-paragraph1",
-        "value":"Pod prijetnjom smrću i nekoliko pokušaja atentata i sve većim pritiscima na njegove sljedbenik (koji su već prije napustili Mekku i otišli u Abesiniju), Muhammed, a.s., 622. godine, posljednji nakon što je ispratio sve ostale muslimane, sa svojim najboljim prijateljem Ebu Bekrom napušta Mekku i odlazi u Medinu. Dolazak u Medinu postaje historijski događaj i prekretnica za muslimane iz više razloga. Taj događaj koji se desio septembra 622. godine po Gregorijanskom kalendaru će se poslije uzeti za početak islamskog kalendara, prema kojem muslimani računaju vrijeme. Osim toga, prednost dolaska u Medinu je i taj što su prvi muslimani u mirnijem okruženju tadašnje Medine, koja im je ponudila gostoprimstvo, mogli slobodno upotpunjavati i širiti islam. S druge strane, i Medina je dobila dolaskom Poslanika. Pomirio je dotad dva zavađena arapska plemena koja su imala dugu historiju međusobnog ratovanja. Napisan je i prvi Medinski ustav tj. povelja, koji uređuje međusobne odnose Arapa i Jevreja, kojih je u gradu bilo u značajnom broju. Grad Medina, nakon Hidžre postaje središte islama te se i sam naziv grada mijenja iz tadašnjeg Jesriba u Medinetun Nebi (arap. Poslanikov grad) ili kraće Medina."
+        "value":"Pod prijetnjom smrću i nekoliko pokušaja atentata i sve većim pritiscima na njegove sljedbenik (koji su već prije napustili Mekku i otišli u Abesiniju), Muhammed, a.s., 622. godine, posljednji nakon što je ispratio sve ostale muslimane, sa svojim najboljim prijateljem Ebu Bekrom napušta Mekku i odlazi u Medinu. Dolazak u Medinu postaje historijski događaj i prekretnica za muslimane iz više razloga. Taj događaj koji se desio septembra 622. godine po gregorijanskom kalendaru će se poslije uzeti za početak islamskog kalendara, prema kojem muslimani računaju vrijeme. Osim toga, prednost dolaska u Medinu je i taj što su prvi muslimani u mirnijem okruženju tadašnje Medine, koja im je ponudila gostoprimstvo, mogli slobodno upotpunjavati i širiti islam. S druge strane, i Medina je dobila dolaskom Poslanika. Pomirio je dotad dva zavađena arapska plemena koja su imala dugu historiju međusobnog ratovanja. Napisan je i prvi Medinski ustav tj. povelja, koji uređuje međusobne odnose Arapa i Jevreja, kojih je u gradu bilo u značajnom broju. Grad Medina, nakon Hidžre postaje središte islama te se i sam naziv grada mijenja iz tadašnjeg Jesriba u Medinetun Nebi (arap. Poslanikov grad) ili kraće Medina."
     },
     {
         "name":"label-book3-lesson14_section8-header",
@@ -4001,7 +4274,7 @@
     },
     {
         "name":"label-book3-lesson14_section8-paragraph1",
-        "value":"Mir ipak nije dugo trajao. Nakon što su muslimani napustili Mekku, njihovi neprijatelji devastirali su njihove domove i pripremali napad na Medinu, prvenstveno zbog straha od ugrožavanja karavana i glavnih puteva prema Mekki od medinskih muslimana. Tako je 624. godine oko 900 dobro opremljenih mekanskih vojnika na čelu s mekanskim vladarima, među kojima je bio i Ebu Džehl, krenulo u pravcu Medine. Islamska vojska, koja je brojala oko 300 vojnika, na čelu s Poslanikom, a.s, susreće ih kod bunara u okolini Medine (Bedr) i poražava. Ubijena su 44 mekanska vojnika, među kojima i Ebu Džehl, te zarobljeno njih 70, koji su poslije u razmjeni pušteni. Ubijeno je i 14 muslimanskih vojnika. Ta je bitka odjeknula širom Arapskog poluostrva, što je doprinijelo da se i šire čuje za vjeru islam u srcu Arabije."
+        "value":"Mir ipak nije dugo trajao. Nakon što su muslimani napustili Mekku, njihovi neprijatelji devastirali su njihove domove i pripremali napad na Medinu, prvenstveno zbog straha od ugrožavanja karavana i glavnih puteva prema Mekki od medinskih muslimana. Tako je 624. godine oko 900 dobro opremljenih mekkanskih vojnika na čelu s mekkanskim vladarima, među kojima je bio i Ebu Džehl, krenulo u pravcu Medine. Muslimanska vojska, koja je brojala oko 300 vojnika, na čelu s Poslanikom, a.s., susreće ih kod bunara u okolini Medine (Bedr) i poražava. Ubijena su 44 mekkanska vojnika, među kojima i Ebu Džehl, te zarobljeno njih 70 koji su poslije u razmjeni pušteni. Ubijeno je i 14 muslimanskih vojnika. Ta je bitka odjeknula širom Arapskog poluostrva, što je doprinijelo da se i šire čuje za vjeru islam u srcu Arabije."
     },
     {
         "name":"label-book3-lesson14_section9-header",
@@ -4009,7 +4282,7 @@
     },
     {
         "name":"label-book3-lesson14_section9-paragraph1",
-        "value":"Ebu Sufjan, mekanski vladar, skupio je oko 3.000 vojnika za osvetnički napad na Medinu. Bitka se odigrala 22. januara 625. godine u dolini brda Uhud, gdje je boravila mekanska vojska koja je krenula na Medinu. U toku bitke, koja je u jednom momentu išla u korist muslimana, tadašnji mekanski, a poslije veliki muslimanski vojskovođa Halid ibn Velid čini iznenadni manevar s konjicom oko brda Uhud i iznenađuje muslimansku vojsku i poražava ih. U toj bici ranjen je i sam Muhammed, a.s., i tom prilikom izgubio je zub (očnjak). Poginulo je 75 muslimana, uključujući velikog borca Hamzu (Poslanikov amidža). , a.s.,"
+        "value":"Ebu Sufjan, mekanski vladar, skupio je oko 3.000 vojnika za osvetnički napad na Medinu. Bitka se odigrala 22. januara 625. godine u dolini brda Uhud, gdje je boravila mekkanska vojska koja je krenula na Medinu. U toku bitke, koja je u jednom momentu išla u korist muslimana, tadašnji mekkanski, a poslije veliki muslimanski vojskovođa Halid ibn Velid čini iznenadni manevar s konjicom oko brda Uhud i iznenađuje muslimansku vojsku i poražava ih. U toj bici ranjen je i sam Muhammed, a.s., i tom prilikom izgubio je zub (očnjak). Poginulo je 75 muslimana, uključujući velikog borca Hamzu, r.a."
     },
     {
         "name":"label-book3-lesson14_section10-header",
@@ -4025,7 +4298,7 @@
     },
     {
         "name":"label-book3-lesson14_section11-paragraph1",
-        "value":"Nakon Bitke na Hendeku, medinski muslimani i mekanski mnogobošci potpisuju primirje na 10 godina, 12.02.628., godine sa sljedećim tačkama:"
+        "value":"Nakon Bitke na Hendeku, medinski muslimani i mekkanski mnogobošci potpisuju primirje na 10 godina, 12.02.628., godine sa sljedećim tačkama:"
     },
     {
         "name":"label-book3-lesson14_section11-paragraph2",
@@ -4053,7 +4326,7 @@
     },
     {
         "name":"label-book3-lesson14_section12-paragraph1",
-        "value":"Primirje na Hudejbiji trajalo je svega dvije godine. Pleme Benu Huza imalo je dobre odnose s Muhammedom, a.s., a pleme Benu Bekr s idolopoklonicima iz Mekke. Prenosi se da je u jednom noćnom napadu pleme Benu Bekr napalo pleme Benu Huza, a da su im pri tome logistiku dali Mekanci, a po nekim izvorima, u napadu je učestvovalo nekoliko mekanaca. Nakon tog incidenta Muhammed, a.s., daje tri uvjeta mekancima, tražeći od njih da usvoje jedan:"
+        "value":"Primirje na Hudejbiji trajalo je svega dvije godine. Pleme Benu Huza imalo je dobre odnose s Muhammedom, a.s., a pleme Benu Bekr s idolopoklonicima iz Mekke. Prenosi se da je u jednom noćnom napadu pleme Benu Bekr napalo pleme Benu Huza, a da su im pri tome logistiku dali Mekkanci, a po nekim izvorima, u napadu je učestvovalo nekoliko mekanaca. Nakon tog incidenta Muhammed, a.s., daje tri uvjeta mekancima, tražeći od njih da usvoje jedan:"
     },
     {
         "name":"label-book3-lesson14_section12-paragraph2",
@@ -4069,15 +4342,15 @@
     },
     {
         "name":"label-book3-lesson14_section12-paragraph5",
-        "value":"Mekanci su prihvatili treći uvjet, tj. prestalo je važiti Hudejbijsko primirje. Ubrzo nakon toga uvidjeli su kakvu su grešku počinili jer nisu dobro procijenili na kojem su nivou već tada bili muslimani. Pridobili su veliki broj arapskih plemena, a osnažili su se vojno i ekonomski. Ebu Sufjan lično dolazi da obnovi Hudejbijsko primirje, međutim, Muhammed, a.s., odbija tu ponudu."
+        "value":"Mekkanci su prihvatili treći uvjet, tj. prestalo je važiti Hudejbijsko primirje. Ubrzo nakon toga uvidjeli su kakvu su grešku počinili jer nisu dobro procijenili na kojem su nivou već tada bili muslimani. Pridobili su veliki broj arapskih plemena, a osnažili su se vojno i ekonomski. Ebu Sufjan lično dolazi da obnovi Hudejbijsko primirje, međutim, Muhammed, a.s., odbija tu ponudu."
     },
     {
         "name":"label-book3-lesson14_section12-paragraph6",
-        "value":"On zatim oprema vojsku za osvojenje Mekke i u nju okuplja preko 10.000 ljudi. Osvaja Mekku bez većih konflikta i bez žrtava. Nakon ulaska u Mekku, amnestira sve okupljene stanovnike Mekke i &quot;oprašta&quot; im riječima: &quot;Reći ću vam ono što je Jusuf rekao svojoj braći: \"Ja vas danas neću koriti, idite, slobodni ste\" Nakon toga je porušio kipove koji su se nalazili u dvorištu Kabe."
+        "value":"On zatim oprema vojsku za osvojenje Mekke i u nju okuplja preko 10.000 ljudi. Osvaja Mekku bez većih konflikta i bez žrtava. Nakon ulaska u Mekku, amnestira sve okupljene stanovnike Mekke i \"oprašta\" im riječima: \"Reći ću vam ono što je Jusuf rekao svojoj braći: \"Ja vas danas neću koriti, idite, slobodni ste\" Nakon toga je porušio kipove koji su se nalazili u dvorištu Kabe."
     },
     {
         "name":"label-book3-lesson14_section13-header",
-        "value":"Preseljenje na ahiret"
+        "value":"Preseljenje na Ahiret"
     },
     {
         "name":"label-book3-lesson14_section13-paragraph1",
@@ -4089,7 +4362,7 @@
     },
     {
         "name":"label-book3-lesson15-quote",
-        "value":"\"A ti strpljivo čekaj presudu Gospodara svoga\""
+        "value":"\"A ti strpljivo čekaj presudu Gospodara svoga.\""
     },
     {
         "name":"label-book3-lesson15-quote-reference",
@@ -4125,7 +4398,7 @@
     },
     {
         "name":"label-book3-lesson15_section3-paragraph2",
-        "value":"Bosanski pjesnik Muhamed Hevai Uskufi je sastavljač tursko-bosanskog rječnika. To je prvi rječnik nekog od južnoslavenskih jezika, kojeg on tada naziva bosanskim (bosnevi). U Uvodu za svoj rječnik autor je napisao: &quot;Mnogo je lijepih rječnika napisano, sve kao dragi kamen pribranih i omiljenih, ali nema napisana na bosanskom jeziku.&quot; Rječnik je objavio 1631. godine."
+        "value":"Bosanski pjesnik Muhamed Hevai Uskufi je sastavljač tursko-bosanskog rječnika. To je prvi rječnik nekog od južnoslavenskih jezika, kojeg on tada naziva bosanskim (bosnevi). U Uvodu za svoj rječnik autor je napisao: \"Mnogo je lijepih rječnika napisano, sve kao dragi kamen pribranih i omiljenih, ali nema napisana na bosanskom jeziku.\" Rječnik je objavio 1631. godine."
     },
     {
         "name":"label-book3-lesson15_section4-header",
@@ -4177,16 +4450,16 @@
     },
     {
         "name":"label-book3-lesson16_section1-paragraph1",
-        "value":"Dova, obraćanje Uzvišenom Allahu je vrlo važna stvar u životu čovjeka. Dova se čini izravno i samo Allahu dž.š. Dova preporođuje dušu vjernika i upravlja ga pravim putem. Dovu činimo za sebe, za svoju porodicu, rodbinu, prijatelje, braću u vjeri, za žive i umrle. Dovu činimo i Allahu se obraćamo i u dobru i u nevolji. Allah dž.š. u Kur'anu kaže: «A kada te robovi Moji za Mene upitaju, Ja sam, sigurno, blizu: odazivam se dovi molitelja kad Me zamoli. Zato neka oni pozivu Mome udovolje i neka vjeruju u Mene, da bi bili na pravom putu.» (El-Bekare, 186)"
+        "value":"Dova, obraćanje Uzvišenom Allahu je vrlo važna stvar u životu čovjeka. Dova se čini izravno i samo Allahu, dž.š. Dova preporođuje dušu vjernika i upravlja ga pravim putem. Dovu činimo za sebe, za svoju porodicu, rodbinu, prijatelje, braću u vjeri, za žive i umrle. Dovu činimo i Allahu, dž.š., se obraćamo i u dobru i u nevolji. Allah dž.š. u Kur'anu kaže: «A kada te robovi Moji za Mene upitaju, Ja sam, sigurno, blizu: odazivam se dovi molitelja kad Me zamoli. Zato neka oni pozivu Mome udovolje i neka vjeruju u Mene, da bi bili na pravom putu.» (El-Bekare, 186)"
     },
 
     {
         "name":"label-book3-lesson17-title",
-        "value":"Poslanikove a.s. dove"
+        "value":"Poslanikove, a.s., dove"
     },
     {
         "name":"label-book3-lesson17-quote",
-        "value":"\"A Mi smo Kur’an učinili dostupnim za pouku\""
+        "value":"\"A Mi smo Kur’an učinili dostupnim za pouku.\""
     },
     {
         "name":"label-book3-lesson17-quote-reference",
@@ -4198,7 +4471,7 @@
     },
     {
         "name":"label-book3-lesson17_section1-paragraph2",
-        "value":"Allahu, Tebi sam se predao, u Tebe sam povjerovao, na Tebe se oslonio, Tebi se kajem i u ime Tvoje se borim."
+        "value":"Allahu, utječem ti se od zla onoga što sam uradio i zla onoga što nisam uradio."
     },
     {
         "name":"label-book3-lesson17_section2-paragraph1",
@@ -4206,7 +4479,7 @@
     },
     {
         "name":"label-book3-lesson17_section2-paragraph2",
-        "value":"Allahu, utječem ti se od zla onoga što sam uradio i zla onoga što nisam uradio."
+        "value":"Allahu, Tebi sam se predao, u Tebe sam povjerovao, na Tebe se oslonio, Tebi se kajem i u ime Tvoje se borim."
     },
     {
         "name":"label-book3-lesson17_section3-paragraph1",
@@ -4222,7 +4495,7 @@
     },
     {
         "name":"label-book3-lesson17_section4-paragraph2",
-        "value":"Allahu utječem se sa Tvojom veličinom, nema boga osim Tebe, nemoj me odvesti u zabludu. Ti si živi, koji ne umire, a džini i ljudi umiru."
+        "value":"Neka čuje onaj ko čuje neka svjedoči onaj koji svjedoči našu zahvalu Allahu i Njegovo lijepo iskušenje prema nama. Naš Gospodaru budi s nama, pa prospi Svoje blagodati na nas i zaštiti nas od vatre."
     },
     {
         "name":"label-book3-lesson17_section5-paragraph1",
@@ -4242,7 +4515,7 @@
     },
     {
         "name":"label-book3-lesson17_section7-paragraph1",
-        "value":"Allahummagfir li ma kaddemtu vema ehhartu vema esrertu vema 'alentu vema Ente 'alemu bihi minni. Ente-l-mukaddimu ve Ente-l-mu&'ehhiru ve Ente 'ala kulli šej'in kadir."
+        "value":"Allahummagfir li ma kaddemtu vema ehhartu vema esrertu vema 'alentu vema Ente 'alemu bihi minni. Ente-l-mukaddimu ve Ente-l-mu'ehhiru ve Ente 'ala kulli šej'in kadir."
     },
     {
         "name":"label-book3-lesson17_section7-paragraph2",
@@ -4254,7 +4527,7 @@
     },
     {
         "name":"label-book3-lesson17_section8-paragraph2",
-        "value":"Allahu moj, utjecem ti se od potistenosti/skrhanosti i tuge."
+        "value":"Allahu moj, utječem ti se od potištenosti/skrhanosti i tuge."
     },
     {
         "name":"label-book3-lesson18-title",
@@ -4270,7 +4543,7 @@
     },
     {
         "name":"label-book3-lesson18_section1-header",
-        "value":"Budjenje"
+        "value":"Buđenje"
     },
     {
         "name":"label-book3-lesson18_section1-paragraph1",
@@ -4290,11 +4563,11 @@
     },
     {
         "name":"label-book3-lesson18_section2-paragraph2",
-        "value":"U ime Allaha Allahu moj, tražim zaštitu kod Tebe od svega štetnog i lošeg."
+        "value":"U ime Allaha, Allahu moj, tražim zaštitu kod Tebe od svega štetnog i lošeg."
     },
     {
         "name":"label-book3-lesson18_section3-header",
-        "value":"Izlaz iz Nužnika"
+        "value":"Izlaz iz nužnika"
     },
     {
         "name":"label-book3-lesson18_section3-paragraph1",
@@ -4314,7 +4587,7 @@
     },
     {
         "name":"label-book3-lesson18_section4-paragraph2",
-        "value":"Gospodaru naš, molim Te za dobro u njoj i dobro zbog čegaj e ova odjeća napravljena. Utječem Ti se od zla u njoj i zla kojeg u sebi sadrži."
+        "value":"Gospodaru naš, molim Te za dobro u njoj i dobro zbog čega je ova odjeća napravljena. Utječem Ti se od zla u njoj i zla kojeg u sebi sadrži."
     },
     {
         "name":"label-book3-lesson18_section5-header",
@@ -4346,14 +4619,12 @@
     },
     {
         "name":"label-book3-lesson18_section7-paragraph1",
-        "value":"Reditu billahi Rabben ve bil-islami dinen vebi Muhammedin a.s. nebijjen."
+        "value":"Reditu billahi Rabben ve bil-islami dinen vebi Muhammedin nebijjen."
     },
     {
         "name":"label-book3-lesson18_section7-paragraph2",
-        "value":"Zadovoljan sam da mi je Allah Gospodar, Islam vjera i Muhammed a.s. Poslanik."
+        "value":"Zadovoljan sam da mi je Allah Gospodar, Islam vjera i Muhammed Poslanik."
     },
-
-
 
     {
         "name":"label-book3-lesson19-title",
@@ -4381,11 +4652,11 @@
     },
     {
         "name":"label-book3-lesson21-title",
-        "value":"Toba"
+        "value":"Teuba"
     },
     {
         "name":"label-book3-lesson21-quote",
-        "value":"\"Sašaptavanje je posao šejtanski\""
+        "value":"\"Sašaptavanje je posao šejtanski.\""
     },
     {
         "name":"label-book3-lesson21-quote-reference",
@@ -4393,7 +4664,7 @@
     },
     {
         "name":"label-book3-lesson21_section1-paragraph1",
-        "value":"Muhammed a.s. kaže: \"Tako mi Allaha ja dnevno po sedamdeset puta i više zatražim oprost od Allaha i pokajem se riječima: Estagfirullahe veetubuilejh.\""
+        "value":"Muhammed, a.s., kaže: \"Tako mi Allaha ja dnevno po sedamdeset puta i više zatražim oprost od Allaha i pokajem se riječima: Estagfirullah ve tubuilejh.\""
     },
     {
         "name":"label-book3-lesson21_section1-paragraph2",
@@ -4418,15 +4689,15 @@
     },
     {
         "name":"label-book3-lesson22_section1-paragraph2",
-        "value":"Allahu, Ti si moj Gospodar, nema boga osim Tebe, stvorio si me i ja sam rob Tvoj, Tebi sam obavezu i obećanje dao u granicama mogućnosti svojih. Tebi se utječem od zla djela koja počinih. Priznajem Tvoje blagodati prema meni, kao što priznajem i svoje grijehe, s toga oprosti mi, jer grijehe ne oprašta niko osim Ti."
+        "value":"Allahu, Ti si moj Gospodar, nema boga osim Tebe, stvorio Si me i ja sam rob Tvoj, Tebi sam obavezu i obećanje dao u granicama mogućnosti svojih. Tebi se utječem od zla djela koja počinih. Priznajem Tvoje blagodati prema meni, kao što priznajem i svoje grijehe, s toga oprosti mi, jer grijehe ne oprašta niko osim Ti."
     },
     {
         "name":"label-book3-lesson23-title",
-        "value":"Allahova imena"
+        "value":"Allahova lijepa imena"
     },
     {
         "name":"label-book3-lesson23-quote",
-        "value":"\"On ima najljepša imena\""
+        "value":"\"On ima najljepša imena.\""
     },
     {
         "name":"label-book3-lesson23-quote-reference",
@@ -4440,7 +4711,7 @@
     },
     {
         "name":"label-chosen-verses-quote",
-        "value":"\"Ovo su ajeti mudre Knjige\""
+        "value":"\"Ovo su ajeti mudre Knjige.\""
     },
     {
         "name":"label-chosen-verses-quote-reference",
@@ -4452,11 +4723,11 @@
     },
     {
         "name":"label-ruby-description",
-        "value":"Ajeti koji govore o veličini i moći Allaha dž.š., Stvoritelja svega što postoji"
+        "value":"Ajeti koji govore o veličini i moći Allaha, dž.š., Stvoritelja svega što postoji"
     },
     {
         "name":"label-ruby-quote",
-        "value":"\"On je Silni, Onaj koji prašta\""
+        "value":"\"On je Silni, Onaj koji prašta.\""
     },
     {
         "name":"label-ruby-quote-reference",
@@ -4478,6 +4749,77 @@
     {
         "name":"label-pearls-quote-reference",
         "value":"Kur'an, 33:3"
+    },
+
+    {
+        "name":"label-options-islamic-community",
+        "value":"Islamska zajednica Bošnjaka u Norveškoj"
+    },
+
+    {
+        "name":"label-options-team",
+        "value":"iMekteb tim"
+    },
+    {
+        "name":"label-options-team-description",
+        "value":"Ljudi koji su implementirali iMekteb projekat"
+    },
+    {
+        "name":"label-options-contact-description",
+        "value":"Pošaljite vaše prijedloge i sugestije"
+    },
+
+    {
+        "name":"label-options-rate",
+        "value":"Ocijenite iMekteb"
+    },
+    {
+        "name":"label-options-rate-description",
+        "value":"Ocijenite iMekteb app i ostavite komentar na kako vam se svidja"
+    },
+
+    {
+        "name":"label-options-keep-touch",
+        "value":"Budite u vezi sa nama"
+    },
+
+    {
+        "name":"label-options-change-language",
+        "value":"Promijenite jezik"
+    },
+    {
+        "name":"label-options-change-language-description",
+        "value":"Promijenite jezik aplikacije"
+    },
+    {
+        "name":"label-options-team-introduction-paragraph1",
+        "value":"Sva hvala i zahvala pripada Allahu, dž.š., koji je omogućio provedbu ovog projekta. Neka je salavat i selam na Poslanika Muhammeda, a.s., kao i njegovu časnu porodicu i ashabe."
+    },
+
+    {
+        "name":"label-options-team-expertise",
+        "value":"Stručni dio: "
+    },
+    {
+        "name":"label-options-team-quran",
+        "value":"Učač Kur'ana: "
+    },
+    {
+        "name":"label-options-team-design",
+        "value":"Dizajn: "
+    },
+    {
+        "name":"label-options-team-translation",
+        "value":"Prijevod: "
+    },
+    {
+        "name":"label-options-team-programming",
+        "value":"Programer: "
+    },
+
+    {
+        "name":"label-options-team-introduction-paragraph2",
+        "value":"Ova aplikacija nastala je kao iskazana potreba jednog vremenskog perioda digitalizacije u kojem se nalazimo s ciljem olakšane vjersko-odgojene edukacije djece i omladine koji žive na prostoru IZ Bošnjaka u Norveškoj, ali i šire. Prilikom izrade aplikacije korištena je stručna literatura iz ove oblasti te praksa i iskustvo imama na mektebima."
     },
 
     {
@@ -4507,7 +4849,7 @@
     },
     {
         "name":"label-surah1-ayah5",
-        "value":"Tebi se klanjamo i od tebe pomoc trazimo"
+        "value":"Tebi se klanjamo i od tebe pomoć tražimo"
     },
     
     {
@@ -4516,7 +4858,7 @@
     },
     {
         "name":"label-surah1-ayah7",
-        "value":"na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdzbu izazvali, niti onih koji su zalutali"
+        "value":"na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdžbu izazvali, niti onih koji su zalutali"
     },
     {
         "name":"label-surah2-ayah1",
@@ -6110,7 +6452,7 @@
         "value":"gotovo da se od bijesa raspadne. Kad god se koja gomila u nj baci, stražari u njemu će je upitati: \"Zar nije niko dolazio da vas opominje?\""
     },
     {
-        "name":"label-surah67-ayah8",
+        "name":"label-surah67-ayah9",
         "value":"\"Jest, dolazio nam je onaj koji nas je opominjao\" - odgovoriće   - \"a mi smo poricali i govorili: Allah nije objavio ništa, vi ste u velikoj zabludi!\""
     },
     {
@@ -6943,11 +7285,11 @@
     
     {
         "name":"label-surah112-note",
-        "value":"OVa sura govori o tevhidu i kako je Allah dž.š. neovisan od svega i ako se ovisi od Allaha dž.š."
+        "value":"Ova sura govori o tevhidu i kako je Allah dž.š. neovisan od svega i ako se ovisi od Allaha dž.š."
     },
     {
         "name":"label-surah112-ayah1",
-        "value":"Reci:On je Allah-Jedan"
+        "value":"Reci: On je Allah-Jedan"
     },
     {
         "name":"label-surah112-ayah2",
@@ -6955,7 +7297,7 @@
     },
     {
         "name":"label-surah112-ayah3",
-        "value":"Nije rodio i rodjen nije"
+        "value":"Nije rodio i rođen nije"
     },
     {
         "name":"label-surah112-ayah4",
