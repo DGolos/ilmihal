@@ -63,7 +63,7 @@ const PrayerTimesPage: React.FC = () => {
         <IonCard className="prayer ion-padding transparent ion-text-center">
           <h1 style={{ fontSize: "24px", fontWeight: "bold" }}>{translationService.getLabel(`label-month-${currentMonth}`)}</h1>
 
-          <p style={{ fontSize: "18px", fontWeight: "normal" }}>${currentYear}</p>
+          <p style={{ fontSize: "18px", fontWeight: "normal" }}>{currentYear}</p>
           
         </IonCard>
         <div>
@@ -103,22 +103,22 @@ const PrayerTimesPage: React.FC = () => {
         <div >
           <IonGrid className="monthly-prayers">
             <IonRow>
-              <IonCol><IonText style={{color:"black"}}>Datum</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>Sabah</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>Podne</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>Ikindija</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>Aksam</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>Jacija</IonText></IonCol>
+              <IonCol><IonText style={{ fontSize:"12px",color:"black"}}>Datum</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>Sabah</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>Podne</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>Ikindija</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>Aksam</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>Jacija</IonText></IonCol>
             </IonRow>
             { prayerTimes.length>0 && prayerTimes.map((day,index)=>(
               <IonRow>
 
-              <IonCol><IonText style={{color:"black"}}>{index+1}</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].fajr}</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].dhuhr}</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].asr}</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].maghrib}</IonText></IonCol>
-              <IonCol><IonText style={{color:"black"}}>{prayerTimes[index].isha}</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>{index+1}</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>{prayerTimes[index].fajr}</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>{prayerTimes[index].dhuhr}</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>{prayerTimes[index].asr}</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>{prayerTimes[index].maghrib}</IonText></IonCol>
+              <IonCol><IonText style={{fontSize:"12px",color:"black"}}>{prayerTimes[index].isha}</IonText></IonCol>
               </IonRow>
             ))
 
