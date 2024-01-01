@@ -9,16 +9,14 @@ export interface DailyPrayer {
   month: number;
   year:number;
   monthText: string;
-  islamicDay: number;
-  islamisMonth: string;
-  isJummah: false;
+  islamicDate:string;
   fajr: string;
   sunrise: string;
   dhuhr: string;
   asr: string;
   maghrib: string;
   isha: string;
-  holyday: string;
+ 
 }
 
 export interface DailyPrayerShort{
@@ -96,7 +94,7 @@ class TimeService {
   ishaSeconds = 0;
   currentDayOfWeek= -1;
   currentLocation:Location={id:"",name:"",country:""};
-  currentDay:DailyPrayer={city:"",day:1,month:1,year:2024,monthText:"",islamicDay:1,islamisMonth:"",isJummah:false,fajr:"",sunrise:"",dhuhr:"",asr:"",maghrib:"",isha:"",holyday:""};
+  currentDay:DailyPrayer={city:"",day:1,month:1,year:2024,monthText:"",islamicDate:"",fajr:"",sunrise:"",dhuhr:"",asr:"",maghrib:"",isha:""};
   currentPrayerTime="";
   async calculatePrayertimes() {
     
@@ -174,6 +172,19 @@ class TimeService {
           this.currentDay.asr=response.data.asr;
           this.currentDay.maghrib=response.data.maghrib;
           this.currentDay.isha=response.data.isha;
+        
+          const islamicDate:string=response.data.hijri_date;
+          
+          if(islamicDate.length===9){
+            this.currentDay.islamicDate=`${+islamicDate.substring(0,2)}. ${this.getIslamicMonth(+islamicDate.substring(3,4))} ${+islamicDate.substring(5,9)}`
+            
+          }
+          else{
+            this.currentDay.islamicDate=`${+islamicDate.substring(0,2)} ${this.getIslamicMonth(+islamicDate.substring(3,5))} ${+islamicDate.substring(6,10)}`
+            
+          }
+          
+          
       }
 
 
@@ -188,6 +199,7 @@ class TimeService {
         this.currentDay.asr = timeTable[3];
         this.currentDay.maghrib = timeTable[4];
         this.currentDay.isha = timeTable[5];
+        this.currentDay.islamicDate=response.data.datum[0];
   
       }      
       this.currentDay.city=this.currentLocation.name;
@@ -340,8 +352,25 @@ class TimeService {
   }
 
   getFormattedIslamicDate(){
-    //return `${this.currentDay.islamicDay} ${this.currentDay.islamisMonth}`;
-    return "6 Džumade-l-uhra 1445";
+    return this.currentDay.islamicDate;
+    
+  }
+
+  getIslamicMonth(month:number):string
+  {
+    if (month === 1) return "Muharem";
+    else if (month === 2) return "Safer";
+    else if (month === 3) return "Rebi-ul-evel";
+    else if (month === 4) return "Rebi-ul-ahir";
+    else if (month === 5) return "Džumade-ul-ula";
+    else if (month === 6) return "Džumade-ul-uhra";
+    else if (month === 7) return "Redžeb";
+    else if (month === 8) return "Saban";
+    else if (month === 9) return "Ramazan";
+    else if (month === 10) return "Ševal";
+    else if (month === 11) return "Zul-kade";
+    else if (month === 12) return "Zul-hidždže";
+    else return "";
   }
 
   getRemainingtime(){
