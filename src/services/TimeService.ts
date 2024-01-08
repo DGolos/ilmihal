@@ -158,14 +158,14 @@ class TimeService {
             this.currentLocation.id=cityMap.get(this.currentLocation.id)!;
             storageService.set("locationData",this.currentLocation);
           }
-
-          const response = await axios.get(`https://api.bonnetid.no/prayertimes/${this.currentLocation.id}/${currentDate.getFullYear()}/${currentDate.getMonth()+1}/${currentDate.getDay()}`,
+          
+          const response = await axios.get(`https://api.bonnetid.no/prayertimes/${this.currentLocation.id}/${currentDate.getFullYear()}/${currentDate.getMonth()+1}/${currentDate.getDate()}`,
             {
               headers: {
                   'Api-Token': '213c2f4d-792e-4ccc-85aa-b3eef7aa1c20'
               }
           });
-          
+          console.log("Before");
           this.currentDay.fajr=response.data.fajr;
           this.currentDay.sunrise=response.data.shuruq_sunrise;
           this.currentDay.dhuhr=response.data.duhr;
