@@ -844,19 +844,15 @@
     },
     {
         "name":"label-book1-lesson14_section1-paragraph1",
-        "value":"Početak namaskog vremena oglašava se učenjem ezana."
+        "value":"Početak namaskog vremena oglašava se učenjem ezana. Čovjek koji uči ezan zove se mujezin. Ezan uče samo muškarci. Ezan se uči na munari, a može i na nekom drugom mjestu. On se uči usporeno i glasno."
     },
     {
         "name":"label-book1-lesson14_section1-paragraph2",
-        "value":"Čovjek koji uči ezan zove se mujezin. Ezan uče samo muškarci. Ezan se uči na munari, a može i na nekom drugom mjestu. On se uči usporeno i glasno."
+        "value":"U sabahskog ezana poslije »Hajje alel-felah« uči se: Essalatu hajrun minen-nevm (2 puta)"
     },
     {
         "name":"label-book1-lesson14_section1-paragraph3",
-        "value":"U sabahskog ezana poslije »Hajje alel-felah« uči se:"
-    },
-    {
-        "name":"label-book1-lesson14_section1-paragraph4",
-        "value":"Essalatu hajrun minen-nevm (2 puta)"
+        "value":"Dova nakom ezana: Allahhumme rabbe hazihid-da'vetit-tammeti vessaletil -kaimeti ati Muhammedenil-vessilete ve fadilete ve bashu mekamen mahmudenil-lezi ve'atehu. Inneke la tuhliful mi'ad"
     },
     {
         "name":"label-book1-lesson14_section2-paragraph1",
@@ -1492,15 +1488,15 @@
     },
     {
         "name":"label-prayer-qijam-description-first-rakah",
-        "value":"Na stajanju učimo: subhaneke, euzu i bismillu, fatihu i jednu suru."
+        "value":"Na stajanju učimo: Subhaneke, Euzu i Bismillu, Fatihu i jednu suru."
     },
     {
         "name":"label-prayer-qijam-description-second-rakah",
-        "value":"Na stajanju učimo: fatihu i jednu suru."
+        "value":"Na stajanju učimo: Bismillu, Fatihu i jednu suru."
     },
     {
         "name":"label-prayer-qijam-description-third-rakah",
-        "value":"Na stajanju učimo: fatihu."
+        "value":"Na stajanju učimo: Bismillu i Fatihu."
     },
 
     {
