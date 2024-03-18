@@ -165,7 +165,7 @@ class TimeService {
                   'Api-Token': '213c2f4d-792e-4ccc-85aa-b3eef7aa1c20'
               }
           });
-          console.log("Before");
+          
           this.currentDay.fajr=response.data.fajr;
           this.currentDay.sunrise=response.data.shuruq_sunrise;
           this.currentDay.dhuhr=response.data.duhr;
@@ -175,14 +175,10 @@ class TimeService {
         
           const islamicDate:string=response.data.hijri_date;
           
-          if(islamicDate.length===9){
-            this.currentDay.islamicDate=`${+islamicDate.substring(0,2)}. ${this.getIslamicMonth(+islamicDate.substring(3,4))} ${+islamicDate.substring(5,9)}`
-            
-          }
-          else{
-            this.currentDay.islamicDate=`${+islamicDate.substring(0,2)} ${this.getIslamicMonth(+islamicDate.substring(3,5))} ${+islamicDate.substring(6,10)}`
-            
-          }
+          const dateParts=islamicDate.split('-');
+          this.currentDay.islamicDate=`${dateParts[0]} ${this.getIslamicMonth(+dateParts[1])} ${dateParts[2]}`;
+          
+          
           
           
       }

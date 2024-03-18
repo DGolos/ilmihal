@@ -38,7 +38,7 @@ const QijamWatch: React.FC<QijamProps> = ({ rakah,type,prayer,color,stepValue,ma
     if(rakah==="2") setShowSunnah(true);
     if(rakah==="3"){
       if(type==="fardh") setShowFardh(true);
-      if(type==="witr") setShowFull(true);
+      if(type==="witr") setShowSunnah(true);
       if(type==="sunnah"){
         if(prayer==="3" || prayer==="5") setShowFull(true);
         else setShowSunnah(true);

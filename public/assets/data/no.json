@@ -842,19 +842,15 @@
     },
     {
         "name":"label-book1-lesson14_section1-paragraph1",
-        "value":"Bønnetidens begynnelse kunngjøres med bønnekall (ezan)."
+        "value":"Bønnetidens begynnelse kunngjøres med bønnekall (ezan). Den som resiterer bønnekallet (ezan) kalles muezzin. Ezan resiteres kun av menn. Ezan resiteres fra en minaret men kan resiteres fra et annet sted også. Den ytres sakte og høyt."
     },
     {
         "name":"label-book1-lesson14_section1-paragraph2",
-        "value":"Den som resiterer bønnekallet (ezan) kalles muezzin. Ezan resiteres kun av menn. Ezan resiteres fra en minaret men kan resiteres fra et annet sted også. Den ytres sakte og høyt."
+        "value":"Etter ordene »Hajje alel-felah« legges det i morgenbønnens ezan følgende: Essalatu hajrun minen-nevm, Essalatu hajrun minen-nevm(to ganger)."
     },
     {
         "name":"label-book1-lesson14_section1-paragraph3",
-        "value":"Etter ordene »Hajje alel-felah« legges det i morgenbønnens ezan følgende:"
-    },
-    {
-        "name":"label-book1-lesson14_section1-paragraph4",
-        "value":"Essalatu hajrun minen-nevm, Essalatu hajrun minen-nevm(to ganger)."
+        "value":"Dua etter bønnekall: Allahhumme rabbe hazihid-da'vetit-tammeti vessaletil -kaimeti ati Muhammedenil-vessilete ve fadilete ve bashu mekamen mahmudenil-lezi ve'atehu. Inneke la tuhliful mi'ad"
     },
     {
         "name":"label-book1-lesson14_section2-paragraph1",
@@ -1480,15 +1476,15 @@
     },
     {
         "name":"label-prayer-qijam-description-first-rakah",
-        "value":"Når vi står leser vi subhaneke, euzu og bismilla, Fatiha i og en surah."
+        "value":"Når vi står leser vi Subhaneke, Euza og Bismilla, Fatiha i og en surah."
     },
     {
         "name":"label-prayer-qijam-description-second-rakah",
-        "value":"Når vi står leser vi Fatiha i og en surah."
+        "value":"Når vi står leser vi Bismilla, Fatiha i og en surah."
     },
     {
         "name":"label-prayer-qijam-description-third-rakah",
-        "value":"Når vi står leser vi Fatiha."
+        "value":"Når vi står leser vi Bismilla og Fatiha."
     },
 
     {

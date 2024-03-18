@@ -243,7 +243,7 @@ export const IshaPrayerDetailsPage: React.FC<
               <>
                 <ThirdRakah
                   type={match.params.type}
-                  showSubhaneke={true}
+                  showSubhaneke={false}
                   color="purple"
                   prayerLength={prayerLength}
                   currentAudio={currentAudio} togglePlayPause={toglePlayPause}
