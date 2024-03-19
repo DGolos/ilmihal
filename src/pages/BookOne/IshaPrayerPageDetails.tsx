@@ -234,7 +234,7 @@ export const IshaPrayerDetailsPage: React.FC<
               first={match.params.type !== "sunsunnah" ? true : false}
               color="purple"
               prayerLength={prayerLength}
-              salawat={match.params.type === "sunnah" || match.params.type === "witr"? true : false}
+              salawat={match.params.type === "sunnah"? true : false}
               currentAudio={currentAudio} 
               togglePlayPause={toglePlayPause}
             />

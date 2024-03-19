@@ -255,7 +255,7 @@ export const IshaPrayerWatchPage: React.FC<
               color="purple"
               stepValue={15}
               maxValue={prayerLength}
-              salawat={match.params.type === "sunnah" || match.params.type === "witr" ? true : false}
+              salawat={match.params.type === "sunnah"? true : false}
               isMan={isMan}
             />
             {match.params.type === "sunsunnah" && (
